@@ -1,0 +1,4 @@
+[
+    {"task": "Design a crankshaft", "params": {"stroke":86,"bore":52}, "expected": "Ø35mm main journal, etc."},
+    {"task": "Fault detection procedure for ABS light"}
+  ]

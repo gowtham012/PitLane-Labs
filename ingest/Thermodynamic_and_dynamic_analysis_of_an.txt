@@ -1,0 +1,1374 @@
+12th IFToMM World Congress, Besançon (France), June18-21, 2007 
+ 
+ 
+ 
+ 
+    
+                      CK-xxx 
+ 
+ 
+1
+Thermodynamic and dynamic analysis of an internal combustion engine with a 
+noncircular-gear based modified crank-slider mechanism 
+ 
+ 
+H. F. Quintero* 
+C. A. Romero† 
+L. V. Vanegas Useche‡ 
+ 
+Associate Professor 
+Titular Professor 
+Associate Professor 
+Universidad Tecnológica de Pereira 
+Pereira, Colombia
+ 
+Abstract—This paper presents a model for the calculation 
+of in-cylinder parameters in an internal combustion engine with 
+a noncircular gear based modified crank-slider mechanism. 
+With the introduction of noncircular gears, the instantaneous 
+velocity of the piston can be accommodated to improve 
+combustion performance. The displacement law of the 
+noncircular gears is obtained using a B-spline curve, so that the 
+appropriate instantaneous velocity of the piston is obtained. The 
+gas pressure and temperature required for the determination of 
+mechanical and thermal loads on engine components are found. 
+The influence of the noncircular gears on the loads that act on 
+all the components of the crank-slider mechanism, as well as the 
+theoretical output torque for a given geometrical structure and 
+inertial properties, are presented. To obtain the pressure and 
+temperature inside the cylinder, under different operating 
+parameters, such as air fuel ratio and spark angle advance, a 
+Zero dimensional model is applied. The proposed mechanism 
+enables the optimisation of the combustion cycle; therefore, 
+greater power may be achieved. 
+*†‡ 
+ 
+Keywords: noncircular gears, internal combustion engine 
+ 
+I. Introduction 
+Non-uniform rotation mechanisms are required in many 
+applications. Noncircular gear wheels can be used to 
+produce rotary motion with variable transmission ratio 
+and, compared to linkages, provide a number of design 
+advantages such as accurate transmission, ease of 
+balancing, and compact size.  Furthermore, they are very 
+versatile because of the great flexibility to obtain a desired 
+transmission function. 
+Research on noncircular gears has been very limited.  
+Most of the research on these tooth bodies have 
+concentrated on (i) the development of pitch curves for 
+different applications or to satisfy specific requirements 
+[1-9], as reviewed in the next paragraph; (ii) the 
+development of new tooth profiles; and (iii) the derivation 
+of mathematical models to describe and manufacture teeth 
+of noncircular gears and their cutters.  Reviews on 
+noncircular gears have been presented in previous works 
+[9,10]. 
+Classical applications of noncircular gears are found in 
+automatic machinery, packaging machines, quick return 
+                                                 
+*E-mail: hquinte@utp.edu.co 
+†E-mail: cromero@utp.edu.co 
+‡E-mail: lvanegas@utp.edu.co 
+mechanisms, pumps, flow meters, and instruments.  New 
+applications have also been reported. Doege et. al. [1] 
+present a new press concept using noncircular gears in the 
+driving mechanism. Dooner [2] and Yao and Yan [3] 
+propose using noncircular gears to reduce any undesired 
+torque and speed fluctuations in rotating shafts.  Fam et. 
+al. [4] design a mechanical device consisting of a 
+noncircular gear pair that acts as a variable-ratio 
+transmission between an electro-mechanical actuator and 
+a flexible structure. Han et. al. [5] design a noncircular 
+front gear to maximize the mechanical power output of a 
+driving system for a conventional bicycle. Dooner [6] uses 
+a noncircular gear pair to achieve a two degree of freedom 
+function generator. Librovich [7] uses noncircular gears in 
+a torque transmission mechanism of a rotary vane engine. 
+Voelkner [8] explains the advantages of using these tooth 
+bodies in press-driving mechanisms in the metal-forming 
+field. Vanegas Useche et. al. [9] develop a noncircular 
+gear pair for minimising shaft accelerations of the driven 
+gear. 
+This paper proposes a novel modified crank-slider 
+mechanism of an internal combustion engine, by 
+introducing a noncircular gear pair. The noncircular tooth 
+bodies enable to adjust the piston speed throughout the 
+entire cycle, so that the performance of the engine can be 
+improved. 
+In spark ignition engines, the improvement of 
+performance is constrained by the non-variability of the 
+piston velocity law in accordance with the needs of the 
+combustion process. With the introduction of a 
+noncircular gear pair in the engine mechanism, the 
+duration of the portion during which the non burned 
+charge is subjected to high pressures and temperatures can 
+be diminished. Thus, the knock tendency of the engine 
+would be reduced. This modification also reduces the 
+rejected heat. 
+Since, to the knowledge of the authors, a mathematical 
+model for piston velocity that optimizes the combustion 
+process has not been developed, this work proposes a 
+design for the displacement law of the noncircular gear set 
+based on B-spline curves. These curves provide a 
+powerful tool for designing displacement laws, because 
+they give the designer a higher-level interface and the 
+curve design is thus more intuitive. 
+The primary input in mechanical design analyses is the 
+data of the dynamic pressure of the cylinder. In the engine 
+12th IFToMM World Congress, Besançon (France), June18-21, 2007 
+ 
+ 
+ 
+ 
+    
+                      CK-xxx 
+ 
+ 
+2
+design process, a predictive model for the combustion 
+process has to be selected. For simplicity, a Zero-
+dimensional or single zone model has been chosen in this 
+work, in accordance with the approach found in Zhelezko 
+[11]. With a Zero-dimensional model, the cylinder charge 
+is assumed to be homogeneous in both temperature and 
+composition. 
+Models for in-cylinder thermodynamics and dynamics 
+of the crank-slider mechanism are integrated in this work 
+to configure a concise methodology for an easy simulation 
+of an internal combustion engine. Based on this 
+methodology, a computer program to analyze pressure, 
+temperature, heat release, forces, and torques is 
+developed. The program is written in the MathematicaTM 
+software language. Results for an example case are 
+presented, with an angular resolution of 0,25 degree of 
+crank angle (2880 data points per engine cycle) and under 
+steady operation conditions.  Finally, a noncircular gear 
+pair is designed in order to optimise the operation of the 
+engine. 
+II. 
+Thermodynamic modelling 
+The first law of thermodynamics for engine cylinder 
+systems states that 
+ 
+dUs = dQ + dW                            (1) 
+where 
+dW = pdV 
+dUs = mcv dT 
+dT = d(pV)/mR 
+R/cv = k – 1                               (2) 
+ 
+where dUs is the change in internal energy, dQ is the heat 
+added to the system, dW is the mechanical work done by 
+the system, m is the working charge mass, cv is the 
+constant volume specific heat, p is the pressure, V is 
+volume, T is temperature, k is adiabatic constant, and R is 
+the gas constant. 
+Using the ideal gas law (neglecting the change in gas 
+constant 
+R 
+and 
+gas 
+leakages), 
+and 
+after 
+some 
+transformations, the following expression for the heat 
+release is obtained: 
+ 
+1
+d
+d
+d
+d
+1
+1
+hr
+rech
+k
+Q
+p V
+V p
+Q
+k
+k
+=
++
++
+−
+−
+                  (3) 
+ 
+This is the traditional equation for the evaluation of the 
+heat release, which can be inferred from Gatowski et al. 
+[12] and Brunt and Platts [13]. 
+For the average overall heat transfer from the gas to the 
+cylinder coolant, convection type heat transfer equations 
+are used: 
+ 
+(
+)
+d
+rech
+g
+g
+cool
+Q
+Ah
+T
+T
+=
+−
+                   (4) 
+ 
+where:  
+dQrech is the overall rejected heat transfer (W/m2)  
+A is the cylinder area (m2)  
+Tg is the effective gas temperature, typically 800 °C  
+Tcool is the coolant temperature, typically 80 °C  
+hg is the film coefficient or heat transfer coefficient (W/ 
+m2 ºC). 
+The heat transfer coefficient depends on the engine 
+geometric parameters, such as the exposed cylinder area 
+and bore, as well as the piston speed. The coefficient 
+varies with location and piston position. In this research, 
+to model the heat exchange between gas and cylinder 
+wall, the Woschni equation has been used [14]. In this 
+model, applied to the internal combustion engine, the 
+equation has the form: 
+ 
+2
+0.2
+0.8
+0.53
+0.8
+1,2 10
+g
+g
+h
+D
+p
+T
+w
+−
+−
+−
+=
+⋅
+⋅
+⋅
+⋅
+⋅
+         (5)  
+where 
+ 
+(
+)
+1
+2
+2
+0
+(
+)
+T
+CA
+w
+m
+w
+u
+CA
+CA
+V
+T
+w
+C
+c
+C
+c
+C
+p
+p
+p
+V
+
+
+⋅
+=
+⋅
++
+⋅
++
+⋅
+−
+
+
+⋅
+
+
+   (6) 
+ 
+D is the cylinder diameter in m 
+p is the instantaneous pressure in N/m2 
+Tg is the instantaneous temperature of the gas in K 
+cm is the mean velocity of the piston in m/s 
+cu is specific heat of the gas in J/ kg K 
+VT is the displaced volume in m3 
+TCA is the charge temperature at intake valve closing in K 
+pCA is the charge pressure at intake valve closing in N/m2 
+VCA is the charge volume at intake valve closing in m3 
+p0 is the instantaneous pressure for motored engine in 
+N/m2. 
+The constants Cw1, Cw2, and C2 take the values given in 
+Tables 1 and 2. 
+ 
+Table 1.  Coefficients Cw1 and Cw2 (Source: [15]) 
+ 
+Cw1 
+Cw2 
+Gas exchange process 
+6,18 
+0,417 
+Compression-expansion 
+process 
+2,28 
+0,308 
+ 
+Table 2.  Coefficient C2 (Source: [15]) 
+ 
+C2 
+Open chamber 
+3,24 × 10-3 
+Divided chamber 
+6,22 × 10-3 
+ 
+     
+The combustion process is dealt with in accordance with 
+the approach in Zhelezko [11].  
+The combustion process starts with the spark ignition 
+(neglecting the retarding period of the combustion 
+process), point y in Fig. 1. During this phase, the pressure 
+increases as a result of two factors: the geometrical 
+compression and the heat release corresponding to the 
+fraction of the mass burned [15]. 
+12th IFToMM World Congress, Besançon (France), June18-21, 2007 
+ 
+ 
+ 
+ 
+    
+                      CK-xxx 
+ 
+ 
+3
+ 
+Fig. 1.  Indicator diagram, p-ϕ. 
+  
+The combustion heat release can be expressed in terms 
+of the lower heating value of the fuel, Hi, and the fuel 
+burning rate; the lower heating value can be found in fuel 
+tables. The burning fuel rate is calculated as the product of 
+induced fuel mass, mf, and mass fraction burned. The 
+induced fuel mass can be calculated from the specific fuel 
+consumption and maximum power at a given speed, while 
+the mass fraction burned is estimated by a Wiebe function 
+[11]: 
+0
+z
+1 exp
+6,908
+x
+
+
+
+
+ϕ −ϕ
+= −
+−
+
+
+
+
+ϕ
+
+
+
+
+
+
+                    (7) 
+ 
+In expressions (1) and (6), it is important to note that 
+since the gas pressure in the cylinder is dependent on the 
+piston displacement law, the heat release, and the heat 
+losses, any variation in the piston displacement law affects 
+the in-cylinder pressure and heat losses, which in turn 
+affect the output performance of the engine.  Therefore, a 
+manner in which the piston displacement law can be 
+modified is needed. 
+III. Noncircular gear based modified crank slider 
+mechanism 
+Nowadays big efforts are devoted to the improvement of 
+the combustion process of internal combustion engines.  
+Although combustion models have been refined, few 
+movements have been made towards changing the piston 
+kinematics.  In order to improve the performance of the 
+internal combustion engine, a novel concept is explored in 
+this work: the introduction of noncircular gears in the 
+transmission of the engine. Figure 2 presents the 
+schematic representation of the proposed modified crank-
+slider mechanism that includes a noncircular gear pair.  
+The driven gear rotates with the crankshaft, and the 
+driving gear rotates with the power shaft. With the 
+proposed modification, the curve of the piston speed can 
+be defined as a function of the angle of rotation of the 
+crankshaft, and it is not limited to the modification of the 
+dimensions of the crank-slider mechanism. 
+  
+crank slider
+mechanism
+driven gear
+driving gear
+ 
+ 
+Fig. 2. Modified crank slider mechanism 
+ 
+Following Lagrangian analysis, as in [16], the vector of 
+generalized coordinates of the mechanism is q = {ϕ, β, 
+sp}T, where ϕ, β and sp are the angular position of the 
+crank, the angular position of the connecting rod, and the 
+position of the piston respectively. These and other 
+variables are shown in Figure 3. Vector q gives the 
+configurations of the mechanism. The constraint equation 
+vector, f(q) = 0, is the set of equations that impose the 
+geometrical constraints of the linkage mechanism:   
+ 
+                   
+1
+p
+2
+: cos
+cos
+0
+: sin
+sin 
+0
+f
+r
+L
+s
+f
+r
+L
+ϕ +
+β −
+=
+ϕ −
+β =
+                   (8) 
+ 
+ϕ
+β
+r
+L
+ω1
+s
+p
+p
+F
+G
+T
+m
+ 
+ 
+Fig. 3. Kinematics of a crank-slider mechanism 
+ 
+The vector q is usually subdivided into an independent 
+coordinates vector {qi} = {ϕ} and a dependent coordinates 
+vector {qd} = {β, sp}T.  
+The velocity analysis can be carried out after 
+differentiating the system of constraint equations with 
+respect to time:  
+ 
+                    d
+( , )
+0
+d
+t
+q
+t
+∂
+=
+⋅
+=
+∂
+f
+f q
+q
+&
+                      (9) 
+ 
+The Jacobian matrix is the partial derivation of the 
+constraint equation with respect to the generalized 
+coordinates vector, 
+/
+q
+i
+j
+J
+f
+q
+= ∂
+∂
+: 
+ 
+                 
+sin
+sin
+1
+cos
+cos
+0
+q
+r
+L
+J
+r
+L
+−
+ϕ
+−
+β
+−
+
+
+= 
+
+ϕ
+−
+β
+
+
+              (10) 
+12th IFToMM World Congress, Besançon (France), June18-21, 2007 
+ 
+ 
+ 
+ 
+    
+                      CK-xxx 
+ 
+ 
+4
+The angular velocities of crank link and connecting rod 
+(Fig. 2) are obtained by expressing the generalized 
+velocity vector in terms of two components: a generalized 
+dependent vector, { }
+d
+q&
+, and a generalized independent 
+vector, { }
+iq&
+: 
+                 
+  
+{
+}
+{ }
+{
+}
+d
+q,d
+q,i
+q,d
+d
+q,i
+i
+i
+1
+, d
+, i
+1
+1
+2
+1
+p
+|
+|
+0
+sin
+1
+sin
+cos
+0
+cos
+d
+q
+q
+q
+J
+J
+J
+q
+J
+q
+q
+q
+J
+J
+L
+r
+v
+L
+r
+−
+−
+
+
+
+
+
+
+
+
+=
++
+=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+= −
+⋅
+⋅ω
+
+
+
+
+ω
+
+
+−
+β
+−
+−
+ϕ
+
+
+
+
+
+= −
+⋅
+⋅ω
+
+
+
+
+
+
+−
+β
+ϕ
+
+
+
+
+
+
+
+
+&
+&
+&
+&
+&
+    (11) 
+ 
+Differentiation of Equation (11) with respect to time 
+allows finding the angular accelerations of both links: 
+ 
+{
+} {
+}
+{
+}
+{ }
+{ }
+q,d
+d
+d
+, d
+d
+i
+, i
+i
+1
+2
+p
+2
+2
+2
+1
+3
+2
+0
+sin
+1
+cos
+0
+cos
+0
+cos
+sin
+0
+sin
+T
+q
+T
+q
+J
+q
+q
+J
+q
+q
+J
+q
+L
+a
+L
+L
+r
+L
+r
+−
+
+
+
+
++
+⋅
+⋅
+
+
+
+
+
+
++
+⋅
+=
+
+
+α
+
+
+−
+β
+−
+
+
+
+= −
+⋅
+
+
+
+
+−
+β
+
+
+
+
+
+
+
+
+ω
+−ω
+β
+−
+ϕ
+
+
+
+
+
+
++
+⋅ω
+
+
+
+
+
+
+
+
+ω
+ω
+β
+−
+ϕ
+
+
+
+
+
+
+
+&
+&&
+&
+&
+&
+&
+&
+          (12) 
+IV. Displacement law design 
+In this section, a noncircular gear set is designed. The 
+gear pair is positioned between the crankshaft and the new 
+output shaft with the aim of increasing the piston velocity 
+before and after the top dead centre. This has the twofold 
+objective of reducing the area of convective heat transfer 
+during the main combustion period and enabling the 
+compression ratio to increase beyond the limits imposed 
+by the knocking phenomena to conventional engines.  
+ 
+1
+0
+2
+3
+4
+5
+6
+3
+6
+5
+4
+0
+2
+1
+ϕ1 [rad]
+ϕ2 [rad]
+ 
+ 
+Fig. 4.  Displacement law of the noncircular gear pair 
+ 
+Figure 4 shows a displacement law of noncircular gears, 
+where ϕ1 and ϕ2 are the angles of rotation of the driving 
+and driven gear wheels, respectively.  This work proposes 
+the design for the displacement law of the noncircular 
+gear set based on B-spline curves. The objective of the 
+curve designed is to obtain a higher piston velocity around 
+the top dead centre. 
+Figure 5 presents a comparison of the piston 
+displacement curves of the conventional crank-slider 
+mechanism and the mechanism proposed in this paper.  In 
+the traditional mechanism (dashed line), the angular speed 
+of the crank is considered constant and equal to that of the 
+crankshaft. This produces an Sp-ϕ1 curve of sinusoidal 
+form.  The coordinate ϕ1 represents the angular position of 
+the crankshaft. 
+ 
+1
+0
+2
+3
+4
+5
+6 ϕ
+1 [rad]
+sp [m]
+0
+0,1
+0,2
+0,3
+0,4
+0,5
+modified
+mechanism
+conventional
+mechanism
+ 
+ 
+Fig. 5. Piston displacement 
+ 
+In the proposed mechanism with noncircular gears, it is 
+considered that the angular speed of the crankshaft is 
+constant. Based on this, the angular velocity of the crank 
+would be given by the product of the angular velocity of 
+the crankshaft and the gear ratio. In this case, the 
+coordinate ϕ1 represents the angular position of the 
+driving gear. 
+ 
+-50
+-25
+25
+50
+1
+0
+2
+3
+4
+5
+6 ϕ
+1 [rad]
+vp [m/s]
+0
+modified
+mechanism
+conventional 
+mechanism
+ 
+ 
+Fig. 6. Piston speed 
+V. 
+Dynamic loads 
+The primary input needed for mechanical design 
+analyses is the dynamic cylinder pressure data. In the 
+thermodynamic model, the combustion process is 
+considered to occur in the same displacement interval of 
+the piston for both the conventional and modified 
+mechanisms.  
+12th IFToMM World Congress, Besançon (France), June18-21, 2007 
+ 
+ 
+ 
+ 
+    
+                      CK-xxx 
+ 
+ 
+5
+The torque of the engine is obtained from the study of 
+the power in the system. Neglecting the friction forces, the 
+forces that act in the mechanism are the inertial force 
+ 
+ 
+0
+G
+i
+i
+m
+= −∑
+F
+a
+ 
+(13) 
+ 
+and the force due to the pressure of the gas, Fg; the torque 
+that acts in the mechanism is the torque in the crankshaft, 
+Tm.  Therefore: 
+ 
+ 
+c
+g
+p
+m
+1
+d
+d
+E
+T
+t = −
+⋅
++
+ω
+F
+v
+ 
+(14) 
+ 
+On the one hand, the total kinetic energy of the 
+conventional mechanism is the sum of the kinetic energy 
+of the crank, the connecting rod, and the piston: 
+ 
+2
+2
+2
+2
+c
+01 1
+2
+2
+2 2
+p p
+1
+1
+1
+1
+2
+2
+2
+2
+E
+J
+J
+m v
+m v
+
+
+=
+ω +
+ω +
++
+
+
+
+
+     (15) 
+ 
+The derivative of the kinetic energy is:  
+ 
+(
+)
+c
+2
+2
+2
+2 G2
+G2
+p p
+p
+d
+d
+E
+J
+m
+m
+t =
+ω α +
+⋅
++
+⋅
+v
+a
+v
+a       (16) 
+ 
+On the other hand, assuming that the crankshaft and, 
+consequently, the driving gear rotate at constant speed, the 
+total kinetic energy of the proposed mechanism is: 
+ 
+2
+2
+c
+dr
+dr
+driven
+driven
+2
+2
+2
+2
+01 1
+2
+2
+2 2
+p p
+1
+1
+2
+2
+1
+1
+1
+1
+2
+2
+2
+2
+E
+J
+J
+J
+J
+m v
+m v
+=
+ω
++
+ω
+
+
+ω +
+ω +
++
+
+
+
+
+     (17) 
+ 
+The derivative of the kinetic energy is:  
+ 
+(
+)
+(
+)
+c
+driven
+01
+1 1
+2
+2
+2
+2 G2
+G2
+p p
+p
+d
+d
+E
+J
+J
+t
+J
+m
+m
+=
++
+ω α +
+ω α +
+⋅
++
+⋅
+v
+a
+v
+a
+      (18) 
+ 
+The external force that acts in the mechanism is the 
+force produced by the pressure of the gas, Fg; the torque 
+that acts in the mechanism is the torque in the crankshaft, 
+Tm.  Hence: 
+ 
+c
+g
+p
+m
+dr
+d
+d
+E
+T
+t = −
+⋅
++
+ω
+F
+v
+                      (19) 
+ 
+ 
+ 
+ 
+VI. Results 
+Figure 7 shows the curves of the torque in the crankshaft 
+against ϕ1 for both the conventional and the modified 
+mechanism. 
+ 
+0,5
+0
+1
+1,5
+500
+0
+1000
+ϕ
+1 [rad]
+Tm [Nm]
+modified
+mechanism
+conventional
+mechanism
+ 
+ 
+Fig. 7.  Torque in the engine for both conventional and modified 
+mechanisms 
+ 
+Considering an engine of 8 cylinders, the energy 
+available in a thermodynamic cycle is 482 N m, for the 
+conventional engine, and 498 N m, for the modified 
+engine. Therefore, there is an increase of the energy 
+available in a cycle. 
+The curves for the pressure against ϕ1 for both 
+configurations are shown in Figure 8. The pressure in the 
+modified mechanism configuration is slightly higher than 
+that in the conventional configuration. 
+ 
+2
+0
+4
+6
+8
+10
+12
+1
+0
+2
+3
+4
+5
+6
+7
+ϕ1 [rad]
+p [MPa]
+modified
+mechanism
+conventional
+mechanism
+ 
+ 
+Fig. 8. Pressure 
+ 
+Figure 9 presents the heat flux due to losses by 
+convection at the engine. As may be inferred from Figure 
+9, the magnitude of heat transferred to the combustion 
+chamber walls has the biggest changes during combustion 
+and expansion. With the modified mechanism, the 
+behaviour of the heat flux has the same sharp rise as that 
+of the conventional mechanism, but the maximum is 
+followed by a more rapid decrease, resulting in a lower 
+amount of heat loss. 
+ 
+12th IFToMM World Congress, Besançon (France), June18-21, 2007 
+ 
+ 
+ 
+ 
+    
+                      CK-xxx 
+ 
+ 
+6
+6
+7
+9
+8
+5
+50
+0
+100
+150
+200
+250
+ϕ1 [rad]
+Q [kW]
+conventional
+mechanism
+modified
+mechanism
+ 
+ 
+Fig 9  Heat lost by convection 
+ 
+Even though the amount of energy saved in this case is 
+not impressive, an optimized design can be attempted to 
+reduce further heat losses. 
+In Figure 10, the noncircular gears designed are 
+illustrated. The number of teeth of each gear is 40, and the 
+pressure angle of the rack cutter is 30º. 
+ 
+-0.5
+driving
+gear wheel
+driven 
+gear wheel
+ 
+ 
+Fig. 10. Gear wheels 
+VII. Conclusion 
+This paper proposed a modified crank-slider mechanism 
+of an internal combustion engine, through the introduction 
+of a noncircular gear pair; the driven gear rotates with the 
+crankshaft and the driving gear is coupled to the output 
+power shaft. With these gears, the piston speed can be 
+adjusted to obtain the desired performance of the engine.  
+The thermodynamic and kinematic analyses of the 
+proposed mechanism were presented. A noncircular gear 
+pair was designed using B-spline curves, based on the 
+optimisation of engine performance.  The results of the 
+example presented indicate that the performance of the 
+engine can be improved with the proposed mechanism. 
+VIII. 
+Acknowledgements 
+The authors would like to thank the support of the 
+Universidad Tecnológica de Pereira, at which H. F. 
+Quintero and L. V. Vanegas are Associate Professors and 
+C. A. Romero is Titular Professor. 
+References 
+[1] 
+Doege, E., Meinen, J., Nuemaier, T., and Schaprian, M.  
+Numerical design of a new forging press drive incorporating 
+noncircular gears.  Proc of the Inst. of Mech. Eng, J. of 
+Engineering Manufacture Part B, 215(4): 465-471, 2001. 
+[2] 
+Dooner, D. B.  Use of noncircular gears to reduce torque and 
+speed fluctuations in rotating shafts.  Journal of Mechanical 
+Design, 119(2): 299–306, 1997. 
+[3] 
+Yao, Y. A. and Yan, H. S.  A new method for torque balancing of 
+planar linkages using non-circular gears.  Proceedings of the 
+Institution of Mechanical Engineers, 217(5): 495-502, 2003. 
+[4] 
+Fam, Y. L., Sang, C. M., and Nan, J. J.  Concurrent mechanism 
+and control design for the slewing of flexible space structures.  
+Journal of Mechanical Design, 116(3): 944-951, 1994. 
+[5] 
+Han, P. S., Thomlinson, M. A., and Tu, Y. S.  Kinematics and 
+kinetics of a noncircular bicycle drive system.  Mechanisms and 
+Machine Theory, 26(4): 375–388, 1991. 
+[6] 
+Dooner, D. B.  A geared 2 DOF mechanical function generator.  
+Journal of Mechanical Design, 121(3): 65–70, 1997. 
+[7] 
+Librovich, B. V.  Dynamics of rotary vane engine.  Journal of 
+Mechanical Design, 125(3): 498–508, 2003. 
+[8] 
+Voelkner, W.  Present and future developments of metal forming: 
+selected examples.  Journal of Materials Processing Technology, 
+106: 236–242, 2000. 
+[9] 
+Vanegas Useche, L. V., Abdel Wahab, M. M., and Parker, G. A.  
+Design of noncircular gars to minimise shaft accelerations.  8th 
+Biennial ASME Conference on Engineering Systems Design and 
+Analysis, Proceedings of ESDA2006, ASME paper ESDA2006-
+95560, Turin, Italy, July 2006. 
+[10] Quintero, H. F., Cardona, S., and Jordi, L.  Engranajes no 
+circulares: aplicaciones, diseño y manufactura.  Scientia et 
+Technica, 24: 133-138, 2004. 
+[11] Zhelezko, B. A.  Construction and design fundamentals for 
+automobiles and tractors engines, Superior School Minsk, 1988. 
+[12] Gatowski, A., Balles, E. N., Chun, K. M., Nelson, F. E., Ekchian, 
+J. A., and Heywood, J. B.  Heat release analysis of engine pressure 
+data.  SAE Technical Paper 841359, 1984. 
+[13] Brunt, M. and Platts, K.  Calculation of heat release in direct 
+injection diesel engines.  SAE Paper 1999-01-0187, 1999. 
+[14] Woschni, G. A.  A universally applicable equation for the 
+instantaneous heat transfer coefficient in the internal combustion 
+engine.  SAE Paper, No. 670931, 1967. 
+[15] Romero, C. A. and Quintero, H. F.  Prediction of in-cylinder 
+pressure, temperature, and loads related to the crank slider 
+mechanism of I. C. engines: a computational model.  SAE 
+Congress, Detroit, 2003. 
+[16] Cardona, S. and Clos, D. Teoría de máquinas, Ediciones UPC, 
+Barcelona, España, 2001. 
+ 
+                                                 
+ 
+ 
+ 

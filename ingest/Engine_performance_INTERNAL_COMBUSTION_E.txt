@@ -1,0 +1,648 @@
+Chapter 5
+Engine performance
+INTERNAL COMBUSTION ENGINE
+Huynh Thanh Cong
+htcong@hcmut.edu.vn
+1
+1.
+Engine performance
+2.
+Examples
+Content
+HCMUT
+Huynh Thanh Cong, Ph.D
+IC engine
+2018
+2
+1.
+Engine performance
+2.
+Examples
+Content
+HCMUT
+Huynh Thanh Cong, Ph.D
+IC engine
+2018
+3
+4
+Power and torque
+•
+Engine performance is specified in both in terms of power and engine
+torque - which is more important?
+– Wheel torque = engine torque x gear ratio tells you whether you can 
+climb the hill
+– Gear ratio in transmission typically 3:1 or 4:1 in 1st gear, 1:1 in 
+highest gear; gear ratio in differential typically 3:1
+• Ratio of engine revolutions to wheel revolutions varies from 12:1 in 
+lowest gear to 3:1 in highest gear
+– Power tells you how fast you can climb the hill
+– Torque can be increased by transmission (e.g. 2:1 gear ratio ideally 
+multiplies torque by 2)
+– Power can't be increased by transmission; in fact because of friction 
+and other losses, power will decrease in transmission
+– Power tells how fast you can accelerate or how fast you can climb a 
+hill, but power to torque ratio ~ N tells you what gear ratios you'll need 
+to do the job
+P (in horsepower) º N (revolutions per minute, RPM) x Torque (in foot pounds)
+5252
+Knock - what is it?
+•
+Occurs when the combination of piston compression + “flame 
+compression” increases temperature and pressure of the end gas 
+until a very rapid explosion 
+•
+Engine combustion is always “horse race” between flame 
+propagation (good horse) and knock (bad horse)
+End gas
+(unburned) 
+Burned 
+gas 
+Spark
+plug 
+Direction of flame
+propagation 
+Flame front 
+Knock - movies
+No knock
+Knock
+Videos courtesy Prof. Yuji Ikeda, Kobe University
+Knock - why is it bad?
+•
+Pressure gradients cause enormous stresses on the piston
+•
+As the shocks propagate into the narrow region between the 
+piston and cylinder wall (the “crevice volume”), the shock strength 
+increases, causing locally even more severe damage
+Piston rings
+Crevice volume
+Burned gas behind 
+shock (high P) 
+Large stress
+concentration
+Unburned gas 
+ahead of shock 
+(low P) 
+Torque on
+piston
+http://www.llnl.gov/str/Westbrook.html
+Knock
+•
+Shock formation causes “ringing” of pressure waves back & forth 
+across cylinder - sounds like you're hitting piston with a hammer, 
+which isn't too far from the truth
+Töpfer et al., SAE Paper 2000-01-0252 (2000)
+Start of knocking
+Post-knock 
+ringing
+Normal combustion 
+(no knocking)
+ANALYSIS OF ENGINE PERFORMANCE
+How to achieve higher Performance?
+BC
+L
+TC
+l
+VC
+s
+a
+q
+B
+
+
+2
+/
+1
+2
+2
+2
+sin
+cos
+)
+(
+
+
+
+a
+l
+a
+s
+
+
+
+The cylinder volume at any crank angle is:
+))
+(
+(
+4
+)
+(
+2
+
+
+
+s
+a
+l
+B
+V
+V
+c
+
+
+
+
+Compression ratio:
+c
+d
+c
+TC
+BC
+c
+V
+V
+V
+V
+V
+r
+
+
+
+Cylinder volume when piston at TC (s=l+a) 
+defined as the clearance volume Vc
+Maximum displacement, or swept, volume:
+L
+B
+Vd
+4
+2
+
+
+Engine Geometry
+For most engines B ~ L (square engine)
+BC
+L
+TC
+l
+VC
+s
+a
+q
+B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+/
+1
+2
+2
+sin
+/
+cos
+1
+sin
+2
+
+
+
+
+a
+l
+S
+S
+p
+p
+Average and instantaneous piston speeds are:
+dt
+ds
+S
+LN
+S
+p
+p
+
+2
+Where N is the rotational speed of the crank shaft 
+in units revolutions per second
+
+
+2
+/
+1
+2
+2
+2
+sin
+cos
+
+
+a
+l
+a
+s
+
+
+
+Average piston speed for a standard auto engine 
+is ~15 m/s.  Ultimately limited by material strength.  
+Therefore engines with large strokes run at lower 
+speeds those with small strokes can run
+at higher speeds.
+Mean and Instantaneous Piston Speeds
+Engine Torque and Power
+Torque is measured using a dynamometer.
+Load cell
+Force F
+Stator
+Rotor
+b
+N
+The torque exerted by the engine is: T = F b  with units: J
+The power P delivered by the engine turning at a speed N and 
+absorbed by the dynamometer is:
+P = T = (2N) T    w/units: (rad/rev)(rev/s)(J) = Watt
+Note: is the shaft angular velocity with units: rad/s
+Indicated Work
+Given the cylinder pressure data over the operating
+cycle of the engine one can calculate the work done
+by the gas on the piston.  
+The indicated work per cycle is  
+
+
+pdV
+Wi
+Compression
+W<0
+Power
+W>0
+Intake
+W>0
+Exhaust
+W<0
+WA > 0
+WB < 0
+Pi = Wi N / nR
+w/units: (kJ/cycle) (rev/s) / (rev/cycle)
+where N – crankshaft speed in rev/s
+nR – number of crank revolutions per cycle
+= 2  for 4-stroke
+= 1  for 2-stroke
+Power can be increased by increasing:
+• the engine size, Vd
+• compression ratio, rc
+• engine speed, N
+Indicated Power
+Mechanical Efficiency
+Some of the power generated in the cylinder is used
+to overcome engine friction.  The friction power is
+used to describe these losses:
+Pf = Pi - Pb
+Friction power can be measured by motoring the engine.
+The mechanical efficiency is defined as:
+m = Pb / Pi = 1- (Pf / Pi )
+Mechanical efficiency depends on throttle position, engine
+design, and engine speed.   Typical values for car engines
+at WOT are 90% @2000 RPM and 75% @ max speed.
+There is a maximum in the brake power 
+versus engine speed called the rated
+brake power. 
+At higher speeds brake power decreases as 
+friction power becomes significant compared 
+to the indicated power 
+There is a maximum in the torque versus 
+speed called maximum brake torque (MBT).
+Brake torque drops off: 
+• at lower speeds do to heat losses 
+• at higher speeds it becomes more difficult
+to ingest a full charge of air.
+Max brake torque
+1 kW = 1.341 hp
+Rated brake power
+Power and Torque versus Engine Speed
+Indicated Mean Effective Pressure (IMEP)
+imep is a fictitious constant pressure that would produce the same 
+work per cycle if it acted on the piston during the power stroke.
+imep = Wi / Vd = (Pi nR) / (Vd N)
+so Pi = imep Vd N / nR = imep Ap Up / (2 nR)
+imep does not depend on engine speed, just like torque.
+imep is a better parameter than torque to compare engines for design and 
+output because it is independent of engine speed, N, and engine size, Vd.
+Brake mean effective pressure (bmep) is defined as:
+R
+d
+d
+R
+d
+b
+n
+V
+bmep
+T
+V
+n
+T
+V
+W
+bmep
+
+
+
+
+
+
+
+
+
+
+2
+    
+    
+2
+Maximum BMEP
+• The maximum bmep is obtained at WOT at a particular engine speed
+• Closing the throttle decreases the bmep
+• For a given displacement, a higher maximum bmep means more torque
+• For a given torque, a higher maximum bmep means smaller engine 
+• Higher maximum bmep means higher stresses and temperatures in the 
+engine hence shorter engine life, or bulkier engine.
+• For the same bmep 2-strokes have almost twice the power of 4-stroke
+    
+2
+d
+R
+d
+b
+V
+n
+T
+V
+W
+bmep
+
+
+
+
+
+Specific Fuel Consumption
+• For transportation vehicles fuel economy is generally given as
+mpg, or liters/100 km.
+• In engine testing the fuel consumption is measured in terms of
+the fuel mass flow rate.
+• The specific fuel consumption, sfc, is a measure of how efficiently
+the fuel supplied to the engine is used to produce power,
+.           .  
+bsfc = mf / Pb
+isfc = mf / Pi
+(w/units: g/kW-hr)
+• Clearly a low value for sfc is desirable since at a given power
+level less fuel will be consumed
+Brake Specific Fuel Consumption vs Size
+•BSFC decreases with engine size due to reduced heat losses
+from gas to cylinder wall.
+r
+L
+r
+rL
+volume
+cylinder
+area
+surface
+cylinder
+1
+2
+ 
+ 
+ 
+2
+
+
+
+
+•Note: cylinder surface to volume ratio increases with bore diameter.
+Brake Specific Fuel Consumption vs Speed
+• At high speeds the bsfc increases due to increased friction
+• At lower speeds the bsfc increases due to increased time for heat
+losses from the gas to the cylinder and piston wall
+• Bsfc increases with compression ratio due to higher thermal efficiency
+• There is a minimum in the bsfc versus engine speed curve
+Performance Maps
+Performance map is used to display the bsfc over the engines full load 
+and speed range.  Using a dynamometer to measure the torque and fuel 
+mass flow rate you can calculate:
+bmep = 2T nR / Vd
+Pb = 2N T
+Constant bsfc contours from a 
+two-liter four cylinder SI engine
+bmep@WOT
+.
+bsfc = mf / Pb
+Combustion Efficiency
+• The time for combustion in the cylinder is very short so
+not all the fuel may be consumed or local temperatures
+may not support combustion
+• A small fraction of the fuel may not react and exits with the
+exhaust gas.  The combustion efficiency is defined as
+actual heat input divided by theoretical heat input:
+Where Qin = heat added by combustion per cycle
+mf = mass of fuel added to cylinder per cycle
+QHV = heating value of the fuel (chemical energy per unit mass)
+.   .
+c = Qin/ (mf QHV)  = Qin / (mf QHV)
+Thermal Efficiency
+• Thermal efficiencies can be given in terms of brake or indicated values
+• Indicated thermal efficiencies are typically 50% to 60% and brake
+thermal efficiencies are usually about 30% 
+t = work per cycle / heat input per cycle
+t = W / Qin = W / (c mf QHV)
+or in terms of rates…
+t = power out/rate of heat input
+.        .
+t = P/Qin =  P/(c mf QHV)
+Arbitrary Efficiency
+(aka fuel conversion efficiency)
+Note: hf is very similar to ht, the difference is that ht takes into
+account only the actual fuel combusted in the engine.
+.
+Recall that sfc = mf / Pb
+Thus f = 1 / (sfc QHV)
+. 
+f = Wb / (mf QHV) = Pb / (mf QHV)
+Volumetric Efficiency
+• Due to the short cycle time and flow restrictions less than ideal
+amount of air enters the cylinder. 
+• The effectiveness of an engine to induct air into the cylinders is
+measured by the volumetric efficiency which is the ratio of actual
+air inducted divided by the theoretical air inducted:
+.
+v = ma / (a Vd) = nR ma / (a Vd N)
+where a is the density of air at atmospheric conditions Po, To for an
+ideal gas ra =Po / RaTo and Ra = 0.287 kJ/kg-K (at standard conditions
+a= 1.181 kg/m3)
+• Typical values for WOT are in the range 75%-90%, and lower when
+the throttle is closed
+Air-Fuel Ratio
+• For combustion to take place, the proper ratio of air and fuel
+must be present in the cylinder.
+•The air-fuel ratio is defined as
+.  .
+AF = ma / mf = ma / mf
+• The ideal AF is about 15:1, with homogenous combustion
+possible in the range of 6 to 19.
+• For a SI engine the AF is in the range of 12 to 18 depending
+on the operating conditions.
+• For a CI engine, where the mixture is highly non-homogeneous
+and the AF is in the range of 18 to 70.
+James Watts Solution  
+Cycle Performance Parameters
+Net Work Transfer :
+
+
+)
+(mv
+pd
+Wnet
+This is work done by working fluid on 
+the piston, also called as  Indicated 
+Work.
+Indicative Performance:
+CV
+m
+mv
+pd
+f
+ind
+
+
+)
+(
+h
+I.C. Engine Test Rig
+Specific Fuel Consumption
+X
+f
+P
+m
+XSFC 
+XSFC – specific fuel consumption (kg/kWh).
+X must always be specified when reporting these 
+values (i.e., I for indicated)
+Fuel consumption of an engine reported in L/h or kg/h because 
+these values ignore engine power.  A better measure of fuel 
+consumption is,
+Specific Fuel Consumption Variations
+• ISFC – indicated specific fuel consumption
+• BSFC - brake specific fuel consumption
+• PSFC – PTO specific fuel consumption
+• DSFC – drawbar specific fuel consumption
+Indicative Mean Effective Pressure:
+min
+max
+v
+v
+pdv
+IMEP
+
+
+Actual Fuel- Air Ratio : 
+act
+air
+fuel
+act
+m
+m
+A
+F
+,
+
+
+
+
+
+
+
+Stoichiometric  Fuel- Air Ratio : 
+sto
+air
+fuel
+sto
+m
+m
+A
+F
+,
+
+
+
+
+
+
+
+Parameters for Performance Diagnosis 
+Fuel Air Equivalence Ratio:
+sto
+act
+A
+F
+A
+F
+
+
+
+
+
+
+
+
+
+
+Selection of Mixture Strength for Better Reaction -1
+Air-standard Analysis
+Experimental Results
+Fuel-Air Analysis
+Rich
+Lean
+Selection of Sufficient Air : Optimization  of  Total 
+Cost
+67
+Combined Thermodynamic & Chemical 
+Optimization for Better Reaction -2
+r = 8
+r = 10
+Combined Thermodynamic & Kinetic Optimization 
+for Better Reaction -2
+Engine Capacity Vs Performance
+Optimizing Engine Performance
+• Engines are most efficient at or near peak load.
+• Efficiency drops with a reduction in torque load.
+• At zero brake torque, all fuel energy is expended in engine 
+friction.
+• Lower rated engine speeds provide lower BSFC, and at the 
+same time reduce torque reserve – design compromise.
+• Heavy engines for a given capacity….. More inertial losses…
+• Compromise – Necessary Evil …..
+• Any alternate to overcome this fact…..
+• Develop an idea to Change natural behaviour…..
+Artificial Breathing Attachments to Engines
+Preferred Artificial Breathing ….
+Engine Artificial Respiratory System
+Super Charged Engine
+An Inclusion of  A Pure CV
+Turbo Charging of Engine : An Inclusion of two PURE 
+CVs
+Turbo-Charged Engine
+Artificially Aspirated Engines
+Characteristics of Artificially Charged Engines
+Example 01
+Answer 01

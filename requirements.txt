@@ -1,0 +1,18 @@
+# Core PDF processing & OCR
+PyMuPDF==1.22.5
+pytesseract==0.3.10
+pdf2image==1.16.0
+
+# RAG & embeddings
+langchain==0.0.275
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# LLM API
+openai==0.27.0
+
+# Agent Development Kit
+google-adk==0.1.0
+
+# Environment variable management
+python-dotenv==1.0.0

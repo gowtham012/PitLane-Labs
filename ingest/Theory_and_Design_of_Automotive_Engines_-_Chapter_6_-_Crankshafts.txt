@@ -1,0 +1,9303 @@
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+1
+Chapter No:06, Crank Shaft 
+ 
+Objective:  
+The student will learn that crankshaft design is the estimation of the shaft diameter, 
+crankpin dimensions to ensure satisfactory strength and rigidity when the crankshaft is 
+transmitting power under various operating conditions. 
+ 
+Outcomes:  
+The student should be able to design crankshafts for various operating and loading 
+conditions.  
+ 
+Prerequisites:  
+This topic requires the student to know about, the fundamentals of Engineering 
+Mathematics, Engg physics, Strength of Materials, Engineering Drawing, Workshop 
+Processes, Theory of Machines, Material Science and fundamentals of Machine Design. 
+ 
+Number of Question/s expected in examination: 01 [20Marks] 
+ 
+INTRODUCTION: 
+Before studying the actual crankshaft and design details, we shall study briefly the basics 
+of Power Transmission of shafts. 
+ 
+6.1 Power Transmitting Shaft: 
+Shaft Design consists primarily of the determination of the correct shaft diameter to 
+ensure satisfactory strength and rigidity when the shaft is transmitting power under 
+various operating and loading conditions. Shafts are usually circular in cross section, and 
+may be either hollow or solid. 
+Design of shafts of ductile materials, based on strength, is controlled by the maximum 
+shear theory.  And the shafts of brittle material would be designed on the basis of the 
+maximum normal stress theory.  
+Various loads subjected on Shafting are torsion, bending and axial loads. 
+ 
+6.1.1 Basics of Design for solving Shaft problems: 
+6.1.1a. Maximum Principal Stress:(σ1) 
+2
+2
+1
+2
+2
+xy
+y
+x
+y
+x
+τ
+σ
+σ
+σ
+σ
+σ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+………………………………..(1.11a/2) 
+Here 1.11a and 2 refers to the formula number and page number from Design data handbook by K 
+Mahadevan and K Balaveera Reddy, CBS Publications, INDIA, 1989. 
+Same Data handbook and similar procedure is adopted in further discussion. 
+Where, 
+σx --- Stress in x direction, in MPa  or  N/mm2
+σy --- Stress in y direction, in MPa  
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+2
+τxy ---Shear stress, in MPa. 
+ 
+6.1.1b.Minimum Principal Stress: (σ2) 
+2
+2
+2
+2
+2
+xy
+y
+x
+y
+x
+τ
+σ
+σ
+σ
+σ
+σ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
+−
++
+=
+………………………………..(1.11b/2) 
+ 
+6.1.1c. Maximum Shearing Stress:(τmax) 
+ 
+2
+2
+max
+2
+xy
+y
+x
+τ
+σ
+σ
+τ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
+±
+=
+………………………………………...(1.12/2) 
+ 
+6.1.1d.Torsional stresses: (τ) 
+The Torsional formula is given by, 
+ 
+r
+l
+G
+J
+T
+τ
+θ =
+=
+………………………………………………………..(1.15/3) 
+ 
+Here T=torque or Torsional moment, N-mm 
+         J=polar moment of inertia, mm4
+             = 
+4
+32 d
+π
+, Where d is the solid shaft diameter. 
+ 
+   =
+(
+4
+4
+32
+i
+o
+d
+d
+−
+)
+π
+, Where do and di  are outer and inner diameter of the hollow shaft        
+       respectively. 
+ 
+        G=Modulus of elasticity in shear or modulus of rigidity, MPa 
+        θ=Angle of twist, radians 
+         l= Length of shaft , mm 
+         r= Distance from the Neutral axis to the top most fibre, mm 
+           = 2
+d  (For solid shaft) 
+           = 2
+o
+d  (For hollow shaft) 
+ 
+6.1.1d.Bending Stresses:(σb) 
+The bending equation is given by 
+ 
+c
+R
+E
+I
+M
+b
+σ
+=
+=
+………………………………………………………..(1.16/3) 
+ 
+Here M=bending moment, N-mm 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+3
+         I= Second moment of area, mm4
+             = 
+4
+64 d
+π
+(For solid shaft) 
+ 
+   =
+(
+4
+4
+64
+i
+o
+d
+d
+−
+)
+π
+,      (For hollow shaft) 
+     
+        E=modulus of elasticity or Young’ modulus for the material, MPa 
+        θ=Angle of twist, radians 
+        R= radius of curvature, mm 
+         c= Distance from the Neutral axis to the extreme fibre, mm 
+           = 2
+d  (For solid shaft) 
+           = 2
+o
+d (For hollow shaft) 
+6.1.2 Methods of obtaining the Twisting moment and Bending Moment. 
+ 
+6.1.2a Twisting Moment: 
+i) 
+Power transmitted : 
+60000
+2 nT
+P
+π
+=
+                    
+ kW  
+                                           Where T - twisting moment in N-m= (103) N-mm 
+                                                       n – speed of the shaft, rpm 
+              Hence 
+n
+P
+n
+P
+T
+)
+)(
+10
+(
+55
+.9
+2
+)
+10
+)(
+(
+60000
+6
+3
+=
+=
+π
+……………………………..(3.3a/42) 
+ 
+                ii)         In case of belt drives
+                           Power transmitted   
+            
+1000
+)
+(
+2
+1
+v
+T
+T
+P
+−
+=
+ kW …………………………………………….(14.9a/239) 
+           Where T 1- tension of belt on tight side, N  
+                      T 2- tension of belt on slack side, N 
+                       v- velocity of belt, m/s [Student should take care of units here, it is in     
+                            m/sec not in mm/sec] 
+            
+µθ
+e
+T
+T =
+2
+1
+…………………………………………………………(14.6a/238) 
+                       θ ---arc of contact, rad 
+                       µ---coefficient of friction between belt and pulley. 
+                       From equation (14.9a/239) and (14.6a/238) get T 1 and T 2. 
+ 
+ 
+ 
+ 
+Figure 1 
+R
+Pulley
+T2
+T1
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+4
+Knowing the value of radius of the pulley (R) twisting moment can be found by using the 
+following equation:[Refer Figure 1] 
+ 
+T= (T 1 - T 2) R, N-mm. 
+ 
+iii) 
+In case of Gear drives. 
+         Power transmitting capacity of gears is given by 
+              
+1000
+v
+F
+P
+t
+=
+ kW…………………………….…………… …..…(12.14a/163) 
+        Ft = driving force or tangential load at pitch line, N 
+        The torque is given by, 
+)
+2
+(d
+F
+T
+t
+=
+, N-mm………………………..(12.22/165) 
+Where d is the pitch circle diameter of Gear. 
+ 
+6.1.2b Bending Moment.  
+i) 
+Cantilever, end load [Figure 2] 
+ 
+ 
+ 
+ 
+ 
+W
+ 
+Figure 2 
+ 
+ 
+Maximum Bending Moment, M=W(l), N-mm …………………………..[Table 1.4/1/10] 
+Where W is the concentrated load, N  
+            l is the length of the beam, mm 
+ 
+ii) Simply supported beam [End support, center load] [Figure 3] 
+ 
+ 
+ 
+ 
+ 
+Figure 3 
+A 
+B 
+l 
+W 
+l/2
+RB
+RA 
+  
+ 
+To find the reactions RA and RB 
+ 
+∑
+= 0
+A
+M
+,    
+For the convenient of calculations, Clock Wise direction is taken as positive bending 
+moment and Counter Clockwise as negative bending moment.  
+ 
+ 
+0
+)
+(
+)
+2
+(
+=
+−
+l
+R
+l
+W
+B
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+5
+Hence 
+N
+W
+RB
+,
+2
+=
+ 
+ 
+∑
+= 0
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+RA+RB – W=0 
+  Hence RA = W – RB  
+Maximum bending Moment, 
+4
+)
+2
+(
+Wl
+l
+R
+M
+A
+=
+=
+……………………….[Table 1.4/4/10]. 
+ 
+iii) Simply supported beam [End support, Intermediate][Figure 4] 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+   Figure 4 
+ 
+To find the reactions RA and RB 
+ 
+∑
+= 0
+A
+M
+,    
+A
+B 
+l 
+b
+W 
+a 
+RB
+RA 
+ 
+ 
+ 
+0
+)
+(
+)
+(
+=
+−
+l
+R
+a
+W
+B
+Hence 
+N
+l
+a
+W
+RB
+,)
+(
+=
+ 
+ 
+∑
+= 0
+F
+,  
+ 
+ 
+ 
+ 
+RA+RB – W=0 
+ 
+  Hence 
+ 
+N
+R
+W
+R
+B
+A
+,
+−
+=
+              
+N
+l
+b
+W
+l
+a
+l
+W
+l
+a
+W
+l
+a
+W
+W
+RA
+,)
+(
+)
+(
+)
+1(
+)
+(
+=
+−
+=
+−
+=
+−
+=
+ 
+ 
+Maximum bending Moment, 
+l
+b
+a
+W
+a
+R
+M
+A
+)
+)(
+(
+)
+(
+=
+=
+…………………[Table 1.4/5/10]. 
+For different kinds of loading and support students are advised to refer Table 1.4 from 
+page no 10-12 of the Design Data Book.   
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+6.2. Crank Shaft: 
+A crankshaft is used to convert reciprocating motion of the piston into rotary motion or 
+vice versa. The crankshaft consists of the shaft parts, which revolve in the main bearings, 
+the crank pins to which the big ends of the connecting rod are connected, the crank arms 
+or webs, which connect the crankpins, and the shaft parts. The crankshaft, depending 
+upon the position of crank, may be divided into the following two types. 
+The crankshaft is the principal member of the crank train or crank assembly, which latter 
+converts the reciprocating motion of the pistons into rotary motion.  It is subjected to both 
+torsional and bending stresses, and in modern high-speed, multi-cylinder engines these 
+stresses may be greatly increased by resonance, which not only renders the engine noisy, 
+but also may fracture the shaft.  In addition, the crankshaft has both supporting bearings 
+(or main bearings) and crankpin bearings, and all of its bearing surfaces must be 
+sufficiently large so that the unit bearing load cannot become excessive even under the 
+most unfavorable conditions.  At high speeds the bearing loads are due in large part to 
+dynamic forces-inertia and centrifugal.  Fortunately, loads on main bearings due to 
+centrifugal force can be reduced, and even completely eliminated, by the provision of 
+suitable counterweights.  All dynamic forces increase as the square of the speed of 
+rotation. (i.e. FDynamic↑⇒Speed2↑) 
+ 
+6.2.1 TYPES OF CRANKSHAFT 
+A crankshaft is composed of the crankpins, crank arms, crank journals, and driving ends. 
+As a rule, crankshafts are forged in a single piece, but occasionally they are built up. 
+Built-up crankshafts are used in small single- and double-cylinder motorcycle engines. 
+The enclosed flywheels of these engines take the place of the crank arms, the crankpin 
+and crank journals being bolted to the flywheels, which latter are cast with solid webs. 
+The built-up construction also has advantages when it is desired to support the crankshaft 
+in three or more ball bearings, as with a one-piece shaft all intermediate bearings would 
+have to be stripped over the crank arms, and therefore would have to be made extraor-
+dinarily large. 
+A crankpin together with the two crank arms on opposite sides of it is frequently referred 
+to as a "throw." In some crankshafts there is only a single throw between a pair of main 
+journals or supporting bearings, while in others there are two and even three or four 
+throws between main bearings. 
+6.2.1a Based on the position of the crank pin 
+i) Side crankshaft or overhung crankshaft.  (Figure. 5) 
+Crank 
+   Shaft
+  Crank 
+   Main Bearing
+ii) Centre crankshaft (Figure. 6) 
+ 
+ 
+ 
+ 
+ 
+                                          
+omobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+ 18 to 30 -2007 
+6
+ Figure.5 Side Crank 
+Krishnaraja G. Kodancha, Assistant Professor, Aut
+24 to 28, Oct
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+7
+   Main Bearing 
+Crank Pin
+  Crank arm 
+ Figure.6 Centre Crank Shaft 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6.2.1b Based on the number of throw 
+The other classification is based on the number of cranks in the shaft are: 
+I. Single throw crankshafts 
+II. Multi throw crankshafts 
+A crankshaft with only one side crank or centre crank is called a single throw crankshaft. 
+A crankshaft with two-side cranks, one on each end or more centre cranks is called as 
+multi throw crankshaft. 
+ 
+6.2.2. FEW TYPICAL CRANKSHAFTS 
+ 
+ 
+Figure 7. Proportions of four cylinder Crank Shaft in 1911 
+ 
+ 
+Figure 8. Proportions of four cylinder Crank Shaft in 1948 
+ 
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+8
+ 
+ 
+Figure 9.Four cylinder, three bearing Crank Shaft  
+ 
+Figure 10.Crank shaft for Four cylinder opposed engine  
+ 
+ 
+ 
+Figure 11.Crank shaft of Volkswagan Four cylinder-opposed engine 
+6.2.3 Materials 
+For the proper functioning, the crankshaft should full fill the following conditions: 
+1. Enough strength to withstand the forces to which it is subjected i.e. the bending 
+and twisting moments. 
+2. Enough rigidity to keep the distortion a minimum. 
+3. Stiffness to minimize, and strength to resist, the stresses due to torsional 
+vibrations of the shaft. 
+4.  Sufficient mass properly distributed to see that it does not vibrate critically at the 
+speeds at which it is operated. 
+5. Sufficient projected areas of crankpins and journals to keep down the bearing 
+pressure to a value dependent on the lubrication available. 
+6.  Minimum weight, especially in aero engines. 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+9
+The crankshafts are made much heavier and stronger than necessary from the strength 
+point of view so as to meet the requirements of rigidity and vibrations. Therefore the 
+weight cannot be reduced appreciably by using a material with a very high strength. The 
+material to be selected will also depend upon the method of manufacture i.e. cast, forged, 
+or built up. Built up crank shafts are sometimes used in aero engines where light weight 
+is very important. 
+ In industrial engines, 0.35 Carbon steel of ultimate tensile strength 500MPa to 525 MPa 
+and 0.45 Carbon steel of ultimate tensile strength of about 627 to 780 MPa are commonly 
+used. 
+In transport engines, alloy steel e.g. manganese steel having ultimate tensile strength of 
+about 784 to 940 MPa is generally used. 
+In aero engines, nickel chromium steel having ultimate tensile of about 940 to 1100 MPa 
+is generally used. Heavy duty Cast iron is being successfully used for crankshafts, 
+especially for industrial engines of comparatively low speed and it can replace easily the 
+plain carbon steels. Cast iron usually used for crankshafts is nickel cast iron with ultimate 
+tensile strength ranging from 350 to 525 MPa. Cast steel is also used as material for 
+crankshafts, its ultimate tensile strength ranging from 560 to 600 MPa. 
+Students are requested to go through the Table3.2/47, Table3.3/48, Table 3.5b/48, and 
+page no 412 to 430 of the data handbook for different material properties. 
+ 
+Medium-carbon steel is the material most extensively used. The blanks from which the 
+crankshafts are machined are produced by the drop forging process. This process requires 
+several heatings to a good red heat, which impairs the physical qualities of the steel; and 
+the latter have to be restored and the latter have to be restored by suitable heat treatment, 
+consisting of normalizing, reheating and quenching. The carbon steel generally used for 
+crankshafts is S.A.E. steel No. 1045 [Refer T 1.18/428] which has the following 
+composition and physical properties: 
+Chemical Composition 
+ 
+ 
+ 
+PerCent 
+ 
+Carbon  
+ 
+0.43-0.50 
+Manganese 
+ 
+0.60-0.90 
+Sulphur  
+ 
+Not over 0.050 
+Phosphorus  
+ 
+Not over 0.040 
+ 
+A suitable heat treatment for drop forgings of this grade of steel is as follows: Normalize 
+at 5710C to 9270C, reheat to 7890C to 8430C, quench in oil and draw at 8420C. When thus 
+heat-treated the steel has approximately the following physical properties: 
+ 
+ Tensile strength 
+ 
+759MPa 
+ Elastic limit  
+ 
+517MPa 
+ Elongation in 50mm  
+18 per cent 
+ Reduction of area 
+ 
+45 per cent 
+ Brinell hardness 
+ 
+225-235
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+10
+In some of the higher-grade automotive engines, chrome-nickel steel (S.A.E. 3140) is 
+used for the crankshaft. The composition and the approximate mechanical properties of 
+this steel (after heat treatment) are as follows: 
+ 
+Chemical Composition 
+Percent 
+ 
+Carbon  
+ 
+ 
+0.38-0.43 
+Manganese  
+ 
+ 
+0.70-0.90 
+Phosphorus  
+ 
+ 
+Not over 0.040 
+Sulphur  
+ 
+ 
+Not over 0.040 
+Nickel  
+ 
+ 
+1.1 0-1.40 
+Chromium 
+ 
+ 
+0.55-0.75 
+ 
+Mechanical Properties (After Heat Treatment) 
+ 
+Tensile strength 
+ 
+1069MPa 
+Elastic limit   
+ 
+910MPa  
+Elongation in 50mm  
+16 per cent  
+Reduction of area  
+ 
+50 per cent  
+Brinell hardness  
+ 
+295-305 
+ 
+The heat treatment for this steel consists in normalizing at 8710C -9270C, annealing to the 
+desired structure or machinability; heating to 7880C - 8160C, quenching in oil, and 
+tempering at 4830C 
+Other materials used for crankshafts include chrome-vanadium and chrome-molybdenum 
+steels. All of these binary alloy steels have excellent mechanical properties, the tensile 
+strength in the heat-treated condition usually running above 1034MPa 
+ 
+6.2.4 Manufacturing: 
+Great care must be observed in the manufacture of crankshafts since it is the most 
+important part of the engine. Small crankshafts are drop forged. Larger shafts are forged 
+and machined to shape. Casting of the crankshafts allows a theoretically desirable but 
+complicated shape with a minimum amount of machining and at the smallest cost. These 
+are cast in permanent moulds for maximum accuracy and a minimum of machining. 
+While machining, the shaft must be properly supported between centers and special 
+precautions should be taken to avoid springing. The journals and crankpins are ground to 
+exact size after turning. After this, the crankshaft is balanced. Large shafts of low speed 
+engines are balanced statically; Crankshafts of high-speed engines are balanced 
+dynamically on special balancing machines. Most crankshafts are ground at the journals 
+and crankpins. In some cases grounding is followed by hand lapping with emery cloth.   
+ 
+6.2.6. Bearing pressures:  
+The bearing pressures are very important in the design of crankshafts. The allowable 
+bearing pressure depends upon the journal velocity, change of direction of   bearing 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+11
+pressures, amount and method of lubrication and the maximum gas pressures and space 
+limitations. Maximum allowable bearing pressures are given below Table 1. 
+ 
+6.2.6.Stresses:  
+The stresses induced in the crankshafts are bending and also shear stresses due to 
+torsional moment of the shaft. Most crankshafts fail due to progressive fracture due to 
+repeated bending or reversed torsional stresses. Thus the type of loading on the 
+crankshafts is fatigue loading therefore, the design should be based on endurance limit.  
+To avoid stress concentration and fatigue failure, abrupt changes in the section of shaft 
+connection should be avoided. Two different cross sections must be blended with a large 
+fillet ‘r’, if possible, r should not be less than 0.2d. [d is the diameter of the shaft].  If 
+there is no space for fillet, the crank web should be under cut to obtain the fillet. This will 
+make the web weak and to compensate for it, the width is increased. (Figure12) 
+ 
+Since the failure of the crankshaft is serious for the engine, and also because of the 
+inaccuracy in determining all the forces and stresses, a high factor of safety based on 
+endurance limit from 3 to 4 should be used. To be on the safe side, the endurance limits 
+for complete reversal of bending and torsional stresses are taken. 
+For chrome nickel and other alloy steels, the endurance limit is about 525 N/mm2 in 
+bending and about 290 N/mm2 in shear.  
+ 
+Table 1.      DESIGN DATA FOR BEARING * 
+ 
+ 
+ 
+* The above table is extracted from “Design Data Book “, K Mahadevan and K Balaveera Reddy, CBS Publications, INDIA, 1989, 
+TABLE 15.11, Page No 314  
+* Refer Table 3.6/49 for Allowable Bearing pressures  
+ 
+   
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+12
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+r 
+d  
+d
+r
+r
+                 (a)                                   (b)                                                           (c) 
+Figure 12, Use of Fillets 
+r 
+W
+ 
+For carbon steel and cast steel, the endurance limit is about 220 N/mm2 in bending and 
+about 120 N/mm2  in shear. For alloy cast iron, the endurance limit is about 140 N/mm2 in 
+bending and in shear.  
+ 
+ Thus the allowable stress is: 
+ For Carbon steel:  bending = 55 to 75 N/mm2  
+                                          Shear   = 30 to 40 N/mm2  
+ Combined stress = 2
+1  (elastic limit in tension) 
+ 
+For alloy Cast Iron:  
+Bending= shear = 34 to 45 N/mm2 
+Combined stress = elastic limit in pure tension. 
+ 
+For Chrome nickel and other alloy steel:   
+Bending = 130 to 175 N/mm2  
+Shear   = 70 to 97 N/mm2  
+ Combined stress = 2
+1  (elastic limit in pure tension) 
+ 
+6.2.7 Balance Weights:
+In a single-cylinder crankshaft the centrifugal force on the crank arms, crankpin, and part 
+of the connecting rod forms an unbalanced rotating force, which would cause the engine 
+to vibrate if no means were provided to balance it. Therefore, balance weights are applied 
+to the crank arms.  
+In a high-speed engine the balance weights are preferably forged integral with the crank 
+arms. If made separate, they must be very securely applied, since the stresses on the 
+fastenings due to the centrifugal force at "racing" speeds are very considerable, and if one 
+of the weights should come loose, it would be sure to do serious damage. Alloy steel 
+bolts or studs should be used, or the counterweights should be fitted to the crank arms in 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+13
+such a way that the centrifugal force produces shearing stresses in the parts, instead of 
+tensile stresses in the bolts. 
+In a double-cylinder opposed engine the crankshaft is always made with two throws set at 
+1800 relative to each other. One set of reciprocating parts then always moves in 
+opposition to the other set, and at exactly the same speed, so that the reciprocating parts 
+are perfectly balanced, except for the fact that the two sets are not quite in line with each 
+other. The rotating parts also are very nearly balanced, since the centrifugal force acting 
+on one throw is equal and opposite in direction to the centrifugal force acting on the other 
+throw, and there is only a small rotating couple due to the centrifugal forces acting at the 
+ends of an arm equal in length to the distance between the centers of the two. This 
+rotating couple can be balanced by applying balance weights to the two short crank arms. 
+ 
+In a four-cylinder vertical engine the four throws are always in the same plane, the two 
+outer throws being on the same side of the crankshaft axis, and the two inner throws on 
+the opposite side. The centrifugal force acting on each throw is a radial rotating force, 
+which may be considered to act at the center of that throw. The centrifugal forces F on 
+the two outer throws (Figure 13) naturally are always in the same plane, and. as they are 
+equal, their resultant R is a force equal to twice that acting on the individual throw, acting 
+at a point midway between the two throws. The resultant Rl of the centrifugal forces F1 
+acting on the two inner throws is exactly equal to the resultant of the centrifugal forces 
+acting on the two outer throws, and acts at the same point but in the opposite direction to 
+the latter; consequently it neutralizes or balances it. 
+ 
+ 
+ 
+Figure 13  Centrifugal forces on four throw crankshaft 
+ 
+ 
+6.2.8  Local Balance: 
+But while a crankshaft of this type is perfectly balanced as a whole, its individual throws 
+are unbalanced, and since the crankshaft is more or less flexible, the centrifugal force 
+acting on the individual throw presses the crank journals adjacent to it against their 
+bearings, adding to the loads on these bearings. 
+To reduce this bearing load it is now customary to provide crank arms of high-speed 
+engines with balance weights. A rather serious degree of local unbalance occurs in a four-
+cylinder, two-bearing crankshaft, because in the conventional design there is nothing to 
+balance the two inner crank pins and the intervening portion of the crankshaft. Sometimes 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+14
+balance weights are welded to crankshafts of this type, as well as to others, but the 
+majority of all crankshafts for high-speed engines have balance weights forged on all 
+crank arms that are not symmetrical with relation to the crankshaft axis, which balance 
+weights either completely or partly balance the rotating parts of the crank throw. A 
+crankshaft of such design that the centrifugal forces acting on it would vanish if all acted 
+in the same plane perpendicular to the crankshaft axis is said to be in static balance. 
+In a six-throw crankshaft the throws are arranged in pairs, the two inner ones being in 
+line with each other, as are also the two outer ones and the two intermediate ones, 
+respectively. Each pair of throws is located at an angular distance of 1200 from the other 
+two pairs. By reference to Figure 14, which is an end view of a six throw, seven-bearing 
+crankshaft, it can be seen that if all of the throws are identical, such a crankshaft is in 
+static balance. The resultant F of the centrifugal forces on the two throws of each pair 
+acts at the middle of the length of the crankshaft. The three resultants therefore all act in 
+the same plane radially outward from the center of the crankshaft, at angles of 1200, and 
+they exactly balance each other. The highest degree of balance, of course, is obtained if 
+each throw is balanced separately, which involves the use of a balance weight on each 
+arm.  
+Six-cylinder crankshafts with either three or four main bearings are not inherently 
+balanced. In fact, as sometimes made, they are not even in static balance. In the most 
+primitive form, the long crank arms extend straight across from one crankpin to another 
+at angular distance of 1200 therefrom. This crank arm then lies wholly to one side of the 
+axis of rotation, and in operation produces an unbalanced rotating force whose direction 
+is at all times along a line through the axis of rotation and the center of gravity of the 
+crank arm. The magnitude of this unbalanced force is proportional to the distance of the 
+center of gravity of the crank arm from the axis of rotation, and therefore can be reduced 
+by reducing this distance, by curving the crank arm inward, as shown in Figure 15. The 
+rotating force, of course, can be entirely eliminated by bolting a balance weight against 
+the side of the long crank arm. 
+ 
+ 
+Figure 14.  End view of Six-throw, seven-bearing crankshaft. 
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+15
+ 
+ 
+ 
+Figure 15.  Curved long arm of six-throw, three or four-bearing crankshaft. 
+ 
+ 
+ 
+6.2.9 Empirical Rules for Crankshaft Dimensions 
+In making a preliminary lay-out, all dimensions of the crankshaft can be made 
+proportional to the cylinder bore. Of course, the proportion between any given dimension 
+of the crankshaft and the cylinder bore varies with the number and arrangement of 
+cylinders and with the type of crankshaft as defined by the number of its main bearings. 
+In all drop forged crankshafts in which the arms are left unfinished, the arm section, of 
+course, is not a rectangle, as draft has to be allowed on the two long sides, usually about 
+70. In applying the rules for arm thickness the calculated thickness can be taken as the 
+mean between the minimum and maximum actual thicknesses. 
+ 
+6.2.10 Six Cylinder Crankshafts 
+  
+Crankshafts for six-cylinder in line engines are made with three, four, or seven main 
+journals. The greater the number of main journals the better the support for the crankshaft 
+and the smoother the operation of the engine at high speeds. On the other hand, 
+manufacturing costs increase somewhat with the number of main bearings. Whatever the 
+number of main journals, the angular spacing of the throws is the same; that is, throws 
+Nos. 1 and 6 are in line, as are throws Nos. 2 and 5, and throws Nos. 3 and 4. [Firing 
+order 1-6-2-5-3-4]  Both the three-bearing and the four-bearing crankshafts have short 
+arms connecting a crankpin with the adjacent main journal, and long arms connecting two 
+crankpins spaced 120° apart. In Figure 16 is shown sides view of the rear half of a four-
+bearing, six-cylinder crankshaft (the front half being omitted because it is an inverse 
+duplicate of the rear). At the center between crankpins Nos. 3 and 4 there is a balance 
+weight, of which a transverse section is shown. The short crank arms have the usual 
+integral counterweights, while the long crank arm is in the form of a disc, of which a side 
+view is shown at the right in the illustration. Back of the junction with the crankpins the 
+disc is rounded off so as to eliminate unnecessary weight. Long crank arms of the same 
+general form are used in three-bearing crankshafts for six-cylinder engines, which latter 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+16
+have four of them. Seven bearing, six-cylinder crankshafts usually are finished all over; 
+at least the crank arms, which are all similar in shape, are finished on both sides, so as to 
+make the engine as compact as possible length wise.  
+ 
+ 
+Figure 16. Rear half of four bearing, six-cylinder crankshaft 
+ 
+6.2.11 Eight Cylinder Crankshafts 
+Crankshafts for eight-cylinder in line engines are designed with either five or nine main 
+journals. In the first case there are two crank throws between supports, while in the last 
+there is only one. Here, too, the angular spacing of the various throws is the same, 
+regardless of the number of main journals, cranks Nos. 1 and 8 being in line, also Nos. 2 
+and 7, 3 and 6, and 4 and 5, and the angular spacing between one pair of cranks and the 
+next is always 90°. The crankshaft of an eight-cylinder in-line engine consists essentially 
+of two conventional four-cylinder crank shafts, one of these being cut in halves, and each 
+half joined to one end of the other crankshaft, in a plane at right angles to it. Figure is a 
+side view of such a crankshaft. The center bearing is made considerably longer than the 
+two intermediate bearings, be cause it carries the inertia loads from two sets of 
+reciprocating parts that are in phase, while in the case of the intermediate bearings the 
+two sets of reciprocating parts on opposite sides of them are 90° out of phase. 
+ 
+ 
+Figure 17 Five bearing crankshaft for eight cylinder crankshaft in line engine 
+ 
+ 
+6.2.12 Oil Holes Drilled in Crankshafts 
+ 
+In engines provided with pressure lubrication, oil holes are drilled through the crankshaft 
+journals and arms to permit oil to flow from the main to the crankpin bearings. 
+Sometimes radial holes are drilled through the crank arms, and communicating axial and 
+radial holes through the journals, the holes through the crank arms and the axial holes 
+through the journals later having their ends plugged. However, the preferred practice is to 
+drill single inclined holes through the main journals, crank arms and crankpins, as 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+17
+illustrated in Figure 18. In the illustration, a second hole is shown drilled halfway through 
+main journal, so that there are two oilcrankshaft inlets, but this practice is not common. 
+ 
+ 
+ 
+ 
+Figure 18 Inclined Oil holes in crankshaft 
+ 
+6.2.13 Balancing Crankshaft 
+Crankshafts, after they are completely machined, must be balanced both statically and 
+dynamically. A crankshaft is in static balance if, when placed on horizontal steel balance 
+ways or their equivalent, it will remain in any position to which it is turned. A simple 
+static balancing machine consists of two pairs of discs freely supported either on 
+hardened centers or on ball bearings (Figure 19), the two pairs being sufficiently far apart 
+so the crankshaft can be placed upon them with its end main bearings. If the center of 
+gravity of the crankshaft does not lie in the mechanical axis, then the crankshaft will turn 
+until the center of gravity is directly underneath the mechanical axis. By removing 
+material from the heavy side, with a drill or emery wheel, until the crankshaft will remain 
+in any angular position in which it is placed on the discs, static balance may be attained. 
+ 
+Dynamically the shaft may still be unbalanced. For instance, there may be excess weight 
+on one side of the shaft at one end, which is balanced statically by an equivalent weight 
+on the other side at the opposite end.  In that case, when the engine is running, there is 
+what is known as a centrifugal couple, and this must be eliminated before the crank can 
+be expected to run without vibration at high speeds. Unbalance of this kind can be 
+determined only in a dynamic balancing machine. 
+ 
+ 
+ 
+Figure 19 One end of static balancing machine 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+18
+ 
+6.3 Design Procedure: 
+1. Determine the magnitudes of the various loads acting on the crankshaft. 
+2. Determine the distance between supports. The distances will depend upon the 
+lengths of the bearing. The lengths & diameters of the bearings are determined on 
+the basis of maximum permissible bearing pressures, l/d ratios and the acting 
+loads. (TABLE 1 and Table 3.6/49) 
+3. For the sake of simplicity and safety, the shaft is considered to be supported at the 
+centers of the bearings. 
+4. The thickness of the crank webs is assumed, about 0.5d to 0.6d, where d is the 
+shaft diameter, or from 0.22D to 0.32D, where D is the cylinder bore. 
+5. Now calculate the distance between supports. 
+6. Assume allowable bending and shearing stresses. 
+7. Compute the necessary dimensions of the crankshaft. 
+ 
+The above procedure is general design procedure.  It may change as per the requirements 
+and definition of the given problem.  
+Note: All the forces and reactions are assumed to be acting at the centers of the bearings. 
+ 
+6.3.1 DESIGN CALCULATIONS: 
+In the design of the crankshafts, it is assumed that the crankshaft is a beam with two or 
+more supports. Every crankshaft must be designed or checked at least for two crank 
+positions, one when the bending moment is maximum, and the other when the twisting 
+moment is a maximum. In addition, the additional moments due to the flywheel weight, 
+belt tension and other forces must be considered. 
+To make the calculations simpler, without loosing accuracy, it is assumed that the effect 
+of the bending forces does not extend two bearings between which a force is applied. 
+There are two considerations, which determine the necessary dimensions of the crankpin. 
+One is that its projected bearing area (diameter times length) must be large enough so it 
+will safely sustain the bearing loads imposed upon it by gas pressure, inertia and 
+centrifugal force; the second, that the crankshaft as a whole must be sufficiently rigid so 
+that it will not vibrate perceptibly under the periodic forces to which it is subjected in 
+service. When the crankshaft of a given engine is made more rigid, the so-called critical 
+speeds-that is, speeds at which there is synchronous vibration-are raised, and in this way 
+at least the most important critical speeds can be moved outside the normal operating 
+range. 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+19
+6.4  Analysis of Center Crank Shaft: 
+The crank shaft is to analysed for two positions:    
+i) Crank on Dead Center:  and ii) Crank at angle of maximum Twisting Moment 
+6.4a  Crank at Dead Center 
+When the crank is on dead center, maximum bending moment will act in the crankshaft. 
+The thrust in the connecting rod will be equal to the piston gas load (F), W is the weight 
+of the flywheel acting downward and T1 and T2 is the belt pull acting horizontally. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RV3(W)
+Figure 20. Force Analysis of Crank at Dead 
+Center
+a 
+b 
+1 
+x 
+2 
+y 
+3 
+F 
+W
+R3
+R2 
+RV2(W)
+RH3(BELT)
+RH2(BELT)
+RH2(F)
+RH1(F)
+T1+T2 
+ 
+ 
+In between bearings 1 and 2, Gas Load F, acts as shown in Figure 7 
+ 
+Now Gas Load,  
+ 
+max
+2 *
+4
+p
+D
+F
+π
+=
+ , Where D is the diameter of the piston in mm and                              
+pmax is the maximum gas pressure 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+20
+Due to this there will be two horizontal reactions, RH1(F) at bearing 1, and RH2(F) , at 
+bearing 2, so that, 
+ 
+To find the reactions RH1(F) and RH2(F) 
+ 
+∑
+= 0
+1
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+……………………………………………….(1) 
+( )
+0
+)
+(
+)
+(
+2
+=
++
+−
+b
+a
+R
+a
+F
+F
+H
+ 
+Hence 
+( )
+N
+b
+a
+a
+F
+R
+F
+H
+,)
+(
+)
+(
+2
++
+=
+………..……………………………………………….(2) 
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+RH1(F) + RH2(F) -F =0…………………………………………………….(3) 
+By substituting equation 2 in equation 3 we get, 
+ 
+( )
+N
+b
+a
+b
+F
+b
+a
+a
+F
+F
+R
+F
+H
+,)
+(
+)
+(
+)
+(
+)
+(
+1
++
+=
++
+−
+=
+ 
+If a=b, then, 
+( )
+( )
+N
+F
+R
+R
+F
+H
+F
+H
+,)
+2
+(
+2
+1
+=
+=
+ 
+In between bearings 2 and 3, we have two loads  
+i) 
+Belt pull (T1 + T2 ),  acting horizontally as shown in Figure 8 
+ii) 
+Weight of the Flywheel (W), acting vertically as shown in Figure 8 
+    
+Reactions at bearing 2 and 3 due to Belt Pull, 
+Due to this there will be two horizontal reactions, RH2(belt) at bearing 2, and RH3(belt)  at 
+bearing 3, so that , 
+To find the reactions RH2(belt) and RH3(belt) 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+(
+)
+0
+)
+(
+)
+)(
+(
+3
+2
+1
+=
++
+−
++
+y
+x
+R
+x
+T
+T
+belt
+H
+ 
+ 
+Hence 
+(
+)
+N
+y
+x
+x
+T
+T
+R
+belt
+H
+,
+)
+(
+)
+)(
+(
+2
+1
+3
++
++
+=
+……………………………………………..….(4) 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+21
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+RH2(belt) + RH3(belt) – (T1+T2) =0………………………………………….(5) 
+ 
+By substituting equation (4) in equation(5) we get, 
+(
+)
+)
+(
+)
+)(
+(
+)
+(
+)
+)(
+(
+)
+(
+2
+1
+2
+1
+2
+1
+2
+y
+x
+y
+T
+T
+y
+x
+x
+T
+T
+T
+T
+R
+elt
+b
+H
++
++
+=
++
++
+−
++
+=
+ 
+ 
+If x=y, then, 
+(
+)
+(
+)
+)
+2
+(
+)
+(
+2
+1
+3
+2
+T
+T
+R
+R
+t
+bel
+H
+belt
+H
++
+=
+=
+ 
+                            
+Reactions at bearing 2 and 3 due to Weight of the Flywheel, 
+ 
+Due to this there will be two Vertical reactions, Rv2(W) at bearing 2, and Rv3(W), at bearing 
+3, so that, 
+To find the reactions Rv2(W0 and Rv3(W) 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+(
+)
+0
+)
+(
+)
+)(
+(
+3
+=
++
+−
+y
+x
+R
+x
+W
+W
+v
+ 
+ 
+Hence 
+(
+)
+N
+y
+x
+x
+W
+R
+W
+v
+,
+)
+(
+)
+)(
+(
+3
++
+=
+…………………………………………………….(6) 
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+Rv3(W) + RV2(W) – (W) =0………………………………………….(7) 
+By substituting equation (6) in equation (7) we get, 
+(
+)
+)
+(
+)
+)(
+(
+)
+(
+)
+)(
+(
+)
+(
+2
+2
+y
+x
+y
+W
+y
+x
+x
+W
+W
+R
+W
+v
++
+=
++
+−
+=
+ 
+If x=y, then 
+(
+)
+)
+2
+(
+)
+(
+)
+(
+3
+2
+W
+R
+R
+W
+V
+W
+V
+=
+=
+ 
+               
+In this position of the crank, there will be no twisting moment, and the various parts will 
+be designed for bending only. 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+22
+6.4a.1 CRANKPIN:  
+ 
+The bending moment at the centre of the crankpin is, 
+( )
+)
+(
+1
+a
+R
+M
+F
+H
+=
+, N-mm 
+We know that,  
+c
+I
+M
+σ
+=
+………………………………………………………..(1.16/3) 
+ 
+Substituting the values of 
+2
+p
+d
+C =
+ and 
+64
+4
+p
+d
+I
+π
+=
+ in Equation 1.16 and solving for M we 
+get,  
+)
+)(
+64
+(
+2
+)
+(
+4
+p
+p
+b
+b
+d
+d
+I
+c
+M
+π
+σ
+σ
+⎟⎟
+⎠
+⎞
+⎜⎜
+⎝
+⎛
+=
+=
+ 
+)
+(
+32
+3
+b
+p
+d
+M
+σ
+π
+=
+, N-mm 
+Knowing the value of Bending moment M and allowable stress in bending, σb, diameter 
+of the Crankpin dp can be obtained. 
+ 
+Length of the crankpin (lp) can be obtained by suitably choosing/assuming the value of 
+allowable bearing pressure and using the following formula; 
+Bearing pressure, 
+)
+)(
+(
+p
+p
+b
+d
+l
+F
+p =
+, MPa 
+Length of the crankpin, 
+)
+)(
+(
+b
+p
+p
+p
+d
+F
+l
+=
+, mm 
+Or we can use empirical relation as lp=(0.8 to 1.3) dp ………………………(Page No 50) 
+ 
+6.4a.2  Left Hand Crank Web: 
+The crank web is designed for eccentric loading. There will be two stresses on it, one 
+direct compressive stress and the other bending stress due to the gas load F. 
+ 
+The thickness h=0.22D to 0.32 D or 
+                         =0.5 dp to 0.9 dp ……………………………….…………(Page No 50) 
+                         =0.65 dp  + 6.35mm………………………………………(Page No 50) 
+ 
+The width ‘w’may be assumed to be as follows: 
+ 
+mm
+d
+w
+p
+,7.
+12
+8
+9
++
+=
+ 
+    = (1.1 to 1.2) dp, mm……………………………………………………(Page No 50) 
+ 
+Since the empirical relations are used it is advised to check the developed stresses against 
+the given values. 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+23
+Direct stresses(σd)  
+( ) MPa
+h
+w
+R
+F
+H
+d
+,)
+)(
+(
+1
+=
+σ
+ 
+ 
+Bending stresses: (σb) 
+ 
+c
+I
+M
+b
+σ
+=
+;    ………………………………………………………..(1.16/3) 
+( )
+)
+2
+2
+(
+1
+h
+l
+a
+R
+M
+p
+F
+H
+−
+−
+=
+ 
+ 
+12
+3
+wh
+I =
+ And
+2
+h
+c =
+  
+Substituting the values of M, c and I in bending equation (1.16/3) we get  
+( )
+MPa
+wh
+h
+l
+a
+R
+p
+F
+H
+b
+),
+6
+)(
+2
+2
+(
+2
+1
+−
+−
+=
+σ
+ 
+Superimposing the direct and bending stresses we get total stress on the web, which must 
+not exceed the allowable stress   in bending. Otherwise increase the value of thickness 
+and width and recheck the design. 
+ 
+6.4a.3Right  Hand Crank Web: 
+Since the bearing 1 and 2 are usually of the same length and symmetrical to the cylinder 
+centerline, therefore RH1(F) and RH2F() are equal. Hence normally same dimensions are 
+adopted for both crank webs. 
+ 
+Otherwise, providing the dimensions empirically as used in Left hand crank web and 
+check is made as follows: 
+( )
+)
+2
+2
+(
+1
+1
+h
+l
+a
+R
+M
+p
+F
+H
+−
++
+=
+ 
+MPa
+wh
+h
+l
+a
+R
+p
+F
+H
+b
+),
+6
+)(
+2
+2
+(
+2
+)
+(
+1
+−
++
+=
+σ
+ 
+Superimposing the direct and bending stresses we get total stress on the web, and check 
+against the allowable stresses. To avoid the manufacturing difficulties keep the same 
+dimensions for both Webs by taking higher h and w values.  
+ 
+6.4a.4  Shaft Under the Flywheel: [Diameter of the shaft  between bearing 2 and 3] 
+Bending moment due to flywheel weight is 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+W
+V
+FLY =
+ 
+  Bending moment due to the belt pull is 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+BELT
+H
+belt =
+ 
+Since these bending moments act at right angles to each other, the combined bending 
+moment is given by; 
+2
+2
+belt
+FLY
+Total
+M
+M
+M
++
+=
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+24
+We know that 
+)
+)(
+64
+(
+2
+)
+(
+4
+W
+W
+b
+b
+Total
+d
+d
+I
+c
+M
+π
+σ
+σ
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+=
+ 
+)
+(
+32
+3
+b
+W
+total
+d
+M
+σ
+π
+=
+, N-mm,   
+Where dW is diameter of the shaft under flywheel and  
+       σb is allowable stress in bending. Its value should be taken low to take care of 
+reversal of stresses in each revolution and to ensure necessary rigidity.  
+  
+6.4b Crank at an angle of maximum twisting moment 
+The twisting moment on the crankshaft will be maximum, when the tangential force Ft is 
+maximum and this can be calculated graphically by taking pressures from the net effort 
+diagram for different crank angles. The angle usually lies between 250 to 350from the 
+dead center for a constant volume combustion engines and between 300 to 400 for 
+constant pressure combustion engines. At this angle, the gas pressure will not be 
+maximum. If Fp is the gas load along the cylinder centerline, then the thrust FC along the 
+connecting rod is given by (Ref Figure 21 or same as FIG 3.1/50  in design data book) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The force on the connecting Rod or thrust force  
+Ft 
+FC
+FC
+Fr 
+ϕ
+θ
+Figure 21. Forces on crank 
+Arm
+FP 
+)
+cos(φ
+P
+C
+F
+F =
+…………………………………………………………………….(3.12/45) 
+The tangential force or the rotative effort on the crank 
+ 
+)
+cos(
+)
+sin(
+)
+sin(
+φ
+θ
+φ
+θ
+φ
++
+=
++
+=
+P
+C
+F
+F
+Ft
+……………………………………………….(3.13/45) 
+The radial force along the crank 
+)
+cos(
+)
+cos(
+)
+cos(
+φ
+θ
+φ
+θ
+φ
++
+=
++
+=
+P
+C
+F
+F
+Fr
+………………………….………………….(3.14/45) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+25
+ 
+a 
+b 
+1 
+x 
+2 
+y 
+3 
+FP 
+T1+T2 
+W
+RV2(W)
+RH3(BELT)
+RH2(BELT
+RH2FT
+RH2FR
+RH1FR
+RH1FT
+Ft 
+Fr 
+R
+Figure 22. Force Analysis of Crank at angle of 
+maximum twisting Moment
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tangential force Ft will have two reactions RH1FT and RH2FT  at bearing 1 and 2 
+respectively. 
+Radial force Fr will have two reactions RH1FR and RH2FR   at bearing 1 and 2 respectively. 
+The reactions at the bearings 2 and 3 due to belt pull (T1+T2) and Flywheel W will be 
+same as before.  
+In this position of the crankshaft, the different sections will be subjected to both bending 
+and torsional moments and these must be checked for combined stress. At this point, 
+Shear stress is taken as failure criteria for crankshaft. 
+The reactions due Radial force (Fr): 
+To find the reactions RH1FR and RH2FR 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+0
+)
+(
+)
+(
+1
+=
++
++
+−
+b
+a
+R
+b
+F
+FR
+H
+r
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+26
+                  
+)
+(
+)
+(
+1
+b
+a
+b
+F
+R
+r
+FR
+H
++
+=
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+0
+2
+1
+=
++
++
+−
+FR
+H
+FR
+H
+r
+R
+R
+F
+ 
+)
+(
+)
+(
+1
+2
+b
+a
+b
+F
+F
+R
+F
+R
+r
+r
+FR
+H
+r
+FR
+H
++
+−
+=
+−
+=
+ 
+)
+(
+)
+(
+2
+b
+a
+a
+F
+R
+r
+FR
+H
++
+=
+ 
+ 
+The reactions due tangential force (Ft): 
+To find the reactions RH1FT and RH2FT 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+0
+)
+(
+)
+(
+1
+=
++
++
+−
+b
+a
+R
+b
+F
+FT
+H
+T
+ 
+                  
+)
+(
+)
+(
+1
+b
+a
+b
+F
+R
+T
+FT
+H
++
+=
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+0
+2
+1
+=
++
++
+−
+FT
+H
+FT
+H
+T
+R
+R
+F
+ 
+)
+(
+)
+(
+1
+2
+b
+a
+b
+F
+F
+R
+F
+R
+T
+T
+FT
+H
+T
+FT
+H
++
+−
+=
+−
+=
+ 
+)
+(
+)
+(
+2
+b
+a
+a
+F
+R
+T
+FT
+H
++
+=
+ 
+ 
+The reactions at the bearings 2 and 3due to Flywheel weight (W) and resultant belt pull 
+(T1+T2) will be as discussed earlier. 
+ 
+6.4b.1 Crank pin: 
+The bending moment at the centre of the crankpin is, 
+)
+(
+1
+a
+R
+M
+FR
+H
+b =
+, N-mm 
+The Twisting moment is, 
+, N-mm 
+)
+(
+1
+R
+R
+T
+FT
+H
+=
+Equivalent twisting moment, 
+mm
+N
+M
+T
+T
+b
+e
+−
++
+=
+,
+2
+2
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+27
+We know that 
+r
+J
+Te
+τ
+=
+………………………………………………………………..(1.15/3) 
+ 
+Here Te=torque or Torsional moment, N-mm 
+         J=polar moment of inertia, mm4
+             = 
+4
+32
+p
+d
+π
+, Where dp is the solid shaft diameter. 
+        τ= allowable shear stress, MPa 
+         r= Distance from the Neutral axis to the top most fibre, mm = 2
+P
+d
+  
+Substituting the values of J and r in equation 1.15 and simplifying we get, 
+     
+)
+(
+16
+3 τ
+π
+P
+e
+d
+T =
+, N-mm 
+From this equation the diameter of the crank pin can be obtained. 
+Length of the crankpin (lp) can be obtained by suitably choosing/assuming the value of 
+allowable bearing pressure and using the following formula; 
+Bearing pressure, 
+)
+)(
+(
+p
+p
+b
+d
+l
+F
+p =
+, MPa 
+Length of the crankpin, 
+)
+)(
+(
+b
+p
+p
+p
+d
+F
+l
+=
+, mm 
+Or we can use empirical relation as lp=(0.8 to 1.3) dp ………………………(Page No 50) 
+ 
+6.4b.2 Shaft under the Flywheel: [Diameter of the shaft  between bearing 2 and 3] 
+The collective bending moment due to flywheel and the belt pull will be the same as 
+earlier.  
+Bending moment due to flywheel weight is 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+W
+V
+FLY =
+ 
+ Bending moment due to the belt pull is 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+BELT
+H
+belt =
+ 
+Since these bending moments act at right angles to each other, the combined bending 
+moment is given by; 
+2
+2
+belt
+FLY
+Total
+M
+M
+M
++
+=
+, N-mm 
+ 
+In addition to this moment there will be a twisting moment because of tangential force Ft. 
+The twisting moment, 
+, N-mm 
+)
+(R
+F
+T
+t
+=
+Therefore Equivalent twisting moment,  
+mm
+N
+M
+T
+T
+Total
+e
+−
++
+=
+,
+2
+2
+ 
+We have, 
+)
+(
+16
+3 τ
+π
+W
+e
+d
+T =
+, N-mm, Diameter of the shaft under flywheel dW can be 
+obtained. 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+28
+6.4b.3 Right hand Crank Web: 
+We have used empirical formulae to obtain the values of crank web dimensions. And also 
+we know that the Right hand Crank Web is severely stressed. In order to find the 
+correctness of the dimensions of the web it is necessary to check the developed stresses 
+against the allowable stresses. This web is subjected to bending stresses in two planes 
+normal to each other, due to radial and tangential components of FP; to direct 
+compression; and to torsion.  
+ 
+The bending moment due to radial component is 
+)
+2
+2
+(
+2
+h
+l
+b
+R
+M
+p
+FR
+H
+rad
+−
+−
+=
+, N-mm 
+MPa
+bh
+M rad
+rad
+),
+6
+(
+2
+=
+σ
+………………………………………………………………….………….(8) 
+The bending moment due to tangential component is maximum at the juncture of the 
+crank and shaft. 
+)
+(R
+F
+M
+t
+Tang =
+, N-mm (Since here shaft diameter at junction is not considered for 
+calculation. By doing so the bending moment increases and hence the stresses, which 
+leads to safer side.) 
+MPa
+h
+w
+M Tang
+Tang
+),
+6
+(
+2
+=
+σ
+………………………………………………………………………….(9) 
+The stress due to direct compression,  
+MPa
+bh
+Fr
+d
+,
+2
+=
+σ
+………….………………………….(10) 
+Superimposing the stresses (At the upper left corner to the cross section of the crank) will 
+be equal to (Addition of equation 8,8 and 10) 
+ 
+MPa
+d
+Tang
+rad
+total
+,
+σ
+σ
+σ
+σ
++
++
+=
+…………………………………………………………………….(11) 
+Now the twisting moment, on the arm is 
+mm
+N
+l
+b
+R
+l
+F
+l
+a
+R
+T
+p
+FT
+H
+p
+T
+p
+HIFT
+−
+−
+=
+−
++
+=
+),
+2
+(
+)
+2
+(
+)
+2
+(
+2
+ 
+We know that,  
+Shear stress,  
+Z
+T
+c
+J
+T
+=
+=
+)
+(
+τ
+ ……………………………..………………………………………………………….(12) 
+Where Z – polar section modulus, = 
+3
+2
+,
+5.4
+mm
+bh
+ 
+Therefore maximum combined stress is given by, 
+Where, Zp=polar section modulus 
+Total combined stress, 
+ 
+2
+2
+1
+2
+2
+xy
+y
+x
+y
+x
+τ
+σ
+σ
+σ
+σ
+σ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+………………………………..(1.11a/2) 
+Here σ1= σmax; τxy=τ ; σx= σtotal; σy= 0; 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+Calculated σmax must be within limits. If it exceeds the safe limit, b can be increased 
+since it does not affect any other dimension. 
+ 
+6.4b.4 Left hand Crank Web: 
+This crank web is less severely stressed than the right hand crank since it is not to 
+transmit any power while the right hand crank transmits the power to the flywheel and to 
+the power take off.   Hence there is no need to check the left hand crank and its 
+dimensions may be taken as that of the right hand crank. 
+6.4b.4 Crankshaft bearings:  
+The distance between bearing 1 and bearing 2 may be assumed to be equal to twice  the 
+cylinder diameter.  From the length of the crankpin and the thickness of the arm, the 
+lengths of the bearings can be found out.  Bearing 2 is the most heavily loaded, therefore, 
+only this bearing may be checked for the safe bearing pressure.  
+We know that the total reaction at the bearing 2,     
+2
+2
+2
+2
+1
+2
+T
+T
+W
+F
+R
+p
++
++
++
+=
+, N 
+Therefore bearing pressure 
+MPa
+d
+L
+R
+pb
+,)
+)(
+(
+2
+=
+ 
+Where L and d are the length and diameter of the bearing. The bearing design details are 
+not discussed here, as it is beyond the scope of this subject. 
+6.5 Analysis of side Crank Shaft: 
+ The analysis of the side crankshaft is on the same lines as for centre crankshaft.  Before 
+the crankshaft is checked for the positions of maximum bending moment and that of 
+maximum twisting moment, the approximate dimensions for the crank pin and the 
+journals may be found. 
+The side or overhung crankshafts are used for medium size and large horizontal engines. 
+Their main advantage is that it requires only two bearings in either the single or two 
+crank constructions.  
+ The analysis of the shaft is done at two positions:- 
+1. When the crank is at dead centre (maximum bending moment) 
+2. When the crank is at angle of maximum twisting moment.  
+ 
+ 
+ 
+ 
+r
+w
+ Figure.23 Simple Side Crank Shaft
+ls 
+dp 
+lp 
+ds 
+ 
+ 
+ 
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+ 18 to 30 -2007 
+29
+24 to 28, Oct
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+30
+6.5.1 When the crank is at dead centre 
+Consider a side crankshaft at dead centre with its loads and distances of their 
+application.(Ref Figure 12). The notations used are same as that of center crank shaft. 
+ 
+We know that  
+Gas Load,  
+max
+2 *
+4
+p
+D
+F
+π
+=
+ , Where D is the diameter of the piston in mm and                              
+pmax is the maximum gas pressure 
+ 
+Due to this piston gas load there will be two horizontal reactions, RH1(F) at bearing 1, and 
+RH2(F) , at bearing 2. 
+ 
+To find the reactions RH1(F) and RH2(F) 
+ 
+∑
+= 0
+1
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+( )
+0
+)
+(
+)
+(
+2
+=
++
++
+−
+y
+x
+R
+b
+F
+F
+H
+……………………………………..…………(13) 
+RV2(W)
+x 
+1 
+y 
+2 
+T1+T2 
+W
+RH2(F)
+R2
+R1 
+RV1(W)
+RH1(BELT)
+RH1(BELT)
+RH1(F)
+b 
+Figure 24. Force Analysis of side Crank at Dead Center 
+F 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+31
+Hence 
+( )
+N
+y
+x
+b
+F
+R
+F
+H
+,)
+(
+)
+(
+2
++
+=
+………..………………………………………………….(14) 
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+RH1(F) - RH2(F) -F =0……………………………………………………….(15) 
+By substituting equation 14 in equation 15 we get, 
+ 
+( )
+N
+y
+x
+y
+x
+b
+F
+y
+x
+b
+F
+F
+R
+F
+H
+,
+)
+(
+)
+(
+)
+(
+)
+(
+1
++
++
++
+=
++
++
+=
+ 
+ 
+Besides gas load, in between bearings 1 and 2, we have two loads  
+iii) 
+Belt pull (T1 + T2 ),  acting horizontally as shown in Figure 12 
+iv) 
+Weight of the Flywheel (W), acting vertically as shown in Figure 12 
+    
+Reactions at bearing 1 and 2 due to Belt Pull, 
+Due to this there will be two horizontal reactions, RH1(belt) at bearing 1, and RH2(belt)  at 
+bearing 2. 
+To find the reactions RH2(belt) and RH3(belt) 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+(
+)
+0
+)
+(
+)
+)(
+(
+1
+2
+1
+=
++
++
++
+−
+y
+x
+R
+y
+T
+T
+belt
+H
+ 
+ 
+Hence 
+(
+)
+N
+y
+x
+y
+T
+T
+R
+belt
+H
+,
+)
+(
+)
+)(
+(
+2
+1
+1
++
++
+=
+……………………………………………..……...(16) 
+ 
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+RH1(belt) + RH2(belt) – (T1+T2) =0………………………………………….(17) 
+ 
+By substituting equation (16) in equation(17) we get, 
+(
+)
+)
+(
+)
+)(
+(
+)
+(
+)
+)(
+(
+)
+(
+2
+1
+2
+1
+2
+1
+2
+y
+x
+x
+T
+T
+y
+x
+y
+T
+T
+T
+T
+R
+elt
+b
+H
++
++
+=
++
++
+−
++
+=
+ 
+ 
+If x=y, then, 
+(
+)
+(
+)
+)
+2
+(
+)
+(
+2
+1
+3
+2
+T
+T
+R
+R
+t
+bel
+H
+belt
+H
++
+=
+=
+ 
+                            
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+32
+Reactions at bearing 1 and 2 due to Weight of the Flywheel (W), 
+Due to this there will be two Vertical reactions, Rv1(W) at bearing1, and Rv2(W), at bearing2. 
+To find the reactions Rv1(W) and Rv2(W) 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+(
+)
+0
+)
+(
+)
+)(
+(
+1
+=
++
++
+−
+y
+x
+R
+y
+W
+W
+v
+ 
+ 
+Hence 
+(
+)
+N
+y
+x
+y
+W
+R
+W
+v
+,
+)
+(
+)
+)(
+(
+1
++
+=
+………………………………………………….…….(18) 
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+Rv2(W) + RV1(W) – (W) =0…………………………………………..….(19) 
+By substituting equation (18) in equation (19) we get, 
+(
+)
+)
+(
+)
+)(
+(
+)
+(
+)
+)(
+(
+)
+(
+2
+y
+x
+x
+W
+y
+x
+y
+W
+W
+R
+W
+v
++
+=
++
+−
+=
+ 
+ 
+If x=y, then 
+(
+)
+)
+2
+(
+)
+(
+)
+(
+2
+1
+W
+R
+R
+W
+V
+W
+V
+=
+=
+ 
+               
+In this position of the crank, there will be no twisting moment, and the various parts will 
+be designed for bending only. 
+If the student choose a wrong direction for RH2(F) due to gas force F,  then after solving we 
+get negative value of RH2(F).  It clearly indicates that the chosen direction is wrong and 
+further calculations are carried out by changing the direction of the reaction. 
+ 
+6.5.1a CRANKPIN:  
+The dimensions of the crankpin are obtained by considering the crankpin in bearing and 
+then checked for bending stress. 
+ 
+We know that bearing pressure 
+)
+)(
+(
+p
+p
+b
+d
+l
+F
+p =
+…………………………………..(20) 
+Where lp and dp are length and diameter of the crankpin respectively. 
+pb is the allowable bearing pressure on the pin, MPa 
+The value of Allowable bearing pressure is available in Table 3.6/49 for various class of 
+work. For example pb = 2.5 to 2.75 MPa for Automobile Engines. 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+33
+The length of the crankpin is approximately taken as (0.8 to 1.1) diameter of the 
+crankpin.[Refer page no 50 of the data hand book] 
+By taking suitable ratio of length to crank pin, and using equation (20), length and 
+diameter of the pin can be obtained. 
+The crankpin is now checked for bending stress. If it is assumed that the crankpin acts as 
+a cantilever and the load on the crankpin is uniformly distributed, then maximum bending 
+moment will be  
+2
+)
+)(
+(
+pl
+F
+M =
+. But in actual practice, the bearing pressure on the crankpin is not 
+uniformly distributed and may, therefore, give a greater value of bending moment 
+ranging between 
+2
+)
+)(
+(
+pl
+F
+M =
+ and
+)
+)(
+(
+pl
+F
+M =
+.  
+So a mean value of bending moment i.e. 
+)
+)(
+(
+4
+3
+pl
+F
+M
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+ may be used. 
+We know that,  
+c
+I
+M
+b
+σ
+=
+………………………………………………………..(1.16/3) 
+Substituting the values of 
+2
+p
+d
+c =
+ and 
+64
+4
+p
+d
+I
+π
+=
+ in Equation 1.16 and solving for σb we 
+get,  
+)
+)(
+64
+(
+2
+)
+(
+4
+p
+p
+b
+b
+d
+d
+I
+c
+M
+π
+σ
+σ
+⎟⎟
+⎠
+⎞
+⎜⎜
+⎝
+⎛
+=
+=
+ 
+ 
+p
+b
+d
+M
+3
+32
+)
+(
+π
+σ
+=
+, MPa. 
+This induced bending stress should be within the permissible limits. 
+ 
+ 
+6.5.1b Design of Bearing:  
+The bending moment at the center of the bearing 1 is given by 
+)
+(b
+F
+M =
+, N-mm,  (Assuming that the gas force is acting at 0.75 times of the crankpin 
+length from the crank web.)  
+ 
+We know that,  
+c
+I
+M
+b
+σ
+=
+………………………………………………………..(1.16/3) 
+Substituting the values of 
+2
+1
+d
+c =
+ and 
+64
+4
+1
+d
+I
+π
+=
+ in Equation 1.16 and solving for d1 we 
+get,  
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+34
+)
+)(
+64
+(
+2
+)
+(
+4
+1
+1
+d
+d
+I
+c
+M
+b
+b
+π
+σ
+σ
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+=
+ 
+ 
+)
+(
+)
+32
+(
+3
+1
+d
+M
+b
+σ
+π
+=
+………………………………………………………………………(21) 
+From equation (21) the diameter of the bearing can be obtained. Length of the bearing 
+can be found by taking, l1=1.5d1 to 2d1. 
+The bearing 2 is also made of the same diameter. The length of the bearing is found on 
+the basis of allowable bearing pressure and maximum reactions at the bearings. 
+ 
+6.5.1c Design of Shaft under the flywheel  
+ 
+The total bending moment at the flywheel location will be the resultant of horizontal 
+bending moment due to gas load and belt pull and the vertical bending moment due to the 
+flywheel weight. 
+Horizontal Bending Moment due to ; 
+i) 
+Piston Gas load 
+      
+ )
+(
+)
+(
+)
+(
+1
+x
+R
+x
+b
+F
+M
+F
+H
+Gas
+−
++
+=
+ii) 
+Belt Pull 
+ 
+ )
+(
+)
+(
+2
+y
+R
+M
+BELT
+H
+Belt =
+ 
+Therefore total horizontal bending moment is  
+MHOR=MGas+MBelt……………………………………………………………………(22) 
+ 
+Vertical Bending Moment due to ; 
+i) 
+Flywheel 
+)
+(
+)
+(
+2
+y
+R
+M
+W
+v
+Vert =
+ 
+ 
+Resultant Bending Moment 
+Vert
+HOR
+R
+M
+M
+M
+2
+2
+(
++
+=
+ 
+ 
+We know that, 
+)
+(
+)
+32
+(
+3
+S
+b
+R
+d
+M
+σ
+π
+=
+…………………………………………………………………(23) 
+From equation diameter of the shaft dS can be obtained. 
+ 
+6.5.1d Design of Crank Web:  
+When the crank is dead centre, the crank web is subjected to a bending moment and a 
+direct compressive stress. 
+The thickness and width of the crank web is fixed by empirical relations and checked for 
+induced stresses.  
+Thickness of crank web t=(0.5 to 0.9) dp  
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+35
+Width of crank web b=(1.1 to 1.2 )ds
+Where dp and ds are diameter of crankpin and crank shaft respectively. 
+Where d
+Width of crank web b=(1.1 to 1.2 )ds
+p and ds are diameter of crankpin and crank shaft respectively. 
+Check: 
+Check: 
+Maximum bending moment on the crank web  
+Maximum bending moment on the crank web  
+)
+*
+75
+.0
+5.0
+(
+pl
+t
+F
+M
++
+=
+ )
+*
+75
+.0
+5.0
+(
+pl
+t
+F
+M
++
+=
+12
+3
+bt
+I =
+ And
+2
+t
+c =
+  
+We know that  
+)
+(
+)
+(
+c
+I
+M
+b =
+σ
+………………………………………………………………………..(22) 
+Substituting the values of M,c and I in the equation (22), we get  
+2
+6
+)
+(
+bt
+M
+b =
+σ
+…………………………………………………………………………..(23) 
+Direct stress 
+bt
+F
+d
+=
+)
+(σ
+…………………….………………………………………..(24) 
+ 
+Superimposing the stresses we get, 
+ 
+)
+(
+)
+(
+)
+(
+)
+(
+allowable
+d
+b
+Total
+σ
+σ
+σ
+σ
+≤
++
+=
+ 
+ 
+6.5.2 When the crank is at an angle of maximum twisting moment: 
+RV2(W)
+Consider a position of the crank at angle of maximum twisting moment as shown in 
+Figure 25.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+b 
+x 
+1 
+y 
+2 
+T1+T2 
+W
+RH1(BELT)
+RH2(BELT)
+RV1(W)
+Figure 25. Force Analysis of Side Crank at angle 
+of maximum twisting Moment
+Fr 
+Ft 
+RH1FR
+RH1FT
+RH2FR
+R
+RH2FT
+FP 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+36
+The twisting moment on the crankshaft will be maximum, when the tangential force Ft is 
+maximum and this can be calculated graphically by taking pressures from the net effort 
+diagram for different crank angles. The angle usually lies between 250 to 350from the 
+dead center for a constant volume combustion engines and between 300 to 400 for 
+constant pressure combustion engines. At this angle, the gas pressure will not be 
+maximum. If Fp is the gas load along the cylinder centerline, then the thrust FC along the 
+connecting rod is given by (Ref Figure 8 or same as FIG 3.1/50  in design data book) 
+Ft 
+FC
+FC
+Fr 
+ϕ
+θ
+Figure 26. Forces on crank 
+Arm
+FP 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The force on the connecting Rod or thrust force  
+)
+cos(φ
+P
+C
+F
+F =
+…………………………………………………………………….(3.12/45) 
+The tangential force or the rotative effort on the crank 
+ 
+)
+cos(
+)
+sin(
+)
+sin(
+φ
+θ
+φ
+θ
+φ
++
+=
++
+=
+P
+C
+F
+F
+Ft
+……………………………………………….(3.13/45) 
+The radial force along the crank 
+ 
+)
+cos(
+)
+cos(
+)
+cos(
+φ
+θ
+φ
+θ
+φ
++
+=
++
+=
+P
+C
+F
+F
+Fr
+………………………….………………….(3.14/45) 
+Tangential force Ft will have two reactions RH1FT and RH2FT  at bearing 1 and 2 
+respectively. 
+Radial force Fr will have two reactions RH1FR and RH2FR   at bearing 1 and 2 respectively. 
+The reactions at the bearings 1 and 2 due to belt pull (T1+T2) and Flywheel W will be 
+same as before.  
+In this position of the crankshaft, the different sections will be subjected to both bending 
+and torsional moments and these must be checked for combined stress. At this point, 
+Shear stress is taken as failure criteria for crankshaft. 
+The reactions due Radial force (Fr): 
+To find the reactions RH1FR and RH2FR 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+37
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+0
+)
+(
+)
+(
+1
+=
++
++
++
++
+−
+y
+x
+R
+y
+x
+b
+F
+FR
+H
+r
+ 
+                  
+)
+(
+)
+(
+1
+y
+x
+y
+x
+b
+F
+R
+r
+FR
+H
++
++
++
+=
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+0
+2
+1
+=
+−
++
+−
+FR
+H
+FR
+H
+r
+R
+R
+F
+ 
+)
+(
+)
+(
+1
+2
+y
+x
+y
+x
+b
+F
+F
+R
+F
+R
+r
+r
+FR
+H
+r
+FR
+H
++
++
++
+−
+=
+−
+=
+ 
+)
+(
+)
+(
+2
+y
+x
+b
+F
+R
+r
+FR
+H
++
+=
+ 
+ 
+ 
+The reactions due tangential force (Ft): 
+To find the reactions RH1FT and RH2FT 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+0
+)
+(
+)
+(
+1
+=
++
++
++
++
+−
+y
+x
+R
+y
+x
+b
+F
+FT
+H
+T
+ 
+                  
+)
+(
+)
+(
+1
+y
+x
+y
+x
+b
+F
+R
+T
+FT
+H
++
++
++
+=
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+0
+2
+1
+=
+−
++
+−
+FT
+H
+FT
+H
+T
+R
+R
+F
+ 
+)
+(
+)
+(
+1
+2
+y
+x
+y
+x
+b
+F
+F
+R
+F
+R
+T
+T
+FT
+H
+T
+FT
+H
++
++
++
+−
+=
+−
+=
+ 
+)
+(
+)
+(
+2
+y
+x
+b
+F
+R
+T
+FT
+H
++
+=
+ 
+ 
+The reactions at the bearings 1 and 2 due to Flywheel weight (W) and resultant belt pull 
+(T1+T2) will be same as discussed earlier. 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+38
+6.5.2a Design of Crank Web: 
+The dimensions of the crank pin and Crank web are taken same as obtained in crank at 
+dead centre. 
+The most critical section is where the web joins the shaft. This section is subjected to the 
+following stresses: 
+i) 
+Bending stress due to the tangential force FT 
+ii) Bending stress due to the radial force Fr 
+iii) Direct compressive stress due to radial force Fr and  
+iv) Shear stress due to the twisting moment of FT. 
+ 
+ 
+Bending stress due to the tangential force FT
+ 
+Bending moment due to tangential force, 
+mm
+N
+d
+R
+F
+M
+p
+T
+bT
+−
+−
+=
+),
+2
+(
+ 
+Therefore bending stress due to tangential force 
+2
+6
+hw
+M bT
+bT =
+σ
+ 
+ 
+Bending stress due to the radial force Fr
+Bending moment due to the radial force, 
+)
+5.0
+75
+.0
+(
+h
+l
+F
+M
+p
+R
+bR
++
+=
+ 
+ 
+Therefore bending stress due to radial force 
+2
+6
+hw
+M bR
+bT =
+σ
+ 
+ 
+Direct compressive stress due to radial force Fr
+wh
+FR
+d =
+σ
+We know that, direct compressive stress, 
+ 
+ 
+Shear stress due to the twisting moment of FT. 
+Twisting moment due to the Tangential force, T
+)
+5.0
+75
+.0
+(
+h
+l
+F
+p
+T
++
+=
+ 
+ 
+Therefore shearing stress due to Tangential l force 
+xy
+wh
+T
+Z
+T
+r
+I
+T
+τ
+τ
+=
+=
+=
+=
+2
+5.4
+ 
+Where Z-Polar section modulus, 
+5.4
+2
+wh
+=
+ 
+Superimposing the stresses we get, 
+Total compressive stress, 
+ 
+x
+d
+bR
+bT
+C
+σ
+σ
+σ
+σ
+σ
+=
++
++
+=
+Now the total or maximum normal and maximum shear stresses are given by,  
+2
+2
+max
+2
+2
+xy
+y
+x
+y
+x
+τ
+σ
+σ
+σ
+σ
+σ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+………………………………..(1.11b/2) 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+39
+ 
+2
+2
+max
+2
+xy
+y
+x
+τ
+σ
+σ
+τ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
+±
+=
+………………………………………...(1.12/2) 
+Here σy=0;  
+This total maximum stress should be less than the maximum allowable stress. 
+ 
+ 
+6.5.2b Design of Shaft under the flywheel: 
+ 
+Horizontal bending moment acting on the shaft due to piston gas load, 
+(
+)
+(
+)
+x
+R
+R
+x
+b
+F
+M
+FT
+H
+FR
+H
+P
+H
+⎥⎦
+⎤
+⎢⎣
+⎡
++
+−
++
+=
+2
+1
+2
+1
+1
+)
+(
+ 
+ 
+Horizontal bending moment acting on the shaft due to belt pull, 
+)
+)(
+(
+)
+(
+2
+y
+R
+M
+BELT
+H
+Hbelt =
+ 
+ 
+Therefore total horizontal bending moment, 
+Hbelt
+H
+H
+M
+M
+M
++
+=
+1
+ 
+ 
+Vertical bending moment due to flywheel, 
+ 
+)
+)(
+(
+)
+(
+2
+y
+R
+M
+W
+V
+VFLY =
+ 
+ 
+Since these bending moments act at right angles to each other, the combined bending 
+moment is given by; 
+2
+2
+Ht
+VFLY
+Total
+M
+M
+M
++
+=
+, N-mm 
+ 
+In addition to this moment there will be a twisting moment because of tangential force Ft. 
+The twisting moment, 
+, N-mm 
+)
+(R
+F
+T
+t
+=
+ 
+Therefore Equivalent twisting moment,  
+mm
+N
+M
+T
+T
+Total
+e
+−
++
+=
+,
+2
+2
+ 
+We have, 
+)
+(
+16
+3 τ
+π
+W
+e
+d
+T =
+, N-mm, Diameter of the shaft under flywheel dW can be 
+obtained. 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+40
+Problems: 
+Problem No 1 
+     Design an overhung crank pin for an engine having the following particulars: 
+Cylinder diameter        
+ 
+ 
+ 
+=300mm 
+Stroke  
+ 
+ 
+ 
+ 
+ 
+=500mm 
+Maximum explosion pressure in the cylinder 
+=1.8MPa 
+Engine Speed 
+ 
+ 
+ 
+ 
+=200rpm 
+Permissible bending stress for pin  
+ 
+=1000MPa 
+Permissible Bending stress 
+ 
+ 
+=85MPa 
+ 
+Given data: 
+ Cylinder diameter        
+ 
+ 
+ 
+D=300mm 
+Stroke  
+ 
+ 
+ 
+ 
+ 
+L=500mm 
+Maximum explosion pressure in the cylinder 
+Pmax=1.8MPa 
+Engine Speed 
+ 
+ 
+ 
+ 
+N=200rpm 
+Permissible bending stress for pin  
+ 
+σb=800MPa 
+Permissible Bearing stress 
+ 
+ 
+pb=85MPa 
+ 
+Solution: 
+      We know that bearing pressure 
+)
+)(
+(
+p
+p
+b
+d
+l
+F
+p =
+------------------------------(P1.1) 
+Where lp and dp are length and diameter of the crankpin respectively. 
+pb is the allowable bearing pressure on the pin, MPa 
+ The length of the crankpin is approximately taken as (0.8 to 1.1) diameter of the         
+crankpin.[Refer page no 50 of the data hand book] 
+       Let us take lp=1.1dp 
+          We know that gas load  
+max
+2 *
+4
+p
+D
+F
+π
+=
+ 
+ 
+  
+N
+F
+50
+.
+127234
+8.1
+*
+300
+4
+2
+=
+= π
+ 
+      Substituting the values in equation (P1.1) we get 
+ 
+  
+)
+)(
+1.1(
+50
+.
+127234
+85
+p
+p
+d
+d
+=
+      Diameter of the crank pin = dp=36.88mm 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+41
+      Referring the table 3.5a/48, standard diameter of dp=40mm is taken. 
+ Length of the crankpin lp=(1.1)(40)=44mm 
+Check: 
+)
+)(
+(
+4
+3
+pl
+F
+M
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+  
+We know that,  
+c
+I
+M
+b
+σ
+=
+………………………………………………………..(1.16/3) 
+Substituting the values of 
+2
+p
+d
+c =
+ and 
+64
+4
+p
+d
+I
+π
+=
+ in Equation 1.16 and solving for σb we 
+get,  
+ 
+p
+b
+d
+M
+3
+32
+)
+(
+π
+σ
+=
+, MPa. 
+MPa
+b
+25
+.
+668
+)
+40
+(
+)
+75
+.0
+)(
+44
+)(
+50
+.
+127234
+(
+32
+)
+(
+3
+=
+=
+π
+σ
+<800MPa,  hence safe. 
+ 
+Problem No 2 
+ A force of 120kN acts tangentially on the crank pin of an overhang crank. The axial 
+distance between the centre of the crankshaft journal and the crank pin is 400mm and the 
+crank is 500mm long. Determine 
+a) Diameter and length of the crankpin journal. 
+b) Diameter of the shaft journal 
+      Given that: 
+      
+Safe bearing pressure  
+ 
+ 
+: 5MPa 
+ 
+Bending stress  
+ 
+ 
+ 
+: 65MPa 
+ 
+Principal stress in the shaft journal 
+ 
+: 65 MPa       FEB 2005, [12M] VTU 
+ 
+Given Data: 
+ 
+   Referring to Figure 24,  
+  b=400mm and R=500mm 
+  pb=5MPa,  σb=65MPa, σmax =65MPa, F=120(10)3N 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+42
+Solution: 
+a) We know that, Bearing pressure 
+p
+p
+b
+d
+l
+F
+p
+*
+=
+ 
+And assuming ratio of length to diameter of the crank pin as 1.3, 
+p
+p
+d
+d
+*
+)
+(
+3.1
+)
+10
+(
+120
+5
+3
+=
+ 
+Solving we get, diameter of the crank pin dp= 135.87mm 
+Adopting the standard diameter dp= 140mm [ T3.4/48] 
+ Minimum length of the crankpin, 
+p
+b
+p
+d
+p
+F
+l
+*
+=
+=
+140
+*
+5
+)
+10
+(
+120
+3
+= 171.4mm 
+Check: 
+)
+)(
+(
+4
+3
+pl
+F
+M
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+ ; We know that, 
+c
+I
+M
+b
+σ
+=
+………………………………………(1.16/3) 
+Substituting the values of 
+2
+p
+d
+c =
+ and 
+64
+4
+p
+d
+I
+π
+=
+ in Equation 1.16 and solving for σb we get, 
+p
+b
+d
+M
+3
+32
+)
+(
+π
+σ
+=
+, MPa;  
+MPa
+MPa
+b
+65
+26
+.
+57
+)
+140
+(
+)
+75
+.0
+)(
+4.
+171
+(
+)
+10
+)(
+120
+(
+32
+)
+(
+3
+3
+<
+=
+=
+π
+σ
+,hence safe. 
+b) Bending moment at the shaft journal  
+M=F(b)=120(10)3(400)=48(10)6, N-mm 
+Twisting moment at the shaft journal, 
+T=F(R)=120(10)3(500)=60(10)6, N-mm 
+According to maximum normal stress theory, 
+3
+1
+4
+2
+2
+max
+1
+1
+)
+(
+16
+⎥⎦
+⎤
+⎢⎣
+⎡
+−
++
++
+=
+K
+X
+T
+M
+M
+d S
+πσ
+-----------------------------(3.5a/42) 
+Here, because of solid shaft, K=0,  
+Substituting the values of M, T and σmax in equation 3.5a we get  
+(
+)
+3
+1
+2
+6
+2
+6
+6
+)
+)
+10
+(
+60
+)
+)
+10
+(
+48
+(
+)
+10
+(
+48
+(
+)
+65
+(
+16
+⎥⎦
+⎤
+⎢⎣
+⎡
++
++
+= π
+S
+d
+ 
+     = 213.85mm 
+Taking ds=220mm as standard diameter (T3.4/48) 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+43
+Problem No 3 
+Determine the maximum normal stress and the maximum shear stress at section A-A for 
+the crank shown in Figure 15 when a load of 10kN is assumed to be concentrated at the 
+center of the crank pin. 
+ Figure.27  
+125
+A
+A 40
+25
+25
+100
+R25
+R37.5
+10kN
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bending moment M=10(10)3(40+25+25)=9(10)5, N-mm 
+Twisting moment T=10(10)3(125)=12.5(10)5, N-mm 
+MPa
+I
+y
+M
+x
+73
+.
+21
+)
+75
+(
+)
+64
+)(
+5.
+37
+(
+)
+10
+(
+9
+)
+(
+4
+5
+=
+=
+=
+π
+σ
+ 
+ 
+MPa
+J
+c
+T
+xy
+10
+.
+15
+)
+75
+(
+)
+32
+)(
+5.
+37
+(
+)
+10
+(
+5.
+12
+)
+(
+4
+5
+=
+=
+=
+π
+τ
+ 
+ 
+Maximum Principal Stress:(σ1) 
+2
+2
+1
+2
+2
+xy
+y
+x
+y
+x
+τ
+σ
+σ
+σ
+σ
+σ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+………………………………..(1.11a/2) 
+2
+2
+1
+10
+.
+15
+2
+0
+72
+.
+21
+2
+0
+73
+.
+21
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+σ
+=29.46MPa 
+ 
+Maximum Shearing Stress:(τmax) 
+ 
+2
+2
+max
+2
+xy
+y
+x
+τ
+σ
+σ
+τ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
+±
+=
+………………………………………...(1.12/2) 
+2
+2
+max
+10
+.
+15
+2
+0
+72
+.
+21
++
+⎥⎦
+⎤
+⎢⎣
+⎡
+−
+±
+=
+τ
+=18.60MPa 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+44
+Problem No 4 
+Design a plain carbon steel centre crankshaft for a single acting four stroke single 
+cylinder engine for the following data: 
+Bore = 400 mm; Stroke = 600 mm; Engine speed = 200 rpm.; Mean effective 
+pressure = 0.5 N/mm2;  Maximum combustion pressure = 2.5 M/mm2; Weight of 
+flywheel used a pulley = 50 kN; Total belt pull = 6.5 kN. 
+ 
+When the crack has turned through 350 from the top dead centre, the pressure on the 
+piston is 1N/mm2 and the torque on the crank is maximum.  The ratio of the 
+connecting rod length to the crank radius is 5.  Assume any other date required for the 
+design. 
+ 
+Given Data: 
+D=400mm,  L=600mm or R=300mm, pmean=0.5MPa, pmax=2.5MPa, W=50(10)3 N, 
+T1+T2=6.5(10)3 N, θ=350, p35=1MPa, (l/R)=5 
+ 
+Crankshaft is designed for the two positions: 
+a) Crank is at dead center;  b) Angle of maximum twist; 
+ 
+a) Design of the crankshaft when the crank is at the dead center 
+ 
+R3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RV3(W)
+a 
+b 
+1 
+x 
+2 
+y 
+3 
+F 
+T1+T2 
+W
+R2 
+Figure 28. Force Analysis of Crank at Dead Center 
+RV2(W)
+RH3(BELT)
+RH2(BELT)
+RH2(F)
+RH1(F)
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+45
+Piston Gas load  
+ 
+max
+2 *
+4
+p
+D
+F
+π
+=
+ 
+5.2
+*
+400
+4
+2
+π
+=
+=314.16(10)3 N 
+ 
+Assume that the distance between bearing 1 and 2 is equal to twice the piston       
+diameter (D) and distance a=b. 
+Therefore 
+mm
+D
+b
+a
+400
+2
+400
+*
+2
+2
+*
+2
+=
+=
+=
+=
+ 
+ 
+Due to gas load, there will be two horizontal reactions, RH1(F) at bearing 1, and RH2(F) , at 
+bearing 2, so that, 
+ 
+To find the reactions RH1(F) and RH2(F) 
+ 
+Since  a=b, then, 
+( )
+( )
+N
+F
+R
+R
+F
+H
+F
+H
+,)
+2
+(
+2
+1
+=
+=
+ 
+( )
+( )
+N
+N
+R
+R
+F
+H
+F
+H
+,
+)
+10
+(
+08
+.
+157
+,
+)
+2
+(
+)
+10
+(
+16
+.
+314
+3
+3
+2
+1
+=
+=
+=
+ 
+ 
+In between bearings 2 and 3, we have two loads  
+i) 
+Belt pull (T1 + T2 ),  acting horizontally as shown in Figure 28 
+ii) 
+Weight of the Flywheel (W), acting vertically as shown in Figure 28 
+    
+Reactions at bearing 2 and 3 due to Belt Pull, 
+Due to this there will be two horizontal reactions, RH2(belt) at bearing 2, and RH3(belt)  at 
+bearing 3, so that , 
+Taking x=y;  Its value is computed after calculating the crankpin length. 
+Since,  x=y, then, 
+(
+)
+(
+)
+)
+2
+(
+)
+(
+2
+1
+3
+2
+T
+T
+R
+R
+t
+bel
+H
+belt
+H
++
+=
+=
+ 
+(
+)
+(
+)
+N
+R
+R
+t
+bel
+H
+belt
+H
+,
+)
+10
+(
+25
+.3
+)
+2
+(
+)
+)
+10
+(
+5.6
+(
+3
+3
+3
+2
+=
+=
+=
+ 
+                            
+Reactions at bearing 2 and 3 due to Weight of the Flywheel, 
+ 
+Since,  x=y, therefore 
+(
+)
+)
+2
+(
+)
+(
+)
+(
+3
+2
+W
+R
+R
+W
+V
+W
+V
+=
+=
+ 
+then 
+(
+)
+N
+R
+R
+W
+V
+W
+V
+,
+)
+10
+(
+25
+)
+2
+(
+)
+)
+10
+(
+50
+(
+3
+3
+)
+(
+3
+2
+=
+=
+=
+ 
+               
+In this position of the crank, there will be no twisting moment, and the various parts will 
+be designed for bending only. 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+46
+CRANKPIN:  
+The bending moment at the centre of the crankpin is, 
+( )
+)
+(
+1
+a
+R
+M
+F
+H
+=
+, N-mm 
+      =157.08(10)3(400) 
+      = 62832(10)3, N-mm 
+ 
+We know that,  
+c
+I
+M
+b
+σ
+=
+………………………………………………………..(1.16/3) 
+σb=allowable bending stress for the crankpin. It may be assumed as 83MPa. (Refer 
+T3.5b/48) 
+ 
+Substituting the values of 
+2
+p
+d
+c =
+ and 
+64
+4
+p
+d
+I
+π
+=
+ in Equation 1.16 and solving for M we 
+get,  
+)
+)(
+64
+(
+2
+)
+(
+4
+p
+p
+b
+b
+d
+d
+I
+c
+M
+π
+σ
+σ
+⎟⎟
+⎠
+⎞
+⎜⎜
+⎝
+⎛
+=
+=
+ 
+)
+(
+32
+3
+b
+p
+d
+M
+σ
+π
+=
+, N-mm 
+ 
+)
+83
+(
+32
+)
+10
+(
+62832
+3
+3
+p
+d
+π
+=
+ 
+We get dp=197.56mm. 
+Standard value of diameter dp=200mm is adopted. (Refer T3.5a/48)
+ 
+Length of the crankpin (lp) can be obtained by suitably choosing the value of allowable 
+bearing pressure. 
+We know that bearing pressure for the given type of engine is between 9.6 MPa to      
+12.4 MPa. Let  us take pb=10MPa.     (Refer T15.11/314) 
+Bearing pressure, 
+)
+)(
+(
+p
+p
+b
+d
+l
+F
+p =
+, MPa 
+Length of the crankpin, 
+)
+)(
+(
+b
+p
+p
+p
+d
+F
+l
+=
+, mm
+)
+10
+)(
+200
+(
+)
+10
+(
+16
+.
+314
+3
+=
+=157mm 
+ 
+ 
+6.4a.2  Left Hand Crank Web: 
+The crank web is designed for eccentric loading. There will be two stresses on it, one 
+direct compressive stress and the other bending stress due to the gas load F. 
+ 
+The thickness h=0.65 dp  + 6.35mm………………………………………(Page No 50) 
+ 
+ 
+ =0.65(200)+6.35 
+ 
+ 
+ =136.35mm 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+47
+Let us take      h=137mm 
+ 
+The width ‘w’may be assumed to be as follows: 
+ 
+mm
+d
+w
+p
+,7.
+12
+8
+9
++
+=
+…………………………………………………..…(Page No 50) 
+     
+mm
+,7.
+12
+200
+8
+9
++
+=
+ 
+ w=237.7mm 
+Let us takew=238mm 
+ 
+Since the empirical relations are used it is advised to check the developed stresses against 
+the given values. 
+ 
+Direct stresses (σd)  
+( ) MPa
+h
+w
+R
+F
+H
+d
+,)
+)(
+(
+1
+=
+σ
+ 
+MPa
+d
+,
+)
+137
+)(
+238
+(
+)
+10
+(
+08
+.
+157
+3
+=
+σ
+=4.82MPa 
+ 
+Bending stresses: (σb) 
+ 
+c
+I
+M
+b
+σ
+=
+;    ………………………………………………………..(1.16/3) 
+( )
+)
+2
+2
+(
+1
+h
+l
+a
+R
+M
+p
+F
+H
+−
+−
+=
+ 
+ 
+12
+3
+bh
+I =
+ And
+2
+h
+c =
+  
+Substituting the values of M, c and I in bending equation (1.16/3) we get  
+( )
+MPa
+bh
+h
+l
+a
+R
+p
+F
+H
+b
+),
+6
+)(
+2
+2
+(
+2
+1
+−
+−
+=
+σ
+ 
+MPa
+b
+),
+)
+137
+(
+238
+6
+)(
+2
+137
+2
+157
+400
+(
+)
+10
+(
+08
+.
+157
+2
+3
+−
+−
+=
+σ
+ 
+      =53.38MPa 
+ 
+Superimposing the direct and bending stresses, we get 
+Total stress on the crank web=σd+σb=4.85+53.38=58.23MPa<83MPa,  
+Hence Design is safe. 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+48
+ 
+ 
+Right  Hand Crank Web: 
+From the balancing point of view, the dimensions of the right hand crank web h=137mm 
+and w=238mm are taken equal to the dimensions of the left hand crank web. 
+ 
+ 
+ Shaft Under the Flywheel: [Diameter of the shaft  between bearing 2 and 3] 
+Length of the bearing, 
+⎟
+⎟
+⎠
+⎞
+⎜
+⎜
+⎝
+⎛
+−
+−
+=
+=
+=
+h
+l
+a
+l
+l
+l
+p
+2
+2
+3
+2
+1
+ 
+ 
+                              
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+−
+−
+=
+=
+=
+137
+2
+157
+400
+2
+3
+2
+1
+l
+l
+l
+=369mm 
+Assuming width of the flywheel as 300mm, we have 
+x+y=369+300+clearance=369+300+131(to make it round off) 
+                                        =800mm. 
+Taking x=y, we have x=y=400mm 
+ 
+Bending moment due to flywheel weight is 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+W
+V
+FLY =
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          =25(10)3(400)   
+ 
+ 
+ 
+ 
+ 
+ 
+          =10(10)6, N-mm 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+BELT
+H
+belt =
+ 
+  Bending moment due to the belt pull is 
+   =3.25 (10)3(400)   
+ 
+ 
+ 
+ 
+ 
+ 
+   =1.3(10)6, N-mm 
+ 
+Since these bending moments act at right angles to each other, the combined bending 
+moment is given by; 
+2
+2
+belt
+FLY
+Total
+M
+M
+M
++
+=
+ 
+          
+2
+6
+2
+6
+)
+10
+*
+3.1(
+)
+10
+*
+10
+(
++
+=
+ 
+           =10.08(10)6, N-mm 
+)
+)(
+64
+(
+2
+)
+(
+4
+W
+W
+b
+b
+Total
+d
+d
+I
+c
+M
+π
+σ
+σ
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+=
+We know that 
+ 
+)
+(
+32
+3
+b
+W
+total
+d
+M
+σ
+π
+=
+, N-mm,   
+For plain carbon steel taking σb=65MPa   
+[Ref T1.8/418, taking FOS n=4, Yield stress=196MPa] 
+)
+65
+(
+32
+)
+10
+(
+08
+.
+10
+3
+6
+W
+d
+π
+=
+ 
+Diameter dW=116.46mm, Use standard diameter as dW=125mm [Ref.  T3/48] 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+49
+b. Crank at an angle of maximum twisting moment 
+ 
+We know that piston gas load 
+35
+2 *
+4
+p
+D
+Fp
+π
+=
+ 
+1
+*
+400
+4
+2
+π
+=
+=125.66(10)3 N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We know that,
+R
+L
+)
+sin(
+)
+sin(
+θ
+φ =
+--------------------------<Remember> 
+Ft 
+FC 
+FC
+Fr 
+ϕ
+θ
+Figure 29. Forces on crank 
+Arm
+FP 
+Where φ is the angle of inclination of the connecting rod with the line of stroke. 
+ 
+5
+)
+35
+sin(
+)
+sin(
+=
+φ
+=0.1147 
+Therefore φ=6.580
+ 
+The force on the connecting Rod or thrust force  
+)
+cos(φ
+P
+C
+F
+F =
+…………………………………………………………………….(3.12/45) 
+)
+58
+.6
+cos(
+)
+10
+(
+66
+.
+125
+3
+=
+C
+F
+=126.50(10)3 N 
+The tangential force or the rotative effort on the crank 
+)
+sin(
+θ
+φ +
+=
+C
+F
+Ft
+……………………………………………………………...(3.13/45) 
+)
+35
+58
+.6
+sin(
+)
+10
+(
+50
+.
+126
+3
++
+=
+Ft
+=83.95(10)3, N 
+ 
+The radial force along the crank 
+ 
+)
+cos(
+θ
+φ +
+=
+C
+F
+Fr
+……………………………………..….………………….(3.14/45) 
+)
+35
+58
+.6
+cos(
+)
+10
+(
+50
+.
+126
+3
++
+=
+Fr
+=94.63(10)3, N 
+ 
+Tangential force Ft will have two reactions RH1FT and RH2FT at bearing 1 and 2 
+respectively. 
+Radial force Fr will have two reactions RH1FR and RH2FR   at bearing 1 and 2 respectively. 
+The reactions at the bearings 2 and 3 due to belt pull (T1+T2) and Flywheel W will be 
+same as before.  
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+50
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RV3W
+a 
+b 
+1 
+x 
+2 
+y 
+3 
+FP 
+T1+T2 
+W
+RV2(W)
+RH3(BELT)
+RH2(BELT)
+RH2FT
+RH2FR
+RH1FR
+RH1FT
+Ft 
+Fr 
+R
+Figure 30. Force Analysis of Crank at angle of 
+maximum twisting Moment
+ 
+In this position of the crankshaft, the different sections will be subjected to both bending 
+and torsional moments and these must be checked for combined stress. At this point, 
+Shear stress is taken as failure criteria for crankshaft. 
+The reactions due Radial force (Fr): 
+ 
+ 
+                  
+2
+)
+10
+(
+63
+.
+94
+)
+2
+(
+3
+2
+1
+=
+=
+=
+r
+FR
+H
+FR
+H
+F
+R
+R
+=47.315(10)3, N 
+ 
+The reactions due tangential force (Ft): 
+)
+2
+(
+)
+10
+(
+95
+.
+83
+)
+2
+(
+3
+2
+1
+=
+=
+=
+T
+FT
+H
+FT
+H
+F
+R
+R
+=41.975(10)3, N 
+                  
+ 
+The reactions at the bearings 1 and 2 due to Flywheel weight (W) and resultant belt pull 
+(T1+T2) will be as discussed earlier. 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+51
+ 
+Crank pin: 
+The bending moment at the centre of the crankpin is, 
+)
+(
+1
+a
+R
+M
+FR
+H
+b =
+, N-mm 
+=18.926(10)
+)
+400
+(
+)
+10
+(
+315
+.
+47
+3
+=
+b
+M
+6, N-mm 
+ 
+The Twisting moment is, 
+, N-mm 
+)
+(
+1
+R
+R
+T
+FT
+H
+=
+)
+300
+(
+)
+10
+(
+975
+.
+41
+3
+=
+T
+= 12.60(10)6, N-mm 
+Equivalent twisting moment, 
+mm
+N
+M
+T
+b
+e
+−
++
+=
+,
+2
+2
+(
+)
+T
+ 
+mm
+N
+Te
+−
++
+=
+,
+10
+*
+926
+.
+18
+)
+10
+*
+60
+.
+12
+(
+2
+6
+2
+6
+ =22.737(10)6, N-mm 
+We know that 
+)
+(
+16
+3 τ
+π
+P
+e
+d
+T =
+, N-mm 
+)
+42
+(
+16
+)
+10
+(
+737
+.
+22
+3
+6
+P
+d
+π
+=
+   (The value of τ=0.4 to 0.6σ) 
+Solving we get, dp=139.1mm. 
+Since this value of crankpin is less than the already calculated value of dp=200mm,(i.e 
+higher among the two).  
+ 
+We shall take dp=200mm and lp=157mm 
+ 
+Shaft under the Flywheel: [Diameter of the shaft  between bearing 2 and 3] 
+The collective bending moment due to flywheel and the belt pull will be the same as 
+earlier.  
+Bending moment due to flywheel weight is 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+W
+V
+FLY =
+ 
+ Bending moment due to the belt pull is 
+)
+)(
+(
+)
+(
+3
+y
+R
+M
+BELT
+H
+belt =
+ 
+Since these bending moments act at right angles to each other, the combined bending 
+moment is given by; 
+2
+2
+belt
+FLY
+Total
+M
+M
+M
++
+=
+, N-mm 
+          
+2
+6
+2
+6
+)
+10
+*
+3.1(
+)
+10
+*
+10
+(
++
+=
+ 
+           =10.08(10)6, N-mm 
+ 
+In addition to this moment there will be a twisting moment because of tangential force Ft. 
+The twisting moment, 
+, N-mm 
+)
+(R
+F
+T
+t
+=
+)
+300
+(
+)
+10
+(
+95
+.
+83
+3
+=
+T
+=25.185(10)6, N-mm 
+ 
+Therefore Equivalent twisting moment,  
+mm
+N
+M
+T
+T
+Total
+e
+−
++
+=
+,
+2
+2
+ 
+mm
+N
+Te
+−
++
+=
+,
+)
+)
+10
+(
+08
+.
+10
+(
+)
+)
+10
+(
+185
+.
+25
+(
+2
+6
+2
+6
+=27.13(10)6, N-mm 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+52
+We have, 
+)
+(
+16
+3 τ
+π
+W
+e
+d
+T =
+, N-mm,  
+τ=(0.5 to 0.6)*σ=(0.5 to 0.6)*65=32.5MPa to 39MPa. 
+Let us take τ=35MPa 
+)
+35
+(
+16
+)
+10
+(
+13
+.
+27
+3
+6
+W
+d
+π
+=
+ 
+ 
+dW=157.25mm 
+Standard value of dW=160mm is adopted.  
+Earlier value of dW  is 125mm is less than dW=160mm. 
+Hence dW=160mm 
+ 
+6.4b.3 Right hand Crank Web: 
+We have used empirical formulae to obtain the values of crank web dimensions. And also 
+we know that the Right hand Crank Web is severely stressed. In order to find the 
+correctness of the dimensions of the web it is necessary to check the developed stresses 
+against the allowable stresses. This web is subjected to bending stresses in two planes 
+normal to each other, due to radial and tangential components of FP; to direct 
+compression; and to torsion.  
+ 
+The various dimensions obtained are  
+w= 238mm; h=137mm; lp=157mm; dp=200mm; 
+ 
+The bending moment due to radial component is 
+)
+2
+2
+(
+2
+h
+l
+b
+R
+M
+p
+FR
+H
+rad
+−
+−
+=
+, N-mm 
+)
+2
+137
+2
+157
+400
+(
+)
+10
+(
+315
+.
+47
+3
+−
+−
+=
+rad
+M
+=11.97(10)6, N-mm 
+Bending stress in radial direction 
+ 
+MPa
+wh
+M rad
+rad
+),
+6
+(
+2
+=
+σ
+ 
+MPa
+rad
+),
+)
+137
+(
+238
+6
+(
+)
+10
+(
+97
+.
+11
+2
+6
+=
+σ
+=16.08MPa 
+The bending moment due to tangential component is maximum at the juncture of the 
+crank and shaft. 
+)
+(R
+F
+M
+t
+Tang =
+, N-mm (Since here shaft diameter at junction is not considered for 
+calculation. By doing so the bending moment increases and hence the stresses, which 
+leads to safer side.) 
+)
+300
+(
+)
+10
+(
+95
+.
+83
+3
+=
+Tang
+M
+=25.185(10)6, N-mm 
+ 
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+h
+w
+M Tang
+Tang
+2
+6
+σ
+, MPa 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+53
+MPa
+Tang
+),
+)
+137
+(
+238
+6
+(
+)
+10
+(
+185
+.
+25
+2
+6
+=
+σ
+=19.47MPa 
+The stress due to direct compression,  
+MPa
+wh
+Fr
+d
+,
+2
+=
+σ
+ 
+MPa
+d
+,)
+137
+)(
+238
+(
+2
+)
+10
+(
+63
+.
+94
+3
+=
+σ
+=1.45MPa 
+Superimposing the stresses (At the upper left corner to the cross section of the crank) will 
+be equal to  
+ 
+MPa
+d
+Tang
+rad
+total
+,
+σ
+σ
+σ
+σ
++
++
+=
+ 
+MPa
+total
+,
+45
+.1
+47
+.
+19
+08
+.
+16
++
++
+=
+σ
+=37MPa 
+ 
+ 
+Now the twisting moment, on the arm is 
+mm
+N
+l
+b
+R
+l
+F
+l
+a
+R
+T
+p
+FT
+H
+p
+T
+p
+HIFT
+−
+−
+=
+−
++
+=
+),
+2
+(
+)
+2
+(
+)
+2
+(
+2
+ 
+mm
+N
+T
+−
+−
+=
+),
+2
+157
+400
+(
+)
+10
+(
+975
+.
+41
+3
+=13.49(10)6
+ 
+We know that,  
+Shear stress,  
+Z
+T
+c
+J
+T
+xy
+=
+=
+)
+(
+τ
+  
+Where Z – polar section modulus, = 
+3
+2
+,
+5.4
+mm
+wh
+ 
+2
+6
+)
+137
+(
+238
+)
+5.4
+(
+)
+10
+(
+49
+.
+13
+)
+(
+=
+=
+=
+Z
+T
+c
+J
+T
+xy
+τ
+=13.60MPa 
+Therefore maximum combined stress is given by, 
+ 
+Total combined stress, 
+ 
+2
+2
+1
+2
+2
+xy
+y
+x
+y
+x
+τ
+σ
+σ
+σ
+σ
+σ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+………………………………..(1.11a/2) 
+Here σ1= σmax; τxy=τ ; σx= σtotal; σy= 0; 
+ 
+2
+2
+1
+60
+.
+13
+2
+0
+37
+2
+0
+37
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+σ
+=41.46MPa<83MPa, Design is safe. 
+ 
+Left hand Crank Web: 
+This crank web is less severely stressed than the right hand crank since it is not to 
+transmit any power while the right hand crank transmits the power to the flywheel and to 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+54
+the power take off.   Hence there is no need to check the left hand crank and its 
+dimensions may be taken as that of the right hand crank. 
+Crankshaft bearings:  
+The distance between bearing 1 and bearing 2 may be assumed to be equal to twice the 
+cylinder diameter.  From the length of the crankpin and the thickness of the arm, the 
+lengths of the bearings can be found out.  Bearing 2 is the most heavily loaded, therefore, 
+only this bearing may be checked for the safe bearing pressure.  
+We know that the total reaction at the bearing 2,     
+2
+2
+2
+2
+1
+2
+T
+T
+W
+F
+R
+p
++
++
++
+=
+, N  here FP to taken as maximum, i.e. 
+ 314.16(10)3 N  instead of  125.66(10)3 N 
+ 
+2
+)
+10
+(
+5.6
+2
+)
+10
+(
+50
+2
+314.16(10)
+2
+3
+3
+2
++
++
+=
+R
+=185.33(10)3, N 
+Therefore bearing pressure 
+MPa
+d
+L
+R
+pb
+,)
+)(
+(
+2
+=
+ here d=dw=160mm, L=369mm 
+MPa
+pb
+,
+)
+160
+)(
+369
+(
+)
+10
+(
+33
+.
+185
+3
+=
+=3.14MPa<10MPa, hence the design of bearing is safe. 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+55
+Problem No 5  
+Design a side or overhung crankshaft for a 250mm X 300 mm gas engine. The weight of 
+the flywheel is 30kN and the explosion pressure is 2.1 MPa. The gas pressure at the 
+maximum torque is 0.9 MPa, when the crank angle is 350 from I.D.C. The connecting rod 
+is 4.5 times the crank radius. 
+ 
+Given Data: 
+D=250mm, L=300mm, or R=150mm, W=30(10)3N, pmax=2.1MPa and p35=0.9MPa, 
+l/r=4.5 
+Material taken: σb=allowable bending stress for the crankpin= 83MPa. (Refer T3.5b/48) 
+Solution: 
+Crankshaft is designed for the two positions: 
+a) Crank is at dead center;  
+b) Angle of maximum twist; 
+ 
+a) Design of the crankshaft when the crank is at the dead center 
+RV2(W)
+x 
+1 
+y 
+2 
+W
+RH2(F)
+RV1(W)
+RH1(F)
+b 
+Figure 31. Force Analysis of side Crank at Dead Center 
+F 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gas Load,  
+max
+2 *
+4
+p
+D
+F
+π
+=
+  
+1.2
+*
+250
+4
+2
+π
+=
+F
+=103.1(10)3, N 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+56
+Crankpin:  
+The dimensions of the crankpin are obtained by considering the crankpin in bearing and 
+then checked for bending stress. 
+ 
+We know that bearing pressure 
+)
+)(
+(
+p
+p
+b
+d
+l
+F
+p =
+ 
+Where lp and dp are length and diameter of the crankpin respectively. 
+pb is the allowable bearing pressure on the pin, MPa 
+The length of the crankpin is approximately taken as (0.8 to 1.1) diameter of the 
+crankpin.[Refer page no 50 of the data hand book] 
+Let us take, lp=dp And solving for the dimensions of crankpin, we get 
+)
+)(
+(
+)
+10
+(1.
+103
+10
+3
+p
+p
+d
+d
+=
+ 
+Diameter of the crankpin dp=101.54mm 
+Standard diameter dp= 110mm is adopted (Refer T3.5a/48) 
+Length of the crankpin lp=110mm 
+Check:  
+Bending moment 
+)
+)(
+(
+4
+3
+pl
+F
+M
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+ may be used. 
+)
+110
+)(
+)
+10
+(1.
+103
+(
+4
+3
+3
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+M
+=8.51(10)6, N-mm 
+We know that,  
+c
+I
+M
+b
+σ
+=
+………………………………………………………..(1.16/3) 
+Substituting the values of 
+2
+p
+d
+c =
+ and 
+64
+4
+p
+d
+I
+π
+=
+ in Equation 1.16 and solving for σb we 
+get,  
+p
+b
+d
+M
+3
+32
+)
+(
+π
+σ
+=
+, MPa. 
+3
+6
+)
+110
+(
+)
+10
+)(
+51
+.8
+(
+32
+)
+(
+π
+σ
+=
+b
+=65.13MPa.<83MPa.  
+This induced bending stress should be within the permissible limits, Hence design is safe. 
+ 
+Design of bearings: 
+ 
+Let d1 be the diameter of the bearing 1.  
+Thickness of web t=h=(0.5 to 0.9) dp ………………………………………..(Page No 50) 
+Let us take h=0.6dp=0.6(110)=66mm 
+Length of the bearing l1=1.7dp=1.7(110)=187mm 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+57
+We know that bending moment, 
+mm
+N
+l
+h
+l
+F
+M
+p
+−
++
++
+=
+),
+(
+5.0
+75
+.0
+(
+1
+ 
+[
+]
+mm
+N
+M
+−
++
++
+=
+,
+)
+187
+(
+5.0
+66
+)
+110
+(
+75
+.0
+)
+10
+(
+103
+3
+ 
+M=25(10)6, N-mm 
+We know that bending stress,  
+1
+3
+32
+)
+(
+d
+M
+b
+π
+σ
+=
+ 
+Assuming bearing material as Phosphor bronze, σb=68.65MPa  [Refer T15.2/309] 
+Solving for d1, we get 
+1
+3
+6)
+)
+10
+(
+25
+(
+32
+)
+65
+.
+68
+(
+d
+π
+=
+ 
+The diameter of the bearing d1=154.72mm 
+Let us take d1=155mm 
+The bearing dimensions are taken same for bearing 2. i.e l1=l2=187mm 
+ 
+Design of crank web 
+w=Width of the crank web, mm 
+We know that bending moment, 
+mm
+N
+h
+l
+F
+M
+p
+−
++
+=
+),
+(
+5.0
+75
+.0
+(
+ 
+[
+]
+mm
+N
+M
+−
++
+=
+,
+66
+)
+5.0
+(
+)
+110
+(
+75
+.0
+)
+10
+(
+103
+3
+ 
+M=11.9(10)6, N-mm 
+ 
+Bending stress 
+⎟
+⎠
+⎞
+⎜
+⎝
+⎛
+=
+2
+6
+h
+w
+M
+b
+σ
+, MPa 
+ 
+ 
+MPa
+w
+MPa
+w
+b
+,
+)
+10
+(
+39
+.
+16
+),
+)
+66
+(
+6
+(
+)
+10
+(
+9.
+11
+3
+2
+6
+=
+=
+σ
+ 
+ 
+The direct Stress,  
+MPa
+wh
+Fp
+d
+,
+=
+σ
+ 
+MPa
+w
+MPa
+w
+d
+,
+)
+10
+(
+56
+.1
+,
+)
+66
+)(
+(
+)
+10
+(
+103
+3
+3
+=
+=
+σ
+ 
+Superimposing the stresses and equating to allowable stress we get 
+MPa
+d
+b
+all
+,
+σ
+σ
+σ
++
+=
+ 
+w
+w
+3
+3
+)
+10
+(
+56
+.1
+)
+10
+(
+39
+.
+16
+83
++
+=
+ 
+ 
+The width of crank web w=216.3mm 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+58
+Design of shaft under the flywheel 
+Let dS be the Diameter of shaft under the flywheel. 
+Assuming the width of the flywheel as 250mm 
+Length 
+Clearance
+l
+l
+y
+x
++
++
++
+=
++
+2
+2
+250
+)
+(
+2
+1
+ 
+mm
+y
+x
+460
+23
+2
+187
+2
+187
+250
+)
+(
+=
++
++
++
+=
++
+ 
+2
+75
+.0
+1l
+h
+l
+b
+p
++
++
+=
+ 
+2
+187
+66
+)
+110
+(
+75
+.0
++
++
+=
+b
+=242mm 
+Taking x=y=230mm 
+ 
+Reactions: 
+Reactions at bearing 1 and 2 due to Weight of the Flywheel (W), 
+Due to this there will be two Vertical reactions, Rv1(W) at bearing1, and Rv2(W), at bearing2. 
+ Here x=y, then 
+(
+)
+)
+2
+(
+)
+(
+)
+(
+2
+1
+W
+R
+R
+W
+V
+W
+V
+=
+=
+ 
+                           
+(
+)
+N
+R
+R
+W
+V
+W
+V
+,
+)
+10
+(
+15
+)
+2
+(
+)
+)
+10
+(
+30
+(
+3
+3
+)
+(
+2
+1
+=
+=
+=
+ 
+Reactions at bearing 1 and 2 due to Piston Gas Load(F), 
+Due to this piston gas load there will be two horizontal reactions, RH1(F) at bearing 1, and 
+RH2(F) , at bearing 2. 
+ 
+To find the reactions RH1(F) and RH2(F) 
+ 
+∑
+= 0
+1
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+ 
+( )
+0
+)
+(
+)
+(
+2
+=
++
++
+−
+y
+x
+R
+b
+F
+F
+H
+ 
+( )
+(
+)
+N
+y
+x
+b
+F
+R
+F
+H
+,
+)
+10
+(
+2.
+54
+230
+230
+)
+242
+(
+)
+10
+(
+103
+)
+(
+)
+(
+3
+3
+2
+=
++
+=
++
+=
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+ 
+RH1(F) - RH2(F) -F =0 
+ 
+( )
+N
+y
+x
+y
+x
+b
+F
+y
+x
+b
+F
+F
+R
+F
+H
+,
+)
+(
+)
+(
+)
+(
+)
+(
+1
++
++
++
+=
++
++
+=
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+59
+( )
+N
+N
+R
+F
+H
+,
+)
+10
+(
+2.
+157
+,
+)
+230
+230
+(
+)
+230
+230
+242
+(
+)
+10
+(
+103
+3
+3
+1
+=
++
++
++
+=
+ 
+Since there is no belt tension, therefore the horizontal reactions due to the belt tension are 
+not taken. 
+In this position of the crank, there will be no twisting moment, and the various parts will 
+be designed for bending only. 
+ 
+Horizontal Bending Moment due to Piston Gas load 
+      
+ )
+(
+)
+(
+)
+(
+1
+x
+R
+x
+b
+F
+M
+F
+H
+Gas
+−
++
+=
+            
+ 
+mm
+N
+M Gas
+−
+=
+−
++
+=
+,
+)
+10
+(
+46
+.
+12
+)
+230
+(
+)
+10
+(
+2.
+157
+)
+230
+242
+(
+)
+10
+(
+103
+6
+3
+3
+       MBelt=0; 
+ 
+Therefore total horizontal bending moment is  
+MHOR=MGas+MBelt=12.46(10)6+0=12.46(10)6, N-mm 
+ 
+Vertical Bending Moment due to ; 
+Flywheel 
+)
+(
+)
+(
+2
+y
+R
+M
+W
+v
+Vert =
+ 
+)
+230
+(
+)
+10
+(
+15
+3
+=
+Vert
+M
+=3.45(10)6, N-mm 
+Resultant Bending Moment 
+Vert
+HOR
+R
+M
+M
+M
+2
+2
+(
++
+=
+ 
+2
+6
+2
+6
+)
+10
+*
+45
+.3
+(
+)
+10
+*
+46
+.
+12
+(
++
+=
+R
+M
+=12.93(10)6, N-mm 
+ 
+We know that, 
+)
+(
+)
+32
+(
+3
+S
+b
+R
+d
+M
+σ
+π
+=
+ 
+)
+(
+83
+)
+32
+(
+)
+10
+(
+93
+.
+12
+3
+6
+S
+d
+π
+=
+ 
+ 
+The diameter of the shaft under flywheel dS=116.64mm 
+Since the diameter of the bearing is 155mm> 116.64mm. 
+Hence dS=155mm is adopted 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+60
+b. Crank at an angle of maximum twisting moment 
+ 
+We know that piston gas load 
+35
+2 *
+4
+p
+D
+Fp
+π
+=
+ 
+9.0
+*
+250
+4
+2
+π
+=
+=44.18(10)3 N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FP 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ft 
+FP 
+FC 
+FC
+Fr 
+ϕ
+θ
+Figure 32. Forces on crank 
+Arm
+b 
+x 
+1 
+y 
+2 
+W
+RV1(W)
+Figure 33. Force Analysis of Side Crank at angle 
+of maximum twisting Moment
+Fr 
+Ft 
+RH1FR
+RH1FT
+RH2FR
+RH2FT
+We know that,
+R
+L
+)
+sin(
+)
+sin(
+θ
+φ =
+--------------------------<Remember> 
+Where φ is the angle of inclination of the connecting rod with the line of stroke. 
+ 
+5.4
+)
+35
+sin(
+)
+sin(
+=
+φ
+=0.1275 
+Therefore φ=7.320
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+61
+ 
+The force on the connecting Rod or thrust force  
+)
+cos(φ
+P
+C
+F
+F =
+…………………………………………………………………….(3.12/45) 
+)
+32
+.7
+cos(
+)
+10
+(
+18
+.
+44
+3
+=
+C
+F
+=44543N 
+ 
+The tangential force or the rotative effort on the crank 
+ 
+)
+cos(
+)
+sin(
+)
+sin(
+φ
+θ
+φ
+θ
+φ
++
+=
++
+=
+P
+C
+F
+F
+Ft
+……………………………………………….(3.13/45) 
+ 
+)
+35
+32
+.7
+sin(
+44543
++
+=
+Ft
+=29989.50N 
+ 
+The radial force along the crank 
+ 
+)
+cos(
+)
+cos(
+)
+cos(
+φ
+θ
+φ
+θ
+φ
++
+=
++
+=
+P
+C
+F
+F
+Fr
+………………………….………………….(3.14/45) 
+)
+35
+32
+.7
+cos(
+44543
++
+=
+Fr
+=32935N 
+Tangential force Ft will have two reactions RH1FT and RH2FT at bearing 1 and 2 
+respectively. 
+Radial force Fr will have two reactions RH1FR and RH2FR   at bearing 1 and 2 respectively. 
+The reactions at the bearings 1 and 2 due to Flywheel Weight W will be same as before.  
+In this position of the crankshaft, the different sections will be subjected to both bending 
+and torsional moments and these must be checked for combined stress. At this point, 
+Shear stress is taken as failure criteria for crankshaft. 
+The reactions due Radial force (Fr): 
+To find the reactions RH1FR and RH2FR 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+0
+)
+(
+)
+(
+1
+=
++
++
++
++
+−
+y
+x
+R
+y
+x
+b
+F
+FR
+H
+r
+ 
+                  
+)
+(
+)
+(
+1
+y
+x
+y
+x
+b
+F
+R
+r
+FR
+H
++
++
++
+=
+ 
+ 
+ 
+)
+230
+230
+(
+)
+230
+230
+242
+(
+32935
+1
++
++
++
+=
+FR
+H
+R
+=50261.67N 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+62
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+0
+2
+1
+=
+−
++
+−
+FR
+H
+FR
+H
+r
+R
+R
+F
+ 
+)
+(
+)
+(
+1
+2
+y
+x
+y
+x
+b
+F
+F
+R
+F
+R
+r
+r
+FR
+H
+r
+FR
+H
++
++
++
+−
+=
+−
+=
+ 
+)
+(
+)
+(
+2
+y
+x
+b
+F
+R
+r
+FR
+H
++
+=
+ 
+)
+230
+230
+(
+)
+242
+(
+32935
+2
++
+=
+FR
+H
+R
+=17326.67N 
+ 
+The reactions due tangential force (Ft): 
+To find the reactions RH1FT and RH2FT 
+ 
+∑
+= 0
+2
+M
+,    
+ 
+Clock Wise direction is taken as positive bending moment and Counter Clockwise as 
+negative bending moment.  
+ 
+ 
+0
+)
+(
+)
+(
+1
+=
++
++
++
++
+−
+y
+x
+R
+y
+x
+b
+F
+FT
+H
+T
+ 
+                  
+)
+(
+)
+(
+1
+y
+x
+y
+x
+b
+F
+R
+T
+FT
+H
++
++
++
+=
+ 
+ 
+)
+230
+230
+(
+)
+230
+230
+242
+(
+50
+.
+29989
+1
++
++
++
+=
+FT
+H
+R
+=45766.58N 
+ 
+∑
+= 0
+y
+F
+,  
+ 
+, Upward force is taken as positive and downward is 
+taken as negative. 
+ 
+0
+2
+1
+=
+−
++
+−
+FT
+H
+FT
+H
+T
+R
+R
+F
+ 
+)
+(
+)
+(
+1
+2
+y
+x
+y
+x
+b
+F
+F
+R
+F
+R
+T
+T
+FT
+H
+T
+FT
+H
++
++
++
+−
+=
+−
+=
+ 
+ 
+)
+(
+)
+(
+2
+y
+x
+b
+F
+R
+T
+FT
+H
++
+=
+ 
+ 
+)
+230
+230
+(
+)
+242
+(
+50
+.
+29989
+2
++
+=
+FT
+H
+R
+=15777.08N 
+The reactions at the bearings 1 and 2 due to Flywheel weight (W) will be same as 
+discussed earlier. 
+ 
+(
+)
+N
+R
+R
+W
+V
+W
+V
+,
+)
+10
+(
+15
+)
+2
+(
+)
+)
+10
+(
+30
+(
+3
+3
+)
+(
+2
+1
+=
+=
+=
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+63
+ 
+Design of crank web  
+The dimensions are taken same as calculated in crank at dead center. 
+The same dimensions are checked here for combined stress. 
+Width of crank web w=216.3mm 
+Thickness of crank web h=66mm 
+ 
+The most critical section is where the web joins the shaft. This section is subjected to the 
+following stresses: 
+i) 
+Bending stress due to the tangential force FT 
+ii) 
+Bending stress due to the radial force Fr 
+iii) 
+Direct compressive stress due to radial force Fr and  
+iv) 
+Shear stress due to the twisting moment of FT. 
+ 
+Bending stress due to the tangential force FT
+mm
+N
+d
+R
+F
+M
+p
+T
+bT
+−
+−
+=
+),
+2
+(
+ 
+Bending moment due to tangential force, 
+mm
+N
+M bT
+−
+−
+=
+),
+2
+110
+150
+(
+50
+.
+29989
+=2.85(10)6, N-mm 
+Therefore bending stress due to tangential force 
+2
+6
+hw
+M bT
+bT =
+σ
+ 
+2
+6
+)
+3.
+216
+(
+66
+)
+10
+(
+85
+.2
+*
+6
+=
+bT
+σ
+=5.54MPa 
+ 
+Bending stress due to the radial force Fr
+Bending moment due to the radial force, 
+)
+5.0
+75
+.0
+(
+h
+l
+F
+M
+p
+R
+bR
++
+=
+ 
+)
+66
+*
+5.0
+110
+*
+75
+.0
+(
+32953
++
+=
+bR
+M
+=3.81(10)6 N-mm 
+ 
+Therefore bending stress due to radial force 
+2
+6
+wh
+M bR
+bR =
+σ
+ 
+2
+6
+)
+66
+)(
+3.
+216
+(
+)
+10
+*
+81
+.3
+(
+6
+=
+bR
+σ
+=24.26MPa 
+ 
+Direct compressive stress due to radial force Fr
+wh
+FR
+d =
+σ
+We know that, direct compressive stress, 
+ 
+)
+3.
+216
+)(
+66
+(
+32953
+=
+d
+σ
+=2.31MPa 
+ 
+Shear stress due to the twisting moment of FT. 
+Twisting moment due to the Tangential force, T
+)
+5.0
+75
+.0
+(
+h
+l
+F
+p
+T
++
+=
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+64
+))
+66
+(
+5.0
+)
+110
+(
+75
+.0
+(
+50
+.
+29989
++
+=
+T
+=3.46(10)6, N-mm 
+Therefore shearing stress due to Tangential l force 
+xy
+wh
+T
+Z
+T
+r
+I
+T
+τ
+τ
+=
+=
+=
+=
+2
+5.4
+ 
+Where Z-Polar section modulus, 
+5.4
+2
+wh
+=
+ 
+xy
+τ
+τ
+=
+=
+2
+6
+)
+66
+)(
+3
+..
+216
+(
+)
+10
+*
+46
+.3
+(
+5.4
+=16.53MPa 
+ 
+Superimposing the stresses we get, 
+Total compressive stress, 
+ 
+x
+d
+bR
+bT
+C
+σ
+σ
+σ
+σ
+σ
+=
++
++
+=
+31
+.2
+26
+.
+24
+54
+.5
++
++
+=
+x
+σ
+=32.11MPa 
+Now the total or maximum normal and maximum shear stresses are given by,  
+2
+2
+max
+2
+2
+xy
+y
+x
+y
+x
+τ
+σ
+σ
+σ
+σ
+σ
++
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
+−
++
++
+=
+………………………………..(1.11b/2) 
+Here σy=0;  
+2
+2
+max
+53
+.
+16
+2
+0
+11
+.
+32
+2
+0
+11
+.
+32
++
+⎥⎦
+⎤
+⎢⎣
+⎡
+−
++
++
+=
+σ
+=39.10MPa<83MPa 
+Hence the calculated values of dimensions of crank web are safe 
+ 
+ 
+Design of Shaft under the flywheel: 
+ 
+Horizontal bending moment acting on the shaft due to piston gas load, 
+(
+)
+(
+)
+x
+R
+R
+x
+b
+F
+M
+FT
+H
+FR
+H
+P
+H
+⎥⎦
+⎤
+⎢⎣
+⎡
++
+−
++
+=
+2
+1
+2
+1
+1
+)
+(
+ 
+(
+)
+(
+)
+230
+*
+58
+.
+45766
+67
+.
+50261
+)
+230
+242
+(
+)
+10
+(
+18
+.
+44
+2
+2
+3
+1
+⎥⎦
+⎤
+⎢⎣
+⎡
++
+−
++
+=
+H
+M
+ 
+          = 5.22(10)6, N-mm 
+ 
+Therefore total horizontal bending moment, 
+Hbelt
+H
+H
+M
+M
+M
++
+=
+1
+ 
+0
+)
+10
+(
+22
+.5
+6 +
+=
+H
+M
+= 5.22(10)6, N-mm 
+ 
+Vertical bending moment due to flywheel, 
+)
+)(
+(
+)
+(
+2
+y
+R
+M
+W
+V
+VFLY =
+ 
+)
+230
+)(
+10
+*
+15
+(
+3
+=
+VFLY
+M
+=3.45(10)6, N-mm 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+65
+Since these bending moments act at right angles to each other, the combined bending 
+moment is given by; 
+2
+2
+Ht
+VFLY
+Total
+M
+M
+M
++
+=
+, N-mm 
+(
+)
+(
+)
+2
+6
+2
+6
+10
+*
+22
+.5
+10
+*
+45
+.3
++
+=
+Total
+M
+=6.26(10)6, N-mm 
+ 
+In addition to this moment there will be a twisting moment because of tangential force Ft. 
+The twisting moment, 
+, N-mm 
+)
+(R
+F
+T
+t
+=
+)
+150
+(
+50
+.
+29989
+=
+T
+=4.5(10)6, N-mm 
+ 
+Therefore Equivalent twisting moment,  
+mm
+N
+M
+T
+T
+Total
+e
+−
++
+=
+,
+2
+2
+ 
+mm
+N
+Te
+−
++
+=
+,
+)
+)
+10
+(
+26
+.6
+(
+)
+)
+10
+(
+5.4
+(
+2
+6
+2
+6
+=7.71(10)6, N-mm 
+We have, 
+)
+(
+16
+3 τ
+π
+S
+e
+d
+T =
+, N-mm,  
+)
+42
+(
+16
+)
+10
+(
+71
+.7
+3
+6
+S
+d
+π
+=
+    Here τmax=0.5σb 
+Diameter of the shaft under flywheel dS=97.78mm  can be obtained. 
+ 
+Since the diameter of the bearing is 155mm> 97.78mm. 
+Hence dS=155mm is adopted 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+66
+References: 
+1. Design Data Hand Book, K. Mahadevan and K. Balaveera Reddy, CBS publication, 
+1989 
+2. Theory and Problems of Machine Design, Hall, Holowinko, Laughlin, Schaum’s   
+Outline Series, 2002. 
+3. A text Book of Machine Design, P.C.Sharma and D.K.Aggarwal, S K Kataria and 
+Sons, 1993 
+4. A text Book of Machine Design, R S Khurmi  and J K Gupta, Eurasia Publishing 
+House, 2003 
+5. High Speed Combustion Engines, P M Heldt, Oxford and IBH Publishing Co, 1965 
+6. Auto Design , R B gupta, Satya Prakashan,2006 
+7. Automobile Mechanics, N K giri, Khanna Publishers, 2005 
+8. Automotive Mechanics, Crouse/Anglin, Tata McGraw-Hill, 2003 
+9. http://www.automotix.net/used-crankshaft-mechanical.html 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+67
+Questions from Previous University Question Papers. 
+ 
+1. Explain the methods of manufacturing crank shaft?  (05M) July 2006. VTU 
+2.  Design a overhung crankshaft for the steam engine to the following 
+specifications: 
+Diameter of piston = 400mm 
+Stroke of piston = 600mm 
+Maximum steam pressure =1.0 N/mm2
+Speed of the engine= 100rpm 
+Design shear stress for the crank shaft and crank pin = 3.5 N/mm2
+Design tensile stress for the crank shaft and key = 6.0 N/mm2
+The horizontal distance between crank shaft and crank pin=350 mm                    
+(15M) July 2006.VTU 
+3. Write a note on balancing of crankshafts. (04M) FEB 2006 VTU 
+4. Sketch a typical crankshaft used for a four cylinder engine. Indicate clearly the 
+positions of pins & journals and the provision for fabrication. What are the 
+materials used for the crankshaft.    (8M) FEB 2006 VTU 
+5. Design & draw the sketch of an overhung crankpin for an engine having the 
+following particulars. 
+Cylinder diameter = 300 mm; Stroke = 500 mm; 
+Maximum explosion pressure in the cylinder = 1.8 N/mm2
+Engine speed = 200 rpm. Permissible bending stress for pin = 9.81 N / mm2  & 
+Bearing stress = 83.4 N / mm2            (8M) FEB 2006 VTU 
+6. Distinguish between   i. Center Crankshaft and Overhung Crankshaft. 
+ 
+  
+ 
+           ii  Built-up Crankshaft and Integral Crankshaft.  
+                                                                    (6M) Model QP VTU 
+ 
+ 7.   Design a plain carbon steel crankshaft for a 0.40 m by 0.60 m single acting four 
+stroke single Cylinder engine to operate at 200 rev/min. The mean effective 
+pressure is 0.49 MPa and the maximum combustion pressure is 2.625 MPa. At 
+maximum torsional moment, when the crank angle is 360, the gas pressure is 
+0.975 MPa. The ratio of the connecting rod length to the crank radius is 4.8. The 
+flywheel is used as a pulley. The weight of the flywheel is 54.50 KN. And the 
+total belt pull is 6.75 KN. Assume suitable values for the missing data.  
+                                                                    (14M) Model QP VTU 
+ 
+ 
+ 
+ 
+      
+ 
+ 
+ 
+     
+ 
+ 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 
+Theory and Design of Automotive Engines [AU51] 
+24 to 28, Oct 18 to 30 -2007 
+68
+ 
+Model Questions  
+ 
+1.  Design a plain carbon steel centre crankshaft for a single acting four stroke, single 
+cylinder engine for the following data.                                                                                                          
+     Piston Diameter 
+ 
+ 
+ 
+ 
+250mm 
+     Stroke  
+ 
+ 
+ 
+ 
+ 
+400mm 
+     Maximum Combustion Pressure  
+ 
+2.5MPa 
+     Weight of the flywheel 
+ 
+ 
+ 
+16kN 
+     Total Belt Pull 
+ 
+ 
+ 
+ 
+3kN 
+     Length of the connecting rod 
+ 
+ 
+950mm 
+     When the crank has turned through 300 from the top dead center, the pressure on the 
+piston is 1 MPa and the torque on the crank is maximum. 
+     Any other data required for the design may be assumed. 
+ 
+2. Design aside crank shaft for a 500mmX600mm gas engine. The weight of the 
+flywheel is  80kN and the explosion pressure is 2.5MPa. The gas pressure at 
+maximum torque is 0.9MPa, when the crank angle is 300. The connecting rod is 4.5 
+times the crank radius. 
+      Any other data required for the design may be assumed. 
+ 
+3. Explain the various types of crank shafts 
+4. What are the methods and materials used in the manufacture of crankshafts. 
+5. How a crankshaft is balanced? 
+Krishnaraja G. Kodancha, Assistant Professor, Automobile Engineering Department, B.V.B.College of 
+Engineering and technology, HUBLI-31; Session 

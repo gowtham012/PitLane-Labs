@@ -1,0 +1,1173 @@
+IJSRSET173429 | Received : 07 July- 2017 | Accepted : 17 July- 2017 | July-August-2017  [(3)5: 131-138] 
+© 2017 IJSRSET | Volume 3 | Issue 5 | Print ISSN: 2395-1990 | Online ISSN : 2394-4099 
+Themed Section: Engineering and Technology 
+ 
+131 
+Design and Analysis of Crankshaft of Four Cylinder Diesel 
+Engine for Heavy Vehicle 
+Randhavan B M*, Prof Galhe D S 
+Department of Mechanical, Jaihind College of Engineering Kuran, Pune, Maharashtra, India 
+ 
+ABSTRACT 
+ 
+Crankshaft is an important part of in an engine assembly. Crankshaft consists of two web sections and one crankpin. 
+Crankshaft converts the reciprocating motion of the piston to a rotary motion with a four bar link mechanism. This 
+paper is related to design and finite element analysis of crankshaft of 4 cylinder diesel engine of heavy vehicle like 
+truck. Engine has capacity of 3785.1cc. The finite element analysis in ANSYS software by using five materials 
+based on their composition viz. FG260, FG300, EN8, EN24 and Aluminum Alloy material. The parameter like von 
+misses stress, deformation; maximum principal stress were obtained from analysis software.  The results of Finite 
+element indicate that the Aluminum alloy material can be best suitable material among all.  
+Keywords: Crankshaft, Aluminium Alloy, Creo 2.0, ANSYS 14.5, FEA 
+ 
+I. INTRODUCTION 
+ 
+Crankshaft is an important part of in an engine assembly. 
+Crankshaft consists of two web sections and one 
+crankpin. Crankshaft converts the reciprocating motion 
+of the piston to a rotary motion with a four bar link 
+mechanism. This paper is related to design and finite 
+element analysis of crankshaft of 4 cylinder diesel 
+engine of heavy vehicle like truck. Engine has capacity 
+of 3785.1cc. The finite element analysis in ANSYS 
+software by using five materials based on their 
+composition viz. FG260, FG300, EN8, EN24 and 
+Aluminum Alloy material. The parameter like von 
+misses stress, deformation; maximum principal stress 
+were obtained from analysis software.  The results of 
+Finite element indicate that the Aluminum alloy 
+material can be best suitable material among all.  
+ 
+II. LITELATURE REVIEW 
+ 
+Wei Li, Qing Yan, and Jianhua Xue [1] this paper 
+analyzed through the chemical composition, mechanical 
+properties, macroscopic feature, microscopic structure 
+and theoretical calculation methods. The analysis results 
+show that the crankshaft which has obvious fatigue 
+crack belongs to fatigue fracture. The crankshaft fatigue 
+fracture was only attributed to the initiation and 
+propagation of the fatigue cracks on the lubrication hole 
+under cyclic bending and torsion. 
+ 
+M. Fonte, P. Duarte, V. Anes, M. Freitas, L. Reis [2] 
+The fatigue strength and its correct assessment play an 
+important role in design and maintenance of marine 
+crankshafts to obtain operational safety and reliability. 
+Crankshafts are under alternating bending on crankpins 
+and rotating bending combined with torsion on main 
+journals, which mostly are responsible for fatigue 
+failure. 
+The 
+commercial 
+management 
+success 
+substantially depends on the main engine in service and 
+of its design crankshaft, in particular. The crankshaft 
+design strictly follows the rules of classification 
+societies. The present study provides an overview on the 
+assessment of fatigue life of marine engine crankshafts 
+and its maintenance taking into account the design 
+improving in the last decades, considering that accurate 
+estimation of fatigue life is very important to ensure 
+safety of components and its reliability. An example of 
+a semi-built crankshaft failure is also presented and the 
+probable root case of damage, and at the end some final 
+remarks are presented. 
+ 
+M. Fonte, V. Anes, P. Duarte, L. Reis, and M. Freitas 
+[3] this paper reports a failure mode analysis of a boxer 
+diesel engine crankshaft. Crankshafts are components 
+which experiment severe and complex dynamic 
+loadings due to rotating bending combined with torsion 
+on main journals and alternating bending on crankpins. 
+High level stresses appear on critical areas like web 
+International Journal of Scientific Research in Science, Engineering and Technology (ijsrset.com) 
+ 
+132 
+fillets, as well as the effect of centrifugal forces and 
+vibrations. Since the fatigue fracture near the crankpin-
+web fillet regions is one of the primary failure 
+mechanisms of automotive crankshafts, designers and 
+researchers have done the best for improving its fatigue 
+strength. 
+The 
+present 
+failure 
+has 
+occurred 
+at 
+approximately 2000 manufactured engines, and after 
+about 95,000 km in service. The aim of this work is to 
+investigate the damage root cause and understand the 
+mechanism which led to the catastrophic failure. 
+Recommendations for improving the engine design are 
+also presented. 
+ 
+M. Fonte, P. Duarte, L. Reis, M. Freitas, V. Infante [4] 
+in this paper investigation is carried on two damaged 
+crankshafts of single cylinder diesel engines used in 
+agricultural services for several purposes. Recurrent 
+damages of these crankshafts type have happened after 
+approximately 100 h in service. The root cause never 
+was imputed to the manufacturer. The fatigue design 
+and an accurate prediction of fatigue life are of 
+primordial importance to insure the safety of these 
+components and its reliability. This study firstly 
+presents a short review on fatigue power shafts for 
+supporting the failure mode analysis, which can lead to 
+determine the root cause of failure. The material of 
+these damaged crankshafts has the same chemical 
+composition to others found where the same type of 
+fracture occurred at least ten years ago. A finite element 
+analysis was also carried out in order to find the critical 
+zones where high stress concentrations are present. 
+Results showed a clear failure by fatigue under low 
+stress and high cyclic fatigue on crankpins. 
+B. Kareem [5] in this study, mechanical crankshaft 
+failures for automobiles are evaluated based on experts’ 
+opinion. This was done using data obtained using 
+techniques based on oral interviews and questionnaire 
+administration on mechanical failure of crankshafts 
+from the experts working in the areas of automobile 
+maintenance and crankshafts reconditioning. The data 
+collected were analyzed using statistical methods based 
+on probability. With this technique, probability of 
+failure for each category of automobiles namely private, 
+commercial cars and buses were evaluated. The results 
+obtained show that private cars had lowest failure rate at 
+the initial stage while commercial buses had the highest 
+failure rate. At later periods all categories of automobile 
+crankshafts considered had their failure rates converged 
+steadily with stable reliability. Application of 6-sigma 
+continuous improvement tool to the process indicated a 
+further reliability improvement through improved oil 
+lubrication system, especially in the thrust bearing. This 
+showed that increased enlightenment campaign among 
+the various stakeholders in automobile industries will 
+improve on the choice of reliable mechanical 
+crankshafts. 
+ 
+Xiaoping Chen, Xiaoli Yu, Rufu Hu, Jianfen [6] 
+Crankshaft fatigue problem has long been a headache 
+and frequent phenomenon in combustion engine which 
+attracts various efforts especially including fundamental 
+fatigue experimental data. In this paper, the rational 
+experimental method is employed to study the 
+crankshaft fatigue phenomenon based on a customized 
+experiment 
+platform, 
+mimicking 
+the 
+real-world 
+crankshaft working condition physically. Then, based 
+on the experiment data, the statistical regression 
+analysis 
+of 
+eight 
+commonly 
+used 
+hypothesis 
+distributions is conducted. The degrees of fitting effects 
+of 
+the 
+chosen 
+statistical 
+model 
+are 
+evaluated 
+individually. Results show that the three-parameter 
+Weibull distribution model fits the data best which may 
+be used as the fundamental model in future analysis. 
+This study provides a solid foundation for better 
+understanding the mechanism of crankshaft fatigue 
+phenomenon. 
+ 
+A. Ktari, N. Haddar, H.F. Ayedi [7] a failure 
+investigation has been conducted on three cases of 
+failed diesel engine crankshafts used in train and made 
+up of forged carbon steel. The chemical composition 
+and the mechanical properties of the crankshafts 
+material including tensile properties, micro-hardness 
+and toughness were evaluated. The crankshafts 
+examination shows that all failures occurred after a 
+fatigue process. The failure zones comprise the 
+fractured surfaces observation, show the presence of 
+beach marks with semi-elliptical shape surrounding the 
+fracture origins indicate its progressive growth 
+character. The cracks initiation can occur as a result of 
+mechanical and thermal fatigue loads, due to the high 
+stress concentration on fillet radius and the unusual 
+friction between journals and bearings, respectively. 
+Nevertheless, the cracks propagation was only attributed 
+to the mechanical fatigue produced under cyclic 
+bending and torsion loadings. 
+ 
+III. DESIGN PROCEDURE 
+ 
+A) Design of Crankshaft 
+International Journal of Scientific Research in Science, Engineering and Technology (ijsrset.com) 
+ 
+133 
+ 
+For the theoretical calculation of crankshaft we will 
+consider the configuration of heavy vehicle like truck 4-
+cylinder diesel engine to calculate the theoretical static 
+result: 
+ 
+Table No.01 Specification of 4 Cylinder Diesel Engine 
+Sr. 
+No. 
+Type 
+4 Cylinder 
+Diesel Engine 
+(Value) 
+1 
+Capacity of 
+engine 
+3785.1cc 
+2 
+Number of 
+cylinder 
+4 
+3 
+Bore Stroke 
+97mm  128 
+mm 
+4 
+Compression 
+Ratio 
+18:1 
+5 
+Maximum 
+power 
+100hp @ 2300 
+rpm. 
+6 
+Maximum 
+Torque 
+475 Nm @ 
+2300 rpm. 
+7 
+Max. gas 
+pressure 
+25 bar or 2.5 
+N/mm2. 
+ 
+When the crank has turned through 35o from the top 
+dead center, the pressure on the piston is 1 N/m m2 and 
+the torque on the crank is maximum. The ratio of the 
+connecting road length to the crank radius is 4. 
+Assuming suitable data wherever is required. We will 
+design the crankshaft for two position of the crank. 
+ 
+B) Design of Crankshaft When the Crank is at TDC 
+Maximum Bending Moment Occurs 
+ 
+At this position of the crank, the maximum gas pressure 
+on the piston will transmit maximum force on the 
+crankpin in the plane of the crank causing only bending 
+of the shaft. The crankpin as well as ends of the 
+crankshaft will be only subjected to bending moment. 
+Thus, when the crank is at the top dead center, the 
+bending moment on the shaft is maximum and the 
+twisting moment is zero.  
+Let, D = Piston diameter or cylinder bore in mm,  
+p = Maximum intensity of pressure on the piston in 
+N/mm2  
+The thrust in the connecting rod will be equal to the gas 
+load on the piston (Fp). 
+We know that piston gas load, 
+2
+2
+(97)
+14
+4
+4
+Fp
+D
+p
+
+
+
+
+
+
+
+
+ 
+103.457kN
+
+ 
+Assume that the distance (b) between the bearing 1 and 2 
+is equal to twice the piston diameter (D) 
+1
+2
+194
+97
+2
+b
+b
+mm
+
+
+
+ 
+We Know that due to the piston gas load, there will be 
+two horizontal reactions H1 and H2 at bearing 1 and 2 
+respectively, such that 
+1
+1
+103.457
+97
+51.7286
+194
+p
+F
+b
+H
+kN
+b
+
+
+
+
+
+ 
+2
+2
+103.457
+97
+51.7286
+194
+p
+F
+b
+H
+kN
+b
+
+
+
+
+
+ 
+And assume that the length of the main bearing to be 
+equal, i.e. 
+1
+2
+/ 2
+c
+c
+c
+
+
+.  
+We know that due to the weight of the flywheel acting 
+downwards, there will be two vertical reactions 
+2
+V and 
+3
+V  at bearings 2 and 3 respectively, such that   
+1
+2
+/ 2
+0.6
+0.3
+2
+2
+W
+c
+W
+c
+W
+V
+kN
+c
+c
+
+
+
+
+
+
+
+ 
+2
+3
+/ 2
+0.6
+0.3
+2
+2
+W
+c
+W
+c
+W
+V
+kN
+c
+c
+
+
+
+
+
+
+
+ 
+And due to the resultant belt tension 
+1
+2
+(
+)
+T
+T
+
+acting 
+horizontally, there will be two horizontal reaction 
+'
+2
+H and 
+'
+3
+H  respectively, such that 
+'
+1
+2
+1
+1
+2
+1
+2
+2
+(
+)
+(
+) / 2
+(
+)
+2
+1/ 2
+0.5
+T
+T c
+T
+T c
+T
+T
+H
+c
+c
+kN
+
+
+
+
+
+
+
+
+ 
+'
+1
+2
+2
+1
+2
+1
+2
+3
+(
+)
+(
+) / 2
+(
+)
+2
+1/ 2
+0.5
+T
+T c
+T
+T c
+T
+T
+H
+c
+c
+kN
+
+
+
+
+
+
+
+
+ 
+Now the various parts of the crankshaft are designed 
+such as: 
+(a) Design of crankpin:- 
+Let, 
+cd Diameter of the crankpin in mm; 
+p
+c
+b
+c
+F
+l
+d
+P
+
+
+=Length of the crankpin in mm; and  
+b
+ Allowable bending stress for the crankpin, it may 
+assumed that as 75 MPa or N/mm2 
+We know that the bending moment at the center of the 
+crankpin (Mc):- 
+1
+2
+51.7286 97
+5017.67
+c
+M
+H
+b
+kN
+mm
+
+
+
+
+
+
+                    
+We also know that, 
+3
+(
+)
+32
+c
+c
+b
+M
+d
+
+
+
+ 
+Therefore, for solving the above equation we get, 
+90
+cd
+mm
+
+ 
+Length of the crankpin is ( cl ) = 0.8dc = 0.8 x 90= 72mm 
+(b) Design of left hand crank web:- 
+The crank web is designed for eccentric loading. There 
+will be two stresses acting on the crank web one is 
+compressive stress & other one is bending stress. 
+International Journal of Scientific Research in Science, Engineering and Technology (ijsrset.com) 
+ 
+134 
+ We know that thickness of thickness of the crank web 
+(t):- 
+0.7
+c
+t
+d
+
+ 
+63
+t
+mm
+
+ 
+And width of the crank web (w):- 
+1.14
+c
+w
+d
+
+ 
+103
+w
+mm
+
+ 
+We know that maximum bending moment on the crank 
+web, 
+1
+2
+2
+2
+c
+c
+l
+t
+M
+H
+b
+
+
+
+
+
+
+
+
+ 
+72
+63
+51.7286 97
+2
+2
+M
+
+
+
+
+
+
+
+
+ 
+1525.99
+M
+kN
+mm
+
+
+ 
+Section modulus, 
+2
+2
+1
+68134.5
+.
+6
+Z
+w t
+mm
+
+
+
+
+ 
+Bending stress, 
+2
+22.39
+/
+b
+M
+N
+mm
+Z
+
+
+ 
+We know that direct compressive stress on the crank 
+web, 
+3
+1
+51.72 10 / (103 63)
+c
+H
+w t
+
+
+
+
+
+ 
+2
+7.97
+/
+c
+N mm
+
+ 
+ Total stress on the crank web () 
+2
+22.39
+7.97
+30.36
+/
+b
+c
+N mm
+
+
+
+
+
+
+
+
+ 
+Since, the total stress on the crank web is less than the 
+allowable bending stress of the 75 MPa, therefore the 
+design of the left hand crank web is safe. 
+(c) Design of right hand crank web:- 
+From the balancing point of view, the dimensions of the 
+right hand crank web are made equal to the dimensions 
+of the left hand crank web is safe. 
+ 
+C) Design of the Crankshaft When the Crank is at an 
+Angle of Maximum Twisting Moment 
+ 
+Force on the Piston (FP) = Area of the bore x Maximum 
+combustion pressure. 
+2
+'
+2
+(97)
+1
+7389.81
+4
+4
+Fp
+D
+p
+N
+
+
+
+
+
+
+
+ 
+In order to find the thrust in the connecting rod (
+)
+Q
+F , we 
+should first find out the angle of inclination of the 
+connecting rod with the line of stroke (). 
+We know that, 
+0
+sin
+sin35
+sin
+0.1147
+5
+l r
+
+
+
+
+ 
+
+1
+sin (0.1147)
+6.58
+
+
+
+
+ 
+We know that thrust in connecting rod, 
+0
+7389.81
+7438.81
+cos
+cos6.58
+p
+Q
+F
+F
+N
+
+
+
+
+ 
+Thrust on the crankshaft can be split into tangential 
+component and the radial component. 
+Tangential force acting on the crankshaft (FT):- 
+sin(
+)
+T
+Q
+F
+F
+
+
+
+
+ 
+4936.87
+T
+F
+N
+
+ 
+And Radial force, 
+cos(
+)
+R
+Q
+F
+F
+
+
+
+
+ 
+5564.45
+R
+F
+N
+
+ 
+Due to tangential force (
+T
+F ), there will be two reactions 
+at the bearings 1 and 2, such that 
+1
+( 1)
+4936.87 / 2
+T
+T
+F
+b
+H
+b
+
+
+
+ 
+( 1)
+2468.43
+T
+H
+N
+
+ 
+2
+( 2)
+4936.87 / 2
+T
+T
+F
+b
+H
+b
+
+
+
+ 
+( 2)
+2468.43
+T
+H
+N
+
+                                                                             
+Due to radial Force is given by, Reaction at bearing (a 
+& b) 
+1
+( 1)
+5564.45 / 2
+R
+R
+F
+b
+H
+b
+
+
+
+ 
+( 1)
+2782.225
+R
+H
+N
+
+ 
+2
+(
+2)
+5564.45 / 2
+R
+R
+F
+b
+H
+b
+
+
+
+ 
+( 2)
+2782.225
+R
+H
+N
+
+ 
+ 
+IV. ANALYSIS USING ANSYS 14.5 
+ 
+Building an accurate and reliable calculating model is 
+one of the key steps of analysis with finite element 
+analysis. The model was created using Creo 2.0 
+software. The following are the steps involved in 
+modelling of the crankshaft.  In the 2D drawing of 
+original of crankshaft crankpin diameter is 90 mm, 
+journal diameter is 60 mm, crank length 72 mm & web 
+thickness ( Left and Right Hand) 63 mm and width (Left 
+and Right Hand) 103 mm. 
+ 
+Figure No:- 1 Three Dimensional Modeling Original 
+Crakshaft in Creo 2.0 
+ 
+A) 
+Finite Element Analysis of Material 
+1) 
+Analysis of crankshaft- FG 260 Material :   
+We select FG 260 material for analysis following are 
+the properties of material for structural analysis, 
+Material: - FG 260 
+Poisson ratio: - 0.26  
+Density: - 7197 kg/m3  
+Young’s Modules: - 198 GPa. 
+International Journal of Scientific Research in Science, Engineering and Technology (ijsrset.com) 
+ 
+135 
+ 
+Figure No : 2 Von Misses Stress Distribution (FG 260) 
+of Crankshaft 
+For the given load conditions the range of Equivalent 
+Von- Mises stress is observed from 0.018518 Pa to 
+424.58MPa. 
+ 
+Figure No: 3 Deformation of (FG 260 material) 
+crankshaft 
+From the above result for material FG 260 maximum 
+deformation 
+occurs 
+at 
+the 
+center. 
+Maximum 
+deformation is noted as 0.0648mm 
+ 
+Figure No: 4 Maximum Principal Stress (FG 260) of 
+Crankshaft 
+Maximum Principal Stress for the given condition is 
+observed from -119.45 MPa to 423.87 MPa for FG260 
+material. 
+2) 
+Analysis of Crankshaft- FG 300 Material : 
+We select second material FG 300 for analysis 
+following are the properties of material for structural 
+analysis, 
+Material: - FG300  
+Poisson ratio: - 0.26 
+Density: - 7200 kg/m3  
+Young’s Modules: - 205 Gpa 
+ 
+Figure No : 5 Von Misses Stress Distribution (FG 300) 
+of Crankshaft. 
+For the given load conditions the range of Equivalent 
+Von- Mises stress is observed from 0.018518 Pa to 
+510.67MPa. 
+       
+Figure No :-6 Deformation of (FG 300) Crankshaft 
+From the above result for material FG 300 maximum 
+deformation 
+occurs 
+at 
+the 
+center. 
+Maximum 
+deformation is noted as 0.03391mm 
+ 
+Figure No : 7 Maximum Principal Stress (FG 300) of 
+Crankshaft 
+International Journal of Scientific Research in Science, Engineering and Technology (ijsrset.com) 
+ 
+136 
+Maximum Principal Stress for the given condition is 
+observed from -123.32 MPa to 553.36 MPa for FG300 
+material. 
+3) 
+Analysis of Crankshaft- EN 8 Material : 
+We select third material EN 8 for analysis following are 
+the properties of material for structural analysis, 
+Material: - EN 8 
+Poisson ratio: - 0.300 
+Density: - 7850 kg/mm3 
+Young’s Modules: - 210 GPa 
+ 
+ Figure No : 8 Von Misses Stress Distribution (EN 8) of 
+Crankshaft. 
+For the given load conditions the range of Equivalent 
+Von- Mises stress is observed from 0.022771 Pa to 
+479.46MPa. 
+ 
+Figure No : 9 Deformation of  (EN 8 material) 
+Crankshaft 
+From the above result for material FG 300 maximum 
+deformation 
+occurs 
+at 
+the 
+centre. 
+Maximum 
+deformation is noted as 0.03441mm. 
+ 
+Figure No : 10 Maximum Principal Stress (EN 8 
+material) of Crankshaft 
+Maximum Principal Stress for the given condition is 
+observed from -159.75 MPa to 557.47 MPa for EN 8 
+material. 
+4) 
+Analysis of Crankshaft- E 24 Material: 
+We select fourth material EN 24 for analysis following 
+are the properties of material for structural analysis, 
+Material: - EN 24 
+Poisson ratio: - 0.300 
+Density: - 7800 kg/mm3 
+Shear Modules: - 205 GPa 
+ 
+Figure No : 11 Von Misses Stress (EN 24) of 
+Crankshaft. 
+For the given load conditions the range of Equivalent 
+Von- Mises stress is observed from 0.02771 Pa to 
+479.46MPa. 
+ 
+Figure No : 12 Deformation of (EN 24) Crankshaft 
+International Journal of Scientific Research in Science, Engineering and Technology (ijsrset.com) 
+ 
+137 
+From the above result for material EN 24 maximum 
+deformation 
+occurs 
+at 
+the 
+centre. 
+Maximum 
+deformation is noted as 0.035249mm. 
+ 
+Figure No : 13  Maximum Principal Stress (EN 24) of 
+Crankshaft 
+Maximum Principal Stress for the given condition is 
+observed from -159.75 MPa to 557.47 MPa for EN 24 
+material. 
+5) 
+Analysis of Crankshaft- Aluminium Alloy 
+Material: 
+We select fifth material Aluminium Alloy for analysis 
+following are the properties of material for structural 
+analysis, 
+Material: - Aluminium Alloy 
+Poisson ratio: - 0.32 
+Density: - 3100 kg/m3  
+Young’s Modulus: - 72Gpa 
+ 
+Figure No : 14 Von Misses Stress (Aluminiumm Alloy) 
+of Crankshaft. 
+For the given load conditions the range of Equivalent 
+Von- Mises stress is observed from 0.021611 Pa to 
+487.64MPa. 
+ 
+Figure No : 15 Deformation of (Aluminium Alloy) 
+Crankshaft 
+From the above result for material Aluminium Alloy 
+maximum deformation occurs at the centre. Maximum 
+deformation is noted as 0.040027mm. 
+ 
+ 
+Figure No : 16  Maximum Principal Stress (Aluminum 
+Alloy) of Crankshaft 
+Maximum Principal Stress for the given condition is 
+observed from -149.87 MPa to 556.42 MPa for 
+Aluminium Alloy material. 
+ 
+V. CONCLUSION 
+ 
+From the Analysis Software we can say that the 
+maximum deformation at the centre of crankpin of 
+crankshaft. FEA results i.e. von mises stress, max 
+principal stress and deformation shows comparative 
+readings for FG260, FG300, EN8, EN24 and 
+Aluminium Alloy within 5-7% difference. Hence we 
+can conclude aluminium based alloy material can be 
+suitable for crank shaft. 
+ 
+VI. ACKNOWLEDGEMENT 
+ 
+We take this opportunity to thank our guide Prof. Galhe 
+D S for their valuable guidance and for providing all the 
+necessary facilities, which were indispensable in the 
+completion of this report. I also thankful to all Faculty 
+International Journal of Scientific Research in Science, Engineering and Technology (ijsrset.com) 
+ 
+138 
+members of Mechanical Engineering Department for 
+their valuable time, support, comments, suggestions and 
+persuasion. I would also like to thank the institute for 
+providing the required facilities, Internet access and 
+important books. 
+ 
+ 
+VII. 
+REFERENCES 
+ 
+[1]. 
+Wei Li, Qing Yan, Jianhua Xue, "Review Analysis of a 
+crankshaft 
+fatigue 
+failure", 
+Engineering 
+Failure 
+Analysis 55 (2015) 139-147. 
+[2]. 
+M. Fonte, P. Duarte, V. Anes, M. Freitas, L. Reis, "On 
+the assessment of fatigue life of marine diesel engine 
+Crankshafts", Engineering Failure Analysis (2015). 
+[3]. 
+M. Fonte, V. Anes, P. Duarte, L. Reis, M. Freitas, 
+"Crankshaft failure analysis of a boxer diesel motor", 
+Engineering Failure Analysis (2015). 
+[4]. 
+M. Fonte, P. Duarte, L. Reis, M. Freitas, V. Infante, 
+"Failure mode analysis of two crankshafts of a single 
+cylinder diesel engine", Engineering Failure Analysis 
+(2015). 
+[5]. 
+G. Zucca, A. Mocci, J. Tirill´o, M. Bernabei, F. De 
+Paolis, "Hydrogen Embrittlement and Fatigue Fracture 
+of a crankshaft of an internal combustion engine", 
+Procedia Engineering 109 (2015) 202 - 209. 
+[6]. 
+B. Kareem, "Evaluation of failures in mechanical 
+crankshafts of automobile based on expert opinion", 
+Case Studies in Engineering Failure Analysis 3 (2015) 
+25-33. 
+[7]. 
+Xiaoping Chen, Xiaoli Yu, Rufu Hu, Jianfeng Li, 
+"Statistical 
+distribution 
+of 
+crankshaft 
+fatigue: 
+Experiment and modeling", Engineering Failure 
+Analysis 42 (2014) 210-220. 
+[8]. 
+Hong-Seok Park, Xuan-Phuong Dang, "A study on the 
+heating process for forging of an automotive 
+crankshaft in terms of energy efficiency", Procedia 
+CIRP 7 (2013) 646 - 651. 
+[9]. 
+Gul Cevik, Rıza Gurbuz, "Evaluation of fatigue 
+performance of a fillet rolled diesel engine crankshaft", 
+Engineering Failure Analysis 27 (2013) 250-261. 
+[10]. A. Ktari, N. Haddar, H.F. Ayedi, "Fatigue fracture 
+expertise of train engine crankshafts", Engineering 
+Failure Analysis 18 (2011) 1085-1093. 

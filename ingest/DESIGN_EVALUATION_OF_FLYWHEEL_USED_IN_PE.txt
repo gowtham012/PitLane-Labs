@@ -1,0 +1,384 @@
+32
+International Journal of Research and Innovation (IJRI) 
+International Journal of Research and Innovation (IJRI)
+DESIGN EVALUATION OF FLYWHEEL USED IN PETROL 
+ENGINE
+G.Ramakrishna Reddy1*, Dilip Maha2, N.Veeranjaneyulu3 
+1 Research Scholar, Department Of Mechanical Engineering, Aurora's Scientific Technological & Research Academy, Hyderabad, India
+2 Professor , Department Of Mechanical Engineering, Aurora's Scientific Technological & Research Academy, Hyderabad, India
+3 Assistant professor,Department Of Mechanical Engineering, Aurora's Scientific Technological & Research Academy, Hyderabad, 
+India.
+*Corresponding Author: 
+G.Ramakrishna Reddy, 
+Research Scholar, Department Of Mechanical Engineering, 
+Aurora's Scientific Technological & Research Academy, 
+Hyderabad, India
+Published: Sep 08, 2014
+Review Type: peer reviewed
+Volume: I, Issue : III
+Citation: G.Ramakrishna Reddy, Research Scholar 
+(2014) COMPARISON OF ALUMINUM & COMPOSITE 
+MATERIALS FOR SHIP PROPELLER USING FEA
+INTRODUCTION TO IC ENGINES
+The internal combustion engine is an engine in 
+which the combustion of a fuel (normally a fossil 
+fuel) occurs with an oxidizer (usually air) in a com-
+bustion chamber. In an internal combustion engine 
+the expansion of the high-temperature and -pres-
+sure gases produced by combustion applies direct 
+force to some component of the engine, such as pis-
+tons, turbine blades, or a nozzle. This force moves 
+the component over a distance, generating useful 
+mechanical energy. 
+The term internal combustion engine usually refers 
+to an engine in which combustion is intermittent, 
+such as the more familiar four-stroke and two-
+stroke piston engines, along with variants, such as 
+the Wankel rotary engine. A second class of internal 
+combustion engines use continuous combustion: 
+gas turbines, jet engines and most rocket engines, 
+each of which are internal combustion engines on 
+the same principle as previously described.[1][2][3]
+[4]
+The internal combustion engine (or ICE) is quite dif-
+ferent from external combustion engines, such as 
+steam or Stirling engines, in which the energy is de-
+livered to a working fluid not consisting of, mixed 
+with, or contaminated by combustion products. 
+Abstract
+A flywheel used in machines serves as a reservoir which stores energy during the period when the supply of energy is 
+more than the requirement and releases it during the period when the requirement of energy is more than supply. 
+For example, in I.C. engines, the energy is developed only in the power stroke which is much more than engine load, and 
+no energy is being developed  during the suction, compression and exhaust strokes in case of four stroke engines. The 
+excess energy is developed during power stroke is absorbed by the flywheel and releases its to the crank shaft during 
+the other strokes in which no energy is developed, thus rotating the crankshaft at a uniform speed.                     
+The flywheelis located on one end of the crankshaft and serves two purposes. First, through its inertia, it reduces vibra-
+tion by smoothing out the power stroke as each cylinder fires. Second, it is the mounting surface used to bolt the engine 
+up to its load. 
+ The aim of the project is to design a flywheel for a multi cylinder petrol engine flywheel using the empirical formulas. A 
+2D drawing is drafted using the calculations. A parametric model of the flywheel is designed using 3D modeling software 
+Pro/Engineer.
+The forces acting on the flywheel are also calculated. The strength of the flywheel is validated by applying the forces on 
+the flywheel in analysis software ANSYS.
+Structural analysis, modal analysis and fatigue analysis are done on the flywheel. Structural analysis is used to deter-
+mine whether flywheel withstands under working conditions. Fatigue analysis is done for finding the life of the compo-
+nent. Modal analysis is done to determine the number of mode shapes for flywheel.
+Analysis is done for two materials Cast Iron and Aluminum Alloy A360 to compare the results.
+Pro/ENGINEER is the standard in 3D product design, featuring industry-leading productivity tools that promote best 
+practices in design.
+ANSYS is general-purpose finite element analysis (FEA) software package.  Finite Element Analysis is a numerical meth-
+od of deconstructing a complex system into very small pieces (of user-designated size) called elements.
+1401-1402
+33
+International Journal of Research and Innovation (IJRI) 
+Working fluids can be air, hot water, pressurized 
+water or even liquid sodium, heated in some kind 
+of boiler.
+A large number of different designs for ICEs have 
+been developed and built, with a variety of different 
+strengths and weaknesses. Powered by an energy-
+dense fuel (which is very frequently gasoline, a liq-
+uid derived from fossil fuels). While there have been 
+and still are many stationary applications, the real 
+strength of internal combustion engines is in mobile 
+applications and they dominate as a power supply 
+for cars, aircraft, and boats, from the smallest to 
+the largest.
+Applications
+Internal combustion engines are most commonly 
+used for mobile propulsion in vehicles and porta-
+ble machinery. In mobile equipment, internal com-
+bustion is advantageous since it can provide high 
+power-to-weight ratios together with excellent fuel 
+energy density. Generally using fossil fuel (mainly 
+petroleum), these engines have appeared in trans-
+port in almost all vehicles (automobiles, trucks, mo-
+torcycles, boats, and in a wide variety of aircraft and 
+locomotives).
+Where very high power-to-weight ratios are required, 
+internal combustion engines appear in the form of 
+gas turbines. These applications include jet aircraft, 
+helicopters, large ships and electric generators.
+Four-stroke cycle (or Otto cycle)
+1. Intake
+2.Compression
+3.Power
+4. Exhaust
+As their name implies, operation of four stroke 
+internal combustion engines have four basic steps 
+that repeat with every two revolutions of the en-
+gine:
+Intake
+o Combustible mixtures are emplaced in the com-
+bustion chamber
+Compression
+o The mixtures are placed under pressure
+Combustion (Power)
+o The mixture is burnt, almost invariably a defla-
+gration, although a few systems involve detona-
+tion. The hot mixture is expanded, pressing on and 
+moving parts of the engine and performing useful 
+work.
+Exhaust
+o The cooled combustion products are exhausted 
+into the atmosphere
+Many engines overlap these steps in time; jet en-
+gines do all steps simultaneously at different parts 
+of the engines.
+Many engines overlap these steps in time; jet en-
+gines do all steps simultaneously at different parts 
+of the engines.
+Introduction To Flywheel
+A flywheel is a mechanical device with a significant 
+moment of inertia used as a storage device for ro-
+tational energy. Flywheels resist changes in their 
+rotational speed, which helps steady the rotation of 
+the shaft when a fluctuating torque is exerted on it 
+by its power source such as a piston-based (recipro-
+cating) engine, or when an intermittent load, such 
+as a piston pump, is placed on it.
+Flywheels can be used to produce very high power 
+pulses for experiments, where drawing the power 
+from the public network would produce unaccep-
+table spikes. A small motor can accelerate the fly-
+wheel between the pulses.
+Recently, flywheels have become the subject of ex-
+tensive research as power storage devices for uses 
+in vehicles and power plants.
+Physics
+A flywheel is a spinning wheel or disc with a fixed 
+axle so that rotation is only about one axis. Energy 
+is stored in the rotor as kinetic energy, or more spe-
+cifically, rotational energy:
+Where:
+•ω is the angular velocity, and
+•Iis the moment of inertia of the mass about the 
+center of rotation. The moment of inertia is the 
+measure of resistance to torque applied on a spin-
+34
+International Journal of Research and Innovation (IJRI) 
+ning object (i.e. the higher the moment of inertia, 
+the slower it will spin after being applied a given 
+force).
+Application Of Flywheel Used In Ic Engines
+A 4 cylinder engine produces a power stroke eve-
+ry half crankshaft revolution, an 8 cylinder, every 
+quarter revolution.  This means that a V8 will be 
+smother running than a 4.  To keep the combustion 
+pulses from generating a vibration,  a flywheel is at-
+tached to the back of the crankshaft.  The flywheel is 
+a disk that is about 12 to 15 inches in diameter. On 
+a standard transmission car, the flywheel is a heavy 
+iron disk that doubles as part of the clutch system. 
+On automatic equipped vehicles, the flywheel is a 
+stamped steel plate that mounts the heavy torque 
+converter.  The flywheel uses inertia to smooth out 
+the normal engine pulses.
+ 
+Introduction To Pro/Engineer
+Pro/ENGINEER Wildfire is the standard in 3D prod-
+uct design, featuring industry-leading productivity 
+tools that promote best practices in design while 
+ensuring compliance with your industry and com-
+pany standards. Integrated Pro/ENGINEER CAD/
+CAM/CAE solutions allow you to design faster than 
+ever, while maximizing innovation and quality to ul-
+timately create exceptional products.
+Customer requirements may change and time pres-
+sures may continue to mount, but your product 
+design needs remain the same - regardless of your 
+project's scope, you need the powerful, easy-to-use, 
+affordable solution that Pro/ENGINEER provides.
+Model Of Flywheel
+2D Drawing
+Introduction To Fea
+FEA consists of a computer model of a material or 
+design that is stressed and analyzed for specific re-
+sults. It is used in new product design, and existing 
+product refinement. A company is able to verify a 
+proposed design will be able to perform to the cli-
+ent's specifications prior to manufacturing or con-
+struction. Modifying an existing product or struc-
+ture is utilized to qualify the product or structure 
+for a new service condition.In case of structural fail-
+ure, FEA may be used to help determine the design 
+modifications to meet the new condition. 
+FEA uses a complex system of points called nodes 
+which make a grid called a mesh. This mesh is pro-
+grammed to contain the material and structural 
+properties which define how the structure will react 
+to certain loading conditions. Nodes are assigned at 
+a certain density throughout the material depend-
+ing on the anticipated stress levels of a particular 
+area. Regions which will receive large amounts of 
+stress usually have a higher node density than 
+those which experience little or no stress. Points of 
+interest may consist of: fracture point of previously 
+tested material, fillets, corners, complex detail, and 
+high stress areas. The mesh acts like a spider web 
+in that from each node, there extends a mesh ele-
+ment to each of the adjacent nodes. This web of vec-
+tors is what carries the material properties to the 
+object, creating many elements. 
+Introduction To Ansys
+ANSYS is general-purpose finite element analysis 
+(FEA) software package.  Finite Element Analysis 
+is a numerical method of deconstructing a complex 
+system into very small pieces (of user-designated 
+size) called elements. The software implements 
+equations that govern the behaviour of these ele-
+ments and solves them all; creating a comprehen-
+sive explanation of how the system acts as a whole. 
+These results then can be presented in tabulated, 
+or graphical forms.  This type of analysis is typically 
+used for the design and optimization of a system far 
+too complex to analyze by hand.  Systems that may 
+fit into this category are too complex due to their 
+geometry, scale, or governing equations. 
+35
+International Journal of Research and Innovation (IJRI) 
+Structural Analysis of Flywheel
+              Imported Model from Pro/Engineer
+Displacement  Vector Sum
+                         Von Mises Stress
+Fatigue Analysis
+Location: 1Node 12536 at the constrained area.
+The combination of event 2, load 1 and event 2, 
+load 2 produces an alternating stress intensity 
+of 0.64398e-01 N/mm2. The flywheel was sub-
+jected to 5000 cycles while from the S-N Table, the 
+maximum number of cycles allowed at that stress 
+intensity is 1,000,000. 
+The partial usage value, 0.005, is the ratio of cycles 
+used/cycles allowed.
+The combination of event 1, load 1 and event 1, 
+load 2 produces an alternating stress intensity of 
+0.86604e-01 N/mm2. The flywheel was subjected 
+to 500,000 cycles while from the S-N Table, the 
+maximum number of cycles allowed at that stress 
+intensity is 1,000,000. The partial usage value, 
+0.5, is the ratio of cycles used/cycles allowed.
+The Cumulative Fatigue Usage value is 0.505, is 
+the sum of the partial usage factors (Miner’s rule).
+Results
+   Cast iron
+RESULTS
+PERMISSIBLE
+DISPLACEMENT
+0.334e-3
+VONMISES 
+STRESS
+0.66582
+620
+Frequency
+Displacement
+MODE 01
+45.254
+0.111115
+MODE 02
+63.595
+0.20176
+MODE 03
+54.501
+0.181312
+MODE 04
+69.819
+                          
+0.159127
+MODE 05
+93.227
+0.266552
+Cast 
+iron	
+A360 Alloy
+Constrained area
+Event 1 Load1, Event 1 
+500000cycles
+Load 2
+Event 2 Load1, Event 2 
+50000cycles
+Load 2
+0.10417/mm2
+0.77463e-01 
+N/mm2
+0.86604e-
+010.64398e-01
+Pressure area
+Event 1 Load1, Event 1 
+500000Cycles
+Load 2
+Event 2 Load1, Event 2 
+50000cyclesLoad 2
+0.17499 N/mm2
+0.13012 N/mm2
+0.25849 
+0.19221 
+Open area
+Event 1 Load1, Event 1 
+500000cycles
+Load 2
+Event 2 Load1, Event 2 
+50000cyclesLoad 2
+0.17018 N/mm2
+0.12654 N/mm2
+0.6954e-01
+0.51714e-01 
+36
+International Journal of Research and Innovation (IJRI) 
+CONCLUSION
+In our project we have designed a four wheeler fly-
+wheel used in a petrol engine using theoretical cal-
+culations. 2d drawing is created and modeling of 
+flywheel is done using Pro/Engineer.
+We have done structural and modal analysis on fly-
+wheel using two materials Aluminum Alloy A360 
+and Cast Iron to validate our design.
+By observing the results, for all the materials the 
+stress values are less than their respective permis-
+sible yield stress values. So our design is safe.
+We have also done modal analysis for number of 
+modes to see the displacement of flywheel for num-
+ber of frequencies.
+By comparing the results for two materials, the 
+stress value for Aluminum Alloy A360 is less than 
+that of Cast Iron.
+So we conclude that for our design, Aluminum A360 
+is better material for flywheel. By using Aluminum 
+A360 we can reduce Weight. Also it is rust free.
+Fatigue analysis is also done on flywheel to verify 
+the stress values at the selected nodes. The nodes 
+are selected at constrained area, pressure area and 
+open area.
+In this project its having some disadvantages is by 
+replacing with Aluminum A360 energy storage is re-
+duced. In this project mainly we done material op-
+timization. 
+For both the materials the number of cycles allowed 
+for flywheel is 500000 cycles.
+BIBILOGRAPHY
+1.Engineering mechanics STATICS R.C.HIBBLER.
+2.Engineering Fundamentalsof theInternal Com-
+bustion Engine by Willard W. Pulkrabek
+3.MARK’S Calculations for mechanical design by 
+Thomas H. Brown
+4. Machine Design by R.S. KHURMI, J.K. GUPTA
+5.handbook of mechanical engineering - modern 
+manufacturing by Ed. Frank Kreith
+6.Mechanical Engineering Design by Budynas−Ni-
+sbett.
+7.Automotive Engineering by Patric GRANT.
+8. Automotive.Production.Systems.and.Standardi-
+sation by WERNER.
+Author
+G.Ramakrishna Reddy1*,
+Research Scholar, Department Of Mechanical En-
+gineering, Aurora's Scientific Technological & Re-
+search Academy, Hyderabad, India
+Dilip Maha2, 
+Professor,Department Of Mechanical Engineering, 
+Aurora's Scientific Technological & Research Acad-
+emy, Hyderabad, India
+N.Veeranjaneyulu3 
+Assistant professor,Department Of Mechanical En-
+gineering, Aurora's Scientific Technological & Re-
+search Academy, Hyderabad, India.

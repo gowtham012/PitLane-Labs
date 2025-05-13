@@ -1,0 +1,828 @@
+THEORY AND DESIGN OF AUTOMOTIVE ENGINES 
+THEORY AND DESIGN
+OF
+AUTOMOTIVE ENGINES
+Syllabus 
+ 
+I Introduction 
+1 General - Historical development of automobiles, Types of power plant, Principle of engine operation, 
+Classification of engines. 
+2. Two stroke & four stroke engines; Principles of engine operation (SI & CI), Scavenging - systems, 
+theoretical processes, parameters, relative merits & demerits; Port timing diagrams, port design. 
+Relative merits & demerits compared to petrol & diesel engines, scavenging pumps. 
+ 
+II Engine components – 
+Classification/types, function, materials, construction details, design and manufacturing processes of 
+the following engine components 
+3. Cylinders and liners - design, cylinder wear and corrosion, details of water jacket, dry and wet liners, 
+Cylinder head - design; 
+4. Piston, piston rings, piston pin - design - stress analysis, methods of manufacture, compensation of 
+thermal expansion in pistons, heat treatment, piston ring selection, limits of fit for pins  
+5. Connecting rod - design, effects of whipping, bearing materials, lubrication 
+6. Crank shaft - design, firing order, balancing and torsional vibration analysis, vibration dampers, 
+bearings,. Lubrication 
+7. Flywheel - design; Camshaft - drives of cams, materials, Types (only descriptive) 
+8. Valve and valve mechanism - design, types of valve operating mechanisms, valve springs, guides, 
+push rods, rocker arms, tappets, valve timing diagrams  
+9. Crank Case- Design of crank case, oil sumps and cooling features 
+10. Manifolds-construction and design of inlet and exhaust manifolds. 
+ 
+TEXT BOOKS: 
+I. High Speed Engines - P .M.Heldt, Oxford & IBH , 1965 
+2. Auto Design - R.B Gupta, Satya Prakashan, New Delhi 1999 
+ 
+REFERENCE BOOKS: 
+I.A course in I.c. Engine - Mathur & Sharma, Dhanput Rai & Sons, Delhi, 1994 
+2.Automobile Engineering VoU & II - Kirpal Singh, Standard publications, New Delhi, 1972 
+3. Modem Petrol Engine ~ A.W.Judge, B.I. Publications. 1983 
+4. I.c. Engine - Maleev &Litchy, McGrawHill 
+5. I.C.Engines - H.B.Keshwani, Standard Pub New Delhi., 1982 
+6. Fundamentals of I.C.Engines - J.B.Heywood 
+7. Machine design exercises - S.N.Trikha, Khanna publications, Delhi 
+8. Automotive mechanics - N.K.Giri, Khanna publications,Delhi 
+9. Automotive mechanics - William H. Crouse, Tata Mc,Graw Hill Publications Co. New Delhi 
+10. I.C.Engines and Air Pollution - B.P.Obel'rlntext harper & Roni Pub, New york 
+) 
+ 
+Scheme of Examination (AU511)
+Answer any FIVE questions out of EIGHT questions. 
+ 
+Chapter No. 
+1 &2 
+3 
+4 
+5 
+6 
+7 
+8, 9&10
+Question 
+2 
+I 
+I 
+I 
+I 
+I 
+I 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+1
+CHAPTER - 1 
+HISTORY 
+Automobiles through the Years - Since they originated in the late 1800s, automobiles have 
+changed and developed in response to consumer wishes, economic conditions, and advancing 
+technology. The first gas-powered vehicles looked like horse buggies with engines mounted underneath 
+because this was the style to which people were accustomed. By 1910, however, features like the front-
+mounted engine were already established, giving the automobile a look that was all its own. As public 
+demand for cars increased, the vehicles became more stylized. The classic cars of the 1920s and 1930s 
+epitomize the sleek, individually designed luxury cars called the “classic cars.” During the 1940s and 
+1950s, automobiles generally became larger until the advent of the “compact” car, which immediately 
+became a popular alternative. The gasoline crisis is reflected in the fuel efficient cars made in the 1970s 
+and 1980s. Current designs continue to reflect economy awareness, although many different markets 
+exist.  
+ 
+The history of the automobile actually began about 4,000 years ago when the first wheel was 
+used for transportation in India. 
+In the early 15th century the Portuguese arrived in China and the interaction of the two cultures 
+led to a variety of new technologies, including the creation of a wheel that turned under its own power. 
+By the 1600s small steam-powered engine models had been developed, but it was another century 
+before a full-sized engine-powered vehicle was created. 
+In 1769 French Army officer Captain Nicolas-Joseph Cugnot built what has been called the first 
+automobile. Cugnot’s three-wheeled, steam-powered vehicle carried four persons. Designed to move 
+artillery pieces, it had a top speed of a little more than 3.2 km/h (2 mph) and had to stop every 20 
+minutes to build up a fresh head of steam. 
+Cugnot 
+Steam 
+Tractor  
+-the 
+first 
+self-
+propelled 
+road 
+vehicle, thus, the 
+earliest automobile. 
+Powered by steam, 
+the three-wheeled 
+tractor- invented in 
+1769 by Nicolas-
+Joseph 
+Cugnot. 
+designed to carry 
+artillery, but similar 
+vehicles 
+soon 
+found many other 
+uses in industry. 
+ 
+As early as 1801, successful but very heavy steam automobiles were introduced in England. 
+Laws barred them from public roads and forced their owners to run them like trains on private tracks. 
+In 1802 a steam-powered coach designed by British engineer Richard Trevithick journeyed more than 
+160 km (100 mi) from Cornwall to London. Steam power caught the attention of other vehicle builders. 
+In 1804 American inventor Oliver Evans built a steam-powered vehicle in Chicago, Illinois. French 
+engineer Onésiphore Pecqueur built one in 1828. 
+British inventor Walter Handcock built a series of steam carriages in the mid-1830s that were 
+used for the first omnibus service in London. 
+By the mid-1800s England had an extensive network of steam coach lines. Horse-drawn 
+stagecoach companies and the new railroad companies pressured the British Parliament to approve 
+heavy tolls on steam-powered road vehicles. The tolls quickly drove the steam coach operators out of 
+business. 
+During the early 20th century steam cars were popular in the United States. Most famous was 
+the Stanley Steamer, built by American twin brothers Freelan and Francis Stanley. A Stanley Steamer 
+established a world land speed record in 1906 of 205.44 km/h (121.573 mph). Manufacturers produced 
+about 125 models of steam-powered automobiles, including the Stanley, until 1932.  
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+2
+Internal-Combustion Engine  
+Development of lighter steam cars during the 19th century coincided with major developments 
+in engines that ran on gasoline or other fuels. Because the newer engines burned fuel in cylinders inside 
+the engine, they were called internal-combustion engines. 
+In 1860 French inventor Jean-Joseph-Étienne Lenoir patented a one-cylinder engine that used 
+kerosene for fuel. Two years later, a vehicle powered by Lenoir’s engine reached a top speed of about 
+6.4 km/h (about 4 mph). 
+In 1864 Austrian inventor Siegfried Marcus built and drove a carriage propelled by a two-
+cylinder gasoline engine.
+American George Brayton patented an internal-combustion engine that was displayed at the 
+1876 Centennial Exhibition in Philadelphia, Pennsylvania. 
+In 1876 German engineer Nikolaus August Otto built a four-stroke gas engine, the most direct ancestor 
+to today’s automobile engines. In a four-stroke engine the pistons move down to draw fuel vapor into 
+the cylinder during stroke one; in stroke two, the pistons move up to compress the vapor; in stroke three 
+the vapor explodes and the hot gases push the pistons down the cylinders; and in stroke four the pistons 
+move up to push exhaust gases out of the cylinders. Engines with two or more cylinders are designed so 
+combustion occurs in one cylinder after the other instead of in all at once. Two-stroke engines 
+accomplish the same steps, but less efficiently and with more exhaust emissions. 
+Automobile manufacturing began in earnest in Europe by the late 1880s. 
+German engineer Gottlieb Daimler and German inventor Wilhelm Maybach mounted a gasoline-
+powered engine onto a bicycle, creating a motorcycle, in 1885.
+In 1887 they manufactured their first car, which included a steering tiller and a four-speed 
+gearbox. Another German engineer, Karl Benz, produced his first gasoline car in 1886. 
+ 
+Early Car 
+The first practical car, built 
+by German engineer Karl 
+Benz in 1885, initiated the 
+era 
+of 
+automobile 
+manufacturing. Benz made 
+improvements to the internal 
+combustion 
+engine 
+and 
+invented the differential drive 
+and 
+other 
+automotive 
+components. The company 
+Benz founded grew into one 
+of the largest automobile 
+manufacturers in Germany. 
+ 
+In 1890 Daimler and Maybach started a successful car manufacturing company, The Daimler 
+Motor Company, which eventually merged with Benz’s manufacturing firm in 1926 to create Daimler-
+Benz. The joint company makes cars today under the Mercedes-Benz nameplate. 
+In France, a company called Panhard-Levassor began making cars in 1894 using Daimler’s 
+patents. Instead of installing the engine under the seats, as other car designers had done, the company 
+introduced the design of a front-mounted engine under the hood. Panhard-Levassor also introduced, a 
+clutch and gears, and separate construction of the chassis, or underlying structure of the car, and the car 
+body. The company’s first model was a gasoline-powered buggy steered by a tiller. 
+French bicycle manufacturer Armand Peugeot saw the Panhard-Levassor car and designed an 
+automobile using a similar Daimler engine. In 1891 this first Peugeot automobile paced a 1,046-km 
+(650-mi) professional bicycle race between Paris and Brest. 
+Other French automobile manufacturers opened shop in the late 1800s, including Renault. 
+In Italy, Fiat (Fabbrica Italiana Automobili di Torino) began building cars in 1899. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+3
+American automobile builders were not far behind. Brothers Charles Edgar Duryea and James 
+Frank Duryea built several gas-powered vehicles between 1893 and 1895. The first Duryea, a one-
+cylinder, four-horsepower model, looked much like a Panhard-Levassor model. 
+ 
+Horseless Carriage 
+The original horseless carriage was introduced in 
+1893 by brothers Charles and Frank Duryea. It was 
+America’s first internal-combustion motor car, and it 
+was followed by Henry Ford’s first experimental car 
+that same year. 
+ 
+In 
+1893 
+American 
+industrialist 
+Henry Ford built an internal-combustion 
+engine from plans he saw in a magazine. In 
+1896 he used an engine to power a vehicle 
+mounted on bicycle wheels and steered by a 
+tiller.  
+Early Electric Cars  
+For a few decades in the 1800s, electric engines enjoyed great popularity because they were 
+quiet and ran at slow speeds that were less likely to scare horses and people. By 1899 an electric car 
+designed and driven by Belgian inventor Camille Jenatzy set a record of 105.8810 km/h (65.79 mph). 
+Early electric cars featured a large bank of storage batteries under the hood. Heavy cables connected the 
+batteries to a motor between the front and rear axles. Most electric cars had top speeds of 48 km/h (30 
+mph), but could go only 80 km (50 mi) before their batteries needed recharging. Electric automobiles 
+were manufactured in quantity in the United States until 1930. 
+ 
+Automobiles in the 20th century  
+For many years after the introduction of automobiles, three kinds of power sources were in 
+common use: steam engines, gasoline engines, and electric motors.
+In 1900 more than 2,300 automobiles were registered in New York City; Boston, Massachusetts; and 
+Chicago, Illinois. Of these, 1,170 were steam cars, 800 were electric cars, and only 400 were gasoline 
+cars. Gasoline-powered engines eventually became the nearly universal choice for automobiles because 
+they allowed longer trips and faster speeds than engines powered by steam or electricity. 
+Improvements in the operating and riding qualities of gasoline automobiles developed quickly 
+after 1900. The 1902 Locomobile was the first American car with a four-cylinder, water-cooled, front-
+mounted gasoline engine, very similar in design to most cars today. Built-in baggage compartments 
+appeared in 1906, along with weather resistant tops and side curtains. An electric self-starter was 
+introduced in 1911 to replace the hand crank used to start the engine turning. Electric headlights were 
+introduced at about the same time.
+Most automobiles at the turn of the 20th century appeared more or less like horseless carriages. 
+In 1906 gasoline-powered cars were produced that had a style all their own. In these new models, a 
+hood covered the front-mounted engine. Two kerosene or acetylene lamps mounted to the front served 
+as headlights. Cars had fenders that covered the wheels and step-up platforms called running boards, 
+which helped passengers, get in and out of the vehicle. The passenger compartment was behind the 
+engine. Although drivers of horse-drawn vehicles usually sat on the right, automotive steering wheels 
+were on the left in the United States.
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+4
+In 1903 Henry Ford incorporated the Ford Motor Company, which introduced its first 
+automobile, the Model A, in that same year. It closely resembled the 1903 Cadillac, which was hardly 
+surprising since Ford had designed cars the previous year for the Cadillac Motor Car Company. Ford’s 
+company rolled out new car models each year, and each model was named with a letter of the alphabet. 
+By 1907, when models R and S appeared, Ford’s share of the domestic automobile market had soared to 
+35 percent. 
+ 
+Ford Model T 
+A
+Ford Model T 
+rolls 
+off 
+the 
+assembly 
+line. 
+Between 1908 and 
+1927, Ford built 15 
+million Model Ts. 
+Ford’s famous Model T debuted in 1908 but was called a 1909 Ford. Ford built 17,771 Model 
+T’s and offered nine body styles. Popularly known as the Tin Lizzy, the Model T became one of the 
+biggest-selling automobiles of all time. Ford sold more than 15 million before stopping production of 
+the model in 1927. The company’s innovative assembly-line method of building the cars was widely 
+adopted in the automobile industry. 
+ 
+Silver Ghost 
+One of the highest-rated early 
+luxury 
+automobiles, 
+the 
+1909 
+Rolls-Royce 
+Silver 
+Ghost’s 
+features included a quiet 6-
+cylinder engine, leather interior, 
+folding windscreens and hood, 
+and an aluminum body. Generally 
+driven only by chauffeurs, the 
+emphasis of the luxury car was on 
+comfort and style rather than 
+speed. 
+ 
+By 1920 more than 8 million Americans owned cars. Major reasons for the surge in automobile 
+ownership were Ford’s Model T, the assembly-line method of building it, and the affordability of cars 
+for the ordinary wage earner. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+5
+Improvements in engine-powered cars during the 1920s contributed to their popularity: 
+synchromesh transmissions for easier gear shifting; four-wheel hydraulic brake systems; improved 
+carburetors; shatterproof glass; balloon tires; heaters; and mechanically operated windshield wipers.
+Phaeton 
+Cars of the 1920s exhibited design refinements such as 
+balloon tires, pressed-steel wheels, and four-wheel 
+brakes. Although assembly lines (which originated with 
+Henry Ford in 1908) continued to bring the price of 
+automobiles down, many cars in this time were one-of-
+a-kind 
+vintage 
+models, 
+made 
+to 
+individual 
+specifications. The 1929 Graham Paige DC Phaeton 
+shown here featured an 8-cylinder engine and an 
+aluminum body. 
+ 
+From 1930 to 1937, automobile engines and bodies became large and luxurious. Many 12- and 
+16-cylinder cars were built. Independent front suspension, which made the big cars more comfortable, 
+appeared in 1933. Also introduced during the 1930s were stronger, more reliable braking systems, and 
+higher-compression engines, which developed more horsepower. Mercedes introduced the world’s first
+diesel car in 1936.
+Automobiles on both sides of the Atlantic were styled with gracious proportions, long hoods, 
+and pontoon-shaped fenders. Creative artistry merged with industrial design to produce appealing, 
+aerodynamic automobiles. 
+De Luxe Sedan 
+The 
+roomy 
+interior 
+and rear-hinged back 
+door of this 1937 
+Pontiac 
+De 
+Luxe 
+sedan 
+represent 
+a 
+move toward a car 
+more suited to the 
+needs 
+of 
+families. 
+With 
+these 
+consumers in mind, 
+cars were designed 
+to 
+be 
+convenient, 
+reliable, and relatively 
+inexpensive. Vehicles 
+in the 1930s were 
+generally less boxy 
+and more streamlined 
+than 
+their 
+predecessors. 
+ 
+Some of the first vehicles to fully incorporate the fender into the bodywork came along just after 
+World War II, but the majority of designs still had separate fenders with pontoon shapes holding 
+headlight assemblies. Three companies, Ford, Nash, and Hudson Motor Car Company, offered postwar 
+designs that merged fenders into the bodywork. The 1949 Ford was a landmark in this respect, and its 
+new styling was so well accepted the car continued in production virtually unchanged for three years, 
+selling more than 3 million. During the 1940s, sealed-beam headlights, tubeless tires, and the automatic 
+transmission were introduced.
+Two schools of styling emerged in the 1950s, one on each side of the Atlantic. The Europeans 
+continued to produce small, light cars weighing less than 1,300 kg (2,800 lb). European sports cars of 
+that era featured hand-fashioned aluminum bodies over a steel chassis and framework. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+6
+Studebaker 
+This 1940 Studebaker Champion two-door sedan was 
+designed by Raymond Loewy and built by Studebaker 
+craftsmen. Features emerging in the 1940s include 
+automatic transmission, sealed-beam headlights, and 
+tubeless tires. 
+ 
+In America, automobile designers borrowed features for their cars that were normally found on 
+aircraft and ships, including tailfins and portholes. Automobiles were produced that had more space, 
+more power, and smoother riding capability. Introduction of power steering and power brakes made 
+bigger cars easier to handle. The Buick Motor Car Company, Olds Motor Vehicle Company 
+(Oldsmobile), Cadillac Automobile Company, and Ford all built enormous cars, some weighing as 
+much as 2,495 kg (5,500 lb). The first import by German manufacturer Volkswagen AG, advertised as 
+the Beetle, arrived in the United States in 1949. Only two were sold that year, but American consumers 
+soon began buying the Beetle and other small imports by the thousands. 
+ 
+VW Beetle 
+The Volkswagen Beetle dominated the 
+market for several years, during which few 
+modifications were made on the original 
+design. Volkswagen’s name means “car for 
+the people,” and the car served at least two 
+important 
+consumer 
+needs. 
+The 
+rear-
+mounted engine and small, rounded, buglike 
+shape of the European car represented an 
+appealing combination of look and economy 
+that remained popular for more than four 
+decades. 
+ 
+That prompted a downsizing of some American-made vehicles. The first American car called a 
+compact was the Nash Rambler. Introduced in 1950, it did not attract buyers on a large scale until 1958. 
+More compacts, smaller in overall size than a standard car but with virtually the same interior body 
+dimensions, emerged from the factories of many major manufacturers. The first Japanese imports, 16 
+compact trucks, arrived in the United States in 1956. 
+In the 1950s new automotive features were introduced, including air conditioning and 
+electrically operated car windows and seat adjusters. Manufacturers changed from the 6-volt to the 12-
+volt ignition system, which gave better engine performance and more reliable operation of the growing 
+number of electrical accessories. 
+By 1960 sales of foreign and domestic compacts accounted for about one-third of all passenger 
+cars sold in the United States. American cars were built smaller, but with increased engine size and 
+horsepower. Heating and ventilating systems became standard equipment on even the least expensive 
+models. Automatic transmissions, power brakes, and power steering became widespread. Styling 
+sometimes prevailed over practicality—some cars were built in which the engines had to be lifted to 
+allow simple service operations, like changing the spark plugs. Back seats were designed with no 
+legroom. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+7
+Gullwing 
+ 
+Powerful 
+high-performance 
+cars 
+such as this 1957 Mercedes-Benz 
+300SL were built on compact and 
+stylized lines. 
+Also called 
+the 
+Gullwing because its doors open 
+upward into the shape of a gull’s 
+wings, the 300SL was capable of 
+230 kmh (144 mph), its on-road 
+performance matching its racing 
+capacity. 
+ 
+El Dorado  
+This 
+1957 
+Cadillac 
+El 
+Dorado 
+convertible epitomizes the large cars of 
+the “American Dream” era. Tail fins are 
+an example of a trend in car design. 
+Although the feature did little for the 
+performance of the vehicle, consumers 
+loved the look, and demanded fins of 
+increasing size until the 1960s. 
+ 
+Mustang 
+More 
+than 
+100,000 
+Ford 
+Mustangs sold during first four 
+months the model was on the 
+market in 1964, making it Ford’s 
+best early sales success since 
+the introduction of the Model T. A 
+vehicle from the “muscle car” 
+category, the Mustang’s popular 
+characteristics included a small, 
+fast design, excellent handling, a 
+powerful engine, and a distinctive 
+look. 
+ 
+In the 1970s American manufacturers continued to offer smaller, lighter models in addition to 
+the bigger sedans that led their product lines, but Japanese and European compacts continued to sell 
+well. Catalytic converters were introduced to help reduce exhaust emissions.
+Digital speedometers and electronic prompts to service parts of the vehicle appeared in the 
+1980s. Japanese manufacturers opened plants in the United States. At the same time, sporty cars and 
+family minivans surged in popularity. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+8
+Advances in automobile technology in the 1980s included better engine control and the use of 
+innovative types of fuel. In 1981 Bayerische Motoren Werke AG (BMW) introduced an on-board 
+computer to monitor engine performance. A solar-powered vehicle, SunRaycer, traveled 3,000 km 
+(1,864 mi) in Australia in six days.
+MR-2 Turbo 
+Modern 
+cars 
+like 
+the 
+Japanese 1992 MR-2 Turbo 
+T-bar Toyota are generally 
+light, 
+aerodynamically 
+shaped, 
+and 
+compact. 
+Japanese imports changed 
+the 
+automobile 
+industry 
+significantly. The generally 
+reliable, 
+inexpensive 
+cars 
+increased 
+competition 
+between 
+manufacturers 
+dramatically, to the benefit of 
+consumers. 
+ 
+New technologies 
+Gas-Electric Hybrids 
+ 
+The Toyota Prius,
+a four-seat hybrid electric vehicle (HEV), was the first 
+HEV to be marketed when Toyota introduced it in Japan 
+in 1997.  
+ 
+The Honda Insight,
+a two-seat HEV, followed in 1999 when it was sold in 
+both Japan and the United States. The Prius had its U.S. 
+debut in 2000. 
+ 
+Gas-Electric Hybrids The Toyota Prius, a four-seat hybrid electric vehicle (HEV), was the first 
+HEV to be marketed when Toyota introduced it in Japan in 1997. The Honda Insight, a two-seat HEV, 
+followed in 1999 when it was sold in both Japan and the United States. The Prius had its U.S. debut in 
+2000.  
+Pollution-control laws adopted at the beginning of the 1990s in some of the United States and in 
+Europe called for automobiles that produced better gas mileage with lower emissions. In 1996 General 
+Motors became the first to begin selling an all-electric car, the EV1, to California buyers. The all-
+electric cars introduced so far have been limited by low range, long recharges, and weak consumer 
+interest.  
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+9
+Engines that run on hydrogen have been tested. Hydrogen combustion produces only a trace of 
+harmful emissions, no carbon dioxide, and a water-vapor by-product. However, technical problems 
+related to the gas’s density and flammability remains to be solved. 
+Diesel engines burn fuel more efficiently, and produce fewer pollutants, but they are noisy. 
+Popular in trucks and heavy vehicles, diesel engines are only a small portion of the automobile market. 
+A redesigned, quieter diesel engine introduced by Volkswagen in 1996 may pave the way for more 
+diesels, and less pollution, in passenger cars. 
+While some developers searched for additional alternatives, others investigated ways to combine 
+electricity with liquid fuels to produce low-emissions power systems. Two automobiles with such 
+hybrid engines, the Toyota Prius and the Honda Insight, became available in the late 1990s. Prius hit 
+automobile showrooms in Japan in 1997, selling 30,000 models in its first two years of production. The 
+Prius became available for sale in North America in 2000. The Honda Insight debuted in North America 
+in late 1999. Both vehicles, known as hybrid electric vehicles (HEVs), promised to double the fuel 
+efficiency of conventional gasoline-powered cars while significantly reducing toxic emissions. 
+Computer control of automobile systems increased dramatically during the 1990s. The central 
+processing unit (CPU) in modern engines manages overall engine performance. Microprocessors 
+regulating other systems share data with the CPU. Computers manage fuel and air mixture ratios, 
+ignition timing, and exhaust-emission levels. They adjust the antilock braking and traction control 
+systems. In many models, computers also control the air conditioning and heating, the sound system, 
+and the information displayed in the vehicle’s dashboard. 
+Expanded use of computer technology, development of stronger and lighter materials, and 
+research on pollution control will produce better, “smarter” automobiles.
+In the 1980s the notion that a car would “talk” to its driver was science fiction; by the 1990s it 
+had become reality.
+Onboard navigation was one of the new automotive technologies in the 1990s. By using the 
+satellite-aided global positioning system (GPS), a computer in the automobile can pinpoint the vehicle’s 
+location within a few meters. The onboard navigation system uses an electronic compass, digitized 
+maps, and a display screen showing where the vehicle is relative to the destination the driver wants to 
+reach. After being told the destination, the computer locates it and directs the driver to it, offering 
+alternative routes if needed. 
+Some cars now come equipped with GPS locator beacons, enabling a GPS system operator to 
+locate the vehicle, map its location, and if necessary, direct repair or emergency workers to the scene.
+Cars equipped with computers and cellular telephones can link to the Internet to obtain constantly 
+updated traffic reports, weather information, route directions, and other data. Future built-in computer 
+systems may be used to automatically obtain business information over the Internet and manage 
+personal affairs while the vehicle’s owner is driving.
+During the 1980s and 1990s, manufacturers trimmed 450 kg (1,000 lb) from the weight of the 
+typical car by making cars smaller. Less weight, coupled with more efficient engines, doubled the gas 
+mileage obtained by the average new car between 1974 and 1995. Further reductions in vehicle size are 
+not practical, so the emphasis has shifted to using lighter materials, such as plastics, aluminum alloys, 
+and carbon composites, in the engine and the rest of the vehicle. 
+Looking ahead, engineers are devising ways to reduce driver errors and poor driving habits.
+Systems already exist in some locales to prevent intoxicated drivers from starting their vehicles. The
+technology may be expanded to new vehicles. Anti-collision systems with sensors and warning signals
+are being developed. In some, the car’s brakes automatically slow the vehicle if it is following another
+vehicle too closely. New infrared sensors or radar systems may warn drivers when another vehicle is in
+their “blind spot.” 
+Catalytic converters work only when they are warm, so most of the pollution they emit occurs in 
+the first few minutes of operation. Engineers are working on ways to keep the converters warm for 
+longer periods between drives, or heat the converters more rapidly. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+10
+Types of power plant  
+An engine is a device which transforms one form of energy into another form. However, while 
+transforming energy from one form to another, the efficiency of conversion plays an important role. 
+Normally, most of the engines convert thermal energy into mechanical work and therefore they are 
+called 'heat engines'. 
+Heat engine is a device which transforms the chemical energy of a fuel into thermal energy and 
+utilizes this thermal energy to perform useful work. Thus, thermal energy is converted to mechanical 
+energy in a heat engine. 
+Heat engines can be broadly classified into two categories: 
+(i) Internal Combustion Engines (IC Engines) 
+(ii) External Combustion Engines (EC Engines)  
+ 
+Table 1.1 Classification of heat engines 
+ 
+Engines whether Internal Combustion or External Combustion are of two types, viz., 
+(i) Rotary engines 
+(ii) Reciprocating engines 
+Of the various types of heat engines, the most widely used ones are the reciprocating internal 
+combustion engine, the gas turbine and the steam turbine. The steam engine is rarely used nowadays. 
+The reciprocating internal combustion engine enjoys some advantages over the steam turbine due to the 
+absence of heat exchangers in the passage of the working fluid (boilers and condensers in steam turbine 
+plant). This results in a considerable mechanical simplicity and improved power plant efficiency of the 
+internal combustion engine. 
+ 
+Fig.1.1 
+Classification of heat engines 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+11
+Another advantage of the reciprocating internal combustion engine over the other two types is 
+that all its components work at an average temperature which is much below the maximum temperature 
+of the working fluid in the cycle. This is because the high temperature of the working fluid in the cycle 
+persists only for a very small fraction of the cycle time. Therefore, very high working fluid temperatures 
+can be employed resulting in higher thermal efficiency.  
+Further, in internal combustion engines, higher thermal efficiency can be obtained with 
+moderate maximum working pressure of the fluid in the cycle, and therefore, the weight of power ratio 
+is less than that of the steam turbine plant. Also, it has been possible to develop reciprocating internal 
+combustion engines of very small power output (power output of even a fraction of a kilowatt) with 
+reasonable thermal efficiency and cost. 
+The main disadvantage of this type of engine is the problem of vibration caused by the 
+reciprocating components. Also, it is not possible to use a variety of fuels in these engines. Only liquid 
+or gaseous fuels of given specification can be efficiently used. These fuels are relatively more 
+expensive. 
+Considering all the above factors the reciprocating internal combustion engines have been found 
+suitable for use in automobiles, motor-cycles and scooters, power boats, ships, slow speed aircraft, 
+locomotives and power units of relatively small output. 
+External Combustion and Internal Combustion Engines 
+External combustion engines are those in which combustion takes place outside the engine 
+whereas in internal combustion engines combustion takes place within the engine. For example, in a 
+steam engine or a steam turbine, the heat generated due to the combustion of fuel is employed to 
+generate high pressure steam which is used as the working fluid in a reciprocating engine or a turbine. 
+In case of gasoline or diesel engines, the products of combustion generated by the combustion of fuel 
+and air within the cylinder form the working fluid. 
+ 
+Principle of engine operation (4 stroke & 2 stroke operating cycles) 
+In reciprocating engines, the piston moves back and forth 
+in a cylinder and transmits power through a connecting rod and 
+crank mechanism to the drive shaft as shown in Fig1.2. The steady 
+rotation of the crank produces a cyclical piston motion. The piston 
+comes to rest at the top center (TC) crank position and bottom-
+center (BC) [These crank positions are also referred to as top-
+dead-center (TDC) and bottom-dead-center (BDC)] crank position 
+when the cylinder volume is a minimum or maximum, 
+respectively. The minimum cylinder volume is called the 
+clearance volume.  
+The volume swept out by the piston, the difference 
+between the maximum or total volume Vt and the clearance 
+volume, is called the displaced or swept volume Vd. The ratio of 
+maximum volume to minimum volume is the compression ratio rc.
+Typical values of rc are 8 to 12 for SI engines and 12 to 24 for CI 
+engines. 
+ 
+Fig 1.2 
+Basic geometry of the reciprocating internal combustion engine.
+Vc, Vd, and Vt, indicate clearance, displaced, and total cylinder volumes. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+12
+Fig.1.3 :-The four-stroke operating cycle. 
+ 
+The majority of reciprocating engines operate on what is known as the four-stroke cycle. Each 
+cylinder requires four strokes of its piston-two revolutions of the crankshaft-to complete the sequence of 
+events which produces one power stroke. Both SI and CI engines use this cycle which comprises  
+1. An intake stroke, which starts with the piston at TC and ends with the piston at BC, which draws 
+fresh mixture into the cylinder. To increase the mass inducted, the inlet valve opens shortly before the 
+stroke starts and closes after it ends. 
+2. A compression stroke, when both valves are closed and the mixture inside the cylinder is compressed 
+to a small fraction of its initial volume. Toward the end of the compression stroke, combustion is 
+initiated and the cylinder pressure rises more rapidly. 
+3. A power stroke, or expansion stroke, which starts with the piston at TC and ends at BC as the high-
+temperature, high-pressure, gases push the piston down and force the crank to rotate. About five times 
+as much work is done on the piston during the power stroke as the piston had to do during compression. 
+As the piston approaches BC the exhaust valve opens to initiate the exhaust process and drop the 
+cylinder pressure to close to the exhaust pressure. 
+4 An exhaust stroke, where the remaining burned gases exit the cylinder: first, because the cylinder 
+pressure may be substantially higher than the exhaust pressure; then as they are swept out by the piston 
+as it moves toward TC. As the piston approaches TC the inlet valve opens. Just after TC the exhaust 
+valve closes and the cycle starts again. 
+Though often called the Otto cycle after its inventor, Nicolaus Otto, who built the first engine 
+operating on these principles in 1876, the more descriptive four-stroke nomenclature is preferred. 
+The four-stroke cycle requires, for each engine cylinder, two crankshaft revolutions for each 
+power stroke. 
+To obtain a higher power output from a given engine size, and a simpler valve design, the two-
+stroke cycle was developed. The two-stroke cycle is applicable to both SI and CI engines. 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+13
+Figure 1.4 shows one of the simplest types of two-stroke engine designs. Ports in the cylinder 
+liner opened and closed by the piston motion, control the exhaust and inlet flows while the piston is 
+close to BC. The two strokes are: 
+A compression stroke, which starts by closing the inlet and exhaust ports, and then compresses 
+the cylinder contents and draws fresh charge into the crankcase. As the piston approaches TC, 
+combustion is initiated. 
+ 
+Fig.1.4 The two-stroke operating cycle. 
+ A crankcase-scavenged engine  
+ 
+A power or expansion stroke, similar to that in the four-stroke cycle until the piston approaches 
+BC, when first the exhaust ports and then the intake ports are uncovered. Most of the burnt gases exit 
+the cylinder in an exhaust blow down process. When the inlet ports are uncovered, the fresh charge 
+which has been compressed in the crankcase flows into the cylinder. 
+The piston and the ports are generally shaped to deflect the incoming charge from flowing directly into 
+the exhaust ports and to achieve effective scavenging of the residual gases. 
+ 
+Each engine cycle with one power stroke is completed in one crankshaft revolution. However, it 
+is difficult to fill completely the displaced volume with fresh charge, and some of the fresh mixture 
+flows directly out of the cylinder during the scavenging process. The example shown is a cross-
+scavenged design; other approaches use loop-scavenging or uniflow systems 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+14
+Engine classifications 
+ 
+Fig.1.5 
+IC engine classification 
+ 
+There are many different types of internal combustion engines. They can be classified by: 
+ 
+1. Application. 
+Automobile, truck, locomotive, light aircraft, marine, portable power system, power generation 
+ 
+2 Basic engine design 
+ 
+Reciprocating 
+engines (in turn subdivided 
+by arrangement of cylinders:
+e.g., 
+in-line, 
+V, 
+radial, 
+opposed-ref, fig1.6.), rotary 
+engines (Wankel and other 
+geometries) 
+Fig1.6.Engine 
+Classification by 
+Cylinder 
+Arrangements 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+15
+(C) 
+3. Working cycle. 
+Four-stroke cycle: naturally aspirated (admitting atmospheric air), supercharged (admitting pre-
+compressed fresh mixture), and turbocharged (admitting fresh mixture compressed in a compressor 
+driven by an exhaust turbine), 
+Two-stroke cycle: crankcase scavenged, supercharged, and turbocharged, 
+Constant volume heat addition cycle engine or Otto cycle engine -SI engine or Gasoline engine, 
+Constant pressure heat addition cycle engine or Diesel cycle engine-CI engine or Diesel engine. 
+ 
+4 Valve or port design and location.  
+Overhead (or I-head) valves, under head 
+(or L-head) valves, rotary valves, cross-
+scavenged porting (inlet and exhaust ports on 
+opposite sides of cylinder at one end), loop-
+scavenged porting (inlet and exhaust ports on 
+same side of cylinder at one end), through- or 
+uni-flow scavenged (inlet and exhaust ports or 
+valves at different ends of cylinder) 
+ 
+Fig1.7 
+classification of SI engine 
+by port/ valve location 
+ 
+(a)Cross, 
+(b) Loop, 
+(c) Uniflow Scavenging  
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+16
+5. Fuel 
+Gasoline (or petrol), fuel oil (or diesel fuel), natural gas, liquid petroleum gas, alcohols 
+(methanol, ethanol), hydrogen, dual fuel 
+ 
+6. Method of mixture preparation. 
+Carburetion, fuel injection into the intake ports or intake manifold, fuel injection into the engine 
+cylinder 
+ 
+7. Method of ignition 
+ 
+Spark ignition (in conventional engines where the mixture is uniform and in stratified-charge 
+engines where the mixture is non-uniform), compression ignition (in conventional diesels, as well as 
+ignition in gas engines by pilot injection of fuel oil) 
+ 
+8. Combustion chamber design.
+Open chamber (many designs: e.g., disc, wedge, hemisphere, bowl-in-piston), divided chamber 
+(small and large auxiliary chambers; many designs: e.g., swirl chambers, pre-chambers) 
+ 
+9. Method of load control. 
+Throttling of fuel and air flow together so mixture composition is essentially unchanged, control 
+of fuel flow alone, a combination of these 
+ 
+10. Method of cooling. 
+Water cooled, air cooled, un-cooled (other than by natural convection and radiation) 
+ 
+.
+All these distinctions are important and they illustrate the breadth of engine designs available 
+from a fundamental point of view. The method of ignition has been selected as the primary classifying 
+feature. From the method of ignition-spark-ignition or compression-ignition-follow the important 
+characteristics of the fuel used, method of mixture preparation, combustion chamber design, method of 
+load control, details of the combustion process, engine emissions, and operating characteristics. Some of 
+the other classifications are used as subcategories within this basic classification. The engine operating 
+cycle--four-stroke or two-stroke--is next in importance. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+17
+Table 1.2 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+18
+Table 1.3 Engine characteristics Emphasized by Type of Service 
+ 
+References: 
+1. Microsoft Encarta 
+2. Fundamentals of IC Engines By J B Heywood 
+3. Theory & Practice in IC Engines By C F Taylor 
+4. I C Engines By M L Mathur & RP Sharma 
+5. I C Engines By Ganesan 

@@ -1,0 +1,1092 @@
+2008-32-0073 
+Camshaft Design for an Inlet-Restricted FSAE Engine 
+ 
+Steven McClintock, Jason Walkingshaw, Charles McCartan, 
+Geoff McCullough, Geoff Cunningham 
+  
+Queen’s University Belfast 
+Copyright © 2008 SAE International
+ABSTRACT 
+Restricting the flow rate of air to the intake manifold is a 
+convenient and popular method used by several motor 
+sport disciplines to regulate engine performance.  This 
+principle is applied in the Formula SAE and Formula 
+Student competitions, the rules of which stipulate that all 
+the air entering the engine must pass though a 20mm 
+diameter orifice.  The restriction acts as a partially closed 
+throttle which generates a vacuum in the inlet plenum.  
+During the valve overlap period of the cycle, which may 
+be as much as 100 degrees crank angle in the 
+motorcycle engines used by most FSAE competitors, this 
+vacuum causes reverse flow of exhaust gas into the 
+intake runners.  This, in turn, reduces the amount of 
+fresh air entering the cylinder during the subsequent 
+intake stroke and therefore reduces the torque produced.  
+This effect is particularly noticeable at medium engine 
+speeds when the time available for reverse flow is 
+greater than at the peak torque speed. 
+The objective of the study described in this paper was to 
+mitigate the reverse flow effect by reducing the duration 
+of the valve overlap period.  A thermodynamic model of 
+the Yamaha YZF R6 engine was developed for this 
+purpose and validated using cycle-averaged and crank-
+angle-resolved test data. The resulting model was then 
+used to find the optimum values of lift, duration and 
+timing for both the intake and exhaust valves. The 
+camshafts required to give these valve lift profiles were 
+designed using valve train analysis software. This 
+process included a consideration of the dynamic forces 
+encountered by the valve train and ensured that the 
+resulting stresses remained within safe limits.  
+The new camshafts increased the torque output by up to 
+30% at medium engine speeds, without reducing the 
+high-speed torque, and therefore significantly improved 
+the vehicle drivability. 
+ 
+INTRODUCTION 
+To be eligible to compete in the Formula SAE or Formula 
+Student events, the rules [1] dictate the use of a four-
+stroke engine with a maximum displacement of 610 cm3 
+and that all air supplied to the engine must pass through 
+a single Ø20 mm restrictor for a gasoline fuelled car.   
+ 
+The engine of choice for the majority of teams is a stock 
+600 cm3 motorcycle engine [2, 3]. The Queen’s Formula 
+Racing (QFR) team employs a 2003-2005 Yamaha YZF 
+R6 engine, the specification of which is shown in Table 1. 
+It was chosen as it has one of the longest piston strokes 
+of this classification of engine and, in its stock 
+specification, is designed to produce peak torque of 68.5 
+Nm at 12,000 rpm.  This high performance engine 
+employs the full benefit of exhaust system tuning by 
+using a large valve overlap to scavenge the clearance 
+volume of exhaust gas therefore increasing high-speed 
+torque. 
+ 
+Table 1: Engine Specification 
+03-05 Yamaha R6 
+Engine 
+In-line, 4-cyl, DOHC. 
+Displacement 
+600 cm3 
+Bore 
+65.5 mm 
+Stroke 
+44.5 mm 
+Compression Ratio 
+13.5 
+Maximum Power 
+92 kW (123 hp) @ 13,000 rpm 
+Maximum Torque 
+68.5 Nm @ 12,000 rpm 
+ 
+However, in engines with a large valve overlap, the part-
+load operation is poor due to a reduced induction 
+manifold pressure.  This causes exhaust gases to travel 
+back through the cylinder, past the intake valve and into 
+the intake system when both valves are open [4, 5].  As 
+the engine has to be restricted under the FSAE rules, it 
+effectively operates at part load.  The standard engine is 
+therefore not fully optimized for use in a restricted format.  
+This affects the torque produced by the engine and 
+ultimately the drivability of the car. To develop the engine 
+and give a desirable torque curve during competition 
+conditions, where engine speed is typically in the range 
+3000-12000 rpm, modification of the intake and exhaust 
+camshafts was undertaken. Previous research within the 
+team concentrated on modification of the intake cam 
+shaft only in an older model of the engine [6, 7].  To 
+reduce the effects of the Ø20mm restrictor, yet maintain 
+a naturally aspirated configuration, an approach of 
+reducing the valve overlap was used.  
+ 
+STOCK LIFT PROFILES 
+The valve lift profiles of the stock engine were carefully 
+measured at ambient conditions using the recommended 
+clearances between the camshaft base circle and the 
+bucket (0.15 – 0.2 mm).  The resulting profiles are 
+plotted in Figure 1 and their durations and peak lifts are 
+listed in Table 2.  
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+180
+360
+540
+720
+Degrees after TDC (Cyl 1 starting comb stroke)
+Valve Lift (mm)
+Intake
+Exhaust
+ 
+Figure 1 – Stock Valve Lift with Cold Lash Clearance 
+ 
+Table 2 – Stock Valvetrain Specifications 
+Parameter 
+Inlet 
+Exhaust 
+Valves per cylinder 
+2 
+2 
+Lift Duration at Cold Lash 
+(degrees crank angle) 
+320 
+280 
+Peak Lift (degrees crank angles) 
+470 
+260 
+Valve Overlap at Cold Lash 
+(degrees crank angle) 
+90 
+ 
+As discussed earlier a high performance engine has a 
+substantial 
+valve 
+overlap 
+to 
+increase 
+volumetric 
+efficiency.  Due to the exhaust valve opening before BDC 
+on the power stroke a compression wave is generated 
+which travels along the exhaust pipe.  When this wave 
+meets an increase in area at the collector, an expansion 
+wave is generated which travels back towards the 
+exhaust port.  If the inlet valve is open when this 
+expansion wave arrives at the port then the wave draws 
+particles from the intake system into the cylinder, due to 
+a lower pressure in the cylinder than in the intake 
+plenum.  However, due to the use of a mandatory 
+restrictor on the engine during the FSAE competition, the 
+pressure in the intake plenum is lower than in the 
+exhaust system and so, during the valve overlap period, 
+there is a reverse flow of exhaust gas into the intake 
+system.   
+ 
+This is demonstrated by a virtual model of the stock 
+engine fitted with the FSAE competition intake system 
+with 
+the 
+mandatory 
+restrictor 
+incorporated. 
+This 
+simulation was conducted using a computer simulation 
+package, Virtual Engines (VE) [8].  This software bases 
+its results on fundamental unsteady gas dynamics [9]. 
+For reliance on the predicted data it is of utmost 
+importance that the model is validated by empirical 
+results [10, 11 and 12]. The engine model used was the 
+subject of an extensive validation process described in 
+detail by Walkingshaw [13].  Therefore the engine model 
+could be used confidently for thermodynamic analysis.  
+Figure 2 shows air purity just upstream of the inlet valve 
+at 5000 rpm and wide open throttle (WOT), where 1 is 
+fresh charge and 0 is exhaust gas.  It can be seen during 
+the overlap period between IO1 and EC1 that the gas 
+purity drops, indicating the presence of exhaust gas in 
+the intake manifold.  Figure 3 shows mass flow rate and 
+confirms that reverse flow occurs during the overlap 
+period. 
+ 
+ 
+Figure 2 – Air purity at intake valve at 5000 rpm 
+ 
+ 
+Figure 3 – Mass Flow Rate at intake valve at 5000 rpm 
+ 
+This analysis suggests that reducing the valve overlap 
+and hence backflow, could result in increased torque 
+across the engine’s speed range (5000 – 12000 rpm). 
+ 
+In addition to the reverse flow during the overlap phase, 
+the engine also experiences reverse flow as fresh charge 
+escapes through the intake valve at the beginning of the 
+compression stroke before the intake valve shuts.  This 
+is due to the standard engine being tuned for higher 
+speeds to make use of a ramming wave to force fresh 
+charge into the cylinder at this point in the cycle.  
+However, at lower engine speeds, the ramming wave 
+does not return to the port at the optimum time and so, 
+with fixed valve timing, the piston pumps some air back 
+through the inlet valve at the beginning of the 
+compression stroke.  This negative flow effect is 
+highlighted by Figures 4 and 5 showing purity and mass 
+flow rate between BDC and the intake valve closing IC1 
+at 5000rpm.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4 – Air purity at intake valve at 5000 rpm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5 - Mass flow rate past intake valve at 5000 rpm 
+ 
+OPTIMISATION PROCESS 
+The validated R6 engine model was then optimized using 
+the Automated Design (AD) software from Optimum 
+Power Technology [8]. This software applies an 
+extensive optimization process to the validated baseline 
+model based on a design goal and strategy.  
+ 
+The design goal in this case was “maximize torque” 
+within the specific usable speed range (5000-12000 rpm) 
+and the design strategy was based on varying the target 
+parameters shown in Table 3.  This design space 
+contains 2.03 x 1011 possible engine configurations. 
+Obviously, for this optimization process to be reliable, the 
+baseline engine model has to have been carefully 
+validated. 
+ 
+An optimum engine design was found after analyzing 
+1230 engines, which took over 4.5 days on a Pentium 4 
+3GHz CPU with 1 Gb RAM. The optimum parameters 
+can also be seen in Table 3. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 3 – Optimization Process Parameters 
+Parameter 
+Range 
+Increment 
+Optimum
+Exhaust Pipe 
+Primary Length(mm) 
+260-400 
+20 
+400 
+Intake Runner 
+Lengths (mm) 
+100-300 
+20 
+260 
+Plenum Volume 
+(litres) 
+2.5 - 6.0 
+0.50 
+4.0 
+Intake Cam: Peak 
+Lift Angle(°) 
+458-518 
+5 
+460 
+Intake Cam: Lift 
+Table Multiplier 
+0.8-1.0 
+0.01 
+1.0 
+Intake Cam: Lift 
+Duration multiplier 
+0.8-1.0 
+0.01 
+0.81 
+Exhaust Cam: Peak 
+Lift Angle(°) 
+241-331 
+5 
+250 
+Exhaust Cam: Lift 
+Table Multiplier 
+0.8-1.0 
+0.01 
+1.0 
+Exhaust Cam: Lift 
+Duration multiplier 
+0.8-1.0 
+0.01 
+0.86 
+Restrictor Diffuser 
+Length(mm) 
+120-220 
+20 
+140 
+ 
+ 
+This automated design optimization converged on a 
+“best engine” design that showed the greatest torque 
+benefits in the low to mid speed range. The speed range 
+chosen for such an optimization process is very 
+important as it will have a considerable impact on the 
+final optimal design. As discussed earlier, it was known 
+that the standard valve durations and overlap were 
+deficient at the lower speeds, so it was hoped that the 
+new best design would improve performance in this 
+region. At the higher speed the restrictor becomes the 
+limiting factor on the performance. 
+ 
+After the optimum configuration was found, a sensitivity 
+analysis was carried out to find which parameter had the 
+most individual influence on engine performance. The 
+same baseline engine model was used and the analysis 
+showed that the intake and exhaust valve events 
+provided the most substantial gains in performance. 
+Figure 6, shows the simulated baseline engine torque, 
+the torque predicted from this baseline engine with new 
+intake and exhaust valve duration and timing events, and 
+the predicted torque from the optimized baseline engine 
+(table 3). 
+ 
+35
+40
+45
+50
+55
+60
+65
+70
+75
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+Engine speed (RPM)
+Corrected Brake Torque (Nm)
+Baseline engine
+AD valve lifts only
+All AD optimum parameters
+ 
+ Figure 6 – Virtual Engine Simulations 
+Start of 
+compression 
+stroke
+Start of 
+compression 
+stroke
+Therefore, considering each of the optimum parameters 
+in Table 3, the best torque gains could be achieved from 
+modifying the valve lift profiles as predicted by the 
+optimization process. Table 3 shows that this would 
+mean keeping the valves peak lifts the same but 
+reducing their duration. 
+ 
+AUTOMATED DESIGN LIFT PROFILES 
+During the automated design (AD) process, the virtual 
+model reduced the negative effects of reverse flow by 
+reducing the valve overlap period.  This was done by 
+decreasing the intake and exhaust valve durations by 
+19% and 14% respectively. The automated design also 
+found that both the intake and exhaust valve peak lift 
+optimum positions were ten degrees earlier than the 
+stock engine.  The closing angle of the inlet valve is then 
+also advanced by this ten degrees therefore reducing the 
+reverse flow of fresh charge out of the cylinder during the 
+initial phase of the compression stroke.  The AD’s 
+optimized valve lift profiles are shown in Figure 7, in 
+comparison to the stock engines valve lift profiles, and 
+the reduction in valve overlap period along with the 
+earlier closing of the intake valve can be clearly seen. 
+Both are shown with no clearance between bucket and 
+camshaft lobe. 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+180
+360
+540
+720
+Degrees after TDC (Cyl 1 starting comb stroke)
+Valve Lift (mm)
+Stock Intake
+AD Intake
+Stock Exhaust
+AD Exhaust
+Figure 7. Automated Design and Stock Valve Lift Profiles 
+ 
+This thermodynamic optimization gives no consideration 
+to the mechanical viability of these valve lift designs.  
+Therefore it was necessary to check not only the 
+mechanical feasibility of this new design, but also to 
+determine whether it was possible to manufacture 
+camshafts that would produce such lift profiles given the 
+design constraints of cam base circle radius and bucket 
+tappet diameter.  There is a complex design relationship 
+between both of these variables, the valve lift profiles 
+and the manufacturability of the cam profiles. 
+ 
+MECHANICAL ANALYSIS 
+Changing a lift profile can impact the valve train 
+dynamics and the durability of the components [4, 14].  
+To assess the mechanical implications of the proposed 
+lift profile, a mechanical analysis was required using 
+valvetrain mechanical analysis software called 4stHEAD 
+[15, 16].  This software has been extensively used to 
+analyze valve train dynamics and scrutinize the effects of 
+particular lift profiles and components used [17, 18, 19 
+and 20].  
+ 
+The software allows the designer to import or design lift 
+profiles from which suitable cam profiles and all the 
+associated valvetrain components can be analyzed and 
+designed. The software can be provided with existing 
+valvetrain geometry and valve lift profiles.  These profiles 
+can be manipulated such that the cam profiles meet the 
+design criteria and fall within the limitations of the 
+existing components and cylinder head layout. If the 
+proposed lift profiles are more aggressive this can invoke 
+effects such as valve float and bounce, generate higher 
+stress, and have tribology and geometric implications. 
+ 
+Therefore to conduct this analysis, the valve-train and 
+associated components within the engine needed to be 
+measured and the data input to the software.  The 
+valves, buckets, springs and the masses for each were 
+measured as shown in Tables 4-7 with the respective 
+component images from the 4stHEAD software. The 
+combustion chamber was also measured as the software 
+can check for valve to piston interference. 
+ 
+ 
+ 
+Table 4 – Valve Dimensions 
+ 
+ 
+ 
+Table 5 – Bucket Follower Dimensions 
+ 
+ 
+ 
+ 
+Dimension 
+(mm) 
+Intake 
+Exhaust 
+Lst1 
+78.8
+82.2
+Lst2 
+13.7
+10.7
+Tvh 
+2.1
+2.1
+Dst1 
+3.95
+3.9
+Dst2 
+4.55
+4.6
+Dos 
+25
+22.05
+Dis 
+23
+20
+Avh 
+20
+24
+Wvf 
+15
+10.5
+Dimension (mm) 
+Db 
+24.44
+Hb 
+17
+Tb 
+2
+Tbp 
+2.3
+Tw 
+0.6
+Dp 
+7.46
+Table 6. Valve Springs - Progressive Coil Spacing 
+Dimensions 
+ 
+ 
+Coil 
+Spacing 
+(mm) 
+Intake 
+Inner 
+Spring 
+Intake 
+Outer 
+Spring 
+Exhaust 
+Spring 
+Space 1 
+2.4
+3.9
+2.75
+Space 2 
+2.4
+4.34
+3.05
+Space 3 
+2.38
+3.9
+3
+Space 4 
+2.35
+2.5
+2.4
+Space 5 
+2.3
+1.15
+1.3
+Space 6 
+1.45
+1.3
+0.75
+Space 7 
+0.6
+- 
+0.85
+Space 8 
+0.75
+- 
+- 
+ 
+Table 7 – Mass of Valvetrain Components 
+Component 
+Mass (g) 
+Intake Spring Inner 
+11.1
+Intake Spring Outer 
+22.7
+Intake Spring Retainer 
+6.4
+2 Intake Collets 
+0.4
+Exhaust Spring 
+35.1
+Exhaust Spring Retainer 
+5.9
+2 Exhaust Collets 
+0.5
+Bucket 
+12.5
+ 
+The narrower valve lift profiles produced by the 
+optimization process were input to the 4stHEAD 
+software. These profiles were matched precisely within 
+the software, but the ensuing cam profiles could not be 
+directly produced for two reasons. Firstly, the original 
+shortened valve lifts had maximum velocities that were 
+not compatible with the bucket follower diameters in the 
+R6 cylinder head. The simple fact is that bucket diameter 
+is a function of valve-lift velocity (i.e. the first derivative of 
+the valve lift with respect to cam angle) – the higher the 
+velocity the larger the bucket diameter to ensure contact 
+between the cam and bucket. Secondly, there is a 
+complex relationship between the radius of curvature of 
+the ensuing cam profile, the base circle radius of the 
+cam and the valve-lift acceleration (i.e. the second 
+derivative of the valve lift with respect to cam angle) 
+which also affects manufacturability of the cam profile.  
+The bucket diameters and the base circle radii of the 
+cams could not be changed and therefore the new 
+narrower valve lift profiles had to be manipulated within 
+4stHEAD to ensure that feasible cam profiles could be 
+manufactured based on the aforementioned constraints. 
+Other factors that are constantly checked in this iterative 
+process are the cam to follower Hertz stresses and oil 
+film thicknesses to ensure that they remain within 
+recommended limits.  Figure 8 shows the finalized intake 
+valves 
+lift 
+profiles 
+with 
+its 
+associated 
+velocity, 
+acceleration and jerk characteristics. The key points to 
+note here are the shape and smoothness of the 
+acceleration profile as it is this that is manipulated to 
+achieve the goals described previously. 
+ 
+ 
+Figure 8 – Finalized Intake Valve Lift Characteristics 
+ 
+The output of this mechanical analysis is a set of 
+camshaft profiles as well as new valve lift profiles.  The 
+new valve lift profiles are shown in Figure 9 compared to 
+the original shortened profiles from the optimization 
+process.  This shows that the valve lift profiles had to be 
+slightly more aggressive than the original shortened 
+profiles with larger area envelopes.  It was therefore 
+necessary to run a new 1-D simulation with these new 
+valve lift profiles to ensure they would not detrimentally 
+affect the predicted torque.   Figure 10 shows the torque 
+curve for the original shortened profiles from the 
+optimization process compared to the 4stHEAD profiles. 
+ 
+Lift
+Velocity
+Jerk
+Acceleration
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+180
+360
+540
+720
+Degrees after TDC (Cyl 1 starting comb stroke)
+Valve Lift (mm)
+AD Intake
+Int Mech Analysis
+AD Exhaust
+Exh Mech Analysis
+ 
+Figure 9 – AD and Mechanical Analysis Profiles 
+ 
+It can be seen that there is not as great a gain in 
+predicted torque with the mechanical analysis valve lifts 
+but still a substantial improvement upon the baseline. 
+ 
+ 
+Figure 10 – AD and Mechanical Analysis Torque 
+ 
+The outputs from the mechanical analysis software also 
+include the camshaft profiles, shown in comparison to 
+the stock camshaft profiles in Figures 11 and 12. 
+ 
+ 
+ 
+Figure 11 - Intake Camshaft Profiles 
+ 
+ 
+Figure 12 - Exhaust Camshaft Profiles 
+ 
+The 4stHEAD software was also used to check that the 
+new valve lifts and their respective timing events would 
+not cause any interference with the piston. In addition, it 
+was necessary to check that the new valve lifts would not 
+cause any problems to the dynamics of the valvetrain. 
+First of all the dynamics of the valvetrain with the original 
+valve lift profiles were modeled and these were then 
+compared to the dynamics of the valvetrain with the new 
+valve lift profiles. There were no anomalies with float, 
+bounce or separation of the valvetrain components in the 
+relevant speed range and the maximum stresses were 
+within acceptable limits.  
+ 
+The modified camshaft profiles could be manufactured 
+by regrinding the stock camshafts.  The modified 
+camshafts were then placed in the engine and the 
+valvetrain was re-shimmed due to slight changes in the 
+camshafts 
+base 
+circle 
+diameters 
+due 
+to 
+the 
+manufacturing process.  The valve lift profiles of the 
+modified camshafts were measured and compared to 
+the lift profiles that were provided by the mechanical 
+analysis software to ensure that the manufacturing 
+process was successful.  The modified camshaft valve 
+lifts are shown in Figure 13 in comparison to the stock 
+profiles.  The reduction in valve overlap and the earlier 
+IVC timing are clearly visible.  Stock and modified inlet 
+camshafts are shown in Figure 14. 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+180
+360
+540
+720
+Degrees after TDC (Cyl 1 starting comb stroke)
+Valve Lift (mm)
+Stock Intake
+Int Mech Analysis
+Stock Exhaust
+Exh Mech Analysis
+ 
+Figure 13 – Modified and Stock Valve Lifts 
+ 
+ 
+Figure 14 – Intake Stock and Modified Camshafts 
+ 
+The camshafts when then fitted with vernier pulley 
+wheels so that their timing could be adjusted to the 
+desired settings. 
+ 
+Using the VE model of the baseline engine with the 
+4stHEAD camshafts, a simulation was conducted to 
+examine the changes the camshafts had made on the 
+reverse flow effects.  A comparison of air purity and the 
+mass flow rate for the stock and modified camshaft 
+engines at 5000 rpm are shown in Figures 15 and 16.  
+These show an increase in charge purity and a decrease 
+in the reverse flow using the modified camshafts. 
+ 
+ 
+Figure 15 – Comparison of Air Purity at Intake Valve 
+ 
+ 
+Figure 16 – Comparison of Mass Flow Rate past intake 
+valve 
+EXPERIMENTAL VERIFICATION 
+The modified camshafts were tested on a 145kW 
+Schenck dynamometer with the driveshaft connected to 
+the gearbox output shaft.  A Horiba MEXA-7170DEGR 
+Exhaust Emissions Analyzer was used to measure AFR.  
+The engine is fitted with a custom fuel injection and 
+ignition system which are controlled by a DTA ECU.  The 
+engine was mapped at full load throughout the speed 
+range between 3000 to 12500 rpm with fuel adjusted to 
+leanest for best torque and ignition timing adjusted to 
+minimum advance for best torque for both the standard 
+camshaft and the modified camshaft configurations.  
+Figure 17 shows the full load corrected brake torque 
+curve comparison between the two tests. 
+ 
+ 
+Figure 17 – Comparison of Engine Torque 
+ 
+It can be seen that there are large torque gains in the 
+lower speed range with a maximum of 30% gain at 5500 
+rpm.  The peak torque increased by around 12% at 8500 
+rpm and an average torque increase across the speed 
+range of 15.3% was achieved.  There are smaller gains 
+at speeds greater than 11000 rpm due to the the airflow 
+becoming increasingly choked through the restrictor. 
+ 
+During the optimization process, the Automated Design 
+feature found that an optimum runner length would be 
+260 mm.  It was decided to investigate this factor by 
+increasing the length in the direction indicated by the 
+analysis but not to the extent recommended due to 
+difficulties in packaging such a long runner length within 
+the FSAE car.  Therefore an extension of 50mm in 
+runner length was implemented and the engine 
+remapped at full load.  A comparison of the engine with 
+the extended runners and modified camshafts is shown 
+compared to the standard runners and modified 
+camshafts in Figure 18. 
+ 
+STOCK 
+MODIFIED 
+Modified Cams
+Standard Cams
+Modified Cams
+Standard Cams
+30
+35
+40
+45
+50
+55
+60
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+Engine Speed (RPM)
+Corr Engine Torque (Nm)
+Modified Cams and Standard Runners
+Modified Cams and Extended Runners
+ 
+Figure 18 – Comparison of Runner Length Changes 
+ 
+As expected mid-range torque was increased but the 
+torque started to decrease slightly at higher engine 
+speeds.  A maximum gain of 6.9% at 6000 rpm was 
+achieved using the extended runner lengths. 
+ 
+CONCLUSIONS 
+The modified camshafts increased the low to mid-range 
+torque output by: 
+1. Reducing the valve overlap period and therefore the 
+reverse flow. 
+2. Advancing the intake valve closing point thereby 
+reducing the amount of reverse flow occurring at the 
+beginning of the compression stroke. 
+These changes to the valve timing increased the torque 
+output by a maximum of 30% at 5500 rpm in the 
+restricted FSAE engine.  However if these camshafts 
+were used in the unrestricted stock engine then at high 
+speeds the valve timing settings would greatly reduce its 
+performance.  When the modified camshafts are used in 
+conjunction with the restrictor, the restrictor masks the 
+negative effects of the camshafts at the higher engine 
+speeds as it becomes the limiting factor on the engine’s 
+performance. 
+ACKNOWLEDGMENTS 
+The authors would like to thank the Queen’s University of 
+Belfast, 
+School 
+of 
+Mechanical 
+and 
+Aerospace 
+Engineering for providing access to the engine test 
+facilities.  In addition, the support of Optimum Power 
+Technology in providing the Virtual Engines licenses is 
+greatly appreciated. Further thanks are extended to 
+Russell McKee, Michael McCauley and Maurice Doherty 
+for their contribution and assistance throughout the 
+duration of the project. 
+ 
+REFERENCES 
+ 
+1. Formula SAE Rules [online]. [Viewed 21st April 
+2008]. 
+Available 
+from: 
+http://students.sae.org/competitions/formulaserie
+s/rules/rules.pdf 
+2. B.A. Jawad, M.D. DeGain and A.P. Young Jr., 
+“Design of a Restricted Induction System for a 
+High Speed Four Cylinder Engine”, SAE Paper 
+No. 2000-01-3090. 
+3. Mario Farrugia, Mike Rossey and Brian P. 
+Sangeorzan, “On the Use of a Honda 600cc 4-
+Cylinder Engine for Formula SAE Competition” 
+SAE 2005-01-0025. 
+4. Yushu 
+Wang, 
+“Introduction 
+to 
+Engine 
+Valvetrains” Society of Automotive Engineers, 
+ISBN 0-7680-1079-9. 
+5. James M. Novak, Raymond A. Kach, “Computer 
+Optimization of Camshaft Lift Profiles for a 
+Nascar V-8 Engine With Restrictor Plate” SAE 
+962514. 
+6. R .H. McKee, G. McCullough, G. Cunningham, 
+J.O. Taylor, N. McDowell, J. T. Taylor and R. 
+McCullough, 
+“Experimental 
+Optimisation 
+of 
+Manifold and Camshaft Geometries for a 
+Restricted 
+600cc 
+Four-cylinder 
+Four-stroke 
+Engine” SAE 2006-32-0070. 
+7. J. Taylor, R. McKee, G. McCullough, G. 
+Cunningham, 
+C. 
+McCartan, 
+“Computer 
+Simulation and Optimisation of an Intake 
+Camshaft for a Restricted 600cc Four-Stroke 
+Engine” SAE 2006-32-0071. 
+8. VIRTUAL 
+ENGINES 
+Engine 
+Simulation 
+Software, VIRTUAL 4-Stroke and VIRTUAL 2-
+Stroke, Optimum Power Technology, Bridgeville, 
+PA, www.optimum-power.com 
+9. G. P. Blair, “Design and Simulation of Four-
+Stroke 
+Engines”, 
+Society 
+of 
+Automotive 
+Engineers, 0-7680-0440-3, 1999. 
+10. G.P. Blair, D.O. Mackey, M.C. Ashe and G.F. 
+Chatfield, "On Improving the Accuracy of the 
+Simulation of Reciprocating Engines", IMechE 
+Paper No. C587/001/2000. 
+11. G. P. Blair, “Empiricism and Simulation In the 
+Design of the High Performance Four-Stroke 
+Engine” SAE 983046. 
+12. G.P. Blair "Back to Basics", Race Engine 
+Technology, 
+Volume 
+6 
+Issue 
+027, 
+December/January 2008, Pages 36-45, ISSN 
+1740-6803. 
+13. J. Walkingshaw, S. McClintock, G. McCullough, 
+C. 
+McCartan, 
+and 
+G. 
+Cunningham, 
+“Experimental 
+Validation 
+of 
+FSAE 
+Engine 
+Model”, 2008-32-0079. 
+14. Lisheng Yang, Akemi Ito and Hideo Negishi, “A 
+Valve Train Friction and Lubrication Analysis 
+Model and Its Application in a Cam/Tappet Wear 
+Study” SAE 962030 
+15. 4stHEAD design software, Prof. Blair and 
+Associates, 
+Belfast, 
+Northern 
+Ireland, 
+www.profblairandassociates.com 
+16. Mark Oldham, "Death of a Black Art", Race 
+Engine Technology, Volume 2 Issue 005, 
+Summer 2004, Pages 39-45, ISSN 1740-6803. 
+17. G.P. 
+Blair, 
+Charles 
+McCartan 
+and 
+Hans 
+Hermann, 
+"The 
+Right 
+Lift", 
+Race 
+Engine 
+Technology, 
+Volume 
+3 
+Issue 
+009, 
+JULY/AUGUST 2005, Pages 44-52, ISSN 1740-
+6803. 
+18. G.P. 
+Blair, 
+Charles 
+McCartan 
+and 
+Hans 
+Hermann, "Making the Cam", Race Engine 
+Technology, Volume 3 Issue 010,  October 
+2005, Pages 46-55, ISSN 1740-6803. 
+19. G.P. 
+Blair, 
+Charles 
+McCartan 
+and 
+Hans 
+Hermann, "Bucket Operation", Race Engine 
+Technology, Volume 3 Issue 011, December 
+2005, Pages 56-65, ISSN 1740-6803. 
+20. G.P. Blair, "Steel Coils Versus Gas", Race 
+Engine Technology, Volume 5 Issue 023, 
+June/July 2007, Pages 16-24, ISSN 1740-6803 
+ 
+ 
+NOMENCLATURE 
+ 
+FSAE  
+Formula SAE 
+SAE 
+ 
+Society of Automotive Engineers 
+QFR 
+ 
+Queen’s Formula Racing 
+RPM 
+ 
+Revolutions per minute 
+TDC 
+ 
+Top dead centre 
+BDC 
+ 
+Bottom dead centre 
+Cyl 
+ 
+Cylinder 
+VE 
+ 
+Virtual Engines 
+IO1 / IVO 
+Inlet valve open 
+IC1 / IVC 
+Inlet valve closed 
+EO1 / EVO 
+Exhaust valve open 
+EC1 / EVC 
+Exhaust valve closed 
+AD 
+ 
+Automated Design 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

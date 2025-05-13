@@ -1,0 +1,235 @@
+IOSR Journal of Engineering (IOSRJEN)                                                                www.iosrjen.org 
+ISSN (e): 2250-3021, ISSN (p): 2278-8719 
+  
+Vol. 08, Issue 01 (January. 2018), ||V1|| PP 38-42 
+ 
+International organization of Scientific Research                                                               38 | P a g e  
+Design And Stress Analysis of Crankshaft For Single Cylinder 4-
+Stroke Diesel Engine 
+ 
+*Degala Rajendra,2V.Bhargavi, 3Y.Suvarna, 4S.Swathi 
+1234Dept of Mech Engg,Scool OfEngineering&Technology,Sri Padmavati MahilaVvisvavidyalayam 
+,Tirupati,A.P, M.Tech and B.Tech students spmvv TIRUPATI. 
+ Corresponding Author: Degala Rajendra  
+ 
+Abstract: Crankshaft is one of the critical components for the effective and precise working of the internal 
+combustion engine. In this paper a static simulation is conducted on a crankshaft from a single cylinder 4- stroke 
+diesel engine. A three-dimension model of diesel engine crankshaft is created using solids work software. Finite 
+element analysis (FEA) is performed to obtain the variation of stress magnitude at critical locations of 
+crankshaft. Simulation inputs are taken from the engine specification chart. The static analysis is done using 
+FEA Software ANSYS which resulted in the load spectrum applied to crank pin bearing. This load is applied to 
+the FEA model in ANSYS, and boundary conditions are applied according to the engine mounting conditions. 
+The analysis is done for finding critical location in crankshaft. Stress variation over the engine cycle and the 
+effect of torsion and bending load in the analysis are investigated. Von-meshes stress is calculated using 
+theoretically and FEA software ANSYS. The relationship between the frequency and the vibration modal is 
+explained by the modal and harmonic analysis of crankshaft using FEA software ANSYS. 
+Keywords: Diesel Engine, Crankshaft, Solid Works Software, Finite Element Analysis, Stress Analysis.  
+--------------------------------------------------------------------------------------------------------------------------------------- 
+Date of Submission: 27-12-2017                                                                            Date of acceptance:12-01-2018 
+--------------------------------------------------------------------------------------------------------------------------------------- 
+ 
+I. 
+INTRODUCTION 
+               A crankshaft related to crankis a mechanical part able to perform a conversionbetween reciprocating 
+motion and rotational motion. In a reciprocating engine, it   translates reciprocating motion of the piston into 
+rotational motion; whereas in a reciprocating compressor, it converts the rotational motion into reciprocating 
+motion. In order to do the conversion between two motions, the crankshaft has "crank throws" or "crankpins", 
+additional bearing surfaces whose axis is offset from that of the crank, to which the "big ends" of the connecting 
+rods from each cylinder attach.It is typically connected to a flywheel to reduce the pulsation characteristic of 
+the four-stroke cycle, and sometimes a torsional or vibrational damper at the opposite end, to reduce 
+the torsional vibrations often caused along the length of the crankshaft by the cylinders farthest from the output 
+end acting on the torsional elasticity of the metal.Large engines are usually multi cylinder to reduce pulsations 
+from individual firing strokes, with more than one piston attached to a complex crankshaft. Many small engines, 
+such as those found in mopeds or garden machinery, are single cylinder and use only a single piston, simplifying 
+crankshaft design.A crankshaft is subjected to enormous stresses, potentially equivalent of several tonnes of 
+force. The crankshaft is connected to the fly-wheel (used to smooth out shock and convert energy to torque), the 
+engine block, using bearings on the main journals, and to the pistons via their respective con-rods. An engine 
+loses up to 75% of its generated energy in the form of friction, noise and vibration in the crankcase and piston 
+area.  remaining losses occur in the valve train (timing chains, belts, pulleys, camshafts, lobes, valves, seals etc.) 
+heat and blow by. 
+ 
+ 
+Fig: Crankshaft, pistons and connecting rods for a typical internal combustion engine. 
+Design and Stress Analysis of Crankshaft for Single Cylinder 4-Stroke Diesel Engine 
+International organization of Scientific Research                                                               39 | P a g e  
+         The crankshaft is the engine component. It is used to transmit the power from the engine. Crankshaft is a 
+sharp consisting of the following major parts.  
+1. Main journal 
+2. Crank pins  
+3. Crank webs 
+4. Counter weights  
+ 
+ 
+1. Main journal:These are supported in main bearings in the crankcase. This form the axis for the rotation of 
+the crankshaft. Their number is always one more (or) one less than the number of cylinders.   
+2. Crank pin:    The crankpin are the journals for the connecting rod big end bearings and are supported by 
+the crank webs.  
+3. Crank webs:  The crank webs should be suitable strong to against the twisting and the bending loads. 
+However, increases the inertia. Which would tend to wind and unwind the crankshaft, when the engine is 
+running.  
+4. Counter weights: These are either formed as internal part of the crank web (or) attached separately, on the 
+side opposite to the crankpin. As the separate weights can be made to overlap (one part of the load cover 
+and another part) the crank webs. 
+ 
+1.1 About the project:   
+               Crankshaft is one of the critical component for the effective and precise working of the internal 
+combustion engine. Many of the industries are using the ductile material for the manufacturing the crankshaft.  
+Crankshafts materials should be readily shaped, machined and heat-treated, and have adequate strength, 
+toughness, hardness, and high fatigue strength. the crankshaft are manufactured from steel either by forging or 
+casting. the main bearing and connecting rod bearing liners are made of Babbitt, a tin and lead alloy. forged 
+crankshafts are stronger than the cast crankshafts, but are more expensive. forged crankshafts are made from 
+SAE 1045 or similar type steel. forging makes a very dense, tough shaft with a grain running parallel to the 
+principal stress direction. crankshafts are cast in steel, modular iron or malleable iron. Generally automobile 
+crankshafts were forged in past to have all the desirable properties. However, with the evolution of the nodular 
+cast irons and improvements in foundry techniques, cast crankshafts are now preferred for moderate loads. Only 
+for heavy duty applications forged shafts are favored.  The crankshaft made by the 3%-Chromium-
+molybdenum or 1.5%-Chromium-aluminum-molybdenum Steel These forged steels are used for diesel-
+engine crankshafts suitable for bearing of hard high fatigue-strength materials. The alloying compositions are 
+0.15% carbon, 3% chromium, and 0.5% molybdenum or 0.3% carbon, 1.5% chromium, 1.1% aluminum, and 
+0.2% molybdenum. Initial heat treatment for both steels is oil quenching and tempering at 1193 K and 883 K or 
+1163 K and 963 K respectively for the two steels. The shafts are case-hardened by nitriding, so that nitrogen is 
+absorbed into their surface layers. If the nitriding is carried out well in the journal fillets, the fatigue strength of 
+these shafts is increased by at least 30% compared to induction and flame-surface-hardened shafts. The 3%-
+chromium steel has a relatively tough surface and hardness of 800 to 900 DPN. On the other hand  the 1.5%-
+chromium steel casing tends to be slightly more brittle but has an increased hardness, of the order of 1050 to 
+1100 DPN. Then different types of stress is added to the crankshaft then the shaft is subjected to various forces 
+but generally needs to be analyzed in two positions. Firstly, failure may occur at the position of maximum 
+Design and Stress Analysis of Crankshaft for Single Cylinder 4-Stroke Diesel Engine 
+International organization of Scientific Research                                                               40 | P a g e  
+bending; this may be at the Centre of the crank or at either end. In such a condition the failure is due to bending 
+and the pressure in the cylinder is maximal. Second, the crank may fail due to twisting, so the conrod needs to 
+be checked for shear at the position of maximal twisting. The pressure at this position is the maximal pressure, 
+but only a fraction of maximal pressure. 
+ 
+ 
+Fig: Forged crank shaft 
+ 
+II. 
+OBJECTIVE 
+The main objective is to Design and Stress Analysis of Crankshaft for Single 
+Cylinder 4-Stroke Diesel Engine. 
+ 
+2.1Block diagram   
+Block diagram of the crankshaft  
+ 
+ 
+ 
+III. 
+ADVANTAGES 
+1. Forging makes a very dense, tough shaft with a grain running parallel to the principal stress direction.  
+2. Good machinability, there is less need for expensive alloys to attain high strength components. 
+3. It can bear high temperatures.  
+Design and Stress Analysis of Crankshaft for Single Cylinder 4-Stroke Diesel Engine 
+International organization of Scientific Research                                                               41 | P a g e  
+4. Fatigue strength of these shafts is increased by at least 30% compared to induction and flame-surface-
+hardened shafts.  
+5. Forging offers uniformity of composition and structure.  
+6. While compare to casting crankshaft the forging crankshaft is less cost. 
+ 
+ 
+IV. 
+Disadvantages 
+High brittleness.  
+Cold brittleness.  
+   
+V. 
+APPLICATIONS 
+Crankshafts are used in automobiles, cars , lorries , bus etc..,  
+ 
+VI. 
+RESULT 
+The stress analysis of crank shaft model is carried out by using two methods. For the comparison of 
+induced stresses in the model with these two methods are discussed in this chapter. The relevant results are 
+plotted by the graphs. The methodologies used for the determination of stresses and analysis of the model are; 
+Photo-elasticity analysis Numerical method (FEA) The results obtained from the above two methods with the 
+crank shaft model is considered for the two extreme loading conditions are tabulated as follows;  
+ 
+TABLE 3: Comparison Of Results Of Experimental And Numerical Method  
+Sl. No. Load (W) N Computed values of stresses (N/mm2 ) for crank shaft model under central point load at the 
+crank pin Computed values of stresses (N/mm2 ) for the crank shaft model under axial point load at the axis of 
+the shaft Experimental method Numerical method Experimental method Numerical method Pt. 1 Pt. 2 Pt. 3 Pt. 4 
+Pt. 5 Pt. 1 Pt. 2 Pt. 3 Pt. 4 Pt. 5 Pt. 1 Pt. 2 Pt. 3 Pt. 4 Pt. 5 Pt. 1 Pt. 2 Pt. 3 Pt. 4 Pt. 5 1 25. 8 0.6 0. 3 0.3 0. 8 0. 8 
+0. 7 0. 5 0. 5 0. 7 0. 8 0. 8 0. 3 1. 1 1. 1 1. 1 1. 0 0. 5 1. 1 1. 2 1. 5 2 45. 5 0.8 1. 1 1.1 1. 3 1. 3 1. 3 1. 2 1. 3 1. 3 
+1. 3 1. 3 1. 8 1. 1 1. 3 1. 5 1. 8 0. 9 1. 3 1. 8 2. 0 3 65. 1 1.1 1. 3 1.3 1. 5 1. 5 2. 1 1. 4 1. 4 1. 8 1. 8 1. 1 1. 8 1. 3 
+1. 8 2. 8 2. 6 1. 3 1. 8 2. 2 2. 5 4 84. 7 1.5 1. 8 1.8 2. 8 2. 8 2. 4 2. 1 2. 2 2. 4 2. 4 1. 1 1. 5 2. 8 3. 0 3. 0 1. 7 1. 7 
+3. 1 3. 3 3. 6 5 104 2.6 2. 8 2.8 3. 0 3. 0 3. 0 2. 9 3. 0 3. 0 3. 0 1. 3 1. 1 3. 0 2. 8 4. 0 2. 1 2. 1 3. 3 3. 7 4. 1 6 123 
+3.0 3. 5 3.5 4. 0 4. 0 3. 5 3. 4 3. 4 3. 5 3. 6 2. 8 3. 0 3. 5 4. 0 4. 6 3. 7 2. 4 3. 8 4. 0 4. 5 
+ 
+VII. 
+CONCLUSION 
+ The conclusion stated as follows; The relevant literature review is made with respect to crank shaft 
+design and stress analysis through Photo-elasticity and ANSY12. The photo-elastic models are fabricated and 
+stress analysis is carried out through Research Polariscope in Design Laboratory. The model through ANSY 12 
+is built and analyzed for stress distribution at various points considered. The stress distribution by above 
+methods shows that the values obtained are close. It is concluded that the designed model of crank shaft is safe 
+to use for industrial purpose. 
+ 
+VIII. 
+FUTURE SCOPE 
+The future scope for the project work carried out as followed; One may consider other parts for the 
+similar study. Any intricate/complex design component may be analyzed using Photo-elasticity and ANSY 
+software, one may take up the crank shaft design for other parameters like maximum twisting moment, for some 
+other vehicle such as two stroke petrol or diesel or 4- stroke petrol or diesel engines.: 
+ 
+REFERENCE 
+[1]. 
+Heitner j: automotive mechanics,2 nd edition  
+[2]. 
+Mathur M.L.& Sharma: IC engines, dhanpat rai publ  
+[3]. 
+Hillier and pittuck: fundamentals of motor vehicle technology,3 rd edition, Hutchinson, 1981.  
+[4]. 
+Machine elements: pc Sharma and Aggarwal D.K.  
+[5]. 
+Machine elements: Jian R.K.   
+[6]. 
+Design machine elements members: Bhandari V.B.  
+[7]. 
+MACHINE elements: khurmi R.S.&gupta. 
+[8]. 
+Machine elements: kannaiah P.  
+[9]. 
+A. F. L. Beeston, M. J. L. Young, J. D. Latham, Robert Bertram Serjeant (1990), The Cambridge 
+History of Arabic Literature, Cambridge University Press, p. 266, ISBN 0-521-32763-6 
+[10]. 
+ Ritti, Grewe & Kessener 2007, p. 159 
+[11]. 
+Lucas 2005, p. 5, fn. 9 
+Design and Stress Analysis of Crankshaft for Single Cylinder 4-Stroke Diesel Engine 
+International organization of Scientific Research                                                               42 | P a g e  
+[12]. 
+ Needham, Joseph. (1986). Science and Civilization in China: Volume 4, Part 2, Mechanical 
+Engineering. Taipei: Caves Books, Ltd. Pages 118–119. 
+[13]. 
+Quick, Graeme R. (2008). Remarkable Australian Farm Machines: Ingenuity on the Land. Grantham 
+House Publishing. p. 68. ISBN 978-1869341053. 
+[14]. 
+ Dorsey, Gray L. (1993). Jurisculture. Transaction Publishers. p. 82. ISBN 978-1560000907. 
+[15]. 
+ Quick, Graeme R. (2008). Remarkable Australian Farm Machines: Ingenuity on the Land. Grantham 
+House Publishing. p. 68. ISBN 978-1869341053. 
+[16]. 
+Dorsey, Gray L. (1993). Jurisculture. Transaction Publishers. p. 82. ISBN 978-1560000907. 
+[17]. 
+ Bautista Paz, Emilio; Ceccarelli, Marco; Otero, Javier Echávarri; Sanz, José Luis Muñoz (2010). A 
+Brief Illustrated History of Machines and Mechanisms. Springer (published May 12, 2010). 
+p. 19. ISBN 978-9048125111. 
+[18]. 
+ Du 
+Bois, 
+George 
+(2014). Understanding 
+China: 
+Dangerous 
+Resentments. 
+Trafford 
+on 
+Demand. ISBN 978-1490745077. 
+[19]. 
+/ White, Jr. 1962, p. 104: 
+[20]. 
+Machine elements: pandya and shah. 
+ 
+ 
+Degala Rajendra."Design And Stress Analysis of Crankshaft For Single Cylinder 4-Stroke 
+Diesel Engin.” IOSR Journal of Engineering (IOSRJEN), vol. 08, no. 1, 2018, pp. 38-42. 

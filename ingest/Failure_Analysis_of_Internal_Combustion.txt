@@ -1,0 +1,432 @@
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+173 
+ 
+Failure Analysis of Internal Combustion Engine 
+Valves: A Review 
+ 
+Naresh Kr. Raghuwanshi1, Ajay Pandey2, R. K. Mandloi3 
+Department of Applied Mechanics, M.A.N.I.T., Bhopal, Madhya Pradesh, India1 
+Department of Applied Mechanics, M.A.N.I.T., Bhopal, Madhya Pradesh, India2 
+Department of Mechanical Engineering, M.A.N.I.T., Bhopal, Madhya Pradesh, India3 
+ 
+Abstract: Intake and exhaust valves are very important engine components that are used to control the flow and exchange of 
+gases in internal combustion engines. They are used to seal the working space inside the cylinder against the manifolds; and are 
+opened and closed by means of what is known as the valve train mechanism. Such valves are loaded by spring forces and 
+subjected to thermal loading due to high temperature and pressure inside the cylinder. The present study focuses on different 
+failure modes of internal combustion engine valves, failures due to fatigue at high temperature, high temperature effects on 
+mechanical properties of materials, like hardness and yield strength; wear failure which is due to impact loading, and wear rate 
+that depends on load and time. For the study of fatigue life, a combined S-N (max. stress v/s number of cycles) curve is prepared. 
+Such a curve helps in comparing the fatigue failure for different materials at different high temperatures and may also assist the 
+researchers in developing the valve materials with a prolonged life.   
+ 
+Keywords: Failure, Internal Combustion Engine Valves, High Temperature, Fatigue, Wear. 
+ 
+I. INTRODUCTION  
+ 
+Internal combustion engine valves are precision engine components. They open and close as and when needed. The fresh charge 
+(air - fuel mixture in Spark Ignition Engines and air alone in Compression Ignition Engines) is induced through inlet valves and 
+the products of combustion get discharged to atmosphere through exhaust valves.  They are also used to seal the working space 
+inside the cylinder against the manifolds [1]. 
+ 
+There are different types of valves used by the manufactures; some common types of valves being poppet valves, slide valves, 
+rotary valves and sleeve valve. The basic nomenclature used for valves is as shown in Figure 1. 
+ 
+ 
+Fig. 1 The basic nomenclature of engine valve. 
+Source: H.J.C. Voorwalda et al. (2011) [2] 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+174 
+ 
+ 
+ 
+Any type of valve failure affects the engine performance thus making it mandatory to give due importance to failure analysis of 
+internal combustion engine valves. Possible modes of valves failure are wear failure, valve face recession,  fatigue failure, 
+thermal fatigue, erosion / corrosion of valves, overheating of valves, carbon deposits on valves etc. 
+ 
+Available research literature about valve failures indicates that valve design is a complicated task because the valve is subjected 
+to various loads at any point of time, such as reverse loading at a high temperature, stress concentration at the keeper groove area 
+and under carbon deposits at exhaust valves. The valves generally fail by fatigue [1], [2].  
+ 
+A closed valve is loaded by spring force and pressure inside the cylinder, which varies periodically during engine operation and 
+reaches a peak value of the order of 15 MPa. Such high pressures inside the cylinder cause bending of the valve cone, which 
+results in a sliding motion and improper contact between valve face and seat insert thus eventually leading to wear failure. The 
+Otto and Diesel engines operate at temperatures of 550ºC inside the intake valve; the corresponding values inside the exhaust 
+valve being 700°C and 800°C, respectively. The exhaust valve temperature can shoot up to 900°C. Since the exhaust valves 
+operate at high temperatures, they are exposed to thermal load and chemical corrosion. The intake valves, which are not 
+subjected to such extreme thermal loading, are cooled by incoming gases, thermal transmission at the seat, and by other means 
+[1], [2], [3].  
+ 
+Valves are subjected to cyclic loading due to valve train dynamics. The stem of the valve is under axial repeated loading, it can 
+fail by axial Fatigue. The keeper groove area is subjected to tensile stresses and becomes a critical section due to geometric stress 
+concentrations. In this paper all possible failures of valves are considered and discussed [2].            
+ 
+II. METHODOLOGY 
+ 
+There are Different methodologies used by researchers to obtain a good design and economic performance of the valves by 
+considering different valves failure criteria. Different types of failure and their causes are discussed in the following articles. 
+A. Failure due to fatigue 
+ 
+The word fatigue is derived from the Latin fatigare which means “to tire”. In engineering terminology fatigue is a progressive 
+structural damage of materials under cyclic loads. Important categories of fatigue include: Mechanical fatigue due to fluctuating 
+stresses Creep fatigue due to cyclic loads at high temperatures; Thermal fatigue due to cyclic changes in material’s temperature; 
+Thermo-mechanical fatigue due to a combination of mechanical and thermal fatigue; corrosion fatigue due to cyclic loads 
+applied on corroded materials, Fretting fatigue due to cyclic stresses together with the oscillation motion and frictional sliding 
+between surfaces, etc.. Fatigue failure occurs at stresses that are well below the yield point of the material [3].  
+ 
+I.C. Engine valves are subjected to repeated cyclic loading due to valve train dynamics. Repeated loading results in materials 
+failing well below the yield strength.  When the material is subjected to fatigue, one or more tiny cracks usually start developing 
+in the material, and these grow until complete failure occurs. 
+ 
+There are different types of fatigue mechanisms: thermal fatigue, high-cycle fatigue, low-cycle fatigue, surface fatigue, bending 
+fatigue, corrosion fatigue, torsional fatigue, and fretting fatigue. In valves, some of the more common failures are due to thermal 
+fatigue, corrosion fatigue, and low and high-cycle fatigue.  
+ 
+When it comes to fatigue, the S–N curves are often used to represent fatigue behavior. Because fatigue testing is time and energy 
+consuming, predictive methods are often used [4], [5], [6]. 
+ 
+In many industries, the number of stress cycles for lifetime services are above 107 cycles, The fatigue fracture is basically 
+observed under low cycle fatigue, normally less than 105 cycles. The fatigue life varies usually from 105 cycles to 107 cycles [6].  
+ 
+Researchers have come up with a number of results for fatigue testing, one of them being discussed in this paper for material 
+X45CrSi93 stainless steel for engine valves. The X45CrSi93 stainless steel is prepared from hot rolled bars that are machined, 
+quenched and tempered. After heat treatment the materials are divided into two groups - nitride and chrome plated. These two 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+175 
+ 
+groups are compared with the material without surface treatment. By comparison it is found that the fatigue limit is directly 
+proportional to the mechanical strength. The hardness profile analysis of nitride material is prepared so as to determine the actual 
+nitrogen diffusion depth. To start with, the hardness value is high but becomes constant as one goes deeper. Fig.2 shows the 
+nitride layer hardness profile. Fig.3 S-N depicts axial fatigue curves for X45CrSi93 stainless steel [2]. These curves (fig.2 & 3) 
+show that the fatigue limit is well below the yield limit of the material. 
+ 
+ 
+Fig. 2 Hardness profile of the nitrided layer 
+Source: H.J.C. Voolwalda et al. (2011)[2] 
+ 
+ 
+ 
+Fig.3 Axial fatigue curve for nitrided X45CrSi93 Steel 
+ 
+ 
+ 
+The fatigue cracks are found in the nitride layer stainless steel in fig.4. At the diffusion layer the fracture propagation starts and 
+leads up to the final rupture [2]. The different fracture propagation between the regions with higher and lower nitrogen contents 
+are shown in fig.4. 
+ 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+176 
+ 
+ 
+Fig. 4  Start of fatigue crack propagation 
+Source: H.J.C. Voolwalda et al. (2011)[2] 
+ 
+B.  Failures due to high temperature 
+ 
+ Exhaust valves operate at very high temperatures and subjected to cyclic loading, The failure of the conical surface of valve is 
+mainly caused by the elastic and plastic deformation, and fatigue. Exhaust valve stem generally fail by overheating because the 
+temperature of the exhaust valve is about 720 ºC. The fracture surface of the valve stem is covered with a black oxide scale 
+formation; fracture surface in the fatigue area is smooth and is covered with thick oxide or deposits that cannot be removed 
+satisfactory. In the middle portion of the stem a longitudinal fretting damage is occurred. Some small cracks are initiated and 
+propagated across the section. With high loading, multiple cracks are initiated if the valves are subjected to high temperatures 
+and, under such operating conditions, it would be logical to expect that failure would occur within a few million cycles. A 
+fractured valve stem is shown in fig.5 (a) & (b) [7].  
+ 
+The significant hardness is loused and the surface oxidation and fretting/galling on the valve stem occur due to overheating. The 
+fatigue properties of the alloy suffer due to high temperature. This is the cause of multiple fatigue crack initiation. The failed 
+exhaust valves are shown in Fig. 6, valve no. 4 is a new exhaust valve that is compared with the failed valve No. 1, No. 2 and No. 
+3. The failure had taken place at the plates of the exhaust valves as seen in fig.6 [8].  
+ 
+ 
+(a) 
+ 
+ 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+177 
+ 
+ 
+(b) 
+Fig. 5 (a) The failed exhaust valve stem & (b) Edge of the fracture surface of valve stem . 
+Source: Oh Geon Kwon and  Moon Silk Han(2004) [7] 
+ 
+ 
+ 
+ 
+Fig. 6 Photograph of failed exhaust valves 
+Source: Z.W. Yu and X.L. Xu (2006) [8] 
+ 
+ 
+ 
+In Valve No. 1 and No. 2, the cracks initiated from the tapered plane of the plate and propagated toward the bottom plane along a 
+45º direction to the bottom plane. In case of Valve No. 3, serious loss occurred at one side of the plate (fig.7). There are two main 
+radial splits in the plate, having both edges burnt. There are some small circumferential cracks on the tapered plane of both sides 
+of the splits. It was found that a lot of carbon deposition appears on the plate surface [8]. 
+ 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+178 
+ 
+ 
+ 
+Fig. 7 Fractured plate of Valve No. 3 
+Source: Z.W. Yu and X.L. Xu (2006) [8] 
+ 
+C. Failure of valve due to erosion-corrosion  
+ 
+As discussed above, the exhaust valves operate at high temperature. The resulting scale formation on the valves corrodes the 
+surface of valve due to exhaust flue gases. Structural metals have always had surface material removed in service as the result of 
+erosion by small, solid, impacting particles. In most elevated - temperature erosion environments, the eroding surface is 
+undergoing corrosion as well as erosion. In one test series, a nickel oxide scale was formed up to 100 μm thick at 1000ºC on 
+commercially pure nickel [9]. 
+           
+ The erosion-corrosion of exhaust valves (valve guttering) is an important cause of failure of internal combustion engines valves.  
+Valve guttering generally occurs due to exhaust gas flowing across the valve face surface, resulting in the formation of a radial 
+channel or gutter. Typical causes of leakage include valve distortion, face peening and degradation of face deposits. The 
+accumulation of combustion - derived deposits on valve surfaces interferes with proper seating of the valve and promotes leakage. 
+In studies of the effects of burning heavy fuels on the degradation of diesel exhaust valve seats, the role of “scales” deposited on 
+seating surfaces are reduced the heat flow through the contact. Lubricants containing high sulfated ash levels (over 1.0 weight %) 
+have been identified as potential contributors to heavy deposit formation and valve guttering in these engines [10]. 
+ 
+D. Failure of valve due to wear 
+Wear Failure occurs generally at the seating face of valves and stem at which portion that slide on valve stem guide. Wear mainly 
+occurs due to two major factors, he first one is the impact force between seating face of valve and seat insert, whereas the second 
+one is due to sliding of the valve on the seat insert during the action of combustion pressure. The rubbing action and impacting 
+action wear out the valve face. Typical mechanisms of wear include adhesive, abrasive, fretting, erosion, cavitation, and contact 
+rolling fatigue.  
+ 
+The gas engine valves are more wear - prone. Fig.8. shows the relationship between wear mass loss and time. It is seen that at 1.0 
+KN loading wear mass loss larger than at 0.7 KN loading [5], [11], [12].  
+ 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+179 
+ 
+ 
+Fig. 8 Relationship between wear mass loss and time. 
+ 
+Wear is divided into three stages: running - in wear stage, stable wear stage, and sharp wear stage. In running - in wear stage, the 
+temperature is high. Under the action of high impact varying load, the strength and hardness of surface material of gas - valve is 
+decreased because of high temperature, the plastic deformation initiates so the seat face of valves are worn out and the wear mass 
+loss sharply speed - up with the passage of time. With the increment of expulsion quantity, surface roughness drops and practical 
+contact area of gas - valve increases. Rmax data shows the wear at seat face of valve which is the difference between maximum 
+and minimum values of measurement length. A bar graph shows the Rmax v/s number of cycles in fig.9. From the graph it is clear 
+that more wear occurs with increasing number of cycles [11], [13]. 
+ 
+ 
+ 
+ 
+Fig. 9 Average R max at 10 Hz For seat face of Valve 
+ 
+III. ANALYSIS  
+From the above study, it is found that the predominant cause of failure of valves of internal combustion engine is fatigue. The 
+valves are subjected to high temperature, cyclic loading, impact loading, erosion-corrosion and high pressure inside the cylinder, 
+thus making it critically important to know about fatigue under these conditions. Researchers have been seeking to know the 
+fatigue failure mechanism, because the fatigue failure under actual loading conditions is different from simple mechanical fatigue 
+failure. In fatigue failure the material fails well - below the yield strength of that material. In this study a combined S-N (max. 
+stress V/s number of cycles to failure) curve is prepared for different materials. 
+ 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+180 
+ 
+ 
+ 
+ 
+         
+                                               
+                                                                                                                                                       
+                                                
+ 
+                                                   900 
+ 
+                                          800 
+ 
+                                          700 
+ 
+                                          600 
+ 
+                                          500 
+ 
+                                          400 
+ 
+                                          300 
+ 
+                                          200 
+     
+                                          100 
+                                                        
+                                                    103           104         105       106      107       108     109 
+                                                                             
+ 
+ 
+ 
+Fig. 10  S-N curve for different materials engine valve at high temperature. 
+ 
+ 
+Fig.10. shows the S-N curves for different materials, nitride layer on X45CrSi93 stainless steel fail at 900 MPa max. stress after 
+104 cycles and at 600 MPa stress after 106 cycles. Similarly, other materials like austenitic steel at 700°C fail at 380 MPa stress 
+after 103 cycles and at 300 MPa stress after 109 cycles. The curve is very flat which indicates that the it can be used only at high 
+cycle applications. 
+ 
+Internal combustion engine valves are generally designed up to 106 stress cycles to prevent the failure of valves but at present 
+there are different materials available which do not fail even after 107 or 108 cycles. At high temperature, the fatigue strength 
+decreases considerably but the ceramic materials have a good fatigue strength even at high temperatures and can operate without 
+failure up to 109  cycles but it can be used only for high cycle applications. Nickel - base alloys have low fatigue strength but can 
+operate at very high temperature of about 1027°C.     
+IV. CONCLUSION 
+From the above study of I.C. Engine valve failures, it is quite evident that a common cause of valve fracture is fatigue. Valves 
+fail due to cyclic loading at high temperatures. High temperature is also responsible for decrease in hardness and yield strength of 
+valve material, and also causes corrosion of exhaust valves. The surface oxidation and fretting / galling on the valve stem occur 
+due to overheating and fatigue strength is decreased due to overheating. The impact loading of the valve face on the valve seat 
+results in removal of material from that portion, which is known as valve recession. Wear failure occurs generally at the seat face 
+of valve and at the stem due to sliding inside the stem guide. The wear rate increases with increase the number of cycles.  Failure 
+due to erosion-corrosion of exhaust valves is also a recognized failure mode in internal combustion engine valves.  
+ 
+ Max. stress  (MPa) 
+22CrMoV121 
+steel at 400°C 
+Nickel-base alloy at 
+1027°C 
+Si3N4 
+ceramic 
+at1000⁰ C 
+Austenitic steel 
+at 700°C 
+17-4PH 
+Martensitic 
+stainless 
+steel 
+Nitride layer on 
+X45CrSi93 
+stainless steel        
+Number of cycles to failure 
+ISSN: 2319 – 8753 
+ 
+International Journal of Innovative Research in Science, Engineering and Technology 
+Vol. 1, Issue 2, December 2012 
+ 
+    Copyright to IJIRSET 
+ 
+                www.ijirset.com 
+ 
+181 
+ 
+Fatigue failure is the main cause of valve failure. The fatigue strength is significantly decreased with increase of temperature. 
+The combined S-N curve shown in Fig.10 is useful for comparing fatigue failure of the material, corresponding stresses cycles; 
+and for developing a high fatigue strength material even at high temperature. The current focus is on light weight engine valves 
+made up of ceramic materials which can operate without failure at high temperatures and can sustain stress cycles up to 109. 
+ 
+ACKNOWLEDGMENT 
+The authors wish to acknowledge the support rendered by Maulana Azad National Institute of Technology in preparation of this 
+manuscript.  
+ 
+REFERENCES 
+ 
+ [1]    M. I. Karamangil A. Avci and H. Bilal , Investigation of the effect of different carbon film thickness on the exhaust valve. Heat Mass Transfer 44 (2008) 
+          587–598  
+ [2]   H. J. C. Voorwalda, R. C. Coisse, and M. O. H.Cioffi. Fatigue Strength of X45CrSi93 stainless steel applied as internal combustion engine valves. Procedia  
+          Engineering 10 (2011)   1256–1261. 
+ [3]    V.Kazymyrovych, Very high cycle fatigue of engineering materials. Karlstad University Studies 2009:22. ISSN 1403-8099,  ISBN 978-91-7063-246-4 
+ [4]    Dowling, Norman E.: Mechanical Behavior of Materials, Engineering Methods for Deformation, Fracture and Fatigue. Prentice- Hall. 
+ [5]    D. J. Benac and R. A. Page, Integrating Design, Maintenance, and Failure Analysis to Increase Structural Valve Integrity. ASM International 3 (2001) 31- 
+          43  
+ [6]    Y.B. Liu, Y.D. Li, S.X. Li, Z.G. Yang,S.M. Chen, W.J. Hui, and Y.Q. Weng  , Prediction of the S–N curves of high-strength steels in the very high cycle 
+          fatigue regim. International Journal of Fatigue 32 (2010) 1351–1357 
+ [7]    Oh Geon Kwon and Moon Sik Han, Failure analysis of the exhaust valve stem from a Waukesha P9390 GSI gas engine.  Engineering Failure Analysis 11 
+          (2004) 439-447   
+ [8]    Z.W. Yu and  X.L. Xu, Failure analysis and metallurgical investigation of diesel engine exhaust valves. Engineering Failure  Analysis 13 (2006) 673–682  
+ [9]    Alan V. Levy, Solid particle erosion and erosion-corrosion of materials. copyright1995 by ASM International 
+ [10]   C.G. Scott, A.T. Riga and H. Hong. The erosion-corrosion of nickel-base diesel engine exhaust valves.  Wear 181-183 (1995) 485-494.  
+ [11]   ZHAO Yun-cai and YAN Hang-zhi, Experimental study on wear failure course of gas-valve/valve-seat in engine. J. Cent. South University.  Technology  
+           12  (2005) 243-246. 
+ [12]   P. Forsberg, P. Hollman, and S. Jacobson, Wear mechanism study of exhaust valve system in modern heavy duty combustion engines. Wear 271 (2011)  
+           2477– 2484   
+ [13]   Keyoung Jin Chun, Jae Hak Kim, and Jae Soo Hong, A study of exhaust valve and seat insert wear depending on cycle  numbers. Wear 263 (2007) 1147– 
+           1157  
+Biography 
+ 
+Name: Naresh Kr. Raghuwanshi 
+Affiliation: P. G. Student at Department of Applied Mechanics, MANIT, Bhopal - 462043 
+Specialization / Interest Area: Stress & Vibration Analysis, Automobile Engineering 
+E-mail Address: naresh_raghuwanshi@yahoo.com 
+ 
+ 
+ 
+ 
+ 
+ 
+Name: Prof. Ajay Pandey 
+Affiliation: Department of Applied Mechanics, MANIT, Bhopal - 462043 
+Specialization / Interest Area: Reliability Engineering, Industrial Design & Automobile Engineering 
+ 
+ 
+ 
+ 
+ 
+ 
+Name: Dr. R. K. Mandloi 
+Affiliation: Department of Mechanical Engineering, MANIT, Bhopal – 462043 
+Specialization / Interest Area: Automobile Engineering  
+ 
+ 
+ 

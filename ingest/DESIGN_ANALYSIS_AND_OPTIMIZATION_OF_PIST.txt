@@ -1,0 +1,515 @@
+ http://www.iaeme.com/IJMET/index.asp 
+1044 
+editor@iaeme.com 
+International Journal of Mechanical Engineering and Technology (IJMET) 
+Volume 10, Issue 03, March 2019, pp. 1044-1054. Article ID: IJMET_10_03_105 
+Available online at http://www.iaeme.com/ijmet/issues.asp?JType=IJMET&VType=10&IType=3 
+ISSN Print: 0976-6340 and ISSN Online: 0976-6359 
+ 
+© IAEME Publication 
+Scopus Indexed 
+ 
+DESIGN ANALYSIS AND OPTIMIZATION OF 
+PISTON FOR SINGLE CYLINDER 4 – STROKE 
+SPARK IGNITION ENGINE USING COUPLED 
+STEADY-STATE THERMAL STRUCTURAL 
+ANALYSIS 
+Pandiyan, A* 
+Department of Mechanical Engineering, Saveetha School of Engineering, SIMATS, 
+Thandalam, Saveetha Nagar, Chennai – 602 105. Tamil Nadu, India. 
+Arun Kumar, G 
+Department of Mechanical Engineering, Sathyabama Institute of Science and Technology, 
+Chennai – 600 119, Tamil Nadu, India. 
+Daniel Nikedh, D 
+4th Year Students, Department of Mechanical Engineering, Saveetha School of Engineering, 
+SIMATS, Thandalam, Saveetha Nagar, Chennai – 602 105. Tamil Nadu, India.  
+*corresponding author 
+ABSTRACT  
+The aim of the study is to design, analysis and optimization of piston for a single 
+cylinder four stroke over head valve (OHV) spark ignition engine. This paper used 
+reverse engineering techniques, in order to obtain of an existing physical model. A 
+three-dimensional piston has been created with the help of SOLIDWORKS and, it is 
+imported to ANSYS environment for the coupled steady-state thermal structural 
+analysis. The material used for piston is Die Cast Aluminium (DCA) 1, 2, and 3. The 
+objective of this paper focuses the light weight piston design through finite element 
+analysis, and to optimize the piston design using parametric optimization. The results 
+obtained from coupled field analysis and parametric optimization, concluded the 
+modified design is within the permissible limit along the selected materials for DCA2 
+and shows the maximum von misses stresses 78.75MPa, factor of safety (n) is 5.67 and 
+yield strength of 165MPa and it is reduced the piston weight was 12.14 grams which is 
+7.42% less as compared to existing DCA1 without comprising the strength to weight 
+ratio. 
+Key words: OHV, piston, reverse engineering, finite element analysis, DCA, 
+parametric optimization. 
+Pandiyan, A, Arun Kumar, G and Daniel Nikedh, D 
+http://www.iaeme.com/IJMET/index.asp 
+1045 
+editor@iaeme.com 
+Cite this Article Pandiyan, A, Arun Kumar, G and Daniel Nikedh, D, Design Analysis 
+and Optimization of Piston for Single Cylinder 4 – Stroke Spark Ignition Engine Using 
+Coupled Steady-State Thermal Structural Analysis, International Journal of Mechanical 
+Engineering and Technology, 10(3), 2019, pp. 1044-1054. 
+http://www.iaeme.com/IJMET/issues.asp?JType=IJMET&VType=10&IType=3 
+1. INTRODUCTION  
+The drive of the Internal Combustion Engine (ICE) piston is to transfer from gas force in the 
+cylinder to the crankshaft via connecting rod.  A piston is a critical part of an ICE. Due to the 
+piston endures the cyclic gas pressure, inertia force may cause the fatigue damage of piston, 
+wear, head cracks etc. By the chemical reaction of burning the gas creates the high temperature 
+which makes the piston expand which creates thermal stress and thermal deformation. The 
+thermal deformation and mechanical deformation causes piston cracks, tortuosity etc. Hence it 
+is very essential to analyze the temperature distribution, stress distribution, thermal load, 
+mechanical load and heat transfer in order to minimize the stress, and different loads on working 
+condition of the piston. Most of the internal combustion engine piston is made of Al alloy which 
+have thermal coefficient is 80% higher than the cylinder bore material made of cast iron.  
+This author focuses to optimize the design by finding weight and stiffness for various 
+materialistic mass and volume of the con rod. This paper will conclude whether the existing 
+and modified design and it is clear that the stress and strain obtained by the modified design is 
+less when compared to the existing design [1].  
+This paper studied the thermal and the stress distribution of the piston which is initialized 
+with four materials (Pure Aluminium, A6061, Al – GHS 1300 and Al-Sic-Graphite) by using 
+by finite element method. The specification used for the specification belongs to four stroke 
+single cylinder Hero-Honda motor cycle. The results predicted the maximum stress and the 
+dangerous region on the different aluminum alloys piston using FEA [2]. 
+Analysis of the thermal and mechanical stress distribution in the many parts of the piston to 
+know the stresses due to the gas pressure and thermal variations using with Ansys. The engine 
+piston is designed by using CATIA V5R16 and analysis was done form graphics software 
+ANSYS 11.0. The volume of the piston is reduced by 24%, the thickness of barrel is reduced 
+by 31%, width of other ring lands of the piston is reduced by 25%, von-misses stress is increased 
+by 16% and deflection is increased after optimization. But all the parameters are well with in 
+design consideration [3].  
+In this study work there are two steps of study of the piston are Designing and Analysis. 
+Firstly design the model of the piston based on the design specification using modeling software 
+like INVENTOR. Import the model of the piston into the analysis software ANSYS in IGES 
+format. Then the analysis has been carried out on the various parameters such as stress, 
+deformation and temperature. In this work focused on the optimized piston through the mass 
+and volume become reduced. The deformation also increased after the optimization which is 
+responsible for the stress distribution on the piston head or piston crown [4]. 
+This paper describes the stress distribution of the piston four stroke engines by using FEM. 
+The main objective of the author is to investigate and analyze the thermal stress and maximum 
+or minimum principal stresses. The stress concentration on the piston head, piston skirt and 
+sleeve are reduced by optimization with using Pro-E/ CREO software the structural model of a 
+piston will be developed.  Finite Element Analysis technique (FEA) to forecast the higher stress 
+and critical region on that component [5]. 
+In this work the analysis of the piston consists of mainly design and analysis. Design the 
+model of the piston like PRO-E. The constrains which are act on the working condition of the 
+Design Analysis and Optimization of Piston for Single Cylinder 4 – Stroke Spark Ignition Engine 
+Using Coupled Steady-State Thermal Structural Analysis 
+http://www.iaeme.com/IJMET/index.asp 
+1046 
+editor@iaeme.com 
+piston after the model of piston into the analysis software ANSYS in IGES format. The three 
+different materials like Al alloy 4032, AISI 4340 Alloy Steel & Titanium Ti-6A1-4V were used 
+for the finite element analysis. The performance analysis is carried out on various parameters 
+such as stress, total deformation and temperature distribution. After the analysis of the three 
+different materials, Al alloy is suitable for internal combustion engine [6]. 
+There are lots of research works proposing, for engine pistons, new geometries, materials 
+and manufacturing techniques, and this evolution has undergone with a continuous 
+improvement over the last decades and required thorough examination of the smallest details.  
+Anyhow all these studies, there are a huge number of damaged pistons. Damage mechanisms 
+have different origins are mainly wear, high temperature distribution, and fatigue load.  
+Current years CAE packages could acquire the stress contours of any ideal component or 
+product. By the advancement of computational power, to obtain optimized design with the help 
+of topology optimization. This paper deals the selection materials based on the finite element 
+analysis and parametric optimization of a piston for a single cylinder four stroke spark ignition 
+engine. In order to obtain the result of incorporating additive manufacturing of any shape 
+regardless of its complexity by reducing significant percentage mass of initial design domain. 
+The initial design considers thermal loads later it is verified for the performance under structural 
+loading. The objective of this paper focuses the light weight piston design through reverse 
+engineering techniques, selection of materials and parametric optimization in order to improve 
+the performance and emission characteristics, bear the strength to weight ratio and reduces the 
+total cost of production. 
+2. MATERIAL AND METHODS 
+2.1. Engine specification 
+This paper attention is on piston; the geometry and the requirements of the piston solely depend 
+upon the engine. The specification of the engine is used for the following Table 1. 
+Table 1. Specification of the engine 
+Engine type 
+4 stroke, Single cylinder, Air 
+cooled engine 
+Bore x Stroke 
+68 X 45 mm 
+Displacement 
+163 cm3 
+Rated Output 
+2.83 KW @ 3,600 rpm 
+Maximum Torque 
+10.3 Nm @ 2,500 rpm 
+Compression Ratio 
+9.0: 1 
+Weight 
+15.1 Kg 
+2.2. Piston: Material 
+Compact weight and high structural rigidity is the key factors essential for all components of 
+an IC engine. For this purpose, the industries widely use aluminum alloys. Aluminum has a 
+density of only 2.7 g/cm3, approximately one-third as much as steel (7.83 g/cm3). Aluminum 
+die casting alloys are light weight, has good cast ability, good mechanical properties, offer good 
+corrosion resistance and dimensional stability [7]. The application of aluminum matrix material 
+is used in the automotive industry, aircraft industry, in construction of machines, as pressure 
+vessels for cryogenic applications etc. 
+The present paper is to study the possibility of enhanced grain refinement of an aluminium 
+cast metal by making the use of fragmented Al3Ti and TiB2 particles in an Al_5Ti_B master 
+Pandiyan, A, Arun Kumar, G and Daniel Nikedh, D 
+http://www.iaeme.com/IJMET/index.asp 
+1047 
+editor@iaeme.com 
+alloy. Various sizes of particles were provided by heat treatments and plastic deformation on a 
+commercially-available Al_5Ti_B wire [8].  
+In this study, the investigation of the temperature distribution between sample and die was 
+done during the Spark Plasma Sintering synthesis of TiB2. The reaction among titanium and 
+boron is exothermic for the binary phases—titanium monoboride (TiB) and TiB2. Because of 
+this, the reactions can be easily observed by temperature changes inside a sample [9]. 
+ 
+Addition of Ti-B grain refiner in Al-ADC12/nanoSiC composite results in enhancement of 
+tensile strength, hardness, and wear resistance through grain refinement. In this research, 
+composite of Al-ADC12/nanoSiC (0.15%vf) with variations of TiB respectively (0.0), (0.02), 
+(0.04), (0.06), dan (0.08) wt% were produced by stir casting. The increase in mechanical 
+properties of composites mainly because of Al3Ti acts as nucleants which initiates the grain 
+refinement and the existence of MgAl2O4 phase indicates an interphase between nanoSiC and 
+ADC12 matrix. However, the increase of Ti-B addition after optimum number gives no 
+significant results. High composition of iron and magnesium addition will form intermetallic 
+phase β-Fe, π-Fe, and Mg2Si [10]. 
+The addition of a titanium boron aluminum grain refiner improves homogeneity and allows 
+for a uniform distribution of alloying elements, reduces porosity, eliminates hot tearing in cast 
+structures, improves responsiveness to subsequent heat treatment, and enhances mechanical 
+properties and machinability in the fabrication process [11].  
+The chemical composition test was conducted using a vacuum optical emission 
+spectrometer in order to obtain the material DCA1 and also mechanical test were conducted. 
+This author stated that the microstructure and mechanical properties of die cast aluminum A380 
+alloy casts produced under varying pressure was investigated experimentally. The hardness of 
+the die cast A380 samples that solidified under different applied pressures varied from 76 to 85 
+HRN and likewise tensile strength, yield strength and elongation of the samples displayed an 
+increase with increased pressure. Based on the chemical composition test and mechanical test 
+of existing piston and DCA3reference material, DCA2 is fabricated which is Al-Si based alloy 
+as per the ASTM B179-09. The chemical composition of material is tabulated in Table 2 and 
+the properties of materials are summarized in table 3. The geometrical values of existing piston 
+as shown in Table 4. 
+Table 2: Chemical composition of selected materials % by weight 
+Element 
+DCA1 DCA2 DCA3 
+Si 
+11.04 
+9.0 
+8.5 
+Fe 
+0.73 
+0.90 
+1.05 
+Cu 
+2.10 
+2.12 
+3.5 
+Mn 
+0.18 
+0.20 
+0.27 
+Mg 
+0.34 
+0.38 
+0.05 
+Zn 
+0.74 
+0.74 
+1.8 
+Ni 
+0.04 
+0.04 
+0.08 
+Ti 
+0.03 
+0.03 
+0.05 
+B 
+- 
+1.0 
+- 
+Pb 
+0.03 
+- 
+- 
+V 
+0.02 
+- 
+- 
+P 
+0.002 
+- 
+- 
+Sn 
+- 
+0.15 
+- 
+Al 
+Bal. 
+Bal. 
+Bal. 
+Design Analysis and Optimization of Piston for Single Cylinder 4 – Stroke Spark Ignition Engine 
+Using Coupled Steady-State Thermal Structural Analysis 
+http://www.iaeme.com/IJMET/index.asp 
+1048 
+editor@iaeme.com 
+Table 3: Physical and mechanical properties. 
+Designation 
+DCA1 DCA2 DCA3 
+Density (g/cm3) 
+2.82 
+2.68 
+2.76 
+Thermal Conductivity (W/mK) 
+92 
+113 
+109 
+Tensile strength (MPa) 
+320 
+324 
+340 
+Elongation (%) 
+2.5 
+3.6 
+4 
+Specific heat (J/g0C) 
+0.963 
+0.963 
+0.963 
+Hardness (HB) 
+79 
+83 
+85 
+Fatigue strength (5x108 cycle, MPa) 
+145 
+140 
+138 
+Elastic Modulus (GPa) 
+68.9 
+71 
+71 
+Yield strength (-0.2%, MPa) 
+167 
+169 
+176 
+Table 4: Geometrical values of piston 
+Name of the part 
+Dimensions
+Length of piston 
+53.2 mm 
+Outer diameter of piston 
+67.75 mm 
+Inner diameter of gudgeon pin area 18 mm 
+ 
+Figure. 1. 2D drawing of piston before optimization 
+2.3. Reverse Engineering 
+Reverse engineering is the process of obtaining a geometric CAD model from measurements 
+obtained by using non-contact scanning technique of an existing physical model [13]. 
+Many research articles on CAD/CAM are about generating computer models and moving 
+into physical products. Sometimes, however, industries concerns have physical model to CAD 
+models. The reasons are CAD model may not exist. Some industrialists requirement, models of 
+production parts or subsystems to incorporate into a new product model. Present automobile 
+engines and transmissions, for example, are regularly reused in new models with only slight 
+modifications. This paper describes, it consists of following steps: Data acquisition, 
+preprocessing, triangulation, feature extraction, segmentation and, surface fitting and the 
+application of CAD/CAM/CAE tools [14].  
+They are commonly used in automotive, air craft, marine, in medical life science and 
+software industries etc.  
+This paper used reverse engineering techniques, accurate measurements of the steinbichler 
+comet L3D scanner has resolution of 2Mpx and 1600 x 1200 pixels, in order to obtain of an 
+existing physical model. 
+Pandiyan, A, Arun Kumar, G and Daniel Nikedh, D 
+http://www.iaeme.com/IJMET/index.asp 
+1049 
+editor@iaeme.com 
+2.3.1. Initial Modeling 
+This paper utilized the highly accurate measurements of the steinbichler comet L3D scanner 
+has resolution of 2Mpx and 1600 x 1200 pixels, measuring field of 400mm, measuring volume 
+of 400x300x250 mm3 and point to point distance of 259µm in order to obtain of an existing 
+physical model piston. The scanned model and CAD model as shown in figure 2.  
+  
+ 
+Figure. 2. Piston (a) Scanned model and (b) CAD model 
+2.3.2. Finite element analysis 
+A 3-dimensional piston has been created with the help of SOLIDWORKS 2016 and, it is 
+imported to ANSYS 16.2 environment for coupled steady-state thermal structural analysis. 
+Maximum pressure of 23 bar generated inside the cylinder due to burning of air fuel mixture. 
+This pressure will be transmitted into crank shaft via con rod and piston. In figure 3. (a) Shows 
+the piston model imported to ANSYS and (b) fine meshed piston consists of 100903 nodes and 
+62756 triangular elements. Figure 4. (a) shows the thermal loads at 3000C and the boundary 
+conditions are applied through convective mode temperature 700C, and (b) temperature 
+distribution from top surface of the piston to the bottom of piston to attain a maximum 
+temperature of 3000C and, the heat transferred per unit area in the piston to reach maximum is 
+2.0006 W/mm2 near the piston ring and minimum is at bottom of piston. Figure 5. (a) 
+demonstrates, to ensure efficient design the compressive load was applied as a 23.4 bar, and 
+remote displacement along z-direction is -45mm and rest of the directions are constrained zero 
+degrees of freedom and (b) shows the maximum stress obtained as per the given loading of 
+65.068MPa. Figure 6. (a) Displays the maximum deformation 45.106mm at the bottom of the 
+piston skirt and minimum deformation of 44.885mm at the top of piston and (b) Shows the 
+minimum factor of safety for the piston as 2.6127. 
+2.3.2.1. Analysis Results before Optimization  
+Design Analysis and Optimization of Piston for Single Cylinder 4 – Stroke Spark Ignition Engine 
+Using Coupled Steady-State Thermal Structural Analysis 
+http://www.iaeme.com/IJMET/index.asp 
+1050 
+editor@iaeme.com 
+  
+ 
+Figure. 3. Piston model (a) Imported to ANSYS and (b) Mesh model 
+   
+ 
+Figure. 4. Piston (a) Thermal boundary conditions and (b) Temperature distribution 
+   
+ 
+Figure. 5. Piston (a) Structural loading conditions and (b) Equivalent (von-mises) stress 
+  
+ 
+Figure. 6. Piston (a) total deformation and (b) factor of safety 
+3. PARAMETRIC OPTIMIZATION 
+Modern engines with variable valve train or different direct injection concepts require pistons 
+with complex crown shapes which would often lead to a higher piston weight. Therefore in 
+Pandiyan, A, Arun Kumar, G and Daniel Nikedh, D 
+http://www.iaeme.com/IJMET/index.asp 
+1051 
+editor@iaeme.com 
+every new piston development, the piston geometry is optimized in particular in the ring 
+belt/piston skirt area. Intensive application of numerical simulation methods enables significant 
+weight reductions while increasing at the same time the load-bearing capacity. Newly 
+developed alloys with better cast ability, but also higher fatigue resistance in the critical 
+temperature and stress region, allow the realization of thinner wall structures. Improved casting 
+methods enable large recesses for the ring belt and hence a considerable reduction in the piston 
+weight. But also the use of steel pistons in i. c engines is discussed again and again. The 
+advantages of steel pistons such as reduced installation clearances, low fuel consumption 
+figures and long service life would have to be evaluated against customer demands such as low 
+emission levels, lightweight, efficient cooling and a competitive price. But up to now, there are 
+no definite indications that steel pistons would be a viable concept for mass production. The 
+piston model was modified using the results obtained from parametric optimization. In figure 
+8. (a) Shows the piston model imported to ANSYS and (b), fine meshed piston consists of 
+100903 nodes and 62756 triangular elements. Figure 9. (a) shows the temperature distribution 
+from top surface of the piston to the bottom of piston to attain a maximum temperature of 3000C 
+and, the heat transferred per unit area in the piston to reach maximum is 2.0006 W/mm2 near 
+the piston ring and minimum is at bottom of piston and (b) shows the maximum von-mises 
+stress of 78.757Mpa. Figure 10. (a) Describes the total deformation of maximum 45.091mm 
+and (b) shows the safety factor 2.1585. 
+ 
+Figure. 7. 2 D optimized drawing 
+3.1. Analysis results after parametric optimization  
+  
+ 
+Figure. 8. Piston model (a) Imported to ANSYS and (b) Meshed model 
+ 
+Design Analysis and Optimization of Piston for Single Cylinder 4 – Stroke Spark Ignition Engine 
+Using Coupled Steady-State Thermal Structural Analysis 
+http://www.iaeme.com/IJMET/index.asp 
+1052 
+editor@iaeme.com 
+  
+  
+ 
+Figure. 9. Piston (a) Temperature distribution and (b) Equivalent (von-mises) stress 
+ 
+  
+ 
+Figure. 10. Piston (a) total deformation and (b) factor of safety  
+4. RESULTS AND DISCUSSIONS 
+Maximum von-misses stresses, deformation and factor of safety was found out in finite element 
+analysis. Maximum stress occurred in the pin boss fillet area, the mass of the initial model is 
+163.53 grams and after optimized model is reduced to 159.29 grams. Fig. 11 Results for (a) 
+total deformation (b) von-mises stress, before and after optimization Figure 12. (a) Shows the 
+factor of safety is ADC12 is low, A360 is maximum and A380 is close to A380, and (b) 
+indicates the total heat flux of ADC12 is slightly increased, A360 is almost same and A380 is 
+equal to 0.605 w /mm2.  
+ 
+ 
+ 
+ 
+ 
+ 
+Pandiyan, A, Arun Kumar, G and Daniel Nikedh, D 
+http://www.iaeme.com/IJMET/index.asp 
+1053 
+editor@iaeme.com 
+4.1. Comparison of results before and after optimization 
+  
+   
+Figure. 11. Results for (a) total deformation (b) von-mises stress, before and after optimization 
+  
+  
+ 
+Figure. 12. Results for (a) factor of safety and (b) total heat flux before and after optimization 
+5. CONCLUSION 
+It is observed that by conducting the coupled steady-state thermal structural analysis shows von 
+misses stresses, deformation and factor of safety for the given loading conditions. After carrying 
+out the coupled steady-state thermal structural analysis the stresses in loading conditions were 
+studied and then area where excess material can be removed were decided. Parametric 
+optimization was performed to reduce weight of the piston subjected to compressive load and 
+tensile load. The Bottom piston skirt region of the piston offered the greatest potential for 
+weight reduction. Based on the analysis result, it is possible to reduce the weight of the piston 
+material in two ways such as one is selection of piston materials A360 is obtained 155.41 grams 
+which is 8.12 % less compared to ADC12 and the other is mass of the optimized piston is 151.39 
+grams and the optimized geometry is 7.42 % lighter than the existing piston without 
+compromising the strength and stiffness.  
+ 
+ 
+ 
+Design Analysis and Optimization of Piston for Single Cylinder 4 – Stroke Spark Ignition Engine 
+Using Coupled Steady-State Thermal Structural Analysis 
+http://www.iaeme.com/IJMET/index.asp 
+1054 
+editor@iaeme.com 
+REFERENCES 
+[1] 
+S. Aishwarya, E. V. V. Ramanamurthy “Design and Optimization of Con rod for 4 – Stroke 
+Petrol Engine by Using Finite Element Analysis”, ARPN Journal of Engineering and 
+Applied Sciences, VOL. 10, NO. 11, ISSN 1819-6608, JUNE 2015. 
+[2] 
+Tadala akhil, K. Naresh, Abdul Khurshid, Purushotham anil kumar, Analysis of Four Stroke 
+Single Cylinder Engine piston by using aluminum Alloys (Al-GHS 1300, Al-SiC-Graphite, 
+A6061, Pure Aluminium), SSRG International Journal of Mechanical Engineering (SSRG-
+IJME), ISSN: 2348 – 8360, Vol.3, Issue, 1, 2016, pp.4-12. 
+[3] 
+Ch.Venkata Rajam, P. V. K. Murthy, M. V. S. Murali Krishna, G. M. Prasada Rao, “Design 
+Analysis and Optimization of Piston using CATIA and ANSYS”, International Journal of 
+Innovative Research in Engineering & Science, ISSN: 2319-5665, Vol. 1, issue 2, 
+(2013),pp. 41-51. 
+[4] 
+Aditya Kumar Gupta and Vinay Kumar Tripathi, “Design Analysis and Optimization of 
+Internal Combustion Engine Piston using CAE tool ANSYS”, Int. Journal of Engineering 
+Research and Applications, ISSN: 2248-9622, Vol. 4, Issue 11(Version - 5), November 
+2014, pp.04-10. 
+[5] 
+Sandeep K. Kourav and Vishnu B. Ghagare, “Design and Analysis of Piston by using Finite 
+Element Analysis”, International Journal of Engineering Research & Technology (IJERT), 
+ISSN: 2278-0181, Vol. 4, Issue 09, (2015), pp. 296-301. 
+[6] 
+G. Siva Prasad, K. Dinesh Achari, E. Dileep Kumar Goud, M. Nagaraju, and K.Srikanth, 
+“Design and Analysis of Piston of Internal Combustion Engine on Different Materials Using 
+CAE Tool Ansys”, International Journal of Engineering and Techniques, Vol.2, Issue 3, 
+(2016), pp.1-7. 
+[7] 
+Davis, J.R. (2001). Undrstanding the basics of  “Aluminum and Aluminum Alloys”, ASM 
+International, pp351-416.  
+[8] 
+Ghadimi, H.; Hossein Nedjhad, S.; and Eghbali, B, (2013). Enhanced grain refinement of 
+cast aluminum alloy by thermal and mechanical treatment of Al_5Ti_B master alloy, Trans. 
+Nonferrous Met. Soc. China 23, pp. 1563_1569. 
+[9] 
+Jurgen chmidt.; Marian Boehling.; Ulrich Burkhardt.; and Yuri Grin, (2007). Preparation of 
+titanium diboride TiB2 by spark plasma sintering at slow heating rate, Science and 
+Technology of Advanced Materials 8, pp.376–382. 
+[10] 
+Dhaneswara, A.; Zulfia. A.; Pramudita, T.P.; Ferdian, D.; and Utomo, B.W. (2017). Effect 
+of Al-TiB Addition on the Mechanical Properties and Microstructure of Al-ADC12/ 
+NanoSiC Produced by Stir Casting Methods, Conf. Series: Materials Science and 
+Engineering, 333, 012044. 
+[11] 
+AMG aluminium, (2018). Titanium Aluminium Grain Refiner, 435 Devon Park Drive, 
+Wayne, PA 19087 USA, ftp://amg-v.com/_content/products/AMG-Aluminum%20-
+%20Overview.  
+[12] 
+Kenneth N. Obiekea.; Shekarau Y. Aku,; and Danjuma S. Yawas. (2014). Effects of 
+Pressure on the Mechanical Properties and Microstructure of Die Cast Aluminum A380 
+Alloy. Journal of Minerals and Materials Characterization and Engineering, SciRes.2, 
+pp.248-258. 
+[13] 
+Kumar, A..; Jain, P.K.; and Pathak, P.M, (2013). Reverse engineering in product 
+manufacturing: An overview. Chapter 39 in DAAAM International Scientific Book, pp. 
+665-678,ISBN 978-3-901509-94-0, ISSN 1726-9687, Vienna, Austria 
+[14] 
+Bopaya, B.I.; and Hosni Y.A. (1994). Reverse engineering and its relevance to industrial 
+engineering: A critical review”, International journal of computers and engineering, Vol. 
+26, No. 2, pp. 343-348, 1994. 

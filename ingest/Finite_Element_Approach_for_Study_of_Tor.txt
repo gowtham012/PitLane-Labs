@@ -1,0 +1,588 @@
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 22  
+Research Publish Journals 
+Finite Element Approach for Study of 
+Torsional and Bending Effect on Four Cylinder 
+Engine Crankshafts 
+ P.D.Shah1, Prof. K.K.Bhabhor2 
+ 
+1PG Student, 2Professor 
+1,2Department of Mechanical Engineering, Government Engineering Collage, Dahod, Gujrat, India 
+ 
+ 
+Abstract:    In high-speed diesel engine the problem of torsional vibration of the crankshaft has become critical 
+with increase in excitation forces. This results in high torsional vibration amplitudes and hence high stresses .This 
+paper aims at complete FEM analysis of a crankshaft for torsional and bending vibrations & identification of 
+stresses. It is analyzed for natural frequency, rigid body mode shape by ANSYS. . The complete simulation of 
+actual boundary conditions is done for journal bearing support, inertia lumping for reciprocating parts and 
+bearing stiffness. ANSYS-programme, which will convert user input Pressure-Crank angle variation to excitation 
+forces for various orders through FFT. The dynamic responses obtained for displacement and stresses. Finally all 
+results are combined to obtain the variation of Fillet Stress as a function of engine speed and harmonic orders. The 
+critical dynamic response is compared with results obtained experimentally for torsional amplitudes. The 
+parametric optimization has been done to increase the frequency it means the higher the frequency higher the 
+stiffness or strength with optimum weight of the component. 
+Keywords:   Torsional  vibration, Bending vibration, Modal analysis, Rigid body modes, Static analysis, Critical 
+fillet stresses, , FFT setup. 
+ 
+I.  INTRODUCTION 
+ 
+Crankshaft is one of the most important moving parts in internal combustion engine. Crankshaft is a large component with 
+a complex geometry in the engine, which converts the reciprocating displacement of the piston into a rotary motion. 
+Crankshaft consists of the shaft parts which revolve in the main bearings, the crankpins to which the big ends of the 
+connected rod are connected the crank arms to webs (also called cheeks) which connect the crankpins and the shaft parts. 
+The crankshaft main- journals rotate in a set of supporting bearings (main bearings) causing the offset road journals to 
+rotate in circular path around the main journal centers. 
+  
+The complicated geometry of crankshaft and the complex torque applied by cylinders make their analysis difficult. But 
+optimized meshing and accurate simulation of boundary conditions along with ability to apply complex torque provided 
+by various FEM packages have helped the designer to carry torsional vibration analysis with the investigation of critical 
+stresses.FEM enables to find critical locations and quantitative analysis of the stress distribution and deformed shapes 
+under loads. The specific engine crankshaft of a major automobile company (the name is kept confidential) is taken as the 
+model for the analysis. 
+ 
+Objectives: The project aims at detail FEM analysis of crankshaft. The following are the main objectives of the project. 
+ 
+1. Building a 3-D Solid parametric model of crankshaft, Flywheel and pulley in Pro-Engineer wild fire.  
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 23  
+Research Publish Journals 
+2. Meshing the model by Tetrahedral Solid 285 elements in Ansys. MPC 184 element is also used to define the journal 
+bearings. 
+3. Rigid body modes and Normal modes- we have calculated in free vibration analysis for Crankshaft. 
+4. Experimental modal analysis carried out using FFT ANALYSER MACHINE to validate our CAE work. 
+5. Behaviour of torsional modes, bending modes and combined modes of vibration we have studied for all systems. 
+6. ANSYS program is used to find out the Ft and Fr forces from given P and  diagram. 
+7. C programming is used to find out the T and  diagram from corresponding P and  diagram. 
+8. Dynamic response and investigation of critical stresses are found out by incorporating the boundary conditions at the 
+journal bearing positions. And tangential and radial forces on corresponding nodes. 
+9. Durability analysis has done to check the strength of the crankshaft with different radial and tangential forces. 
+10. The parametric optimization has been done to increase the frequency it means the higher the frequency higher the 
+stiffness or strength with optimum weight of the component. 
+ 
+Crankshaft Vibrations:  In I.C. engines various types of excitation forces exist. These directly or indirectly affect the 
+crankshaft dynamics. 
+The major types of these vibrations are: 
+  • Torsional vibrations: shows spatial view of a 4-cylinder engine crankshaft. In multi-cylinder engine crankshafts, the 
+crank throws are spatial or out of phase with each other for the balancing purpose. It is also attached with a flywheel and some 
+driven system. The torque is applied to the crankpin by the connecting rod. This torque is of varying nature because of 
+variation in gas pressure and inertia forces. The fluctuating torque at the crankpin causes the twisting and untwisting 
+periodically. Hence the torsional vibrations are induced. 
+• Flexural vibrations: The lateral periodic motion of crankshaft under the fluctuating forces exerted by connecting rod at 
+crankpin cause bending vibrations of crankshaft. This mode shape generally has many nodes because the bending vibrations 
+are strongly reacted at the bearings. 
+• Axial vibrations: The torsional vibrations can cause axial vibration in the twisting and untwisting motion. Also radial 
+forces at crankpin cause some axial movement of crankthrow. 
+• Coupled vibrations: In general, however the various modes of vibration are coupled so that vibrations of one type can't 
+occur without an accompanying vibration of the other type. These are not troublesome if there is considerable spread 
+between the natural frequencies of the modes of vibration involved; i.e. the modes get weakly coupled. 
+ 
+Influence of Crankshaft Vibrations: 
+The crankshaft vibrations badly affect the working of engine. 
+The major areas are as follows. 
+ 
+1. The torsional vibrations cause the angular velocities of all the cranks to vary but not in the same proportions. The crank 
+away from the node has maximum effects compared to crank near the node. This affects the balancing. 
+ 
+2. Due to same reason discussed above, stresses of varying intensity are generated in whole length of the crankshaft. 
+These are also fluctuating in nature and hence cause fatigue of crankshaft, reducing its life. The stresses induced are 
+dangerous at fillet or oil-hole locations. 
+ 
+3. Vibratory energy is transmitted to all parts of the structure where it causes structural damage. 
+ 
+4. It induces noisy operation of engine, which is undesirable in passenger cars. It also causes wear of all running parts. 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 24  
+Research Publish Journals 
+II. SOLID MODELING OF CRANKSHAFT 
+ 
+As a prerequisite to the finite element model is the physical geometry of the part i.e. the suspension link we have created 
+using Prove-Wildfire software. 
+ 
+ 
+Fig 1. Solid Modeling of Crankshaft 
+ 
+III.  MESH GENERATION 
+ 
+Meshing generally falls in two categories depending on the geometry of the element. For a 3D machine element of regular 
+shape, solid meshing is sufficient, but for irregular geometries we have to first use surface meshing and then solid 
+meshing.  
+We have done surface meshing first by Solid 183 element. One of the important aspect in surface meshing is merging of 
+nodes or technically it can be called node equivalence. Once the node equivalence is confirmed we have to go for free-
+edge checking which will ensure that there are no free surfaces.            Now, after free surface check is done, we go for 
+quality check, the quality check in Ansys  is a unique feature as it allows us not only to check for internal and external 
+angles of the mesh element but also facilitates in checking aspect ratio, warpage ratio, skew ratio, and most important the 
+Jacobian matrix. The value of the Jacobian matrix should always lie between 0 and 1. Any other value of the Jacobian 
+matrix renders the element faulty and a new element should be created by deleting the previous one. In our case the value 
+of Jacobian matrix is 0.7 
+Once assured with a safe and sound surface meshing our next step is to import the model in ANSYS for solid meshing.  
+The element used for solid meshing is 10 Node Solid 187 Tetrahedral Element. The special features of this element are 
+Plasticity, Creep, Swelling, Stress stiffening, Large deflection, Large strain, Birth and death. 
+ 
+MPC184 
+ 
+Multipoint Constraint Elements: Rigid Link, Rigid Beam, Slider, Spherical, Revolute, Universal MPC184 comprises a 
+general class of multipoint constraint elements that implement kinematic constraints using Lagrange multipliers. The 
+elements are loosely classified here as “constraint elements” and “joint elements”. All of these elements are used in 
+situations that require you to impose some kind of constraint to meet certain requirements. The constraint may be as 
+simple as that of identical displacements at a joint. They can also be more complicated, such as those that involve rigid 
+modeling of parts, or kinematic constraints that transmit motion between flexible bodies in a particular way. For example, 
+a structure may consist of some rigid parts and some moving parts connected together by some rotational or sliding 
+connections. The rigid part of the structure may be modeled using the MPC184 Link/Beam elements, while the moving 
+parts may be connected with the MPC184 slider, spherical, revolute, or universal joint element. Since these elements are 
+implemented using Lagrange multipliers, the constraint forces and moments are available for output purposes. This 
+element is used to define the connectivity between the point of application of force and the nodded on the surface of the 
+structural member. 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 25  
+Research Publish Journals 
+ 
+ 
+ 
+Fig 2. Meshed model of crankshaft 
+ 
+ 
+Fig 3. Enlarge view of dense meshed model 
+ 
+IV. EXPERIMENTAL SETUP FOR NATURAL FREQUENCY 
+ 
+The FFT analyzer used is dual channel FFT (Fig.4) analyzer 2900 B from Larson & Davis Company Ltd. It is full 
+function, yet portable, time/frequency signal analyzer. In this experimental analysis, we hang the crankshaft at its C.G. 
+and excitation is given by hammer. Then we get results from FFT, which are given in table 2.   
+ 
+ 
+ 
+Fig. 4. Experimental setup 
+ 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 26  
+Research Publish Journals 
+ 
+ 
+Fig. 5 Frequency Vs Magnitude by Normal Function 
+ 
+From below table we see that Ansys results are agree with the experimental results. So our software results are accurate 
+and these results are used for further analysis. 
+ 
+Table I. Comparison for Crankshaft and Pulley 
+ 
+Mode 
+ANSYS 
+Results 
+FFT 
+Results 
+% Error 
+7 
+337.4001 
+306.25 
+7 % 
+8 
+452.6897 
+418.75 
+7.5 % 
+9 
+757.2222 
+687.50 
+8 % 
+10 
+972.9449 
+918.75 
+4 % 
+11 
+998.1289 
+1100.00 
+9 % 
+ 
+ 
+ 
+V. TORSION AND BENDING MODE ANALYSIS 
+Keeping in mind the different mode of vibration as discussed in chapter no 2; we are interested in the study of the 
+following systems. The effect of different assembled components on the crankshaft mode shape and natural frequency is 
+our objective.  
+ 
+Table II. Natural Frequencies from Ansys 
+ 
+Mode No. 
+Frequency 
+Mode 
+7 
+408.8705952033 
+First Bending Mode 
+11 
+ 
+1054.341510378 
+ 
+First Torsion Mode 
+ 
+14 
+ 
+1832.614484473 
+ 
+First Combined Mode 
+ 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 27  
+Research Publish Journals 
+A) 
+Deformation Plot For 1st Bending Mode of Only Crank Shaft 
+ 
+Fig 6.  Deformation Plot For 1st Bending Mode of Only Crank Shaft 
+ 
+From above plot we found the maximum deflection is 25.977 mm and minimum deflection is 0.019637 mm. 
+ 
+B) 
+Deformation Plot For 2nd natural frequency Mode of Only Crank Shaft 
+ 
+Fig 7. Deformation Plot For 2nd natural frequency Mode 
+ 
+From above plot we found the maximum deflection is 28.1389 mm and minimum deflection is 0.031618 mm. 
+ 
+C) 
+Deformation Plot For 1st Combined Mode of Only Crank Shaft 
+ 
+Fig 8. Deformation Plot For 1st Combined Mode 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 28  
+Research Publish Journals 
+From above plot we found the maximum deflection is 30.1189 mm and minimum deflection is 0.1338 mm. 
+ 
+Force Application:   We get data about crank angle (Ө) and corresponding pressure from company. Further we calculate 
+the data of crank angle (Ө) and corresponding torque using „C‟ programming language. 
+ 
+Output of C program: Below figure shows output of C program. 
+ 
+ 
+Fig 9.  Torque Vs Theta graph. 
+  
+ANSYS Output table for ft, fr torque from macros: 
+Crank Radius (m)        
+          =   0.0450       Connecting Rod Length (m) =   0.1450 
+Engine Bore Diameter (m)   =   0.0831         Piston Area (m^2)              =   0.0054 
+Engine Speed (rpm)              = 4300.00       Angular Speed (rad/s)         = 450.4762 
+Mass of Reciprocating Parts (kg) =   0.8860 
+ 
+Table for some of the values of output 
+ 
+Table III. Values of output torque 
+ 
+Crank 
+Angle 
+(Degree) 
+Gas 
+Pressure 
+(N/mm^2) 
+Con. 
+rod 
+Force 
+(N) 
+Tangential 
+Force (Ft) 
+(N) 
+Radial 
+Force (Fr) 
+(N) 
+Output 
+Torque 
+(N-m) 
+0 
+0.00000 
+-10601.700 
+0.00000 
+-10601.700 
+0.000 
+5 
+0.00720 
+-10497.469 
+-1197.918 
+-10428.895 
+-53.906 
+10 
+0.01440 
+-10263.893 
+-2325.359 
+-9997.010 
+-104.641 
+15 
+0.02170 
+-9903.354 
+-3324.537 
+-9328.659 
+-149.604 
+20 
+0.02890 
+-9421.864 
+-4145.564 
+-8460.840 
+-186.550 
+25 
+0.03610 
+-8825.778 
+-4748.502 
+-7439.494 
+-213.682 
+ 
+-800
+-600
+-400
+-200
+0
+200
+400
+600
+800
+1000
+1200
+1400
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Torque
+Theta
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 29  
+Research Publish Journals 
+VI. ANALYSIS FOR RADIAL FORCE 
+ 
+We get radial and tangential force values from ANSYS macro. Further we apply these forces on crankshaft and solve it 
+with ANSYS solver. 
+To get the effect of bending forces on the crankshaft, we have applied the radial forces Fr on the crankpin positions and 
+the displacement constraints is applied at the multiple journal bearing positions. The study of maximum stress 
+distributions around the fillet which may be stress concentration region is our objective.  Fig. shows application of radial 
+force. 
+ 
+ 
+ 
+Fig 10. Boundary Conditions For Radial Stress Analysis. 
+ 
+A) Plot For Stress Due To Radial Forces 
+ 
+Fig 11.  Stress Due To Radial Forces 
+From above plot we found the maximum von mises stress value is 19.62 N/mm2 and minimum stress value is 0.19E-4 
+N/mm2. 
+Above figure shows stress concentration at fillet area at flywheel end crankpin position. 
+ 
+VII. ANALYSIS FOR TANGENTIAL FORCE 
+ 
+We get tangential force values from ANSYS, and further we apply these forces on crankshaft. 
+To get the effect of torsional forces on the crankshaft, we have applied the tangential forces Ft on the crankpin positions 
+and the displacement constraints is applied at the end of one side journal bearing positions to see the effect of toque 
+developed by tangential forces at different lobes of crankshaft. The study of maximum stress distributions around the 
+crankpin positions, which may be stress concentration region is our objective.   
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 30  
+Research Publish Journals 
+Following figure shows tangential force application on crankshaft. 
+ 
+ 
+Fig 12.  Application of tangential force. 
+ 
+A) Plot for Stress Due To Tangential Forces 
+ 
+Fig 13. Stress Due To Tangential Forces 
+ 
+From above plot we found the maximum von mises stress value is 20.464 N/mm2 and minimum stress value is 0.19E-4 
+N/mm2 
+VIII. PARAMETRIC OPTIMISATION 
+ 
+To study the effect of different dimensional parameters on stiffness and frequency of the crank shaft. The parametric 
+optimization has been done to increase the frequency it means the higher the frequency higher the stiffness or strength 
+with optimum weight of the component. 
+In Ansys the Optimization begins with building a parametric model of the initial design and creating an analysis file. 
+ 
+ 
+Fig. 14 Steps of optimization in Ansys 
+  
+There are four main steps (assuming that the analysis file is available): 
+1. 
+Identify the analysis file 
+2. 
+Identify optimization variables - DVs, SVs, and objective function 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 31  
+Research Publish Journals 
+3. 
+Run the optimization 
+4. 
+Review results 
+ 
+       The APDL programme has generated for input and parametric model and for optimisation solution steps 
+/PREP7  
+!Generate Volume1 
+D1=35 !Parameter1 
+D2=16 !Parameter2 
+L1=55 !Parameter3 
+L2=52 !Parameter4 
+C1=1.5 
+K,1,0,D2/2,, 
+K,2,0,D1/2-C1,, 
+K,3,C1,D1/2,,   
+K,4,L1,D1/2,,  
+K,5,L1,0,, 
+K,6,L2,0,, 
+K,7,L2,D2/2,,    
+L,1,2 
+L,2,3 
+! 
+! 
+/solu 
+! 
+/post1 
+! 
+! 
+!!!!!!!!!!!!!!!!! The Programme for optimization solution!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+/INPUT,'macro2','txt', 
+/OPT 
+SAVE 
+OPANL,'macro2','txt',' ' 
+OPVAR,D1,DV,30,37, ,    
+OPVAR,D2,DV,12,17, ,   
+OPVAR,D4,DV,40,60, ,   
+OPVAR,L4,DV,20,24, ,   
+OPVAR,FREQ1,SV,0,350, , 
+OPVAR,FREQ2,SV,0,550, , 
+OPVAR,DFREQ,OBJ, , , ,   
+OPDATA, , ,  
+OPLOOP,TOP,IGNO,SCAL 
+OPPRNT,OFF   
+OPKEEP,ON    
+OPTYPE,SUBP  
+OPSUBP,5,3, 
+OPEQN,0,0,0,0,0, 
+OPEXE    
+! REVIEW RESULTS 
+oplist                        ! List all design sets 
+plvaropt,D1,DFREQ    ! Graph angles vs. set number 
+plvaropt,D1                 ! Graph mid x-loc vs. set number 
+plvaropt,D2                ! Graph mid y-loc vs. set number 
+plvaropt,FREQ1                 ! Graph max hoop stress vs. set number 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 32  
+Research Publish Journals 
+plvaropt,FREQ2                ! Graph frequency vs. set number 
+plvaropt,D1,D2,FREQ1,FREQ2,D4,L4,DFREQ                 ! Graph total volume 
+ 
+Finish 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 15 Parametric model generated by APDL programme 
+ 
+ 
+ 
+ 
+Fig. 16 List of the best feasible optimization set 
+ 
+ 
+ 
+Fig. 17 The parameters variation with optimization 
+ 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 33  
+Research Publish Journals 
+The below is the optimum mass and volume after the parametric optimization 
+ 
+ 
+Fig 18. Optimum mass and volumez 
+ 
+The best feasible set is set number 6 which indicates the best optimum dimensions i.e. D1, D2, D4 and L4. The Figure 11 
+indicates there is not much effect of dimension D1 on frequency. 
+ 
+ 
+IX.  DICUSSION AND CONCLUSION 
+ 
+ 
+1. Experimental validation of crankshaft is done using FFT analyser. The values of FFT output and Modal frequency 
+calculated from ANSYS and Hypermesh validates the results as both are matching. 
+2. The mode shape calculation of different systems of component is done using modal analysis. The effect of flywheel 
+and pulley shows the natural frequency is decreasing due to additional masses at the end of crankshaft. 
+3. The bending mode, torsion mode and combined mode frequency values calculated by Ansys shows the actual 
+working condition deformation during high speed rotation rpm value of crankshaft. 
+4. As the stress concentration area for radial forces is fillet and for tangential force it is crankpin positions. Both the 
+stresses plot study shows the critical stress region. 
+5. We conclude our results and discussion by viewing displacement plot for different mode shapes that the natural 
+frequency is affected or decreased due to the addition of pulley and flywheel. So the resonance condition is more 
+critical for the combined assembly. The Vonmises stress plot concludes that during maximum rpm or maximum 
+torque condition failure will take place near the fillet area. 
+ 
+X.  FUTURE SCOPE 
+ 
+1. As we calculated an, and bn values, further it is possible to do harmonic analysis and optimize the crankshaft again for 
+dynamic conditions. 
+2. It is prove that the meshed model and simulated boundary conditions are accurate hence mashed model can be used for 
+type of other analysis like thermal loading, fatigue analysis, mechanism analysis etc. 
+3. Variation of cylinder pressure as a function of engine rpm can be included and their effect on     the induced stresses can 
+be studied. 
+ACKNOWLEDGEMENT 
+ 
+We are very thankful to our guide Prof. K.K.Bhabhor and  to great technical guideline from Mr. Suresh Manvar and HOD 
+for providing all encouragement. 
+ 
+ 
+International Journal of Thesis Projects and Dissertations (IJTPD) 
+Vol. 2, Issue 2, PP: (22-34), Month: April - June 2014, Available At: www.researchpublish.com 
+ 
+Page | 34  
+Research Publish Journals 
+REFERENCES 
+1. Rinkle Garg, Sunil Baghla, Research Scholar, Assistant Professor, “Finite Element    Analysis and Optimization 
+of Crankshaft Design” International Journal of Engineering and Management Research, Vol.-2, Issue-6, 
+December 2012. 
+2. H. Bayrakc¸eken, S. Tasgetiren, F. Aksoy. Afyon Kocatepe University, Technical Education Faculty, Afyon, 
+Turkey. “Failures of single cylinder diesel engines crank shafts” 19 May 2006. www.sciencedirect.com 
+3. Jian Meng, Yongqi Liu, Ruixiang Liu, School of Traffic and Vehicle Engineering Shandong University of 
+Technology, Zibo, Shandong, China. “Finite Element Analysis of 4-Cylinder Diesel Crankshaft” August 2011. 
+www.mecs-press.org 
+4. R.K. Pandey, Department of Applied Mechanics, Indian Institute of Technology, New Delhi, 110016, India. 
+“Failure of diesel-engine crankshafts” 18 September 2002. www.sciencedirect.com 
+5. Silva, F.S., 16 January 2003, “Analysis of a vehicle crankshaft failure” Engineering Failure Analysis 10 (2003) 
+605–616. 
+6. Jaimin Brahmbhatt, Prof. Abhishek choubey. “Design and analysis of crankshaft for single Cylinder 4-stroke 
+diesel engine” International Journal of Advanced Engineering Research and Studies E-ISSN2249–8974 
+7. Rajesh M.Metkara*, Vivek K.Sunnapwarb, Subhash Deo Hiwasec, Vidya Sagar Ankid, Mahendra Dumpae, 
+Procedia Engineering 51 ( 2013 ) 567 – 572, “Evaluation of FEM based    fracture mechanics technique to 
+estimate life of an automotive forged steel crankshaft of a single cylinder diesel engine”. www.sciencedirect.com  
+8. R. J. Deshbhratar, Y. R. Suple, “Analysis and optimization of crankshaft using FEM” International Journal of 
+Modern Engineering Research (IJMER), Vol. 2, Issue. 5, Sep.-Oct. 2012 pp-3086-3088, www.ijmer.com 
+9. K. Thriveni, Dr.B.Jaya Chandraiah, “Modeling and Analysis of the Crankshaft Using Ansys Software” 
+International Journal of Computational Engineering Research, Vol, 03, Issue, 5. 
+10.  Osman Asi, “Failure analysis of a crankshaft made from ductile cast iron”,   Engineering Failure Analysis 13 
+(2006) 1260–1267, 7 February 2006, www.sciencedirect.com. 

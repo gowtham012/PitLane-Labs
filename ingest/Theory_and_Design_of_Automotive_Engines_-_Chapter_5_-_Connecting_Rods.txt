@@ -1,0 +1,3067 @@
+1
+Visveswaraya Technological University. 
+S.J.M.  Institute  of Technology. Chitradurga – 577502   Karnataka. 
+Department of Automobile Engineering 
+ 
+Subject: Theory and Design of Automotive Engines 
+ [Sub Code - AU51] 
+V – Semester, Automobile Engineering 
+ 
+Syllabus Covered: 
+ 
+1 Connecting rod – design, effects of whipping, bearing materials, lubrication 
+ 
+Govindaraju.H.K., 
+Assistant Professor and Head, 
+Department of Automobile Engineering, 
+SJM Institute of Technology, 
+Chitradurga -577502. 
+ 
+2
+CONNECTING RODS
+Definition: A Connecting rod is the link between the reciprocating piston and 
+rotating crank shaft. Small end of the connecting rod is connected to the piston by 
+means of gudgeon pin. The big end of the connecting rod is connected to the 
+crankshaft. 
+Function: The function of the connecting rod is to convert the reciprocating motion 
+of the piston into the rotary motion of the crankshaft.  
+Materials: The connecting rods are usually forged out of the open hearth steel or 
+sometimes even nickel steel or vanadium steel. For low to medium capacity high 
+speed engines, these are often made of duraluminium or other alluminium alloys. 
+However, with the progress of technology, the connecting rods these days are also 
+cast from malleable or spheroidal graphite cast iron. The different connecting rod 
+steels are (4OC8, 37Mn6, 35Mn6 MO3, 35Mn6 Mo4, 40Cr4, 40Cr4 Mo3, 
+40NiCr4MO2) etc. 
+In general, forged connecting rods are compact and light weight which is an 
+advantage from inertia view point, whereas cast connecting rods are comparatively 
+cheaper, but on account of lesser strength their use limited to small and medium 
+size petrol engines. 
+Construction: A typical connecting rod is shown in fig1. A combination of axial 
+and bending stresses act on the rod in operation. The axial stresses are product 
+due to cylinder gas pressure and the inertia force arising on account of 
+reciprocating motion. Where as bending stresses are caused due to the centrifugal 
+effects. To provide the maximum rigidity with minimum weight, the cross section of 
+the connecting rod is made as and I – section end of the rod is a solid eye or a split 
+eye this end holding the piston pin. The big end works on the crank pin and is 
+always split. In some connecting rods, a hole is drilled between two ends for 
+carrying lubricating oil from the big end to the small end for lubrication of piston 
+and the piston pin. 
+ 
+3
+Classification: The classification of connecting rod is made by the cross sectional 
+point of view i.e. I – section, H – section, Tabular section, Circular section. 
+In low speed engines, the section of the rod is circular, with flattened sides. 
+In high speed engines either an H – section or Tabular section is used because of 
+their lightness. The rod usually tapers slightly from the big end to the small end. 
+ 
+4
+Forces acting on the Connecting Rod: 
+1. The combined effect (or joint effect) of,  
+ 
+a) The pressure on the piston, combined with the inertia of the 
+ 
+reciprocating parts. 
+ 
+b) The friction of the piston rings, piston, piston rod and the cross head. 
+2. The longitudinal component of the inertia of the rod. 
+3. The transverse component of the inertia of the rod. 
+ 4. The friction of the two end bearings. 
+Design of Connecting Rod: 
+In designing a connecting rod the following dimensions are required to be 
+determined. 
+1. Dimension of cross section of connecting rod 
+2. Dimension of the crank pin at the big end and the piston pin at the small 
+end. 
+3. Size of the bolts for securing the big end cap and  
+4. Thickness of the big end cap. 
+ 
+According to Rankine’s – Gordon formula, 
+ 
+F about x-axis 
+
+
+
+
+
+
++
+=
+xx
+c
+K
+l
+a
+A
+f
+1
+Let, 
+ 
+A = C/s area of connecting rod, L = Length of connecting rod 
+ 
+fc = Compressive yield stress, F = Buckling load  
+ 
+Ixx and Iyy = Radius of gyration of the section about x – x and y – y axis  
+ 
+respectively 
+ 
+and Kxx and Kyy = Radius of gyration of the section about x – x and y – y  
+ 
+axis respectively. 
+ 
+5
+for both ends hinged or free, l = 1l data from Pg. 5, Eq. 1.29 
+ 
+F about y-axis 
+
+
+
+
+
+
++
+=
+yy
+c
+K
+l
+a
+A
+f
+1
+for both ends fixed, l = 2
+l data from Pg. 5, Eq. 1.29 
+In order to have a connecting rod equally strong in buckling about both the axes, 
+the buckling loads must be equal,  
+ie.       
+2
+2
+2
+1
+1
+
+
+
+
+
+
++
+=
+
+
+
+
+
+
++
+yy
+c
+xx
+c
+K
+l
+a
+A
+f
+K
+l
+a
+A
+f
+or        
+2
+2
+2
+
+
+
+
+
+
+=
+
+
+
+
+
+
+yy
+xx
+K
+l
+K
+l
+2
+2
+4
+yy
+xx
+K
+K
+=
+∴
+Or 
+yy
+xx
+I
+I
+4
+=
+6
+Design a connecting rod for a semi diesel engine with the following data. 
+Diameter of the piston = 88 mm 
+Weight of the reciprocating parts = 1.6 Kg 
+Length of the connecting rod = 30 cm = 300 mm (center to center) 
+Stroke = 125 mm 
+RPM = 2200 when developing 70 HP i.e. 52.2 KW 
+ 
+= 3000 is possible over speed  
+Compression ratio = 6.8:1 
+Probable maximum explosion pressure = 35 Kgf/cm2 = 3.44 N/mm2
+1. Cross section of the Connecting Rod: 
+Since in all high speed engines connected rods, 
+i. 
+Lightness is essential in order to keep the inertia forces as small as 
+possible and 
+ii. 
+Ample strength is required to withstand the momentary high gas 
+pressure in the cylinder. 
+Therefore, the I – section is generally found most suitable for this type of 
+connecting rod. 
+The connecting rod is under alternating tension and compression and since 
+compression corresponds to the power and compression strokes, the compressive 
+stress is much greater numerically than the tensile stress. The connecting rod is 
+therefore, designed mainly as a strut. The inertia force due to change of motion of 
+the reciprocating parts will be considered and checked later. 
+In the plane of motion of the connecting rod, the ends are direction free at the 
+crank and the gudgeon pins, and the strut is therefore, Hinged for buckling about 
+“neutral axis” (x-x Axis) 
+In the plane perpendicular to the motion plane (NA), (i.e. y-y axis) when buckling 
+tends to occur about y – y axis, the strut has almost fixed ends due to the 
+constraining effect of the bearing at crank and gudgeon pins. 
+For buckling about y – y axis, 
+7
+The connecting is therefore 4 times as strong about y – y for buckling as for, the 
+buckling about x – x due to constraining effect of the fixed ends. 
+i.e. 4 
+xx
+yy
+I
+I
+=
+The result is a convincing evidence of the suitability of I – section. 
+It can be noticed that, a circular section connecting rod, is un-necessarily strong for 
+buckling about the y – y axis. 
+The proportions given in the figure are assumed for the section as representing a 
+typical connecting rod. It is needed to check the relationship of the equation ------ 1. 
+Area A = (4t2+4t2)+ 3t2 = 11t2
+(
+)
+3
+3
+12
+1
+bd
+BD
+I xx
+−
+=
+=
+( )
+( )
+(
+)
+3
+3
+3
+3
+5
+4
+12
+1
+t
+t
+t
+t
+−
+= 10.91 t4
+2.3
+=
+∴
+yy
+xx
+I
+I
+approx. 
+So, in the case of this section (assumed section) proportions shown above will be 
+satisfactory. 
+ 
+8
+(Problem No.1) 
+Design a connecting rod for a petrol engine for the following data, 
+Diameter of the piston (d)= 110 mm, length of the connecting rod(2L) = 325 mm 
+Stroke length(L) = 150 mm, Speed (n) = 1500 rpm, Over speed = 2500 rpm 
+compression ratio = 4 : 1, Maximum explosion pressure = 2.5 MPa. 
+Solution: 
+Step 1. Dimensions of cross section of the connecting rod:  
+Let us consider an I – section of the connecting rod as shown in figure, with the 
+following proportions, so that the connecting rod to be equally resistant to buckling 
+in either plane, the relation between moment of inertia must be,  
+.
+4
+yy
+xx
+I
+I
+=
+From pg. 431, 
+Moment of inertia of the I – cross section abut x-x is given by, 
+Ixx = 
+(
+)
+( )
+( )
+(
+)
+4
+3
+3
+3
+3
+91
+.
+34
+3
+3
+5
+4
+12
+1
+12
+1
+t
+t
+t
+t
+t
+bd
+BD
+=
+−
+=
+−
+Moment of inertia of the I – cross section about yy is given by, 
+(
+)
+( )
+( )
+(
+)
+4
+3
+3
+3
+3
+91
+.
+10
+3
+4
+2
+12
+1
+12
+1
+t
+t
+t
+t
+t
+Bd
+bD
+I yy
+=
++
+=
+−
+=
+9
+∴Ratio of Ixx to Iyy i.e. 
+2.3
+91
+.
+10
+91
+.
+34
+4
+4
+=
+=
+t
+t
+I
+I
+yy
+xx
+ 
+∴The section chosen is quite satisfactory 
+Area of cross section (A) 
+ 
+A = (5t x 4t) – (3t x 3t) = 11 t2
+Radius of gyration Kxx (K) is given by, 
+A
+I
+K =
+2
+4
+11
+19
+.
+34
+t
+t
+=
+= 1.78 t 
+w.k.t. 
+ 
+Stroke length = L = 150 mm 
+∴crank radius 
+mm
+L
+ston
+storkeofpi
+r
+75
+2
+150
+2
+2
+=
+=
+=
+=
+33
+.4
+75
+325
+1
+=
+=
+=
+=
+s
+crankradiu
+d
+nnectingro
+lengthofco
+r
+l
+n
+w = angular speed 
+1.
+157
+60
+1500
+2
+60
+2
+=
+=
+=
+π
+πN
+rad / sec. 
+Step 2. Inertia force of Reciprocating Parts (F) :
+1
+2
+2
+1000
+n
+Cos
+Cos
+gr
+WrV
+F
+θ
+θ ±
+=
+…………………… 19.8 (a), 370 
+ 
+Wr = mg = Weight of reciprocating parts………… N 
+ 
+= 2 x 9.81 = 19.62 N 
+ 
+r = Crank radius = 75 mm 
+ 
+θ = Crank angle from the dead center 
+ 
+= 0 considering that connecting rod is at the TDC position 
+ 
+n1 = 4.33 
+ 
+g = Acceleration due to gravity = 9.81 m/s2
+V = Crank velocity m/s 
+ 
+= rw = 75 x 10-3 x 157.1 
+ 
+= 11.78 m/s 
+Substituting, 
+10
+(
+)
+
+
+
+
+
+
++
+×
+×
+×
+=
+33
+.4
+20
+0
+75
+81
+.9
+78
+.
+11
+62
+.
+19
+1000
+2
+Cos
+Cos
+F
+= 4555 N 
+Step 3: Total force on the connecting rod :
+F
+F
+F
+F
+Fc
+p
+j
+p
+−
+=
+−
+=
+= 23.76 x 103 – 4555 
+ 
+= 19205 N 
+Step 4: To find the thickness of the connecting rod flange and web:
+By using Rankine’s – Gordan formula, The stress due to axial load, 
+2
+1
+
+
+
+
+
+
++
+=
+=
+k
+l
+K
+fc
+A
+Fc
+fcr
+……………………Eq. 19.5  Pg. 369 
+ 
+2
+1
+
+
+
+
+
+
++
+=
+∴
+k
+l
+K
+fcA
+Fc
+ 
+Fc = Total force on the connecting rod i.e. axial load on the rod 
+ 
+= 19205 N 
+ 
+K = Constant 
+ 
+25000
+4
+=
+for steel rod, pin connected at both ends, so that the  
+ 
+rod is free to bend in any plane. 
+ 
+A = Area of cross section  
+ 
+= 11 t2
+l = Length of connecting rod  
+ 
+= 325 mm 
+ 
+k = Radius of gyration about x – x axis 
+ 
+= 1.78 t 
+ 
+fc = Allowable unit stress for designing n/mm2
+FOS
+stress
+Yieldpoint
+=
+Assume FOS = 4 
+ 
+= 378/4 
+             Yield point stress, from T – 19.1 Pg. 371 
+11
+= 94.5 MPa 
+378 MPa 
+Substituting,  
+ 
+2
+2
+78
+.1
+325
+25000
+4
+1
+11
+5.
+94
+
+
+
+
+
+
+
+
+
+
+
++
+×
+=
+t
+t
+Fc
+ 
+19205 = 
+34
+.5
+5.
+39
+.1
+2
+4
++
+t
+t
+7.
+102554
+19205
+1040
+2
+4
++
+=
+∴
+t
+t
+==>
+0
+7.
+102554
+19205
+1040
+2
+4
+=
+−
+−
+t
+t
+(
+)
+(
+)
+1040
+2
+7.
+102554
+1040
+4
+19205
+19205
+2
+2
+×
+×
+×
++
++
+=
+t
+=> 
+8.
+22
+2 =
+t
+775
+.4
+=
+∴t
+Say 5 mm 
+Take t = 10 mm 
+Note the dimensions, width = 4t = 40 mm 
+ 
+Depth = 5t = 5o mm 
+ 
+Flange and web thickness = t = 10 mm 
+Step 5: Design of small end: 
+We know that,  
+Load on the piston pin or small end bearing (Fp) = Projected area x Bearing 
+pressure 
+bp
+P
+dplp
+Fp
+×
+=
+∴
+Fp = 23760 N force or load on the piston pin, dp = Diameter of piston pin  
+Pbp = Bearing pressure ……………. From Pg. 362 
+ 
+= 12.4 for gas engines. 
+ 
+= 15.0 for oil engines. 
+ 
+= 15.7 for automotive engines. 
+We assume  
+Pbp = 10 MPa 
+lp = length of piston pin 
+ 
+= 1.5 dp ……… from Pg. 362 
+12
+Substituting, 
+23760 = 1.5 dp . dp x 10 
+mm
+d p
+40
+79
+.
+39
+≅
+=
+∴
+mm
+d
+l
+p
+p
+60
+5.1
+=
+=
+∴
+Step6: Design of Big end: 
+w.k.t 
+load on the crankpin or big end bearing (Fp) 
+ 
+= Projected Area x Bearing pressure 
+bc
+c
+c
+p
+P
+l
+d
+F =
+∴
+Fp = 23760 N forces or load on the piston pin 
+dc = diameter of crankpin 
+lc = length of crankpin 
+ = 1.25 dc
+Pbc = 7.5 MPa Assume 
+Substituting, 
+23760 = 1.25 dc dc 7.5 
+mm
+l
+mm
+d
+c
+c
+5.
+62
+50
+=
+=
+∴
+Step 7: Design of Big end Bolts: 
+w.k.t., 
+ 
+Force on the bolts = 
+(
+)
+b
+t
+cb
+n
+d
+×
+×σ
+π
+2
+4
+dcb = Core diameter of the bolts 
+=
+t
+σ
+Allowable tensile stress for the material of bolts 
+ 
+= 12 MPa assume 
+nb = Number of bolts usually 2 bolts are used 
+(
+)
+2
+2
+12
+4
+cb
+d
+×
+×
+×
+= π
+= 18.85 dcb
+2
+Also, 
+13
+The bolts and the big end cap are subjected to a tensile force which corresponds 
+to the inertia force of the reciprocating parts at the TDC on the exhaust stroke. 
+We Know that inertia force on the reciprocating parts 
+
+
+
+
+
+
+±
+=
+1
+2
+2
+1000
+n
+Cos
+Cos
+gr
+WrV
+F
+θ
+θ
+As calculated earlier 
+F = 4555 N 
+Equating the Inertia force, to the force on the bolts, 
+4555 = 18.85 dcb
+2
+mm
+dcb
+55
+.
+15
+=
+∴
+∴Normal diameter of the bolts (dcb)
+mm
+say
+mm
+d
+d
+cb
+cb
+20
+50
+.
+18
+84
+.0
+≅
+=
+=
+∴use M20 sized bolts 
+Step 8: Design of Big end cap: 
+ 
+The big end cap is designed as a beam freely supported at the cap bolt 
+centers and loaded by the inertia force at the TDC on the exhaust stroke (Fj at 
+θ=0)  
+Since load is assumed to act in between the UDL (Uniformly distributed load) and 
+the centrally concentrated load, 
+∴Maximum Bending moment is taken as, 
+6
+max
+ol
+Fi
+M
+×
+=
+Fi = Magnitude of Inertia force  
+ 
+= 4555 N 
+lo = Distance between bolt centers. 
+ = Dia of crank pin or Big end bearing + Nominal dia of bolt  
+ 
++ (2 x thickness of bearing liner) + Clearance  
+ = dc + db + (2 x (0.05 dc + 1)) + 3 
+ = 80 mm 
+14
+Substituting, 
+Mmax = 
+6
+80
+4555×
+= 60734 N-mm 
+Section modulus for the cap, 
+Z =
+6
+2
+bh  
+Z = Section modulus 
+b = width of the big end cap 
+ 
+it is taken equal to the length of the crankpin or Big end bearing (lc)
+lc = b = 62.5 mm 
+Substituting,   
+h = thickness of big end cap 
+=
+6
+5.
+62
+2
+h
+×
+= 10.42 h2
+We know that bearing stress 
+Z
+M
+b
+max
+=
+σ
+b
+σ = Allowable bending stress for the material of the cap 
+ 
+= 120 MPa Assume 
+Substituting, 
+120 = 
+2
+42
+.
+10
+60734
+h
+97
+.6
+=
+∴h
+say 7 mm 
+Step 9: Check for stresses: 
+The magnitude of Inertia force (Fi)
+g
+l
+r
+w
+A
+W
+Fi
+2
+10 2
+2
+−
+×
+×
+×
+×
+×
+=
+W = Weight density per unit volume of the rod N/m3
+= 7800 x 9.81 N/m3
+assume 
+15
+r = Crank radius = 75 mm 
+l = length of connecting rod = 325 mm 
+A = Area of cross section (I – section) 
+w = Angular speed = 157.1 rad / sec 
+g = Acceleration due to gravity = 9.81 m/sec2
+Substituting, 
+(
+)
+81
+.9
+2
+10
+325
+75
+1.
+157
+1100
+81
+.9
+7800
+12
+2
+×
+×
+×
+×
+×
+×
+×
+=
+−
+iF
+Fi = 2580.8 N 
+The max. bending moment (Mmax)
+3
+9
+max
+l
+ZF
+M
+i
+=
+=
+3
+9
+325
+8.
+2580
+2
+×
+×
+= 107612.95 N-mm 
+The maximum Inertia bending stress or whipping stress (
+b
+σ )
+Z
+M
+b
+max
+=
+σ
+From Eq. 19.3 Pg. 369 
+Z
+l
+w
+A
+r
+n
+b
+2
+2
+12
+10
+2854
+.0
+×
+×
+×
+×
+×
+×
+=
+−
+σ
+Z = I/y 
+I = 34.91 t4 = 34.91 x 104 mm4
+y = D/2 = 50/2 = 25 mm 
+n = rev/sec = Speed of crank = 2200/60 = 36.67 r/sec 
+Substitute, 
+(
+)
+25
+/
+10
+91
+.
+34
+325
+81
+.9
+7800
+1100
+75
+67
+.
+36
+10
+2854
+.0
+4
+2
+2
+12
+×
+×
+×
+×
+×
+×
+×
+×
+=
+−
+b
+σ
+= 18.32 MPa 
+Which is Safe 
+Maximum compressive stress in the connecting rod, 
+i.e.  
+= Stress due to axial load + The max. Inertia bending stress or whipping  
+ 
+stress 
+16
+= fcr + 
+b
+σ
+b
+A
+Fc
+σ
++
+=
+=
+32
+.
+18
+1100
+19205 +
+= 35.78 MPa  
+Which is safe 
+(Problem 2) 
+ Design the connecting rod of a steam engine to the following data 
+Length of the connecting rod = 825 mm, Dia of the crankpin = 155 mm 
+Dia of the cross head pin = 95 mm, Maximum load on the pin = 15160 Kg = 
+148720 N, The rod is to be made of circular cross section and made hallow by 
+boring a central hole of 28 mm dia, throughout the length. 
+Calculations should be made for, 
+1. 
+External dia at the centre  
+2. 
+Length of the cross head pin 
+3. 
+Diameter of the big end bolts 
+4. 
+Length of the crankpin 
+5. 
+Width and thickness of the cap 
+1. Calculation of External dia at the center. 
+Let us assume that, at the middle of the connecting rod, 
+ 
+D = Outside dia = ? 
+ 
+d = Inside dia = 28 mm 
+∴cross section area 
+[
+]
+2
+2
+4
+d
+D
+A
+−
+= π
+MOI  
+[
+]
+4
+4
+4
+d
+D
+I xx
+−
+= π
+Kxx = Radius of Gyration = 
+A
+I xx  = 
+(
+)(
+)
+(
+)
+2
+2
+2
+2
+2
+2
+64
+4
+d
+D
+d
+D
+d
+D
+−
+×
++
+−
+×
+π
+π
+=
+(
+)
+2
+2
+4
+1
+d
+D +
+By using Rankine – Gordon formula, 
+Eq. 19.5, Pg. 369 
+17
+Crippling load i.e. Axial load on the rod due to steam or gas pressure 
+2
+1
+
+
+
+
+
+
++
+=
+k
+l
+K
+A
+f
+F
+c
+c
+fc = Yield point stress / FOS 
+ Yield point stress = 324 MPa  
+ = 324 / 7 
+ 
+ 
+for forged M.S rod connecting rod material 
+ = 46.3 MPa  
+Assume FOS as 7 
+K = 7500
+1
+for M.S when both ends are rounded 
+=
+c
+F
+148720 N 
+k =
+4
+2
+2
+d
+D +
+l = length of the connecting rod = 825 mm 
+A =
+(
+)
+4
+2
+2
+d
+D −
+π
+Substituting in Rankine – Gordon equation 
+148720 = 
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1452
+1
+4.
+36
+16
+825
+7500
+1
+1
+7854
+.0
+3.
+46
+d
+D
+d
+D
+d
+D
+d
+D
++
++
+−
+=
+
+
+
+
+
+
++
+×
++
+−
+×
+148720 = 
+(
+)
+(
+)
+(
+)
+(
+)
+(
+) 1452
+4.
+36
+1452
+4.
+36
+2
+2
+4
+4
+2
+2
+2
+2
+2
+2
++
++
+−
+=
++
++
++
+−
+d
+D
+d
+D
+d
+D
+d
+D
+d
+D
+148720 D2 + 148720 d2 + 215.94x106 = 36.4 D4 – 36.4 d4
+Substitute, D2 = C, 
+148720 C + 148720 x (28)2 + 215.94x106 = 36.4 C2 – 36.4 x (28)4
+148720 C + 116.6 x 106 + 215.94x106 = 36.4 C2 – 223.74 x 106
+36.4C2 – 148720 C – 223.74 x106 – 116.6 x 106 – 215.94 x 106 = 0
+36.4 C2 – 148720 C – 556.3 x 106 = 0
+(
+)
+4.
+36
+2
+)
+10
+3.
+556
+)(
+4.
+36
+(
+4
+148720
+148720
+.2
+4
+6
+2
+2
+×
+×
++
++
+=
+−
++
+−
+=
+a
+ac
+b
+b
+x
+18
+8.
+72
+10
+84
+.
+469
+8.
+72
+10
+115
+.
+321
+148720
+3
+3
+×
+=
+×
++
+=
+C = 6454 
+∴D =
+6454  
+=
+mm
+33
+.
+80
+s
+2. Calculation for length of the cross head pin (Gudgeon pin) 
+W.K.T, force on the piston (Fp) = lp dp Pbpin 
+Fp = 148720 N 
+dp = 95 mm 
+Pb = 8.25 MPa 
+Assume 
+mm
+l p
+190
+25
+.8
+95
+148720 =
+×
+=
+∴
+3. Calculation for length of the crank pin 
+W.K.T., Force on the piston (Fp) = lc dc Pb crank 
+Fp = 148720 N 
+dc = 155 mm 
+Pb = 6.2 MPa     Assume 
+ 
+mm
+lc
+155
+2.6
+155
+148720 =
+×
+=
+∴
+4. Diameter of Big end Bolts : 
+As the bearing length of the big end is 155 mm, 
+Assuming 4 nos. of bolts, these 4 bolts have to take this load i.e.  
+Fp
+=
+∴
+b
+F
+load on each bolt = 
+N
+37180
+4
+148720 =
+∴Magnitude of load Fb =
+t
+b
+d
+σ
+π
+×
+2
+4
+37180 = 0.7854 x 69 x db
+2
+∴db = 26.2 mm 
+Full dia = 
+mm
+32
+84
+.0
+27 =
+The nearest standard size is 33 mm and may be adopted. 
+19
+5. Calculations for width and thickness of cap 
+The effective width of the cap will be equal to, 
+The length of the big end } – {2 x thickness of the flange of the brass 
+brasses 
+                       
+ 
+length of the big end brasses = 155 mm 
+ 
+Thickness of the flange of the brass = 6 mm 
+143
+)
+6
+2
+(
+155
+=
+×
+−
+=
+b
+mm 
++
++
+=
+b
+c
+o
+d
+d
+l
+(2 x thickness of the liner) 
+ 
+= 155 + 33 + (2 x 6) = 200 mm 
+Mmax = Moment of Resistance = Z x
+b
+σ
+w.k.t.,  
+Mmax = 
+6
+o
+Fil  (Check) 
+6
+6
+2
+2
+bh
+h
+l
+Z
+c
+=
+=
+69
+67
+.
+68
+≅
+=
+b
+σ
+MPa 
+ 
+∴Substituting, 
+69
+6
+143
+6
+200
+148720
+2
+×
+×
+=
+×
+h
+55
+=
+∴h
+mm 
+ 
+(Problem No.3) Determine the maximum stress in the connecting rod of I – 
+section, as shown in fig., due to inertia. The length of the connecting rod is 360 mm 
+and the piston stroke is 180 mm. The speed is 200 rpm. Density of the material of 
+the connecting rod may be taken as 7800 Kg/m3
+Solution: 
+Ans. Cross section Area of I – section, 
+ 
+A = 2 x 6 x 30 + (45 – 12) x 6 
+20
+= 558 mm2
+The maximum inertia bending stress or whipping stress (
+)
+b
+σ
+Z
+l
+w
+A
+r
+n
+b
+2
+2
+12
+10
+2854
+.0
+×
+×
+×
+×
+×
+×
+=
+−
+σ
+n = Speed of crank in rev/sec 
+ = 200/60 = 3.34 rev/s 
+r = Crank radius = 
+90
+2
+180
+2
+=
+=
+th
+Storkeleng
+mm 
+w = 7800 x 9.81 76518 N/m3
+= weight density of rod material 
+l = length of connecting rod  
+ = 360 mm 
+Z = section modulus of mean section in mm3
+=
+(
+)
+2
+45
+2
+1
+3
+3
+bd
+BD
+y
+MoIaboutxx
+y
+I
+−
+=
+=
+=
+[
+]
+5.
+22
+33
+24
+45
+30
+2
+1
+3
+3
+×
+−
+×
+= 6930.6 mm3
+Substituting, 
+6.
+6930
+360
+76518
+558
+90
+34
+.3
+10
+2854
+.0
+2
+2
+12
+×
+×
+×
+×
+×
+×
+=
+−
+b
+σ
+= 0.228 MPa 
+ 
+(Problem No.4) Find the diameter of a connecting rod 250 mm long for a stroke 
+speed diesel engine. Cylinder diameter is 100 cm = 1000 mm and stroke is 125 cm 
+= 1250 mm. Maximum combustion pressure is 4.905 N/mm2, FOS = 20, E = 2.06 x 
+105 N / mm2
+Solution: 
+Max. load on the piston  
+21
+6
+2
+max
+2
+10
+85
+.3
+905
+.4
+1000
+4
+4
+×
+=
+×
+×
+=
+×
+=
+π
+π
+P
+D
+Fp
+N
+We neglect the Inertia effect of the reciprocating mass as for the slow speed 
+engine. 
+ 
+Let ‘d’ be the diameter of the connecting rod. Then by EULER’S FORMULA 
+Eq. 1.29 Pg. 5, 
+2
+2
+l
+EI
+n
+Fcr
+π
+=
+n = Constant = 1 for both ends hinged 
+ 
+E = 2.06 x 105 N/mm2
+I = MOI = 64
+4
+d
+π
+for circular section (Solid) 
+ 
+64
+4
+d
+π
+=
+l = length of connecting rod = 250 mm 
+ 
+20
+10
+85
+.3
+6 ×
+×
+=
+×
+=
+FOS
+F
+F
+p
+cr
+N
+Substituting,  
+3.65 x 106 x 20 = 
+(
+)
+64
+250
+10
+06
+.2
+1
+2
+4
+5
+2
+×
+×
+×
+×
+×
+×
+d
+π
+π
+=
+∴d
+83.33 mm 
+ 
+(Problem No.5.) A reciprocating pump is used to raise the water against a heap of 
+165 Kg. Pump diameter is 450 mm and piston rod is 1400 mm long. Calculate the 
+diameter of the piston rod. Use Rankine constant a=1/7500, FOS = 10, 
+ pressure on the piston = 1.61 N/mm2
+Solution: 
+Load on the piston = 
+(
+)
+06
+.
+256
+61
+.1
+450
+4
+2
+=
+×
+π
+KN 
+Design load = load on the piston x FOS 
+ 
+= 256.06 x 103 x 10 
+ 
+= 2560.6 x 103 N
+22
+From equation, 
+2
+1
+
+
+
+
+
+
++
+×
+=
+k
+l
+K
+A
+f
+F
+c
+4
+2
+d
+A
+π
+=
+2560.6 x 103 =
+
+
+
+
+
+
++
+×
+×
+2
+2
+2
+1400
+7500
+1
+1
+7854
+.0
+73
+.
+323
+d
+d
+d = dia of connecting rod 
+ 
+K = d
+Assume 
+ 
+1 +
+2
+4.
+261
+d
+K = 1/7500 
+2
+2
+2
+3
+4.
+261
+25
+.
+254
+10
+6.
+2560
+d
+d
+d
++
+×
+=
+×
+l = 1400 mm 
+ 
+fc = 323.73 N/mm2
+2560.6 x 103 d2 + 669.34 x 106 = 254.25 d4
+254.25 d4 - 2560.6  x 103 d2 - 669.34 x 106 = 0
+(
+)
+(
+)
+mm
+d
+a
+ac
+b
+b
+d
+61
+.
+201
+10325
+25
+.
+254
+2
+10
+34
+.
+669
+25
+.
+254
+4
+10
+6.
+2560
+10
+6.
+2560
+2
+4
+6
+2
+3
+6
+2
+2
+=
+∴
+=
+×
+×
+×
+×
++
+×
++
+×
+=
+−
++
+−
+=
+(ProblemNo.6) Design a connecting rod for a petrol engine for the following data 
+Diameter (d) = 110 mm, Mass of reciprocating die of piston (M) = 2 Kg     
+Length of connecting rod = 325 mm, Stroke length L = 150 mm, Speed n = 1500 
+rpm, Over speed = 2500 rpm, Connecting rod = 4 : 1, Max. Exp. Pressure = 2.5 
+MPa 
+Solution: 
+1. Stroke length = L = 150 mm 
+2. Crank radius = L/2 = 150/2 = 75 mm 
+3. n = length of connecting rod / crank radius = 325/75 = 4.33 = l/r 
+4. Angular speed = 
+07
+.
+157
+60
+1500
+2
+60
+2
+=
+×
+=
+π
+πN
+23
+Inertia force of reciprocating parts
+
+
+
+
+
+
+±
+×
+1
+2
+2
+100
+n
+Cos
+Cos
+r
+g
+v
+W
+F
+r
+θ
+θ
+19.8 (a) 370 
+W = Mxg = Weight of reciprocating parts 
+v = Crank velocity  m/sec 
+r = crank radius mm 
+θ = Crank angle from the dead center  
+g = 9.81 m/s2
+n1 = l/r 
+v = rw 
+ = 75 x 10-3 x 157.1 = 11.78 m/s 
+take, θ = 0, Considering that connecting rod is at the TDC. 
+∴Inertia force 
+ 
+(
+) (
+)
+(
+)
+N
+Cos
+Cos
+F
+4555
+230
+.1
+49
+.
+3700
+33
+.4
+1
+1
+49
+.
+3700
+33
+.4
+20
+0
+75
+81
+.9
+78
+.
+11
+81
+.9
+2
+1000
+2
+=
+=
+
+
+
+
+
+±
+=
+
+
+
+
+
+
+±
+×
+×
+×
+×
+=
+Force on the piston (Fp)
+Fp = P x A
+= 2.5 x 
+(
+) 
+
+
+
+
+
+×
+2
+110
+4
+π
+= 23758.3 N 
+Total force on the connecting rod :
+FT = FP – Fi = FP – F
+= 23758.3 – 4555  
+ 
+= 19203.3 N 
+ 
+Cross section of the connecting rod :
+In order that connecting rod to be equally resistant to buckling in either plane, the 
+relation between the moment of inertias must be, 
+24
+yy
+xx
+I
+I
+4
+=
+……………19.6 
+Now the cross section satisfying the condition is the I section as shown in fig. 
+b = 4t – t = 3t 
+B = 4t 
+d = 5t – 2t = 3t 
+D = 5t 
+About x – x axis. 
+From Pg.-431, 
+Moment of inertia ‘Ixx’ for the above I – section about x x is given by,  
+(
+)
+3
+3
+12
+1
+bd
+BD
+I xx
+−
+=
+Moment of Inertia ‘Iyy ' for the above I – section about yy is given by, 
+(
+)
+3
+3
+12
+1
+Bd
+bD
+I yy
++
+=
+Substituting the values in Ixx,
+( )
+( )
+(
+)
+(
+) (
+)
+(
+)
+(
+)
+(
+)
+( )
+( )
+(
+)
+(
+)
+4
+4
+4
+4
+3
+3
+4
+4
+3
+3
+3
+3
+91
+.
+10
+12
+131
+3
+128
+12
+1
+3
+4
+2
+12
+1
+91
+.
+34
+81
+500
+12
+1
+27
+3
+125
+4
+12
+1
+3
+3
+5
+4
+12
+1
+t
+t
+t
+t
+t
+t
+t
+t
+I
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+I
+yy
+xx
+=
+=
++
+=
++
+=
+=
+−
+=
+×
+−
+×
+=
+−
+×
+=
+∴Ratio of Ixx  to Iyy 
+=> 
+4
+197
+.3
+91
+.
+10
+19
+.
+34
+4
+4
+≅
+=
+=
+t
+t
+I
+I
+yy
+xx
+ 
+yy
+xx
+I
+I
+4
+≅
+∴
+Area of cross section 
+A = (5t x 4t) – (3t x 3t)  
+ 
+= 20t2 – 9t2
+= 11 t2
+25
+To find ‘t’
+By using Rankine – Gordon formula,  
+The stress due to axial load (Crippling load or buckling load) 
+2
+1
+
+
+
+
+
+
++
+=
+=
+k
+l
+K
+f
+A
+F
+f
+c
+c
+cr
+ Eq. 19.5 Pg. 369 
+K = Constant = 4/25000  for steel rod pin connected at both ends rod is free to  
+ 
+bend in any plane 
+l = length of connecting rod = 325 mm 
+Kxx = radius of gyration  
+A
+I xx
+=
+=
+2
+4
+11
+91
+.
+34
+t
+t
+=
+2
+17
+.3
+t
+Kxx = 1.78t 
+(
+)
+(
+) 
+
+
++
+=
+∴
++
+=
+=
+2
+2
+2
+1
+1
+,
+l
+K
+f
+F
+k
+l
+K
+f
+A
+F
+also
+A
+F
+f
+c
+c
+c
+c
+c
+cr
+ 
+Also fc = Allowable unit stress for designing MN/m2
+= Yield point stress / FOS (assume) = 378/4 
+ 
+= 94.5 MPa 
+Yield point stress from table  
+T 19.1   pg. 371 
+26
+(
+)
+(
+)
+0
+0
+37
+.
+98
+47
+.
+18
+0
+5.
+102253
+3.
+19203
+5.
+1039
+5.
+1039
+1022535
+3.
+19203
+33
+.5
+5.
+1039
+3.
+19203
+33
+.5
+5.
+1039
+33
+.5
+1
+5.
+1039
+3.
+19203
+78
+.1
+325
+25000
+4
+1
+11
+5.
+94
+3.
+19203
+2
+2
+4
+2
+4
+4
+2
+2
+4
+2
+2
+2
+2
+2
+2
+2
+=
++
++
+=
+−
+−
+=
+−
+−
+=
++
++
+=
+
+
+
+
+
+
++
+=
++
+=
+
+
+
+
+
+
++
+×
+=
+c
+bx
+ax
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+w.k.t. 
+roots, i.e. 
+(
+)
+1
+2
+37
+.
+98
+1
+4
+47
+.
+18
+47
+.
+18
+2
+4
+2
+×
+×
+×
++
+±
+=
+−
+±
+−
+=
+a
+ac
+b
+b
+x
+x => 
+(
+)
+38
+.
+19
+38
+.
+19
+2
+37
+.
+98
+1
+4
+47
+.
+18
+47
+.
+18
+2
+=
+∴
+=
+×
+×
+±
+±
+=
+t
+t
+mm
+5
+78
+.4
+≅
+=
+Take t = 10 mm 
+Note the dimensions
+∴width = 4t = 40 mm 
+Depth = 5t = 50 mm 
+Flange and web thickness = 10 mm 
+Area = 11 t2 = 11 x 102 = 1100 mm2
+27
+Check for stresses. 
+From equation 19.1   Pg. 369 
+The magnitude of inertia force (Fi)
+(Max. force in the crank pin) x L/2 
+ 
+i.e. Resultant normal force on the CP 
+ 
+=
+
+
+
+
+
+
+×
+×
+R
+Fmax
+2
+1
+12
+2
+12
+2
+10
+2
+1
+10
+2
+−
+−
+×
+×
+×
+×
+×
+×
+=
+×
+×
+×
+×
+×
+=
+l
+r
+w
+A
+g
+W
+l
+r
+w
+g
+A
+W
+Fi
+=> W = weight per unit volume of rod in N/m3
+= density in Kg/m3
+= 7800 Kg/m3
+Assume 
+ 
+r = Crank radius mm = 75 mm 
+ 
+l = length of connecting rod = 325 mm 
+ A = Area of cross section = 1100 mm2
+w = Angular speed = 157.1 rad/sec 
+ g = Acceleration due to gravity = 9.81 m/s 
+Substituting the values, 
+(
+)
+N
+F
+F
+i
+i
+8.
+2580
+2
+81
+.9
+10
+325
+75
+1.
+157
+1100
+81
+.9
+7800
+12
+2
+=
+×
+×
+×
+×
+×
+×
+×
+=
+−
+From equation 19.2 Pg. 369 
+The max. bending moment (Mmax)
+mm
+N
+l
+F
+M
+i
+−
+=
+×
+×
+=
+×
+=
+95
+.
+107612
+3
+9
+325
+8.
+2580
+2
+3
+9
+2
+max
+ 
+∴The maximum inertia bending stress or whipping stress, (MPa) N/mm2
+Z
+M
+b
+max
+=
+σ
+28
+From equation 19.3, Pg. 369 
+Z
+l
+w
+A
+r
+n
+b
+2
+2
+12
+10
+2854
+.0
+×
+×
+×
+×
+×
+×
+=
+−
+σ
+Equation 
+W.K.T.  
+ 
+y
+I
+Z =
+mm
+t
+depth
+y
+25
+2
+5
+2
+=
+=
+=
+25
+10
+1.
+349
+3
+×
+=
+3
+4
+10
+1.
+349
+91
+.
+34
+×
+=
+=
+=
+t
+I
+I
+xx
+ mm4
+= 13964 mm3
+n = Speed of crank = 
+67
+.
+36
+60
+2200 =
+rev/sec 
+ 
+r = Crank radius = 75 mm 
+A = Area in mm2 = 1100 mm2
+w = density of rod material = 7800 x 9.81 N/m3
+l = length of the rod = 325 mm 
+MPa
+b
+32
+.
+18
+13964
+255894
+13964
+325
+81
+.9
+7800
+1100
+75
+67
+.
+36
+10
+2854
+.0
+2
+2
+12
+=
+=
+×
+×
+×
+×
+×
+×
+×
+=
+−
+σ
+Which is Safe 
+Maximum compressive stress in the connecting rod 
+i.e. = stress due to axial load + The max. Inertia bending stress or whipping 
+ stress 
+ 
+MPa
+MPa
+A
+F
+f
+c
+b
+cr
+78
+.
+35
+32
+.
+18
+1100
+3.
+19203
+32
+.
+18
+=
++
+=
++
+=
++
+=
+σ
+Which is safe. 
+29
+Design of small end
+Force on piston Fp = lp dp Pb
+23758.3 = 1.5 dp x dp x 10  
+ 
+Fp = 23758.3 N 
+∴dp
+2 = 1583.9 
+ 
+ 
+ 
+lp = length of piston pin 
+dp = 39.79 ≅40 mm  
+ 
+ 
+dp = dia of piston pin 
+ 
+Pb = bearing pressure 
+∴lp = 1.5 dp = 60 mm 
+ 
+ 
+ 
+From Pg. 362 
+l1 = K1d
+d = dia of piston pin 
+K1 = 1.5 for petrol and gas ends 
+∴lp = 1.5 dp
+from Pg. 362 
+Pb = 12.4 for gas engine 
+ 
+15.0 for oil engine 
+ 
+15.7 for automotive engine 
+Here we take, 
+Pb = 10 MPa  
+from Pg. 362 
+ 
+Design of Big end 
+Fp = lc dc x Pb
+From Pg. 45 
+Equation 3.17, 
+Pb = 7.5 MPa     assume 
+Also assume, lc = 1.25 dc
+Where,  
+dc = diameter of crank pin 
+lc = length of crank pin 
+Pb = bearing pressure  
+Fp = force on the piston 
+ 
+= 23758.3 N 
+23758.3 = 1.25 dc x dc 7.5 
+30
+∴dc = 50 mm 
+lc = 62.5 mm 
+Design of Big end Bolts
+Magnitude of Inertia force Fi =
+t
+b
+d
+σ
+π
+
+
+
+
+
+
+2
+4
+2
+Fi = 4555 N 
+db = dia of the bolts 
+t
+σ = tension stress assume as 12 MPa  
+As this inertia force is supported by 2 bolts which hold the big end side, 
+∴4555 = 
+12
+4
+2
+2 ×
+×
+×
+b
+d
+π
+mm
+db
+50
+.
+15
+=
+∴
+∴Use M20 sized bolts. 
+Design of big end cap
+6
+max
+o
+il
+F
+M
+=
+Fi = Magnitude inertia force = 4555 N 
+lo = dc + (2 x thickness of liner) + db + Clearance (say 1.5 mm) 
+ 
+= 50+2x(0.05x50+1) + 21.5 
+ 
+= 50 + 7 + 21.5 
+ 
+= 78.5 mm 
+Mmax = 
+5.
+78
+mm 
+59595
+6
+5.
+78
+4555
+max
+=
+×
+=
+M
+N-mm 
+To find Cap thickness
+w.k.t., 
+Z
+M
+b
+max
+=
+σ
+6
+2
+h
+l
+Z
+c ×
+=
+Z = Section modulus 
+lc = length of crankpin = 62.5 mm 
+31
+Assume 
+b
+σ = 120 MPa 
+Substituting,  
+120 = 
+2
+2
+5721
+6
+5.
+62
+59595
+h
+h
+=
+×
+120
+5721
+=
+∴h
+= 6.9 ≅7 mm 
+References
+1. Design Data Hand Book (DDH), K. Mahadevan and Dr. K. Balaveera Reddy   
+ 
+(B.S Publishers and Distributors) 
+2. Machine Design Exercises, S.N Trika, Khanna Publishers. 
+3. High Speed Combustion Engines, P.M. Heldt, Oxford and IBH Publishing Co. 
+4. Automotive Design, R.B. Gupta. 
+5. Automotive engine fundamentals F.E.PeacCock. T.E.Gaston Reston automotive  
+ 
+Series  Pub. 
+32
+33
+34
+35

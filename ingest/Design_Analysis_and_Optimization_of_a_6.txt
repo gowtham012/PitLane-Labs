@@ -1,0 +1,313 @@
+International 
+OPEN      ACCESS                                                                                            Journal 
+Of Modern Engineering Research (IJMER) 
+ 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 30| 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank 
+shaft 
+ 
+  V. Mallikarjuna Reddy1, T. Vijaya Devi 2 
+1M.Tech student, Dept of Mech. Engg, CMR Institute of Technology, Hyderabad, India 
+2 Asst. prof, Dept of Mech. Engg, CMR Institute of Technology, Hyderabad, India 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+I. Introduction 
+Crankshaft  is  one  of  the  most  important moving  parts  in  internal  combustion  engine. 
+Crankshaft  is  a  large  component  with  a  complex geometry  in  the  engine,  which converts  the 
+reciprocating  displacement  of  the  piston  to  a  rotary motion  with  a  four  link  mechanism.  Since the 
+crankshaft experiences a large number of load cycles during its service life, fatigue performance and durability 
+of this component has to be considered in the design process.  Design  developments  have always  been  an  
+important  issue  in  the  crankshaft production  industry,  in  order  to  manufacture  a  less expensive  
+component  with  the  minimum  weight possible  and  proper  fatigue  strength  and  other functional  
+requirements.  These improvements result in lighter and smaller engines with better fuel Efficiency and higher 
+power output. Crankshaft must be strong enough to take the downward force of the power stroke without 
+excessive bending.  So the reliability and life of the internal combustion engine depend on the strength of the 
+crankshaft largely. And as the engine runs, the power impulses hit the crankshaft in one place and then 
+another. This study is  conduct  on  a  six  cylinder  engine  crank  shaft. The modelling of six cylinder engine 
+crankshaft is done by using Unigraphics-NX7.5 software.  The finite  element  analysis  has  been performed  
+on crankshaft  in  order  to  optimize  the  weight  and manufacturing  cost.  The material for crankshaft is 
+Cast Iron. Other alternate materials on which analysis has been done are, Forged steel, high carbon steel. 
+ 
+II. Literature Review 
+Solanki et al. [1] presented literature review on crankshaft design and optimization.  The materials, 
+manufacturing process, failure analysis, design consideration etc. were reviewed.  The  design  of  the 
+crankshaft  considers  the  dynamic  loading  and  the optimization  can  lead  to  a  shaft  diameter  satisfying  
+the requirements  of  the automobile specifications with  cost and size effectiveness. They concluded that crack 
+grows faster  on  the  free  surface  while  the  central  part  of  the crack front  becomes straighter. Fatigue is 
+the dominant mechanism of failure of the crankshaft.  Residual imbalances along the length of the crankshafts 
+are Crucial to performance. 
+ Meng et al. [2] discussed the stress analysis and modal analysis of a 4 cylinder crankshaft. FEM 
+software ANSYS  was  used  to  analyse  the  vibration  modal  and distortion  and  stress  status  of  crank  
+Abstract: This paper deals with; the problem occurred in six cylinders four stroke engine crankshaft.  It  
+consist  of static  structural analysis  of  six cylinder  engine  crank  shaft. It  identifies  and  solves the  
+problem  by  using  the  modelling  and  simulation techniques.  The  main  work  was  to  model  the  
+crankshaft  with  dimensions  and  then  simulate  the  crankshaft  for  static  structural  analysis.  The 
+topic  was  chosen  because  of  increasing  interest  in higher payloads, lower weight, higher efficiency 
+and shorter  load  cycles  in  crankshaft.  The modelling software used is Unigraphics-NX7.5 for 
+modelling the crankshaft. The analysis software ANSYS is used for structural analysis of crankshaft.  The 
+objective  involves modelling  and  analysis  of  crankshaft, so as to identify the effect of stresses on 
+crankshaft,  to  compare  various  materials and  to  provide possible solution. Results obtained from the 
+aforementioned analysis were then used in optimization of the crankshaft. The first step in the 
+optimization process was weight reduction of the component considering static loading. This required the 
+stress range under static loading not to exceed the magnitude of the stress range in the original 
+crankshaft. Possible weight reduction options and their combinations were considered. The optimization 
+process resulted in a weight reduction, increased strength and a reduced cost of the crankshaft. 
+Keywords: 6 cylinder Engine Crankshaft, Unigraphics, Finite element analysis, Stress Analysis, 
+optimization. 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank shaft 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 31| 
+throw.  The relationship between frequency and the vibration modal was explained by the modal analysis of 
+crankshaft. This provides  a  valuable  theoretical  foundation  for  the optimization  and  improvement  of  
+engine  design. Maximum deformation appears at the centre of the crankpin neck surface.  The  maximum  
+stress  appears  at the  fillet  between  the  crankshaft  journal  and  crank cheeks,  and  near  the  central  point  
+journal.  The crankshaft deformation was mainly bending deformation was mainly bending deformation under 
+the lower frequency.  Maximum  deformation  was  located  at  the link  between  main  bearing  journal  and  
+crankpin  and crank cheeks.  So, the area prone to appear the bending fatigue crack. 
+ Montazersadgh and Fatemi [3] choose forged steel and a cast iron crankshaft of a single cylinder four 
+stroke engine.  Both crankshafts were digitized using a CMM machine.  Load  analysis  was  performed  and 
+verification  of  results  by  ADAMS  modelling  of  the engine.  At the next step, geometry and manufacturing 
+cost optimization was performed.  Considering  torsional load  in  the  overall  dynamic  loading  conditions  
+has  no effect  on  von  mises  stress  at  the  critically  stressed location.  Experimental stress and FEA results 
+showed close agreement, within 7% difference. Critical locations on  the  crankshaft  are  all  located  on  the  
+fillet  areas because  of  high  stress  gradients  in  these  locations. Geometry optimization results in 18% 
+weight reduction of the forged steel.  Fillet rolling induces compressive residual stress in the fillet areas, which 
+results in 165% increase in fatigue strength of the crankshaft. 
+ 
+III. Design Calculation For Crankshaft 
+The specification of diesel engine for crankshaft is TABULATED below: 
+ 
+No of cylinders 
+6 
+Bore/Stroke 
+86 mm/ 68 mm 
+Compression Ratio 
+18 : 1 
+Max. Power 
+8.1 HP @ 3600rpm 
+Max. Torque 
+16.7 Nm@ 2200rpm 
+Maximum Gas pressure 
+25 Bar 
+Table 1: Specification of engine 
+ 
+Deign of crankshaft when the crank is at an angle of Maximum bending moment. At  this  position  of  the  
+crank,  the  maximum  gas  pressure  on  the piston  will  transmit  maximum  force  on  the  crankpin  in  the  
+plane of  the  crank  causing  only  bending  of  the  shaft.  The  crankpin  as well  as  ends  of  the  crankshaft  
+will  be  only  subjected  to  bending moment.  Thus,  when  the  crank  is  at  the  dead  center,  the  bending 
+moment  on  the  shaft  is  maximum  and the  twisting  moment  is zero. 
+ 
+Let,  D  =  Piston  diameter  or  cylinder  bore  in  mm,  p  =  Maximum intensity of pressure on the piston in 
+N/mm2The  thrust  in  the  connecting  rod  will  be  equal  to  the  gas  load  on the piston (Fp ). We know 
+that gas load on the piston, 
+ 
+Force on the piston:  
+Bore diameter (D) =86mm,  
+Fp= Area of the bore ×P max 
+Fp =π/4 ×D²×P max=14.52 KN 
+Distance between two bearings is given by, 
+b=2D=2×86=172mm 
+Therefore b1=b2=b/2=86mm 
+Due  to  this  piston  gas  load  (FP)  acting  horizontally,  there will  be two  horizontal  reactions  H1  and  H2  
+at  bearings  1  and  2 
+Respectively, such that 
+H1=H2=Fp/2=7.26KN 
+Design of crank pin against loading 
+According to distortion energy theory, the Von-Misses stress induced in the crank-pin is, 
+Mev =√ (Kb×Mc) 2+3/4(Kt×Tc) 2 
+Where, 
+Kb = combined shock and fatigue factor for bending (Assume Kb=2)  
+Kt = combined shock and fatigue factor for torsion (Assume K t =1.5) 
+Putting the values in above equation we get 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank shaft 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 32| 
+Mev=1568KN-mm 
+Also we know that  
+Mev= π/32×v×443 
+1568×103= π/32×v×443 
+Von-Mises stress v= 187.49 N/mm2 
+ 
+IV. Modeling Of Crankshaft 
+The software used for Modelling of crankshaft is Unigraphics-NX7.5 and software it is developed by 
+SIEMENS. 
+This is CAD/CAM/CAE software but we are using this for only 3-D part modelling (CAD).  
+This CAD includes. 
+1. Sketcher 
+2. Part modelling (part design) 
+3. Surface Design 
+4. Assembly Design 
+5. Drafting 
+ 
+ 
+Figure 1: 3-D model of Crankshaft using Unigraphics-Design 1-Original 
+ 
+V. Meshing Of Crankshaft 
+The Figure.2 shows the meshed model of crankshaft. The Discretization (Mesh generation) is the first 
+step of Finite Element Method. In this step the component or part is divided into number of small parts. In 
+discretization  the    no  of  elements  are  59971.The effect of force on each  portion  of  the  component  is  
+not  same.  The purpose of discretization is to perform the analysis on each small division separately. 
+ 
+ 
+Figure 2: Meshed model of crankshaft 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank shaft 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 33| 
+VI. Loading And Boundary Conditions 
+Crankshaft is a constraint with a ball bearing from one side and with a journal on the other side. The 
+ball bearing is press fit to the crankshaft and does not allow the crankshaft to have any motion other than 
+rotation about its main axis. Since only 180 degrees of the bearing surfaces facing the load direction constraint 
+the motion of the crankshaft. 
+ 
+ 
+ 
+Figure 3: Load applied on crankshaft 
+ 
+This constraint is defined as a fixed semi-circular surface as wide as ball bearing width. The other 
+side of the crankshaft is journal bearing. Therefore this side was modeled as a semi-circular edge facing the 
+load at the bottom of the fillet radius fixed in a plane perpendicular to the central axis and free to move along 
+central axis direction. 
+ 
+VII. Static Structural Analysis For Crankshaft Design 1-Original 
+After the application of boundary conditions and force, the next step is to perform the structural 
+analysis of crankshaft.  In  this  structural analysis,  we  are  mainly  concern  with  the  total deformation  and  
+the  stresses  acting  on  the  crankshaft  (von-mises  stresses).  When the force is applied, the slight 
+deformation and also the stresses take place in the crankshaft. The total deformation of crankshaft is shown in 
+Figure.4. The deformation in the crankshaft is not same throughout. The portion in red colour shows that the 
+deformation  at  that  region  is  maximum  and  the portion in blue colour shows that the deformation is 
+minimum  in  that  region.  The maximum displacement is 12.77 mm.  
+ 
+ 
+Figure: 4: Deformation of crankshaft 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank shaft 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 34| 
+ 
+Figure5: Von Misses stress for Cast Iron 174.92MPa 
+ 
+ 
+Figure6: Von Misses stress for Forged steel 184.99 MPa 
+     
+ 
+Figure: 7: Von Misses Stress for High Carbon Steel 189.19 MPa 
+ 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank shaft 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 35| 
+The stress acting on the Design1Original crankshaft is shown in Figure.5, 6, and 7 
+ 
+VIII. Geometry Optimization 
+In order to achieve the objectives various changes in the initial design of the crankshaft were done and 
+they were analysed among them two cases showed the most effective results. Design 1-Original is 
+4180032.9702 mm3 and the weight of the Design 1-Original is 33.23kg.In Design 2 Volume of the modified 
+design after modification is 4051869.7021 mm3and the weight of the modified Design 2-Modified is 32.21kg. 
+After  designing, the  load  and  boundary conditions  were  assigned  to  the  new  model.  After applying the 
+loading and boundary conditions, equivalent stress, equivalent strain, and total deformation diagrams are 
+obtained. And then the various stress, strain and deformation of the different designs are then compared, 
+analysed and the best results give the final optimized design. 
+ 
+ 
+Figure 8:  Modified 3-D model of Crankshaft using Unigraphics Design 2-Modified 
+ 
+IX. Static Structural Analysis For Crankshaft Design 2-Modified 
+The total deformation for a modified crankshaft is shown in Figure.9. The deformation in the 
+crankshaft is not same throughout. The portion in red colour shows that the deformation  at  that  region  is  
+maximum  and  the portion in blue colour shows that the deformation is minimum  in  that  region.  The 
+maximum displacement is 11.57 mm. 
+ 
+ 
+Figure: 9: Deformation of crankshaft 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank shaft 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 36| 
+ 
+Figure10: Von Misses stress for Cast Iron 162.64MPa            
+ 
+ 
+ 
+Figure: 12: Von Misses Stress for High Carbon Steel 175.48MPa 
+ 
+The stress acting on the Design 2-Modified crankshaft is shown in Figure.10, 11, 12 
+ 
+X. Comparison Of Results 
+After applying loading and boundary conditions results from ansys were obtained and compiled in 
+table  
+Model 
+Design 1-Original 
+Design 2-Modified 
+Material 
+Von-Misses Stress 
+()MPa 
+Weight 
+(kg) 
+Von-Misses Stress 
+()MPa 
+Weight 
+(kg) 
+Cast Iron 
+174.92 
+33.23 
+162.64 
+32.21 
+High Carbon Steel 
+189.19 
+33.43 
+175.48 
+32.41 
+Forged Steel 
+184.99 
+35.168 
+171.64 
+34.04 
+Table 2: Results obtained from ANSYS 
+ 
+Design, Analysis and Optimization of a 6 cylinder Engine Crank shaft 
+| IJMER | ISSN: 2249–6645 |                             www.ijmer.com                        | Vol. 4 | Iss.8| Aug. 2014 | 37| 
+XI. Conclusion 
+Finite  Element  analysis  of  the  six cylinder  crankshaft  has  been  done  using  FEA  tool ANSYS. 
+From the results obtained from FE analysis, many discussions have been made.  
+1. Results show the improvement in the strength of the crankshaft as the maximum limits of stresses. The 
+value of von-misses stresses that comes out from the analysis is far less than material yield stress so our 
+design is safe.  
+2. The weight of the crankshaft is also reduced by 1133g (5% of weight Reduction) from Design 1-Original 
+to Design 1-Modified. Thereby, reduces the inertia force. 
+3. As the weight of the crankshaft is decreased this will decrease the cost of the crankshaft and increase the 
+engine performance 
+4. Above Results shows that FEA results conformal matches with the theoretical calculation so we can say 
+that FEA is a good tool to reduce the time consuming theoretical work. 
+5.  
+Acknowledgements 
+The support extended by the guide (Smt. T. Vijaya Devi) and college authorities is highly appreciated 
+and acknowledged with due respect.  
+ 
+REFERENCES 
+[1].  
+A. Solanki, K. Tamboli,M.J, M.J, M.J, M.J.  Zinjuwadia, (2011), “Crankshaft Design and Optimization- A 
+Review” National Conference on Recent Trends in Engineering & Technology.  
+[2] 
+J.  Meng, Y.  Liu, R.  Liu, (2011), “Finite Element analysis of 4-Cylinder Diesel Crankshaft” I.J.  Image, Graphics 
+and Signal Processing, vol 5, pp. 22-29  
+[3].  
+F.  H.  Montazersadgh, A.  Fatemi,  (2007), “Project  Report  on  Stress  Analysis  and Optimization  of  
+Crankshafts  Subject  to Dynamic Loading” The University of Toledo  
+[4].  
+Y.  Gongzhi, Y.  Hongliang, D.  Shulin,  (2011), “Crankshaft  Dynamic  Strength  Analysis  for Marine  Diesel  
+Engine”  Third  International Conference  on  Measuring  Technology  and Mechatronics Automation, pp. 795-799  
+[5].  
+G.  Yingkui, Z.  Zhibo, (2011), “Strength Analysis of Diesel Engine Crankshaft Based on PRO/E and ANSYS” 
+Third International. 
+ 
+ 
+ 
+ 
+ 

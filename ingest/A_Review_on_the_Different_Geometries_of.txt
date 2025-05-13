@@ -1,0 +1,644 @@
+Journal of Atmospheric Pollution, 2017, Vol. 5, No. 2, 40-46 
+Available online at http://pubs.sciepub.com/jap/5/2/1 
+© Science and Education Publishing 
+DOI:10.12691/jap-5-2-1 
+ 
+A Review on the Different Geometries of Combustion 
+Chamber in CI Engines on Performance,  
+Ignition and Emission 
+Alireza Lotfi1, Hassan Ghassemi2,* 
+1Department of Marine Engineering, Imam Khomeini Naval University, Nowshahr, Iran 
+2Department of Maritime Engineering, Amirkabir University of Technology, Tehran, Iran 
+*Corresponding author: gasemi@aut.ac.ir 
+Abstract  One of the important issues that today are considered by researchers as a research field is the study of 
+combustion chamber in a variety of internal combustion engines. Different designs for the diesel engine combustion 
+chamber are planned for this purpose. Open combustion chamber or direct injection and combustion chamber 
+divided or indirect injection. Open combustion chamber or direct injection, which is widely used in heavy and 
+industrial engines, and the combustion chamber divided in small engines with high revolution. The geometry of the 
+combustion chamber in diesel engines (combustion ignition) has studied and discussed. 
+Keywords: combustion chamber, direct injection, emissions, pollutants, internal combustion engine 
+Cite This Article: Alireza Lotfi, and Hassan Ghassemi, “A Review on the Different Geometries of 
+Combustion Chamber in CI Engines on Performance, Ignition and Emission.” Journal of Atmospheric Pollution, 
+vol. 5, no. 2 (2017): 40-46. doi: 10.12691/jap-5-2-1. 
+1. Introduction 
+Awareness of increased pollution around the world has 
+led researchers to adopt a new strategy to improve the 
+emission and efficiency of internal combustion engines, 
+especially diesel engines. Therefore, any documentary 
+improvements in the fuel mix and air inside the cylinder 
+can significantly improve combustion, then improve the 
+engine efficiency and reduce the level of emission of 
+propellants. For this reason, changes in the combustion 
+chamber have been given particular attention by a large 
+number of researchers over the past decade. [1] Emissions 
+of greenhouse gases and severe NOx emissions led the 
+IMO specifically refer to NOx in the revision in Annex VI 
+MARPOL, which was implemented for engines installed 
+on ships built on or after January 1, 2011. [2] 
+From all parts of the engine, the design of the 
+combustion chamber (CC) has a significant impact on the 
+propagation, emission and impact properties of the engine. 
+The design part of the CC includes type of CC wall 
+material, valve position, different air volume in different 
+parts of the CC such as the piston bowl, the distance 
+between the cylinder head and the piston, slope of valve 
+and other. Research in the field of CC has been carried out 
+over the past five decades and the compression ratio of CC 
+to 14 to 24: 1 is the result of natural breathing of engines 
+[3]. In general, the movement of air in the cylinder of 
+diesel engines is accompanied by rotation, crushing and 
+turbulence, which has a major impact on the air-fuel 
+mixing, and combustion operation. Generally, the production 
+of air rotary motion is due to the good design of the 
+suction valve. The good design of the suction valve makes 
+the higher rotation and helps to improve combustion. 
+Also, along with air movement, fuel spray features such 
+as injection hole diameter, injection pressure, spray angle, 
+and spraying time have a significant effect on the 
+combustion of a diesel engine. [4]. Whatever, the sprayed 
+jet fuel combustion fuel has more time to penetrate into 
+the combustion chamber, the more air can be sprayed into 
+the jet, much more areas are formed from the air mixture 
+with the fuel vapor and the process of mixing with the 
+larger pre-mix is more favorable [5]. Since, with the 
+design of a suitable combustion chamber, it can achieve 
+significant benefits in terms of reducing emissions, without 
+having a significant effect on the efficiency of the engine, 
+optimizing the combustion chamber shape is the su This 
+type of same simulation models are performed for 
+managing to predict the effect of combustion chamber 
+geometry on the physical and chemical processes 
+occurring inside the combustion chamber, without the 
+need to use empirical relationships, for example in 
+phenomenological models. Deyreisi et al [6,7] in the 
+design of the combustion chamber, the piston bowl type, 
+have also considered the effect of a variety of geometry of 
+the piston bowl on the efficiency and combustion 
+parameters, namely, the brake thermal efficiency (BTE), 
+the brake specific fuel consumption (BSFC), exhaust gas 
+temperature (EGT), Heat release rate (HRR) and the 
+pressure and emission of pollutants [8]. Some studies 
+carried out on the effect of combustion engine geometry 
+on the CI engine efficiency and exhaust emissions will be 
+discussed as follows (Lee et al., 2014). [9]. The numerical 
+simulation of the combustion chamber in a hemisphere 
+(HCC), shallow depth (SCC) and omega (OCC) was 
+41 
+Journal of Atmospheric Pollution 
+ 
+ 
+performed using the KIVA-4 CFD software at a constant 
+compression ratio of 18.5. The results showed that the 
+SCC and OCC combustion chambers produce higher NOx 
+pollutants at low and high engine speeds. The combination 
+of spray and improved geometry of the piston bowl had a 
+positive effect on emission reduction (Kozus et al., 2015). 
+[10] Empirical analysis with single injection and two 
+injections strategies in three different piston bowel 
+geometries resulted in the results of reducing NOx and the 
+release of soot with low and partial loading conditions in 
+the double-acting injection strategy. Jaichandar et al. [11] 
+studied the effect of spraying time and geometry of the 
+bowl with two different configurations. They showed that 
+the brake thermal efficiency has increased by 5.64%, 
+while when the TCC geometry (toroidal combustion chamber) 
+was used instead of the HCC (hemisphere combustion 
+chamber), the the brake specific fuel consumption was 
+reduced by 4.6%. Kun Lin Tay et al [12] investigated the 
+combustion properties in a direct injection compression 
+engine (DICI) with a combination of kerosene and diesel 
+fuel, using different geometries of the piston bowl along 
+with different injection rates. In total, three geometries of 
+the combustion bowl, namely the Omega Combustion 
+chamber (OCC), shallow depth combustion chamber (SCC), 
+and shallow depth Re-entrant combustion chamber (SRCC), 
+along with six different ramps, gasoline + kerosene injection 
+rates, gasoline injection rates and pure kerosene were used. 
+They observed that SRCC geometry with the shortest throat 
+length has the highest turbulence kinetic energy (TKE). 
+Rakopoulos et al [13] conducted an experimental study 
+to evaluate the the combustion efficiency and the 
+characteristics of the exhaust gases emission. They tested 
+diesel fuel mixture with 8%, 16% and 24% of the ethylene 
+ether (DEE) volume in the combustion chamber of the 
+four-stroke, single cylinder diesel engine, high-speed 
+injection Direct (HSDI). The engine worked with different 
+three loads, therefore fuel consumption, exhaust emissions 
+and gases emissions such as nitrogen oxide, carbon 
+monoxide and leak hydrocarbons was measured. 
+Nagarsheth and Gossay [14] used two different types of 
+TBC combustion chambers TBC to analyze the diesel 
+cycle, their diesel motor was made using TBC ceramic 
+materials. The concept of an adiabatic engine was used to 
+save energy loss and also to reduce emissions of exhaust 
+gases. The self-regulated diesel combustion chamber 
+components, such as upper surface of piston, engine head 
+cylinder, valves and liners, were completely coated with 
+two better materials such as TBC materials such as 
+MgZrO3 and YSZ, in both cases, the TBC NiCAlY 
+coating band was used for better mechanical strength. The 
+analysis of diesel combustion periods was carried out and 
+various combustion results, such as cylinder pressure, 
+mass fraction, heat emission and pressure diagrams were 
+given. Yousefi et al. [15] has compared combustion used 
+and exhaust emissions for the same ratio for two HCCI 
+engines with and without the primary combustion 
+chamber. The results of the HCCI engine combustion 
+were shown. The HCCI engine, with its initial combustion 
+chamber (MK.V comet), tolerated the wrong process, 
+while the HCCI engine without an initial combustion 
+chamber (modified chamber) experienced a complete 
+combustion. The HCCI engine was more advanced with 
+higher combustion chamber, heat release rate (HRR), as 
+well as had higher the start of combustion (SOC) and 
+indicated mean effective pressure (IMEP) compared to 
+another motor. Wei et al. [16] in order to better utilize the 
+air in the combustion chamber and improve the quality of 
+the mixture of fuel and air, has been proposed increased 
+combustion efficiency and reduced emissions, a new 
+rotary combustion chamber system in DI engines (direct 
+injection). The spray was simulated inside the cylinder 
+and examined at different angles of the injector nozzle 
+with AVL-FIRE code. 
+As it is known, the combustion chamber geometry 
+plays an important role in the combustion, efficiency and 
+diffusion of CI engines. The combustion chamber geometry 
+provides the conditions for an appropriate mixture of air 
+and fuel before combustion. Typically combustion chambers, 
+in addition to the upper space of TDC cylinder, located on 
+the piston crown (Piston bowl) and cylinder head (primary 
+combustion chamber) are designed in a variety of ways. In 
+general, the purpose of this study is to review the 
+geometries in the combustion chamber in order to determine 
+the suitability of pure and combustible fuel types and its 
+effect on combustion, efficiency and emissions. 
+2. Combustion Chamber 
+Depending on the speed of the engine, the geometry of 
+the combustion chamber will change. For low-speed 
+engines (less than 1500 rpm) and medium speed (1500-
+3000 rpm), the direct ignition chamber is used and for 
+high-speed engines (above 3000 rpm), an indirect 
+combustion chamber is used. 
+The design of the combustion chamber has two 
+philosophies: first, the design with the high air velocity, 
+second, with the low air velocity in the cylinder. In the 
+rotational design of the first case, there are fewer holes in 
+the engine and deep piston bowl, while in the second case 
+there are more holes in the injector and the small bowl 
+piston. However, the entire volume of CC is inside the 
+main cylinder and direct fuel is injected into this volume. 
+Some of the common geometries used are described below: 
+3. Different Geometries of the 
+Combustion Chamber 
+Square combustion chamber: When using the square 
+bowl combustion chamber of Figure 1, it is designed on 
+the piston crown. The air movement in the square bowl 
+leads to rotate and during compression creates a turbulent 
+environment, especially in corner areas. 
+Hemi-spherical combustion chamber: Their name 
+represents the concept of a combustion chamber at the 
+cylinder head or at the top of the piston. Figure 2 shows 
+space which is close to half the butter (hemi + -sphere +  
+-aic), although in practice it is generally less than half of 
+that. HCC combustion chamber of the cylinder head was 
+used in 1901. [18] In this combustion chamber, the depth 
+to diameter ratio can be different, but this does not apply 
+to the proper use of biodiesel fuel as a suitable combustion 
+fuel. Therefore, BSFC increases and BTE decreases when 
+working with biodiesel in this type of combustion 
+chamber. 
+ 
+Journal of Atmospheric Pollution 
+42 
+ 
+ 
+Figure 1. Square combustion chambers 
+Toroidal combustion chamber: The brittle motion in 
+TCC is better than that of another, so the better air flow in 
+this combustion chamber causes a more favorable 
+combustion. The TCC combustion compartment has a 
+cone angle of 150 to 160 degrees as shown in Figure 3. 
+Shallow depth CC combustion chamber: This type  
+of combustion chamber is used more frequently in  
+low-speed diesel engines, they are usually designed with a 
+low-depth hole and a large diameter hole on the piston 
+crown. The SCC efficiency in a combustion which uses 
+biodiesel fuel is relatively better than HCC, as shown in 
+Figure 4. 
+Cylinder combustion chamber: It has a cylindrical 
+hole in the piston crown and can be modified as a cone, 
+that is, a short cone with a base angle of 90 degrees. 
+(Figure 5). 
+Indirect injection combustion chamber: Combustion 
+in an indirect combustion chamber is divided into two 
+parts: One part in the cylinder head and another one in 
+main cylinder. The fuel is injected into the combustion 
+chamber section in the cylinder head. The combustion 
+chamber geometry is presented in Figure 6. 
+ 
+Figure 2. (a) Hemispheric combustion chambers, (b) Piston crown in cylinder head 
+ 
+Figure 3. Torodial CC combustion chamber 
+ 
+Figure 4. An example of an SCC combustion chamber 
+43 
+Journal of Atmospheric Pollution 
+ 
+ 
+ 
+Figure 5. Two piece piston design – base piston and 4 piston crown 
+inserts with squish area of 25%, 30%, 35% and 40% 
+Swirl CC combustion chamber: The swirl-combustion 
+chamber (Figure 6) is mainly used in small CI engines 
+with a cylinder diameter of less than 100 mm. This 
+chamber is spherical and the first half of the combustion 
+starts from there and the second half in the piston crown. 
+Loss of heat from this type of combustion chamber was 
+more than direct CC. 
+Pre combustion chamber: In this combustion chamber, 
+Figure 6b, the primary chamber in the cylinder head and 
+the cylinder chamber are connected to a number of holes 
+and the fuel is injected by the nozzle at a pressure of less 
+than 450 psi. The main compartment (before combustion) 
+contains a volume of 40% of the total volume where the 
+combustion starts and initially the air enters it and then 
+through the holes into the cylinder. This movement creates 
+a severe turbidity in the air and leas to better mix with fuel 
+and more favorable combustion. 
+4. Strategies to Improve Combustion, 
+Efficiency and Emission Reduction 
+In this section, we review the methods that resolved the 
+problems that occurred in the initial start (cold) and the 
+release of pollutants and the analysis of the combustion 
+engine chambers: 
+Multiple injections in cold start: Multiple injection 
+strategies with different injection rates were used to 
+improve diesel performance. Shooting flame and pressure 
+inside combustion chamber showed that the multi-injection 
+strategy is better than single injection under cold start 
+conditions. The amount of pressure variation inside the 
+combustion chamber with the multi-injection strategy is 
+almost twice as likely as single-injection cases [23]. 
+EGR: With the return of a percentage of the engine's 
+exhaust gases to the inlet valves of the cylinders to reduce 
+emissions, it was found that the use of EGR above 20 to 
+40 percent of the engine output volume reduced the smoke 
+mass in the combustion chamber. Increased EGR also 
+reduced greenhouse gas emissions. To obtain smoke and 
+NOx information at three levels of EGR, 0.2, 0.3 and 0.4, 
+the result is that using higher EGR values reduces NOX. 
+[24] 
+Piezoelectric pressure sensor: Pressure inside the 
+cylinder is one of the most valuable signals used to detect 
+combustion in IC motors. The piezoelectric pressure 
+sensor has fast response speed, light weight, small size 
+and low sensitivity to environmental conditions. They are 
+widely used to measure the cylinder pressure of the engine 
+combustion chamber. [25]. Agarwal et al. [26] using a 
+piezoelectric pressure sensor, investigated the digital 
+signal processing of the cylinder pressure information for 
+combustion detection in the combustion chamber of the 
+HCCI engine. 
+ 
+Figure 6. Schematic diagram of different In-direct injection combustion chambers used. (a) Swirl combustion chamber (b) pre-combustion chamber 
+ 
+Journal of Atmospheric Pollution 
+44 
+ 
+5. The Effect of Combustion Chamber 
+Geometry on Combustion, 
+Performance and Emissions 
+In this section, we refer to studies on the effect of 
+various CC geometries on the various characteristics of 
+the CI engines (combustion, performance and emission 
+parameters). 
+The impact of the engine piston bowl area on the 
+combustion performance of greenhouse gases examined. 
+The volume of the piston bowl was different and 25%, 
+30%, 35% and 40% of the total area of the piston. The 
+tests were performed with a single-cylinder diesel engine 
+with a compression ratio of 10: 1 in 1500 rpm with 100% 
+open throttle and the results were analyzed. It was 
+observed that an increase in the piston bowl above 30% of 
+the piston area resulted in instability in the combustion.  
+However, a significant increase was observed in the 
+brake and brake thermal efficiency power in the ratio of 
+equivalence between 0.7 and 0.9 for the piston bowl of 
+30%. The HC emission level for the piston bowl was 30%, 
+compared with 25%, 35% and 40%, respectively. There 
+was a significant increase in NO emission in the piston 
+bowl 30% and 25% compared to 35% and 40%. In short, 
+the 30% piston bowl improved combustion performance 
+and reduced emissions. 
+Dinesh Kumar Soni1, Rajesh Gupta. [27] in his article 
+examined the effect of combustion chamber process on 
+two samples of re-entrant and hemispherical piston bowls to 
+improve the combustion process and the amount of greenhouse 
+gases emission in different spray angles (120°, 140° and 160°) 
+using the AVL FIRE software and trading CFD code, they 
+concluded that at the spray angle of 160, the result is better 
+than the other spray angles. In the case of NO and Soot 
+emission with the spray angle of 120° and 160° respectively 
+had the lowest amount as presented in Figure 7. 
+Finally, it can be concluded that the re-entrant piston 
+geometry is more reliable to reduce NO emissions; in 
+addition, it can be used for a mass fraction of soot with a 
+160 ° spray angle. Taghavifar et al. [28] changed their 
+piston structure by making changes in the combustion 
+chamber depth and diameter. First, the bowl spacing from 
+the HCP center from D1 to D4 in steps of 0.005 m (D1 = 
+0.045 m and D4 = 0.06 m ), In the second case, the radius 
+of the bowl ranges from R1 to R4 in steps of 0.001 m (R1 
+= 0.0047 m and R4 = 0.0077 m). In the first case, the 
+spacing of the bowl from the HCP center from D1 to D4 
+in steps of 0.005 m (D1 = 0.045 m and D4 = 0.06 m), in 
+the second case, the radius of the bowl from R1 to R4 in 
+steps of 0.001 m (R1 = 0.0047 m and R4 = 0.0077 m). 
+During all structural changes, four steps were considered. 
+It was found that the increase in bowel movement (D1-D4) 
+provides better uniformity in the air / fuel mixture, or the 
+quality (equivalence ratio) or the quantitative (homogeneity 
+ratio) that leads to increased pressure and HRR. However, 
+the start of combustion has been postponed. At the end of 
+the expansion stage, it will affect the engine performance 
+and combustion heat with the delivery of less work. It was 
+reported that at 10 degrees TDC at the angle of rotation of 
+the crankshaft (CA ATDC) with increasing D in piston 
+bowl, temperature and NOx emission will be reduced, it 
+was reported that increasing the radius of the bowl is 
+effective on the performance of the engine, despite the 
+higher oxygen content and air availability with a higher 
+bowel radius, it has adverse effects on the performance of 
+the engine. This issue was in fact attributed to the lesser 
+motion and torsional flow of the air in this model. Due to 
+the larger area of the piston bowl associated with the R4 
+design, more heat from the piston wall was lost. 
+Jaichandar and Annamalai investigated the biodiesel fuel 
+features modified with a modified piston bowl without 
+changing the engine compression ratio in the diesel engine 
+DI [22]. They found in three ways of Torudyl input 
+combustion chamber (TRCC) and Shallow depth Re-
+entrant Combustion chamber (SRCC) and hemispherical 
+combustion chamber (HCC). In TRCC, compared to 
+SRCC and HCC, the combustion was better at the 
+maximum cylinder pressure due to better fuel mixing. Due 
+to better air motion, the combustion delay for TRCC is 
+lower than SRCC and HCC. Also, in the study of the 
+specific fuel consumption of the BSFC, the specific fuel 
+consumption for SCC has obtained (0.271 kg / kWh) and 
+HCC, 288.0 kg / kg, TCC above 252.0 kg / kWh. 
+Regarding gases emission, they also achieved the following 
+results: unstable hydrocarbons emission (UBHC) for 
+TRCC and SRCC is reduced compared to the HCC. CO 
+emission by the addition of biodiesel POME is 
+significantly reduced. CO emission from the TRCC 
+engine was lower than two other combustion chambers. 
+Emissions of greenhouse gases and NOx for the TRCC 
+were higher than the base engine, which EGR system was 
+proposed to solve the problem. In the case of the peak 
+pressure, the peak pressure variation due to the braking 
+power for the modified engine and the standard engine 
+with DOME diesel fuel is 20% POME (Figure 8). It can 
+be seen that the peak pressure for the 20% POME 
+compared to the standard PBDF fuel is a bit low. 
+ 
+Figure 7. Emissions at different spray angle (a) NO mass fraction (b) Soot mass fraction 
+45 
+Journal of Atmospheric Pollution 
+ 
+ 
+ 
+Figure 8. Variations of peak pressures 
+Saravanakumar et al. [29] have used the results of an 
+empirical study of a single-cylinder CI engine with 
+variable displacement compression ratio which B20 
+combination as a test fuel (CIME) was mixed with diesel 
+fuel, in order to investigations in a hemispherical combustion 
+chamber (HCC), also with the change in the HCC piston 
+bowl geometry, a modified hemispherical combustion 
+chamber (MHCC) was used. It was considered that CIME 
+mixed with diesel (B20) caused better combustion and 
+emission and under full load conditions, peak pressure 
+B20 in MHCC was higher than HCC and diesel in HCC. 
+This indicated that MHCC increased the pressure of 4.7% 
+compared to diesel in HCC and reduced emissions by 35%, 
+13.8% and 34.1% were obtained respectively for CO, HC 
+and soot. 
+Hu et al. [30] examined a medium-speed marine diesel 
+engine with the effects of fuel injector matching and 
+combustion chamber geometry on nitrogen oxide (NOx), 
+steam and specific fuel oil consumption (SFOC) using a 
+parametric study. The study was performed on four 
+different engine loads, for example, at 25%, 50%, 75% 
+and 100% of the engine's load. The parameters of the 
+injection compared with the combustion chamber 
+geometry had significant effects on the targets. The 
+injection time had the greatest effect on the objectives, 
+especially on the NOx emission. Later injections and 
+lower rotation of the air reduced NOX emissions. 
+6. Conclusions 
+In the present study, we investigated different geometries 
+of the combustion chamber in the CI engines and the 
+effect of pure diesel and combined diesel fuel on 
+performance, combustion and emission, and the most 
+important results are as follows. 
+1. With changes in the combustion chamber geometry, 
+and fuel spraying strategies, it is possible to achieve 
+favorable conditions such as squish, swirl, tumble, 
+and turbulence for combustion, performance and 
+emission. 
+2.  In the research on the geometry of the combustion 
+chamber with the modified piston bowl in the 
+MOTD, in three cases, the Toroidal Re-entrant 
+Combustion Chamber (TRCC) and the shallow 
+depth Re-entrant combustion chamber (SRCC) and 
+hemispherical combustion chamber (HCC) in the 
+TRCC compared with the SRCC and HCC has a 
+maximum cylinder pressure and combustion delay 
+for TRCC for TRCC was less than SRCC and HCC. 
+Also, the BSFC for TRCC was more favorable. 
+They also achieved the following results regarding 
+the gases emission: The unstable hydrocarbons 
+emissions (UBHC) for TRCC and SRCC is reduced 
+compared to HCC. CO emission from the engine 
+with TRCC was less than two other Combustion 
+Chamber. Greenhouse gas emissions and NOx for 
+TRCC was higher than others. EGR system was 
+proposed to solve this problem. 
+3.  By investigating the various geometries of the 
+piston bowl, the TRCC model was more favorable 
+for factors such as turbulence, kinetic energy and 
+rotation in the compaction stage and the quality of 
+air movement in the combustion chamber was 
+reduced, respectively, by TRCC> TCC> SCC> 
+CCC> HCC >SqCC 
+4.  The most common and best software for simulating 
+combustion chamber geometry was CFD code, bur 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+0
+1.256
+2.512
+3.768
+5.024
+Peak pressure (bar)
+Brake  power  (kw)
+HCC(DISEL)
+HCC
+SRCC
+TRCC
+TRCC(DIESEL)
+ 
+Journal of Atmospheric Pollution 
+46 
+ 
+AVL FIRE and KIVA-CHEMKIN were used for 
+the performance and analysis of combustion. 
+5.  The small and large sizes of the piston bowl and the 
+fuel sprayer nozzle nozzles for diesel and bio diesel 
+have had a disproportionate effect on the combustion, 
+the engine performance and emission which was 
+determined with the percentages mentioned in the 
+studies. 
+6. TBC ceramic materials can be used for better 
+mechanical resistance in the combustion chamber 
+and better results were obtained for different 
+dimensions of combustion such as cylinder pressure, 
+mass fraction, heat emission and volume and 
+pressure diagram. 
+References 
+[1] 
+Abdul Gafoor C.P, Rajesh Gupta, Numerical investigation of 
+piston bowl geometry and swirl ratio on emission from diesel 
+engines, Energy Conversion and Management, 101(1), 2015,  
+pp 541-551. 
+[2] 
+Pueschel M, Buchholz B, Fink C, Rickert C, Ruschmeyer K. 
+Combination of post-injection and cooled EGR at a medium-speed 
+diesel engine to comply with IMO Tier III emission limits, Paper 
+no. 76. CIMAC, Shanghai, 2013. 
+[3] 
+Singh V.P., Tiwari K.S., Singh R., Kumar N., Modification in 
+combustion chamber geometry of CI engines for suitability of 
+biodiesel: A review, Renewable and Sustainable Energy Reviews 
+79 (2017), pp 1016-1033. 
+[4] 
+ KarMun Pang, Nikolas Karvounis, Jens Honore Walther, Jesper 
+Schramm, Numerical investigation of soot formation and 
+oxidation processes under large two-stroke marine diesel engine-
+like conditions using integrated CFD-chemical kinetics, Applied 
+Energy Volume 169, (1 May 2016). pp 874-887. 
+[5] 
+Liu Y., Li J., Jin C., Fuel spray and combustion characteristics of 
+butanol blends in a constant volume combustion chamber, Energy 
+Conversion and Management, 105(15), 2015, pp1059-1069. 
+[6] 
+DeRisi A, Manieri DF, Laforgia DA. Theoretical investigation on 
+the effects of combustion chamber geometry and engine speed on 
+soot and NOx emissions. In: Proceedings of ASME 1999 fall 
+technical conference, ICE-vol. 33/1; 1999. 
+[7] 
+DeRisi A, Donateo T, Laforgia D. Optimization of the combustion 
+of direct injection diesel engines. SAE Paper no. 2003-01-1064; 
+2003. SAE 2003 Transactions Journal of Engines - V112. 
+[8] 
+Jyothia U.S., K.Vijayakumar Reddy. Experimental study on 
+performance, combustion and emissions of diesel engine with re-
+entrant combustion chamber of aluminum alloy, Materials Today: 
+Proceedings Volume 4, Issue 2, Part A, 2017, pp 1332-1339. 
+[9] 
+Li J., Yang WM., An H., Maghbouli A., Chou SK. Effects of 
+piston bowl geometry on combustion and emission characteristics 
+of biodiesel fueled diesel engines, Fuel, 120(15), 2014, pp 66-73. 
+[10] Jesús B., José VP., Antonio G. Javier MS. An experimental 
+investigation on the influence of piston bowl geometry on RCCI 
+performance and emissions in a heavy-duty engine. Energy 
+Conversion and Management Volume 103, October 2015,  
+pp 1019-1030. 
+[11] Jaichandar S, Senthil Kumar P, Annamalai K. Combined effect of 
+injection timing and combustion chamber geometry on the 
+performance of a biodiesel fueled diesel engine. Energy Volume 
+47, Issue 1, November 2012, pp 388-394. 
+[12] Kun Lin Tay, Wenming Yang, Feiyang Zhao, Wenbin Yu, Balaji 
+Mohan. Numerical investigation on the combined effects of 
+varying piston bowl characteristics of a kerosene-diesel fueled 
+direct injection compression ignition engine, Energy Conversion 
+and Management 136 (2017), pp 1-10. 
+[13] Dimitrios C. Rakopoulos, Constantine D. Rakopoulos, Evangelos 
+G. Giakoumis, Athanasios M. Dimaratos. Characteristics of 
+performance and emissions in high-speed direct injection diesel 
+engine fueled with diethyl ether/diesel fuel blends, Energy 43 
+(2012), pp 214-224. 
+[14] Gosai D.C., Nagarsheth H.J., Diesel engine cycle analysis of two 
+different tbc combustion chamber, Procedia Technology 23 
+( 2016), pp 504-512. 
+[15] Yousefi A., Gharehghani A., Birouk M. Comparison study on 
+combustion characteristics and emissions of a homogeneous 
+charge compression ignition (HCCI) engine with and without pre-
+combustion chamber, Energy Conversion and Management 100 
+(2015), pp 232-241. 
+[16] Shengli Wei, KunpengJi, XianyinLeng, Feihu Wang, Xin Liu. 
+Numerical simulation on effects of spray angle in a swirl chamber 
+combustion system of DI (direct injection) diesel engines, Energy 
+75 (2014), pp 289-294. 
+[17] http://w.w.w.ebady.com/itm/isuzu. 
+[18] Curtis Boat & Woodworking Co. 1901 Hemi engine by Truscott 
+Launch and Engine Company, St Joeseph, MI. Designed by Hemi 
+inventor, Allie Ray Welch, Chelsea Manufacturing Company, 
+Chelsea, MI.. CurtisBoat.com. 2009-09-25. URL: 
+http://www.curtisboat.com/hemi_prototype.html. Accessed: 2009-
+09-25. 
+[19] http:// w.w.w.researchgate.com. 
+[20] www.sammachinery.com. 
+[21] Ravi K., Porpatham E., Effect of piston geometry on performance 
+and emission characteristics of an LPG fuelled lean burn SI engine 
+at full throttle condition, Applied Thermal Engineering 110 (2017), 
+pp 1051-1060. 
+[22] Jaichandar S., Annamalai K., Influences of re-entrant combustion 
+chamber geometry on the performance of Pongamia biodiesel in a 
+DI diesel engine, Energy 44 (2012), pp 633e640. 
+[23] Hwang J., Park Y, Kim K., Lee J., Bae C. Improvement of diesel 
+combustion with multiple injections at cold condition in a constant 
+volume combustion chamber, Fuel 197 (2017), pp 528-540. 
+[24] Taghavifar H., Taghavifar H., Mardani A., Mohebbi A. Modeling 
+the impact of in-cylinder combustion parameters of DI engines on 
+soot and NOx emissions at rated EGR levels using ANN approach, 
+Energy Conversion and Management 87 (2014),pp 1-9. 
+[25] Lee K., Yoon M., Sunwoo M., A study on pegging methods for 
+noisy cylinder pressure signal, Control Engineering Practice, 16 
+(2008), pp 922-929. 
+[26] Rakesh Kumar Maurya, Dev Datt Pal, Avinash Kumar Agarwal. 
+Digital signal processing of cylinder pressure data for combustion 
+diagnostics of HCCI engine. 2013. 
+[27] Dinesh Kumar Soni, Rajesh Gupta. Numerical analysis of flow 
+dynamics for two piston bowl designs at different spray angles, 
+Journal of Cleaner Production 149(15), 15 April 2017, pp 723-734. 
+[28] HadiTaghavifar, Shahram Khalilarya, Samad Jafarmadar. Engine 
+structure modifications effect on the flow behavior, combustion, 
+and performance characteristics of DI diesel engine, Energy 
+Conversion and Management, 85, September 2014, pp 20-32. 
+[29] Ramesh B.R. Bapu, Saravanakumar L., Durga B. Prasad, Effects 
+of combustion chamber geometry on combustion characteristics of 
+a DI diesel engine fueled with calophylluminophyllum methyl 
+ester, Journal of the Energy Institute 90(1), February 2017,  
+pp 82-100. 
+[30] Nao Hua, Peilin Zhou, Jianguo Yang. Reducing emissions by 
+optimizing the fuel injector match with the combustion chamber 
+geometry 
+for 
+a 
+marine 
+medium-speed 
+diesel 
+engine, 
+Transportation Research Part D: Transport and Environment, 53, 
+June 2017, pp. 1-16. 
+ 

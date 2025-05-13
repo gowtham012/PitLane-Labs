@@ -1,0 +1,2382 @@
+1 
+ 
+Valve Lapping Machine for Internal Combustion Engines 
+Pitigala A.G.Abeysekara1 
+1School of Technology, University of Wolverhampton 
+ 
+Abstract 
+Automobile maintenance is a major area in the industry of automobile and also a major 
+income to the business. In present, Internal Combustion engine maintenance can be stated 
+as a very important section in automobile maintenance and the valve lapping process that is 
+subjected in this thesis is done during IC engine maintenance. The current methods used in 
+most automobile maintenance businesses for valve lapping process are not effective and 
+consume a lot of working hours. 'Valve lapping Machine for Internal Combustion Engines' is 
+a machine designed to overcome these problems by minimizing the human involvement in 
+the process. The thesis consist of the background in designing the machine, methodologies 
+used, results obtained by data analysis in order to optimize the design and design of the 
+valve lapping machine. 
+ 
+Keywords 
+Valve lapping; Engine valves; Cylinder head 
+ 
+ 
+ 
+1   INTRODUCTION 
+Valve lapping or the process of creating a good seat between engine valves and the 
+corresponding valve seat area in the IC (internal combustion) engine head(cylinder head) is 
+a task which have to be done very accurately. The importance of obtaining a good sea is that 
+the air/fuel mixture(in petrol engines) or air(in diesel engines) is prevented from flowing in to 
+the combustion chamber, same as the exhaust gas is prevented from flowing to the exhaust 
+manifold from the combustion chamber until the right time. And also a good seat prevents 
+compression leaks. The engine will lose its efficiency by huge percentages if any of the 
+situations explained above happens. So as this is a very important task in IC engine 
+maintenance, extra attention is given to this particular task by technicians. This process of 
+valve lapping is typically done using a valve lapping stick or a power tool. As both of this 
+tools are not very effective, these tools can be replaced by the ' Valve Lapping Machine for 
+Internal Combustion Engines', specifically designed for the process of engine valve lapping. 
+The machine employs a fully mechanical system which performs two different motions in two 
+directions previously performed by hand when using valve lapping stick and power tool. 
+Comparatively the valve lapping machine is very effective because the human involvement is 
+very limited in the process. 
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+1.1  Motivation 
+The idea of designing a machine for the valve lapping process came to me when i was 
+working as a trainee automobile technician at Transmec Engineering PVT(LTD) of Micro 
+Holdings Group from June to September 2014. I was assigned to the Engine room section 
+where the maintenance of an IC engine is done. Engine overhauling was a daily 
+maintenance process and i came through the valve lapping process during my 3rd week. The 
+valves of a 3.0L 20 valve in-line engine. The process took about ten hours to finish including 
+testing of the valve seat quality using petrol. As the process was done using a valve lapping 
+stick, it was very hard and my efficiency of performing the process was very low after couple 
+of hours. During my 11th week, I was introduced to valve lapping power tool which is 
+comparatively more efficient than the valve lapping stick and took less time to complete the 
+process. But still the hand holding the power tool and performing the hand motion was hard. 
+This lead me to think how easy this process will be if there was a machine that has the 
+performance of the power tool and the motion of the hand. 'Valve Lapping Machine for 
+Internal Combustion Engines' was designed by the motivation of that idea. 
+1.2  Goals and objectives 
+The main goal of this project is to design a machine both efficient and effective than 
+previously used methods for valve lapping and to reduce the labor cost by reducing the 
+human involvement in the process. The objectives that had to be achieved in order to 
+achieve the main goal were designing the basic model of the machine(structure), designing 
+the valve lapping mechanism, assembly of the whole machine by designing the parts 
+needed, calculating and designing the cam needed, analyzing data and categorizing them in 
+order to design five valve holding pieces, analyzing data to obtain the specifications of the 
+machine, obtaining two high torque dc motors that has specific RPM(revolutions per minute) 
+values and deciding what materials must be used in order for the design to be durable and 
+economical. 
+1.3  Literature review 
+Valve lapping and testing 
+In the process of valve lapping in an internal combustion engine cylinder head, the goal is to 
+achieve a good seat between valve seating area of an engine valve(inlet valve or outlet 
+valve) and the valve seat area of cylinder head in order to avoid the compression leaks 
+through the seating from the combustion chamber and to avoid air/fuel-air mixture leaking in 
+to the combustion chamber through the seating. The internal combustion engine operates by 
+achieving a certain compression ratio which is differing from engine to engine and 
+combusting a air-fuel mixture which is compressed to a certain volume decided by the 
+compression ratio. And if the air-fuel mixture leaks through the seating, the volume of the air-
+fuel mixture will change and combustion process will not be accurate resulting a reduction in 
+productivity of the engine. Therefore it is vital to have a fully sealed combustion chamber and 
+the valve seating is very important in acquiring a fully sealed combustion chamber.    
+3 
+ 
+ 
+Figure 01: Valves positioned in the cylinder head [1] 
+ 
+While the valve lapping process, we have to observe the valve seat area time to time by the 
+naked eye. It's the normal way to conclude whether the valve seat is good or further valve 
+lapping is needed. Figure 02 shows a lapped valve and a non-lapped valve. 
+ 
+ 
+Figure 02: Lapped and non-lapped valves [2] 
+After the valve lapping process, the most common way to observe the seating of valves is a 
+technique using petrol. After the valve job is done, the mechanic or technician place the 
+precise valve in the precise spot in the cylinder head and pour petrol to the stem of the valve 
+which he have to observe. This poured petrol then reaches the seating area of the valve. 
+Then it is observed if petrol leaks through the seat.  
+ 
+4 
+ 
+ 
+Figure 03: Observation of the seating surface [3] 
+If petrol leaks through the valve seat it concludes that the valve job is not successful and if 
+petrol does not leaks through the valve seat it concludes that the valve has acquired a good 
+seat, so recommending to assemble the engine using the valve. 
+Engine valves 
+There are two kinds of engine valves, intake/inlet valves and exhaust/outlet valves. These 
+valves could be identified easily in a cylinder head. Inlet valves are usually bigger than 
+exhaust valves. Although more than one inlet valve and exhaust valve can be present for a 
+single cylinder. There are different designs for inlet valves and exhaust valves. The most 
+commonly used valve design is poppet valve design. Then there are sodium valves used in 
+some turbo-charges engines. And mask valves, mushroom valves, tulip valves could be 
+observed in different situations. The following figure shows a detailed diagram of a valve. 
+ 
+Figure 04: Detailed diagram of an engine valve [4] 
+5 
+ 
+As you can see in the figure 04 the seat angle is the most important thing in the valve lapping 
+process. Seat angle is normally 45° and 30° in most of valves. 
+The other important factor of designing the valve lapping machine is the stem diameter of the 
+valve. The valve is to be fixed to the valve lapping machine in order to start the lapping 
+process by the stem of the valve. The dimensions from the collected data of valves are 
+analyzed in order to acquire three categories of  stem diameters. These analyzed data is 
+used for the specifications of valve holding pieces of the machine to be built. Overall length 
+of the valve is also a important factor to consider when adjusting the machines before 
+starting the valve lapping process. 
+Valve lapping stick and hand motion 
+Valve lapping sticks are the tools that we use to lap valves by hand movement. The valve is 
+attached to the sucker at the tip of the stick and lapping compound is applied before the 
+process begins. This is a very hard process to undergo and it will take approximately half an 
+hour to lap one valve of a 3.0 L engine. Following figures shows the valve lapping sticks and 
+the hand movement used to lap valves. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 05: Commonly used valve lapping sticks [5] 
+ 
+ 
+Figure 06: Hand movement while lapping valves [6] 
+6 
+ 
+While lapping valves as shown in figure 06, the technician have to decide whether to apply 
+compound from observing the valve seat area time to time. This method is still used in basic 
+garages. 
+Valve lapping power tool 
+Using the valve lapping power tool is much more efficient than the valve lapping by hand 
+movement. It will take less than 15 minutes to lap a valve using the power tool. But still we 
+have to hold the power tool in position for lapping process, which is somewhat hard labor to 
+undergo. Power tools work using an electric motor or pneumatically using compressed air. 
+ 
+Figure 07: Valve lapping using a power tool [7] 
+Lapping compound 
+Lapping compound is applied to the valve seat before beginning of the process. Lapping 
+compound wears surfaces of the valve and the valve seat of the cylinder block smoothing 
+both surfaces and creating a good seat. A lapping compound tube usually has two types of 
+compound available in the top end and bottom end separately. The two types named as fine 
+and coarse. Technician decides which type of compound has to be used by observing the 
+valve seat. If the valve seat has rough edges, coarse compound is used. Otherwise fine 
+compound is used obtain a smooth surface. 
+Cylinder head 
+Cylinder head is the casting which seals the combustion end of the cylinder block and the 
+inlet and exhaust valves and their ports are positioned in the cylinder head for air/fuel mixture 
+intake and exhaust of  the combustion products[8]. Cylinder head also facilitate overhead 
+cam shafts if present and otherwise it facilitate rocker arms and valve springs. 
+Cam system 
+As a cam system is implemented in the machine, it is better to have a idea about cam 
+systems. A cam , follower, follower system and a drive are the four basic parts of a cam 
+system. Clyde H. Moon, P.E.[9] states that "A cam is a mechanical part which imparts a 
+prescribed motion to another part by direct contact. It may remain stationary, translate or 
+7 
+ 
+rotate". Follower is directly contacting the cam while the follower system receives a specific 
+motion through the follower given by the cam. Drive is the element which transmits motion to 
+the cam or to the follower system. 
+ 
+Figure 08: Cam and follower [10] 
+DC motors 
+Two dc motors are used in the valve lapping machine, one as the drive for cam system and 
+one as the motor for valve lapping. 
+1. High torque mini 12V dc gear motor 
+ Horse power - 0.8W(60mA, no load) 
+ Gear ratio - 1:20 
+ RPM - 200 
+ Reversibility - reversible 
+ Length of motor - 54mm 
+ Diameter of motor - 25mm 
+ Length of spindle - 8mm 
+ Diameter of spindle - 4mm 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 09: High torque mini 12V dc gear motor,200 rpm [11] 
+8 
+ 
+2. High torque, heavy duty 12V dc gear motor 
+ Model - JGB37 
+ RPM - 20 
+ no load current - 120mA 
+ load torque - 10-19 Kg.cm 
+ load current - 400mA 
+ Length of motor - 29mm 
+ Diameter of motor - 33mm 
+ Spindle length - 15.5mm 
+ Spindle diameter - 6mm 
+ 
+Figure 10: High torque, heavy duty 12V dc gear motor, 20rpm [12] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9 
+ 
+2   DESIGN OF VALVE LAPPING MACHINE FOR INTERNAL COMBUSTION ENGINES 
+This section includes designs of all the parts of the valve lapping machine and their functions 
+in the machine. 
+ 
+Figure 11: Trimetric view of the 3D model of valve lapping machine for internal combustion 
+engines 
+ 
+2.1  Machine bed 
+Machine bed is the base of the valve lapping machine. The cylinder head can be initially kept 
+on the machine bed for measuring or observing purposes and the bed is designed to 
+accommodate a cylinder as large as TATA 1030 cylinder head(cylinder head of a in-line 6 
+cylinder engine) without any problem. 
+ 
+Figure 12: Isometric view of machine bed 
+10 
+ 
+Four rubber grips are mounted on the four corners of the machine bed in order keep it in a 
+steady position even on a surface having less friction co-efficient. The machine stand which 
+holds the valve lapping mechanism also assembled to the machine bed. It also facilitate two 
+cylinder head supports. 
+ 
+Figure 13: Exploded view of machine bed, cylinder head support and machine stand 
+assembly 
+The machine bed has a total surface are of 900×450 mm2 without considering the area given 
+for mounting of the cylinder head supports and its moving purposes and the material 
+assigned for the machine bed is AISI 1020 steel which has a mass density of 7900 Kg.m-3 
+and the machine bed weighs about 79.8 Kg. The reason for picking AISI 1020 steel is its 
+formability, workability and weld-ability was very good comparatively.   
+2.2  Cylinder head supports 
+The cylinder head supports are designed to accommodate the cylinder head while the valve 
+lapping process. This extra feature is added to the design because it is hard to move a 
+cylinder head(specially a large heavy one) sometimes when the cylinder head needed to be 
+adjusted to a different position. Since this cylinder head supports are movable along the 
+machine bed, it is very easy to adjust the cylinder head position. As an example, think that a 
+specific point of the  cylinder head is initially positioned in the coordinate (300,280) if we 
+assigned a coordinate system to the machine bed. And we need to change its position to 
+(550,280), that means without compromising the Y coordinate, we can move the cylinder 
+head 250 units smoothly along the bed( X axis). This feature is very important when lapping 
+the same type of engine valves in an in-line cylinder head. 
+ 
+ 
+11 
+ 
+ 
+Figure 14: Isometric view of a cylinder head support 
+The cylinder head supports also allow easy access to the valve seat area of the engine 
+valves by having a 40mm clearance between the machine bed and cylinder head while the 
+valve lapping process. This feature is important because the technician has to observe the 
+valve seat surface from time to time and apply lapping compound if needed. Each cylinder 
+head support has a surface area of 290×50 mm2 to accommodate 2 cross sections of a 
+cylinder head. The material assigned to this part is also AISI 1020 steel and weighs about 
+4.8 Kg per unit.  
+2.3  Machine Stand 
+ 
+Figure 15: Isometric view of Machine stand 
+Machine stand is assembled to the machine bed in one end as in figure 13. Other end of the 
+machine stand is the mounting for the valve lapping mechanism and also the holding bracket 
+12 
+ 
+for High torque, heavy duty 12V DC gear motor, mounted near the same end. Machine stand 
+is designed to move(slide) 710mm  along the machine bed, therefore allowing the access to 
+any valve position of a cylinder head placed on cylinder head supports. The load generated 
+while the valve lapping process is transmitted to machine bed through the machine stand 
+and the integrity of the structure is a very important factor to consider when designing. Lower 
+end of machine stand which is assembled to machine bed is one of the areas of the machine 
+with highest stress concentration. 
+ 
+Figure 16: Forces affecting the machine stand from the lower end 
+As can be seen in figure 16, the assembly area of the machine stand to machine bed is 
+subjected to loads from machine bed surface and valve lapping process. And because valve 
+lapping is a cyclic process(explained further in the text), the load from valve lapping process 
+is a fatigue load and  therefore the chances of failing the structure of machine stand is more. 
+So it is important to keep this structure in shape. The material assigned for this part also is  
+AISI 1020 steel and it weighs about 10.9 Kg. 
+The two surfaces where the machine stand comes to contact when assembling to the bed 
+must have less friction coefficient in order to move the stand easily. Use of a semisolid 
+lubricant like grease is a good solution for that task. 
+2.4  20 RPM, high torque and heavy duty DC motor fixing bracket 
+ 
+Figure 17: 20 RPM, high torque and heavy duty DC motor fixing bracket 
+13 
+ 
+This bracket holds the motor which transmit motion to the cam and as the cam subjects to 
+some amount of torque, the same torque is transmitted though the motor to the bracket and 
+therefore bracket is also subjected to the same torque. This bracket is fixed to the machine 
+stand using two pan slot head bolts made using stainless steel. When made using AISI 1020 
+steel, this bracket weighs about 379g. 
+2.5  Cam and Cam Follower 
+Cam is the main part responsible for the vertical movement of the valve lapping mechanism. 
+Actually a cam works as a system that consist with a follower, a cam drive and a follower 
+system. 
+ 
+Figure 18: Cam 
+ 
+Figure 19: Cam Follower 
+The vertical motion is gained by the valve lapping mechanism(follower system) when the 
+cam is rotated by the rotary motion of the 20 RPM, high torque and heavy duty DC motor 
+which is the cam drive and the rotary motion is then converted in to linear(vertical) motion 
+using the shape of cam nose and it is transmitted to the valve mechanism through the cam 
+14 
+ 
+follower. The vertical motion of the valve lapping mechanism helps to break the contact 
+between valve seat and the corresponding surface of a cylinder head. The importance of this 
+action is described further in the text.  
+ 
+Figure 20: Conversion of motion through the cam system  
+Figure 20 shows how the rotary motion is converted into linear motion. Cam follower is 
+tensioned using a spring in the valve lapping mechanism and as the cam rotates, follower 
+gain space to move upwards and when the cam nose area returns follower move downwards 
+creating a linear motion. 
+Cam Classification [13] 
+Cam systems are classified using a standard classification method. Following text includes 
+the classification of the cam system used in the valve lapping machine. 
+1. Sequence of follower operation: 
+    Dwell - Rise - Return - Dwell cam(DRRD) - In this type of cam, there is no dwell between 
+rise and return. 
+2. Follower shape: 
+    Flat - face follower 
+3. Follower motion: 
+    Translating follower - Follower moves in a straight line. 
+4. Follower position: 
+    On - Center follower - Line of motion passes through the cam axis. 
+5. Cam motion: 
+    Rotating cam - Rotation is done at constant angular velocity. 
+6. Cam shape: 
+    Open cam (disk or plate cam) 
+7. Follower Constraint: 
+    Spring constraint - The contact between follower and cam profile is maintained by spring. 
+15 
+ 
+The valve lapping machine for internal combustion engines is mainly consist of three main 
+units. The base, the sliding stand and the valve lapping mechanism. The next section of this 
+text is about the parts and operations of the valve lapping mechanism. Parts that belong to 
+the valve lapping mechanism are upper spring mounting bracket, tension spring, lower spring 
+mounting bracket, 200rpm 12V dc gear motor fixing bracket, 200rpm 12V dc gear motor, 
+valve holding piece mounting screw, 40mm extension piece and valve holding piece. 
+2.6  Upper spring mounting bracket 
+ 
+Figure 21: Upper spring mounting bracket 
+Upper spring mounting bracket is assembled to the upper end of the machine stand by two 
+pan slot head bolts. The main function of this part is  connecting the valve lapping 
+mechanism and machine stand together. One side of the tension spring also welded to this 
+part. 
+ 
+Figure 22: Exploded view of upper spring mounting bracket assembly 
+16 
+ 
+The material assigned for this part is Aluminum alloy 1100. The reason for choosing an 
+aluminum alloy is the lower mass density. Therefore the part will be of less weight. The upper 
+spring mounting bracket only weighs about 102g when machined from aluminum alloy 1100. 
+When Originally assigning the materials for parts, the choice was between 3 aluminum 
+alloys. They were alloy 1100, alloy 2011 and alloy 3003. Following are some factors 
+considered when choosing an aluminum alloy from above mentioned three. 
+1. Formability and Workability [14] 
+ 
+Alloy 1100 - excellent formability and workability 
+ 
+Alloy 2011 - good formability and workability 
+ 
+Alloy 3003 - excellent formability and workability 
+2. Weldability 
+ 
+Alloy 1100 - excellent weldability 
+ 
+Alloy 2011 - poor weldability 
+ 
+Alloy 3003 - excellent weldability 
+3. Machinability 
+ 
+Alloy 1100 - good machinability 
+ 
+Alloy 2011 - excellent machinability 
+ 
+Alloy 3003 - good machinability 
+4. Corrosion Resistance 
+ 
+Alloy 1100 - excellent corrosion resistance 
+ 
+Alloy 2011 - poor corrosion resistance 
+ 
+Alloy 3003 - good corrosion resistance 
+Out of the three alloys, alloy 1100 is excellent at the key features that can be considered as 
+benefits in the developing process. The same aluminum alloy is used in two more parts of 
+this machine. 
+2.7  Tension spring 
+ 
+Figure 23: Tension spring 
+17 
+ 
+Tension spring is the link between upper spring mounting bracket and lower spring mounting 
+bracket. They are connected by welding both ends of the spring to the two brackets. And the 
+key function of the tension spring is to participate in the task of creating the linear(vertical) 
+motion of the valve lapping mechanism. The spring diameter is 40mm, it has a pitch of 6 mm 
+with 10 coils. Spring is made from a wire of 3mm diameter and it has a spring constant of 
+3.164 N/mm. The spring is made up of steel and weighs about 75g. 
+2.8  Lower spring mounting bracket. 
+This part can be referred as the center of the valve lapping mechanism. That is because 
+almost every part that makes the valve lapping mechanism functional connects with this part. 
+The cam follower makes contact with this part according to the cam's motion, tension spring 
+is welded to this part and the fixing bracket of the 200rpm 12V dc gear motor which actually 
+do the lapping of valves is also assembled to this part. 
+ 
+Figure 24: Lower spring mounting bracket 
+The top face of the lower spring mounting bracket has a guide, to guide the cam follower and 
+the lower end of cam follower always moves in this guide. When the cam system is working, 
+the cam follower moves downwards and push the lower spring mounting bracket. As the 
+bracket moves downwards, tension spring welded to it begins to deform and therefore a 
+reaction force is creating. This force is directly transmitted to the cam through the follower 
+and as the cam rotates, the follower moves upward using the force created by the spring 
+while the spring takes its original structure. This process happens over and over when the 
+machine is on and the linear motion is created by this process. 
+Material assigned for lower spring mount is aluminum alloy 1100 because the reasons 
+mentioned above in the text and one other reason to choose this light material is that tension 
+spring has to hold the entire weight of the parts assembled to lower spring mounting bracket. 
+This part weighs about 171g. 
+ 
+18 
+ 
+   
+Figure 25: Exploded view of lower spring mounting bracket assembly 
+2.9  200RPM, heavy duty 12V dc gear motor fixing bracket 
+The motor that does the valve lapping is fixes to this bracket and this bracket is assembled to 
+lower spring mounting bracket using two pan slot head bolts. This bracket  subjects to a 
+torque when the machine is on. That torque generates from the valve seat and the 
+reciprocating surface on the cylinder head. This part is also assigned to be developed in 
+aluminum alloy 1100 and weighs about 169g. 
+ 
+Figure 26: 200RPM, heavy duty 12V dc gear motor fixing bracket 
+19 
+ 
+2.10  Valve holding piece mounting screw 
+Fixing of engine valves to the machine in order to lap them is another important task that has 
+to be completed before the valve lapping process begin. This small screw is the first part of 
+the unit designed to hold any king of valve. This mounting screw is fixed to the spindle of the 
+200 rpm motor and one of the valve holding pieces or the extension piece can be mounted to 
+this screw. This part is made from steel and weighs about 5g. 
+ 
+Figure 27: Valve holding piece mounting screw 
+2.11  40mm extension piece 
+This extension piece is designed in order to the machine to be compatible with an engine 
+valve which has a short overall length. When needed, the extension piece is assembled to 
+the valve holding piece mounting screw and then the valve holding piece is assembled to the 
+extension piece. This part also made from steel and has a mass of 65g. 
+ 
+Figure 28: 40mm extension piece 
+20 
+ 
+2.12  Valve holding piece 
+This is one of the most important parts in this machine. Most of the valve lapping power tools 
+and valve lapping sticks doesn't have an effective valve holding unit. Due to that reason, 
+sometimes while the valve lapping process is going on, the engine valve disconnects from 
+the valve holding unit. This is a real inconvenience. To prevent that from happening, valve 
+lapping machine for IC engines has a special valve holding piece. 
+   
+Figure 29: Valve holding piece alpha 
+Shown in figure 29 is a valve holding piece that can be either assembled to the valve holding 
+piece mounting screw or the extension piece. The head of this part is made from steel and 
+body is made from natural rubber since natural rubber has the best elasticity of all rubber 
+types. The head and the body is merged together using an industrial grade 
+adhesive(Urethane or Methacrylate). 
+Body of the valve holding piece is 40mm long. An engine valve can be fixed to the valve 
+holding piece by using only 10mm. That gives a height adjusting space of 30mm for an 
+engine valve. And when the extension piece is used, the overall height adjusting space is 
+70mm. So the valve lapping machine is capable of lapping any engine valve with the overall 
+height between 140mm and 70mm. 
+ 
+Figure 30: An engine valve fixed to a valve holding piece 
+21 
+ 
+The specialty about these valve holding pieces are that there are 5 types of valve holding 
+pieces designed to be compatible with a wide range of engine valves. Specifications for the 5 
+types of valve holding pieces are obtained by analyzing over 300 valves made by different 
+manufacturers such as Acura, Audi, BMW, Chrysler, FIAT, Honda, Hyundai, Mazda, Mini 
+Cooper, Mitsubishi, Nissan, Subaru and Toyota. The analyzing of engine valve data and 
+categorization is included in appendix 1. Given below is the 5 categories of valve holding 
+pieces and the stem diameter each category can handle. 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 1: 5 categories of valve holding pieces 
+ 
+There are 5 valve holding pieces designed for each of the category mentioned in table 1. 
+Figure 31 shows those valve holding pieces. 
+  
+Figure 31: 5 valve holding pieces. (a) α piece, (b) β piece, (c) γ piece, (d) δ piece, (e) ε piece  
+ 
+Note: Engineering drawings of all the parts are included in appendix 2.  
+ 
+Category 
+Stem diameter(mm) 
+α 
+5.00 - 5.99 
+β 
+6.00 - 6.99 
+γ 
+7.00 - 7.99 
+δ 
+8.00 - 8.99 
+ε 
+9.00 - 9.99 
+22 
+ 
+3  CALCULATIONS AND RESULTS 
+3.1  Tension spring calculation 
+ 
+Total mass of the parts below the tension spring 
+Lower spring mounting bracket 
+- 171.29g 
+20 RPM motor holding bracket 
+- 168.72g 
+Two pan slot head bolts 
+ 
+- 49.04g 
+20 RPM motor  
+ 
+ 
+- 84g 
+Valve holding piece mounting screw - 4.64g 
+40 mm extension piece 
+ 
+- 65.12g 
+Valve holding piece ε  
+ 
+- 21.20g 
+ 
+ 
+ 
+ 
+ 
+  539.49g 
+ 
+Total mass of the parts below the tension spring = 0.5395 Kg 
+ 
+Spring constant(k) 
+The equation for calculating spring stiffness using the external dimensions of the spring 
+ 
+k = 
+G.d4
+8.n.D4      
+(1)[15] 
+k - Spring constant (N/mm) 
+G - Modulus of elasticity (Mpa) 
+D - Mean spring diameter (mm) 
+d - Wire diameter (mm) 
+n - number of active coils 
+k = 
+G.d4
+8.n.D4      
+k = 
+200000 ×34
+8×10×404       
+k = 3.164 N/mm 
+ 
+ 
+ 
+23 
+ 
+Force on the upper spring mounting bracket(f) 
+The total force acting on the upper spring mounting bracket is obtained by considering the 
+total mass of the parts below the tension spring and the force needed for the tension spring 
+to reach the required deformed status(15mm stretched). 
+ 
+ 
+F = F0 + sk 
+(2) 
+ 
+F - Total force acting on the upper spring mounting bracket (N) 
+F0 - Total mass of the parts below the tension spring (N) 
+s - deformed(stretched) length of the tension spring) (mm) 
+F = F0 + sk 
+F = 0.5395×10 + 15×3.164 
+F = 52.86 N  
+ 
+3.2  Torque affecting the 20 RPM DC motor 
+ 
+ 
+Figure 32 : Forces acting on cam 
+The force N is applied by the cam follower when the tension spring stretches 15mm and the 
+moment around point A is calculated using friction forces generate on the surfaces of cam 
+and follower. 
+ 
+ 
+24 
+ 
+Friction forces generated in static and kinetic status 
+ 
+Ff = μ.N 
+(3) 
+Ff - Friction force acting on cam 
+μ - Coefficient of friction 
+N - Force acting on cam from the cam follower 
+ 
+ 
+ 
+Let's consider a situation when the cam is moving(kinetic status) 
+Coefficient of friction for steel on steel, μk = 0.6 [16] 
+Ffk = μk.N 
+Ffk = 0.6×52.86 
+Ffk = 31.72N 
+Torque at point A when the cam is moving  = TAk 
+TAk = Ffk×0.027m 
+TAk = 31.72×0.027 
+TAk = 0.85644Nm 
+TAk = 8.5644Kg.cm 
+ 
+ 
+Let's consider a situation when the cam is not moving(static status) 
+Coefficient of friction for steel on steel, μs = 0.7 
+Ffs = μs.N 
+Ffs = 0.7×52.86 
+Ffs = 37.00N 
+Torque at point A when the cam is moving  = TAs 
+TAs = Ffs×0.027m 
+TAs = 37.00×0.027m 
+TAs = 0.9999Nm 
+TAs = 9.999kg.cm 
+As can be seen from above results, the maximum torque that has to be handled by the 
+20RPM DC motor is 9.999Kg.cm . As the motor is compatible with torques between from 10-
+19kg.cm, the motor and therefore the cam will work fine. 
+25 
+ 
+4     3D MODEL SIMULATIONS OF VALVE LAPPING MACHINE FOR INTERNAL 
+COMBUSTION ENGINES 
+This chapter includes stress, strain and displacement simulations of various parts of the 
+valve lapping machine where  loads or torques are applied using finite element analysis 
+methods. The point of these simulations are to examine the integrity of the structure of the 
+machine before developing it and if any faults are found, to correct them and optimize. The 
+parts and assemblies mentioned below will be analyzed. 
+1. 20 RPM DC motor fixing bracket (loaded with 0.9999N.m torque) 
+2. Tension spring (loaded with 52.86N force) 
+3. Cam (loaded with 52.86N force and 0.9999N.m torque) 
+4. Machine bed assembly 
+ 
+Note: All the simulations are done using SolidWorks Simulations. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+26 
+ 
+4.1  20 RPM DC motor fixing bracket 
+Model Information 
+Table 2: model information of 20 RPM DC motor fixing bracket 
+ 
+ 
+Model name: 20RPM high torque and heavy duty 12V motor fixing bracket 
+Current Configuration: Default 
+Solid Bodies 
+<L_MdInf_SldBd_N
+m/> 
+Treated As 
+Volumetric Properties 
+Document 
+Path/Date Modified 
+Cut-Extrude1 
+Solid Body 
+Mass:0.378852 kg 
+Volume:4.7956e-005 
+m^3 
+Density:7900 kg/m^3 
+Weight:3.71275 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\2nd 
+motor holding 
+bracket.SLDPRT 
+Jul 08 18:33:49 2015 
+<L_MdInf_ShlBd_N
+m/> 
+<L_MdIn_ShlBd_
+Fr/> 
+<L_MdInf_ShlBd_VolPr
+op/> 
+<L_MdIn_ShlBd_Dt
+Md/> 
+<L_MdInf_CpBd_Nm
+/> 
+<L_MdInf_CompBd_Props/> 
+<L_MdInf_BmBd_N
+m/> 
+<L_MdIn_BmBd_
+Fr/> 
+<L_MdInf_BmBd_VolPr
+op/> 
+<L_MdIn_BmBd_Dt
+Md/> 
+27 
+ 
+Study properties 
+Study name 
+motor fixing bracket 
+Analysis type 
+Static 
+Mesh type 
+Solid Mesh 
+Thermal Effect:  
+On 
+Thermal option 
+Include temperature loads 
+Zero strain temperature 
+298 Kelvin 
+Include fluid pressure effects from 
+SolidWorks Flow Simulation 
+Off 
+Solver type 
+FFEPlus 
+Inplane Effect:  
+Off 
+Soft Spring:  
+Off 
+Inertial Relief:  
+Off 
+Incompatible bonding options 
+Automatic 
+Large displacement 
+Off 
+Compute free body forces 
+On 
+Friction 
+Off 
+Use Adaptive Method:  
+Off 
+Result folder 
+SolidWorks document 
+(E:\Work\Documents\CINEC\Final Year 
+Project\Parts and assembly of valve lapping 
+machine\Parts\20RPM high torque abd heavy 
+duty 12V motor fixing bracket) 
+Table 3: study properties of 20 RPM DC motor fixing bracket 
+Units 
+Unit system: 
+SI (MKS) 
+Length/Displacement 
+mm 
+Temperature 
+Kelvin 
+Angular velocity 
+Rad/sec 
+Pressure/Stress 
+N/mm^2 (MPa) 
+Table 4: units for 20 RPM DC motor fixing bracket simulation 
+ 
+ 
+ 
+ 
+ 
+ 
+28 
+ 
+Material properties 
+Table 5: material properties of 20 RPM DC motor fixing bracket 
+Loads and fixtures 
+Fixture name 
+Fixture Image 
+Fixture Details 
+Fixed-1 
+ 
+Entities: 2 face(s) 
+Type: Fixed Geometry 
+ 
+Resultant Forces 
+Components 
+X 
+Y 
+Z 
+Resultant 
+Reaction force(N) 
+-0.00108176 
+0.00122023 
+-0.000446364 
+0.00169068 
+Reaction 
+Moment(N.m) 
+0 
+0 
+0 
+0 
+Table 6: fixtures of 20 RPM DC motor fixing bracket 
+ 
+Load name 
+Load Image 
+Load Details 
+Torque-1 
+ 
+Entities: 1 face(s) 
+Type: Apply torque 
+Value: -0.999 N.m 
+ 
+Table 7: loads of 20 RPM DC motor fixing bracket 
+ 
+ 
+Model Reference 
+Properties 
+Components 
+ 
+Name: AISI 1020 
+Model type: Linear Elastic 
+Isotropic 
+Default failure 
+criterion: 
+Unknown 
+Yield strength: 351.571 N/mm^2 
+Tensile strength: 420.507 N/mm^2 
+Elastic modulus: 200000 N/mm^2 
+Poisson's ratio: 0.29   
+Mass density: 7900 g/cm^3 
+Shear modulus: 77000 N/mm^2 
+Thermal 
+expansion 
+coefficient: 
+1.5e-005 /Kelvin 
+SolidBody 1(Cut-
+Extrude1)(2nd motor 
+holding bracket-1) 
+Curve Data:N/A 
+29 
+ 
+Mesh information 
+Mesh type 
+Solid Mesh 
+Mesher Used:  
+Standard mesh 
+Automatic Transition:  
+Off 
+Include Mesh Auto Loops:  
+Off 
+Jacobian points 
+4 Points 
+Element Size 
+3.63433 mm 
+Tolerance 
+0.181717 mm 
+Mesh Quality 
+High 
+Remesh failed parts with incompatible 
+mesh 
+Off 
+ 
+Total Nodes 
+13686 
+Total Elements 
+8361 
+Maximum Aspect Ratio 
+16.476 
+% of elements with Aspect Ratio < 3 
+99.7 
+% of elements with Aspect Ratio > 10 
+0.0598 
+% of distorted elements(Jacobian) 
+0 
+Time to complete mesh(hh;mm;ss):  
+00:00:01 
+Computer name:  
+AYO-PC 
+Table 8: mesh information of 20 RPM DC motor fixing bracket 
+ 
+Figure 33: solid mesh of 20 RPM DC motor fixing bracket 
+ 
+30 
+ 
+Resultant forces 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire Model 
+N 
+-0.00108176 
+0.00122023 
+-0.000446364 
+0.00169068 
+Table 9: Reaction forces 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire Model 
+N.m 
+0 
+0 
+0 
+0 
+Table 10: Reaction moments 
+ 
+Study results 
+Name 
+Type 
+Min 
+Max 
+Stress1 
+VON: von Mises 
+Stress 
+0.0010742 N/mm^2 (MPa) 
+Node: 5067 
+0.410296 N/mm^2 
+(MPa) 
+Node: 10098 
+ 
+20RPM high torque abd heavy duty 12V motor fixing bracket-motor fixing bracket-Stress-
+Stress1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31 
+ 
+Name 
+Type 
+Min 
+Max 
+Displacement1 
+URES: Resultant 
+Displacement 
+0 mm 
+Node: 1 
+0.000133868 mm 
+Node: 9678 
+ 
+20RPM high torque abd heavy duty 12V motor fixing bracket-motor fixing bracket-
+Displacement-Displacement1 
+ 
+ 
+Name 
+Type 
+Min 
+Max 
+Strain1 
+ESTRN: Equivalent Strain 
+3.4324e-009  
+Element: 6323 
+1.54453e-006  
+Element: 566 
+ 
+20RPM high torque abd heavy duty 12V motor fixing bracket-motor fixing bracket-Strain-
+Strain1 
+ 
+ 
+ 
+32 
+ 
+4.2  Tension spring 
+Model information 
+ 
+Model name: spring 1 
+Current Configuration: Default 
+Solid Bodies 
+<L_MdInf_SldBd_N
+m/> 
+Treated As 
+Volumetric Properties 
+Document Path/Date 
+Modified 
+Cut-Extrude3 
+Solid Body 
+Mass:0.0741742 kg 
+Volume:9.38913e-006 
+m^3 
+Density:7900 kg/m^3 
+Weight:0.726907 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\Tensi
+on spring\spring 
+1.SLDPRT 
+Jul 07 19:54:52 2015 
+<L_MdInf_ShlBd_N
+m/> 
+<L_MdIn_ShlBd_
+Fr/> 
+<L_MdInf_ShlBd_VolPr
+op/> 
+<L_MdIn_ShlBd_Dt
+Md/> 
+<L_MdInf_CpBd_Nm
+/> 
+<L_MdInf_CompBd_Props/> 
+<L_MdInf_BmBd_N
+m/> 
+<L_MdIn_BmBd_
+Fr/> 
+<L_MdInf_BmBd_VolPr
+op/> 
+<L_MdIn_BmBd_Dt
+Md/> 
+Table 11: model information of tension spring 
+ 
+ 
+ 
+ 
+ 
+33 
+ 
+Study properties 
+Study name 
+Tension spring 
+Analysis type 
+Static 
+Mesh type 
+Solid Mesh 
+Thermal Effect:  
+On 
+Thermal option 
+Include temperature loads 
+Zero strain temperature 
+298 Kelvin 
+Include fluid pressure effects from 
+SolidWorks Flow Simulation 
+Off 
+Solver type 
+FFEPlus 
+Inplane Effect:  
+Off 
+Soft Spring:  
+Off 
+Inertial Relief:  
+Off 
+Incompatible bonding options 
+Automatic 
+Large displacement 
+On 
+Compute free body forces 
+On 
+Friction 
+Off 
+Use Adaptive Method:  
+Off 
+Result folder 
+SolidWorks document 
+(E:\Work\Documents\CINEC\Final Year 
+Project\Parts and assembly of valve lapping 
+machine\Parts\Tension spring) 
+Table 12: study properties of tension spring 
+Units 
+Unit system: 
+SI (MKS) 
+Length/Displacement 
+mm 
+Temperature 
+Kelvin 
+Angular velocity 
+Rad/sec 
+Pressure/Stress 
+N/mm^2 (MPa) 
+Table 13: units for tension spring simulation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+34 
+ 
+Material properties 
+Model Reference 
+Properties 
+Components 
+Name: AISI 1020 
+Model type: Linear Elastic 
+Isotropic 
+Default failure 
+criterion: 
+Unknown 
+Yield strength: 351.571 N/mm^2 
+Tensile strength: 420.507 N/mm^2 
+Elastic modulus: 200000 N/mm^2 
+Poisson's ratio: 0.29   
+Mass density: 7900 g/cm^3 
+Shear modulus: 77000 N/mm^2 
+Thermal 
+expansion 
+coefficient: 
+1.5e-005 /Kelvin 
+SolidBody 1(Cut-
+Extrude3)(spring 1) 
+Curve Data:N/A 
+Table 14: material properties of tension spring 
+Loads and fixtures 
+Table 15: fixtures of tension spring 
+ 
+Table 16: loads of tension spring 
+ 
+ 
+ 
+ 
+Fixture name 
+Fixture Image 
+Fixture Details 
+Fixed-1 
+Entities: 1 face(s) 
+Type: Fixed Geometry 
+ 
+Resultant Forces 
+Components 
+X 
+Y 
+Z 
+Resultant 
+Reaction force(N) 
+-0.00734208 
+52.7843 
+0.0170111 
+52.7843 
+Reaction 
+Moment(N.m) 
+0 
+0 
+0 
+0 
+Load name 
+Load Image 
+Load Details 
+Force-1 
+Entities: 1 face(s) 
+Type: Apply normal force 
+Value: -52.86 N 
+ 
+35 
+ 
+Mesh information 
+Mesh type 
+Solid Mesh 
+Mesher Used:  
+Standard mesh 
+Automatic Transition:  
+Off 
+Include Mesh Auto Loops:  
+Off 
+Jacobian points 
+4 Points 
+Element Size 
+2.28217 mm 
+Tolerance 
+0.114109 mm 
+Mesh Quality 
+High 
+ 
+Table 17: mesh information of tension spring 
+ 
+ 
+Figure 34: solid mesh of tension spring 
+ 
+Total Nodes 
+23533 
+Total Elements 
+11014 
+Maximum Aspect Ratio 
+13.211 
+% of elements with Aspect Ratio < 3 
+87.7 
+% of elements with Aspect Ratio > 10 
+0.272 
+% of distorted elements(Jacobian) 
+0 
+Time to complete mesh(hh;mm;ss):  
+00:00:19 
+Computer name:  
+AYO-PC 
+36 
+ 
+Resultant forces 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire Model 
+N 
+-0.00734208 
+52.7843 
+0.0170111 
+52.7843 
+Table 18: reaction forces of tension spring 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire Model 
+N.m 
+0 
+0 
+0 
+0 
+Table 19: reaction moments of tension spring 
+ 
+Study results 
+Name 
+Type 
+Min 
+Max 
+Stress-tension 
+spring 
+VON: von Mises 
+Stress 
+1.38979e-009 N/mm^2 
+(MPa) 
+Node: 6259 
+647.925 N/mm^2 
+(MPa) 
+Node: 3514 
+ 
+spring 1-Tension spring-Stress-Stress1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+37 
+ 
+Name 
+Type 
+Min 
+Max 
+Displacement- tension 
+spring 
+URES: Resultant 
+Displacement 
+0 mm 
+Node: 3409 
+39.2326 mm 
+Node: 3572 
+ 
+spring 1-Tension spring-Displacement-Displacement1 
+ 
+ 
+Name 
+Type 
+Min 
+Max 
+Strain- tension 
+spring 
+ESTRN: Equivalent 
+Strain 
+5.92779e-015  
+Element: 2415 
+0.00172455  
+Element: 10215 
+ 
+spring 1-Tension spring-Strain-Strain1 
+ 
+ 
+ 
+38 
+ 
+4.3  Cam 
+Model information 
+Model name: cam 
+Current Configuration: Default 
+Solid Bodies 
+<L_MdInf_SldBd_Nm
+/> 
+Treated As 
+Volumetric Properties 
+Document Path/Date 
+Modified 
+Cut-Extrude1 
+Solid Body 
+Mass:0.111377 kg 
+Volume:1.40983e-005 
+m^3 
+Density:7900 kg/m^3 
+Weight:1.09149 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\cam.S
+LDPRT 
+Aug 06 12:02:53 
+2015 
+<L_MdInf_ShlBd_Nm
+/> 
+<L_MdIn_ShlBd_
+Fr/> 
+<L_MdInf_ShlBd_VolPro
+p/> 
+<L_MdIn_ShlBd_DtM
+d/> 
+<L_MdInf_CpBd_Nm
+/> 
+<L_MdInf_CompBd_Props/> 
+<L_MdInf_BmBd_N
+m/> 
+<L_MdIn_BmBd_
+Fr/> 
+<L_MdInf_BmBd_VolPro
+p/> 
+<L_MdIn_BmBd_Dt
+Md/> 
+Table 20: model information of cam 
+ 
+ 
+ 
+ 
+ 
+ 
+39 
+ 
+Study properties 
+Study name 
+cam 
+Analysis type 
+Static 
+Mesh type 
+Solid Mesh 
+Thermal Effect:  
+On 
+Thermal option 
+Include temperature loads 
+Zero strain temperature 
+298 Kelvin 
+Include fluid pressure effects from 
+SolidWorks Flow Simulation 
+Off 
+Solver type 
+FFEPlus 
+Inplane Effect:  
+Off 
+Soft Spring:  
+Off 
+Inertial Relief:  
+Off 
+Incompatible bonding options 
+Automatic 
+Large displacement 
+Off 
+Compute free body forces 
+On 
+Friction 
+Off 
+Use Adaptive Method:  
+Off 
+Result folder 
+SolidWorks document 
+(E:\Work\Documents\CINEC\Final Year 
+Project\Parts and assembly of valve lapping 
+machine\Parts) 
+Table 21: study properties of cam 
+Units 
+Unit system: 
+SI (MKS) 
+Length/Displacement 
+mm 
+Temperature 
+Kelvin 
+Angular velocity 
+Rad/sec 
+Pressure/Stress 
+N/mm^2 (MPa) 
+Table 22: units for cam simulation 
+ 
+ 
+ 
+ 
+ 
+ 
+40 
+ 
+Material properties  
+Model Reference 
+Properties 
+Components 
+Name: AISI 1020 
+Model type: Linear Elastic 
+Isotropic 
+Default failure 
+criterion: 
+Unknown 
+Yield strength: 351.571 N/mm^2 
+Tensile strength: 420.507 N/mm^2 
+Elastic modulus: 200000 N/mm^2 
+Poisson's ratio: 0.29   
+Mass density: 7900 g/cm^3 
+Shear modulus: 77000 N/mm^2 
+ 1.5e-005 /Kelvin 
+ 
+SolidBody 1(Cut-
+Extrude1)(cam) 
+Curve Data:N/A 
+Table 23: material properties of cam 
+Loads and fixtures 
+Fixture name 
+Fixture Image 
+Fixture Details 
+Fixed Hinge-
+1 
+Entities: 1 face(s) 
+Type: Fixed Hinge 
+ 
+Resultant Forces 
+Components 
+X 
+Y 
+Z 
+Resultant 
+Reaction force(N) 
+1.04323e+008 
+2.37755e+007 
+-1.20605e+006 
+1.07005e+008 
+Reaction 
+Moment(N.m) 
+0 
+0 
+0 
+0 
+Table 24: fixtures of cam 
+Load name 
+Load Image 
+Load Details 
+Force-1 
+Entities: 1 face(s) 
+Type: Apply normal force 
+Value: 52.86 N 
+ 
+Torque-1 
+Entities: 1 face(s) 
+Reference: Face< 1 > 
+Type: Apply torque 
+Value: 0.9999 N.m 
+ 
+Table 25: loads of cam 
+41 
+ 
+Mesh information 
+Mesh type 
+Solid Mesh 
+Mesher Used:  
+Standard mesh 
+Automatic Transition:  
+Off 
+Include Mesh Auto Loops:  
+Off 
+Jacobian points 
+4 Points 
+Element Size 
+2.41667 mm 
+Tolerance 
+0.120834 mm 
+Mesh Quality 
+High 
+ 
+Total Nodes 
+12097 
+Total Elements 
+7820 
+Maximum Aspect Ratio 
+4.6629 
+% of elements with Aspect Ratio < 3 
+99.8 
+% of elements with Aspect Ratio > 10 
+0 
+% of distorted elements(Jacobian) 
+0 
+Time to complete mesh(hh;mm;ss):  
+00:00:01 
+Computer name:  
+AYO-PC 
+Table 26: mesh information of cam 
+ 
+Figure 35: solid mesh of cam 
+ 
+ 
+42 
+ 
+Reaction forces 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire 
+Model 
+N 
+1.04323e+008 
+2.37755e+007 
+-1.20605e+006 
+1.07005e+008 
+Table 27: reaction forces of cam 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire Model 
+N.m 
+0 
+0 
+0 
+0 
+Table 28: reaction moments of cam 
+ 
+Study results 
+Name 
+Type 
+Min 
+Max 
+Stress1 
+VON: von Mises 
+Stress 
+33904.4 N/mm^2 
+(MPa) 
+Node: 7238 
+2.26159e+007 N/mm^2 
+(MPa) 
+Node: 11920 
+ 
+cam-cam-Stress-Stress1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+43 
+ 
+Name 
+Type 
+Min 
+Max 
+Displacement1 
+URES: Resultant 
+Displacement 
+1.10936e+007 mm 
+Node: 816 
+3.31112e+009 mm 
+Node: 205 
+ 
+cam-cam-Displacement-Displacement1 
+ 
+ 
+Name 
+Type 
+Min 
+Max 
+Strain1 
+ESTRN: Equivalent Strain 
+0.114081  
+Element: 5573 
+71.5363  
+Element: 3170 
+ 
+cam-cam-Strain-Strain1 
+ 
+ 
+ 
+44 
+ 
+4.4  Machine bed assembly 
+Model information 
+ 
+Model name: bed assembly 
+Current Configuration: Default 
+Solid Bodies 
+<L_MdInf_SldBd_N
+m/> 
+Treated As 
+Volumetric Properties 
+Document Path/Date 
+Modified 
+Fillet7 
+Solid Body 
+Mass:79.7336 kg 
+Volume:0.0100929 m^3 
+Density:7900 kg/m^3 
+Weight:781.39 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\bed.S
+LDPRT 
+Jun 30 11:33:08 
+2015 
+Boss-Extrude6[1] 
+Solid Body 
+Mass:0.0558418 kg 
+Volume:7.06858e-006 
+m^3 
+Density:7900 kg/m^3 
+Weight:0.54725 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\bed.S
+LDPRT 
+Jun 30 11:33:08 
+2015 
+Boss-Extrude6[2] 
+Solid Body 
+Mass:0.0558418 kg 
+Volume:7.06858e-006 
+m^3 
+Density:7900 kg/m^3 
+Weight:0.54725 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\bed.S
+LDPRT 
+Jun 30 11:33:08 
+2015 
+45 
+ 
+Fillet5 
+Solid Body 
+Mass:4.78648 kg 
+Volume:0.000605883 
+m^3 
+Density:7900 kg/m^3 
+Weight:46.9075 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\mova
+ble cylinder head 
+support.SLDPRT 
+Jun 29 23:17:51 
+2015 
+Fillet5 
+Solid Body 
+Mass:4.78648 kg 
+Volume:0.000605883 
+m^3 
+Density:7900 kg/m^3 
+Weight:46.9075 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\mova
+ble cylinder head 
+support.SLDPRT 
+Jun 29 23:17:51 
+2015 
+Fillet1 
+Solid Body 
+Mass:0.553949 kg 
+Volume:7.01202e-005 
+m^3 
+Density:7900 kg/m^3 
+Weight:5.4287 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\suppo
+rt block for the stand 
+clearance.SLDPRT 
+Jun 29 13:37:50 
+2015 
+Fillet3 
+Solid Body 
+Mass:10.9933 kg 
+Volume:0.00139155 
+m^3 
+Density:7900 kg/m^3 
+Weight:107.734 N 
+ 
+E:\Work\Documents\
+CINEC\Final Year 
+Project\Parts and 
+assembly of valve 
+lapping 
+machine\Parts\valve 
+lapping mechanism 
+mount and 
+stand.SLDPRT 
+Jul 01 09:02:48 2015 
+<L_MdInf_ShlBd_N
+m/> 
+<L_MdIn_ShlBd_
+Fr/> 
+<L_MdInf_ShlBd_VolPro
+p/> 
+<L_MdIn_ShlBd_Dt
+Md/> 
+<L_MdInf_CpBd_Nm
+/> 
+<L_MdInf_CompBd_Props/> 
+<L_MdInf_BmBd_N
+m/> 
+<L_MdIn_BmBd_
+Fr/> 
+<L_MdInf_BmBd_VolPr
+op/> 
+<L_MdIn_BmBd_Dt
+Md/> 
+Table 29: model information of machine bed assembly 
+ 
+ 
+ 
+46 
+ 
+Study properties 
+Study name 
+Machine bed assembly 
+Analysis type 
+Static 
+Mesh type 
+Solid Mesh 
+Thermal Effect:  
+On 
+Thermal option 
+Include temperature loads 
+Zero strain temperature 
+298 Kelvin 
+Include fluid pressure effects from 
+SolidWorks Flow Simulation 
+Off 
+Solver type 
+FFEPlus 
+Inplane Effect:  
+Off 
+Soft Spring:  
+Off 
+Inertial Relief:  
+Off 
+Incompatible bonding options 
+Automatic 
+Large displacement 
+Off 
+Compute free body forces 
+On 
+Friction 
+Off 
+Use Adaptive Method:  
+Off 
+Result folder 
+SolidWorks document 
+(E:\Work\Documents\CINEC\Final Year 
+Project\Parts and assembly of valve lapping 
+machine\Assembly\Bed assembly) 
+Table 30: study properties of machine bed assembly 
+Units 
+Unit system: 
+SI (MKS) 
+Length/Displacement 
+mm 
+Temperature 
+Kelvin 
+Angular velocity 
+Rad/sec 
+Pressure/Stress 
+N/mm^2 (MPa) 
+Table 31: units for machine bed assembly simulation 
+ 
+ 
+ 
+ 
+ 
+ 
+47 
+ 
+Material properties 
+Model Reference 
+Properties 
+Components 
+Name: AISI 1020 
+Model type: Linear Elastic 
+Isotropic 
+Default failure 
+criterion: 
+Unknown 
+Yield strength: 351.571 N/mm^2 
+Tensile strength: 420.507 N/mm^2 
+Elastic modulus: 200000 N/mm^2 
+Poisson's ratio: 0.29   
+Mass density: 7900 g/cm^3 
+Shear modulus: 77000 N/mm^2 
+Thermal 
+expansion 
+coefficient: 
+1.5e-005 /Kelvin 
+ 
+SolidBody1(Fillet7)(b
+ed-1), 
+SolidBody 2(Boss-
+Extrude6[1])(bed-1), 
+SolidBody 3(Boss-
+Extrude6[2])(bed-1), 
+SolidBody1(Fillet5)(
+movable cylinder 
+head support-1), 
+SolidBody1(Fillet5)(
+movable cylinder 
+head support-2), 
+SolidBody1(Fillet1)(s
+upport block for the 
+stand clearance-1), 
+SolidBody1(Fillet3)(v
+alve lapping 
+mechanism mount 
+and stand-1) 
+Curve Data:N/A 
+Table 32: material properties of machine bed assembly 
+Loads and fixtures 
+Fixture name 
+Fixture Image 
+Fixture Details 
+Fixed-1 
+Entities: 6 face(s) 
+Type: Fixed Geometry 
+ 
+Resultant Forces 
+Components 
+X 
+Y 
+Z 
+Resultant 
+Reaction force(N) 
+-0.00489616 
+349.133 
+-0.0881701 
+349.133 
+Reaction 
+Moment(N.m) 
+0 
+0 
+0 
+0 
+Fixed-2 
+Entities: 2 face(s) 
+Type: Fixed Geometry 
+ 
+Resultant Forces 
+Components 
+X 
+Y 
+Z 
+Resultant 
+Reaction force(N) 
+211.918 
+146.563 
+-17.4906 
+258.256 
+Reaction 
+Moment(N.m) 
+0 
+0 
+0 
+0 
+ 
+Table 33: fixtures of machine bed assembly 
+48 
+ 
+Load name 
+Load Image 
+Load Details 
+Force-1 
+Entities: 2 face(s) 
+Type: Apply normal force 
+Value: 35 kgf 
+ 
+Force-2 
+Entities: 1 face(s) 
+Type: Apply normal force 
+Value: -0.613 kgf 
+ 
+Table 34: loads of machine bed assembly 
+Mesh information 
+Mesh type 
+Solid Mesh 
+Mesher Used:  
+Standard mesh 
+Automatic Transition:  
+Off 
+Include Mesh Auto Loops:  
+Off 
+Jacobian points 
+4 Points 
+Element Size 
+26.2679 mm 
+Tolerance 
+1.3134 mm 
+Mesh Quality 
+High 
+Remesh failed parts with incompatible 
+mesh 
+Off 
+ 
+Total Nodes 
+22131 
+Total Elements 
+11127 
+Maximum Aspect Ratio 
+23.563 
+% of elements with Aspect Ratio < 3 
+78.1 
+% of elements with Aspect Ratio > 10 
+0.494 
+% of distorted elements(Jacobian) 
+0 
+Time to complete mesh(hh;mm;ss):  
+00:00:05 
+Computer name:  
+AYO-PC 
+Table 35: mesh information of machine bed assembly 
+ 
+ 
+ 
+ 
+49 
+ 
+ 
+Figure 36: solid mesh of machine bed assembly 
+ 
+Contact information 
+Contact 
+Contact Image 
+Contact Properties 
+Global Contact 
+Type: Bonded 
+Components: 1component
+(s) 
+Options: Compatible 
+mesh 
+ 
+Table 37: contact information of machine bed assembly 
+Resultant forces 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire Model 
+N 
+-0.00489616 
+349.133 
+-0.0881701 
+349.133 
+Table 38: reaction forces of machine bed assembly 
+Selection 
+set 
+Units 
+Sum X 
+Sum Y 
+Sum Z 
+Resultant 
+Entire Model 
+N.m 
+0 
+0 
+0 
+0 
+Table 38: reaction moments of machine bed assembly 
+ 
+ 
+ 
+50 
+ 
+Study results 
+Name 
+Type 
+Min 
+Max 
+Stress1 
+VON: von Mises 
+Stress 
+0.000184927 N/mm^2 (MPa) 
+Node: 18640 
+0.842925 N/mm^2 
+(MPa) 
+Node: 16084 
+ 
+bed assembly-Machine bed assembly-Stress-Stress1 
+ 
+Name 
+Type 
+Min 
+Max 
+Displacement1 
+URES: Resultant 
+Displacement 
+0 mm 
+Node: 763 
+0.00709276 mm 
+Node: 18651 
+ 
+bed assembly-Machine bed assembly-Displacement-Displacement1 
+ 
+51 
+ 
+Name 
+Type 
+Min 
+Max 
+Strain1 
+ESTRN: Equivalent Strain 
+5.71887e-010  
+Element: 10498 
+3.65668e-006  
+Element: 7883 
+ 
+bed assembly-Machine bed assembly-Strain-Strain1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+52 
+ 
+5  ANALYSIS AND DISCUSSION OF RESULTS 
+ 
+Design of valve lapping machine for internal combustion engines was a huge task to 
+undergo since the designing has to begin from scratch. In this section the problems and 
+challenges like alterations made to the design, failure of some structures when analyzed, 
+problems with designing the valve lapping mechanism, ideas that came along while doing the 
+design and the integrity of designs are discussed. 
+After the project for design of valve lapping machine for internal combustion engines was 
+approved the first challenge was to combine the existing calve lapping power tool and hand 
+motion used when doing that same process by a valve lapping stick. The first design for 
+calve lapping mechanism was a part that has a motor for valve lapping task and wheel to 
+operate manually in order to move the motor vertically adapting the hand motion. Rack and 
+pinion was used to convert circular motion of wheel to a vertical motion. Problem with this 
+design was that since employing a rack and pinion made it a little hard for the wheel to 
+operate and in order lap a valve, it needs a sensible system that minimizes the damage to 
+valves, this way that goal could not be achieved. The implemented design was finalized after 
+considering two other designs for valve lapping mechanism. The existing design of calve 
+lapping mechanism was inspired by the valve operating mechanism of a internal combustion 
+engine where valves open and close by a system implemented with valve springs, pushrods, 
+rocker arms and a cam shaft. 
+After finalizing the valve lapping mechanism, the next task was to design a structure to hold 
+the valve lapping mechanism. Machine bed and machine stand was designed in this stage. 
+Design of machine bed was quite easy while designing machine stand was very challenging. 
+First design for machine stand included two adjustable arms to adjust vertical height from 
+valve lapping mechanism to cylinder head and to adjust horizontal distance without moving 
+the cylinder head. But that design was too heavy and little complex to be proceeded with. 
+After giving much thought, a design of a solid machine stand was done and the horizontal 
+adjustment problem was addressed by making the machine bed wider and vertical 
+adjustment problem was solved by designing a 40mm extension piece. 
+Simulations were done after finishing initial designs and structural integrity of machine stand 
+was good and capable of handling the necessary load. But machine bed and cylinder head 
+supports showed weaknesses. Stress concentration of some places were too much and 
+showed a visible deformation loaded. These simulations led to new designs of machine bed 
+and cylinder head supports. Following figures(figures 37, 38 and 39) shows simulations of 
+stress, strain and displacement of initial designs of bed and cylinder head supports.  
+53 
+ 
+ 
+Figure 37: displacement simulation of initial design of machine bed 
+ 
+ 
+Figure 38: strain simulation of initial design of machine bed 
+ 
+ 
+ 
+ 
+54 
+ 
+ 
+Figure 39: stress simulation of initial design of machine bed 
+The vertical movement of valve lapping mechanism is done using a tension spring(function of 
+tension spring is explained in the text). Calculations showed that the initial design of tension 
+spring has a very high spring coefficient which cannot be operated using  the selected motor 
+and could not reach the expected deformed status(15mm). Figure 40 shows the initial design 
+of tension spring. 
+ 
+Figure 40: initial design of tension spring 
+ 
+55 
+ 
+New design of the tension spring was done by considering all necessary factors like the 
+torque range of motor, deformation range of tension spring and height of the spring. After 
+finishing the design of the tension spring, calculations were done in order to make sure that 
+the motor can handle the torque. These calculations included tension spring, cam and 
+20RPM DC motor. According to the calculations, the maximum torque that has to be handled 
+by the motor is 9.999kg.cm and the motor is capable of handling a torque range between 10-
+19kg.cm . 
+Design of valve holding piece was the most hard task. This design is an answer to the most 
+common problem in valve lapping process. The problem is that the valve falls off from the 
+plastic tube of power tool and also falls off from valve lapping stick. There were many ideas 
+for this design and not one of them was simple and easy. So after discarding many designs, 
+the final choice was to analyze few hundred valves used in different vehicle brands and 
+categorize them by valve stem diameter. This way 5 valve holding pieces of different sizes 
+were designed that will be suitable for any commercial automobile engine valve. 
+After finalizing all the designs, major parts of the machine were simulated. 
+ 
+6  CONCLUSION 
+ 
+The problem of holding engine valves was solved by designing valve holding pieces. 
+ 
+Valve lapping mechanism was implemented replacing manual labor. 
+ 
+Cylinder head supports has eased the moving of cylinder heads horizontally. 
+ 
+Vertical height adjustment problem was solved by introducing 40mm extension piece. 
+ 
+20 RPM DC motor is able to handle the torque necessary to valve lapping process. 
+ 
+Valve lapping mechanism was designed as a assembly of several parts easing any 
+maintenance to the machine. 
+ 
+Structural integrity of machine bed, machine stand, cylinder head supports, tension 
+spring and cam against loads and torques were fine and the designs are successful. 
+ 
+Weight of the whole machine is somewhat higher than anticipated. 
+ 
+All the designs could be completed successfully. 
+ 
+To observe the functionality and the efficiency of the valve lapping machine, it is needed 
+to be developed. This task could not be achieved. 
+ 
+ 
+7  ACKNOWLEDGEMENT   
+First of all I would like to thank my parents for providing me with everything necessary and 
+helping me throughout my life and for the guidance.  
+I would like to express my sincere gratitude and appreciation to my project supervisor, Mr. 
+Kapila Elkaduwe for his valuable guidance and support.  
+I would also like to acknowledge all my colleagues, too numerous to mention by name, for 
+their precious encouragement and support.  
+Last but not least, I take this opportunity to express my gratitude to university of 
+Wolverhampton for providing this priceless education and I would like to thank all my 
+lecturers and administrative staff of CINEC campus, engineering and technology department 
+for their support. 
+56 
+ 
+8  REFERENCES 
+[1] Figure 
+of 
+valves 
+positioned 
+in 
+the 
+cylinder 
+head 
+available 
+at 
+http://www.ephotomotion.com/914engine/images/142%20%20lapping%20cylinders%20
+3.jpg 
+[2] Figure 
+of 
+lapped 
+and 
+non-lapped 
+valves 
+available 
+at 
+http://s858.photobucket.com/user/1fuzzydunlop1/media/Valve%20Lapping/IMGP3839-
+1.jpg.html 
+[3] Figure 
+of 
+a 
+valve 
+seat 
+surface 
+available 
+at 
+http://www.mre-
+books.com/ford/engines/images/chamber_large_valve.JPG 
+[4] Figure 
+of 
+a 
+detailed 
+diagram 
+of 
+an 
+engine 
+valve 
+available 
+at 
+http://www.ameeraexports.com/images/e_valve1.gif 
+[5] Figure 
+of 
+commonly 
+used 
+valve 
+lapping 
+sticks 
+available 
+at 
+http://paceperformance.com/images/F30599744.jpg 
+[6] Figure 
+of 
+hand 
+movement 
+while 
+valve 
+lapping 
+available 
+at 
+http://repairguide.autozone.com/znetrgs/repairguide_content/en_us/images/0900c15.jpg 
+[7] Figure 
+of 
+valve 
+lapping 
+using 
+a 
+power 
+tool 
+available 
+at 
+http://s323.photobucket.com/user/achir21/media/DSC02186.jpg.html 
+[8] Heisler H.(1998) Vehicle and Engine Technology. 2nd edition United Kingdom: Elsevier 
+Limited 
+[9] Clyde H. Moon, P.E.(1961) Cam Design - a manual for engineers, designer and 
+draftsman. 1st edition revised 1444 south wolf road, Wheeling, IL. 60090 U.S.A. 
+[10] Figure 
+of 
+cam 
+& 
+follower 
+available 
+at 
+http://lipas.uwasa.fi/cs/publications/2NWGA/img642.gif 
+[11] Figure 
+of 
+High 
+torque 
+mini 
+12V 
+dc 
+gear 
+motor,200 
+rpm 
+available 
+at 
+httpwww.batteryspace.comdcmotorhightorquemini12vdcgearmotor200rpmforhobbyproje
+cts.aspx 
+[12] Figure of High torque, heavy duty 12V dc gear motor, 20rpm available at 
+httpwww.ebay.comitm12V-20RPM-Ouput-Speed-Geared-Gearhead-DC-Motor-High-
+Torque-Output-Heavy-Duty-
+281265811319pt=LH_DefaultDomain_0&hash=item417cbfaf77 
+[13] Clyde H. Moon, P.E.(1961) Cam Design - a manual for engineers, designer and 
+draftsman. 1st edition revised 1444 south wolf road, Wheeling, IL. 60090 U.S.A. 
+[14] Comparison of aluminum alloys available at http://metalsupermarkets.com/blog/7-things-
+consider-choosing-aluminum-grade/. 
+[15] Equations of calculating spring coefficient using external dimensions of the spring 
+available at www.mitcalc.com/doc/sprtension/help/en/sprtensiontxt.htm 
+ 
+Joseph Heitner (1967) Automotive Mechanics. 1st edition CBS publishers and 
+distributors New Delhi, India 
+ 
+ http://falling67anoint.checkmatebooks.org/mnjilxx_manual-lapping-globe-valves.pdf. 
+ 
+Roger Lewis, Rob Dwyer-Joyce (2002) Automotive Engine Valve Recession. 1st edition 
+Wiley. 
+ 
+ 
+57 
+ 
+ 

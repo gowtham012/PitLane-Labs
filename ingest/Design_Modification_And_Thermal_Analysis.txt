@@ -1,0 +1,273 @@
+International Refereed Journal of Engineering and Science (IRJES) 
+ISSN (Online) 2319-183X, (Print) 2319-1821 
+Volume 6, Issue 11 (November 2017), PP. 11-15 
+www.irjes.com                                                               11 | Page 
+Design Modification And Thermal Analysis of IC Engine Fin 
+ 
+*Deepak Tekhre1,Jagdeesh Saini 2  
+1(P.G. Student, Department of Thermal Engineering, BM College of Technology, Indore, MP, India) 
+2(Associate Professor, Department of Mechanical Engineering, BM College of Technology, Indore, MP, India)  
+Corresponding Author: *Deepak Tekhre 
+ 
+Abstract :- Cooling fins in IC engines remove excess heat from it to protect its components from thermal 
+damages. These fins work on the principle of convection heat transfer. The cooling efficiency of the engine fins 
+can be improvised by changing geometry, thermal conductivity and the material of the cooling fins. 
+Computational fluid dynamics is the technique used to determine thermal stresses and temperature distribution 
+through the fins. CFD analysis gives accurate and realistic results in comparison with physical analysis 
+processes. This project is based on designing more efficient cooling fins for a 150 cc (Honda Unicorn) bike 
+engine by improvising the design and the material of the fin. Where the modelling of the fin is performed on 
+Creo modelling software and the CFD analysis is performed on ANSYS 15.0 Workbench software. 
+Keywords: - Creo 3.0, ANSYS 15.0, CFD Analysis, Steady State, Transient State Heat Transfer. 
+ 
+I. 
+INTRODUCTION  
+Internal combustion engines are those in which the combustion takes place inside the engine cylinder, 
+this chemical process of combustion generates very high amount of thermal energy up to 2500ºC. This high 
+temperature is unbearable by the fluid film between various moving parts of the engine and the fluid film may 
+evaporate. This temperature may also cause severe damage to various parts of the engine like piton, valves etc, 
+as it generates very high rates of thermal stresses, to protect them from the damages the temperature should be 
+reduced up to required working condition temperature of the engine. The reduction in the temperature is only 
+permissible up to a limit, after the limit this temperature cannot be reduced further otherwise it may affect 
+thermal efficiency of the engine. About 25-35% of the total generated thermal energy could be used into useful 
+mechanical work and rest is rejected into the atmosphere. In this present work Honda unicorn 150cc bike is 
+selected for thermal analysis. The Honda engine is having rectangular fins on the circumference of the cylinder 
+and on engine head. This engine is made by aluminium alloy material. This engine design is modified by using 
+holes of different sizes on the surfaces of the fin, different shape of holes having different effects on the heat 
+dissipation capacity of the fin. To increase the heat transfer rate than the existing engine model the Aluminium 
+alloy material has replaced by AL 6063 and Aluminium Nitride (ALN) and comparing the both used materials.  
+ 
+ 
+II. 
+LITERATURE REVIEW 
+Related work is has been done on the Honda unicorn (150cc) bike model IC engine. There is continuous work 
+going on for increasing the thermal efficiency and reducing the temperature of the engine.  
+A research has been performed by KM Sajesh et al. Which shows the results that:- 
+1. Turbulence of flow of air increased between the fins of hole. 
+2. Temperature of fin can be reduced by creating holes on it. 
+3. On increasing the surface area or increasing the diameter of the holes the cooling efficiency increases. 
+ 
+A research has been performed by B N Niroop Kumar Gowd et al. and they concluded that:- 
+Aluminum Alloy 204 with three other materials are considered which have more thermal conductivities 
+than Aluminum Alloy 204 used, the materials are Aluminum alloy 7075, Magnesium Alloy and Beryllium. 
+Thermal analysis is done for all the three materials. The material for the original model is changed by taking the 
+consideration of their densities and thermal conductivity. By observing the thermal analysis results, thermal flux 
+is more for Beryllium than other materials and also by reducing the thickness of the fin 2.5mm, the heat transfer 
+rate is increased. The shape of the fin can be modified to improve the heat transfer rate and can be analyzed. 
+ 
+Deepak Gupta et al. have designed a cylinder fin body used in a 100cc Hero Honda Motorcycle and 
+modeled in parametric 3D modeling software Pro/Engineer. Presently used material for fin body is aluminum 
+alloy fins and internal core with grey cast iron replaced with Aluminum alloy 6063 and Grey cast iron separately 
+for entire body. The shape of the fin is rectangular; we have changed the shape with circular shaped. The default 
+thickness of fin is 3mm; we are reducing it to 2.5mm. They have done thermal analysis on the fin body by 
+Design Modification And Thermal Analysis of IC Engine Fin 
+www.irjes.com                                                                12 | Page 
+varying materials, geometry and thickness. By observing the analysis results, using circular fin, material 
+Aluminum alloy 6063 and thickness of 2.5mm is better since heat transfer rate is better. But by using circular 
+fins the weight of the fin body increases. So if we consider weight, using circular fins is better than other 
+geometries. So they say Aluminum alloy 6063 is better, reducing thickness to 2.5mm is better and using fin 
+shape circular by analysis and fin shape curved by weight is better. By observing the results, using circular fins 
+the heat lost is more, efficiency and effectiveness is also more..  
+ 
+III. 
+MODELLING  
+The modelling of Honda unicorn 150cc bike engine is done on the CREO 3.0 software. CREO 3.0 is the latest 
+PTC software used to design and modelling machine or machine parts more accurately then the previous PTC 
+softwares. The modelling is done by putting the geometrical values by physical measurements of actual unicorn 
+bike engine. Fig. 1 shows the model of Honda Unicorn (150cc) bike engine. 
+ 
+IV. 
+FIGURES AND TABLES 
+It is clear from above literature that a lot of research work is going on thermal analysis and design 
+modification of cooling fins of IC engines and still the future scope is available. In this research paper the 
+thermal analysis is carried out on ANASYS 15.0 workbench and a comparative study is done between 
+Aluminium 6063 and ALN materials for various diameter holes on the fins of 2mm, 6mm, 10mm and without 
+hole. Figures show the results of thermal analysis of 150 cc Honda unicorn bike engine. Figures show results in 
+all states with both designing materials which are Aluminium 6063 and Aluminium Nitride. Figure 1 and 2 
+shows results about steady state and transient states of Aluminium 6063 and figure 3 and 4 shows results about 
+steady and transient states of Aluminium Nitride material.  
+  
+   
+   
+ 
+(a) 
+(b)                                          (c) 
+ 
+(d) 
+ 
+Fig.1. Aluminium 6063 Steady State (a) No Hole (b) 2mm Hole (c) 6 mm Hole (d) 10 mm Hole 
+ 
+   
+   
+ 
+(a)                                            (b)                                           (c) 
+Design Modification And Thermal Analysis of IC Engine Fin 
+www.irjes.com                                                                13 | Page 
+ 
+(d) 
+Fig. 2 Aluminium 6063 Transient State (a) No Hole (b) 2mm Hole (c) 6 mm Hole (d) 10 mm Hole 
+ 
+   
+   
+ 
+(a) 
+(b) 
+(c) 
+ 
+ 
+(d) 
+Fig. 3 Aluminium Nitride Steady State (a) No Hole (b) 2mm Hole (c) 6 mm Hole (d) 10 mm Hole 
+ 
+   
+   
+ 
+(a) 
+(b) 
+(c) 
+ 
+(d) 
+ 
+Fig. 4 Aluminium Nitride Transient State (a) No Hole (b) 2mm Hole (c) 6 mm Hole (d) 10 mm Hole 
+Hole Diameter 
+      Minimum Temperature (ºC) 
+                    in AL 6063 
+ Minimum Temperature (ºC) 
+ in ALN (Aluminium Nitride) 
+No hole  
+970.79 
+741.18 
+2 mm Hole 
+968.64 
+736.73 
+6 mm Hole 
+963.25 
+725.62 
+10 mm Hole  
+954.17 
+707.43 
+Table 1:- Comparison between the Minimum Temperatures of Al 6063 and ALN. 
+ 
+ 
+Design Modification And Thermal Analysis of IC Engine Fin 
+www.irjes.com                                                                14 | Page 
+Table 1 is prepared after the thermal analysis/ CFD analysis of the varying geometries of cooling fins. Here a 
+maximum temperature as a load of 1100ºC is applied on the engine and the minimum temperatures are analysed 
+to find out the most efficient performance of the cooling fins. In which 707.43º C is founded minimum 
+temperature among all the geometries of fins 
+ 
+200
+220
+240
+260
+280
+300
+320
+340
+360
+380
+400
+No Holes
+2mm
+6mm
+10mm 
+1 sec
+10sec
+Comparsion between minimum temperatures of 
+AL 6063 and ALN
+ 
+Graph 1:- Minimum Temperature v/s Size of The Holes between Al 6063 and ALN 
+ 
+From table 1 the difference in temperature is clearly explained between AL6063 and ALN materials 
+and from the graph it is clear that the ALN material is showing better cooling results than previously used AL 
+6063 material. So that it is clear as per the design prospective the ALN material should be used to achieve better 
+heat dissipating properties, with results better than previously used materials as Aluminium 6061, 6063 and 
+other Aluminium alloy materials. 
+ 
+V. 
+CONCLUSION  
+We have implemented that the minimum temperature of the engine reduces on increasing the cross section 
+area of the fins which is done by implanting holes on the fin surface. As the hole area increases the fin 
+efficiency also increases. We also implemented the reduction in minimum temperature of the engine by 
+implementing the material from AL 6063 to Aluminium Nitride (ALN) which is showing better and more 
+efficient results than AL 6063. It has been seen that the implementation results in reduction in minimum 
+temperature of the engine up to 20% in Aluminium nitride after improvising from Aluminium 6063. It is clear 
+from CFD analysis that, to achieve better cooling results Aluminium Nitride is a better option than Aluminium 
+6063 alloy material. It is also proved from experimental results that, on increasing the diameter of the hole the 
+dissipated heat also gets increased. Fin with hole diameter 10mm has decreases the minimum temperature of 
+741.18ºc for an imperforated fin to a minimum temperature of 707.43ºc 
+ 
+ 
+ACKNOWLEDGEMENT 
+The completion of this project has required the help and support of numerous people. I could never 
+have done any of this thesis work, without the support and encouragement of a lot of people. It is my pleasure to 
+extend my sincere thanks and appreciations to those individuals who have spent their own contribution for 
+successful completion of this research. Specially, I would like to extend sincere gratitude to my advisor Mr. 
+JAGDEESH SAINI all of his help and guidance throughout this thesis work. I have learned so much from him. 
+He was the one who inspired and encouraged me to work on this project. I also appreciate not only for his 
+professional, timely and valuable advices, but also for his continuous scheduled follow up and valuable 
+comments during my thesis work 
+ 
+ 
+Design Modification And Thermal Analysis of IC Engine Fin 
+www.irjes.com                                                                15 | Page 
+REFERENCES  
+   Journal Papers: 
+[1]. 
+KM Sajesh, Neelesh soni, Siddhartha Kosti, “Design Modification and Heat Transfer Analysis of Air 
+Cooled  Rectangular Fin Engine”,  International Journal of Recent Scientific Research, Vol. 7, Issue, 3, 
+pp. 9653-9656, March, 2016. 
+[2]. 
+V. Karthikeyan, R. Suresh Babu, G. Vignesh Kumar, “Design and Analysis of Natural Convective Heat 
+Transfer Coefficient Comparison between Rectangular Fin Arrays with Perforated and Fin Arrays with 
+Extension”, International Journal of Science, Engineering and Technology Research, Volume 4, Issue 
+2, February 2015. 
+[3]. 
+L.Natrayan, G.Selvaraj, N.Alagirisamy, M.S.Santhosh, “Thermal Analysis of Engine Fins with 
+Different Geometries”, International Journal of Innovative Research in Science, Engineering and 
+Technology, Vol. 5, Issue 5, May 2016. 
+[4]. 
+Pardeep Singh, Harvinder lal, Baljit Singh Ubhi, “Design and Analysis for Heat Transfer through Fin 
+with Extensions”, International Journal o Innovative Research in Science, Engineering and 
+Technology, Vol. 3, Issue 5, May 2014. 
+[5]. 
+P. Sai Chaitanya, B. Suneela Rani, K. Vijaya Kumar, “Thermal Analysis of Engine Cylinder Fin by 
+Varying Its Geometry and Material”, IOSR Journal of Mechanical and Civil Engineering (IOSR-
+JMCE), Volume 11, Issue 6 Ver. I (Nov- Dec. 2014), e ISSN: 2278-1684, p-ISSN: 2320-334X, PP 37-
+44. 
+[6]. 
+Vignesh. P, P. Selva Muthu Kumar, “Design, Modification and Analysis of Two Wheeler Cooling 
+Sinusoidal Wavy Fins”, International Journal of Engineering Research & Technology (IJERT), Vol. 3, 
+Issue 11, ISSN: 2278-0181, November-2014. 
+[7]. 
+Mohsin A. Ali, Prof. (Dr.) S.M Kherde, “Design Modification and Analysis of Two Wheeler Cooling 
+Fins”, International Journal of Engineering and Applied Sciences, Vol. 5 No. 01, ISSN2305-8269, 
+June. 2014. 
+[8]. 
+Sachin Kumar Gupta, Harishchandra Thakur, Divyank Dubey, “Analyzing Thermal Properties of 
+Engine Cylinder Fins by Varying Slot Size and Material”, Open International Journal of Technology 
+Innovations and Research, Volume 14, e-ISSN: 2321-1814, ISBN: 978-1-62951-946-3, April 2015. 
+[9]. 
+Hardik D. Rathod, Ashish J. Modi, Prof. (Dr.) Pravin P. Rathod, “Effect of Different Variables on Heat 
+Transfer Rate of Four Stroke SI Engine Fins”, International Journal of Mechanical Engineering and 
+Technology (IJMET), ISSN 0976 –6340(Print), ISSN 0976 – 6359(Online) Volume 4, Issue 2, March - 
+April (2013) © IAEME  
+[10]. A Sathishkumar, MD Kathir Kaman, S Ponsankar, C Balasuthagar, “Design and Thermal Analysis on 
+Engine Cylinder Fins by Modifying Its Material and Geometry”, Journal of Chemical and 
+Pharmaceutical Sciences, ISSN: 0974-2115, Volume 9 Issue 4, October - December 2016.  
+[11]. K. Sathishkumar, K. Vignesh, N. Ugesh, P. B. Sanjeevaprasath4, S. Balamurugan, “Computational 
+Analysis of  Heat Transfer through Fins with Different Types of Notches”, International Journal of 
+Advanced Engineering Research and Science, ISSN: 2349-6495(P) | 2456-1908(O), Vol-4, Issue-2, 
+Feb- 2017. 
+[12]. Ajay Sonkar, Ishwar Singh Rajput, Jageshwar Dhruv, Kishore Kumar Sahu, “Comparative Thermal 
+Analysis of Fin of I.C. Engine with Extensions”, International Journal of Engineering Research & 
+Technology, ISSN: 2278-0181, Vol. 6 Issue 04, April-2017. 
+[13]. Deepak Gupta, Wankhade S.R., “Design and Analysis of Cooling Fins”, International Journal on 
+Mechanical Engineering and Robotics, ISSN (Print): 2321-5747, Volume-3, Issue-2, year-2015. 
+[14]. G. Angel, N. Sambasiva Rao, “Design and Analysis of Two Wheeler Cooling Fins”, International 
+Journal of Engineering Science and Computing, Volume 6 Issue No. 9, September 2016. 
+Proceedings Papers: 
+[15]. Deepak Tekhre, Jagdeesh Saini Design Modification and Thermal Analysis of IC Engine Fin (Review 
+Article), International Journal for Innovative Research in Science & Technology| Volume 04 | Issue 02 
+| Month July (2017), ISSN: 2349-6010 
+ 
+*Deepak Tekhre. “Design Modification And Thermal Analysis of IC Engine Fin.” International 
+Refereed Journal of Engineering and Science (IRJES), vol. 06, no. 11, 2017, pp. 11–15. 

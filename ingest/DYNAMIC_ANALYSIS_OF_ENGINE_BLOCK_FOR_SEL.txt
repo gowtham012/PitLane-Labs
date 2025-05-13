@@ -1,0 +1,298 @@
+125
+International Journal of Research and Innovation (IJRI) 
+International Journal of Research and Innovation (IJRI)
+DYNAMIC ANALYSIS OF ENGINE BLOCK FOR SELECTION OF SUITABLE 
+MATERIAL FOR COST & WEIGHT REDUCTION.
+Y.sathaiah 1,Gandhi Perumallapalli2, D.sreeramprasad 3
+1 Research Scholar, Department Of Mechanical Engineering, Sri Venkateswara Engineering College, Amaravadi Nagar, Suryapet,India
+2 Assistant professor , Department Of Mechanical Engineering, Sri Venkateswara Engineering College, Amaravadi Nagar, Suryapet,India
+3 Associate Professor , Department Of Mechanical Engineering, Sri Venkateswara Engineering College, Amaravadi Nagar, Suryapet,India
+*Corresponding Author: 
+Y.sathaiah, 
+Research Scholar,
+Department Of Mechanical Engineering, 
+Sri Venkateswara Engineering College, 
+Amaravadi Nagar,Suryapet,India
+Published: June 30, 2015
+Review Type: peer reviewed
+Volume: II, Issue : III
+Citation: Y.sathaiah, Research Scholar (2015) DYNAMIC 
+ANALYSIS OF ENGINE BLOCK FOR SELECTION OF SUITABLE 
+MATERIAL FOR COST & WEIGHT REDUCTION.
+INTRODUCTION
+CRDI diesel engine (Common rail direct fuel injec-
+tion)
+The Quanto resembles the Xylo, so looks would not be a 
+concern for buyers, however the pricing is what we are 
+looking forward to. Stay tuned for more updates on the 
+Mini Xylo aka Mahindra Quanto.
+A cylinder block is an integrated structure comprising 
+the cylinder(s) of a reciprocating engine and often some 
+or all of their associated surrounding structures (coolant 
+passages, intake and exhaust passages and ports, and 
+crankcase). The term engine block is often used synony-
+mously with "cylinder block" (although technically dis-
+tinctions can be made between engine block cylinders as 
+a discrete unit versus engine block designs with yet more 
+integration that comprises the crankcase as well).
+In the basic terms of machine elements, the various main 
+parts of an engine (such as cylinder(s), cylinder head(s), 
+coolant passages, intake and exhaust passages, and 
+Abstract
+A cylinder block is an integrated structure comprising the cylinder(s) of a reciprocating engine and often some or all of 
+their associated surrounding structures. The term engine block is often used synonymously with "cylinder block".
+One of the main components in an IC engine is the combustion chamber. The design of a combustion chamber has an 
+important influence upon the engine performance and its knock properties. Design of a combustion chamber involves 
+the shape of the combustion chamber, location of the spark plug and the position of the inlet and exhaust valves.
+The Aim of this project is to design a combustion chamber using Pro-E and perform analysis using ANSYS software. 
+The analysis of the combustion chamber is done by using different materials. By conducting the above analysis on the 
+combustion chamber combustion rate, pressure and temperature gradient conditions are found and the best material 
+for the combustion chamber is suggested.
+Thermal analysis is conducted to find heat dissipation rate in engine block with the variation of materials Structural 
+and fatigue analysis(dynamic) is conduct on engine block at working load conditions to evaluate and compare stress, 
+strain, deformation and fatigue life with the variation of materials.
+Frequency analysis is conducted on engine block with the variation of materials to evaluate frequency,
+Using these values material selection will be done, the value should be nearby previous one (cast iron) maximum ac-
+cepted variation value 65HZ.
+1401-1402
+126
+International Journal of Research and Innovation (IJRI) 
+crankcase) are conceptually distinct, and these concepts 
+can all be instantiated as discrete pieces that are bolted 
+together. Such construction was very widespread in the 
+early decades of the commercialization of internal com-
+bustion engines (1880s to 1920s), and it is still sometimes 
+used in certain applications where it remains advanta-
+geous (especially very large engines, but also some small 
+engines). However, it is no longer the normal way of build-
+ing most petrol engines and diesel engines, because for 
+any given engine configuration, there are more efficient 
+ways of designing for manufacture (and also for main-
+tenance and repair). These generally involve integrating 
+multiple machine elements into one discrete part, and 
+doing the making (such as casting, stamping, and ma-
+chining) for multiple elements in one setup with one ma-
+chine coordinate system (of a machine tool or other piece 
+of manufacturing machinery). This yields lower unit cost 
+of production (and/or maintenance and repair).
+Internal Combustion Engines:
+The Internal Combustion Engine (also known as IC En-
+gine) is an engine in which the combustion of fuel and 
+an oxidizer (typically air) occurs inside a confined space 
+called a combustion chamber. This exothermic reaction 
+creates gases at high temperature and pressure, which 
+are permitted to expand inside that confined chamber. 
+Thrust produced by this expanding gas drives the engine 
+creating useful work.
+Engine classification:
+Spark Ignition (SI) Engine: Inside the combustion 
+chamber of this type of engine, the mixture of fuel 
+and air is ignited by a spark plug to initiate the exo-
+thermic combustion reaction.
+Compression Ignition (CI) Engine: This type of in-
+ternal combustion engine does not have spark plug. 
+Inside the combustion chamber of this engine, air is 
+compressed to a high enough pressure and temper-
+ature that combustion occurs spontaneously when 
+fuel is injected at the end of air compression.
+Advantages and Applications
+SI Engines
+Lightweight
+Low Cost
+Suited for applications in smaller and medium sized auto-
+mobiles requiring power up to about 225 kW (300 horse-
+power)
+Also used as domestic electricity generators and outboard 
+engines for smaller boats
+CI Engines
+Suited for medium and large size mobile applications 
+such as heavy trucks and buses, locomotives and ships, 
+auxiliary power units (emergency diesel generators in in-
+dustries) where fuel economy and relatively large amount 
+of power both are required yet being noisy.
+COMBUSTION CHAMBER:
+ A Combustion Chamber is a part in which combustion 
+of fuel or propellant, in particular, is initiated in internal 
+combustion engine The combustion technology increases 
+the inner power of a gas, that translates into a rise in 
+temp, pressure, or volume reliant on the specification in 
+an enclosure, for instance the cylinder of a repayment en-
+gine, the volume is manipulated & the combustion cre-
+ates a rise in pressure. In a constant flow arrangement, 
+for example a jet-type engine combustor, the compression 
+is initiated & the burning makes an rise in volume. This 
+rise in compression or volume can be utilized to do work, 
+for example, to push a piston on a crank or a engine disc-
+type in a gas turbine.
+3D MODELS OF ENGINE BLOCK
+                  The above image shows sketcher
+             The above image shows engine block front view
+           The above image shows engine block side view
+127
+International Journal of Research and Innovation (IJRI) 
+COUPLE FIELD ANALYSIS OF ENGINE BLOCK 
+USING CAST IRON
+      The above image shows engine block imported model
+            The above image shows engine block mesh model
+Thermal Analysis:
+Structural analysis:
+128
+International Journal of Research and Innovation (IJRI) 
+COUPLE FIELD ANALYSIS OF ENGINE BLOCK 
+USING ALUMINUM ALLOY
+Thermal analysis:
+FATIGUE ANALYSIS OF ENGINE BLOCK USING 
+CAST IRON
+                      The above image shows life
+               The above image shows safety factor
+               
+         The above image shows alternating stress
+GRAPHS AND RESULTS TABLES
+             
+           The above graph shows heat flux
+129
+International Journal of Research and Innovation (IJRI) 
+Cast Iron
+Aluminum 
+Alloy
+Zamak
+Thermal 
+Analysis
+Temperature
+480
+480
+480
+Heat Flux
+6.0409e-5
+6.041 e-5
+2.8938e-4
+Structural 
+Analysis
+Deformation
+2.4495 e-5
+1.804 e-13
+4.6205 e-9
+Strain
+1.4594 e-6
+9.5932 e-15
+2.8482 e-10
+Stress
+0.25687
+5.9794 e-10
+4.9642 e-5
+dynamic analysis
+Cast Iron
+Aluminum Alloy
+Zamak
+Total deformation 
+mode 1
+26.444
+33.861
+25.816
+Total deformation 
+mode 2
+33.518
+42.432
+32.65
+Total deformation 
+mode 3
+35.455
+44.829
+34.529
+Total deformation 
+mode 4
+52.762
+66.932
+51.417
+Total deformation 
+mode 5
+62.498
+79.912
+61.004
+CONCLUSION
+This project works deals with “DYNAMIC ANALYSIS OF 
+ENGINE BLOCK FOR SELECTION OF SUITABLE MATE-
+RIAL FOR COST & WEIGHT REDUCTION.”
+Initially literature survey and data collection was done to 
+understand methodology.
+ENGINE BLOCK 3d model is prepared using CREO Para-
+metric (pro/e).
+Static, thermal, fatigue and dynamic analysis is done on 
+ENGINE BLOCK using Cast Iron. Same has been done us-
+ing aluminum and ZAMAK materials and to find out the 
+failure locations and to evaluate results.
+As per the Static, thermal, fatigue and dynamic analysis 
+results, existing model is up to the mark only. Implemen-
+tation of ZAMAK material will increase life. 
+This project concludes that ENGINE BLOCK model with 
+ZAMAK material increases the life and also weight will 
+be reduced which interns increases the mechanical ef-
+ficiency.
+By reducing weight manufacturer can reduce cost of ma-
+terial and machining.
+Density
+Weight of 
+component
+cost
+Cast iron
+7810
+1227
+1227*75=92025
+alumini-
+um
+2680
+422
+422*106=44732
+zamak
+6600
+1038
+1038*80=83040
+For engine block manufacture can reduce 9000/-for en-
+gine block weight up to 190 kgs by using above said model
+REFERENCES
+[1] ANALYSIS OF COMBUSTION CHAMBERS IN INTER-
+NAL COMBUSTION ENGINE Global Science and Technol-
+ogy Journal Ariz Ahmad
+[2] THERMAL AND STRESS DISTRIBUTION OF DIFFER-
+ENT I.C. ENGINE PISTON COMBUSTION CHAMBERS 
+USING 3-D FINITE ELEMENT ANALYSIS METHOD
+International Journal of Innovative Research in Science, 
+Engineering and Technology Dr .G.R.Kannan , Anoop Ar-
+avind 
+[3] STRUCTURAL STRESS ANALYSIS OF AN ENGINE 
+CYLINDER HEAD Radek Tichanek , Miroslav Spaniel , 
+Marcel Divis
+[4] A STUDY ON STRUCTURAL STRESS ANALYSIS OF AN 
+ENGINE CYLINDER HEAD Dr. M. Lakshman Rao
+[5] LDA AND PIV ANALYSES AND COMPARISON OF IN-
+CYLINDER FLOW STRUCTURES UNDER STEADY FLOW 
+CONDITIONS Graham Pitcher, Saud Binjuwair, Tom Pic-
+ton-Turbervill, Andrew Wood, Graham Wigley and Dave 
+Hollis
+[6] SURFACE TEMPERATURE PREDICTION AND THER-
+MAL ANALYSIS OF CYLINDER HEAD IN DIESEL ENGINE
+ International Journal of Engineering Research and Ap-
+plications (IJERA)  Amit V. Paratwar, D.B Hulwan
+[7] STATIC STRESS ANALYSIS OF IC ENGINE CYLINDER 
+HEAD INTERNATIONAL REVIEW OF APPLIED ENGI-
+NEERING RESEARCH Sreeraj Nair K., Kiran Robert and 
+Shamnadh M.
+[8] THERMAL ANALYSIS ON CYLINDER HEAD OF SI EN-
+GINE USING FEM International Journal of Scientific En-
+gineering and Research (IJSER) Pradeep Mani Tripathi, 
+Satya Prakash, Rahul Singh, Satish Kumar Dwivedi
+Authour
+Y.sathaiah 
+Research Scholar, Department of Mechanical 
+Engineering,Sri Venkateswara Engineering College, 
+Amaravadi Nagar, Suryapet - 508213.Nalgonada (Dt), 
+India.
+Gandhi Perumallapalli
+Assistant Professor in Mechanical Engineering
+Sri Venkateswara Engineering College, 
+Amaravadi Nagar, Suryapet - 508213.Nalgonada 
+(Dt),India.
+D.SreeramPrasad
+Associate Professor In Mechanical Engineering
+Sri Venkateswara Engineering College, 
+8 Years Industrial, 18 Years Teaching+ Years

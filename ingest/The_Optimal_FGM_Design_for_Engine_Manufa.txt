@@ -1,0 +1,1361 @@
+Team # 5                                                                     Page  1  of  18  
+The Optimal FGM Design for Engine Manufacturing 
+ 
+Contents
+ 
+ABSTRACT .....................................................................................................................................2 
+1 INTRODUCTION ...........................................................................................................................3 
+2 PROBLEM RESTATEMENT ............................................................................................................3 
+3 CONVENTIONS…………………………………………………………………………………. 4 
+3.1 TERMINOLOGY………………………………………..………………………………...… 4 
+3.2 VARIABLES…………………………………….……………….…………………………..4 
+4 ASSUMPTIONS…………………………………………..…………………………………...5 
+5 MODEL 
+:T
+Ⅰ
+HE FOUR-LAYER MODEL ........................................................................................5 
+5.1 THE FOUNDATION OF MODEL Ⅰ..........................................................................................5 
+5.2 ANALYSIS AND CALCULATION..............................................................................................5 
+ 5.2.1 PROPERTY VALUE OF THE MATERIAL…………………………...……………………7 
+ 5.2.2 ANALYSIS OF TEMPERATURE FIELD ................................................................................................. 7 
+5.3 SOLUTION TO THE MODEL.......................................................................................................8 
+6 MODEL 
+:
+ⅡTHE SIX-LAYER MODEL .............................................................................................. 9 
+6.1 THE FOUNDATION OF MODEL Ⅱ............................................................................................. 9 
+6.2 SOLUTION TO THE MODEL ................................................................................................... 10 
+7 TESTING THE RESULTS .............................................................................................................. 13 
+7.1 SENSITIVITY ANALYSIS ....................................................................................................... 13 
+7.2 SPECIFIC RESULTS................................................................................................................ 13 
+8 STRENGTHS AND WEAKNESSES ................................................................................................ 14 
+9 CONCLUSION .......................................................................................................................................... 14 
+REFERENCE................................................................................................................................... 15 
+APPENDIX..................................................................................................................................... 16
+Team # 5                                                                     Page  2  of  18  
+ 
+Abstract 
+Due to the high requirements of engine materials design, a plate which 
+obtains the capability to stand the high temperature difference between 
+internal and external surface is expected. Considering the practical 
+physical environment of ultra-highly condensed air inside the engine, 
+people require certain level of ability to withstand the pressure. This 
+could be satisfied by the thermal stress created with special design to 
+defeat the great temperature difference. 
+ 
+Functionally Gradient Materials design can be applied to meet the need. 
+FGM, abbreviated from Functionally Gradient Materials, is a category of 
+new composition of two pure materials, with uniformly mixed 
+components inside each layer. In our paper, the materials are designed to 
+meet the above requirements. The internal side layer is made of pure 
+metal of Aluminum, and the external side layer is made of pure Zirconia, 
+which can defend the heat from getting inside. For the middle layers, a 
+ratio of Aluminum is mixed into the materials, and the rest of the layer is 
+Zirconia. Hence, a new material which obtains the strong elasticity and 
+the high ability to withstand ultra-high temperature difference is created. 
+ 
+With the aid of simulation software the ANSYS, two models are 
+established to test and identify the ability of the materials. The results are 
+shown in the latter part of this paper. It is proved that this kind of design 
+method is capable to satisfy the strict demands of both temperature and 
+elasticity. At the same time, a new principle is found in our experiments 
+on ANSYS modeling: the more layers the materials design contains, the 
+better performance the plate will present. This principle is proved by our 
+later comparison of four-layer plate and six-layer plate, with the same 
+middle layer materials design schema. 
+ 
+ 
+ 
+ 
+Key words: FGM; Heat Conduction Equation; ANSYS
+Team # 5                                                                     Page  3  of  18  
+ 
+1 Introduction 
+Owing to the differences of thermal and mechanical properties in 
+Zirconia and Aluminum, residual stresses develop in regions near the 
+Zirconia/Aluminum interfaces during fabrication and under thermal and 
+mechanical loading in service. These stresses affect performance and the 
+lifetime of this kind of material and can cause cracking, which is 
+unexpected in manufacturing industry. In order to solve this problem, a 
+new category of mixed materials design schema is generated to satisfy the 
+strict requirements. In this paper, two models are exhibited to 
+demonstrate the capability of applying the new materials design schema. 
+ 
+The first model is established with 4 layers, the close-to-outer-edge layer 
+is made of pure Zirconia to resist the high temperature and keep heat 
+from conducting inside. The internal side layer is made of pure 
+Aluminum (a category of Aluminum composition), which can present 
+strong elasticity to offset the strength or pressure from physical force. 
+ 
+The second model is also created by the same principle, and with the 
+same materials design schema. However, this one has 6 layers, and the 
+middle 4 layers are using 4 different materials from the first one. The 
+middle layers are made of materials of composition from the both 
+involved. 
+ 
+The results from ANSYS 14.0 are shown below in the final part of 
+analysis, which strictly demonstrate its features on satisfying the extreme 
+condition of temperature difference. Besides, the exact indexes are the 
+thermal stress and the temperature map of final state. 
+2 Problem Restatement 
+An engine company is developing a new kind of engine which has 
+excellent working performance. And it can work at the condition with 
+internal and external temperature of varying large difference.  
+Functional Gradient Materials (FGM) is a kind of composition within the 
+structure of a continuous gradient variation of new heterogeneous 
+composite materials. It can be widely used in many fields. So the engine 
+will be made of FGM with different metal layers.  
+We need to give the reasonable analysis to the FGM with different metal 
+layers and provide a model to the heat conduction. In addition, we are 
+supposed to give a reasonable designing scheme of the FGM with 
+different metal layers, which satisfying internal and external temperature 
+of 550℃ and 80℃ respectively, referring to the common metal’s heat 
+Team # 5                                                                     Page  4  of  18  
+ 
+conducting relevant data. 
+3 Conventions 
+This section defines the basic terms used in this paper. 
+3.1 Terminology 
+ Heat conductivity: It represents the coefficient of thermal conductivity, 
+which means the quantity of heat conduct through cross sectional area in 
+unit time when the temperature decrease for 1
+.
+℃ 
+ Young’s modulus: It represents the physical quantity of the 
+anti-pressure ability of the material within the elastic limit. 
+ Coefficient of thermal expansion: It describes how the size of an object 
+changes with a change in temperature. Specifically, it measures the 
+fractional change in size per degree change in temperature at a constant 
+pressure. 
+ Poisson’s ratio: It is the negative ratio of transverse to axial 
+strain. When a material is compressed in one direction, it usually tends to 
+expand in the other two directions perpendicular to the direction of 
+compression. 
+ ZL109: It is short for ZAlSi12Cu1Mg1Ni1, a category of Aluminum. 
+3.2 Variables 
+Symbols 
+definitions 
+( )
+k y  
+coefficient of thermal conductivity 
+( )
+y
+
+ 
+density of the material 
+( )
+c y  
+specific heat capacity 
+( , )
+T y t  
+function of temperature field 
+ 
+Team # 5                                                                     Page  5  of  18  
+ 
+4 Assumptions 
+ The external side of the plate is touched by the air of room 
+temperature of 20 Celsius.  
+ The internal and external temperatures are constant during the whole 
+process of heat conducting and convection. 
+ In order to make better result, plates are formed with 4 round borders, 
+which have a radius of 1mm to satisfy the width of 2 millimeter of the 
+layer. 
+ The materials of each layer are uniformly mixed with both pure 
+materials.  
+5 Model Ⅰ: The four-layer model  
+5.1 The foundation of Model Ⅰ 
+To simplify the problem, we begin our model with a four-layer composite 
+material. And it’s designed as follows: 
+ The first layer: metal--the pure ZL109 material made layer. 
+ The second layer: 
+1P % ZL109 + (
+1
+1
+P
+
+%) Zirconia. 
+ The third layer: 
+2P  % ZL109 + (
+2
+1
+P
+
+%) Zirconia (1>
+1P >
+2P >0). 
+ The fourth layer: anti-heat--the pure Zirconia. 
+For this four-layer composite material, the edge condition consists of the 
+external surface and internal surface. We consider that the external 
+surface can conduct heat and thermal convection, the internal surface is 
+heat insulation. Hence, the heat conduction takes place inside the metal 
+layers. 
+The transient heat conduction equation of this composite material: 
+( , )
+( , )
+( ) ( )
+( )
+T y t
+T y t
+y c y
+k y
+t
+y
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   （1）
+For the initial conditions and thermal convection conditions are: 
+Team # 5                                                                     Page  6  of  18  
+ 
+0
+0,
+( , )
+0, ( )
+( , )
+0,
+( , )
+, ( )
+( , )
+a
+a
+a
+b
+b
+b
+t
+T
+T
+T y t
+y
+k y
+T y t
+T
+y
+t
+T y t
+y
+b k y
+T y t
+T
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+   （2）
+We solve the above equation by the finite element method. The 
+corresponding functional can help to find the approximate solutions. The 
+following functional is defined in 
+(
+1,2,
+, N)
+nt n 
+
+
+[1]: 
+1
+2
+2
+2
+1
+0
+1
+( , )
+( )
+( , )
+( , )
+( )
+( )
+( , )
+( , )
+2
+2
+2
+n
+n
+t
+b
+n
+t
+n
+T y t
+c y
+T
+y t
+T
+y t
+k y
+y
+T
+T y t
+dy
+T T y t
+d
+dt
+y
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ （3）
+whereis the convective heat transfer coefficient(
+0,
+;
+,
+a
+b
+y
+y
+b
+
+
+
+
+
+
+
+
+). 
+In the convective heat transfer boundary conditions, the finite element 
+equation of transient heat conduction is [2]:  
+
+
+
+
+
+1
+[H] [Q] ( )
+[ ]
+n
+T
+P
+Q
+T 
+
+
+
+ 
+（4）
+where [
+]
+H  is the temperature stiffness matrix, [Q] is the temperature 
+coefficient matrix, 
+T is the column vector of unknown temperature 
+value. The elements of[
+]
+H ,[Q],
+P  are as follows: 
+
+
+
+
+1
+(
+)
+1
+4
+3
+2
+e
+e
+e
+rs
+r
+s
+r
+s
+jk
+rs
+rj
+rk
+sj
+sk
+e
+k
+h
+b b
+c c
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+（5）
+
+
+1 1
+6
+2
+e
+e
+e
+e
+rs
+rs
+n
+c
+q
+t
+
+
+
+
+
+
+ 
+ 
+  （6）
+(
+)
+2
+e
+e
+s
+jk
+sj
+sk
+p
+T s
+
+
+
+
+
+
+ 
+ 
+  （7）
+Given the degree of accuracy and the stability, we choose the difference 
+schemes of Galerkin, which can be described as follows: 
+
+
+
+
+2
+2
+1
+1
+3
+3
+t
+t
+t
+t
+t
+t
+T
+T
+T
+T
+O
+t
+t
+t
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+  （8）
+5.2 Analysis and calculation 
+Team # 5                                                                     Page  7  of  18  
+ 
+5.2.1 Property value of the material 
+The pure materials we take to form the Functional Gradient Materials are 
+2
+ZrO  andTi
+Al
+4V
+
+
+, their physical properties are in Table 1[3]. 
+Table 1   Material properties of 
+2
+ZrO  and Ti
+Al
+4V
+
+
+ 
+Material 
+Thermal conductivity 
+1
+/ w.(m.K) 
+Specific heat 
+1
+/ J.(kg.K) 
+Density 
+3
+/ kg m
+
+ 
+2
+ZrO  
+2.09 
+456.7 
+5331 
+Ti
+Al
+4V
+
+
+ 
+7.50 
+537.0 
+4420 
+ 
+The volume fraction and degree of porosity of the metal phase and 
+ceramic phase in our paper are: 
+1
+1
+     
+1
+( )
+(1
+)
+  
+1
+( )
+1
+( )
+M
+m
+M
+c
+m
+y
+M
+V
+y
+y
+M
+V y
+V
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+   （9）
+( )
+(1
+)     4
+0
+P y
+Ay
+y
+A
+
+
+
+
+ 
+ 
+  （10）
+where
+/
+y
+y b
+
+, meaning we have eliminated the dimension . 
+And the property value of the FGM in our paper can be determined by the 
+following formulas: 
+
+
+
+
+
+0
+0
+0
+0
+1
+1/3
+1/3
+2/3
+2/3
+0
+0
+( )
+(1
+)
+( )
+(1
+)
+/
+(1
+)
+( )
+(1
+) /
+/ (1
+)
+y
+P
+P
+c y
+c
+P
+C
+P
+P
+k y
+P
+k
+P
+P
+k
+P
+k
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+  （11）
+
+
+0
+0
+0
+3
+(
+)
+/ 3
+(
+)
+(
+) / (
+)
+c
+c
+m
+c
+m
+c
+m
+c
+c
+m
+m
+c
+c
+m
+m
+m
+c
+c
+c
+m
+m
+c
+c
+k
+k
+k k
+k V
+k
+k
+k V
+V
+V
+c
+c
+V
+c
+V
+V
+V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+  （12）
+ 5.2.2 Analysis of Temperature field 
+We divide the finite element grid into 5240 units and 24606 nodes.  
+In condition that
+1.0,
+1300.0
+b
+M
+T
+K
+
+
+, the temperature inside the panel is 
+Team # 5                                                                     Page  8  of  18  
+ 
+increasing along with the external temperature.(1300K equals to 550 
+We change the numerical value of M , and other parameters are invariant. 
+The transient temperature distribution is changing along with the 
+changing of M . 
+ 
+5.3 Solution to the model 
+In order to show the distribution of the heat across the outer edge of the 
+four layers plates, we use ANSYS to do simulation.[4] 
+We use the following three figures to show the result of the first model. 
+More details of this model are shown in the appendix attached at the last 
+part of this paper. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1  The grid chart of the four layers plates 
+The figure above clearly shows the first model, including its grid net and 
+the 4 layers.  
+ 
+ 
+ 
+ 
+ 
+Figure 2   The temperature map of the four layer plates 
+Team # 5                                                                     Page  9  of  18  
+ 
+The temperature map of this model after duration of heat conducting and 
+surface convection is shown as in figure 2. 
+It is obviously that the external side is colder than the internal side, and 
+the average temperature is estimated to be around 340 Celsius, which is 
+an acceptable level. Due to the convection of the external surface 
+contacting the air, the main part of the plate is keeping cool. This result 
+seems fine and acceptable. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3  The thermal equivalent stress map 
+The maximum thermal stress is 5.5778e8, and the minimum is 4.3109e6. 
+It can be checked that this stress is lower than the min allowable stress of 
+this mixed material. 
+6 Model Ⅱ: The six-layer model 
+6.1 The foundation of Model Ⅱ 
+In this part, we use six-layer model to compare with the four-layer model. 
+The six layers are composed with the following materials: 
+ The first layer: metal--the pure ZL109 material made layer. 
+ The second layer: 
+1P % ZL109 + (
+1
+1
+P
+
+%) Zirconia. 
+ The third layer: 
+2P  % ZL109 + (
+2
+1
+P
+
+%) Zirconia. (1>
+1P >
+2P >0). 
+ The fourth layer: 
+3P %ZL109 + (
+3
+1
+P
+
+%) Zirconia. (1>
+1P >
+2P >
+3P >0) 
+ The fifth layer: 
+4P % ZL109 + (1-
+4P %) Zirconia. (1>
+1P >
+2P >
+3P >0). 
+Team # 5                                                                     Page  10  of  18  
+ 
+ The sixth layer:  anti-heat--the pure Zirconia. 
+All the parameters
+1P ,
+2P ,
+3P  and 
+4P  can be determined by the following 
+function[5][6]: 
+2
+       
+2
+2
+2
+n
+c
+z
+h
+h
+h
+V
+z
+h
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+(13)
+     
+where h  is the thickness of the structure, and n is a volume fraction 
+exponent. Accordingly, the distribution of the modulus of elasticity an 
+isotropic FGM and its Poison’s ratio can be defined in terms of the 
+material constants of the constituent phases based on a selected 
+homogenization approach. 
+The parameters of the materials in the four-layer model can be 
+determined by the above function as well. 
+The same as modelⅠ, the transient heat conduction equation of this 
+composite material: 
+( , )
+( , )
+( ) ( )
+( )
+T y t
+T y t
+y c y
+k y
+t
+y
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  （14）
+For the initial conditions and thermal convection conditions are: 
+0
+0,
+( , )
+0, ( )
+( , )
+0,
+( , )
+, ( )
+( , )
+a
+a
+a
+b
+b
+b
+t
+T
+T
+T y t
+y
+k y
+T y t
+T
+y
+t
+T y t
+y
+b k y
+T y t
+T
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+  （15）
+We solve the above equation by the finite element method which has 
+explained in model Ⅰ. 
+6.2 Solution to the model  
+Using ANSYS 14.0, the model can be built by a few calculated or looked 
+up arguments [7]: 
+The six-layer model with Fillet should meet the following to goals: 
+ Internal Temperature: Higher/ 550℃ 
+ External Temperature: Lower/80℃ 
+The table 2 shows the relative parameters of each layer about the 
+Team # 5                                                                     Page  11  of  18  
+ 
+six-layer model. 
+Table 2  The relative parameters 
+ 
+Heat conductivity 
+(kcal/m.h. ℃) 
+Young’s 
+Modulus(GPa)
+Thermal Expansion 
+Coefficient 
+Poisson’s Ratio 
+The 1st layer 
+7.2 
+200 
+1.14e-5 
+0.310 
+The 2nd layer 
+62.640 
+112.9 
+1.92e-5 
+0.323 
+The 3rd layer 
+35.933 
+134.6 
+1.72e-5 
+0.320 
+The 4th layer 
+17.816 
+154.4 
+1.54e-5 
+0.317 
+The 5th layer  
+6.449 
+173.2 
+1.38e-5 
+0.314 
+The 6th layer 
+2.15 
+70 
+2.30e-5 
+0.330 
+ 
+And the following figures demonstrate that this design can reduce the 
+maximum and the average temperature and thermal stress caused by 
+temperature difference between internal side and external side. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4  The grid chart of the six layers plates 
+Actually, the detail number of grid node is 31806, and there are 6954 
+elements inside the model. 
+It is built up by 6 clinging layers, they are all have the same width and 
+height and length, but their materials are different from each other, which 
+means they have rather differed specialties on thermal features directly 
+determined by its physical properties. 
+ 
+Team # 5                                                                     Page  12  of  18  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5  The thermal strain map of the six layers plates 
+The maximum thermal strain is 1.2144%. It is tiny, and absolutely won't 
+effect the whole withstand ability. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6  The thermal equivalent stress map of the six layers plates 
+It is obvious that the special corner suffering high stress disappeared from 
+our result with fillet. Hence, it is strongly recommended to have fillet on 
+shape design when applying this sort of materials design schema into the 
+practical manufacturing process. 
+Seen from the figure above, the surface next the internal side is suffering 
+biggest stress. The maximum value of Thermal Stress is 4.4721e8, which 
+is much lower than the previous model of 4 layers.  
+According to the applying environment, the materials are required to 
+withstand the higher temperature difference, which means they should 
+have lower thermal stress, so this latter one of 6 layers, are proved to 
+perform better. 
+Team # 5                                                                     Page  13  of  18  
+ 
+7 Testing the results 
+When new schema of materials design is applied, better capability of 
+withstanding temperature difference is demonstrated, and it can find the 
+theoretical proof in the layer analysis. 
+For multi-layer plate, the materials are made of 2 completely different 
+things; they own rather different physical properties, which can determine 
+thermal behaviors under specialized condition of ultra-high temperature. 
+On one hand, the Zirconia can prevent the heat from getting too fast into 
+the metal, which means it can also keep heat inside the plate and won't let 
+them out. This is a useful feature for engine design. One the other hand, 
+the Aluminum is of great elastic ability, which will help to offset the 
+stress created by the physical forces from touching objects. 
+Thus, the composite material has the two features that counts in engine 
+manufacturing. 
+7.1 Sensitivity analysis  
+Experiments are conducted to demonstrate whether this optimization of 
+the design schema can hold on with one side of the plate is of heat 
+insulation; the result shows that the thermal stress increased a little less 
+than 8 percent of original model, which means the original model, can be 
+extended to the one-side-heat-insulation situation. When the corner of 
+each plate is not filleted, the result still show clearly similar, only to find 
+that the 4 corners are behaving badly on temperature and thermal stress, 
+but not on thermal strain. 
+7.2 Specific results 
+We use the following table to show the specific results of the two models 
+in our paper. 
+Table 3  Comparison of the two models 
+ 
+The 4-layer model 
+The 6-layer model 
+Maximum value of the 
+Thermal Stress 
+5.5773e+8 Pa 
+4.4721e+8 Pa 
+Minimum value of the 
+Thermal Stress 
+4.3109e+6 Pa 
+5.8822e+6 Pa 
+ 
+According to our analysis, the six layers plates can withstand the higher 
+temperature differences, and it is proved to be better.  
+Team # 5                                                                     Page  14  of  18  
+ 
+8 Strengths and Weaknesses 
+The models in this paper can be applied in the engine manufacturing. 
+They can help to promote the capability of withstanding temperature 
+difference caused by thermal stress and improve the quality of heat 
+keeping. These two are mostly treasured in engine materials design. 
+For the weaknesses, our models are restricted by two important factors: 
+one is the method to calculating the physical properties of the uniformly 
+mixed materials; the other is the ideal environment of convection.  
+As for the first restraint, physical properties can be testified by real 
+experiment of actual materials.  
+On the second restraint, the real physical environment may have wind, 
+fog or something else, which will strongly affect the convection of heat. 
+Sometimes it will cool the plate down, or just keep the materials in high 
+temperature. This is a complicated task to examine the real conditions for 
+the materials. 
+ 
+ 
+9 conclusion 
+ 
+We present the material design schema in this part again: 
+ The next-to-high-temperature-side layer is metal. 
+ The opposite side is non-metal layer. 
+ The middle layers are designed with uniformly mixed metal and 
+non-metal materials. 
+When we determine the material of each layer, the other thing to consider 
+is the metal ratio. It is determined by the formula 13 in the paper. And the 
+manufacturer can modify it accordingly to satisfy different situations of 
+appliance.  
+This design schema works successfully on meeting the requirements of 
+ultra-high temperature difference, and also has a good performance on 
+heat keeping capability. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Team # 5                                                                     Page  15  of  18  
+ 
+Reference 
+[1] Obata Y, Noda N. Unsteady thermal stresses in a functionally gradient 
+material plate (Analysis of one-dimensional unsteady heat transfer 
+problem. Trans.JSME, 1993, 59(590):1090-1096. 
+[2] Tanigawa Y, Akai T, Kawamura R. Transient heat conduction and 
+thermal stress problems of a no homogeneous plate with temperature 
+dependent material properties. Thermal stresses, 1996, 19:77-102. 
+[3] Victor Birman, Larry W. Byrd. Modeling and analysis of Functionally 
+Graded Materials and structures. Applied Mechanics Reviews, 2007, 
+9(60):195-216. 
+[4] J. N .Reddy. Analysis of functionally graded plates. International 
+Journal for Numerical Methods in Engineering, 2000, 47: 663-684. 
+[5] M. Grujicic, H. Zhao. Optimization of 316 stainless steel/alumina 
+functionally graded material for reduction of damage induced by thermal 
+residual stresses. Material Science and Engineering, 1998, 252:117-132. 
+[6] Mostapha Raki, Reza Alipour, Amirabbs Kamanbedast. Thermal 
+Buckling of Thin Rectangular FGM Plate. World Applied Science Journal, 
+2012, 16(1):52-62. 
+[7] Touisif Ahmed, Muhammad Ziaur Qahman, Debasish Adhikary. 
+Analysis of Al FGM as biomaterial of Artificial Human Femoral Bone 
+and Compare with Ti-Al-V Alloy through Computational Study. Global 
+Journal of Research in Engineering, 2013, 3(13): 332-341. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Team # 5                                                                     Page  16  of  18  
+ 
+Appendix 
+1. The first 4-layer model, ANSYS report on layer materials: 
+ 
+ 
+Team # 5                                                                     Page  17  of  18  
+ 
+ 
+ 
+2. The second 6-layer model, ANSYS report on layer materials: 
+ 
+ 
+ 
+Team # 5                                                                     Page  18  of  18  
+ 
+ 
+ 
+ 

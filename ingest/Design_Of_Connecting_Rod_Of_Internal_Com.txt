@@ -1,0 +1,453 @@
+National Conference in Mechanical Engineering Research and Postgraduate Studies (2nd NCMER 2010)
+3-4 December 2010, Faculty of Mechanical Engineering, UMP Pekan, Kuantan, Pahang, Malaysia; pp. 155-166
+ISBN: 978-967-0120-04-1; Editors: M.M. Rahman, M.Y. Taib, A.R. Ismail, A.R. Yusoff, and M.A.M. Romlay
+©Universiti Malaysia Pahang
+155
+DESIGN OF CONNECTING ROD OF INTERNAL COMBUSTION ENGINE:
+A TOPOLOGY OPTIMIZATION APPROACH
+M.S. Shaari1, M.M. Rahman1,2, M.M. Noor1, K. Kadirgama1 and
+A.K. Amirruddin1
+1Faculty of Mechanical Engineering, Universiti Malaysia Pahang
+26600 UMP, Pekan, Kuantan, Pahang, Malaysia
+Phone: +6094242246, Fax: +609-4242202
+E-mail: shamilshaari@yahoo.com; mustafizur@ump.edu.my
+2Automotive Engineering Centre, Universiti Malaysia Pahang
+ABSTRACT
+This paper presents the design connecting rod of internal combustion engine using the
+topology optimization. The objectives of this paper are to develop structural modeling,
+finite element analyze and the optimization of the connecting rod for robust design. The
+structure of connecting rod was modeled utilized SOLIDWORKS software. Finite
+element
+modeling
+and
+analysis
+were
+performed
+using
+MSC/PATRAN
+and
+MSC/NASTRAN software. Linear static analysis was carried out to obtain the
+stress/strain state results. The mesh convergence analysis was performed to select the
+best mesh for the analysis. The topology optimization technique is used to achieve the
+objectives of optimization which is to reduce the weight of the connecting rod. From the
+FEA analysis results, TET10 predicted higher maximum stress than TET4 and
+maximum principal stress captured the maximum stress. The crank end is suggested to
+be redesign based on the topology optimization results. The optimized connecting rod is
+11.7% lighter and predicted low maximum stress compare to initial design. For future
+research, the optimization should cover on material optimization to increase the strength
+of the connecting rod.
+Keywords: Topology optimization, connecting rod, finite element analysis, minimum
+weight, linear static method.
+INTRODUCTION
+Connecting
+rods
+are
+highly
+dynamically
+loaded
+components
+used
+for
+power
+transmission in combustion engines. The optimization of connecting rod had already
+started as early year 1983 by Webster and his team. However, each day consumers are
+looking for the best from the best. That’s why the optimization is really important
+especially in automotive industry. Optimization of the component is to make the less
+time to produce the product that is stronger, lighter and less cost. The design and weight
+of the connecting rod influence on car performance. Hence, it is effect on the car
+manufacture credibility. Change in the structural design and also material will be
+significant increments in weight and performance of the engine. Mirehei et al. (2008)
+were performed the study regarding the fatigue of connecting rod on universal tractor
+(U650) by using ANSYS software application and the lifespan was estimated. The
+authors also investigated that the stresses and hotspots experienced by the connecting
+rod and the state of stress as well as stress concentration factors can be obtained and
+156
+consequently used for life predictions. Rahman et al. (2008a, 2009a) discuss about FEA
+of the cylinder block of the free piston engine. The 4 nodes tetrahedral (TET4) element
+version of the cylinder block was used for the initial analysis. The comparison then are
+made between TET4 and 10 nodes tetrahedral (TET10) element mesh while using the
+same global mesh length for the highest loading conditions (7.0 MPa) in the combustion
+chamber.
+A connecting rod is subjected to many millions of repetitive cyclic loadings.
+Therefore, durability of this component is of critical importance. It is necessary to
+investigate finite element modeling techniques, optimization techniques and new design
+to reduce the weight at the same time increase the strength of the connecting rod itself.
+Shenoy (2004) was explored the weight and cost reduction opportunities for a
+production forged steel connecting rod. The study has dealt with two parts which are
+dynamic load and quasi-dynamic stress analysis of the connecting rod, and second to
+optimize the weight and cost. Shenoy and Fatemi (2005) were explained about
+optimization study was performed on a steel forged connecting rod with a consideration
+for improvement in weight and production cost. Weight reduction was achieved by
+using an iterative procedure. In this study weight optimization is performed under a
+cyclic load comprising dynamic tensile load and static compressive load as the two
+extreme loads. Yang et al. (1992) describes a successful process for performing
+component shape optimization should be focused on design modeling issues. A modular
+software system is described and some of the modules are widely available commercial
+programs such as MSC/PATRAN and MSC NASTRAN. The upper end (pin end) of a
+connecting rod is optimized under a variety of initial assumptions to illustrate the use of
+the system. The objectives of the study are to develop structural modeling of connecting
+rod and perform finite element analysis of connecting rod. The main objective is to
+develop topology optimization model of connecting rod.
+OPTIMIZATION APPROACH
+The objective of optimization technique is to minimize the mass of the connecting rod
+and reduce the cost of production. The connecting rod subjected to tensile load at crank
+end, while using factor of safety 3 as recommended by Shenoy (2004). The maximum
+stress of the connecting rod monitored and make sure it is not over the allowable stress.
+The load of the connecting rod optimized is comprised of the tensile load of 26.7 kN at
+crank end. Linear buckling analysis was performed on the connecting is 26.7 kN. The
+buckling load factor is considered also 3. The optimization technique methodology
+flowchart is shown in Figure 1.
+RESULTS AND DISCUSSION
+This section presents the details results of FE Analysis, selection of the mesh type and
+influence of mesh type, identification of mesh convergence and optimization of the
+connecting rod.
+Finite Element Modeling and Analysis
+The connecting rod is one of the most important components in the internal combustion
+engine (Rasekh et al., 2009). Therefore, the initial design is compared to other design
+before performing the optimization. A simple three-dimensional model of connecting
+157
+rod was developed using SOLIDWORKS software and finite element model was
+created using TET10 as shown in Figure 2. Mesh study was performed on the FE model
+to ensure sufficiently fines sizes are employed for accuracy of the calculated result
+depends on the CPU time Rahman et al. (2009b,c). During the analysis, the specific
+variable and the mesh convergence was monitored and evaluated. The mesh
+convergence is based on the geometry, model topology and analysis objectives.
+Figure 1: Flowchart of optimization approach
+The uniformly distributed tensile load 180o on the inner surfaces of the crank end
+while the other part, pin end is restrain as in Figure 3. It is just same when load
+uniformly distributed on pin end surfaces, the crank end will restrain in all direction.
+This both cases also work exactly in compressive load. In Figure 2, shows the boundary
+condition of the connecting rod in three-dimensional FE model with load and
+constraints. In this study four finite element models were analyzed. FEA for both tensile
+and compressive loads were conducted. Two cases were analyzed for each case, Firstly,
+load applied at the crank end and restrained at the piston pin end, and secondly, load
+applied at the piston pin end and restrained at the crank end and the axial load was 26.7
+kN in both tension and compression (Shenoy, 2004).
+158
+(a) Isometric 3D view
+(b) TET10 (nodes 65547, element 39987)
+Figure 2: (a) Structural model of initial design. (b) Connecting rod by using
+(a)
+(b)
+159
+Figure 3: (a) Tensile load at crank end and fixed at pin end; (b) Tensile load at pin end
+and fixed at crank end.
+Influence of Mesh Type
+The tetrahedral meshing approach is employed for the meshing of the solid region
+geometry.
+Tetrahedral
+meshing
+produces
+high
+quality
+meshing
+for
+boundary
+representation of solid structural model. Since the tetrahedral is found to be the best
+meshing technique, TET4 was used for the initial analysis. The comparison then are
+made between the TET4 and the 10 nodes tetrahedral (TET10) element mesh while
+using the same global mesh length for the highest loading conditions (26.7 kN).
+Material properties play an important role in the result of the FE analysis. The material
+properties are one of the major inputs to perform the FEA and optimization. C-70 steel
+is The mechanical properties of C-70 steel are shown in Table 1. From the results, it can
+be found that the TET10 mesh predicted higher von Mises stresses than that TET4
+meshes are known to be dreadfully stiff (Rahman et al., 2007, 2008b). TET4 employed
+a linear order interpolation function while TET10 used quadratic order interpolation
+function (Wang et al., 2004). For the same mesh size, TET10 is expected to be able to
+capture the high stress concentration associated with the bolt holes. A TET10 was then
+finally used for the solid mesh. Mesh study is performed on FE model to ensure
+sufficiently fine sizes are employed for accuracy of calculated results but at
+computational time (CPU time). Figure 4 shows the von-Mises stresses contour for
+TET10 meshes element at a high load level. Table 2 shows that TET10 mesh predicts
+higher von-Mises stresses than TET4 mesh. Specifically, TET10 mesh predicts the
+highest von-Mises stresses is 301 MPa at mesh size 4 mm. The comparison was made
+by using different length of mesh. Figure 5 and 6 show the variation of stress and
+displacement over the global edge length and it can be seen that the TET10 is always
+captured the higher values.
+Table 1: Mechanical properties of C-70 Steel
+Properties
+Value
+Tensile strength,σ
+UTS (MPa)
+965.8
+Yield strength(0.2% offset),σYS (MPa)
+573.7
+Young’s modulus, E (GPa)
+211.5
+Percent elongation, %EL (%)
+27%
+Percent reduction in area, %RA (%)
+25%
+Table 2: Comparison between TET4 and TET10 with stress and displacement.
+von Mises (MPa)
+Displacement (mm)
+Mesh Size (mm)
+TET4
+TET10
+TET4
+TET10
+16
+22.4
+107.0
+0.060
+0.351
+12
+32.7
+142.0
+0.111
+0.475
+8
+49.5
+261.0
+0.145
+0.604
+4
+67.6
+301.0
+0.201
+0.850
+160
+MPa
+Figure 4: Von-Mises stresses contour for TET4 tensile load at pin end.
+Figure 5: Comparison between TET4 and TET10 on von-Mises stress
+Maximum stress is 32.7 MPa
+at node 12600
+161
+Figure 6: Comparison between TET4 and TET10 displacement
+Identification of Mesh Convergence
+The convergence of the stress was considered as the main criteria to select the mesh
+type. The finite element mesh was generated using the TET10 for various mesh global
+length. It can be seen from Figure 7 that mesh size of 4 mm is obtained largest stresses.
+The smaller size less than 4 mm do not implemented due to the limitation of CPU time
+and storage capacity of the computer. Hence, the maximum principal stress based on
+TET10 at 4 mm mesh size is used in the analysis since the stress is higher compared to
+von-Mises, Tresca and maximum principal stresses.
+Figure 7: Stresses versus mesh size at critical location of for mesh convergence.
+Optimization of Connecting Rod
+The optimization of the connecting rod carried out using topology optimization
+technique. The optimization focused on the uncritical sections which need to be
+reduced. From the topology optimization, it is suggest the unnecessary shape and design
+of the connecting rod. The optimization results are tabulated in Table 3 and the
+objective function history are shown in Figure 8. The results of topology optimization of
+the connecting rod are shown in Figure 9. The main objective is to minimize the weight
+of the connecting rod as well as the total production cost. It can be seen that the
+optimized model is reduce the weight from initial design until the value converges.
+Figure 8 shows the objective function history of the optimization. The convergence of
+the design is immediately after cycle no. 9. The implementation of these optimizations
+is to find out the best design and topology of the connecting rod to improve the
+performance and the strength especially at the critical location. The
+possible
+modification section of the optimized connecting rod is indicated in the figure. The
+section with lower value than initial value considered as the suggestion to be optimized
+in the new design. Table 4 shows the comparison between initial and optimize designs
+on max principles stress and mass of the connecting rod. The optimize connecting rod
+no 4 was choose as the best optimize design due to the lowest occurred stress and mass.
+Even though the mass of the optimize connecting rod is not the lowest, but the decision
+was also based on the maximum stress which is 320 MPa. Figure 10 shows the new
+162
+design of the connecting rod and mass of the connecting rod is 0.464 kg compare to
+initial design 0.577 kg which is 11.7% lighter.
+163
+Table 3: Objective and maximum constraint from optimization of connecting rod
+Cycle
+Number
+Objective Function
+Fractional
+Error
+Maximum
+Constraint
+Approximate
+Optimization
+Exact
+Analysis
+Approximation
+Initial
+2.41 x 103
+0.00
+1
+8.91 x 102
+1.56 x 103
+-4.29 x 10-1
+1.21 x 10-4
+2
+6.99 x 102
+1.08 x 103
+-3.54 x 10-1
+1.31 x 10-5
+3
+5.73 x 102
+7.94 x 102
+-2.78 x 10-1
+-2.20 x 10-6
+4
+5.05 x 102
+6.15 x 102
+-1.77 x 10-1
+1.10 x 10-5
+5
+5.15 x 102
+5.53 x 102
+-6.86 x 10-2
+-1.98 x 10-5
+6
+4.78 x 102
+5.00 x 102
+-4.45 x 10-2
+6.79 x 10-6
+7
+4.61 x 102
+4.72 x 102
+-2.32 x 10-2
+1.09 x 10-4
+8
+4.42 x 102
+4.49 x 102
+-1.50 x 10-2
+-3.91 x 10-5
+9
+4.27 x 102
+4.31 x 102
+-9.32 x 10-3
+4.60 x 10-5
+10
+4.15 x 102
+4.18 x 102
+-7.51 x 10-3
+1.72 x 10-4
+11
+4.07 x 102
+4.09 x 102
+-4.61 x 10-3
+-2.82 x 10-5
+12
+4.01 x 102
+4.02 x 102
+-3.14 x 10-3
+-3.17 x 10-5
+13
+3.96 x 102
+3.97 x 102
+-2.26 x 10-3
+-2.77 x 10-5
+14
+3.93 x 102
+3.94 x 102
+-1.79 x 10-3
+7.73 x 10-5
+15
+3.90 x 102
+3.91 x 102
+-1.51 x 10-3
+5.71 x 10-5
+16
+3.88 x 102
+3.89 x 102
+-1.04 x 10-3
+-9.83 x 10-6
+17
+3.86 x 102
+3.86 x 102
+-6.33 x 10-4
+1.77 x 10-4
+18
+3.85 x 102
+3.85 x 102
+-8.03 x 10-4
+-1.34 x 10-4
+19
+3.83 x 102
+3.83 x 102
+-7.98 x 10-4
+7.08 x 10-5
+20
+3.82 x 102
+3.82 x 102
+-5.96 x 10-4
+6.80 x 10-5
+Figure 8: Objective function history.
+164
+(a)
+(b)
+Figure 9: (a) Optimized connecting rod when force at crank end. (b) Optimized
+connecting rod when force at pin end.
+Table 4: Comparison between initial and optimize designs on stress and mass.
+Design
+Maximum principles stress (MPa)
+Mass (kg)
+Initial
+1230
+0.577
+Optimize No 1
+1870
+0.436
+Optimize No 2
+1340
+0.429
+Optimize No 3
+906
+0.513
+Possible
+modification
+section
+Possible
+modification
+section
+165
+Optimize No 4
+320
+0.464
+(a)
+(b)
+Figure 10: (a) Isometric 3D view of optimized design. (b) Front 3D view of new design.
+CONCLUSION
+The modeling of connecting rod and FE Analysis has been presented. Topology
+optimization were analyzed to the connecting rod and according to the results, it can be
+concluded that the weight of optimized design is 11.7% lighter and maximum stress
+also predicted lower than the initial design of connecting rod. The results clearly
+indicate that the new design much lighter and has more strength than initial design of
+connecting rod. Material optimization approach will be considered for future research.
+ACKNOWLEDGEMENT
+The authors would like to thank the University Malaysia Pahang for provides laboratory
+facilities.
+REFERENCES
+166
+Lee, M.K., Lee, H., Lee, T.S. and Jang, H. 2010, Buckling sensitivity of a connecting
+rod to the shank sectional area reduction, Materials and Design, 31: 2796–2803.
+Mirehei, A., Zadeh, H.M., Jafari, A. and Omid. M. 2008. Fatigue analysis of connecting
+rod of universal tractor through finite element method (ANSYS). Journal of
+Agricultural Technology. 4(2): 21-27.
+Rahman, M.M., Ariffin, A.K.,
+Abdullah, S., Noor, M.M.
+and Bakar, R.A. 2009b.
+Durability assessment of cylinder block for two stroke free piston linear engine
+using random loading. American Journal of Applied Sciences, 6(4): 726-735.
+Rahman, M.M., Ariffin, A.K., Abdullah, S., Noor, M.M., Bakar, R.A. and Maleque,
+M.A. 2008b. Finite element based fatigue life prediction of cylinder head for
+two-stroke linear engine using stress-life approach. Journal of Applied Sciences,
+8(19):3316-3327.
+Rahman, M.M., Ariffin, A.K., Jamaludin, N. and Abdullah, S. 2007. Effect of nitriding
+treatment on fatigue life for free piston linear engine component using frequency
+response method: a finite element approach. Structural Durability and Health
+Monitoring, 3(4): 197-209.
+Rahman, M.M., Ariffin, A.K., Jamaludin, N., Abdullah, S. and Noor, M.M. 2008a.
+Finite element based fatigue life prediction of a new free piston engine
+mounting. Journal of Applied Sciences, 8(9):1612-1621.
+Rahman, M.M., Ariffin, A.K., Rejab, M.R.M., Kadirgama, K.,
+Noor, M.M. 2009c.
+Multiaxial fatigue behaviour of cylinder head for a free piston linear engine”
+Journal of Applied Sciences, 9(15): 2725 - 2734.
+Rahman, M.M., Kadirgama, K., Noor, M.M., Rejab, M.R.M. and Kesulai, S.A., 2009a,
+Fatigue life prediction of lower suspension arm using strain-life approach,
+European Journal of Scientific Research. 30(3): 437-450.
+Rasekh, M., Asadi, M.R., Jafari, A. and Kheiralipour, K. 2009. Obtaining maximum
+stresses in different parts of tractor (MF-285) connecting rods using finite
+element method, Journal of Basic and Applied Sciences. 3(2): 1438-1449.
+Shenoy, P.S and Fatemi, A. 2005. Connecting rod optimization for weight and cost
+reduction, SAE Technical Paper, Paper No. 2005-01-0987.
+Shenoy, P.S. 2004. Dynamic load analysis and optimization of connecting rod. Master’s
+Thesis. University of Toledo, USA.
+Wang, E., Nelson, T. and Rauch, R. 2004, Back to Elements - Tetrahedra vs.
+Hexahedra, CAD-FEM GmbH, Germany.
+Yang, R.J., Dewhirst, D.L., Allison, J.E. and Lee, A. 1992. Shape optimization of
+connecting rod pin end using a generic model. Finite Elements in Analysis and
+Design. 11: 257-264.

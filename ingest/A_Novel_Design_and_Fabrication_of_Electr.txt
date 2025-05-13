@@ -1,0 +1,1066 @@
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5094 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+International Journal of Emerging Trends in Science and Technology 
+IC Value: 76.89 (Index Copernicus)   Impact Factor: 4.219 DOI: https://dx.doi.org/10.18535/ijetst/v4i4.08 
+ 
+A Novel Design and Fabrication of Electromagnetic Internal Combustion 
+Engines 
+ 
+Authors 
+Abhishek Samanta1*, Ragul G1*, Sreejith C2, Abhijit Roy1, Indira Ghosh1 
+1Department of Mechanical Engineering, Budge Budge Institute of Technology, Kolkata, India 
+2Department of Automobile Engineering, Nehru College of Engineering & Research Centre, Thrissur, India 
+*Email: ragulme90@gmail.com, Samanta_avi@yahoo.com 
+ABSTRACT  
+This paper reports an investigation that was carried out in a magnetic engine is according to the concept 
+appears to be a so-called "perpetual motion machine". Here you will find its images, patent, and also you 
+will learn information from his production and testing. The Black pointer on the disk indicates the position 
+of piston. It is evident that with the closed shutter the piston is located stably in the upper position, and 
+shutter renders the valuable screening of magnets, fulfilling the functions described by me. Further, with the 
+discovery of shutter piston accomplishes reciprocating motion. The stored energy of flywheel continues to 
+move piston to the upper position. Work: the displacements of the shutter = of 0,444 the displacement of 
+piston = 1,251. 
+Keywords: Magnetic Engines, Lead Acid Battery, IC555 Timers, Time and Control Unit and Pin 
+Configuration. 
+ 
+1. INTRODUCTION 
+Magnetic engine, in housing of which are placed 
+the permanent magnets, the first of which is 
+established with the guarantee of a possibility of the 
+accomplishment of reciprocating motion under the 
+action of the forces of magnetic field, in the 
+housing is also established the shaft, connected 
+with the first magnet with the aid of the means, 
+which makes it possible to convert the reciprocating 
+motion of the first magnet into the rotation of shaft, 
+that is characterized by the fact that the second 
+magnet is securely fastened on the housing 
+opposition first, both magnets are oriented by poles 
+counter, magnetic engine is supplied with the 
+ferromagnetic screen, made with the guarantee of a 
+possibility of its displacement in the clearance 
+between the magnets perpendicular to the line of 
+forces of magnetic field, ferromagnetic screen is 
+supplied with the means, which ensures its 
+displacement under the action of the rotation of 
+shaft, ferromagnetic screen is also supplied with the 
+means, which ensures its recurrent displacement. 
+Magnetic 
+engine 
+on 
+position 
+1, 
+which 
+is 
+characterized by the fact that the mentioned means, 
+which ensures the reciprocating displacement of 
+magnet, is executed in the form of crank gear. 
+Magnetic engine on position 1 or position 2, which 
+is characterized by the fact that the mentioned 
+means of the displacement of ferromagnetic screen 
+contains the rotating lever interacting with the 
+ferromagnetic screen and the cam gear, whose 
+kulachek is fixed on the shaft, and the pusher, 
+which interacts with the fist, is fixed in line with 
+rotating lever.  
+Magnetic engine on any of pp. 1-3, that is 
+characterized by the fact that the shaft is supplied 
+with the storage battery of mechanical energy, 
+made, for example, in the form of flywheel. 
+The aim is to design and develop a control system 
+based on electro-magnetic system of an intelligent 
+controlled automotive engine system. Based on this 
+model, control strategies such as an 'antilock 
+braking 
+system' 
+(ABS) 
+and 
+improved 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5095 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+maneuverability via individual wheel braking are to 
+be developed and evaluated. 
+ 
+2. ENGINE AND ITS OPERATION 
+A. Construction 
+In this research we use SPARK IGNITION engine 
+of the type two stroke single cylinder of Cubic 
+capacity 75 cc.  Engine has a piston that moves up 
+and down in cylinder.  A cylinder is a long round 
+air pocket somewhat like a tin can with a bottom 
+cut out.  Cylinder has a piston which is slightly 
+smaller in size than the cylinder the piston is a 
+metal plug that slides up and down in the cylinder 
+Bore diameter and stroke length of the engine are 
+50mm and 49mm respectively. 
+ 
+Figure 1: Design of Electromagnetic Engine 
+ 
+ 
+Figure 2: Fabrication of Electromagnetic Engine 
+ 
+B. I.C Engine 
+Internal combustion engines are those heat engines 
+that burn their fuel inside the engine cylinder. In 
+internal combustion engine the chemical energy 
+stored in their operation. The heat energy is 
+converted in to mechanical energy by the expansion 
+of gases against the piston attached to the 
+crankshaft that can rotate. 
+C. Petrol Engine 
+The engine which gives power to propel the 
+automobile vehicle is a petrol burning internal 
+combustion engine. Petrol is a liquid fuel and is 
+called by the name gasoline in America. 
+The ability of petrol to furnish power rests on the 
+two basic principles: 
+ Burning 
+or 
+combustions 
+always 
+accomplished by the production of heat. 
+ When a gas is heated, it expands. If the 
+volume remains constant, the pressure rises 
+according to Charlie’s law. 
+C. Working 
+There are only two strokes involved namely the 
+compression stroke and the power stroke; they are 
+usually called as upward stroke and downward 
+stroke respectively. 
+D. Upward Stroke 
+ 
+During this stroke, the piston moves from bottom 
+dead center to top dead center, compressing the 
+charge-air petrol mixture in combustion chamber of 
+the cylinder. At the time the inlet port is uncovered 
+and the exhaust, transfer ports are covered. The 
+compressed charge is ignited in the combustion 
+chamber by a spark given by spark plug. 
+E. Downward Stroke 
+The charge is ignited the hot gases compress the 
+piston moves downwards, during this stroke the 
+inlet port is covered by the piston and the new 
+charge is compressed in the crankcase, further 
+downward movement of the piston uncovers first 
+exhaust port and then transfer port and hence the 
+exhaust starts through the exhaust port. As soon as 
+the transfer port open the charge through it is forced 
+in to the cylinder, the cycle is then repeated. 
+F. Nomenclature 
+Bore 
+This is the diameter of the engine cylinder. 
+ 
+ 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5096 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+G. Stroke 
+Distance traveled by the piston in moving from 
+TDC to the BDC is called stroke. 
+H. Engine Capacity 
+This is a total piston displacement or the swept 
+volume of all the cylinders. 
+I. Power 
+It is the work done in a given period of time. 
+J. Compression Ratio 
+It is a ratio of volume when the piston is at the 
+bottom dead center to the volume when the piston 
+is at top dead center. 
+Compression ratio = Maximum cylinder volume / 
+Minimum cylinder volume. 
+K. Indicated Power 
+The power developed within the engine cylinders is 
+called indicated power.  This is calculated from the 
+area of the engine indicator diagram.  It is usually 
+expressed in kilowatts (kW). 
+                I.P = B.P + F.P 
+F.P is calculated from graph by negative horse 
+power method. 
+L. Brake Power 
+This is the actual power delivered at the crankshaft.  
+It is obtained by deducting various power losses in 
+the engine from the indicated power.  It is measured 
+with a dynamometer and is expressed in kilowatts 
+(kW).  It is always less than the indicated power, 
+due to frictional and pumping losses in the 
+cylinders and the reciprocating mechanism. 
+B.P = V * I / 1000 * EFFICIENCY OF 
+ALTERNATOR 
+M. Engine Torque 
+It is the force of rotation acting about the crankshaft 
+axis at any given instant of time. 
+T = 2* 3.14 * N / 60 
+N. Function 
+The spark ignition engine uses a highly volatile 
+fuel, which easily vaporizes.  The fuel is mixed 
+with air before it enters the engine cylinders in the 
+carburetor.  This mixture then enters the cylinders 
+and is compressed.  Next an electric spark is 
+produced by ignition system ignites the compressed 
+air fuel mixture. 
+ 
+3. Components and Description 
+The Electro-magnetic engine consists of the 
+following components to fulfill the requirements of 
+complete operation of the machine. 
+1) BATTERY 
+2) FRAME STAND   
+3.1 Battery 
+3.1.1 Introduction 
+In isolated systems away from the grid, batteries are 
+used for storage of electrical energy in the form of 
+chemical energy. 
+ The only exceptions are isolated sunshine load 
+such as irrigation pumps or drinking water supplies 
+for storage.  In fact for small units with output less 
+than one kilowatt.  Batteries seem to be the only 
+technically and economically available storage 
+means.  Since both the photo-voltaic system and 
+batteries are high in capital costs.  It is necessary 
+that the overall system be optimized with respect to 
+available energy and local demand pattern.  To be 
+economically attractive the storage of solar 
+electricity requires a battery with a particular 
+combination of properties: 
+(1) 
+Low cost 
+(2) 
+Long life 
+(3) 
+High reliability 
+(4) 
+High overall efficiency 
+(5) 
+Low discharge 
+(6) 
+Minimum maintenance 
+             (7)       Ampere hour efficiency 
+             (8)       Watt hour efficiency 
+We use lead acid battery for storing the electrical 
+energy from the solar panel for lighting the street 
+and so about the lead acid cells are explained 
+below. 
+4. Lead-acid wet Cell 
+Where high values of load current are necessary, 
+the lead-acid cell is the type most commonly used.  
+The electrolyte is a dilute solution of sulfuric acid 
+(H₂SO₄).  In the application of battery power to 
+start the engine in an auto mobile, for example, the 
+load current to the starter motor is typically 200A to 
+400A.  One cell has a nominal output of 2.0V, but 
+lead-acid cells are often used in a series combin-
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5097 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+ation of three for a 6-V battery and six for a 12-V 
+battery. 
+The lead acid cell type is a secondary cell or 
+storage cell, which can be recharged.  The charge 
+and discharge cycle can be repeated many times to 
+restore the output voltage, as long as the cell is in 
+good physical condition. However, heat with 
+excessive charge and discharge currents shortens 
+the useful life to about 3 to 5 years for an 
+automobile battery.  Of the different types of 
+secondary cells, the lead-acid type has the highest 
+output voltage, which allows fewer cells for a 
+specified battery voltage. 
+ 
+Figure 3: Lead Acid wet Battery 
+ 
+5. CONSTRUCTION 
+Inside a lead-acid battery, the positive and negative 
+electrodes consist of a group of plates welded to a 
+connecting strap.  The plates are immersed in the 
+electrolyte, consisting of 8 parts of water to 3 parts 
+of concentrated sulfuric acid.  Each plate is a grid 
+or framework, made of a lead-antimony alloy.  This 
+construction enables the active material, which is 
+lead oxide, to be pasted into the grid.  In 
+manufacture of the cell, a forming charge produces 
+the positive and negative electrodes.  In the forming 
+process, the active material in the positive plate is 
+changed to lead peroxide (pbo₂).  The negative 
+electrode is spongy lead (pb). Automobile batteries 
+are usually shipped dry from the manufacturer.  The 
+electrolyte is put in at the time of installation, and 
+then the battery is charged to from the plates.  
+With maintenance-free batteries, little or no water 
+need be added in normal service.  Some types are 
+sealed, except for a pressure vent, without provision 
+for adding water. 
+The construction parts of battery are shown in 
+Figure 3. 
+5.1 Chemical Reaction 
+Sulfuric acid is a combination of hydrogen and 
+sulfate ions.  When the cell discharges, lead 
+peroxide from the positive electrode combines with 
+hydrogen ions to form water and with sulfate ions 
+to form lead sulfate. Combining lead on the 
+negative plate with sulfate ions also produces he 
+sulfate.  Therefore, the net result of discharge is to 
+produce more water, which dilutes the electrolyte, 
+and to form lead sulfate on the plates. 
+As the discharge continues, the sulfate fills the 
+pores of the grids, retarding circulation of acid in 
+the active material.  Lead sulfate is the powder 
+often seen on the outside terminals of old batteries.  
+When the combination of weak electrolyte and 
+sulfating on the plate lowers the output of the 
+battery, charging is necessary. On charge, the 
+external D.C. source reverses the current in the 
+battery.  The reversed direction of ions flows in the 
+electrolyte result in a reversal of the chemical 
+reactions.  
+Now the lead sulfates on the positive plate reactive 
+with the water and sulfate ions to produce lead 
+peroxide and sulfuric acid.  This action re-forms the 
+positive plates and makes the electrolyte stronger 
+by adding sulfuric acid.   
+ 
+Figure 4: Chemical reaction of Lead Acid wet 
+Battery 
+ 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5098 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+At the same time, charging enables the lead sulfate 
+on the negative plate to react with hydrogen ions; 
+this also forms sulfuric acid while reforming lead 
+on the negative plate to react with hydrogen ions; 
+this also forms currents can restore the cell to full 
+output, with lead peroxide on the positive plates, 
+spongy lead on the negative plate, and the required 
+concentration of sulfuric acid in the electrolyte.  
+The chemical reaction equation for the lead-acid 
+cell is 
+Charge. 
+Pb + pbO₂ + 2H₂SO₄                 2pbSO₄ + 2H₂O                             
+ 
+ 
+                                                Discharge 
+On discharge, the (Pb) and (pbo₂) combine with the 
+(SO₄) ions at the left side of the equation to form 
+lead sulphate (pbSO₄) and water (H₂O) at the right 
+side of the equation. 
+One battery consists of 6 cells, each have an output 
+voltage of 2.0V, which are connected in series to 
+get a voltage of 12V and the same 12V battery is 
+connected in series, to get a 24 V battery.  They are 
+placed in the water proof iron casing box. 
+5.2 Caring for Lead-acid Batteries 
+Always use extreme caution when handling 
+batteries and electrolyte. Wear gloves, goggles and 
+old clothes.  “Battery acid” will burn skin and eyes 
+and destroy cotton and wool clothing. 
+The quickest way of ruin lead-acid batteries is to 
+discharge them deeply and leave them stand “dead” 
+for an extended period of time. When they 
+discharge, there is a chemical change in the positive 
+plates of the battery.  They change from lead oxide 
+when charge out lead sulfate when discharged.  If 
+they remain in the lead Sulfate State for a few days, 
+some part of the plate dose not returns to lead oxide 
+when the battery is recharged. If the battery remains 
+discharge longer, a greater amount of the positive 
+plate will remain lead sulfate.  The parts of the 
+plates that become “sulfate” no longer store energy.  
+Batteries that are deeply discharged, and then 
+charged partially on a regular basis can fail in less 
+than one year. 
+Check your batteries on a regular basis to be sure 
+they are getting charged.  Use a hydrometer to 
+check the specific gravity of your lead acid 
+batteries.  If batteries are cycled very deeply and 
+then recharged quickly, the specific gravity reading 
+will be lower than it should because the electrolyte 
+at the top of the battery may not have mixed with 
+the “charged” electrolyte.  
+ Check the electrolyte level in the wet-cell batteries 
+at the least four times a year and top each cell of 
+with distilled water. Do not add water to discharged 
+batteries.  Electrolyte is absorbed when batteries are 
+much discharged.  If you add water at this time, and 
+then recharge the battery, electrolyte will overflow 
+and make a mess. 
+Keep the top of your batteries clean and check that 
+cables are tight.  Do not tighten or remove cables 
+while charging or discharging.  Any spark around 
+batteries can cause a hydrogen explosion inside, 
+and ruin one of the cells, and you. On charge, with 
+reverse current through the electrolyte, the chemical 
+reaction is reversed.  Then the (pb) ions from the 
+lead sulfate on the right side of the equation re-form 
+the lead and lead peroxide electrodes.  Also the 
+(SO₄) ions combine with (H₂) ions from the water 
+to produce more sulfuric acid at the left side of the 
+equation. 
+5.3 Current ratings 
+Lead-acid batteries are generally rated in terms of 
+how much discharge currents they can supply for a 
+specified period of time; the output voltage must be 
+maintained above a minimum level, which is 1.5V 
+to 1.8V per cell.  A common rating is ampere-hours 
+(A.H.) based on a specific discharge time, which is 
+often 8 hours. Typical values for automobile 
+batteries are 100 A.H to 300 A.H. 
+As an example, a 200 A.H battery can supply a load 
+current of 200 A.H /8 hour or 25A, used on 8 hour 
+discharge.  The battery can supply less current for a 
+longer time or more current for a shorter time.  
+Automobile batteries may be rated for “cold 
+cranking power”, which is related to the job of 
+starting the engine. A typical rating is 450A for 
+30seconds at a temperature of 0 degree F. 
+Note that the ampere-hour unit specifies coulombs 
+of charge.  For instance, 200 A.H. corresponds to 
+200 A*3600seconds (1hour=3600seconds).  The 
+equals 720,000 A.S, or coulombs.  One ampere-
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5099 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+second is equal to one coulomb. Then the charge 
+equals 720,000 or 7.2*10^5ºC. To put this much 
+charge back into the battery would require 20 hours 
+with a charging current of 10A. The ratings for 
+lead-acid batteries are given for a temperature range 
+of 77 to 80ºF. Higher temperature increase the 
+chemical reaction, but operation above 110ºF 
+shortens the battery life. 
+Low temperatures reduce the current capacity and 
+voltage output. The ampere-hour capacity is 
+reduced approximately 0.75% for each decreases of 
+1º F below normal temperature rating.  At 0ºF the 
+available output is only 60 % of the ampere-hour 
+battery rating.  
+In cold weather, therefore, it is very important to 
+have an automobile battery unto full charge.  In 
+addition, the electrolyte freezes more easily when 
+diluted by water in the discharged condition. 
+5.4 Specific Gravity 
+Measuring the specific gravity of the electrolyte 
+generally checks the state of discharge for a lead-
+acid cell.  Specific gravity is a ratio comparing the 
+weight of a substance with the weight of a 
+substance with the weight of water.  For instance, 
+concentrated sulfuric acid is 1.835 times as heavy 
+as water for the same volume. Therefore, its 
+specific gravity equals 1.835.  The specific gravity 
+of water is 1, since it is the reference. In a fully 
+charged automotive cell, mixture of sulfuric acid 
+and water results in a specific gravity of 1.280 at 
+room temperatures of 70ºF to 80ºF. As the cell 
+discharges, more water is formed, lowering the 
+specific gravity.  When it is down to about 1.150, 
+the cell is completely discharged. 
+Specific-gravity readings are taken with a battery 
+hydrometer, such as one in FIGURE 3.  Note that 
+the calibrated float with the specific gravity marks 
+will rest higher in an electrolyte of higher specific 
+gravity. The decimal point is often omitted for 
+convenience.  For example, the value of 1.220 in 
+figure (7) is simply read “twelve twenty”.  A 
+hydrometer reading of 1260 to 1280 indicates full 
+charge, approximately 12.50 are half charge, and 
+1150 to 1200 indicates complete discharge. 
+The importance of the specific gravity can be seen 
+from the fact that the open-circuit voltage of the 
+lead-acid cell is approximately equal to 
+V 
+= 
+Specific gravity + 0.84 
+ 
+For the specific gravity of 1.280, the voltage is 
+1.280 + 0.84 = 2.12V, as an example.  These values 
+are for a fully charged battery. 
+5.5 Charging the Lead-Acid Battery 
+The requirements are illustrated in figure.  An 
+external D.C. voltage source is necessary to 
+produce current in one direction.  Also, the 
+charging voltage must be more than the battery 
+e.m.f.  Approximately 2.5 per cell are enough to 
+over the cell e.m.f. so that the charging voltage can 
+produce current opposite to the direction of 
+discharge current. 
+Note that the reversal of current is obtained just by 
+connecting the battery (VB) and charging source 
+(VG) with positive to positive and negative to 
+negative, as shown in FIGURE 3.  The charging 
+current is reversed because the battery effectively 
+becomes a load resistance for (VG) when it higher 
+than (VB).  In this example, the net voltage 
+available to produce charging currents is 15V-
+12V=3V. 
+A commercial charger for automobile batteries is 
+essentially a D.C. power supply, rectifying input 
+from the AC power line to provide D.C. output for 
+charging batteries. Float charging refers to a 
+method in which the charger and the battery are 
+always connected to each other for supplying 
+current to the load.  In figure the charger provides 
+current for the load and the current necessary to 
+keep the battery fully charged.  The battery here is 
+an auxiliary source for D.C. power. 
+It may be of interest to note that an automobile 
+battery is in a floating-charge circuit.  The battery 
+charger is an AC generator or alternator with 
+rectifier diodes, driver by a belt from the engine.  
+When you start the car, the battery supplies the 
+cranking power.  Once the engine is running, the 
+alternator charges the battery.  It is not necessary 
+for the car to be moving.  A voltage regulator is 
+used in this system to maintain the output at 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5100 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+approximately 13V to 15 V. The constant voltage 
+of 24V comes from the solar panel controlled by 
+the charge controller so for storing this energy we 
+need a 24V battery so two 12V battery are 
+connected in series. It is a good idea to do an 
+equalizing charge when some cells show a variation 
+of 0.05specific gravity from each other.  This is a 
+long steady overcharge, bringing the battery to a 
+gassing or bubbling state.  Do not equalize sealed 
+or gel type batteries. 
+5.6 Timer and Control Unit 
+ 
+Figure 5: Block Diagram of IC 555 
+ 
+Here the 555 timer IC has been used as a multi 
+vibrator. The output of IC 555 is fed to the input 
+pin (pin no 14) of CD 4017 continues counting. The 
+output of the IC becomes available at pin Nos. 3, 2 
+and 4. The output pulse of any one of output pin 
+triggers (Puts ON) the Triac and current starts 
+flowing across the load connected. This process 
+continues on other pins at different time intervals 
+and the cycle continues. The frequency interval 
+(Time) of the cycle can be adjusted by the pre-set 
+look connected to pin 6 of 555 Timer IC. 
+5.7 IC 555 Timers 
+The IC NE555 timer monolithic circuit is a highly 
+stable controller capable of producing accurate time 
+delays or oscillations. Additional terminals are 
+provided for triggering or resetting if desired. In the 
+timing operations, the time is precisely controlled 
+by one external resistor and a capacitor, by the 
+operation as an oscillator, the free running 
+frequency and the duty cycle are both accurately 
+contributed with the external RC constants. 
+ 
+6. PIN DIAGRAM 
+ 
+Figure 6: Pin Diagram of IC 555 
+ 
+Figure 7: Circuit Diagram of IC 555 
+ 
+7. PIN CONFIGURATION 
+PIN NO: 1 
+It is ground terminal. 
+PIN NO: 2 
+The trigger voltage to the lower comparator is 
+applied. It has constant voltage that is at least one 
+third of the supply voltage, when trigger voltage 
+falls below this level the flip-flop changes its state 
+and output becomes high. 
+PIN NO: 3 
+It is the output terminal, in low state output is equal 
+to zero and when at higher state output is equal to 
+Vcc. 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5101 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+PIN NO: 4 
+It controls the flip flop directly. It turns the device 
+to its original position when reset pin is connected 
+to ground the output is approximately equal to zero. 
+When reset is not used it is connected to Vcc. 
+PIN NO: 5 
+It is the control voltage terminal. It is connected to 
+ground through a capacitor of 0.01 μF. Any 
+external voltage at pin: 5 will change both the 
+threshold voltage and the trigger voltage reference 
+level. 
+PIN NO: 6 
+Threshold voltage of upper comparator is applied 
+from this terminal. The resistor (Rt) connected to 
+Vcc and pin: 6 is grounded by an external 
+capacitor. The output is high capacitor charges by 
+resistor (Rt). When the capacitor changes to the 
+threshold level, the output becomes low. 
+PIN NO: 7 
+It is the discharge pin for external capacitor. 
+Usually pin: 7 is connected with pin: 6 directly to 
+by a resistor. When the output becomes low then 
+the external capacitor discharges by internal 
+discharge transistor remains at cut-off and the 
+external capacitor charges to Vcc. 
+PIN NO: 8 
+It is the positive supply terminal. A Dc voltage 
+from +5 to + 15 can be applied. 
+ 
+8. Wave forms for IC NE555 Timer  
+ 
+Figure 8: Wave forms for IC NE555 Timer 
+ 
+As we know the IC 555 is available in 8-pin and 
+14-pin dual-in-line packages or in a circular to-99 
+metal can with eight loads. 
+The device consists of two comparators to control 
+the transistor. The circuit consists of flip flop and a 
+buffered output stage.  The reference voltage for the 
+two comparators inside the IC 555 is developed 
+across a voltage divider consisting of two equal 
+resistors of 5 K ohms each.  The threshold 
+comparators is referenced at 1/3 Vcc.  The two 
+comparators control the stages of internal transistor 
+(T1) is conducting that represent a sort circuit 
+across timing capacitors (Cr) the level of the 
+terminal is low. 
+In most practically circuit the voltage on pin 2 is 
+held by above Triggering point by a resistor 
+connected to Vcc. 
+The negative going trigger pulse is applied to pin 2. 
+Potential at this point to fall below ½ Vcc, the 
+trigger comparator switches the flip flop cutting of 
+(T1) and forcing the output level high to a value 
+slightly below Vcc.  Capacitor now starts to charge 
+and the voltage across it rises exponentially until it 
+reaches the flip flop and the output returns to its 
+low state just slightly above ground.  Now 
+transistor (T1) is turned ON discharged Capacitor 
+so that it can read for its next timing period.  Once 
+the triggered the circuit responds to additional 
+triggering until the time interval is elapsed. 
+The delay periods is 1.1 Re Cr.  The important 
+features of IC555 can be summarized as follows. 
+1. Timing range from microseconds to hours. 
+2. Mono-stable and a stable operation are 
+possible through IC555. 
+3. The duty cycle can be adjusted according to 
+our necessity. 
+4. It has the ability to operate from a wide 
+range of supply Voltage. 
+5. The output of 555 is compatible with 
+CMOS, DTL and TTL, logic.  But when 
+used with a 5V supply. 
+6. Triggering and reset inputs are logically 
+compatible. 
+7. Output can be operated as normal ON and 
+normal OFF. 
+8. High temperature stability. 
+9. Unlike RC timers, 555 provide a time 
+intervals that is virtually independence of 
+supply voltage Vcc.  This because that, the 
+charge rate of capacitor (Cr) and the 
+reference 
+voltage 
+to 
+the 
+threshold 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5102 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+comparator are all directly proportional to 
+the supply voltage. 
+IC 555 SPECIFICATIONS 
+Supply Voltage (Vcc)       = 4.5 to 15V 
+Supply Current (Vcc=5V/2)   = 3 to 6mA 
+Supply Current (Vcc=25V/2) = 10 to 15mA 
+Output Current                      = 200mA (maximum) 
+Power dissipation 
+           = 600mw 
+Operating temperature           = 0-70 degree Celsius. 
+ 
+9. MAGNETIC-ENGINES 
+A magnetic engine is an engine that runs solely by 
+magnetic force, using no fuel, no electricity, no 
+other source of power, and emitting no pollution of 
+any kind. There are lots of myths about these, much 
+centering around the buzzwords "perpetual motion” 
+that tends to make people shy away from the idea 
+that we can get  
+To clear up some of the mythology, a magnetic 
+engine isn't something for nothing.  As anyone who 
+has handled more than one magnet at a time knows, 
+there is a real magnetic force to deal with. Being 
+able to use it is much the same as using one to stick 
+your child's crayon work to the refrigerator. You 
+don't doubt that, and if you have a decent "fridge 
+magnet", you are reasonably sure that it won't fall 
+off. So having a magnet holding little Jimmy or 
+Jennie's art to your refrigerator is not a lot different 
+than using that same work to turn a flywheel that in 
+turn runs a household fan, or a car or a boat or a 
+municipal power generator. It's just a different way 
+of using that same energy. You can use compressed 
+LPG to shoot a nail, or to blow up a dam, or to run 
+a generator at the river to produce electricity for 
+your house. Those are all just different ways of 
+using the force. Nobody finds anything very 
+magical about those. And there is nothing magic 
+about using the force of magnetism for turning that 
+same generator, or your car's drive shaft. It only 
+requires different equipment to translate that force 
+from a linear one to a rotary one. That's what my 
+magnetic engine is designed to do. 
+Also, everyone knows that there have been 
+hundreds of outright frauds in the field of magnetic, 
+promising vast riches to investors, and leaving the 
+scene with broke investors and pockets full of 
+money for the frauds. I'm not looking for 
+"investors". If you indeed wish to invest, you'll 
+have to wait until I have released the first working, 
+commercially viable engine. Until then, consider 
+sending me a small bit to help develop the thing. 
+9.1 Design of Piston 
+We know diameter of the piston which is equal to 
+50 mm. 
+9.2 Thickness of piston 
+The thickness of the piston head is calculated from 
+flat-plate theory. Where, 
+t=D (3/16 x P/f) ½  
+Here, 
+P-Maximum combustion pressure =100 bar 
+F-Permissible stress in tension=34.66 N/mm² 
+Piston material is aluminum alloy. 
+∴t=0.050 (3/16 x 100/34.66 x 10⁶/10⁵)½ x 1000 
+=12 mm 
+9.3 Electromagnetic coil Design 
+The inductance of single-layer air-cored cylindrical 
+coils can be calculated to a reasonable degree of 
+accuracy with the simplified formula 
+ 
+Where Henry [µH] (micro henries) are units of 
+inductance, R is the coil radius (measured in inches 
+to the center of the conductor), N is the number of 
+turns, and L is the length of the coil in inches. In 
+case you need to input coil dimensions in mm, you 
+can multiply the formula result with 1/25.4. The 
+online Coil Inductance Calculator calculates the 
+inductance of any coil using this formula. Higher 
+accuracy estimates of coil inductance require 
+calculations of considerably greater complexity. 
+Where 
+Turns -2000 windings 
+Wire-2 kg, 20swg (standard measurement). 
+9.4 Length of the piston 
+Length of the piston = 
+1.625 x D 
+Length of the piston = 
+81.25 mm 
+9.5 Other parameter 
+The distance from the bottom of the piston to the  
+Centre of the piston pin 
+= 
+.5 x D + 1 
+ 
+ 
+ 
+=  
+.5 x 65 + 1 
+ 
+ 
+ 
+= 
+33.5 mm 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5103 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+ 
+Thickness of the piston walls at open ends
+ 
+ 
+            = 
+.5 x t  
+ 
+ 
+ 
+= 
+.5 x 12 
+ 
+ 
+ 
+= 
+6 mm 
+ 
+10. WORKING PRINCIPLE 
+The working of the magnetic engine greatly 
+resembles the working of a two-stroke engine. To 
+start, let us begin from the situation, when piston is 
+located in the bottom dead center position, the IC 
+555 timer circuit gets actuated which in turn 
+actuates the electromagnet which is kept above the 
+top dead centre which attracts the piston in the 
+bottom dead centre to the top dead centre. During 
+this process the excess energy is stored in the 
+flywheel   
+As soon as the piston reaches the top dead centre 
+the current flow to the coil of the electromagnet is 
+cutoff, the magnet gets demagnetized so the piston 
+again moves to the bottom dead centre. 
+The kinetic energy of piston begins to accumulate 
+by the flywheel of the shaft (it is not depicted on 
+the sketches). The piston gains speed. With the 
+approximation of piston to bottom dead center the 
+IC 555 timer circuit allows the current to flow again 
+and the above procedure is repeated. 
+Table 3: List of Materials 
+S. No 
+Parts 
+Quantity 
+1 
+Battery 
+3 
+2 
+Fly wheel 
+1 
+3 
+Engine arrangement 
+1 
+4 
+Connecting rod 
+1 
+5 
+Cam wheel 
+1 
+6 
+Piston &Permanent Magnet 
+1 
+7 
+Stand (frame) 
+1 
+8 
+Electromagnetic coil 
+1 
+ 
+Table 3: List of Material Cost 
+Sl. 
+No 
+PARTS 
+Quantity 
+Amount 
+(Rs) 
+1 
+Battery 
+3 
+4500 
+2 
+Fly Wheel 
+1 
+2000 
+3 
+Engine block 
+1 
+3500 
+4 
+Connecting rod 
+1 
+1200 
+5 
+Cam wheel 
+1 
+1500 
+6 
+Piston&permanent  
+magnet 
+1 
+1500 
+7 
+Stand (Frame) 
+1 
+1000 
+8 
+Electromagnetic coil 
+1 
+1250 
+10.1 Labour Cost 
+Lathe, 
+Drilling, 
+Welding, 
+Grinding, 
+Power 
+Hacksaw, Gas Cutting:  
+ 
+Cost = 2000.00 
+ 
+ 
+10.2 Overhead Charges 
+The 
+overhead 
+charges 
+are 
+arrived 
+by 
+“Manufacturing cost” 
+Manufacturing Cost=Material Cost + Labor cost 
+ 
+ 
+    =16050.00+2000.00 
+ 
+                 =18050.00 
+Overhead Charges =20% of the manufacturing cost  
+ 
+                 =3610.00 
+ 10.3 Total Cost 
+Total cost=Material Cost + Labor cost + Overhead 
+Charges 
+ 
+ 
+= 
+16050.00+2000.00+3610.00 
+ 
+ 
+= 
+21660.00 
+Total cost for this project=21660.00    
+ 
+11. CONCLUSION 
+This research work has provided us an excellent 
+opportunity and experience, to use our limited 
+knowledge.  We gained a lot of practical knowledge 
+regarding, planning, purchasing, assembling and 
+machining while doing this project work.  We feel 
+that the project work is a good solution to bridge 
+the gates between institution and industries. 
+We are proud that we have completed the work 
+with the limited time successfully.  The DESIGN 
+AND FABRICATION OF ELECTRO-MAGNE-
+TIC ENGINE is working with satisfactory 
+conditions. We are able to understand the 
+difficulties in maintaining the tolerances and also 
+quality.  We have done to our ability and skill 
+making maximum use of available facilities. 
+In conclusion remarks of our research work, let us 
+add a few more lines about our impression project 
+work. Thus we have developed a “DESIGN AND 
+FABRICATION 
+OF 
+ELECTRO-MAGNETIC 
+ENGINE” which helps to produce eco friendly 
+vehicles. The application of Solenoid electro-
+magnetic coil produces smooth operation. By using 
+more techniques, they can be modified and 
+developed according to the applications. 
+ 
+ 
+ 
+Abhishek Samanta et al                                     www.ijetst.in 
+Page 5104 
+ 
+IJETST- Vol.||04||Issue||04||Pages 5094-5104||April||ISSN 2348-9480 
+2017 
+REFERENCES 
+1. Ali S. Faris, Saadi K. Al-Naseri, Raed Isse, 
+Ali Salim,“Effect of magnetic field of fuel 
+consumption and exhaust emissions in two 
+stroke engine”, Energy Procedia, Elsevier, 
+2012,  Vol 18,pp. 327-338. 
+2. S.Mingdong 
+et 
+al, 
+“Study 
+ofn 
+the 
+combustion 
+effiency 
+of 
+magnetized 
+petroleum fuels” 1984. Chinese science 
+bulletin, Volume 7, Issue 3, pp. 189-197. 
+3. P. Govindasamy, S. Dhandapani, “Experi-
+mental Investigation of cyclic variation of 
+combustion parameters in 
+catalytically 
+activated and magnetically energized two 
+stroke 
+SI 
+engine” 
+2007. 
+Journal 
+of 
+Engineering, Volume 13, Issue 8, pp. 45-59. 
+4. F.Silva, “Analysis of a vehicle crankshaft 
+failure” 2003. Engineering Failure Analysis, 
+Elsevier, Volume 10, Issue 5, pp. 605-616.  
+5. A 
+P. 
+Pisano, 
+F. 
+Freudenstein, 
+“An 
+experimental and analytical investigation of 
+the dynamic response of a high- speed cam-
+follower 
+system”.2009. 
+Journal 
+of 
+Mechanics, Transmission, Automatic in 
+Design, ASME, Volume 105, Issue 4, pp. 
+692-698. 
+6. A. Dysm, “Kinematic and Wear patterns of 
+cam and finger follower automotive valve 
+gear”. 
+1980. 
+Tribology 
+International, 
+Elsevier, Volume 13, Issue 3, pp. 121-132. 
+7. Ronald J. Pierk, James F. Burkhard, 
+“Design and development of a Mechanical 
+variable valve automation system”.2000. 
+SAE, World congress, Detroit, pp. 1-10.  
+8. J. K. Mills, L. Notash, R. G, Fenton, 
+“Optimal design and sensitivity analysis of 
+flexible 
+cam 
+mechanisms”.1993. 
+Mechanisms 
+and 
+Machinery 
+Elsevier, 
+Volume 28, Issue 4, pp. 563-581.  
+ 
+ 

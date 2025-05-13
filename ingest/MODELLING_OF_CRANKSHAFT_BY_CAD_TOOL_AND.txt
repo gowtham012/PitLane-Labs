@@ -1,0 +1,283 @@
+ http://www.iaeme.com/IJMET/index.asp   205 
+editor@iaeme.com 
+International Journal of Mechanical Engineering and Technology (IJMET) 
+Volume 7, Issue 4, July–Aug 2016, pp.205–211, Article ID: IJMET_07_04_021 
+Available online at  
+http://www.iaeme.com/ijmet/issues.asp?JType=IJMET&VType=7&IType=4 
+Journal Impact Factor (2016): 9.2286 (Calculated by GISI) www.jifactor.com 
+ISSN Print: 0976-6340 and ISSN Online: 0976-6359 
+© IAEME Publication 
+MODELLING OF CRANKSHAFT BY CAD TOOL AND 
+FINITE ELEMENT ANALYSIS USING ANSYS 
+SOFTWARE 
+Pawan Kumar Singh, Dr. L. P. Singh, Vicky Lad and Anil Kumar Vishwakarma 
+Department of Mechanical Engineering 
+Sset Shiats Allahabad Naini 
+ABSTRACT 
+Crankshaft is the complex geometry in the Internal Combustion Engine with large volume 
+production component. This converts the reciprocating motion of the piston in to a rotary motion. 
+An attempt is made in this paper to study the Static structure analysis on a crankshaft. The 
+modelling of the crankshaft is created by using Solidworks 16 Software. Finite element analysis 
+(FEA) is uses to analysis variation of stress at critical locations of the crankshaft to use the ANSYS 
+software. The results ofVon-misses stress on the crankshaft is 6.52Mpaand shear stress on the 
+crankshaft is 3.367Mpa. The Theoretical results are obtained on von-misses stress is 10.99Mpa, 
+shear stress is 2.9Mpa. Then approved of model is compared with the Theoretical and FEA results 
+for Von-misses stress and shear stress are within the limits.  
+Keywords: Crankshaft, solidworks, finite element analysis (FEA), ANSYS Software, Static 
+Analysis 
+Cite this Article: Pawan Kumar Singh, Dr. L. P. Singh, Vicky Lad and Anil Kumar Vishwakarma, 
+Modelling of Crankshaft by Cad Tool and Finite Element Analysis Using Ansys Software. 
+International Journal of Mechanical Engineering and Technology, 7(4), 2016, pp. 205–211. 
+http://www.iaeme.com/ijmet/issues.asp?JType=IJMET&VType=7&IType=4 
+1. INTRODUCTION 
+Crankshaft is the complex geometry in the Internal Combustion Engine with large volume production 
+component, which converts the reciprocating displacement of the piston to a rotary motion. The crank pins 
+to which the big end of the connecting rod are connected, there are crank arms or webs which connect the 
+crank pins and shaft parts. In addition, the linear displacement of an engine is not smooth; as the 
+displacement is caused by the combustion chamber therefore the displacement has sudden shocks. The 
+concept of using crankshaft is to change these thrust displacements to as smooth rotary output, which is use 
+in many devices such as generators, pumps and compressors. It should also use for a flywheel helps in 
+smoothing the shocks. Crankshaft experiences large forces of gas combustion in engine. This force is start 
+to the top of the piston and since the connecting rod connects the piston to the crankshaft, this force will be 
+transmitted to the crankshaft. The magnitude of the forces depends on many factors such as consist of 
+crank radius, connecting rod dimensions, and weight of the connecting rod, piston, piston rings, and pin.  
+Combustion and inertia forces acting on the crankshaft. Torsional load and Bending load. Crankshaft must 
+Pawan Kumar Singh, Dr. L. P. Singh, Vicky Lad and Anil Kumar Vishwakarma 
+ http://www.iaeme.com/IJMET/index.asp   206 
+editor@iaeme.com 
+be strong to take the downward force of the power stroke without bending, so the reliability and life of the 
+internal combustion engine depend on the strength of the crankshaft. The crank pin is as a built in beam 
+with a distributed load along its. Length that varies with crank positions. Each web is as like a cantilever 
+beam subjected to bending and twisting. Bending moment which causes tensile and compressive stresses 
+and Twisting moment causes shear stress on crankshaft.  There are many parts of failure in the engine, one 
+of the most common crankshaft failure is fatigue at the fillet areas due to the bending load. On the moment 
+of combustion, the load from the piston is transmitted on the crankpin, and causing a large bending 
+moment on geometry of the crankshaft. 
+2. LITERATURE REVIEW 
+Rinkle garg and Sunil Baghl. [1] Had constructed crankshaft model on Pro/E Software and then analysed 
+on ANSYS software. As the maximum limits of stress, strain and total deformation reduced, there had 
+improved in the strength of the crankshaft. The weight of the crankshaft had reduced .There by, reduces the 
+inertia force. As the weight of the crankshaft decreased this would decreased the cost of the crankshaft and 
+increase the I.C engine performance. 
+C.M. Balamurugan et al [2] has been compare the fatigue performance of two competing 
+manufacturing technologies for automotive crankshafts. Studied the Computer aided Modelling and 
+Optimization of crankshaft. Namely use forged steel and ductile cast iron. The analysis performed in ansys 
+software and the 3D model of crankshaft is created by the solid edge. . The new optimised geometry had 
+compatible with the new engine. Without changing connecting rod and engine block. Fillet rolling and 
+results in increased fatigue strength and reduced cost of the crankshaft. 
+Gu Yingkui, Zhou Zhibo. [3] Have been using the PRO/E software to create and discussed the 3D 
+model of diesel engine’s crankshaft. it shows that the high stress region mainly on crank arm, the main 
+journal, the crank arm and connecting rod journal ,that why, the area most easily broken. 
+Abhishekchoubey, and Jamin Brahmbhatt. [4] Have been Analysis and made 3D model of crankshaft, 
+for the analysis ANSYS software is used and modelling software is solidworks. Maximum deformation 
+appears on the crankpin neck surface and the maximum stress appears on crankshaft journals, crank 
+cheeks, and near the central point journal. High stress appears in edge of main journal.   
+R. J. Deshbhratar, and Y.R Suple. [5] Have been using the PRO/E software to create and discussed the 
+3D model of diesel engine’s crankshaft. it shows that the high stress region mainly on crank arm, the main 
+journal, the crank arm andconnecting rod journal. Maximum deformation take place on the centre of 
+crankshaft surface.High stress appears in edge of main journal. 
+3. OBJECTIVE 
+An attempt in this paper, the crankshaft is modelled by using SOLIDWORKS software, and static analysis 
+is done by using ANSYS Workbench software. To evaluate the von-misses stress and shear stress. 
+4. MATHEMATICAL MODEL FOR CRANKSHAFT 
+Configuration of the Engine to which the crankshaft belongs, Delta Integrale 2.0 16V engine 
+ 
+Crank pin radius 
+18.5 mm 
+Shaft Diameter 
+40 mm 
+Thickness of the Crank web 
+15 mm 
+Bore diameter 
+55 mm 
+Length of the crank pin 
+40 mm 
+Maximum  pressure 
+35 bar 
+ 
+Modelling of Crankshaft by Cad Tool and Finite Element Analysis Using Ansys Software 
+ http://www.iaeme.com/IJMET/index.asp   207 
+editor@iaeme.com 
+Force on the piston 
+Bore diameter (D) = 55 mm, FQ= Area of the bore ×Max. Combustion   pressure 
+ = 
+
+  ×  × 	
+ =8.315 KN 
+In order to find the Thrust Force acting on the connecting rod (FQ), and the angle of inclination of the 
+connecting rod with the line of stroke (i.e. angle Ø). 
+∅=
+
+
+
+=
+°
+
+= 
+Which implies, ∅= 8.24° 
+We know that thrust Force in the connecting rod,  
+ ! =  "/cos∅ 
+=8.401KN 
+From we have 
+Thrust on the connecting rod 
+Thrust on the crankshaft can be split into tangential component and radial component.  
+1. Tangential force on the crankshaft, 
+ #=  ! sin (θ+ Ø) = 5.69 KN 
+2 .Radial force on the crankshaft, 
+ $ = FQ cos (θ+ Ø) = 6.057 KN 
+Reactions at bearings due to tangential force is given by 
+%#&=%# =  #/2= 2.81 KN 
+Similarly, reactions at bearings due to radial force is given by 
+%$&= %$=  $/2= 3.0285KN 
+Design of crankpin 
+Let d= diameter of crankpin in mm 
+We know that bending moment at the centre of the crankshaft  
+'(=%$&×)= 83.1887 KN-MM 
+Twisting moment on the crankpin 
+*(=%# x R = 51.985KN-mm 
+From this we have equivalent twisting moment    
+*+  = ,'(
+ + *(
+   =97.985 KM-mm 
+The von Mises stress induced in the crank-pin  
+'+.=/(12 ∗'4) +  3/4 (89 ∗*4) 
+=179.55KN-mm 
+'( = :
+32 ∗; ∗< 
+<= 10.99 N/		 
+Pawan Kumar Singh, Dr. L. P. Singh, Vicky Lad and Anil Kumar Vishwakarma 
+ http://www.iaeme.com/IJMET/index.asp   208 
+editor@iaeme.com 
+Shear stress: 
+*( = :
+16 ∗; ∗? 
+?= 2.9 N/		 
+5. MODELING AND MESHING OF THE CRANKSHAFT 
+ 
+Figure 1.1 Model of the crankshaft 
+Mesh Statics: 
+Type of Element      : Tetrahedrons 
+Number of nodes    : 4443 
+Number of Elements: 2541 
+ 
+Figure 1.2 Meshed model of the crankshaft 
+Modelling of Crankshaft by Cad Tool and Finite Element Analysis Using Ansys Software 
+ http://www.iaeme.com/IJMET/index.asp   209 
+editor@iaeme.com 
+Introduction to FEA: 
+The basis of FEA relies on the decomposition of the domain into a finite number of sub-domains 
+(elements) for which the systematic approximate solution is constructed by applying the variation or 
+weighted residual methods. In effect, FEA reduces problem to that of a finite number of unknowns by 
+dividing the domain into elements and by expressing the unknown field variable in terms of the assumed 
+approximating functions within each element. These functions (also called interpolation functions) are 
+defined in terms of the values of the field variables at specific points, referred to as nodes. The finite 
+element method is a numerical procedure that can be used to obtain solutions to a large class of 
+engineering problems involving stress analysis, heat transfer, electro-magnetism, and fluid flow. 
+ANSYS is general-purpose Finite Element Analysis (FEA) software package. Finite Element Analysis 
+is a numerical method of deconstructing a complex system into very small pieces (of user designed size) 
+called elements. The software implements equations that govern the behaviour of these elements and 
+solves them all; creating a comprehensive explanation of how the system acts as a whole. The ANSYS 
+Workbench environment is an intuitive up-front finite element analysis tool that is used in conjunction 
+with CAD systems and/or Design Model. ANSYS Workbench is a software environment for performing 
+structural, thermal, and electromagnetic analyses.  The Workbench focuses on attaching existing geometry, 
+setting up the finite element model, solving, and reviewing results.  
+Static Analysis:  Used to determine displacements, Stresses, Strain, Deformation etc. under static 
+loading conditions in both linear and nonlinear static analysis. Nonlinearities include plasticity, stress 
+stiffening, large deflection, large strain, hyper elasticity, contact surfaces, and creep. Apply Material for 
+crankshaft (cast iron).   
+Material Type:  
+Castiron Young modulus: 1.78e+005Mpa  
+Poisson’s ratio: 0.3 
+Density: 7.197e-006kg/mm³ 
+6. RESULTS AND DISCUSSION 
+Analysis of crankshaft-cast Iron 
+ 
+Figure 1.3 Apply Boundary conditionthe crankshaft 
+Pawan Kumar Singh, Dr. L. P. Singh, Vicky Lad and Anil Kumar Vishwakarma 
+ http://www.iaeme.com/IJMET/index.asp   210 
+editor@iaeme.com 
+The two ends of the crankshaft is to be fixed, the load 3.5 Mpa is applied on the top of the crankpin 
+surface. 
+ 
+Figure 1.4 crankshaft von-misses stress 
+The maximum stress induced in the crankshaft is 6.52 Mpa at the crankpin neck surface. 
+ 
+Figure 1.5 Maximum shear stress in the crankshaft. 
+The Maximum shear stress induced in the crankshaft is 3.369 8Mpa. 
+S.No. 
+Type of stress 
+Theoretical 
+ANSYS results 
+1 
+Von-misses stress(N/mm²) 
+10.99 
+6.52 
+2 
+Shear stresses      (N/mm²) 
+2.9 
+3.369 
+ 
+Modelling of Crankshaft by Cad Tool and Finite Element Analysis Using Ansys Software 
+ http://www.iaeme.com/IJMET/index.asp   211 
+editor@iaeme.com 
+1. The centre of the crankpin neck surface obtain maximum deformation. 
+2. The fillet area between the crankshaft journal and near the central point journal obtain maximum stress.  
+3. Our design is safe for the condition of the value of von-misses stresses that comes out from the analysis is 
+far less than material yield stress. 
+REFERENCES 
+[1] 
+Rincle Garg, Sunil Baghla, “Finite element analysis and optimization of crankshaft”, International 
+Journal of Engineering and Management Research, vol-2, Issue-6, ISSN: 2250-0758, Pages: 26-31, 
+December 2012.  
+[2] 
+C.M Balamurugan, R. Krishnaraj, Dr.M.sakhivel, K.kanthavel, Deepan Marudachalam M.G, R.Palani, 
+Computer Aided modelling and optimization of Crankshaft, International Journal of scientific and 
+Engineering Research, 2(8) ISSN: 2229-5518, August-2011. 
+[3] 
+Gu Yingkui, Zhou Zhibo, Strength Analysis of Diesel Engine Crankshaft Based on PRO/E and ANSYS, 
+Third International Conference on Measuring Technology and Mechatronics Automation, 2011. 
+[4] 
+Abhishek choubey, Jamin Brahmbhatt, Design and Analysis of Crankshaft for single cylinder 4-stroke 
+engine, International Journal of Advanced Engineering Research and studies, 1(4), ISSN: 2249-8974, 
+pages: 88-90, July-sept 2012.  
+[5] 
+R.J Deshbhratar, Y.R Suple, Analysis and optimization of Crankshaft using FEM, International Journal 
+of Modern Engineering Reasearch, 2(5), ISSN: 2249-6645, pp.3086–3088, Sept-Oct 2012. 
+[6] 
+Farzin H. Montazersadgh and Ali Fatemi, Stress Analysis and Optimization of Crankshafts Subjected to 
+Dynamic Loading, AISI, August 2007. 
+[7] 
+Yu Ding and Xiaobo Li., 2011, Crankshaft Strength Analysis of a Diesel Engine Using Finite 
+Element Method, Asia-Pacific Power and Energy Engineering Conference  
+[8] 
+Jian Meng., Yongqi Liu., Ruixiang Liu., 2011, Finite Element Analysis of 4-Cylinder Diesel 
+Crankshaft, I.J. Image, Graphics and Signal Processing, 5, 22-29  
+[9] 
+MENG Jian., LIU Yong-qi., LIU Rui-xiang., and ZHENG Bin., 2011, Intension Analysis of 3-
+D Finite Element Analysis on 380 diesel crankshaft, International Conference on 
+Computational and Information Sciences  
+[10] 
+Yu Gongzh.i, Yu Hongliang., Duan Shulin, 2011, Crankshaft Dynamic Strength Analysis for 
+Marine Diesel Engine, Third International Conference on Measuring Technology and 
+Mechatronics Automation. 
+[11] 
+Xiaorong Zhou., Ganwei Cai., Zhuan Zhang. Zhongqing Cheng., 2009, Analysis on Dynamic 
+Characteristics of Internal Combustion Engine Crankshaft System, International Conference on 
+Measuring Technology and Mechatronics Automation.  
+[12] 
+JonathanWilliams, FarzinMontazersadgh, and Alifatemi, 2007, Fatigue Performance 
+Comparison and Life Prediction of Forged Steel and Ductile Cast Iron Crankshafts, Published 
+in Proceeding of the 27th Forging Industry Technical Conference in Ft.Worth,Texas  
+[13] 
+Praveen Padagannavar and Manohara Bheemanna, Automotive Computational Fluid Dynamics 
+Simulation of A Car Using Ansys International Journal of Mechanical Engineering and 
+Technology, 7(2), 2016, pp. 91–104. 
+[14] 
+Rakesh Jaiswal, Anupam Raj Jha, Anush Karki, Debayan Das, Pawan Jaiswal, Saurav Rajgadia, 
+Ankit Basnet and Rabindra Nath Barman. Structural and Thermal Analysis of Disc Brake Using 
+Solidworks and Ansys, International Journal of Mechanical Engineering and Technology, 7(1), 
+2016, pp. 67-77. 
+[15] 
+Shenoy, P. S. and Fatemi, A., 2006, Dynamic analysis of loads and stresses in connecting rods, 
+IMechE, Journal of Mechanical Engineering Science, 220(5), pp. 615624 
+ 

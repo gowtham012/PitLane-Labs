@@ -1,0 +1,1208 @@
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+1 
+CHAPTER 2
+FOUR-STROKE CYCLE S-I ENGINE - PRINCIPLE OF OPERATION
+Fig: cross section of a SI Engine 
+In Four-stroke cycle engine, the cycle 
+of operation is completed in four-strokes of 
+the piston or two revolutions of the 
+crankshaft. Each stroke consists of 180°, of 
+crankshaft rotation and hence a cycle consists 
+of 720°of crankshaft rotation. The series of 
+operations of an ideal four-stroke. SI engine 
+are as follows (see Fig.2.1 & 2.2) 
+1. Suction stroke 
+ Suction stroke 0-1 starts when the piston is at top dead centre and about to move downwards. The 
+inlet valve is open at this time and the exhaust valve is closed. Due to the suction created by the motion of 
+the piston towards bottom dead centre, the charge consisting of fresh air mixed with the fuel is drawn into 
+the cylinder. At the end of the suction stroke the inlet valve closes. 
+2. Compression stroke. 
+The fresh charge taken into the cylinder during suction stroke is compressed by the return stroke of 
+the piston 1-2. During this stroke both inlet and exhaust valves remain closed. The air which occupied the 
+whole cylinder volume is now compressed into clearance volume. Just before the end of the compression 
+stroke the mixture is ignited with the help of an electric spark between the electrodes of the spark plug 
+located in combustion chamber wall. Burning takes place when the piston is almost at top dead centre. 
+During the burning process the chemical energy of the fuel is converted into sensible energy, producing a 
+temperature rise of about 2000°C, and the pressure is also considerably increased. 
+3. Expansion or power stroke. 
+Due to high pressure the burnt gases force the piston towards bottom dead centre, stroke 3-4, and 
+both the inlet and exhaust valves remaining closed. Thus power is obtained during this stroke. Both 
+pressure and temperature decrease during expansion. 
+4. Exhaust stroke. 
+At the end of the expansion stroke the exhaust valve opens, the inlet valve remaining closed, and 
+the piston is moving from bottom dead centre to top dead centre sweeps out the burnt gases from the 
+cylinder, stroke 4-0. The exhaust valve closes at the end of the exhaust stroke and some 'residual' gases 
+remain in the cylinder. 
+Each cylinder of a four-stroke engine completes the above four operations in two engine 
+revolutions. One revolution of the crankshaft occurs during the suction and compression strokes, and 
+second revolution during the power and exhaust strokes. Thus for one complete cycle, there is only one 
+power stroke while the crankshaft turns by two revolutions. Most of the spark-ignition internal combustion 
+engines are of the four-stroke type. They are most popular for passenger cars and small aircraft 
+applications. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+2 
+Fig.2.1-The four-stroke spark-ignition (SI) engine 
+cycle (Otto cycle or constant volume cycle) 
+ 
+Fig.2.2-Ideal and actual indicator diagrams for four-stroke SI engine 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+3 
+Fig. 2.3 Four-stroke petrol engine valve timing diagram in relation to the pressure volume diagram 
+ 
+Actual Valve Timing Of Four-Stroke Petrol Engine. 
+Valve timing is the regulation of the points in the cycle at which the valves are set to open and 
+close. As described above in the ideal cycle inlet and exhaust valves open and close at dead centres, but in 
+actual cycles they open or close before or after dead centres as explained below. There are two factors, one 
+mechanical and other dynamic, for the actual valve timing to be different from the theoretical valve timing. 
+ 
+(a) Mechanical factor. 
+The poppet valves of the reciprocating engines are opened and closed by cam mechanisms. The 
+clearance between cam, tappet and valve must be slowly taken up and valve slowly lifted, at first, if noise 
+and wear is to be avoided. For the same reasons the valve cannot be closed abruptly, else it will 'bounce' on 
+its seat. (Also the cam contours should be so designed as to produce gradual and smooth changes in 
+directional acceleration). Thus the valve opening and closing periods are spread over a considerable 
+number of crankshaft degrees. As a result, the opening of the valve must commence ahead of the time at 
+which it is fully opened (i.e., before dead centres). The same reasoning applies for the closing time and the 
+valves must close after the dead centres. Fig.2.3 shows the actual valve timing diagram of a four-stroke 
+engine in relation to its pressure-volume diagram. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+4 
+b) Dynamic factor; 
+Besides mechanical factor of opening and closing of valves, the actual valve timing is set taking 
+into consideration the dynamic effects of gas flow. 
+Intake valve timing.
+Intake valve timing has a bearing on the actual quantity of air sucked during the suction stroke i.e. 
+it affects the volumetric efficiency. Fig.2.4 shows the intake valve timing diagram for both low speed & 
+high speed SI engines. 
+ 
+Fig:2.4 Valve timing for low and high speed four-stroke SI engine 
+ 
+It is seen that for both low speed and high speed engine the intake valve opens 100 before the 
+arrival of the piston at TDC on the exhaust stroke. This is to insure that the valve will be fully open and the 
+fresh charge starting to flow into the cylinder as soon as possible after TDC. As the piston moves out in the 
+suction stroke, the fresh charge is drawn in through the intake port and valve. When the piston reaches the 
+BDC and starts to move in the compression stroke, the inertia of the entering fresh charge tends to cause it 
+to continue to move into the cylinder. To take advantage of this, the intake valve is closed after BDC so 
+that maximum air is taken in. This is called ram effect. However, if the intake valve is to remain open for 
+too long a time beyond BDC, the up-moving piston on the compression stroke would tend to force some of 
+the charge, already in the cylinder, back into the intake manifold. The time the intake valve should remain 
+open after BDC is decided by the speed of the engine. 
+At low engine speed, the charge speed is low and so the air inertia is low, and hence the intake 
+valve should close relatively early after BDC for a slow speed engine (say about 100 after BDC). 
+In high speed engines the charge speed is high and consequently the inertia is high and hence to 
+induct maximum quantity of charge due to ram effect the intake valve should close relatively late after 
+BDC (up to 600 after BDC). 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+5 
+For a variable speed engine the chosen intake valve setting is a compromise between the best 
+setting for low and high speeds. 
+There is a limit to the high speed for advantage of ram effect. At very high speeds the effect of fluid 
+friction may be more than offset the advantage of ram effect and the charge for cylinder per cycle falls off. 
+ 
+Exhaust valve timing  
+The exhaust valve is set to open before BDC (say about 250 before BDC in low speed engines and 
+550 before BDC in high speed engines). If the exhaust valve did not start to open until BDC, the pressures 
+in the cylinder would be considerably above atmospheric pressure during the first portion of the exhaust 
+stroke, increasing the work required to expel the exhaust gases. But opening the exhaust valve earlier 
+reduces the pressure near the end of the power stroke and thus causes some loss of useful work on this 
+stroke. However, the overall effect of opening the valve prior to the time the piston reaches BDC results in 
+overall gain in output. 
+The closing time of exhaust valve effects the volumetric efficiency, By closing the exhaust valve a 
+few degrees after TDC (about 150 in case of low speed engines and 200 in case of high speed engines) the 
+inertia of the exhaust gases tends to scavenge the cylinder by carrying out a greater mass of the gas left in 
+the clearance volume. This results in increased volumetric efficiency. 
+Note that there may be a period when both the intake and exhaust valves are open at the same time. This is 
+called valve over-lap (say about 150 in low speed engine and 300 in high speed engines). This overlap 
+should not be excessive otherwise it will allow the burned gases to be sucked into the intake manifold, or 
+the fresh charge to escape through the exhaust valve. 
+ 
+Table2.1–Typical valve timings for four-stroke SI engines  
+ 
+Note. Valve timing is different for different makes of engines. 
+b-before, 
+a-after  
+ 
+TDC-Top dead centre, 
+BDC-Bottom dead centre. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+6 
+FOUR-STROKE CI ENGINES- PRINCIPLE OF OPERATION 
+The four-stroke CI engine is similar to four-stroke SI engine except that a high compression ratio is 
+used in the former, and during the suction stroke, air alone, instead of a fuel-air mixture, is inducted. Due 
+to high compression ratio, the temperature at the end of compression stroke is sufficient to ignite the fuel 
+which is injected into the combustion chamber. 
+In the CI engine a high pressure fuel pump and an injector is provided to inject fuel into 
+combustion chamber. 
+The carburettor and ignition system, necessary in the SI engine, are not required in the CI engine. 
+The ideal sequence of operation for the four-stroke CI engine is as follows: 
+ 
+Fig.2.5 Ideal P-V Diagram  
+ 
+ 
+ 
+Fig.2.6 Cycle of Operation 
+1.Suction stroke 
+Only air is inducted during the suction stroke. During this stroke intake valve is open and exhaust 
+valve is closed. 
+2.Compression stroke 
+Both valves remain closed during compression stroke. 
+3. Expansion or power stroke 
+Fuel is injected in the beginning of the expansion .stroke. The rate of injection is such that the 
+combustion maintains the pressure constant. After the injection of fuel is over (i.e. after fuel cut off) the 
+products of combustion expand. Both valves remain closed during expansion stroke. 
+4. Exhaust stroke.
+The exhaust valve is open and the intake valve remains closed in the exhaust stroke. 
+Due to higher pressures the CI engine is heavier than SI engine but has a higher thermal efficiency because 
+of greater expansion. CI engines are mainly used for heavy transport vehicles, power generation, and 
+industrial and marine applications. 
+The typical valve timing diagram for a four-stroke CI 
+engine is as follows 
+ 
+IVO 
+about 300 before TDC 
+ 
+IVO 
+up to 500 after BDC 
+ 
+EVO about 450 before BDC 
+ 
+EVO up to 300 after TDC 
+Injection about 150 before TDC 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+7 
+TWO-STROKE CYCLE ENGINE-PRINCIPLE OF OPERATION 
+In two-stroke engines the cycle is completed in two strokes, i.e., one revolution of the crankshaft as 
+against two revolutions of four-stroke cycle. The difference between two-stroke and four-stroke engines is 
+in the method of filling the cylinder with the fresh charge and removing the burned gases from the 
+cylinder. In a four-stroke engine the operations are performed by the engine piston during the suction and 
+exhaust strokes, respectively. In a two stroke engine suction is accomplished by air compressed in 
+crankcase or by a blower. The induction of compressed air removes the products of combustion, through 
+exhaust ports. Therefore no piston strokes are required for suction and exhaust operations. Only two piston 
+strokes are required to complete the cycle, one for compressing the fresh charge and the other for 
+expansion or power stroke.
+Types of two stroke engines 
+•
+Based on scavenging method 
+i)Crankcase & ii) Separately scavenged engine 
+•
+Based on scavenging process (air flow) 
+i)Cross flow scavenging, 
+ii)Loop scavenging (MAN, Schnuerle, Curtis type) 
+iii)Uni-flow scavenging (opposed piston, poppet valve, sleeve valve) 
+•
+Based on overall port-timing 
+i) Symmetrical & ii) Unsymmetrical scavenging 
+ 
+Crankcase-scavenged two-stroke engine 
+Figure 2.7 shows the simplest type of two-stroke engine – the crankcase scavenged engine. Fig.2.8 
+shows its ideal and actual indicator diagrams. Fig.2.9 shows the typical valve timing diagram of a two-
+stroke engine. The air or charge is sucked through spring-loaded inlet valve when the pressure in the 
+crankcase reduces due to upward motion of the piston during compression stroke. After the compression, 
+ignition and expansion takes place in the usual way: During the expansion stroke the air in the crankcase is 
+compressed. Near the end of expansion stroke piston uncovers the exhaust port, and the cylinder pressure 
+drops to atmospheric as the combustion products leave the cylinder. Further motion of the piston uncovers 
+transfer ports, permitting the slightly compressed air or mixture in the crankcase to enter the engine 
+cylinder. The top of the piston sometimes has a projection to deflect the fresh air to sweep up to the top of 
+the cylinder before flowing to the exhaust ports. This serves the double purpose of scavenging the upper 
+part of the cylinder of combustion products and preventing the fresh charge from .flowing directly to the 
+exhaust ports. The same objective can be achieved without piston deflector by proper shaping of the 
+transfer port. During the upward motion of the piston from bottom dead centre, the transfer ports and then 
+the exhaust port close and compression of the charge begins and the cycle is repeated. 
+ 
+Fig.2.7-Crankcase-scavenged 
+two-stroke engine 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+8 
+Fig. 2.8  Ideal and actual 
+indicator diagrams for a two-
+stroke SI engine 
+ 
+Fig.2.9. 
+Typical 
+valve 
+timing diagram of a two-
+stroke engine 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+9 
+Separately scavenged engine 
+ 
+In the loop-scavenged engine (Fig. 2.10) an external blower is used to supply the charge, under 
+some pressure, at the inlet manifold. During the downward stroke of the piston exhaust ports are uncovered 
+at about 65° before bottom dead 
+centre. At about 100 later the inlet 
+ports open and the scavenging 
+process takes place. 
+The inlet ports are shaped 
+so that most of the air flows to the 
+top of the cylinder for proper 
+scavenging of the upper part of the 
+cylinder. Piston deflectors are not 
+used as they are heavy and tend to 
+become overheated at high output. 
+The 
+scavenging 
+process 
+is 
+moreefficient in properly designed 
+loop-scavenged engine than in the 
+usual 
+crank-case 
+compression 
+engine with deflector piston. 
+Fig.2.10. Loop-scavenged two-stroke engine (separately scavenged engine) 
+Opposed piston or end to end scavenged engine (uniflow scavenged) two stroke engine.
+In this type of engine the exhaust 
+ports or exhaust valves are opened first. The 
+inlet ports give swirl to incoming air which 
+prevents mixing of fresh charge and 
+combustion products during the scavenging 
+process. Early on the compression stroke the 
+exhaust ports close. In loop scavenged 
+engine the port timing is symmetrical, so the 
+exhaust port must close after the inlet port 
+closes. These timings prevent this type of 
+engine from filling its cylinder at full inlet 
+pressure. In the end-to-end scavenged 
+engines counter flow within the cylinder is 
+eliminated, and there is less opportunity for 
+mixing of fresh charge and burnt gases. The 
+scavenging should therefore be more 
+efficient. 
+ 
+Fig. 2.11. 'End to end' scavenged or uniflow two-
+stroke engine 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+10 
+Valvetiming for two-stroke engines 
+Fig. 2.12(a), (b) and (c) show typical valve timing diagram for a crankcase-scavenged two-stroke 
+engine and supercharged two-stroke engine and a four-stroke engine, respectively. 
+ 
+Fig 2.12 
+ 
+In case of two-stroke engine the exhaust port is opened near the end of the expansion stroke. With 
+piston-controlled exhaust and inlet port arrangement the lower part of the piston stroke is always wasted so 
+as far as the useful power output is concerned; about 15% to 40% of the expansion stroke is ineffective. 
+The actual percentage varies with different designs. This early opening of the exhaust ports during the last 
+part of the expansion stroke is necessary to permit blow down of the exhaust gases and, also to reduce the 
+cylinder pressure so that when the inlet port opens at the end of the blow down process, fresh charge can 
+enter the cylinder. The fresh charge, which comes from the crankcase for scavenging pump, enters the 
+cylinder at a pressure slightly higher than the atmospheric pressure. Some of the fresh charge is lost due to 
+short-circuiting. For petrol engine this means a loss of fuel and high unburnt hydrocarbons in the exhaust. 
+By comparing the valve timing of two stroke and four-stroke engines, (Fig. 2.12), it is clear that the time 
+available for scavenging and charging of the cylinder of a two stroke engine is almost one-third that 
+available for the .four-stroke engine. For a crankcase-scavenged engine the inlet port closes before the 
+exhaust port whilst for a supercharged engine the inlet port closes after the exhaust port [Fig. 2.12 (b)]. 
+Such timing allows more time for filling the cylinder. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+11 
+Scavenging process 
+ 
+At the end of the expansion stroke, the combustion chambers of a two-stroke engine is left full of 
+products of combustion. This is because, unlike four-stroke engines, there is no exhaust stroke available to 
+clear the cylinder of burnt gases. The process of clearing the cylinder of burned gases and filling it with 
+fresh mixture (or air}-the combined intake and exhaust process is called scavenging process. This must be 
+completed in a very short duration available between the end of the expansion stroke and start of the 
+charging process. 
+ 
+The efficiency of a two-stroke engine depends to a great degree on the effectiveness of the 
+scavenging process, since bad scavenging gives a low mean indicated pressure and hence, results in a high 
+weight and high cost per bhp for the engine. With insufficient scavenging the amount of oxygen available 
+is low so that the consequent incomplete combustion results in higher specific fuel consumption. Not only 
+that, the lubricating oil becomes more contaminated, so that its lubricating qualities are reduced and results 
+in increased wear of piston and cylinder liners. Poor scavenging also leads to higher mean temperatures 
+and greater heat stresses on the cylinder walls. 
+ 
+Thus it goes without saying that every improvement in the scavenging leads to improvement in 
+engine and its efficiency in several directions and hence, a detailed study of scavenging process and 
+different scavenging systems is worthwhile. 
+ 
+The scavenging process is the replacement of the products of combustion in the cylinder from the previous 
+power stroke with fresh-air charge to be burned in the next cycle. In the absence of an exhaust stroke in 
+every revolution of the crankshaft, this gas exchange process for a two-stroke engine must take place in its 
+entirety at the lower portion of the piston travel. Obviously, it cannot occur instantaneously at bottom dead 
+centre. Therefore, a portion of both the expansion stroke and the compression stroke is utilized for cylinder 
+blow-down and recharging. 
+ 
+The scavenging process can be divided into four distinct periods 
+Fig. 2.13 show the pressure recordings inside the cylinder for a Flat 782 S engine. When the inlet 
+port opens the gases expanding in the main cylinder tend to escape from it and to pre-discharge into the 
+scavenge air manifold. This process, called pre-blowdown, ends when the exhaust port opens. As soon as 
+the exhaust ports are open, the gases existing in the cylinder at the end of expansion stroke discharge 
+spontaneously into the exhaust manifold and the pressure of the main cylinder drops to a value lower than 
+that existing in the scavenge air manifold. This process, called blowdown, terminates at the moment the 
+gas pressure inside the cylinder attains a value slightly lower than the air-pressure inside the scavenge 
+manifold. During the third phase, called scavenging, which starts at the moment the spontaneous exhaust 
+gases from the cylinder terminates and ends at the moment the exhaust ports are closed; the scavenge air 
+sweeps out all residual gases remaining in the main cylinder at the end of the spontaneous exhaust and 
+replaces them as completely as possible with fresh charge. After scavenging is complete the fresh charge 
+continues to flow till the scavenge ports are open and the pressure in the cylinder rises. This results in 
+better filling of the cylinder. This last part of the scavenging process is called additional-charging.
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+12 
+Fig. 2.13 Fiat 782 S engine standard scavenging & typical valve timing diagram of a two-stroke engine 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+13 
+Fig.2.14shows, a typical pressure-volume diagram 
+for a two-stroke engine. In this diagram the total 
+piston stroke has been divided into power stroke 
+and scavenging stroke (This division is arbitrary). 
+The area of the p-v diagram for the power stroke 
+depends very much on the scavenging efficiency. 
+With proper scavenging efficiency the pressure 
+rise due to combustion is lower and hence this 
+area is smaller and lower thermal efficiency is 
+obtained. 
+ 
+Fig. 2.14 Typical pressure-volume for a two-stroke 
+engine. 
+ 
+Theoretical scavenging processes 
+ 
+Fig. 
+2.15 
+Three 
+theoretical 
+scavenging 
+processes. 
+ 
+Fig.2.15 illustrates three theoretical 
+scavenging processes. They are 
+Perfect scavenging, 
+Perfect mixing and 
+Complete shortcircuiting.
+{
+The delivery ratio 
+mass
+reference
+cycle
+per 
+ 
+mixture)
+(or 
+air 
+ 
+delivered
+ 
+of
+mass
+=
+del
+R
+, compares the actual 
+scavenging air mass (or mixture mass) to that required in an ideal charging process.
+(If scavenging is done with fuel-air mixture, as in spark-ignition engines, then mixture mass is used instead 
+of air mass.) 
+The reference mass is defined as displaced volume × ambient air (or mixture) density. 
+Ambient air (or mixture) density is determined at atmospheric conditions or at intake conditions. 
+This definition is useful for experimental purposes. For analytical work, it is often convenient to use the 
+trapped cylinder mass mtr as the reference mass. 
+OR in other words the delivery ratio is a measure to 
+the air (mixture) supplied to the cylinder relative to the cylinder content.
+If Rdel = 1, it means that the volume of the scavenging air supplied to the cylinder is equal to the 
+cylinder volume (or displacement volume whichever is taken as reference). 
+Delivery ratio usually varies between 1.2 to 1.5, except for closed crankcase-scavenged, where it is 
+less than unity. 
+The scavenging efficiency 
+charge
+cylinder 
+ 
+trapped
+of
+mass
+retained
+ 
+mixture)
+(or
+air 
+ 
+delivered
+ 
+of
+mass
+=
+sc
+η
+,
+indicates to what extent the residual gases in the cylinder have been replaced with fresh air.
+If
+1
+=
+sc
+η
+, it means that all gases existing in the cylinder at the beginning of scavenging have been 
+swept out completely.} 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+14 
+(I)Perfect scavenging. 
+Ideally, the fresh fuel-air mixture should remain separated from the residual combustion products with 
+respect to both mass and heat transfer during the scavenging process. Fresh air pumped into the cylinder 
+by the blower through the inlet ports at the lower end of the cylinder pushes the products of combustion 
+ahead of itself and of the cylinder through the exhaust valve at the other end. There is no mixing of air and 
+products. As long as any products remain in the cylinder the flow through the exhaust valves consists of 
+products only. However, as soon as sufficient fresh .air has entered to fill the entire cylinder volume 
+(displacement plus clearance volume) the flow abruptly changes from one of products to one of air. This 
+ideal process would represent perfect scavenging with no short -circuiting loss. 
+ 
+(ii) Perfect mixing. 
+The second theoretical scavenging process is perfect mixing, in which the incoming fresh charge mixes 
+completely and instantaneously with the cylinder contents, and a portion of this mixture passes out of the 
+exhaust ports at a rate equal to that entering the cylinder. This homogeneous mixture consists initially of 
+products of combustion only and then gradually changes to pure air. This mixture flowing through the 
+exhaust ports is identical with that momentarily existing in the cylinder and changes with it. For the case of 
+perfect mixing the scavenging efficiency can be represented by the following equation:  
+del
+R
+sc
+e−
+−
+= 1
+η
+,
+where 
+sc
+η and Rdel are scavenging efficiency and delivery ratio respectively. 
+This is plotted in Fig. 2.15. The result of this theoretical process closely approximates the results of many 
+actual scavenging processes, and is thus often used as a basis of comparison. 
+ 
+(iii)Short-circuiting. 
+The third type of scavenging process is that of short-circuiting in which the fresh charge coming from the 
+scavenge manifold directly goes out of the exhaust ports without removing any residual gas. This is a dead 
+loss and its occurrence must be avoided. 
+The actual scavenging process is neither one of perfect scavenging nor perfect mixing. It probably consists 
+partially of perfect scavenging, mixing and short-circuiting. 
+Fig. 2.16shows the delivery ratio and trapping efficiency variation with crankangle for three different 
+scavenging modes., i.e.,perfect scavenging (displacement), perfect mixing and intermediate scavenging. 
+Fig. 2.17shows the scavenging parameters for the intermediate scavenging. This represents the actual 
+scavenging process. It can be seen from this Fig. that a certain amount of combustion products is initially 
+pushed out of the cylinder without being diluted by fresh air. Gradually, mixing 
+and short circuiting causes the out flowing products to be diluted by more and more fresh air until 
+ultimately the situation is the same as for perfect mixing, i.e., the first phase of the scavenging process is a 
+perfect scavenging process which then gradually changes into a complete mixing process.
+Fig,2.16 Delivery ratio and efficiency variation with 
+ 
+` Fig. 2.17 Scavenging parameters for  
+crankcase for three different scavenging modes.   
+ 
+intermediate scavenging 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+15 
+Scavenging parameters .. 
+The delivery ratio - The delivery ratio represents the ratio of the air volume, under the ambient 
+conditions of the scavenge manifold, introduced per cycle and a reference volume. This reference volume 
+has been variously chosen to be displacement volume, effective displacement volume, total cylinder 
+volume or total effective cylinder volume. Since it is only the quantity or charge in the remaining total 
+cylinder volume at exhaust port closure that enters into the combustion, the total effective cylinder volume 
+should be preferred. The delivery ratio is mass of fresh air delivered to the cylinder divided by a reference 
+mass, 
+i.e.,
+mass
+reference
+cycle
+per 
+ 
+mixture)
+(or 
+air 
+ 
+delivered
+ 
+of
+mass
+=
+del
+R
+,
+The delivery ratio compares the actual scavenging air mass (or mixture mass) to that required in an 
+ideal charging process. OR The delivery ratio is a measure to the air (mixture) supplied to the cylinder 
+relative to the cylinder content.
+If Rdel = 1, it means that the volume of the scavenging air supplied to the cylinder is equal to the 
+cylinder volume (or displacement volume whichever is taken as reference). 
+Delivery ratio usually varies between 1.2 to 1.5, except for closed crankcase-scavenged, where it is 
+less than unity. 
+(If scavenging is done with fuel-air mixture, as in spark-ignition engines, then mixture mass is used 
+instead of air mass.) The reference mass is defined as displaced volume × ambient air (or mixture) density. 
+Ambient air (or mixture) density is determined at atmospheric conditions or at intake conditions. 
+This definition is useful for experimental purposes. For analytical work, it is often convenient to use the 
+trapped cylinder mass mtr as the reference mass. 
+The trapping efficiency - The amount of fresh charge retained in the cylinder is not same as that 
+supplied to the cylinder because some fresh charge is always lost due to short-circuiting. Therefore, an 
+additional term, trapping efficiency, is used to indicate the ability of the cylinder to retain the fresh charge. 
+It is defined as the ratio of the amount of charge retained in the cylinder to the total charge delivered to the 
+engine, i.e., 
+(mixture)
+air 
+ 
+delivered
+ 
+of
+mass
+retained
+ 
+mixture)
+(or
+air 
+ 
+delivered
+ 
+of
+mass
+=
+tr
+η
+Trapping efficiency indicates what fraction of the air (or mixture) supplied to the cylinder is 
+retained in the cylinder.. This is mainly controlled by the geometry of the ports and the overlap time. 
+ 
+The scavenging efficiency 
+Scavenging efficiency is the ratio of the mass of scavenge air 
+which remains in the cylinder at the end of the scavenging to the mass of the cylinder itself at the moment 
+when the scavenge and exhaust ports of valves are fully closed. It is given by 
+ 
+charge
+cylinder 
+ 
+trapped
+of
+mass
+retained
+ 
+mixture)
+(or
+air 
+ 
+delivered
+ 
+of
+mass
+=
+sc
+η
+,
+indicates to what extent the residual gases in the cylinder have been replaced with fresh air.
+If 
+1
+=
+sc
+η
+, it means that all gases existing in the cylinder at the beginning of scavenging have been 
+swept out completely. 
+The purity of the charge:
+charge
+cylinder 
+ 
+trapped
+of
+mass
+charge
+cylinder 
+ 
+in trapped
+air 
+ 
+of
+mass
+purity =
+, indicates the 
+degree of dilution, with burned gases, of the unburned mixture in the cylinder. 
+The charging efficiency 
+density
+ambient 
+ x
+volume
+displaced
+retained
+ 
+mixture)
+(or
+air 
+ 
+delivered
+ 
+of
+mass
+=
+sc
+η
+,
+indicates 
+how effectively the cylinder volume has been filled with fresh air (or mixture) 
+Relative cylinder charge.- The air or mixture retained, together with the residual gas, remaining in 
+the cylinder after flushing out the products of combustion constitutes the cylinder charge. Relative cylinder 
+charge is a measure of the success of filling cylinder irrespective of the composition of charge. The relative 
+cylinder charge may be either more or less than unity depending upon the scavenging pressure and port 
+heights. 
+Excess air factor,λ - The value (Rdel-1) is called the excess air factor. If the delivery ratio is 1.4, 
+the excess air factor is 0.4. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+16 
+Classification based on scavenging process 
+The simplest method of introducing the charge into the cylinder is to employ crankcase 
+compression as shown in Fig.2.7. This type of engine is classified as the crankcase scavenged engine. 
+In another type, a separate blower or a pump (Fig.2.8) may be used to introduce the charge through the 
+inlet port. They are classified as the separately scavenged engines. 
+ 
+Fig.2.16 Methods of Scavenging  (a)Cross Scavenging  
+ 
+ 
+(b) Loop Scavenging, M.A.N. Type 
+(c)Loop Scavenging Schnuerle Type, 
+(d) Loop Scavenging, Curtis Type 
+Another classification of two-stroke cycle engines is based on the air flow. 
+Based on a transversal air stream, the most common arrangement is cross scavenging, illustrated in 
+Fig.2.16 (a). Most small engines are cross-scavenged. The cross scavenging system employs inlet and 
+exhaust ports placed in opposite sides of the cylinder wall. The incoming air is directed upward, to 
+combustion chamber on one side of the cylinder and then down on the other side to force out the exhaust 
+gases through the oppositely located exhaust ports. This requires that the air should be guided by use of 
+either a suitably shaped deflector formed on piston top or by use of inclined ports. With this arrangement 
+the engine is structurally simpler than that with the uniflow scavenging, due to absence of valves, 
+distributors, and relative drive devices. The inlet and exhaust of gases is exclusively controlled by the 
+.opening and closure of ports by piston motion. The main disadvantage of this system is that the 
+scavenging air is not able to get rid of the layer of exhaust gas near the wall resulting in poor scavenging. 
+Some of the fresh charge also goes directly into the exhaust port. The result of these factors is poor bmep 
+of cross-scavenged engines.  
+Based on a transversal air stream, with loop or reverse scavenging, the fresh air first sweeps across 
+the piston top, moves up and then down and finally out through the exhaust. Loop or reverse scavenging 
+avoids the short -circuiting of the cross-scavenged engine and thus improves upon its scavenging 
+efficiency. The inlet and exhaust ports are placed on the same side of the cylinder wall. 
+In the M.A.N. type of loop scavenge, Fig.2.16(b), the exhaust and inlet ports are on the same side, the 
+exhaust above the inlet. 
+In the Schnuerle type, Fig.2.16(c), the ports are side by side. the inlet ports are placed on both sides 
+of the exhaust ports so that the incoming air enters in two streams uniting on the cylinder wall opposite the 
+exhaust ports, flows upwards, turns under the cylinder head, then flows downwards the other side to the 
+exhaust ports. Such a system of air deflection reduces the possibilities of short-circuiting to minimum. 
+With this system flat-top pistons without deflectors are used. The speed of loop or reversed scavenged 
+engine is not restricted by mechanical limitations because valves are not used, the charging process being 
+controlled by the piston only. The speed can thus, exceed that of valve controlled two-stroke engines. 
+Owing to the absence of cams, valves and valve gear, engines are simple and sturdy. They have a high 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+17 
+resistance to thermal stresses and are, thus, well suited to higher supercharge. The major mechanical 
+problem with a loop scavenged two-stroke engine is that of obtaining an adequate oil supply to the cylinder 
+wall consistent with reasonable lubricating oil consumption and cylinder wear. This difficulty arises 
+because when the piston is at top dead centre there is only a very narrow sealing belt available to prevent 
+leakage of oil from crankcase into the exhaust ports. Since for loop scavenging greater cylinder distance is 
+necessary to accommodate scavenge-air passage between the cylinder, a strong connecting rod and 
+crankshaft need for supercharged engine can be used. 
+The Curtis type of scavenging, Fig.2.16(d), is similar to the Schnuerle type, except that upwardly 
+directed inlet ports are placed also opposite the exhaust ports. 
+The most perfect method of scavenging is the uniflow method, based on a unidirectional air stream. 
+The fresh air charge is admitted at one end of the cylinder and the exhaust escapes at the other end flowing 
+through according to parallel flow lines normally having a slight rotation to stabilize the vertical motion. 
+Air acts like an ideal piston and pushed on the residual gas in the cylinder after the blowdown period and 
+replaces it at least in principle, throughout the cylinder.  The air flow is from end to end, and little short-
+circuiting between the intake and exhaust openings is possible. Due to absence, at least in theory, of any 
+eddies or turbulence it is easier in a uniflow scavenging system to push the products of combustion out of 
+the cylinder without mixing with it and short circuiting. Thus, the uniflow system has highest scavenging 
+efficiency. Construction simplicity is, however, sacrificed because this system requires either opposed 
+pistons, poppet valves or sleeve valve all of which increases the complication. 
+The three available arrangements for uniflow scavenging are shown in Fig.2.17 A poppet valve is 
+used in (a) to admit the inlet air or for the exhaust, as the Case may be. In (b) the inlet and exhaust ports are 
+both controlled by separate pistons that move in opposite directions. In (c) the inlet and exhaust ports are 
+controlled by the combined motion of piston and sleeve. In an alternative arrangement one set of ports is 
+controlled by the piston and the other set by a sleeve or slide valve. All uniflow systems permit 
+unsymmetrical scavenging and supercharging. 
+ 
+Fig.2.17 Uniflow Scavenging  
+(a) Poppet Valve 
+(b) Opposed Piston 
+(c) Sleeve Valve 
+ 
+Reverse flow scavenging is shown in Fig.2.17 In this type the 
+inclined ports are used and the scavenging air is forced on to the opposite 
+wall of the cylinder where it is reversed to the outlet ports. One obvious 
+disadvantage of this type is the limitation on the port area. For long stroke 
+engines operating at low piston speeds, this arrangement has proved 
+satisfactory. 
+ 
+Fig2.17 Reverse Flow Scavenging 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+18 
+An interesting comparison of the merits 
+of two cycle engine air scavenging methods is 
+illustrated in Fig.2.18. In fact, specific output of 
+the engine is largely determined by the efficiency 
+of the scavenging system-and is directly related 
+to the brake mean effective pressure. As shown 
+in Fig.2.18 scavenging efficiency varies with the 
+delivery ratio and the type of scavenging. In this 
+respect cross scavenging is least efficient and 
+gives the lowest brake mean effective pressure. 
+The main reason for this is that the scavenging 
+air flows through the cylinder but does not expel 
+the exhaust residual gases effectively. Loop 
+scavenging method is better than the cross 
+scavenging method. Even with a delivery ratio of 
+1.0 in all cases the scavenging efficiencies are 
+about 53, 67 and 80 per cent for cross 
+scavenging, 
+loop 
+scavenging 
+and 
+uniflow 
+scavenging systems with corresponding values of 
+bmep as 3.5,4.5 and 5.8 bar. 
+ 
+Fig.2.18 Scavenging Efficiency 
+ 
+Comparison of different scavengingsystems 
+Fig.2.19 compares the scavenging efficiencies of three different types of scavenging system. 
+The cross-scavenging system employs inlet and exhaust ports placed in opposite sides of the cylinder wall. 
+In the loop scavenging system, inlet and exhaust ports are in the same side of the cylinder wall and in 
+uniflow scavenging system, the inlet and exhaust port are at opposite ends of the cylinder. 
+It can be seen that uniflow scavenging gives by far the best scavenging, that loop scavenging is good, and 
+that in .general, cross-scavenging is the worst. 
+The scavenging curve for the uniflow scavenging is very near to that of perfect scavenging that for 
+loop scavenging is near the perfect mixing. With good loop scavenging the scavenging curve is generally 
+above the perfect mixing curve and that of cross-scavenging engines it is, generally, below the perfect 
+mixing curve. 
+Table 2.2 compares the port areas available for different scavenging systems. Largest flow areas are 
+available with uniflow system. In such a case the whole circumference of cylinder wall is available and the 
+inlet port area can be as high as 35 per cent of the piston area. Due to the use of exhaust valve the exhaust 
+flow area is small - about 18 per cent. In cross-scavenging the size of the inlet and exhaust ports is limited 
+to about 25 and 18 per cent of piston area respectively because the ports are located on the opposite sides 
+of cylinder wall. Schurnle type of loop scavenging requires that both the ports must be located within about 
+three-quarters of the cylinder circumference. This limits the size of inlet and exhaust ports to about 18 and 
+14 per cent of piston area only. The data for a typical four-stroke engine are also given for comparison. 
+However, while comparing with the four-stroke engine it must be kept in mind that though the flow area is 
+small, the time available for flow is almost three times more than that available for the two-stroke engine. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+19 
+Fig. 2.19 scavenging efficiency, versus delivery ratio of different scavenging system. 
+ 
+Table 2.2 Typical values for areas for different scavenging systems 
+ 
+Loop or cross-scavenged engines with their inlet ports limited half of the cylinder circumference 
+fall in low speed category. Uniflow scavenged engines with adequate air inlet port are and limited exhaust 
+port areas fall in medium speed category, whilst the opposed piston engine takes on to high speeds because 
+of its high rate of exhaust port opening, freedom from valve gear speed limits, good scavenging and perfect 
+balancing. Un-supercharged uniflow engine has a considerable higher mean effective pressure than the 
+loop-scavenged engine. There is more freedom in design of combustion chamber for loop scavenging. This 
+results in low fuel consumption and the engine is simple to make and easy to produce. Table 2.3 compares 
+the typical bmep values obtainable with different types of scavenging systems. The output of both uniflow 
+and loop scavenged engines is limited 'by the thermal stresses imposed. But the loop scavenged engine due 
+to its simple cylinder head can better withstand the thermal stresses. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+20 
+Table 2.3 Typicalvaluesof bmep for the C.I. two-stroke oil engines 
+ 
+Table 2.4compares the representative port timings for different types of two-stroke engines. 
+ 
+Table 2.4. Port timings for different two-stroke engines 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+21 
+Port design 
+ 
+The Design of the inlet and exhaust ports for two stroke engines depends on various parameters.  Some 
+of the important basic parameters are;  
+a) Scavenging method 
+b) Shape, inclination & width of ports 
+c) Amount of air/charge delivered 
+d) Scavenging pressure 
+e) Mean inlet velocity –fn. Of pr. Ratio, temp. of scavenging & scavenging factor 
+f) Duration(crank angle) of port opening & average port height uncovered by piston 
+Blowdown time area (for exhaust)–[which is a fn. of temperature of exhaust Gas, expansion end 
+volume(fn. of displacement volume), exhaust Gas pr., scavenging pr., & indicated mean effective 
+pressure] 
+g) Inlet duration, exhaust lead* & hence exhaust duration 
+h) Number of ports & height of ports 
+*during exhaust Lead, only exhaust port is kept open, & during super charging only inlet port is kept open. 
+•
+THE DIFFERENT SCAVENGING METHODS ARE AS FOLLOWS 
+ 
+
+BASED ONSCAVENGING PROCESS( AIR FLOW ) 
+ 
+I. CROSS FLOW 
+-for low power o/p engines eg. Two wheelers, 
+Simple, but more short circuiting, hence more charge loss, super charging is 
+not possible.  It is found that port position is limited with in 50% of 
+circumference. 
+ 
+II. LOOP FLOW  
+-for medium o/p engines. 
+Air takes loop, less short circuiting, hence less charge loss 
+A. MAN type 
+-intake & exh. ports positioned one below the other. -Good 
+B. SCHNURLE type-intake & exh. ports positioned side by side. 
+-Better 
+C. CURTIS type 
+-intake on one side & exhaust on the other side. 
+-Best 
+ 
+III. UNIFLOW 
+(BEST) 
+–for very High o/p engines 
+Ex. large power marine engines, locomotive engines etc 
+As intake port is on one side & exhaust port on the other side. & the flow is 
+uni-directional, ports can be wider. Residual gases are low. Ports can be 
+located all around the circumference. Opposed piston engines also use this 
+type. Ports with poppet valves & Sleeve valves have been used. 
+ 
+
+BASED ONSCAVENGING METHOD 
+ 
+I.CRANKCASE SCAVENGED ENGINE (crank case compression) 
+-petroil lubrication is adopted. Hence lubricating oil is also burnt. So 
+pollution is more. Compression is bad, more petrol consumption, and more 
+residual gases. Generally used along with symmetrically scavenged engine, 
+but lower delivery ratio (generally 0.7), Simple and suitable for small 
+engines. Suitable for low o/p engines (5-20bhp) 
+ 
+II.SEPARATE BLOWER / PUMP SCAVENGED ENGINE 
+-higher scavenging pressure & delivery ratio is possible. Residual gases are 
+low. Used in bulky arrangements i.e. above 100 hp engines 
+A comparison
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+22 
+
+BASED ON OVERALL PORT TIMING 
+ 
+I.SYMMETRICAL PORT TIMING 
+ 
+- 
+EPO-IPO-IPC-EPC 
+-Opening and closing of the ports by the piston is symmetrical. 
+Advantage-arrangement of the mechanism is very simple. 
+Disadvantage- more short circuiting, hence more charge loss, super charging 
+is not possible. Suitable for low power o/p engines up to 5bhp i.e. scooters / 
+moped engines. 
+ 
+II.UN-SYMMETRICAL PORT TIMING  
+- 
+EPO-IPO-EPC-IPC 
+-Opening and closing of the ports by the piston is un-symmetrical. 
+Mechanism is complex.  
+Advantages- super charging is possible - by the following ways 
+ 
+Supercharging valve-rotary valves, 
+Poppet valves by suitably designing the cam mechanism, 
+Using sleeve /slide valve, but it is mechanically complicated, 
+& using opposed piston 
+ 
+•
+The common different Shapes of ports are as follows
+Rectangular 
+-BEST 
+ 
+With rounded corners, which gives maximum flow area & smooth edges reduce friction 
+ 
+&
+Rhomboidal & Oblong -good w.r.to ring entrance avoidance 
+ 
+Circular-only some applications (only for intake) 
+ 
+Inclination
+-is given for better mixing, scavenging, turbulence, swirl and combustion. 
+Width 
+-for Uniflow scavenging 
+-0.6πD (entire circumference available for porting 
+ 
+-for lLoop scavenging  
+-0.2πD (both ports are on same side of the wall) 
+-for Crossflow scavenging 
+-0.3πD (50% of circumference is available for porting) 
+Ports should be sufficiently wider for max. flow area, But should not create problem of piston ring entrance 
+into it.  
+ 
+•
+Amount of air/charge delivered
+The delivery ratio is a measure of the air (mixture) supplied to the cylinder relative to the cylinder content. 
+The delivery ratio 
+mass
+reference
+cycle
+per 
+ 
+mixture)
+(or 
+air 
+ 
+delivered
+ 
+of
+mass
+=
+del
+R
+,
+If Rdel = 1, it means that the volume of the scavenging air supplied to the cylinder is equal to the cylinder 
+volume (or displacement volume whichever is taken as reference). 
+Delivery ratio usually varies between 1.2 to 1.5, except for closed crankcase-scavenged, where it is less 
+than unity. 
+Rdel = 0.7 to 0.8 – for crank case scavenging 
+Rdel = 1.4 –normal value 
+Rdel = 1.3 –for fuel economy 
+Rdel = 1.5 –for high o/p 
+For separately scavenged engines 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+23 
+The scavenging efficiency 
+ 
+charge
+cylinder 
+ 
+trapped
+of
+mass
+retained
+ 
+mixture)
+(or
+air 
+ 
+delivered
+ 
+of
+mass
+=
+sc
+η
+,
+Indicates to what extent the residual gases in the cylinder have been replaced with fresh air. 
+If
+1
+=
+sc
+η
+, i.e. all gases existing in the cylinder at the beginning of scavenging have been swept out 
+completely} 
+ 
+•
+Scavenging pressure
+Proper scavenging pressures to be adopted for the respective scavenging method 
+ 
+•
+Mean inlet velocity
+Mean inlet velocity to be calculated, which is a function of pressure ratio, temp. of scavenging & 
+scavenging factor. 
+ 
+•
+Duration(crank angle) of port opening & average port height uncovered by piston
+With Duration (crank angle) of port opening, average port height & port timing can be calculated. 
+ 
+•
+Number of ports & height of ports.
+No. of ports are selected to ensure enough (max.) width, with sufficient bridge to sustain mechanical and 
+thermal load & to avoid piston ring failure i.e. entering in port area. After selecting no. of ports, width of 
+the ports may be calculated and adopted. The height of ports is a major factor in timing of ports. 
+ 
+The flow of gases through a two-stroke cycle engine is diagrammatically represented in fig. The 
+hatched areas represent fresh air or mixture and the cross hatched areas represent combustion gases. The 
+width of the channels represents the quantity of the gases expressed by volume at NTP condition. 
+ 
+Fig. Scavenging Diagram for Two-stroke Cycle SI Engine 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+24 
+Scavenging pumps 
+ 
+Since the pumping action is not carried out by the piston of a two-stroke engine, a separate 
+pumping mechanism, called the scavenging pump, is required to supply scavenging air to the cylinder. 
+Different types of scavenging pumps used range from crankcase compression, piston type blowers to roots 
+blower. The design of a two-stroke engine is significantly affected by the type of scavenging pump used; 
+hence a careful selection of the scavenging pump is a pre-condition to good performance.  
+Crankcase Scavenging. The most obvious and cheapest in initial cost is the use of crankcase for 
+compressing the incoming air and then transferring it to the cylinder through a transfer port. Fig.2.20 
+shows such a system. This system is, however, very uneconomical and inefficient in operation. This is 
+because the amount of air which can be used for scavenging is less than the swept volume of the cylinder 
+due to low volumetric efficiency of the crankcase which contains a large dead space. Thus, the delivery 
+ratio of a crankcase scavenged engine is 
+always less than unity. 
+Since the delivery ratio is less than unity it 
+is not possible to scavenge the cylinder 
+completely of the products of combustion 
+and some residual gases always remain in 
+the cylinder. This results in low mean 
+effective pressure for the crankcase 
+scavenged engine. Typical values are 3 to 
+4 bar. The output of the engine is strictly 
+limited because the amount of the charge 
+transferred through the transfer port is only 
+40-50% of the cylinder volume. 
+ 
+(a) two ports  
+(b) three ports 
+Fig. 2.20 Two-stoke crankcase scavenged engines 
+A further disadvantage is that the oil vapors from the crankcase mixes with the scavenging air. This 
+results in high oil consumption. Because of these disadvantages the crankcase scavenging is not preferred 
+and for high output two-stroke engines a scavenging pump is a must. 
+Piston, Roots, and Centrifugal blowers 
+Piston type blowers as shown in Fig.2.21(a) are used only for low speed and single or two cylinder 
+engines. For all other type of engines either roots or centrifugal blowers are used. The roots blower is 
+preferred for small and medium output engines. While the centrifugal blower, is preferred for large and 
+high output engines. From Fig. 2.22 it is clear that the centrifugal blower has a relatively flat characteristic 
+curve compared to the steep characteristic curve of the 'roots blower. An increase in the flow-resistance 
+due to deposits, etc., thus, has a much greater effect on the scavenging air; output of a centrifugal blower 
+than on that of a roots blower. If deposits accumulate, an engine having a centrifugal blower will start 
+smoking earlier than that having a roots blower. Therefore, roots blower is preferred due to its lower 
+sensitivity to flow resistance changes for systems where space for exhaust ports is limited. 
+The control of air delivery of centrifugal blowers can be done by throttling the air on the intake side. This, 
+however, would not reduce the scavenging power required by the centrifugal blower. In the roots blower 
+the air delivery is controlled by a throttle-actuated by-pass valve between blower inlet and outlet. Such a 
+control divides the air-flow into two parts and only half the flow passes through the engine. This saves a 
+substantial amount of scavenging power and hence results in lower specific fuel consumption. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+25 
+Fig. 2.21 Scavenging-pump types. 
+ 
+Fig. 2.22 Pressure characteristics of centrifugal and roots blower. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+26 
+Comparison of two-stroke SI and CI engines 
+ 
+The two-stroke SI engine suffers from two big disadvantages-fuel loss and idling difficulty. The 
+two-stroke CI engine does not suffer from these disadvantages and hence CI engine is more suitable for 
+two-stroke operation.  
+If the fuel is supplied to the cylinders after the exhaust ports are closed, there will be no loss of fuel 
+and the indicated thermal efficiency of the two-stroke engine will be as good as that of four-stroke engine. 
+However, in an SI engine using carburettor, the scavenging is done with fuel-air mixture and only the fuel 
+mixed with the retained air is used for combustion. To avoid the fuel loss instead of carburettor fuel 
+injection just before the exhaust port closure may be used. 
+The two-stroke SI engine runs irregularly and may even stop at low speeds when mean effect 
+pressure is reduced to about 2bar. This is because large amount of residual gas (more than in four-stroke 
+engine) mixing with small amount of charge. At low speeds there may be back firing due to slow burning 
+rate. Fuel injection improves idling and also eliminates backfiring as there is no fuel present in the inlet 
+system. 
+In CI engines there is no loss of fuel as the charge is only air and there is no difficulty at idling 
+because the fresh charge (air) is not reduced. 
+ 
+Advantages and disadvantages of two-stroke engines 
+Two-stroke engines have certain advantages as well as disadvantages compared to four-stroke 
+engines. In the following sections the main advantages and disadvantages are discussed briefly. 
+ 
+Advantages of Two-stroke Engines 
+(i) As there is a working stroke for each revolution, the power developed will be nearly twice that of a 
+four-stroke engine of the same dimensions and operating at the same speed. 
+(ii) The work required to overcome the friction of the exhaust and suction strokes is saved. 
+(iii) As there is a working stroke in every revolution, a more uniform turning moment is obtained on the 
+crankshaft and therefore, a lighter flywheel is required. 
+(iv) Two-stroke engines are lighter than four-stroke engines for the same power output and speed. 
+(v) For the same output, two-stroke engines occupy lesser space. 
+(vi) The construction of a two-stroke cycle engine is simple because it has ports instead of valves. This 
+reduces the maintenance problems considerably. 
+(vii) In case of two-stroke engines because of scavenging, burnt gases do not remain in the clearance space 
+as in case of four-stroke engines. 
+ 
+Disadvantages of Two-Stroke Engines 
+(i) High speed two-stroke engines are less efficient owing to the reduced volumetric efficiency. 
+(ii) With engines working on Otto cycle, a part of the fresh mixture is lost as it escapes through the exhaust 
+port during scavenging. This increases the fuel consumption and reduces the thermal efficiency. 
+(iii) Part of the piston stroke is lost with the provision of the ports thus the effective compression is less in 
+case of two-stroke engines. 
+(iv) Two-stroke engines are liable to cause a heavier consumption of lubricating oil. 
+(v) With heavy loads, two-stroke engines get heated due to excessive heat produced. Also at light loads, 
+the running of engine is not very smooth because of the increased dilution of charge. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+27 
+SI and CI Engine application 
+We have seen that both SI and CI engines have certain advantages and disadvantages. The selection 
+of a type of engine for particular application needs consideration of various factors. 
+The SI engine offers the following advantages: 
+(1) Low initial cost. 
+(2) Low weight for a given power output. 
+(3) Smaller size for a given power output. 
+(4) Easy starting. 
+(5) Less noise. 
+(6) Less objectionable exhaust gas odor and less smoke. 
+The SI engine finds wide application in automobiles because passenger comfort and in small 
+airplanes because of low weight. Two stroke petrol engines finds extensive use in motor cycles, scooters, 
+mopeds, pleasure motor boats, etc., because of simplicity and low cost. The SI engine is also used for light 
+mobile duty like lawn movers, mobile generating sets, water pumps, air compressors, etc... 
+The CI engine offers the following advantages. 
+(1) Low specific fuel consumption at both full load and part load conditions. 
+(2) Utilizes less expensive fuels. 
+(3) Reduced fire hazard, 
+(4) Long operating life. 
+(5) Better suited for supercharging. 
+(6) Better suited for two-stroke cycle operating, as there is no loss of fuel in scavenging. 
+Because of fuel economy the CI engine finds wide usage in buses, trucks, locomotives, stationary 
+generating plants, heavy duty equipment such as bulldozers, tractors and earthmoving machinery. Because 
+of the reduced fire hazard the CI engine is also used for confined installations and marine use. The great 
+advantage of the CI engine is lower fuel consumption which counteracts the disadvantage of higher initial 
+cost, if the engine is used for long duties.  
+(Table 2.6a gives complete comparison of the two types of 
+engines.)
+Comparison of two-stroke and four-stroke- engines (table 2.5) 
+The two-stroke engine was developed to obtain valve simplification and a greater output from the 
+same size of engine. Two-stroke engines have no valves but only ports (some two-stroke engines are fitted 
+with conventional exhaust valve). This simplicity of the two-stroke engine makes it cheaper to produce. 
+Theoretically a two-stroke engine will develop twice the power of a comparable four-stroke engine 
+because of one power stroke every revolution (compared to one power stroke every two revolutions of 
+four-stroke engine). This makes the two-stroke engine cheaper and more compact than a comparable four-
+stroke engine. 
+In actual practice power is not exactly doubled but is only about 30% extra because of (a) reduced 
+effective stroke, and (b) due to increased heating caused by increased power strokes. The maximum speed 
+is kept less than 4-stroke engine. The other advantages of the two-stroke engine are more uniform torque 
+on crankshaft and complete exhaust of products of combustion. 
+However, when applied to spark-ignition engine the two-stroke cycle has certain disadvantages 
+which have restricted its use to only small engines suitable for motor cycles, scooters, mopeds, lawn 
+mowers, out-board engines, etc. In spark-ignition engine (petrol engine) the charge consists of a mixture of 
+air and fuel. During scavenging, as both inlet and exhaust ports are open simultaneously for some time, 
+some part of the fresh charge containing fuel escapes with exhaust. This results in high fuel consumption 
+and hence lower thermal efficiency. The other drawback of two-stroke SI engine is the lack of flexibility- 
+the capacity to run with equal efficiency at any speed. If the throttle is closed below the best point, the 
+amount of fresh mixture entering the cylinder is not enough to clear out all the exhaust, some of which 
+remains to contaminate the fresh charge. This results in irregular running of the engine. 
+The two-stroke diesel engine does not suffer from these defects. There is no loss of fuel with exhaust gases 
+as the intake charge in diesel engine is air only. The two-stroke diesel engine is therefore used quite 
+widely. Many of the biggest diesel engines work on this cycle. They are generally bigger than 60cm bore 
+and are used in marine propulsion. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+28 
+A disadvantage common to all two-stroke engines, petrol as well as diesel, is greater cooling and 
+lubrication requirements due to one power stroke in each revolution of crankshaft. Consumption of 
+lubricating oil is also high in the two-stroke engine due to higher temperatures.  
+ 
+Table 2.5 Comparison of four-stroke and two-stroke cycle engines 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+29 
+Fundamental differences between SI and CI engines 
+Both SI and CI engines are internal combustion engines and have much in common. However, 
+there are also certain fundamental differences that cause their operation to vary considerably. These are 
+given in Table 2.6 
+ 
+Table 2.6 Comparison of SI and CI engines 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+30 
+table 2.6a detailed comparison of SI & CI engines 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+31 
+References- 
+1. I C Engines By M L Mathur & RP Sharma 
+2. I C Engines By Ganesan 

@@ -1,0 +1,594 @@
+ 
+1 
+OTEKON 2016 
+8. Otomotiv Teknolojileri Kongresi 
+23 – 24 Mayıs 2016, BURSA 
+ 
+DESIGN CONSIDERATIONS OF OHV DIESEL ENGINE CAM 
+PROFILE 
+ 
+ 
+ 
+ 
+ 
+ 
+ABSTRACT 
+    The opening and closing angle of the valves, overlap, and maximum valve lift have a great effect on engine 
+performance at a given speed. These parameters are controlled by the cam which consists of an area with a constant 
+radius (base circle) and an area for valve lift (opening ramp, opening flank, cam tip, closing flank, and closing 
+ramp).  The maximum valve lift, opening and closing angles are given by the results of a thermodynamic analysis 
+to achieve the target engine performance. Kinematic and dynamic analysis are required to determine opening and 
+closing ramps, flanks and cam tip shape to obtain a definitive cam profile. 
+   In this paper, general design considerations of cam profile for the OHV diesel engines has been studied and 
+a 4-cylinder and 4-stroke diesel off road engine exhaust cam profile has been designed by using AVL Excite 
+Timing Drive. Following typical dynamic problems have direct influence on durability of the valve train system 
+especially on high cam speeds; excessive valve seating and cam contact forces being occurred due to high velocity 
+and acceleration, cam contact loss between follower and cam, valve bouncing and undesired vibration behavior of 
+the valve springs. These problems can be detected by dynamic analysis results and avoided with an ideal cam 
+profile design. 
+ 
+Keywords: Cam Profile Design, Valvetrain, Dynamic Analysis, Excite Timing Drive 
+ 
+1. INTRODUCTION 
+Internal combustion engines use valves to 
+control the air and fuel flow in/out of the cylinders. 
+Valves are driven by the camshaft through the rocker 
+arms, pushrods or tappet lifters according to type of 
+the valve train system. Valve train systems are 
+mainly subjected as 2 configurations by considering 
+the location of the camshaft on engine layout which 
+are Overhead Camshaft (OHC) and Overhead 
+Valves (OHV). Figure – 1 shows the general layouts 
+of the OHV and OHC valve train systems. Camshaft 
+places in cylinder head of the engines on OHC 
+configuration thus valves are driven in a more direct 
+manner. Besides on OHV system the camshaft is 
+placed within the cylinder block and uses pushrods 
+or rods to actuate rocker arms through more number 
+of the parts compared to OHC systems. Even though 
+the cost and package advantages of the OHV 
+engines, their valve train have lower stiffness and 
+show much unsteady dynamic behavior due to high 
+number of contact points and long distance for the 
+transmission of the  
+ 
+ 
+ 
+ 
+ 
+ 
+motion from camshaft to valves. Profile of the cam 
+defines the theoretical valve motion however the 
+actual valve motion does not occur in same geometry 
+due to clearances, inertial and external forces and 
+stiffness of the parts which is an actual conclusion of 
+the dynamic behavior of the system. [1] 
+ 
+ 
+ 
+ 
+Figure 1: Rocker arm valve train 
+configurations 
+ 
+Cam profile design is initiated with the 
+kinematic calculations in order to provide a rough 
+profile bconsidering given max valve lift from 
+LÜTFEN BU ALANA YAZAR VE KURUM BİLGİSİ GİRMEYİNİZ! 
+ 
+YAZAR VE KURUM BİLGİSİ FORM ÜZERİNDEN GİRİLMELİDİR. 
+ 
+2 
+thermodynamic calculations when the right valve 
+train geometry (cam base circle, rocker arm ratio, 
+sufficient stiffness of cams, package constraints, 
+material and min. grinding wheel diameter that 
+confirmed by the supplier) has been defined. As next 
+step, the single valve train model is built for the 
+dynamic analysis. 
+2. VALVE KINEMATIC MOTION 
+ 
+There must be a clearance between the valve 
+actuating mechanism of the rocker arm and the valve 
+stem end due to heat expansion of the valves and 
+cylinder head and wear between valve head and 
+valve seats during the engine operation. If there is no 
+clearance left, the valves would not close on base 
+circle during the engine operation which can lead 
+performance loss or catastrophic failure of the 
+engine.  Initially, when the valves start to move, the 
+clearance between valve stem and rocker arm must 
+be compensated. The valve clearance can be 
+occurred either by turning and adjusting the bolts 
+which is the connection between the pushrod and the 
+rocker arm or with a hydraulic element which is 
+closing the lash automatically. Diesel engines with 
+OHV system are generally uses mechanical lash 
+adjustments.  
+When the lash is closed, the cam profile initiates 
+a constant velocity at first section of the lift as protect 
+the system from the impact forces which is called as 
+ramp velocity.  
+ 
+ 
+ 
+     Figure 2. Theoretical valve motion 
+ 
+Under kinematic conditions the opening and 
+closing ramp velocities are usually defined as 
+between 300mm/s and 500mm/s for the diesel OHV 
+engines at the rated engine speed. During the next 
+stage the cam accelerates the valve which happens 
+on the cam opening flank. The opening acceleration 
+generally designs as immediate rise from zero to 
+maximum and back to zero. Deceleration starts due 
+to the spring stiffness is getting increased until the 
+valve approaches the maximum lift. When the valve 
+starts to close, acceleration is also controlled by the 
+valve spring with the spring progressivity. Figure 3 
+an example of exhaust valve spring progressivity. 
+Last, final deceleration (closing ramp) is controlled 
+by the cam. The cam is designed to give a constant 
+closing velocity in order to limit the impact stresses 
+same as opening ramp phase. [1] 
+ 
+ 
+Figure 3. Valve spring progressivity 
+ 
+3. GENERAL DESIGN    
+CONSIDERATIONS 
+ 
+3.1 Thermodynamic Input 
+ 
+The cam lobe must be able to open and close the 
+valve as far, as fast and as smoothly as possible.  
+Thermodynamic side of the cam profile design deals 
+with far and fast behavior of the valve motion in 
+order to get maximum performance from the given 
+engine layout. Flow coefficient versus valve lift and 
+inner valve seat diameter is a main criteria for max. 
+valve lift calculation. Thermodynamic delivers a 
+proposal valve lift curve to design side in order to 
+initiate the cam design.  
+AVL Boost is a thermodynamic simulation 
+software for the simulation of engine cycle and 
+generation of initial proposal valve lift which 
+simulates a wide variety of engines, 4-stroke or 2-
+stroke, spark or auto-ignited. Applications range 
+from small capacity engines for motorcycles or 
+industrial purposes up to large engines for marine 
+propulsion. In this study desired valve lift shape has 
+already been defined by engine cycle calculations 
+using AVL BOOST. This valve lift curve and the 
+corresponding timing for the valves will targets for 
+the basic cam design.[2]  
+ 
+3.2 Cam Size Definition 
+ 
+There are three basic limiting factors for the cam 
+size definition. Contact pressure between cam and 
+follower determines the wear of the contact surfaces. 
+There is a small contact area is being created through 
+ 
+3 
+elastic deformation between cam and follower, 
+thereby limiting the stresses considerably. This 
+stress is called as Hertzian stress (contact stress). 
+Maximum allowable Hertzian stress is limited 
+depending on yield strength of the cam lobe or 
+follower material and type of contact (point or line). 
+Even though the contact stress is related with the 
+velocity, lubrication and surface roughness of the 
+mating parts, general cam size is directly affected by 
+the maximum allowed Hertzian stress. Besides cam 
+width over flank and nose is also depending on the 
+material, follower type (flat, roller) and the contact 
+stress limit. OHV engines generally use chilled cast 
+camshaft and hardened steel flat tappets. This type of 
+pair has typically 1000MPa Hertzian stress limit 
+however detailed evaluation has to be done by 
+simulation in combination with other parameters as 
+lubrication etc. 
+    As the cam size is reduced, another design 
+parameter, radius of curvature is affected. Figure 4. 
+shows a cam shape example with the negative cam 
+contour radius. The cam surface radius of curvature 
+will have a minimum allowable design value that 
+will satisfy the other design factors. Generally, 
+negative cam contour radius is defined by the 
+manufacturer depending on tooling costs. 
+ 
+            
+ 
+                Figure 4. Negative cam contour 
+ 
+    Shaft size is another limiting factor in 
+determining the minimum cam size. The camshaft is 
+subject to torsional vibrations. The shaft diameter is 
+determined by the requirement for adequate torsional 
+stiffness. The required shaft outside diameter is 
+depending, whether the shaft is driving other 
+components besides the valves. This is important if 
+it is driving components with high torque 
+fluctuations (such as unit fuel injectors) or 
+components with high inertia.[3] 
+ 
+4. CAM PROFILE DYNAMIC 
+CONSIDERATIONS 
+ 
+   Valve train components must satisfy a number 
+of dynamic requirements such as valve closing 
+velocity, valve spring behavior, cam/follower 
+contact stress and there is no loss of contact should 
+be occurred between the frictionally coupled 
+components up continuous over speed in order to 
+keep the target valve train durability and avoid from 
+the failures. 
+   Excessive valve closing velocity which also 
+refers as impact velocity has direct influence on 
+valve/ valve seat wear and thermal fatigue cracks. So 
+that it should be limited under a certain value on 
+lower and higher speeds by the optimization of the 
+cam profile. Typically max. Valve closing velocity 
+is 0.5m/s on rated speeds for OHV diesel engines. It 
+can be allowed bit higher on continues or non-
+continues over speeds.  
+   Valve 
+bouncing 
+is 
+another 
+important 
+parameter which should be avoided. This problem 
+reduces engine efficiency and performance and 
+potentially increases engine emissions. There are 
+also significant risks to valve spring cracks and 
+piston valve contacts.  
+   Main functions of the valve spring are closing 
+the valves with the potential energy stored during the 
+valve opening phase by the force through the cam 
+lobe and keeping the valves closed. On the other 
+hand valve spring has key role to control the valve 
+train dynamic forces. The spring forces has to be 
+higher than the mass forces of moving parts to ensure 
+permanent contact between cam and follower.  Valve 
+spring dynamic response (Forces) has to be checked 
+in the entire speed range in 50rpm steps. It generally 
+occurs on high engine speeds due to high valve 
+closing acceleration and improper valve spring 
+stiffness characteristics.  
+As mentioned in cam size definition, contact 
+pressure is limited according to material pair of the 
+parts  between cam and followers. And maximum 
+contact stress should be under allowable max contact 
+stress limit in every operation speed of the engine. 
+[4] 
+5. BASIC CAM DESIGN 
+ 
+In this study, a desired valve lift shape has 
+already been defined by engine cycle calculations 
+using AVL BOOST. This valve lift curve and the 
+corresponding timing for the valves are targets for 
+the basic cam design. Thermodynamic exhaust valve 
+lift is used as an input for initial cam design whereas 
+maximum valve lift has been defined as 10mm with 
+considering the mechanical lash.  
+AVL EXCITE Timing Drive provides a tool for 
+basic cam design and cam modification which is 
+used for the current study. The basic cam design 
+module is included in the timing drive software for 
+preparation of a first cam profile layout at an early 
+design stage. For this example an exhaust cam 
+profile for a valve train with overhead valve is 
+generated. Detailed model can be seen on dynamic 
+analysis section.  
+Before designing the cam profile, it is necessary 
+to prepare an equivalent system. This system should 
+define the most important geometrical dimensions 
+and some initial values for the following: 
+ 
+4 
+ 
+- 
+Valve train stiffness which are calculated 
+considering young modulus of the materials 
+and the geometry of the components. 
+- 
+The masses of the valve train components 
+- 
+The initial properties of the valve spring 
+which is already defined per max valve lift, 
+exhaust back pressure and valve train 
+geometry. Valve spring design is an 
+iterative study. Spring designer uses the 
+valve train dynamic analysis results again 
+to reach the optimum spring properties. 
+Table 1. shows individual masses and stiffness’s 
+of the valve train components which are used for the 
+cam design and dynamic analysis. 
+ 
+ 
+Table 1. Valve train masses 
+ 
+mass 
+[g] 
+stiffness 
+[N/mm] 
+valve_ex_all 
+120.2 
+ 
+valve_ex face 
+92.3 
+ 
+valve_ex stem 
+31.1 
+128629 
+valve spring retainer 
+41.6 
+ 
+valve collet pair 
+2.5 
+ 
+valve spring non active coil 
+mass 
+11.5 
+ 
+half pushrod UPPER 
+46.7 
+744482 
+half pushrod LOWER 
+42.4 
+74448 
+flat tappet 
+140.2 
+4433415 
+rocker arm 
+186.8 
+ 
+adjustment screw 
+11.1 
+ 
+adjustment screw nut 
+3.5 
+ 
+rocker arm incl. adj. screw, 
+nut 
+200.5 
+ 
+ 
+For the basic cam design, three principle 
+methods are available:  
+ 
+- 
+Polydyne cams  
+- 
+Steady acceleration cams  
+- 
+Section-wise description of the cam profile  
+The cam design is done interactively by 
+specifying a section to be modified and giving a rule 
+how the cam contour should be modified. 
+Afterwards, modifications can be performed in lift, 
+velocity, and acceleration curves at valve or cam 
+considering the requirements.  Polydyne method 
+symmetric for both opening and closing side is used. 
+Ramps (opening and closing) of the cam profile 
+should be determined accordingly to general cam 
+shape design. Ramps are considered at the cam 
+profile for all types of valve trains, they serve for 
+achieving defined opening and closing behavior of 
+the valve and compensate clearance and the stiffness 
+of the valve train. Ramp definition is independent 
+calculation other than cam design methods. So that, 
+all available ramp description can be combined with 
+all described design methods for main cams. 
+As this example is to prepare data for a 
+mechanical valve train with a clearance of 0.25 mm 
+at cold engine, a height of the opening ramp of 0.35 
+mm is considered.  
+Then according to stiffness, mass, valve train 
+geometry and thermodynamic data, cam design is 
+generated. Figure 5. shows, results of the kinematic 
+valve lift, velocity and acceleration shape. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5. Kinematic valve lift, velocity and 
+acceleration 
+ 
+6. DYNAMIC ANALYSIS 
+ 
+6.1 Model Description 
+ 
+After the basic cam design has been done, the 
+according rough model is extended and refined to a 
+model which can be used for the calculation of the 
+dynamic behavior of the system. 
+In the current example, simple single OHV 
+exhaust valve train actuated by pushrod and rocker 
+arm with a mechanical tappet of a four cylinder off 
+road diesel engine has been studied as described in 
+figure 6. 
+ 
+In general it consists of: 
+ 
+- 
+Cam 
+- 
+Mechanical tappet 
+- 
+Pushrod 
+- 
+Rocker Arm 
+- 
+Valve(head and stem) 
+- 
+Valve spring 
+- 
+Valve cotter and retainer 
+ 
+5 
+ 
+Figure 6. OHV Valve train layout 
+ 
+OHV system of a four cylinder off road diesel 
+engine is modelled as a single valve train lumped 
+mass system using AVL EXCITE Timing Drive as 
+shown in the figure 7. 
+ 
+ 
+ 
+ 
+Figure 7. Valve train lumped mass model 
+ 
+The lumped mass model is generated by 
+considering below road map; 
+ 
+- 
+Divide the valve into two parts for the 
+purpose of considering the stiffness and 
+damping of the valve more precisely. The 
+valve is usually “cut” in the middle of the 
+stem. Thus, the following two parts are 
+taken into consideration: Valve Stem and 
+Valve Face 
+- 
+Masses of the valve cotter, retainer, and the 
+valve-side non-active coils of the spring(s) 
+are also added to the pure stem mass as well 
+when considering the valve stem mass. 
+- 
+One element (spring model) represents the 
+valve spring. 
+- 
+Radial and axial bearings describe the 
+connection 
+(stiffness 
+and 
+damping) 
+between a shaft or a gear with surrounding 
+parts. In our example, the radial and axial 
+bearings mainly represents the stiffness of 
+the camshaft.  
+- 
+Pushrod is considered with two stiffness 
+and damping elements for more precise 
+representation since its long height. 
+- 
+Directly a rocker arm element is used for 
+the exhaust OHV rocker arm. 
+- 
+Flat tappet (cam follower) is described with 
+single stiffness and damping element. 
+- 
+Camshaft is modelled in shaft modeler tool 
+as 2 bearing and single exhaust cam lobe. 
+All the related geometries (cam lobe width, 
+cam lobe base circle diameter, bearing 
+width and diameter and camshaft length) 
+are considered in order to describe the part.  
+The calculations are conducted for the 1800 rpm 
+engine speed which equals to 900 rpm camshaft 
+speed. Cylinder pressure, friction of the elements, 
+stiffness and damping values derived from the part 
+geometries and masses, dynamic oil viscosity 
+between shaft and bearings, spring properties are 
+used in the model. 
+The method programmed in the dynamic part of 
+EXCITE Timing Drive calculates the dynamic 
+displacements, velocities, accelerations, and forces 
+in the valve train elements.  
+ 
+6.2 Results 
+ 
+After the calculation is finished the results files 
+are evaluated according to valve train dynamic 
+requirements. Initially, valve lift profile and valve 
+velocity are compared at 1800 rpm. The dynamic 
+valve lift curve can differ more or less from the 
+kinematic curve, depending on the stiffness of the 
+valve train. So that max valve lift has been observed 
+as 9.91mm due to elastic deformation of the valve 
+train parts without considering the valve mechanical 
+lash. On the other hand valve lift is smoothly 
+matching with the thermodynamic lift curve 
+however it’s needed to be double check from the 
+engine performance effect point of view. 
+ 
+ 
+6 
+ 
+ 
+Figure 8. Dynamic valve lift and valve velocity 
+results @ 1800 rpm 
+ 
+By the smooth design of the cam opening and 
+closing ramps, it produced a relatively low valve 
+closing velocity on 1800 rpm which is below than 
+recommended value of 0.5m/s. 
+ 
+ 
+Figure 9. Valve closing velocity @ 1800 rpm 
+ 
+Dynamic spring shows no contact of spring coils 
+according to comparison of the active coil forces. 
+ 
+ 
+Figure 10. Spring Coil Forces 
+ 
+7. CONCLUSION 
+ 
+The single exhaust valve train of an OHV diesel 
+engine is simulated by means of AVL EXCITE 
+Timing Drive. The study shows that typical dynamic 
+problems can be avoided by reaching to optimum 
+design of the cam profile or other valve train 
+components like rocker and spring. 
+ 
+The results of analysis are: 
+ 
+- 
+Dynamic valve seat velocity and forces 
+- 
+Dynamic valve lift 
+- 
+Dynamic behavior of valve springs are 
+satisfy the dynamic requirements of the 
+valve train.  
+Finally, the analysis is performed on rated speed 
+of the engine which is well below than continuous 
+over speed (2600rpm). Dynamic behavior of the 
+valve train shows severe results on higher engine 
+speeds so that likely some refinements will be 
+needed on cam design on further design studies for 
+higher rpm’s. 
+ 
+ 
+REFERENCES 
+ 
+1. R. Lewis, R. S. Dwyer-Joyce, (2003), 
+“Automotive Engine Valve Recession”, 
+Professional 
+Engineering 
+Publishing 
+Limited, London and Bury St Edmunds, 
+UK 
+2. H. A. ROTHBART, (2004), “Cam Design 
+Handbook”, McGraw-Hill  
+3. BOSCH, 
+(2001), 
+“Automotive 
+Handbook” John Wiley & Sons Ltd 
+4. M. Mehrgou, N. Hadley, V. D’Olier, 
+(2009), “Optimization of a Heavy Duty 
+Diesel Engine Cam Profiles to Eliminate 
+Contact Loss using Multi-body Dynamic 
+Model”, SAE 
+ 
+ 
+ 

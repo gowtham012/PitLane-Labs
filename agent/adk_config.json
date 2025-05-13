@@ -1,0 +1,14 @@
+{
+    "agent": {
+      "name": "auto-rag-agent",
+      "description": "RAG‑based automotive diagnostics and design assistant"
+    },
+    "tools": [
+      {
+        "name": "knowledge_qa",
+        "module": "agent.rag_qa",
+        "function": "answer_query"
+      }
+    ]
+}
+  

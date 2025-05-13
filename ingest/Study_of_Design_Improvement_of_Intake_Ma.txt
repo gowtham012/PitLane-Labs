@@ -1,0 +1,361 @@
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+234 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+Study of Design Improvement of Intake Manifold of Internal 
+Combustion Engine 
+ 
+Sachin Singla 
+Student 
+Mechanical Engg. 
+Department 
+Thapar University, Patiala 
+Mr. Sumeet Sharma 
+Associate Professor 
+Mechanical Engg. 
+Department 
+Thapar University, Patiala 
+Dr. D. Gangacharyulu 
+Professor 
+Chemical Engg.  
+Department 
+Thapar University, Patiala 
+ 
+ABSTRACT: For a better performance of an internal combustion engine, design of intake manifold 
+is one of the important factor. It is required that equal mass of air fuel mixture is delivered to each 
+cylinder of the engine. Unequal distribution of charge reduces the efficiency of the engine. Presented 
+study aims at the design modification of the intake manifold so that almost equal velocity can be 
+obtained at the end of each runner. For the study purpose Intake manifold of Maruti Wagnor was 
+used. Experimental study was conducted on the manifold and variation in outlet velocity and outlet 
+pressure was recorded at different inlet velocities. Further, three dimensional drawing of the intake 
+manifold was made and CFD simulation was conducted using ANSYS FLUENT. Two models were 
+studied by making some modifications in the actual manifold and thus an improved manifold design 
+was suggested. Results show that nearly equal velocity was obtained at all the runner outlet and flow 
+velocity at outlet 1 increased by 16%, and velocity in other outlets improved by approximately 5% to 
+7% as compared to actual model. 
+Keywords: Intake Manifold, Computational Fluid Dynamics (CFD) 
+ 
+1. 
+INTRODUCTION:  
+In an automobile, engine is one of the main component. Continuous research is going to make the 
+engine more and more efficient and use of alternate fuels. The major challenge faced is to reduce the 
+global carbon emission and to reduce the oil consumption. Now a day compressed natural gas (CNG) 
+is widely used in the automobiles. Efficiency of an engine working on CNG is very less. When 
+compared to the gasoline, it is seen that the average torque and power losses of CNG is in range of 
+1.6 to 21.6% and 3 to 19.7% respectively [1]. The efficiency of an engine depends on many factors, 
+design of intake manifold (IM) being one of them. The function of the IM is even distribution of a 
+uniform mixture of fuel and air to all the cylinders. Even distribution is essential for a better 
+performance and optimal efficiency. Design of the IM is thus very important for better engine 
+performance. Length of the runner, diameter of the runner, plenum volume, smoothness of the joints, 
+shape of the runners are the some of the factors which are considered during the design of the IM. 
+Computational Fluid Dynamics (CFD) is very helpful in predicting the flow pattern inside the 
+cylinder and the IM. Using the CFD can reduce the design modification time.  To analyze the 
+physical phenomena which is involved in change of kinetic energy, renormalization group theory 
+(RNG k- ε) turbulent model is used [2]. For an automobile different IM are used as per requirement 
+and then the modifications are done as needed. But some general modifications are preferred for a 
+good IM design. For the IM of a diesel engine, profile near the corners are made smooth so that 
+reflecting shock waves at high velocity can be avoided. Some improvements in the plenum can also 
+be made so that the flow can be easily directed into the runners [3]. With increase in the plenum 
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+235 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+volume, the runner outlet vacuum decreases which leads to increase in efficiency and improved 
+engine performance [4]. Improvement in the engine performance occurs with variation in the plenum 
+length. At the low engine speeds, plenum length needs to be extended whereas at the high engine 
+speeds, it needs to be shorten [5]. Design of the venture also effect the performance. It was seen that 
+as the throat velocity was increased, break power was also increased [6]. According to the work of 
+Tsogtjargal G. et al. out of IM of length reduced by 5cm, increased by 10cm and increased by 20cm, 
+manifold with increased length showed the reduced fuel consumption at ideal conditions. In the 
+straightway, IM increased by 10cm showed least fuel consumption, whereas in the traffic jam 
+condition, simple runner gave the best results [7]. For the high speeds, runners with small pipe length 
+and large diameter gives best results and at low speeds, large pipe length and small pipe diameter 
+gives best results. On the same time, pipe diameter and length do not have significant influence on 
+the specific fuel consumption and engine thermal efficiency [8]. For an engine with benefits of both, 
+the two IM can be merged to form duel intake manifold [9]. Out of the spiral, helical, helical-spiral 
+combined IM configurations, helical IM has highest volumetric efficiency, whereas Spiral-Helical 
+combined manifold has 10% higher efficiency than Spiral manifold. At TDC of compression, 
+helical-spiral combined intake manifold delivers higher mean swirl velocity [10]. With the 
+introduction of helical grooves inside IM there was 25.6% gain in thermal efficiency, 23.5% and 
+13.6% reduction in specific fuel consumption and in ignition delay respectively, 26.9% reduction in 
+smoke emission, 6.6% reduction in 𝑁𝑂𝑥 formation, 15.6% reduction in hydrocarbon emission and 
+36.47% reduction in carbon monoxide emission [11]. Introducing the helical threads inside the IM 
+also effect the engine performance. Experiment performed with the 4mm width threads with pitch 
+varied from 10mm to 25mm in steps of 5mm showed that better performance, as compared to other 
+modified IMs, was obtained with IM with threads of 10mm pitch. There was a reduction of 12.5% 
+and 0.3% in hydrocarbon emissions and carbon monoxide emission respectively [12]. Out of the IM 
+with internal acme threads, buttress threads, knuckle threads all having a pitch of 2 mm and normal 
+IM, there was an increase of 14.5% in brake thermal efficiency, reduction of 11.62% in bsfc and 
+increase of 9.72% in volumetric efficiency as compared to normal manifold when buttress threaded 
+manifold used. For normal manifold, knuckle, acme and buttress threaded manifold exhaust gas 
+temperature observed was 223 0C, 232 0C, 238 0C and 247 0C respectively [13]. For this study, intake 
+manifold of a naturally aspirated, four-stroke petrol engine was selected. Flow pattern inside the 
+intake manifold was studied using the CFD for the modification of the design of the intake manifold. 
+2. 
+DESIGN MODELLING AND MESH GENERATION: 
+Using a 3-D CAD designing software the modelling of the intake manifold was done for the CFD 
+analysis. After the modelling, this geometry was imported into the ANSYS workbench and fluent 
+meshing was done.  
+ 
+Fig 1: Actual 3-D Model 
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+236 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+For the study three models were developed, Moodel-1 (actual model), Model-2 (without internal 
+projections) and Model-3 (without internal projections at plenum and without curve at the end of 
+runners). The actual model has the final mesh of 2673528 elements. Figure 1 shows the actual 3-D 
+model and figure 2 shows the flow volume model of all the three models used for the study. 
+     
+     
+ 
+ 
+ 
+Model 1 
+ 
+ 
+Model 2 
+ 
+ 
+Model 3 
+Fig 2: Flow volume model of three different models studies 
+3. 
+EXPERIMENTAL SETUP:  
+For the experimental purpose, pressure taps were attached at the runner outlets so that pressure can 
+be measured at the outlets. The inlet condition was varied by regulating the blower and air at 
+different inlet velocities was introduced in the IM. Air velocity at different outlet was recorded with 
+the help of anemometer and the pressure difference between inlet and outlet of the manifold was 
+recorded with the help of U-tube manometer. The intake manifold used to conduct study is shown in 
+figure 3 and the experimental setup is shown in figure 4. 
+   
+ 
+                
+ 
+ 
+Fig 3: Intake manifold Figure  
+ 
+ Fig 4: Experimental setup 
+ 
+4. 
+RESULTS AND DISCUSSION: 
+4.1. 
+Experimental results: 
+Air was introduced in the intake manifold at the different velocities and corresponding velocities at 
+all the runners were recorded. On the same time, pressure drop was also recorded with the help of the 
+U-tube manometer. Figure 5 shows the anemometer data and figure 6 shows the pressure at the outlet 
+of different velocities.  
+From the Bernoulli Theorem we know that pressure and velocity are inversely proportional. Thus 
+from the graphs we can conclude that velocity in the outlet 1 is minimum and at outlet 4 it is 
+maximum. By temperature variation test it is noticed that the density change is very small and 
+remain almost equal to the standard density of air at NTP. 
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+237 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+ 
+Fig 5: Velocities at outlets with variable inlet velocities 
+ 
+Fig 6: Pressure at outlets on variable inlet velocities 
+Destructive test was performed for the study of internal geometry of intake manifold. It was seen that 
+there were many hidden projections inside the manifold which causes restriction to the flow and thus 
+leads to uneven distribution at the outlets. Figure 7 shows these hidden projections which were not 
+visible at first. 
+ 
+Fig 7: Hidden Projections 
+4.2. 
+CFD results: 
+CFD analysis was done on all the three models to find the velocity and pressure variation between 
+the different outlets at given inlet velocity. The CFD simulation results of the actual model were 
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+238 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+verified by comparing with the experiment results. Velocity vector view of actual model at inlet 
+velocity of 18m/s is shown in figure 8. 
+ 
+           
+ 
+Fig 8: Velocity Vector (Model-1, 18m/s) 
+ 
+ 
+(a) Model-1 
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+239 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+ 
+(b) Model-2 
+ 
+ 
+(c) Model-3 
+Fig 9: Velocity profile at different outlets (18m/s) 
+Velocity profile at the different outlets, as obtained from fluent, for all the three models at 18m/s 
+inlet velocity are shown in figure 9. Three graphs shown in figure 10 shows the variation of outlet 
+velocities with respect to variation in inlet velocity for all the three IM models. From all these graphs 
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+240 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+we can conclude that outlet velocities of runner 2 and runner 3 is almost equal and variation can be 
+seen in runner 1 and runner 4. This can be validated with experimental results too for model-1. 
+      
+ 
+ 
+ 
+(a) Model-1  
+ 
+ 
+ 
+ 
+(b) Model-2 
+ 
+(c) Model-3 
+Fig 10: Velocities at outlets at different inlet velocities 
+To study the design modification, the outlet velocities for all the three models are examined 
+carefully. Figure 11, 12, 13 and 14 shows the variation in each outlet velocity of all the three models 
+at different inlet velocities. 
+ 
+     
+ 
+Fig 11: Outlet verses Inlet velocities at 
+outlet-1 
+Fig 12: Outlet verses Inlet velocities at 
+outlet-2
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+241 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+ 
+     
+ 
+Fig 13: Outlet verses Inlet velocities at 
+outlet-3 
+Fig 14: Outlet verses Inlet velocities at 
+outlet-4
+ 
+Outlet 1: At outlet 1 it is seen that actual model shows the least velocity as compared to the two 
+modified models. It can be also seen that for actual model, outlet 1 has lowest velocity out of all four 
+outlets. Thus it can be concluded that the projections at runner 1 has actual bad design. 
+Outlet 2 and Outlet 3: It is observed that velocity at outlet 2 and outlet 3 have nearly equal velocity 
+for model-1 and model-3 but have slightly higher velocity for model-2. This is because there is no 
+projections inside plenum and curves design at the end is good. The other reason for equal velocity is 
+their position which is just below the inlet of IM. Thus it is seen that the position of the runners is 
+also important factor in designing the manifold. 
+Outlet 4: It is observed that at the outlet 4, actual model shows more velocity than the modified 
+designs. This may be due to the projection of depth cut above the runner 4. Thus it can be concluded 
+that this inside projection of deep cut plays an important role for a good manifold design. 
+From the above discussion it is noticed that the model is good at the curve designing part and depth 
+cut above the runner 4, which help in equal velocity at the outlets, whereas there are some bad design 
+projections at runner 1. 
+5. 
+CONCLUSIONS: 
+From the above study it may be concluded that: 
+i. 
+The model has good design of runners and the curves at the end are helpful in achieving the 
+equal velocity at outlet. 
+ii. 
+Position of the runners with respect to the inlet also plays an important factor. 
+iii. 
+Faulty design of the plenum is the reason for the variation of outlet velocity. 
+iv. 
+Inside projections near the runner 1 causes restriction to the passage of flow, which leads to 
+low velocity and high pressure loss at outlet 1 in actual model. 
+v. 
+Intake manifold geometry with plenum chamber free from unwanted projections and depth 
+cuts show good result. It is seen that there is an increase of 16% in flow velocity at outlet 1, and 
+velocity in other outlets improved by approximately 5% to 7%. In modified design nearly equal 
+velocity is obtained at all runner outlets as compared to actual intake manifold. 
+ 
+ 
+International Journal of Engineering Technology, Management and Applied Sciences 
+                                 
+ 
+www.ijetmas.com  March 2015, Volume 3 Special Issue, ISSN 2349-4476 
+ 
+ 
+242 Sachin Singla, Sumeet Sharma, Dr. D. Gangacharyulu 
+ 
+NOMENCLATURE:  
+ 
+IM 
+-Intake Manifold 
+ 
+ 
+bsfc   -Break Specific Fuel Consumption 
+ 
+CFD -Computational Fluid Dynamics 
+CNG -Computational Fluid Dynamics 
+ 
+3-D 
+-Three Dimensional  
+ 
+CAD -Computer Aided Design 
+ 
+REFERENCES: 
+[1] Maxwell T.T. and Jones J.C. (1995). Alternative Fuels: Emissions, Economics and Performance. 
+USA Society of Auto motive Engineers: SAE Inc. 
+[2] Benny Paull and Ganesan V., “Flow field development in a direct injection diesel engine with 
+different”, International Journal of Engineering, Science and Technology, Vol. 2, No. 1, pp.80-91, 
+(2010). 
+[3] Safari, M., Ghamari, M., & Nasiritosi, A. (2003). Intake manifold optimization by using 3-D 
+CFD analysis (No. 2003-32-0073). SAE Technical Paper. 
+[4] Kumar, M., & Kumar, P. (2013, June). CFD Simulation of Air Flow in Intake Manifold of SI 
+Engine. International Journal of Enhanced Research in Science Technology & Engineering, Vol. 2 
+Issue 6, June-2013 on (pp. 58-68).  
+[5] Ceviz, M. A., & Akın, M. (2010). Design of a new SI engine intake manifold with variable length 
+plenum. Energy Conversion and Management, 51(11), 2239-2244. 
+[6] Arali, S. M., & Kulkarni, V. V. (2013, April). Design and analysis of fuel intake system for 
+biogas operated spark ignition engine. In Energy Efficient Technologies for Sustainability (ICEETS), 
+2013 International Conference on (pp. 665-669). IEEE. 
+[7] Tsogtjargal, G., Bayarsuren, B., & Sarantuya, S. (2012, September). Improvement on fuel 
+consumption by intake manifold design development of gasoline engine. In Strategic Technology 
+(IFOST), 2012 7th International Forum on (pp. 1-4). IEEE. 
+[8] Costa, R. C., de Morais Hanriot, S., & Sodré, J. R. (2014). Influence of intake pipe length and 
+diameter on the performance of a spark ignition engine. Journal of the Brazilian Society of 
+Mechanical Sciences and Engineering, 36(1), 29-35. 
+[9] Saravanan, D., Gokhale, A., & Karthikeyan, N. (2014). Design and Development of a Novel 
+Charge Boosting System for a Single Cylinder SI Engine (No. 2014-01-1707). SAE Technical Paper. 
+[10] Paul, B., & Ganesan, V. (2010). Flow field development in a direct injection diesel engine with 
+different manifolds. International Journal of Engineering, Science and Technology, 2(1), 80-91. 
+[11] Prasad, S. L. V., & Pandurangadu, V. (2011). Reduction of emissions by intensifying air swirl in 
+a single cylinder DI diesel engine with modified inlet manifold. International Journal of Applied 
+Engineering and Technology, 1(1), 18-23  
+[12] Phaneendra, V., Pandurangadu, V., & Chandramouli, M. (2012). Performance evaluation of a 
+four stroke compression ignition engine with various helical threaded intake manifolds. International 
+Journal of Applied Research in Mechanical Engineering, Vol. 2 Issue 1, 2012.  
+[13] Sambhe, R. U., & Shrirao, P. N. (2014). Performance analysis of single cylinder (DI) diesel 
+engine by air swirl induction with internally threaded inlet manifolds. International Journal of 
+Mechanical Engineering and Technology (IJMET), 5(7), 144–150 
+ 

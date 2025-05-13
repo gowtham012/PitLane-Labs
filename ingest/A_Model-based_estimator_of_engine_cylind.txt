@@ -1,0 +1,826 @@
+A Model-Based Estimator of Engine Cylinder Pressure Imbalance for
+Combustion Feedback Control Applications
+Ahmed Al-Durra, Lisa Fiorentini, Marcello Canova and Stephen Yurkovich
+Abstract— One of the principal issues of low-temperature
+combustion modes is caused by the imbalances in the dis-
+tribution of air and EGR across the cylinders, which affects
+the combustion process. Cylinder to cylinder variations lead to
+imbalances in the cylinder pressure, indicated torque, exhaust
+gas thermodynamic conditions and emissions.
+In principle, a cylinder-by-cylinder control approach could
+compensate for air, residuals and charge temperature im-
+balance. However, in order to fully beneﬁt from closed-loop
+combustion control, a feedback from each engine cylinder
+would be necessary to reconstruct the pressure trace. Therefore,
+cylinder imbalance is an issue that can be detected only in
+a laboratory environment, wherein each engine cylinder is
+instrumented with a dedicated pressure transducer.
+This paper describes the framework and preliminary results
+of a model-based estimation approach to predict the individual
+pressure traces in a multi-cylinder engine from the output of
+a crankshaft speed sensor. The objective of the estimator is
+to reconstruct the complete pressure trace during an engine
+cycle with sufﬁcient accuracy to allow for detection of cylinder
+to cylinder imbalances. Starting from a model of the engine
+crankshaft dynamics, a sliding mode observer is designed
+to estimate the cylinder pressure from the crankshaft speed
+ﬂuctuation measurement. The results obtained by the estimator
+are compared with experimental data obtained on a four-
+cylinder Diesel engine.
+I. INTRODUCTION
+Over the past decade, Diesel engine technology has rapidly
+evolved due to the signiﬁcant advances in turbocharging, fuel
+injection systems, combustion optimization and aftertreat-
+ment technology. However, well designed and calibrated
+control strategies must be implemented to manage the fueling
+system and air handling system, while relying on a restricted
+set of sensors due to cost limitations [1].
+Conventional Diesel engines typically operate in open loop
+with respect to combustion. As emissions and diagnostic
+regulations have become more stringent, the possibility of
+closed-loop combustion control has recently gained interest.
+In particular, the possibility of controlling the individual
+fuel injectors could help compensate for several sources
+of variability, such as the air and residual mass imbalance
+that occurs between cylinders and leads to differences in
+cylinder pressure traces, engine torque and emissions [2],
+[3]. However, in order to fully beneﬁt from closed-loop
+combustion control, it is necessary to obtain feedback from
+each engine cylinder to reconstruct the pressure trace [4].
+Ahmed Al-Durra is with the Department of Electrical Engineering, The
+Petroleum Institute, Abu Dhabi, UAE al-durra.1@osu.edu
+Lisa Fiorentini, Marcello Canova and Stephen Yurkovich are with the
+Center for Automotive Research, The Ohio State University, Columbus, OH,
+43212 USA fiorentini.2@osu.edu, canova.1@osu.edu,
+yurkovic@ece.osu.edu
+Processing cylinder pressure data for real-time applica-
+tions requires several operations to be performed in order
+to eliminate the noise and offset issues associated with the
+output of piezoelectric transducers [5]. Furthermore, due to
+cost issues, the use of a dedicated piezoelectric transducer for
+each engine cylinder is today limited to laboratory testing.
+For this reason, estimation techniques have been proposed
+to detect the in-cylinder pressure from other engine variables,
+such as the engine crankshaft speed ﬂuctuations [6], [7].
+Several methods have been proposed in the past, mainly for
+indicated torque, indicated mean effective pressure (IMEP)
+estimation and for combustion diagnostics, [6], [8]–[12].
+Although the results presented in literature appear accurate
+for reconstructing the cylinder pressure and indicated torque
+during the combustion event, it is very difﬁcult to design an
+estimator able to provide the cylinder pressure trace during
+an entire engine cycle (hence including the charge exchange
+phase), as well as to detect cylinder to cylinder pressure
+imbalances due to the air and EGR distribution.
+This work proposes a model-based estimation methodol-
+ogy to obtain the pressure trace in a multi-cylinder Diesel en-
+gine with real-time capabilities and minimal sensor require-
+ments. The outcome of this work is an algorithm intended for
+implementation into a closed-loop control system utilizing
+cylinder pressure feedback to compensate for imbalances due
+to air and EGR distribution across the cylinders.
+II. STRUCTURE OF ENGINE TORQUE DYNAMICS MODEL
+In its simplest form, the proposed estimation scheme
+utilizes the engine crankshaft speed sensor output to predict
+the pressure trace for each individual cylinder. Information
+from other sensors (such as the fuel mass ﬂow rate and intake
+manifold pressure) is also used in the estimation algorithm.
+Following the approach proposed in [5], a dynamic model
+of the in-cylinder processes based on the energy conservation
+principle is here applied to predict the cylinder pressure from
+intake valve closing to exhaust valve opening (IVC→EVO).
+This model is here extended to an inline four-cylinder engine
+by properly phasing the combustion events based on the
+ﬁring order of the engine and by approximating the pressure
+during the charge exchange phase of the cycle to a constant
+term. As a result, the pressures pcyl,1,..., pcyl,4 of the four
+2011 American Control Conference
+on O'Farrell Street, San Francisco, CA, USA
+June 29 - July 01, 2011
+978-1-4577-0079-8/11/$26.00 ©2011 AACC
+991
+cylinders are deﬁned by the following equation:
+⎧
+⎪
+⎪
+⎪
+⎨
+⎪
+⎪
+⎪
+⎩
+dpcyl,i
+dθi
++ γ
+Vcyl
+dVcyl
+dθi
+pcyl,i = γ −1
+Vcyl
+dQn
+dθi
+if θIVC ≤θi ≤θEVO
+pcyl,i = pIM
+otherwise
+(1)
+for i = 1,...,4, where the crank angle is deﬁned as:
+θ1
+=
+rem(θ,4π)
+Cylinder 1
+θ2
+=
+rem(θ +π,4π)
+Cylinder 2
+θ3
+=
+rem(θ +3π,4π)
+Cylinder 3
+θ4
+=
+rem(θ +2π,4π)
+Cylinder 4
+The apparent net heat release rate Qn in Equation (1)
+accounts for the fuel energy released during the combustion
+and the heat losses due to heat transfer to the cylinder walls
+[13]. This term is estimated through the deﬁnition of an
+apparent fuel burning rate, which is modeled as a linear
+combinations of Wiebe functions calibrated on steady-state
+experimental data [14].
+The cylinder pressure is used to calculate the instantaneous
+indicated torque Tind,i (θi), acting on the crank arm [5], [12],
+[15]. In addition to the indicated torque, the the reciprocating
+inertia torque Tm,i (θi,ω) and the engine friction torque
+Tfr (ω) must be modeled in order to determine the effective
+torque acting on the crank arm [13]. The above terms have
+been calculated as in [15].
+Finally, a simple, one-degree of freedom model of the the
+rotational dynamics of the crankshaft system is deﬁned by a
+torque balance, assuming the crankshaft as a rigid body:
+dω (θ)
+dθ
+=
+4
+∑
+i=1
+Tind,i (θi)+Tm,i (θi,ω)
+Jeqω
+
+−Tfr (ω)+Tload
+Jeqω
+(2)
+where Jeq is the equivalent inertia of the engine cranktrain.
+In order to facilitate the design of the estimator, a simpliﬁ-
+cation is introduced in the model. Speciﬁcally, it is assumed
+from here on that each torque pulse produced by a ﬁring
+event causes a distinct ﬂuctuations in crankshaft velocity
+and acceleration [16]–[18]. This allows one to decouple each
+cylinder pressure event which generates a torque contribution
+in Equation 2.
+The complete engine cylinder pressure and crankshaft
+dynamics model given by Equations (1)-(2) can be converted
+to state-space form to facilitate the estimator design. To
+this end, the model is slightly approximated by assuming
+the reciprocating inertia torque as acting with the engine
+load as an external torque, and its value calculated from
+the estimated engine speed. Such approximation is accepted
+for a light-duty Diesel engine, where the indicated torque is
+an order of magnitude higher than the reciprocating inertia
+torque [15]. Furthermore, let:
+• A11(ω) = −kω1 −kω2ω
+Jeqω
+• A12(θi,ω) = rAp f(θi)
+Jeqω
+• A22(θi,ω) = −
+γ
+Vcyl(θi)
+dVcyl(θi)
+dθi
+• N(θi) =
+γ −1
+Vcyl(θi)
+dQn(θi)
+dθ
+• H(θ,ω) = ∑4
+i=1
+Tm,i −rAppamb f(θi)−Tfr0 −Tload
+Jeqω
+These assumptions and notations lead to the following state
+representation form:
+⎡
+⎢⎢⎢⎣
+dω
+dθ
+dpcyl
+dθ
+⎤
+⎥⎥⎥⎦=
+ A11(ω)
+A12(θ,ω)
+0
+A22(θ,ω)
+ ω
+pcyl
+
++
+ H(θ,ω)
+N(θ)
+
+(3)
+where pcyl = [pcyl,1,..., pcyl,4]T and
+• A12(θ,ω) = [A12(θ1,ω),...,A12(θ4,ω)]
+• A22(θ,ω) = diag{A22(θ1,ω),...,A22(θ4,ω)}
+• N(θ) = diag{N(θ1),...,A22(θ4)}
+Finally, let x = [ω pT
+cyl]T and
+y = Cx =
+
+1
+0
+
+x = x1 = ω
+(4)
+In the above form, the model can be tested for observability,
+which is a necessary condition for the estimator design. To
+study the uniform observability of the system, the matrix
+Λ(θ) =
+
+C
+˙C +CA
+
+=
+
+1
+0
+A11
+A12
+
+(5)
+must be of full rank for each angular position. The system
+described by Equation 3 results uniformly observable except
+at top dead center (TDC) and bottom dead center (BDC),
+where the condition A12 = 0 occurs [5]. This is physically
+reasonable, as the cylinder pressure has no effects on the
+crankshaft speed when the piston is located at its extreme
+positions.
+III. DESIGN OF MULTI-CYLINDER PRESSURE
+ESTIMATOR
+The cylinder pressure estimator for a multi-cylinder engine
+is implemented using a sliding mode observer (SMO), based
+on the plant model in Equation (3), and assuming the only
+measured variable is the engine instantaneous crankshaft
+speed. The choice of the sliding mode observer is motivated
+by the inherent robustness properties as well as the ability
+to deal with model uncertainties.
+The state estimator is characterized by the following
+dynamics:
+d ˆy
+dθ = A11 ˆy+A12 ˆx2 +H(θ,ω)+V
+(6a)
+d ˆx2
+dθ =
+*0
+A21 ˆy+A22 ˆx2 +N(θ)+LV
+(6b)
+where Amn are the elements of matrix A in Equation 3, V =
+K sign(˜y), ˜x2 = x2 −ˆx2, and the sliding surface s = ˜y = y−ˆy.
+992
+The error model is given by:
+d ˜y
+dθ = A11 ˜y+A12 ˜x2 −K sign(˜y)
+(7a)
+d ˜x2
+dθ = A22 ˜x2 −LK sign(˜y)
+(7b)
+The sliding mode gain K should be assigned so that the
+sliding mode will be enforced (i.e. s˙s < 0). Therefore, K
+must be sufﬁciently large so that the sign of the right-hand
+side of Equation 7a is determined by the sign of the term
+(−K sign(˜y)).
+To mitigate the control chattering associated to the sliding
+mode observer, the SMO gain can be designed as a function
+of the crank angle K(θ) so that it can satisfy the sign
+condition but with a small margin, as shown in Figure 1 [7].
+Furthermore, a boundary layer is used for the sign function
+in a small neighborhood around the sliding surface (s = 0) to
+mitigate the chattering and smoothen the output by avoiding
+the discontinuity. The limits of the boundary layer must be
+chosen carefully so that the convergence rate of the error
+stays in a desirable range.
+180
+270
+360
+450
+540
+Crank Angle [deg]
+|A12 X Max(x2
+error
+)|
+SMO Gain
+Fig. 1.
+A piecewise continuous sliding mode observer gain K(θ).
+With the sliding mode enforced, the following can be
+obtained from the equivalent control principle:
+⇒˜y = 0
+⇒˙˜y = 0
+⇒Veq = A12 ˜x2
+(8a)
+⇒d ˜x2
+dθ = A22 ˜x2 −LA12 ˜x2 = (A22 −LA12)˜x2
+(8b)
+where Veq is the equivalent control, which can be interpreted
+as the average of the control signal.
+Finally, L(θ) is chosen such that (A22 −LA12) < 0, which
+will make ˜x2 converge asymptotically to zero. Figure 2 shows
+that, with an appropriate choice of L(θ), the difference A22−
+L(θ)A12 is always negative. Therefore, ˆx2 should converge
+to x2 = pcyl.
+IV. DESIGN OF AUGMENTED PRESSURE ESTIMATOR
+As designed, the SMO estimator predicts the cylinder
+pressure during the closed valve portion of the engine
+cycle. This design allows for predicting the engine IMEP
+and indicated torque, or for combustion diagnostics such
+as misﬁre detection [8]–[10], [12]. However, in order to
+obtain information on the in-cylinder charge composition,
+or detect imbalances in multi-cylinder engines, knowledge
+180
+270
+360
+450
+540
+Crank Angle [deg]
+A22
+A12 X OBL
+Fig. 2.
+A piecewise continuous observer gain L(θ).
+of the pressure trace during the charge exchange portion of
+the cycle is required.
+To overcome the issue of poor accuracy during the phases
+where two cylinder pressure traces overlap, the estimator is
+augmented by introducing an additional state that represents
+the torque produced by the prior cylinder in the sequence.
+To this end, deﬁne:
+• G = −k1 −k2ω
+Jω
+• g(θi) = rAp f(θi)
+Jω
+• M(θi) = −
+γ
+Vcyl(θi)
+dVcyl(θi)
+dθi
+• N(θi) =
+γ −1
+Vcyl(θi)
+dQn(θi)
+dθi
+• H(θ,ω)=∑
+Tm,i−rAppamb[f(θi)−f(θi−1)]−Tfr0−Tload
+Jeqω
+where i = 1,...,4 represents the ﬁring cylinder.
+The above assumptions render the model into the follow-
+ing state variable format:
+⎡
+⎢⎢⎢⎣
+dx1
+dθ
+dx2
+dθ
+dx3
+dθ
+⎤
+⎥⎥⎥⎦=
+⎡
+⎢⎢⎢⎣
+G
+f(θi−1)
+f(θi)
+0
+M(θi−1)
+0
+0
+0
+M(θi)
+⎤
+⎥⎥⎥⎦
+⎡
+⎢⎢⎢⎣
+x1
+x2
+x3
+⎤
+⎥⎥⎥⎦+
+⎡
+⎢⎢⎢⎣
+H(θi)
+N(θi−1)
+N(θi)
+⎤
+⎥⎥⎥⎦
+(9)
+where x1 = ω, x2 = pi−1, x3 = pi, and
+y = Cx =
+
+1
+0
+0
+
+x = x1 = ω
+(10)
+Applying the SMO design, the state estimation is charac-
+terized by the following dynamics:
+d ˆx1
+dθ = Gˆx1 +g(θi−1)ˆx2 +g(θi)ˆx3 +H(θi)+V
+(11a)
+d ˆx2
+dθ = M(θi−1)ˆx2 +N(θi−1)+L1V
+(11b)
+d ˆx3
+dθ = M(θi)ˆx3 +N(θi)+L2V
+(11c)
+where V = K sign(˜y), and the sliding surface s = ˜y = y−ˆy.
+993
+The error model is given by:
+d ˜x1
+dθ = G˜x1 +g(θi−1)˜x2 +g(θi)˜x3 −K sign(˜y)
+(12a)
+d ˜x2
+dθ = M(θi−1)˜x2 −L1K sign(˜y)
+(12b)
+d ˜x3
+dθ = M(θi)˜x3 −L2K sign(˜y)
+(12c)
+As shown above, the parameter K must be sufﬁciently
+large so that the sign condition is satisﬁed. Similarly, the
+chattering will be mitigated using the time varying gain and
+boundary layer techniques in a small range enough to avoid
+the convergence of error becoming sluggish.
+With the sliding mode enforced, the following conclusions
+can be drawn using the equivalent control principle:
+˜y = 0
+⇒˙˜y = 0
+⇒Veq = g(θi−1)˜x2 +g(θi)˜x3
+(13)
+Substituting the equivalence control into the error equa-
+tion, the following state variable error model is obtained:
+⎡
+⎣
+d ˜x2
+dθ
+d ˜x3
+dθ
+⎤
+⎦=
+ M(θi−1)−L1 f(θi−1)
+−L1 f(θi)
+−L2 f(Θi−1)
+M(θi)−L2 f(θi)
+ ˜x2
+˜x3
+
+(14)
+where L1(θ) and L2(θ) are chosen such that the error system
+matrix is negative deﬁnite.
+V. RESULTS AND ANALYSIS
+The designed pressure estimator was validated on ex-
+perimental data, obtained on a light-duty Diesel engine,
+whose main data are listed in Table I. Several steady-state
+engine operating conditions were acquired by varying the
+engine speed and torque. The crankshaft angular velocity was
+recorded with an optical transducer mounted on the engine
+harmonic dampener. The pressure trace of each individual
+cylinder was acquired for 70 consecutive engine cycles with
+a piezoelectric transducer. The signal was then low-pass
+ﬁltered and pegged using the intake manifold pressure in
+order to obtain the ﬁnal pressure measurement.
+Engine Type
+DI Diesel, inline four-cylinder
+Displacement
+2499 cm3
+Bore and Stroke
+92,94 mm
+Compression Ratio
+17.5:1
+Connecting Rod Length
+163 mm
+IVO,IVC,EVO,EVC
+706o,246o,473o,31o
+Max. Power
+105kW at 4000r/min
+Max. Torque
+320Nm at 2000r/min
+TABLE I
+TEST ENGINE SPECIFICATIONS.
+The validation study was conducted by comparing the
+estimator predictions to the measured in-cylinder pressure
+traces. Figure 3 shows the instantaneous crankshaft speed
+signal recorded from the engine at a nominally steady-state
+operating condition.
+Figure 4 compares the pressure traces predicted by the
+pressure estimator without augmentation during one engine
+2.19
+2.2
+2.21
+2.22
+2.23
+2.24
+2.25
+x 10
+4
+205.5
+206
+206.5
+207
+207.5
+208
+208.5
+209
+Crank Angle [deg]
+Instantaneous Crankshaft Speed [rad/sec]
+Fig. 3.
+Instantaneous engine crankshaft angular velocity signal during one
+engine cycle (Engine condition N = 2000r/min,T = 40Nm).
+cycle with the experimental values, for the operating con-
+dition corresponding to the input engine speed in Figure
+3. As expected, the estimator follows the pressure traces
+well during the closed-valve portion of the cycle, with
+the exception of a few points near top dead center. This
+behavior was explained by the singularity of the observability
+Grammian at this condition. The deviation in the estimated
+pressure trace could be mitigated by increasing the resolution
+of the speed signal.
+Furthermore, a deviation of the estimate from the experi-
+mental data is evident when two pressure traces overlap. This
+follows from the assumption of considering only one cylinder
+pressure producing torque at each window, which causes the
+estimator to assume the positive torque from the previous
+cylinder as an equivalent pressure drop in the current acting
+cylinder, resulting in an estimation error.
+2.19
+2.2
+2.21
+2.22
+2.23
+2.24
+2.25
+x 10
+4
+0
+10
+20
+30
+40
+50
+60
+Crank Angle [deg]
+Cylinder Pressure [bar]
+Fig. 4.
+Cylinder pressure traces predicted by the estimator without
+augmentation (dotted) and experimental data (solid) during one engine cycle.
+Left to right, the peaks represent cylinders 1, 3, 4, and 2 (Engine condition
+N = 2000r/min,T = 40Nm).
+994
+A set of indicative combustion metrics, namely the 50%
+burn rate location (CA50), the peak pressure (Pmax) and
+the IMEP, were calculated from the estimated pressure
+and compared to the experimental values. Figure 5 shows
+the value of the errors on the combustion metrics for 70
+consecutive engine cycles using the data from cylinder 1.
+The SMO accurately estimates CA50 and Pmax. On the other
+hand, a bias of 3% can be observed in the estimated IMEP,
+as a consequence of the drop in the estimated pressure
+during the intake and compression strokes, which makes the
+estimated IMEP slightly higher than the actual value. The
+results for the remaining cylinders are very similar, showing
+that the estimator is effective in capturing the differences in
+the pressure traces among the four cylinders.
+0
+10
+20
+30
+40
+50
+60
+70
+−4
+−2
+0
+2
+4
+CA50
+0
+10
+20
+30
+40
+50
+60
+70
+−4
+−2
+0
+2
+4
+Max Pressure [%]
+0
+10
+20
+30
+40
+50
+60
+70
+−2
+0
+2
+4
+6
+IMEP [%]
+cycle number
+Fig. 5.
+Cycle by cycle error on the combustion metrics calculated from the
+cylinder 1 output of the estimator without augmentation (Engine condition
+N = 2000r/min,T = 40Nm).
+Figure 6 shows the results of the augmented estimator
+in predicting the cylinder pressure traces during one engine
+cycle. Compared to Figure 4, an improved performance of
+the estimator in tracking the actual experimental pressure
+can now be observed. In particular, the deviation in the
+pressure estimation during the during the intake and early
+compression strokes is here completely eliminated by the
+introduction of the additional state to the model.
+The improved accuracy can also be noticed in the combus-
+tion metrics. As shown in Figure 7, the augmented estimator
+leads to a considerably improved prediction of the engine
+IMEP. Furthermore, a slight improvement in the prediction
+of the cylinder peak pressure can also be observed, as a
+consequence of a better prediction of the cylinder pressure
+trace during the early portion of the compression stroke.
+VI. CONCLUSIONS
+This paper describes the preliminary results of a model-
+based estimation methodology to reconstruct the individual
+2.19
+2.2
+2.21
+2.22
+2.23
+2.24
+2.25
+x 10
+4
+0
+10
+20
+30
+40
+50
+60
+Crank Angle [deg]
+Cylinder Pressure [bar]
+Fig. 6.
+Cylinder pressure traces predicted by the augmented estimator
+(dotted) and experimental data (solid) during one engine cycle. Left to
+right, the peaks represent cylinders 1, 3, 4, and 2 (Engine condition
+N = 2000r/min,T = 40Nm).
+0
+10
+20
+30
+40
+50
+60
+70
+−4
+−2
+0
+2
+4
+CA50
+0
+10
+20
+30
+40
+50
+60
+70
+−4
+−2
+0
+2
+4
+Max Pressure [%]
+0
+10
+20
+30
+40
+50
+60
+70
+−2
+0
+2
+4
+6
+IMEP [%]
+cycle number
+Fig. 7.
+Cycle by cycle error on the combustion metrics calculated from
+the cylinder 1 output of the augmented pressure estimator (Engine condition
+N = 2000r/min,T = 40Nm).
+in-cylinder pressure traces of a multi-cylinder engine, relying
+on the engine crankshaft speed sensor measurement. The
+objective is to characterize the cylinder to cylinder pressure
+imbalances that result from the distribution of air and EGR
+to the engine cylinders, with applications to cylinder-by-
+cylinder closed-loop combustion control.
+A sliding mode observer was initially designed based on
+a simple model characterizing the instantaneous indicated
+torque and crankshaft dynamics of a multi-cylinder Diesel
+engine during the closed-valve portion of the engine cycle. To
+improve the estimator accuracy when two cylinder pressure
+traces overlap, the sliding mode observer was augmented
+995
+with an additional state that represents the effects of the
+preceding cylinder. This allowed the estimator to provide the
+pressure traces of the engine during an entire cycle.
+The estimator was validated against experimental data.
+The results, in terms of cylinder pressure traces reconstruc-
+tion and calculated combustion metrics, show that the design
+is sufﬁciently accurate and robust to disturbances in the
+measured signals. In particular, the augmented estimator was
+able to remove the effect of the overlap to obtain an accurate
+pressure trace, which leads to an improved estimation of the
+pressure and IMEP during the entire engine cycle.
+VII. ACKNOWLEDGEMENTS
+The authors are grateful to General Motors Corporation,
+particularly to Dr. Y-Y Wang, for providing support to the
+work presented in this paper.
+REFERENCES
+[1] Guzzella, L., and Amstutz, A., 1998.
+“Control of Diesel Engine”.
+IEEE Control Systems Magazine, 18, pp. 53–71.
+[2] Maringanti, R., Midlam-Mohler, S., Fang, M., Chiara, F., and Canova,
+M., 2009.
+“Set-Point Generation Using Kernel-Based Methods for
+Closed-Loop Combustion Control of a CIDI Engine”. Proceedings of
+the 2009 Dynamic System and Control Conference.
+[3] Fang, M., Midlam-Mohler, S., Maringanti, R., Chiara, F., and Canova,
+M., 2009. “Optimal Performance of Cylinder-by-Cylinder and Fuel
+Bank Controllers for a CIDI Engine”. Proceedings of Dynamic Systems
+and Control Conference.
+[4] Powell, J., 1993.
+“Engine Control Using Cylinder Pressure: Past,
+Present, and Future”. Journal of Dynamic Systems, Measurement, and
+Control, 115, pp. 343–350.
+[5] Al-Durra, A., Canova, M., and Yurkovich, S., 2011.
+“A Model-
+Based Methodology for On-Line Estimation of Diesel Engine Cylinder
+Pressure”. J. Dyn. Sys., Meas., Control 133, 031005.
+[6] Rizzoni, G., 1989. “Estimate of Indicated Torque from Crankshaft
+Speed Fluctuations: A Model for the Dynamics of the IC Engine”.
+IEEE Transactions on Vehicular Technology, 38(3).
+[7] Wang, Y.-Y., Krishnaswami, V., and Rizzoni, G., 1997. “Event-Based
+Estimation of Indicated Torque for IC Engines Using Sliding-Mode
+Observers”. Control Engineering Practice, 5(8), pp. 1123–1129.
+[8] Chen, S., and Moskwa, J., 1997. “Application of Nonlinear Sliding-
+Mode Observers for Cylinder Pressure Reconstruction”.
+Control
+Engineering Practice, 14, pp. 1115–1121.
+[9] Connolly, F., and Rizzoni, G., 1994. “Real Time Estimation of Engine
+Torque for the Detection of Engine Misﬁres”. Journal of Dynamic
+Systems and Control, 116.
+[10] Lee, D., and Rizzoni, G., 1995. “Detection of Partial Misﬁre in IC
+Engines Using a Measurement of Crankshaft Angular Velocity”. SAE
+Paper(951070).
+[11] Guezennec, Y., and Gyan, P., 1999. “A Novel Approach to Real-Time
+Estimation of the Individual Cylinder Combustion Pressure for S.I.
+Engine Control”. SAE International Congress and Exposition(1999-
+01-0209).
+[12] Haskara, I., and Mianzo, L., 2001.
+“Real-Time Cylinder Pressure
+and Indicated Torque Estimation via Second Order Sliding Modes”.
+Proceedings of the American Control Conference.
+[13] Heywood, J. B., 1988. Internal Combustion Engine Fundamentals.
+McGraw-Hill.
+[14] Ponti, F., Serra, G., and Siviero, C., 2004.
+“A Phenomenological
+Combustion Model for Common Rail Multijet Diesel Engines”. Proc.
+of ASME ICE Fall Technical Conference.
+[15] Canova, M., Guezennec, Y., and Yurkovich, S., 2009. “On the Control
+of Engine Start/Stop Dynamics in a Hybrid Electric Vehicle”. Journal
+of Dynamic Systems Measurement and Control, 131(061005).
+[16] Hamedovic, H., Raichle, F., Breuninger, J., Fischer, W., Dieterle, W.,
+and Klenk, M., 2005. “IMEP-Estimation and In-Cylinder Pressure Re-
+construction for Multicylinder SI-Engine by Combined Precessing of
+Engine Speed and One Cylinder Pressure”. SAE World Congress(2005-
+01-0053).
+[17] Shiao, Y., and Moskwa, J., 1995. “Cylinder Pressure and Combustion
+Heat Release Estimation for SI Engine Diagnostics Using Nonlinear
+Sliding Observers”. IEEE Transactions on Control Systems Technol-
+ogy, 3, pp. 70–78.
+[18] Moro, D., Cavina, N., and Ponti, F., 2002. “In-cylinder pressure recon-
+struction based on instantaneous engine speed signal”. Transactions
+of the ASME, 123, pp. 220–225.
+996

@@ -1,0 +1,773 @@
+ABSTRACT
+The effect of the shape of the bowl on the combustion
+process and emissions of a Natural Gas - Diesel dual fuel
+engine is analyzed. The simulation of the dual fuel
+combustion is performed with a modified version of the
+KIVA3V code where diesel is treated as the main fuel and a
+further reacting specie is introduced as methane (CH4). The
+auto-ignition of the pilot is simulated with a modified version
+of the Shell model and the first stage of the combustion,
+related to the pilot burning process, is simulated with the
+Characteristic 
+Time 
+Combustion 
+model. 
+When 
+the
+temperature of the mixture reaches a certain threshold, a
+kernel of combustion is initialized. Until the kernel reaches a
+nominal radius the combustion of CH4 is prevented. The
+combustion of CH4 is simulated with a turbulent
+characteristic time too. Numerical models were chosen as a
+compromise between accuracy and computational time. The
+model has been validated with comparison to experimental
+data including in-cylinder pressure traces and tailpipe
+emissions. The numerical analysis has been performed with
+respect to a single cylinder diesel engine converted to dual
+fuel combustion. The results of the investigation showed that
+the conversion rate of CH4 can be increased by optimizing
+the bowl profile.
+INTRODUCTION
+Gaseous fuels like natural gas have been extensively
+investigated in literature [1, 2, 3, 4] as alternative to gasoline
+and diesel. Compressed Natural Gas (CNG) has higher octane
+number than gasoline, is more economical than traditional
+fossil fuels due to its low production cost, and reduces air
+pollution significantly [2]. Moreover, CNG contains neither
+lead nor benzene and greenhouse gases emission from
+combustion of CNG is about 25% lower than that of gasoline.
+Another important advantage of CNG is the high stability
+against knocking and the possibility to use higher
+compression ratios than gasoline engines thus increasing
+brake thermal efficiency and power [2]. On the other hand,
+the higher compression ratio causes greater NOx [2].
+Two different methods have been developed to convert a
+direct injection diesel engine into a natural gas engine, CNG
+dedicated and Dual Fuel. In the first case, ignition is
+performed with the use of a spark plug like in a gasoline
+engine while the dual-fuel mode uses compressed natural gas
+(CNG) as the primary fuel and small quantities of diesel
+pilot-fuel for ignition. Dual-fuel engines deriving from the
+conversion of conventional diesel engines usually operate un-
+throttled, with the load regulated by the admission of natural
+gas in the intake manifold. This introduce a further challenge
+in the numerical simulation of this systems i.e. the lean fuel
+combustion mode. Dual fuel engines have lower emissions of
+smoke and nitrogen oxides than conventional CI engines
+while maintaining their high thermal efficiencies. However,
+an increase of emissions of unburned hydrocarbons (HC) and
+carbon monoxide (CO) is obtained due to poor ignitability of
+the mixture [4].
+In the conversion of a diesel engine to dual fuel, it is
+important to keep the original components of the engine in
+order to reduce the conversion costs. However, some
+alterations have to be made to optimize the behavior of the
+engine when CNG is used. Direct Injection diesel engines use
+re-entrant bowl with a central protrusion in order to improve
+the air-fuel mixing and accelerate the combustion process. Of
+course, this kind of combustion chamber is not optimized for
+dual fuel combustion. The aim of the present investigation is
+to study the effect of the combustion chamber in the diesel-
+Effect of the Shape of the Combustion Chamber
+on Dual Fuel Combustion
+2013-24-0115
+Published
+09/08/2013
+Teresa Donateo, Luciano Strafella,  and  Domenico Laforgia
+Universita del Salento
+Copyright © 2013 SAE International
+doi:10.4271/2013-24-0115
+CNG conversion and optimizing its design with the help of a
+computer aided procedure already applied to several diesel
+engine configurations [5,6]. The procedure is based on the
+coupling of a multi-objective genetic algorithm with a multi-
+dimension simulation code able to accurately predict the
+combustion process. The effectiveness of the procedure
+results have been experimentally verified by building and
+testing the optimized combustion chamber [5]. The key issue
+is the validity of the simulation model used to simulate the
+combustion process.
+Dual fuel combustion is extremely complex because it
+involves two fuels with different characteristics which are
+simultaneously burned inside the cylinder. The heat release
+rate of dual fuel combustion is the results [7, 8] of three
+combustion stages: the combustion of the pilot injection of
+diesel fuel, the combustion of the gaseous fuel that is in the
+immediate vicinity of the ignition kernel and the pre-ignition
+activity and subsequent turbulent flame propagation.
+However, the relevance of the third stage depends on the
+amount of natural gas. In the case of very lean mixtures, no
+consistent flame propagation will take place from the ignition
+centers and combustion is mainly influenced by the pilot
+combustion. Only when the mixture becomes richer, a more
+regular propagation of the flame can be obtained.
+Detailed models of dual fuel combustion describe the
+complex chemical mechanisms that govern the oxidation
+process. The chemical kinetic schemes involve thousands of
+elementary reaction steps that are believed to take place in
+this kind of engines [10]. Since the rate coefficients are
+determined on the basis of fundamental chemical processes,
+there should be no need to adjust any of the rate coefficients
+of the schemes. However, detailed chemical models may
+need some calibration because the actual kinetic mechanisms
+for each combustion process are unknown. Moreover, the
+required computational time is still prohibitive in the case
+under examination. In fact, the coupling of the CFD model
+with the multi-objective genetic algorithm require hundreds
+of runs to be performed with respect to different combustion
+chamber profiles [5].
+Reitz et al. [9, 11] developed a new combustion model for
+dual fuel engine where flame propagation is simulated with
+the level set method of Peters [12]. According to the analysis
+of Reitz et al. [9, 11], ignition occurs in two different
+positions, namely in the vicinity of the nozzle injector and in
+the region of the combustion chamber where the spray
+impacts on the cylinder walls. Then, combustion extends
+through the remaining part of the chamber, but leaves
+unburned a large proportion of mixture next to the wall of the
+cylinder.
+The engine models presented in this paper have been chosen
+as a compromise between accuracy and computational load
+so to allow the execution of the multi-objective optimization
+in a reasonable time. The models have been validated through
+comparison to experimental data on a reference engine. In the
+present 
+investigation, 
+lean 
+mixtures 
+are 
+considered
+(0<ER<0.4) and dual fuel combustion is modeled with the
+characteristic time combustion model for both diesel and
+methane. The advanced models for ignition and spray already
+implemented in the KivaCREA code have been used [13, 14,
+15].
+Experimental Tests
+The engine considered in the present investigation (Table 1)
+is a single cylinder optical engine under test at the
+Department of Engineering for Innovation for the conversion
+from direct injection diesel combustion to dual fuel mode.
+A 
+comprehensive 
+experimental 
+campaign 
+with 
+the
+experimental layout of Figure 1 has been performed by
+Carlucci et al. [16] to investigate the effect of the intake valve
+configurations on the dual fuel combustion.
+Although the engine is provided with two intake ducts (see
+Figure 2), during the experiments only the swirl port was left
+open. The experimental data presented here include both in-
+cylinder pressure traces and emissions levels that have been
+used for the validation of the proposed combustion model.
+Table 1. Engine specification
+Figure 1. Experimental setup
+The gaseous fuel is introduced in the intake duct by means of
+an injector. The Department of Engineering for Innovation
+and in particular the Machinery Laboratory of University of
+Salento is equipped with a mixing system for gaseous fuels
+(Figure 3): this system allows to obtain a gaseous mixture of
+five species (CO2, CO, H2, N2, CH4) with the opportunity to
+decide their percentage; the pressure levels of the mixture so
+obtained can vary in the range 1-10 bar abs, is sent in an
+accumulation tank and from here to the ICE. In the present
+investigation pure Methane was considered.
+Figure 2. Intake manifold geometries and gaseous fuel
+injection positions
+Figure 3. Mixing system for gaseous fuels
+The electronic control of the system has been realized
+through FPGA managed by a LabView® Virtual Instrument.
+This system generates the signal that controls the solenoid
+valve by means of the acquisition of two signals from a
+sensor mounted on the fly-wheel and the other on the pulley
+fixed on the high pressure pump.In order to obtain a more
+homogeneous gaseous air-fuel mixture the injector has been
+positioned along the intake duct to a distance of about 40 cm
+from the cylinder axis (see Figure 2).In order to ensure that
+all the gaseous fuel enters the cylinder, gas injection has been
+modified advancing the angle corresponding to the start of
+injection while the angle corresponding to the end of the
+injection has been keep constant and equal to 195 deg BTDC.
+Specific tests were executed in order to validate the dual fuel
+combustion model. In all the tests, the mass of diesel fuel was
+kept constant to 5.0 mg by considering the same injection
+pressure (500bar) and the same energizing time (300 ms).
+The mass in the cylinder was also kept constant by setting the
+same pressure at Top Dead Center for all the tests without
+methane.
+A first set of tests (Table 2 -Case 1) was performed by
+changing the advance of the pilot and the engine speed with
+and without methane. The second set (Table 3 - Case 2) was
+obtained by changing only the mass of methane.
+Table 2. Case 1
+Table 3. Case 2
+The procedure for the dual fuel tests consists of the following
+steps:
+• set the gas pressure;
+• run the engine at the desired speed;
+• inject the Diesel fuel with fixed values of qpilot, prail,
+SOIpilot
+• inject the gaseous fuel (as previously explained) until the
+desired mass of methane is reached.
+The parameters of interest were acquired, as cylinder pressure
+and pollutant emission levels at the exhaust, by means of an
+AVL AMA i60 emission analyzer.
+Part-load condition and lean mixture have been considered.
+These operating modes were chosen for the difficulty to
+guarantee a satisfactory combustion process due to the low
+amount of methane burnt in this condition. Further
+investigation will take into account full load conditions where
+the main challenge is to achieve the same torque curve as the
+original diesel engine [17].
+ENGINE MODELING
+A complete fluid-dynamic analysis of the engine should
+include the intake phase and the closed-valve portion of the
+cycle. However, according to the simulation of the intake
+process performed by the authors with the Fluent code, it is
+possible to simplify the problem.
+Open-valves Simulation
+Figure 4 shows the distribution of methane (CH4) at 4°BTDC
+obtained with the Fluent code run with initial conditions
+found with the help of 1-D simulation code (AVL-Boost).
+Note that, even if the charge is stratified at the intake, the
+mixture is quite homogeneous at the end of the compression
+stroke before the injection of the diesel fuel. This result
+shows that the hypothesis of distribution uniformity of the
+gaseous fuel during the whole compression stroke can be
+accepted.
+Figure 4. Molar fraction of CH4 at 4° BTDC calculated
+with complete 3D simulation
+Figure 5. Swirl profile calculated with complete 3D
+simulation
+The results of the 3D complete simulations also include the
+swirl profile and the specification of the turbulent flow field
+obtained with the original piston (Figure 5). The swirl profile
+obtained with the Fluent simulation is represented by the
+dotted line. Note that it is not axis-symmetrical as assumed in
+the simulation of the closed-valve phase with the Kiva3v
+code where the flow field is set at the Intake Valve Closing
+with a parametric Bessel profile according to the value of a
+parameter named “swipro” (considered equal to 3.13 in
+Figure 5 as suggested in literature [18]). However, the
+assumption of symmetry can be important to reduce the
+computational time. Since diesel fuel is injected with a
+central five-hole injector, the simulation of a sector of 72°
+could be performed. To this, a modified profile (blue line) has
+been considered for the simulations with Kiva3CREA. The
+modified profile is still symmetrical but more similar to that
+obtained by the complete simulation. In particular, it captures
+the inversion of the flow rotation near to the cylinder walls.
+Complete simulations with Fluent have been performed also
+to assess the effect of changing the shape of the bowl on the
+flow field generated during the intake phase [22]. To this, the
+original bowl has been replaced with two arbitrary bowls
+named “Bowl 1” and “Bowl 2”. The results of the simulation
+are reported in Table 4. Note that the quantitative parameters
+and the qualitative distribution of the length scale of
+turbulence are only weakly affected by the shape of the
+piston.
+According to the results of this analysis, it is reasonable to
+limit the simulation to the closed-valve portion of the engine
+cycle if the goal is the optimization of the combustion process
+by changing the bowl design. Of course, complete 3D
+simulations would be very useful if the optimization would
+include the design of the intake manifolds or the valve lift
+profile.
+Table 4. Effect of the bowl profile on the flow field at
+Intake Valve Closing
+Closed-valves Simulation
+In the present work, a modified version of KIVA 3V code
+developed at the CREA Research Center of University of
+Salento is used for the close-valve portion of the engine
+cycle. This version, named Kiva3CREA, was obtained by
+eliminating the hypotheses of constant fuel density, the
+constant spray angle and by using an improved version of the
+Shell model [13,14] that was found to be able to predict the
+ignition delay both for very early and very delayed injections
+and large amount of EGR levels [13]. Some modifications
+were required to simulate the dual fuel combustion with the
+KivaCREA. Diesel was treated as the main fuel, thus the
+spray models for injection, breakup, collisions and
+evaporation were not modified. The second fuel, CH4, was
+treated as a component of the air at the Intake Valve Closing
+and its properties are calculated with the standard fuel
+subroutine of Kiva3v.
+Combustion and Emissions
+The auto-ignition of the pilot is simulated with the modified
+Shell mode and the first stage of the combustion, related to
+the pilot burning process, is simulated with the Characteristic
+Time Combustion model [14]. When the temperature of the
+mixture reaches 1150K, a kernel of combustion is initialized.
+Until the kernel reaches a nominal radius the combustion of
+CH4 is prevented. The critical radius is calculated as [11]:
+(1)
+Where k is the turbulence kinetic energy and ε is its
+dissipation rate. Once the kernel is formed, the CH4 in the
+proximity of the kernel burns with a conversion rate
+calculated according to a turbulent combustion time for
+methane. CH4 only burn if the mixture temperature is higher
+a threshold value Tth and the equivalence ratio is between the
+lean and rich limits for methane. The model includes two
+empirical parameters to match experimental data: the
+threshold temperature Tth and the turbulent time constant
+called C3.
+(2)
+A new species phi that does not participate in the combustion
+was also introduced to implement the Level Set model and its
+transport vectors were defined, but the simulations have
+shown that the species phi does not propagate within the
+chamber in correspondence of lean mixtures. Further
+investigation are needed. As far as emissions are concerned,
+the authors have not found in literature a model for dual fuel
+CNG engines that is able to accurately predict the emissions
+of CO and HC with acceptable computational times (e.g.
+without using detailed kinetic schemes). On the other hand,
+the main trends of NOx, and soot emissions can be captured
+with the standard models used for diesel engines [19]. In
+particular, NOx emissions can be predicted with the well
+known Zeldovich Mechanism [19]. In the case of HC, the
+emissions are evaluated numerically by considering the
+amount of CH4 fuel unburned at the end of the simulation.
+Thus, other causes of unburned hydrocarbons like the
+lubricant and are not taken into account. For this reason, the
+numerical value of unburned CH4 can be considered more as
+a measure of the completeness of combustion than of the
+actual HC emissions.
+Validation of the Model
+The validation was aimed at checking the capability of the
+simulation code in predicting the effect of increasing the
+mass of the methane and changing engine speed and pilot
+advance. The parameters of the spray, ignition and
+combustion models were set equal to the values of Table 5
+and kept constant for all operating conditions. The code was
+tested over the experimental tests of Case 1 and Case 2 where
+the engine speed and the pilot advance are changed. The
+experimental and numerical pressure traces are shown in
+Figure 6 and Figure 9. The experimental in-cylinder pressure
+traces are obtained by averaging 100 cycles for each case.
+However, the cycle-to-cycle dispersion was found to be very
+high in the tests with >15 mg of CH4.
+Table 5. Tuning of the model
+The ROHR plots represent the apparent net heat release, i.e.
+the difference between the gross ROHR and the heat transfer
+rate, calculated by the pressure p measured in the chamber
+and the swept volume V [19] as:
+(2)
+where θ is the crank angle and γ is the ratio between constant
+pressure and constant volume specific heat of the mixture.
+The variation of γ with mixture composition [20] and the
+contribution to net ROHR due to blow-by flows [21] are not
+taken into account.
+Case 1
+The experimental and numerical pressure traces are shown in
+Figure 6. The first row shows the tests with diesel fuel only
+while the second row describes the results obtained by adding
+15 mg of CH4 per cycle. Note that the numerical code
+predicts very well the pressure traces in the case of diesel
+only while underestimates the combustion rate and
+overestimate the ignition delay in the case with CH4, thus
+giving an higher peak of ROHR in the premixed-combustion
+phase of diesel pilot. As far as emissions are concerned, the
+main trend of NOx (Figure 7) and HC (Figure 8) are captured
+by the model.
+Figure 7. Emissions of NOx for case 1
+Figure 8. Emissions of HC for case 1
+Case 2
+The second set of tests (Table 3) considers the variation of
+mass per cycle of methane from 0 to 17.5mg while keeping
+the same engine speed (1500rpm) and pilot advance (7.5
+BTDC). The pressure and ROHR traces are reported in
+Figure 9. In this case the peak of ROHR due to pilot
+combustion in the experimental case is only slightly
+influenced by the mass of CH4 while in the numerical case,
+the peak increases from 0 mg to 15mg. Also, the predicted
+heat release during the propagation phase of the flame
+persists in the expansion strokes while experimentally the
+propagation slows down faster. However, the emission trends
+Figure 6. Traces of pressure and net ROHR for case 1 (
+ exp. press. 
+ num. press. 
+ exp. ROHR 
+ num. ROHR)
+are reasonably captured both in the case of NOx (Figure 10)
+and HC (Figure 11).
+Figure 10. Emissions of NOx for case 2
+Figure 11. Emissions of HC for case 2
+Discussion of the Validation
+The numerical code with the proposed models appears to
+capture with accuracy compatible with the use of semi-
+empirical models, the effect of changing the engine speed and
+pilot advance quite well. Improvements have to be considered
+to the modeling of the methane combustions, in particular to
+the propagation of the flame. To this, the mapping of the
+turbulent flow field predicted with Fluent into the KIVA3V
+code will be considered.
+The numerical values of emissions are quantitatively different
+from experimental data but the trends are well captured both
+Figure 9. Pressure and net ROHR traces for case 2 
+ exp. ROHR 
+ num. ROHR)
+in case 1 (changing engine speed and pilot advance) and case
+2 (changing mass of methane). All the test were performed
+without changing any value of the tuning parameters of Table
+5.
+The computational time required on the Linux cluster used
+for the validation (Beowulf system, master node Proliant
+DL180 G6, dual processor Xeon, 14 nodes Proliant DL160
+G6 dual processor Xeon) is about 11 minutes for each test.
+As a result, the model can be considered suitable for the
+combination with a multi-objective optimization of the bowl
+profile over different operating conditions.
+DESIGN PROCEDURE
+In a direct injection diesel, the combustion chamber includes
+the squish and the bowl regions shown in Figure 12. In order
+to reduce the compression ratio when converting the baseline
+engine from diesel to CNG combustion, it is possible to
+increase the volume of either the squish or the bowl.
+Figure 12. Nomenclature of the combustion chamber
+and its corresponding computational grid
+The effect on the combustion processes obtained in the two
+cases can be quite different. For this reason, the proposed
+conversion procedure takes into account three possibilities:
+• Changing only the squish volume;
+• Changing only the bowl volume;
+• Changing both squish and bowl volumes.
+Moreover, if an offset is present in the original piston
+between the cylinder and the bowl axis (see Figure 13), the
+new chamber could have:
+• No offset;
+• The same offset of the original piston;
+• Another offset value.
+A design procedure has been proposed in a previous
+investigation for the conversion of a diesel engine to methane
+combustion. The procedure [6] consists of 5 steps:
+STEP 1.  definition of a database of combustion chambers
+that can be obtained from the original piston (Manufacturable
+Combustion Chambers MCCs);
+STEP 2.  selection of the chambers that are able to resist to
+the mechanical and thermal stresses expected in the CNG
+combustion process (Feasible Manufacturable Combustion
+Chambers FMCCs);
+STEP 3.  selection of the initial and boundary conditions and
+simulation of the combustion process with a multi-dimension
+simulation code;
+STEP 4.  analysis of the detonation behavior of the selected
+chamber (if required);
+STEP 5.  choice of the optimized combination of chamber
+configuration and design parameters (Optimized, Feasible
+and Manufacturable Combustion Chambers).
+Steps 3 to 5 are performed in the framework of a multi-
+objective genetic algorithm optimization process. More
+details on the procedure and the design specification for
+either CNG-dedicated or dual fuel engines can be found in [6]
+Figure 13. Combustion chamber with offset
+A computational mesh is automatically generated for each
+combination of the parameters of Figure 14 is obtained with
+the Meshmaker tool. The mesh is represented by a sector of
+72° domain with an average resolution of 2 mm (since a five-
+hole centrally located injector is used for diesel and the CH4
+is assumed to be uniformly distributed in the combustion
+chamber at the Intake Valve Closing).
+The design method has been validated in a previous
+application to direct injection diesel engine [5, 24]. A Pareto
+optimal solution was selected after about 500 different
+combustion chamber designs.
+A piston with the selected bowl was built and tested at
+operating conditions similar to those used in the optimization.
+The experimental results showed that the optimized chamber
+was effective in reducing soot and HC emissions and the
+measured reduction of soot was higher than the calculated
+one (up to 50% for one of the operating condition). As far as
+NOx emissions are concerned, the experimental NOx-soot
+trade-off with increasing EGR agreed with the result of the
+optimization as shown in Figure 15 (see [24] for details).
+Figure 14. Parametric profile of the bowl
+Figure 15. Experimental validation of the optimization
+process for a direct injection diesel engine (trade-off with
+increasing EGR)
+EFFECT OF BOWL PROFILE
+In a previous investigation, the design procedure has been
+applied over the same engine but with different operating
+conditions and a previous version of the combustion model
+[6]. Three different shapes of the bowl were identified and
+compared. Their specifications are reported in Table 6.
+Table 6. Geometrical features of the selected chambers
+The geometrical specification refers to the parameterization
+of the bowl profile shown in Figure 14 and based on five
+geometrical features named Xe, Em, α, β ed r. All the
+chambers have the same compression ratio (CR) and the
+same squish height (SH); thus, the have the same bowl
+volume. Details about the numerical procedure that define the
+final shape of the bowl and a selection of combustion
+chamber profiles generated for the reference engine can be
+found in [6].The maximum diameter of the bowl (b) in Figure
+14 is not used for defining the bowl profile being the resultant
+of the choice of the bowl volume and the other parameters.
+However, it is used in the feasibility analysis.
+The chambers have been compared over the same operating
+conditions used for the validation of the model (except those
+without CH4). Figure 16 shows the results of the comparison
+in the case with 7 mg of Methane, 1500 rpm and pilot
+advance at 7.5 BTDC. Similar results were found in the other
+cases at 1500 rpm but are not reported here. Note that all the
+selected chambers guarantee an improvement of the
+combustion efficiency and consequently a reduction of HC
+emissions (see unburned CH4 at 50 ATDC) and a quite
+complete elimination of soot emission. Unfortunately, the
+emissions of NOx are quite higher than the baseline case. At
+1500 rpm, Chamber A is best in terms of CH4 conversion
+while chamber B and C guarantees the same levels of HC but
+with different levels of NOx.
+At 2000 rpm the behavior of the chambers is different.
+Chamber A and B are worse than baseline with respect to HC
+emissions (see unburned CH4 at 50 ATDC) while the best
+results are obtained with chamber B. Once again the
+emissions of NOx are worse than the baseline bowl for all the
+selected configurations.
+The goal of the investigation is to present the combustion
+model and to check if the modification of the bowl profile
+can have a significant role in the conversion of an engine
+from diesel to methane. Thus, a detailed analysis of the
+combustion processes in the three chambers is not presented.
+However, the authors tried to separate the effect of the bowl
+profile on the combustion process due to pilot from that of
+methane. To this, the rate of heat release produced separately
+by the two fuels has been reported in Figure 18. In the case
+with early pilot (7.5°BTDC), low speed (1500 rpm) and very
+lean mixture (ER=0.18), changing the chamber profile
+determines an early combustion of the pilot but the peak of
+ROHR from diesel is the same for all chambers and equal to
+the baseline case (see the first row of Figure 18). The
+combustion of CH4 starts early but the peak increases from
+baseline to chamber A.
+If the equivalent ratio of the mixture is increased (see second
+row of Figure 18 with15 mg, 1500 rpm, 7.5 BTDC), the
+chambers show the same behavior than in the previous case
+as far as the ROHR due to methane combustion. The peak of
+ROHR from diesel is not only anticipated but also the highest
+for chamber A. Chamber B and C generated a similar
+combustion of the pilot in this operating condition.
+If the pilot is delayed (2.5 BTDC) with the same value of
+methane mass (15 mg) and engine speed (1500 rpm), the
+behavior of the chambers remains quite the same but chamber
+C gives a higher peak of diesel ROHR than chamber B (third
+row of Figure 18).
+Finally, if the engine speed is increased (2000 rpm, 15 mg,
+7.5BTDC), the combustion of CH4 is consistent with the
+previous cases while the pilot ROHR obtained with each
+chamber is significantly different than in the case at 1500
+rpm.
+This analysis shows that, as far as the methane combustion is
+concerned, the optimization of the combustion chamber could
+be performed with respect to a single operating condition.
+On the contrary, the combustion of the pilot obtained with
+each chambers is different when changing the operating
+conditions of the engine.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FEASIBILITY AND COST ANALYSIS
+A correlation has been proposed to estimate the maximum
+temperature in the piston Tmax and the maximum stress σmax
+as a function of the chamber geometrical features:
+(3)
+(4)
+Figure 16. Comparison of the selected chambers (7 mg, 1500 rpm, 7.5 BTDC)
+Figure 17. Comparison of the selected chambers (15 mg, 2000 rpm, 2.5 BTDC)
+Figure 18. Effect of bowl profile on ROHR
+Figure 19. Mechanical analysis of the bowls
+Note that “b” is the results of an iterative procedure
+implemented in Meshmaker [5] that changes its value until
+the pre-fixed bowl volume is guaranteed with the values
+chosen for the five parameters named Xe, Em, α, β ed r. Thus,
+all the geometrical features of the bowl have an indirect effect
+on the strength of the piston through the “b” parameter.
+The values of the parameters K1, K2 and K3 have been
+obtained as a results of the application of the numerical
+procedure described in [23]. The empirical correlations have
+been applied to chamber A, B and C in Figure 19. To
+guarantee the mechanical resistance of the combustion
+chamber, threshold values of 315°C for Tmax and 15 MPa and
+σmax were considered. Note that chamber A and C satisfies
+the limit of 315 °C for the maximum temperature but not the
+threshold value for the pressure (15MPa). This means that the
+choice of these chambers would require the design of a new
+piston and a detailed analysis of the thermal and mechanical
+stresses. On the contrary, the adoption of chamber B could be
+done without much concern about the thermal stresses since
+both Tmax and Pmax are below the threshold values. This
+analysis was performed to stress the importance of taking into
+account the mechanical resistance of the piston in the
+optimization of the combustion bowl.
+None of the combustion chambers found in the optimization
+satisfied the manufacturability test, i.e. the possibility to
+obtain the new chamber from the original piston as illustrated
+in Figure 20 where the blue is the original profile of the
+piston while the magenta dotted line represents the maximum
+theoretical area that can be occupied by the bowl. The
+automated procedure implemented in Matlab colors the
+profile of the piston in green if it is all contained inside the
+original piston. Points that are not compatible with the
+original pistons are shown in red. Note that the profile of
+Chamber C (also shown in Figure 20) is quite similar to the
+original piston. A bowl with the main geometrical
+specification of Chamber C but with a slightly higher volume
+could be obtained by cutting the re-entrance of the original
+piston (and modifying the shape of the central protrusion).
+Figure 20. Profile of chamber C compared with the
+original piston (blue line)
+SUMMARY AND CONCLUSIONS
+A combustion model for dual fuel engines have been
+implemented in the Kiva3v code. The model is based on the
+characteristic time combustion model but it also can take into
+account the propagation of the flame with the level set
+method. The propagation of the flame, however, was not
+taken into account in the present investigation. Coupled with
+improved models for ignition and spray modeling, the dual
+fuel combustion model was found to reasonably capture the
+combustion processes and the emissions trend of a diesel-
+CH4 engine when changing pilot advance, engine speed and
+methane equivalence ratio.
+The model was used to analyze the effect of the bowl shape
+on dual fuel combustion. Three shapes of the bowl (all with
+the same volume) were compared with the original engine
+piston (baseline). The bowls were able to significanlty reduce
+the emissions of HC but with higher NOx emissions
+compared with the baseline combustion chamber. A multi-
+objective optimization will be performed as future
+development to look for a bowl able to reduce HC emissions
+without increasing NOx significantly. The bowls were also
+analyzed from a mechanical and conversion cost point of
+view.
+The results of the analysis that the effect of bowl on CH4
+combustion is not influenced by engine speed, pilot advance
+and equivalence ratio but pilot combustion does. Therefore,
+the multi-objective optimization will be performed with
+respect to different engine speeds and diesel/methane energy
+ratio. Finally, some of the bowl profile found with the method
+will be built and test for a further validation of both the
+combustion model and the optimization procedure.
+REFERENCES
+1.  Chandra R, Vijay V K, Subbarao P M V, Khura T K.,
+“Performance evaluation of a constant speed IC engine on
+CNG, methane enriched biogas and biogas”, Applied Energy;
+88:3969-77, 2011.
+2.  Von Mitzlaff K., Engines for biogas, Friedr. Vieweg &
+Sohn Verlagsgesellschaft GmbH, 1988.
+3.  Sen A K, Wang J, Huang Z., “Investigating the effect of
+hydrogen addition on cyclic variability in a natural gas spark
+ignition engine: Wavelet multiresolution analysis”, Applied
+Energy; 88:4860-6, 2011.
+4.  Namasivayam A M, Korakianitis T, Crookes R J, Bob-
+Manuel K D H, Olsen J., “Biodiesel, emulsified biodiesel and
+dimethyl ether as pilot fuels for natural gas fuelled engines”,
+Applied Energy, 87: 769-78, 2010.
+5.  Donateo T. Optimal Design of a Common Rail Diesel
+Engine Piston, in Expensive Optimization Problems. In:
+Tenne Y, Goh C-K, editors. Adaptation, Learning, and
+Optimization. Springer Verlag; 2010, 2: p.513-41.
+6.  Donateo T., Tornese F., Laforgia D, “Computer-aided
+conversion of an engine from diesel to methane”, Applied
+energy, in printing.
+7.  Karim G A., “Combustion in gas fueled compression:
+ignition engines of the dual fuel type”, Journal of
+Engineering for Gas Turbines and Power, 125:827-36, 2003.
+8.  Karim, G., Liu, Z., and Jones, W., “Exhaust Emissions
+from Dual Fuel Engines at Light Load,” SAE Technical
+Paper 932822, 1993, doi:10.4271/932822.
+9.  Singh, S., Kong, S., Reitz, R., Krishnan, S. et al.,
+“Modeling and Experiments of Dual-Fuel Engine
+Combustion and Emissions,” SAE Technical Paper
+2004-01-0092, 2004, doi:10.4271/2004-01-0092.
+10.  Cordiner, S., Rocco, V., Scarcelli, R., Gambino, M. et
+al., “Experiments and Multi-Dimensional Simulation of Dual-
+Fuel Diesel/Natural Gas Engines,” SAE Technical Paper
+2007-24-0124, 2007, doi:10.4271/2007-24-0124.
+11.  Tan Z, Reitz R D., “An ignition and combustion model
+based on the level-set method for spark ignition engine
+multidimensional modeling”, Combustion and Flame,
+145:1-15, 2006.
+12.  Peters N. “Turbulent Combustion”, Cambridge
+University Press; 2000.
+13.  de Risi, A., Zurlo, S., Donateo, T., and Laforgia, D., “3D
+Simulations And Experimental Validation of High EGR -
+PHCCI Combustion,” SAE Technical Paper 2007-24-0037,
+2007, doi:10.4271/2007-24-0037.
+14.  de Risi A, Donateo T, Laforgia D. “Theoretical
+Investigation on Variable Density Sprays”, Atomization and
+Sprays, 12:329-58, 2002.
+15.  de Risi A, Donateo T, Laforgia D., “CFD Modeling of
+pilot injection and EGR in DI diesel engines”, Proceedings of
+the 2004 Fall Technical Conference of the ASME Internal
+Combustion Engine Division, 251-63, 2004.
+16.  Carlucci A P, Laforgia D, Saracino R, Toto G.,
+“Combustion and emission control in diesel-methane dual
+fuel engines: The effects of methane supply method
+combined with variable in-cylinder charge bulk motion”,
+Energy Conversion and Management 52:3004-17, 2011.
+17.  Fu G, Zhao C, Liu B, Zhang F, Pang S, Li Y.
+“Investigation on the combustion characteristics of a diesel
+engine fueled with diesel-azides blends”, Applied Energy,
+91:98-102, 2012.
+18.  de Risi A, Donateo T, Laforgia D., “Theoretical
+investigation on the influence of physical parameters on soot
+and NOx engine emissions”, Proceedings of the 2001 Spring
+Technical Conference of the ASME Internal Combustion
+Engine Division; 29 April - 2 May 2001; 36: 53-64, 2001.
+19.  Heywood J B., Internal Combustion Engine
+Fundamentals, New York, McGraw-Hill, 1988.
+20.  Wu H-W, Wu Z-Y,. Using Taguchi method on
+combustion performance of a diesel engine with diesel/
+biodiesel blend and port-inducting H2. Applied Energy
+104:362, 2013;
+21.  Mavropoulos G C., “Experimental study of the
+interactions between long and short-term unsteady heat
+transfer responses on the in-cylinder and exhaust manifold
+diesel engine surfaces”, Applied Energy; 88: 867-81, 2011.
+22.  Carrozza R, Donateo T, Laforgia D., “Effect of the
+combustion chamber profile on the in-cylinder flow field in a
+direction injection diesel engine”, Proceedings of 61°
+Congresso Nazionale A.T.I., Perugia 12-15 September 2006.
+23.  de Risi A, Donateo T, Nobile F, Vadacca G, Vedruccio
+D. “Fluid Dynamics and Structural Behavior of Optimized
+Combustion Chamber Profiles”, International Conference on
+CAE and Computational Technologies for Industry, 16-17
+October 2008, Mestre Italy, 2008.
+24.  de Risi A, Donateo T, Laforgia D., “An Innovative
+Methodology to Improve the Design and the Performance of
+Direct Injection Diesel Engines”, International Journal of
+Engine Research, 5:425-41, 2004.
+DEFINITIONS/ABBREVIATIONS
+ATDC - After Top Dead Center
+BTDC - Before Top Dead Center
+CI - Compression Ignition
+CFD - Computational Fluid Dynamics
+CNG - Compressed Natural Gas
+CR - Compression ratio
+ER - Equivalence Ratio
+IVC - Intake Valve Closing
+ROHR - Rate of Heat Release
+The Engineering Meetings Board has approved this paper for publication. It has
+successfully completed SAE's peer review process under the supervision of the session
+organizer. This process requires a minimum of three (3) reviews by industry experts.
+All rights reserved. No part of this publication may be reproduced, stored in a
+retrieval system, or transmitted, in any form or by any means, electronic, mechanical,
+photocopying, recording, or otherwise, without the prior written permission of SAE.
+ISSN 0148-7191
+Positions and opinions advanced in this paper are those of the author(s) and not
+necessarily those of SAE. The author is solely responsible for the content of the paper.
+SAE Customer Service:
+Tel: 877-606-7323 (inside USA and Canada)
+Tel: 724-776-4970 (outside USA)
+Fax: 724-776-0790
+Email: CustomerService@sae.org
+SAE Web Address: http://www.sae.org
+Printed in USA

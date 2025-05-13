@@ -1,0 +1,678 @@
+Design of an active exhaust attenuating valve for internal
+combustion engines.
+R. Boonen, P. Sas
+KULeuven, Department of Mechanical Engineering,
+Celestijnenlaan 300 B, B-3001, Heverlee, Belgium
+e-mail: rene.boonen@mech.kuleuven.ac.be
+Abstract
+An active silencer to attenuate internal combustion engine exhaust noise is developed. The silencer consists of
+an electrically controlled valve connected to a buffer volume. The pulsating ﬂow from the engine is buffered
+in the volume and the valve resistance is continuously controlled such that only the mean ﬂow passes to the
+atmosphere. This ﬂow is free of ﬂuctuations and consequently free of sound. The design of the active silencer
+is carried out using electrical analog circuits. First, the interaction between the active silencer and the engine
+will be studied using an analog circuit including the combustion engine and a linearized active silencer. Then, a
+detailed valve model is built in a separate electrical analog circuit. It includes the electrical, the mechanical and
+the ﬂow-dynamic properties of the actuator valve. The actuator valve concept is then simulated, from which
+a prototype can be constructed. The active silencer has been tested on a cold engine simulator. This device
+generates realistic exhaust noise with the associated gas ﬂow using compressed air. The silencer can attenuate
+pulsations from engines at very low revolution speed, without passive elements preconnected between the
+engine and the active silencer. This is not possible using loudspeaker based active silencers.
+1
+Introduction
+The internal combustion engine has found its way into
+a broad spectrum of applications, wherein transporta-
+tion has far the largest share. The success of the in-
+ternal combustion engine has also created problems
+associated with it, such as air pollution and environ-
+mental noise.
+During the past decades, legislation has come for-
+ward which stringently reduces air pollutants, green-
+house gases and noise emission.
+Today, the noise
+emission limits are set to 74 dBA for cars and 80 dBA
+for heavy vehicles [1]. For cars, the emission of CO2
+is limited to 190 g/km (EU III-directive), and will
+be further reduced to 170 g/km (EU IV) in 2003 and
+140 g/km (EU V) in 2008. Although these directives
+are not related at ﬁrst sight, they do have their impli-
+cations on the exhaust system development. It will be
+necessary to develop exhaust systems with minimum
+back pressure to the engine, to maximize engine efﬁ-
+ciency and this without loss of noise attenuation per-
+formance. A way out to this problem is to develop
+active exhaust systems.
+Much research on active noise cancellation in
+ducts is carried out in the recent years and numer-
+ous patents have been generated. Loudspeaker sys-
+tems are successfully applied and commercial avail-
+able in ventilation channels [2]. Loudspeaker systems
+are also developed for stationary diesel engines, for
+example by Detroit Diesel Corporation [3] and the
+KEBA AISTM-system. For cars, active loudspeaker
+systems are developed for six or more cylinder en-
+gines [4]. For four-cylinder engines, loudspeaker sys-
+tems suffer from problems as the low sound generat-
+ing efﬁciency and reliability in the extreme conditions
+of an engine exhaust.
+Applying a controllable valve in the exhaust duct
+is a more robust concept. The restricting element of
+the valve can be small and rigidly constructed. It can
+be exposed to the exhaust gas directly.
+The resistance of the valve is continuously vari-
+able by applying an external signal. It is assumed that
+the valve is purely resistive, it isn’t capable to store
+energy from the gas ﬂow. As consequence of the gas
+ﬂow, the valve generates a pressure drop over it. Ac-
+tive noise cancellation is achieved, when the volume
+velocity behind the valve is kept constant.
+In ﬁgure 1, the ﬁrst graph demonstrates how the
+sound pressure inﬂuences the ﬂuid ﬂow via the valve
+resistance characteristic. The second graph demon-
+strates how the opposite ﬂuctuating ﬂow is generated
+from the mean pressure drop over the valve by vary-
+33
+Figure 1:
+Basic principle using a valve to control
+the ﬂow through a duct. The symbols in the ﬁgure
+mean: Q0 is mean ﬂuid ﬂow, q is ﬂow ﬂuctuation,
+p0 is mean pressure, ∆p is the pressure ﬂuctuation,
+K is the valve constant which expresses the relation
+between pressure and ﬂow, k is the variation on K.
+ing the valve resistance. Superposition of both effects
+results in a constant volume ﬂow, shown in the third
+graph.
+Based on this concept, a noise attenuating de-
+vice is developed by LEA (University of Poitiers,
+France) [5, 6], using a butterﬂy valve, and is tested
+on an internal combustion engine test rig. The test
+rig consists of an 1350 cm3 four cylinder car engine
+equipped with an hydraulic brake. In the exhaust line
+two passive mufﬂers are preconnected to the actuator
+valve. As control strategy, a x-LMS feedforward and
+a feedback control system are tested. In the feedfor-
+ward case, the three ﬁrst harmonics are reduced by
+20 to 30 dB. In the feedback case, the ﬁrst harmonic
+is reduced by 20 dB, the second harmonic by 5 dB.
+The research work presented in this paper aims to
+develop an active exhaust silencer based on a valve
+concept, capable to handle the acoustical power of the
+pressure pulsation of the engine exhaust without the
+requirement to install silencers prior to the active de-
+vice. The generated back pressure must be low. After
+the active device, a small passive silencer can be in-
+stalled to attenuate the high frequency noise.
+2
+Development of the active si-
+lencer
+2.1
+Principle
+Theoretically, inserting an active valve in the ﬂow of
+a volume velocity source, like a combustion engine,
+has no effect if no capacitive elements are present be-
+tween the source and the valve. The volume velocity
+source forces a prescribed ﬂow through the exhaust
+system, whatever the pressure becomes in it. Capac-
+itive elements can be introduced using ducts or vol-
+umes. When the valve is inserted in an exhaust duct
+of an engine without additional capacitive elements,
+a high back pressure will be generated or only a low
+noise attenuation will result.
+The most simple system able to control of a vol-
+ume velocity source using a controlled valve is pre-
+sented in ﬁgure 2. The engine acts as a volume veloc-
+ity source. At the exhaust, a volume with capacity C
+and a regulating valve with variable resistance R(t)
+is connected. The translation of the physical system
+results in the electrical equivalent circuit [7] shown in
+ﬁgure 2 below. The impedance Z is the impedance of
+the tail pipe and the open air radiator. The ﬂow from
+the source will split over the capacitor C and the time
+dependent resistor R(t). Now, the controller has to
+vary the valve resistance during time, such that the
+ﬂuctuating ﬂow through the resistance becomes zero.
+Figure 2: The most simple scheme of an active con-
+trol valve on an internal combustion engine, approxi-
+mated as a volume velocity source.
+The variation of the valve resistance is obtained
+from the electrical equivalent circuit:
+UB = 1
+C
+Z
+ICd t = IR (R(t) + Z)
+(1)
+Differentiating (1) results in:
+IC
+1
+C = d IR
+d t R(t) + IR
+d R(t)
+d t
++ Z d IR
+d t
+(2)
+Constant ﬂow through the valve opening implies:
+d IR
+d t = 0
+(3)
+The controller has to vary the valve resistance during
+time according:
+R(t) = R0 +
+Z
+1
+C
+IC
+IR
+d t
+(4)
+34
+PROCEEDINGS OF ISMA2002 - VOLUME I
+wherein R0 is the initial valve resistance. The same
+result can be achieved by a controller which mini-
+mizes the pressure UZ after the valve:
+d UZ
+d t
+= Z d IR
+d t = 0
+(5)
+This simple consideration has two important conse-
+quences. First, by balancing the volume-valve com-
+bination, it is always possible to control the ﬂow of
+any volume velocity source. Second, the resistance
+R0 can be chosen freely with the only restriction that
+the resistance R(t) remains always positive. The re-
+sistance R0 can be optimized to obtain minimum back
+pressure to the engine, resulting in a higher engine ef-
+ﬁciency.
+2.2
+Electrical equivalent model for the
+engine and the silencer
+The simple model, presented in ﬁgure 2, looks not
+very realistic for an engine exhaust system, therefore
+the model will be expanded. The volume velocity
+source will be replaced by an engine model, and a
+duct is connected between the engine and the active
+silencer. A tail pipe is connected behind the silencer.
+The resulting circuit is presented in ﬁgure 3.
+The left part of the circuit is the engine model.
+The four variable capacitors represent the four en-
+gine cylinders, who’s volume varies sinusoidal be-
+tween maximum and dead volume. The upper set of
+switch-resistors represent the intake valves, the lower
+set the exhaust valves. The switches are actuated in
+the same sequence as the cam shaft operates the en-
+gine valves. The four short transmission lines behind
+the exhaust valve resistors represent the four exhaust
+conduits between the cylinder ports and the exhaust
+manifold junction. The intake side is connected to a
+voltage source UB representing the atmospheric pres-
+sure and equals 100 kV. The combustion is simulated
+by charging the cylinder capacitor by a pulsing cur-
+rent source parallel over the capacitor. The charge
+time point corresponds to the ignition time point.
+The right part represents the active exhaust sys-
+tem. The silencer is connected to the engine via the
+duct represented by the transmission line T. The ca-
+pacitor C represents the buffer volume and the vari-
+able resistor R(t) the control valve. The transmis-
+sion line Tt represents the tail pipe and the resistor-
+inductor combination Ra and La corresponds to the
+spherical radiator impedance. In simulation, a collo-
+cated feedback controller conducts the control valve
+Figure 3:
+Electrical analog circuit for an internal
+combustion engine equipped with an active noise con-
+trol valve.
+resistance. This controller is only needed to deter-
+mine the active silencer properties. In practice, other
+control strategies must be applied to handle the time
+delay between the valve action and its effect in the
+error sensor.
+In principle, the back pressure to the engine can be
+set to any desired value by choosing the appropriate
+buffer volume capacitor C. In practice, it will result in
+a compromise between available space for the active
+silencer and acceptable back pressure.
+Figure 4: Simulated indicator diagram from the cir-
+cuit presented in ﬁgure 3.
+2.3
+Simulation results
+In the electrical circuit of ﬁgure 3, the engine param-
+eters of a 2000 cm3 engine are introduced. The ducts
+have a diameter of 60 mm. The duct between the en-
+gine and the silencer is 500 mm long, the tail pipe
+700 mm long. The back pressure is set to 10 kPa,
+resulting in a buffer volume of 12 dm3. The initial
+actuator valve resistance is set to 200 kΩ(1 Ω=
+1 Pa s/m3). The feedback control gain is set to 108.
+In ﬁgure 4, the simulated engine indicator diagram
+ACTIVE NOISE CONTROL
+35
+Figure 5: Simulated tail pipe absolute pressure. The
+controller starts at 0.2 s.
+is presented. Actually, this diagram has no physical
+signiﬁcance, it is an ”isothermal” simulation. Only
+the pressure at the exhaust valve opening time point
+must have its correct value, which is deterministic for
+the exhaust noise. The exhaust pressure in the tail
+pipe is displayed in ﬁgure 5. The controller is acti-
+vated at 0.2 s. Activating the controller at 0.2 s does
+not effect the gas ﬂow from the engine, as indicated
+in ﬁgure 6. The engine behaves as a volume velocity
+source. In ﬁgure 7, the absolute back pressure to the
+engine is displayed. After the transient switching on
+the controller, the back pressure returns to the preset-
+ted value of 10 kPa.
+Figure 6:
+Simulated gas ﬂow through the exhaust
+manifold.
+2.4
+Electrical analog model for the ac-
+tuator valve.
+The construction of the actuator valve is presented in
+ﬁgure 8. The valve has a conical head and is driven
+by a voice coil in a permanent magnetic circuit. The
+Figure 7:
+Simulated absolute back pressure to the
+engine. The controller starts at 0.2 s.
+valve has a monotonic increasing valve resistance in
+terms of head displacement. This resistance is pre-
+sented in ﬁgure 10. This is an advantage compared to
+for example a butterﬂy valve, which has a sign rever-
+sal in its resistance characteristic derivative in terms
+of position angle.
+Figure 8:
+Scheme of the voice coil driven actuator
+valve.
+Figure 9:
+Detailed electrical analog circuit for the
+voice coil driven actuator valve presented in ﬁgure 10.
+Figure 9 presents the electrical analog circuit of
+the actuator valve presented in ﬁgure 8. This circuit
+is typical for the construction of this valve. Another
+construction, for instance a butterﬂy valve, would re-
+sult in a totally different electrical analog circuit.
+36
+PROCEEDINGS OF ISMA2002 - VOLUME I
+The left side of the circuit consists of the voice coil
+electrical resistance R. The transformer Km trans-
+forms the current into force by the voice coil in the
+permanent magnetic circuit. The force acts on the
+mass m of the moving valve body, i.e. the motor coil
+and the valve head. The valve body is suspended by a
+suspension spring k and is damped by the damper d.
+The damper can be constructed as a short circuit coil
+in the magnetic circuit. As mechanical ”voltage”, the
+valve head velocity ˙x appears. The valve head ﬂow
+resistance is dependent to the valve head displace-
+ment, consequently, the velocity has to be integrated.
+The integration is carried out by the controlled cur-
+rent source g, which current is proportional with the
+applied velocity. The integrated value appears as a
+voltage over the capacitor with value 1. The volt-
+age source xmax corresponds to the distance between
+the zero position and the closed position of the valve.
+The zero position is the position where the suspen-
+sion spring exerts zero force. By determination of the
+value xmax, the pretensioning of the suspension spring
+can be taken into account. When the closing position
+is reached, the switch sw closes and the integration
+stops. The resistor of 1 M smoothes the current when
+the switch is activated, but its value is sufﬁciently high
+to not distort the integration. The pressure source b
+uses the displacement x and the volume velocity Φ
+measured in Vs to produce the pressure drop ∆p [8].
+The resulting pressure exercises a force on the valve
+head through the oriﬁce area S. This force is fed back
+to the mechanical circuit through the gyrator 1/S.
+2.5
+Simulation results.
+To simulate the valve, the buffer volume capacitor
+has to be connected parallel over the input nodes at
+the ﬂow-dynamic side. The engine as source will be
+replaced by a volume velocity source, to save com-
+putational effort. The volume velocity source is also
+connected in parallel over the ﬂow input nodes. The
+source generates the ﬂow corresponding to the engine
+exhaust, which is presented in ﬁgure 6. At the electri-
+cal nodes, a proportional feedback controller is con-
+nected. This controller generates an electrical current
+proportional to the alternating part of the ﬂow Vs as
+error signal.
+The values of the components of the actuator valve
+are: R = 4 Ω, Km = 16 N/A, m = 96 · 10−3 kg, k =
+12 · 103 N/m, d = 125 Ns/m and S = 916 · 10−6 m2.
+Figure 11 presents the simulated gas ﬂow through
+the tail pipe. The controller is activated at 2 s. The
+non-linear valve resistance does not inﬂuence the at-
+Figure 10:
+Actuator valve ﬂow resistance in terms
+of valve head displacement for a conical head valve.
+The valve is closed at 10 mm.
+Figure 11:
+Attenuation of the gas ﬂow pulsation
+through the tail pipe. The controller starts at 2 s.
+tenuation performance signiﬁcantly. The valve head
+displacement is presented in ﬁgure 12. The distance
+between the head and the oriﬁce is about 1.5 mm and
+the stroke in control amounts 0.4mm. These are valu-
+able data to design the voice coil and the magnet.
+The current through the voice coil is displayed in
+ﬁgure 13. The associated electrical power consump-
+tion of the valve amounts about 78 W to compensate
+the back pressure. The attenuation of the sound it-
+self requires only 5 W power. If necessary, the con-
+stant force as consequence of the DC-current of 4.4 A
+can be compensated by placing a pretensioned spring
+parallel to the motor. This reduces the 78 W power
+consumption to theoretically zero.
+ACTIVE NOISE CONTROL
+37
+Figure 12:
+Actuator valve head displacement. The
+controller starts at 2 s.
+Figure 13: Current through the actuator valve voice
+coil. The controller starts at 2 s.
+3
+Experimental results
+3.1
+Cold engine simulator
+The development of the active silencer has been car-
+ried out on a cold engine simulator. This device pro-
+duces realistic exhaust noise using compressed air
+and permits to carry out acoustical and ﬂuid-dynamic
+experiments with new concepts of exhaust systems
+without taking precautions against the hot and corro-
+sive environment when directly testing on an opera-
+tional internal combustion engine.
+The exhaust noise of an engine is generated dur-
+ing the exhaust cycle. When the exhaust valve opens,
+the remaining pressure at the end of the expansion cy-
+cle discharges to the exhaust manifold pressure level.
+Then, the remaining gas is scavenged by the piston.
+The terms ”blowdown” and ”displacement” are used
+to denote these two phases of the exhaust cycle. The
+blowdown phase is typically very short in duration
+compared to the whole exhaust cycle and is respon-
+Figure 14: Working scheme of the cold engine sim-
+ulator.
+Figure 15: The cold engine simulator equipped with
+the active exhaust silencer.
+sible for the exhaust noise.
+Typically, the exhaust
+cycle starts 40o to 60o crank angle before the bot-
+tom dead center. Until about the bottom dead center,
+the gases are discharged due to the pressure differ-
+ence between the cylinder and the exhaust manifold.
+The cylinder volume change due to the piston move-
+ment around the bottom dead center remains small,
+about 10% to 15%. Therefore, the blowdown pulse
+can be approximated as a discharge of a constant vol-
+ume over the exhaust valve resistance. The displace-
+ment phase happens mainly at atmospheric level and
+ends when the exhaust valve closes at the top dead
+center. The noise generated during the displacement
+phase can be neglected compared to the blowdown
+phase. The cold engine simulator will generate only
+the blowdown pressure pulse.
+3.2
+Working principle.
+The working scheme of the cold engine simulator is
+presented in ﬁgure 14. It consists of a regular engine
+block whose pistons are ﬁxed at the bottom dead cen-
+ter. The intake collector is connected via an expan-
+sion vessel and a pressure reduction valve to a con-
+38
+PROCEEDINGS OF ISMA2002 - VOLUME I
+ventional pressurized air supply network. The sup-
+plied pressure corresponds to the remaining pressure
+at the end of the engine expansion cycle at the time
+point when the exhaust valve opens. The cam mecha-
+nism of the engine block is driven by an electric mo-
+tor, which speed can be set on a frequency converter.
+During the inlet stroke, the cylinder charges at the in-
+take manifold pressure level. When the outlet valve
+opens, the cylinder discharges and the pressure pulse
+enters the exhaust. This discharge corresponds to the
+blowdown phase of an engine exhaust cycle. These
+pressure pulses from the simulator exhibit a similar
+behaviour as these of a regular combustion engine.
+The presented cold engine simulator in the research
+work has been built using a Volkwagen 1600 cm3 en-
+gine.
+Figure 16:
+Exhaust acoustical impedances of the
+cold engine simulator.
+Figure 17: Exhaust acoustical impedances of the op-
+erational combustion engine.
+To prove that the acoustical characteristics of the
+cold engine simulator are equivalent to these of a reg-
+ular engine, their acoustical impedance and source
+spectrum are compared. At the same time, the electri-
+Figure 18: Exhaust acoustical impedances simulated
+from the engine part of the electrical analog circuit in
+ﬁgure 3 (linearized).
+Figure 19: Exhaust acoustical source spectrum of the
+cold engine simulator.
+Figure 20: Exhaust acoustical source spectrum of an
+operational combustion engine.
+cal analog circuits will also be validated by determin-
+ing their acoustical impedance and source spectrum.
+ACTIVE NOISE CONTROL
+39
+Figure 21: Exhaust acoustical source spectrum of the
+simulation of the engine part of the electrical analog
+circuit in ﬁgure 3.
+3.3
+Exhaust acoustical impedance.
+Figures 17 and 16 present the acoustical impedances
+at the engine exhaust manifold.
+The acoustical
+impedances are measured according to the ISO/FDIS
+10543-2 procedure [9]. The method uses the trans-
+fer function between two microphones positioned in
+a waveguide connected to the engine exhaust. From
+this transfer function, the acoustic impedance is cal-
+culated after deriving the reﬂection coefﬁcient from
+the measured transfer function. To prevent the engine
+to disturb the reﬂection coefﬁcient during the mea-
+surements, the engine is run with an electric motor
+and the intake is sealed.
+Figure 16 presents the acoustical impedance of the
+cold engine simulator, running at 1000 rpm.
+The
+reference impedance (0 dB) corresponds to the con-
+nected waveguide characteristic impedance Z0
+=
+347 kΩ. The center measurement presents the acous-
+tical impedance of an 747 cm3 renault engine.
+In
+ﬁgure 18, the simulated acoustical impedance of the
+engine part in the linearized electrical circuit of ﬁg-
+ure 3 is presented. The linearization implies: (1) the
+switches are not operated, i.e. three switches are al-
+ways open and one is closed; (2) the cylinders capac-
+itors are ﬁxed to the volume with the piston in the
+middle position.
+The three impedance curves are similar.
+The
+−20 dB/decade line below the ﬁrst antiresonance is
+determined by the cylinder and the manifold volume.
+The antiresonance itself is the Helmholtz resonance
+between the cylinder volume and the air mass in the
+manifold. All the subsequent resonances are inter-
+nal manifold resonances. The phase of the acoustical
+impedance ranges between −90o and +90o, i.e. the
+impedance ranges between capacitive and inductive.
+3.4
+Exhaust source spectrum.
+Figure 19 and 20 present the sound pressure spectra
+measured inside the duct behind the manifold junc-
+tion on the cold engine simulator and the operational
+combustion engine respectively. Figure 21 presents
+the sound pressure spectrum simulated at the mani-
+fold junction of the electrical analog circuit presented
+in ﬁgure 3. The absolute level is dependent on the
+cylinder pressure at the exhaust valve opening time
+point and the cylinder volume, the exhaust valve re-
+sistance and the connected impedance. The pressure
+level decays −20 dB/decade at high frequencies.
+Concluding, the cold engine simulator exhibits the
+same behaviour as a real engine with regard to acous-
+tic phenomena.
+3.5
+Active silencer.
+An active silencer, based on the actuator valve de-
+veloped during the previous section, has been built
+and tested. A photograph of the cold engine simula-
+tor equipped with the active silencer is shown in ﬁg-
+ure 14.
+Two types of controllers are tested, namely a x-
+LMS adaptive feedforward controller and a feedback
+controller. The feedforward controller was commer-
+cially available at Digisonix. The feedback controller
+was developed during the research project and imple-
+mented in analog electronic hardware. Reference [10]
+provides more information how the feedback con-
+troller is developed. The bandwidth of the feedback
+controller is about 100 Hz. Both control algorithms
+have similar performance. The presented results are
+obtained using feedback control.
+3.6
+Attenuating performance.
+Figure 22 presents the tail pipe pressure during ac-
+tivating the controller. The cylinder pressure at the
+exhaust opening time point equals 400 kPa. The con-
+troller is activated at 0.6 s. The low frequency pul-
+sation is removed from the exhaust noise. The tail
+pipe pressure spectrum with controller off and on is
+presented in ﬁgure 23. The silencer is capable to at-
+tenuate very low frequency noise, which is extremely
+difﬁcult using loudspeaker systems.
+The pulsation
+frequency is 10 Hz (300 rpm). The SPL reduction
+between control on an off amounts 13 dBL and after
+A-weighting 4 dBA.
+40
+PROCEEDINGS OF ISMA2002 - VOLUME I
+Figure 22: Tail pipe pressure during time. The feed-
+back controller is activated at 0.6 s.
+Figure 23: Acoustic tail pipe pressure spectrum with
+feedback control on and off.
+3.7
+Electrical power consumption.
+In ﬁgure 24, the measurement of the current through
+the voice coil of the actuator valve while activating
+the controller is displayed. The controller starts at
+0.15 s. The voice coil resistance is 3.6 Ω. The as-
+sociated power consumption of the valve to attenuate
+the exhaust noise amounts about 4.5 W, which is con-
+sistent with the simulated power.
+3.8
+Back pressure to the engine
+In ﬁgure 25, the mean back pressure to the engine
+exhaust is displayed. The back pressure is measured
+using a piezo-resistive sensor and is ﬁltered through a
+1 Hz second order low pass ﬁlter. The back pressure
+is decreased from 17 kPa to 2 kPa during the measure-
+ment by decreasing the DC-current through the actua-
+tor valve voice coil. Meanwhile, the acoustic pressure
+level in the tail pipe is monitored.
+As equation (4) states, the sound attenuating per-
+Figure 24: Current through the actuator valve voice
+coil. The controller starts at 0.15 s.
+formance is independent of the back pressure, as long
+the initial resistance R0 remains high enough such the
+total resistance R(t) does not become negative. By
+decreasing the DC–current through the actuator valve
+voice coil, the initial resistance decreases. As soon
+the back pressure sinks below 10 kPa, R(t) should be-
+come negative, which is physically not possible. As
+result, the noise attenuation capability decreases dra-
+matically. The back pressure value of 10 kPa corre-
+sponds the value whereupon the silencer was devel-
+oped.
+In principle, the back pressure can be min-
+imized for each engine operation point by an ad-
+ditional controller to obtain maximum engine efﬁ-
+ciency.
+Figure 25:
+Tail pipe rms-pressure while the engine
+back pressure sinks from 17 kPa until 2 kPa.
+4
+Conclusion
+An active silencer for internal combustion engine ex-
+haust noise is developed, using an actuator valve in
+ACTIVE NOISE CONTROL
+41
+conjunction with a buffer volume, capable to atten-
+uate the low frequency components of the exhaust
+noise without preconnected passive silencers.
+This research project leads to the following con-
+clusions:
+1. Any exhaust noise from a reciprocating engine
+can be attenuated by balancing the buffer volume
+and the engine back pressure. The back pressure
+can be chosen and then the buffer volume can be
+determined (or vice versa).
+2. An electrical analog circuit is proposed to simu-
+late the active silencer on a combustion engine.
+The acoustic impedance and the source spectrum
+of the modeled engine are similar to these of a
+real engine.
+3. The actuator valve itself is simulated using an
+electrical analog circuit, wherein the electri-
+cal, mechanical and ﬂuid-dynamic properties are
+modeled in detail. From these results, a proto-
+type actuator valve can be constructed.
+4. A cold engine simulator is developed which gen-
+erates realistic exhaust noise using compressed
+air.
+It allows acoustic and ﬂuid-dynamic ex-
+periments on new concepts of exhaust systems,
+without taking precautions against hot corrosive
+gases. The exhaust acoustic impedance and the
+source spectrum are similar to a real engine.
+5. The active silencer has been built and tested on
+the cold engine simulator. The noise attenuation
+amounts 13 dBL (4 dBA), consuming about 5 W
+electrical power and causing 10 kPa back pres-
+sure to the engine.
+References
+[1] U. Sandberg, Noise emissions of road vehicles:
+effect of regulations. , Noise News International,
+147-206, September 2001.
+[2] J. Tichy, Applications for active control of sound
+and vibration , Noise News International, 73-86,
+June 1996.
+[3] Everett Arnold and Warner Frazer, Development
+of a prototype active mufﬂer for the Detroit diesel
+6V-92 TA industrial engine , SAE-paper 911045
+[4] C. Garabedian and G. Zintel, Active noise con-
+trol: Dream or reality for passenger cars? , SAE-
+paper 2001-01-0003
+[5] L. Hardouin, P. Micheau, J. Tartarin and J. Lau-
+monier, An anti-pulsatory device used as an ac-
+tive noise control system in a duct , acta acustica,
+vol 1,189-198,1993
+[6] S. Renault, P. Micheau, J. Tartarin and M. Be-
+sombes,
+Industrial applications of active con-
+trol of pulsed ﬂow , Proc. of the Internoise 96
+Conference,1061-1066,1996
+[7] L. L. Beranek, Acoustics , Mc Graw-Hill, 1954
+[8] I. E. Idel’cik,
+Memento des pertes de charge ,
+Editions Eyrolles, 1986
+[9] ISO/FDIS 10534-2, Determination of sound ab-
+sorption coefﬁcient and impedance in impedance
+tubes , International Organisation for Standard-
+ization, Case postale 56, CH-1211 Gen`eve 20,
+1998.
+[10] R. Boonen and P. Sas, Development of an ac-
+tive exhaust silencer for internal combustion en-
+gines using feedback control. , SAE-paper 1999-
+01-1844
+[11] J. B. Heywood, Internal combustion engine fun-
+damentals , McGraw-Hill,1988
+42
+PROCEEDINGS OF ISMA2002 - VOLUME I

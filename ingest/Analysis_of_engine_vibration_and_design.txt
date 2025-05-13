@@ -1,0 +1,1151 @@
+Available online at www.sciencedirect.com
+International Journal of Mechanical Sciences 45 (2003) 1391–1410
+Analysis of engine vibration and design of an applicable
+diagnosing approach
+Zunmin Genga;∗, Jin Chena, J. Barry Hullb
+aState Key Lab on Vibration, Shock & Noise, Shanghai Jiao Tong University, Shanghai 200030,
+People’s Republic of China
+bSchool of Engineering, The Nottingham Trent University, Burton Street, Nottingham NG1 4BU, UK
+Received 10 August 2001; received in revised form 20 September 2003; accepted 27 September 2003
+Abstract
+Impact excitations, time-varying transfer properties and non-stationary random response are typical charac-
+teristics of the reciprocating engine vibration. These characteristics of the engine vibration make its dynamic
+analysis and signature extraction much more di2cult than that of the rotational machinery. Focused on this
+problem, this paper summarizes a thorough investigation into it from theoretical analysis to an applicable
+diagnosing approach design, as well as experimental veri6cation. Firstly, the impact excitations inside the
+engine are reasonably analyzed and classi6ed. Based upon this, an analytic model of the non-stationary en-
+gine vibration considering its time-varying transfer properties is developed and discussed in details on its
+time domain and time-frequency domain characteristics. Directed by these discussions, an applicable signa-
+ture extracting and diagnosing approach is designed. This includes the software-based synchronization for
+pretreatment of the non-stationary vibration signal, wavelet packet based multi-band 6ltering techniques for
+signature extraction of the impact excitations, as well as the auto-regressive model based pseudo-Wigner-Ville
+distribution for an integrated time-frequency signature extraction of the engine vibration. These methodologies
+are successfully used in the practical diagnosis of the 6190ZLC diesel engine.
+? 2003 Elsevier Ltd. All rights reserved.
+Keywords: Non-stationary vibration; Machine condition monitoring; Reciprocating engine
+1. Introduction
+It is well known that the traditional periodogram-based vibration analysis and signature extraction
+is an e?ective approach for the dynamic analysis and fault diagnosis of the rotational machinery.
+∗Corresponding author. 74A Dennis Avenue, Beeston, Nottingham NG9 2PR, UK. Tel.: +44-0115-9257137;
+fax: +44-0161-2004646.
+E-mail address: zunmin.geng@ntu.ac.uk (Z. Geng).
+0020-7403/$ - see front matter ? 2003 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.ijmecsci.2003.09.012
+1392
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+Nomenclature
+ar(n)
+Gaussian-distributed white noise
+C
+wave celerity of the inner-cylinder gas oscillation
+D
+diameter of the engine cylinder
+Db
+diameter of the bearing’s rolling elements.
+Df
+diameter of the cavitation bubbles.
+Duf(ri; t)
+mean square deviation of the vibration response uf(ri; t)
+Eb
+elasticity modulus of the bearing
+E(V 2
+n )
+mean square deviation of Vn
+f0(T0)
+fundamental frequency (time-period) in a crankshaft revolution
+f1
+oscillating frequency of the computer
+f2
+synchronizing frequency in a crankshaft revolution
+fs = Nsf0
+sampling frequency in a synchronized crankshaft revolution
+fc(ri; t)
+stationary component of the inner-cylinder excitation f(ri; t)
+fn(ri; t)
+Gaussian component of f(ri; t)
+fb
+resonant frequency of the ball elements in the bearing
+G, H
+orthogonal conjugate high-pass di?erential 6lter and low-pass
+average 6lter of the wavelet-packet.
+h(ri; t)
+generalized time-varying transfer routes of the engine vibration
+H(ri; !); H(ri; t; !)
+stationary and time-varying Fourier Transforms of h(ri; t)
+H ∗(ri; !); H ∗(ri; t; !)
+conjugates of H(ri; !) and H(ri; t; !)
+muf; muv; mVn; mw; mwfn
+mean-values of uf(ri; t), uv(ri; t), Vn, w(rj; n) and fn(ri; t)
+Ms = f1=fs = f2=f0
+6nal sampling frequency ratio
+Ns
+sampling number in a crankshaft revolution
+N(rj; t)
+counting variable of the Poisson process
+n(t)
+random noise with Gaussian distribution
+P
+indicating power expression of the diesel engine
+Pf
+breaking pressure of the cavitation bubbles
+PT
+probability density functions of T(n)
+PR
+probability density functions of R(n)
+p
+the inner-cylinder gas pressure
+r and ’
+parameters (radius and angle) of the polar coordinate
+R
+radius of the ball elements
+Ru(t1; t2)
+stationary
+auto-correlation
+function
+of
+the
+non-stationary
+vibration u(t)
+Ruf(ri; t; ), Ruv(rj; t; ),
+time-varying auto-correlation function of uf(ri; t), uv(rj; t),
+Rw(rj; t; ), R!(rj; t; )
+w(rj; n) and !(rj; t)
+ri
+generalized transfer distance to the vibration sensor
+ru(n; k)
+time-varying variable of PWVD
+rua(n; k)
+analytic transform of ru(n; k)
+Sf(ri; !); Sfn(ri; !)
+power spectrum of f(ri; t) and fn(ri; t)
+Suf(ri; !1; !2); Sf(ri; !1; !2)
+bi-spectrum of uf(ri; t) and f(ri; t)
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1393
+u(t)
+non-stationary vibration response of the reciprocating engine
+Vn
+impact intensity of the Poisson process, n = 1; 2; : : : ; N(rj; t)
+v(rj; t)
+impact-induced random vibration response
+Wuf(ri; t; !), Wf(ri; t; !),
+continuous Wigner-Ville transform of uf(ri; t), f(ri; t), uv(ri; t),
+Wuv(ri; t; !), Ww(ri; t; !),
+w(rj; n) and !(rj; t)
+W!(ri; t; !)
+W C
+u (n; !)
+Clessen de6nition based PWVD of u(n)
+W P
+u (n; !)
+Peyrin de6nition based PWVD of u(n)
+W AR
+u (n; !)
+AR-PWVD of u(n)
+∗
+t
+convolution along the time axis
+w(rj; n)
+impact waveform of the Poisson process, n = 1; 2; : : : ; N(rj; t)
+!
+angular frequency
+'2
+ar(n)
+residual error of the Gaussian-distributed white noise ar(n)
+(
+eigenvalue of the standing-wave equation (1).
+(n;j
+the jth eigenvalue corresponding to m solutions of the n order
+Bessel equation (2) (j = 1; : : : ; m)
+(R or T(n)
+auto-correlation matrix of the time-varying variable rua(n; k)
+)b
+material density of the ball bearing
+)f
+Kuid density
+n
+impact
+happening
+time
+of
+the
+Poisson
+process,
+n =
+1; 2; : : : ; N(rj; t)
+’r(n; i)
+auto-regressive coe2cient of the M order AR (n; M) model
+However, until recently, few publications have shown successful applications of this approach to
+the reciprocating engine, although many e?orts have been made to it world widely [1–6]. Practical
+achievement in this area seems to be more di2cult than commonly anticipated in spite of its important
+signi6cance both in academia and industry.
+Previous work [3–6] has highlighted the important inKuences of impact excitations, time-varying
+transfer properties and non-stationary random response in engine vibration. Consequently, these make
+the measured engine casing vibration signal so complex that no signi6cant signature can be directly
+extracted from its frequency spectrum. As a preliminary investigation focused on the rigorous sig-
+nature extraction of the inner-engine dynamic process and an applicable design of corresponding
+diagnostic strategies, this paper details a thorough investigation into it from theoretical deduction to
+applicable approach design, as well as experimental veri6cation. The validity of these approaches is
+veri6ed by comparison with experimental results from the 6190ZLC diesel engine.
+2. Impact excitations inside the engine
+A basic correlation amongst the inner-cylinder combustion pressure, indicting power expression and
+surface vibration of the 6190ZLC diesel engine (Jinan engine Ltd., China. Mainly for marine use,
+4 strokes, 6 cylinders vertically, cylinder diameters: 190 mm, maximum speed: 3000 rev=min) is
+1394
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+  (a)  Inner-cylinder air pressure p (mpa) 
+  (b)  Showing power expression P ( kw ) 
+        (c)   Surface vibration response v ( m/s2)
+  0           72                    Crank angle (degree)                             720 
+  I 
+ II 
+ III 
+     0               75                               Crank angle (degree)                                           720 
+Fig. 1. Basic dynamical correlation in a diesel engine: (a) by 5 Hz high-pass 6ltering, (b) shadow region: the e?ective
+power and (c) impact segments from: I-Combustion excitation, II-Outlet valve, III-Inlet valve.
+shown in Fig. 1 [2–4]. Actually, it expresses a mutually dependent connection amongst the inner-
+cylinder working process, relative transmission relationship of the mechanical systems and the
+dynamic performance of the engine. Obviously, the inner-cylinder working process dominates the
+dynamic performance of the engine and results in the largest and most signi6cant impact excitation
+in it (the combustion impact). At the same time, the widespread mechanical and Kuid impacts inside
+the engine form its high-frequency excitations. It is necessary to make an in-depth discussion to
+them and their inKuences to the engine vibration response.
+2.1. The unstable combustion excitation
+As derived in Ref. [3], the inner-cylinder high-pressure gas oscillation (segment I in Fig. 1) inside
+a diesel engine can be theoretically describe as a standing-wave equation in polar coordinates as
+follows:
+1
+r
+9
+9r
+
+r 9p
+9r
+
++ 1
+r2
+92p
+9’2 + (2p = 0:
+(1)
+Taking the cylinder as a rigid constraint to the inner-cylinder gas oscillation, the boundary condition
+of Eq. (1) around the cylinder diameter D can be supposed as: 9p
+9r |r=D=2 = 0.
+Supposing its generalized solution as p(r; ’)=∞
+n=1 pn cos(n’+*n), then Eq. (1) can be rewritten
+as:
+d2pn
+dr2 + 1
+r
+dpn
+dr +
+
+(2 −n2
+r2
+
+pn = 0
+(2)
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1395
+Eq. (2) is a typical Bessel equation [7,8]. By Laplace transformation it is possible to show that
+pn = Jn(kpr);
+p(r; ’) =
+∞
+
+n=1
+Jn(kpr) cos(n’ + *n):
+(3)
+Introducing the above-mentioned boundary condition into Eq. (3) to con6rm the eigenvalue (, the
+frequency composition of the inner-cylinder gas oscillation can be expressed as
+fj = 1
+,
+C
+D (n;j;
+(j = 1; 2; : : : ; m):
+(4)
+In a theoretical sense, Eq. (4) expresses a de6nite description on the inner-cylinder gas oscillation.
+Firstly, m kinds of solution of the n order Bessel equation (2) explain the existence of unstable
+inner-cylinder gas oscillation with m kinds of frequency composition (single or complex). Secondly,
+it is shown that the actual oscillating waveform and frequency composition are mainly inKuenced
+by the structural and/or working conditions of the engine, such as the geometrical parameters of the
+cylinder (dimension and clearance, etc.), the inner-cylinder oil and gas pressure and their mixing and
+combustion status etc. This explains that the inner-cylinder gas pressure with an unstable frequency
+composition is a major cause of the unstable working performance and non-stationary dynamic
+process of the engine, and it is also directly related to the structural and working conditions of the
+engine.
+2.2. The modulated high-frequency excitations
+In Fig. 1, there is also some high frequency impulses (segments II and III) modulated by the
+relative transmission relationship of the sub-mechanical systems in the engine. These high frequency
+impulses can be classi6ed into two groups:
+2.2.1. Fluid impact induced noise
+Fluid impacts are important sources of the high-frequency vibration and noise inside the engine.
+Taking the often-encountered cavitation noise for example, its spectrum has a wide-band distribution
+with a maximum frequency equal to (shown in Fig. 2) [1]
+f = (1=2Df)
+
+Pf=)f
+(Hz):
+(5)
+More generally, Lyon [2] theoretically and experimentally explained the mechanism of the Kuid
+impact induced high-frequency noise and, based up on this, Geng [3] proved that the Kuid impact
+induced high-frequency noise in the reciprocating engine possesses a permanent frequency composi-
+tion which does not vary with changes of the engine operating condition.
+2.2.2. Mechanical impacts
+The widely existing transient impacts caused by the inner-engine mechanical systems tend to be
+periodic at the operating rate of the engine when they cause high-frequency resonant responses of the
+impacting mechanical parts. Examples of this are the impacts caused by the inlet and outlet valves
+(shown in Fig. 1: segments II and III, also discussed in details in Ref. [2]) as well as the fatigue
+eroding of ball bearings, etc. The high-frequency resonant response possesses permanent frequency
+compositions and successively transforms itself as one part of the engine vibration.
+1396
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+Cavitation Noise 
+      9dB/Octave
+                                                                        6dB/Octave 
+f
+f
+f
+P
+D
+f
+ρ
+/
+)
+2
+/
+1(
+=
+                                                       Frequency (Hz) 
+Fig. 2. Fluid impact induced high-frequency noise.
+Fig. 3 shows a successful diagnosing result of the ball bearing fatigue eroding impact, from the
+timing system of 6190ZLC diesel engine. This result is obtained by applying the high-frequency
+vibro-acoustic sensoring and high-pass 6ltering techniques [4]. Its maximum frequency component
+accords with the resonant frequency of the ball elements in the bearing and hence veri6es the above
+description [1]
+f = (0:848=Db)
+
+Eb=2)b
+(Hz):
+(6)
+In summary, the transient response caused by the inner-engine mechanical and Kuid impacts possesses
+permanent frequency compositions. At the same time, the unstable inner-cylinder working process and
+relative transmission relationship of the inner-engine mechanical systems irregularly modulate them.
+In consequence, the practically measured vibration signal on the engine casing expresses as a series
+of impulses modulated along the time history. Academically, this kind of time-varying impulsive
+signal can be classi6ed as a speci6c type of point process, which is frequently encountered in the
+biomedical signal processing [1,2]. Based upon the de6nition of point process, each impulse can
+be distinguished from the others by its impact intensity Vn (location and manner of the impacts)
+and occurrence time n (relative transmission relationship of the inner-engine mechanical systems).
+Considering the irregularity of the engine combustion process as well as the randomicity of the
+impact occurrence, the impact counting variable N(rj; t) is taken into account. Also considering the
+di?erent type of impacts, respectively, caused by mechanical or Kuid impact, the waveform of every
+impact arrived at time n is introduced, denoted as w(rj; n). Then a global expression of the impact
+vibration response can be generally expressed as
+v(rj; t) =
+N(rj;t)
+
+n=1
+Vn w(rj; n) =
+N(rj;t)
+
+n=1
+Vn w(rj; t) × -(t −n):
+(7)
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1397
+Fig. 3. The fatigue eroding impacts in a ball bearing.
+3. Random vibration response of the engine
+Based on the above discussions and considering the time-varying transfer routes h(ri; t) from the
+inner-engine excitations f(ri; t) (i=1; 2; : : : ; m), as well as the inKuences of inner-engine vibro-impact
+v(rj; t) (j = 1; 2; : : : ; l), to its global surface vibration response, the non-stationary vibration response
+of the reciprocating engine can be expressed as
+u(t) =
+m
+
+i=1
+uf(ri; t) +
+l
+
+j=1
+uv(rj; t) + n(t)
+=
+m
+
+i=1
+ t
+0
+h(ri; t −) f(ri; ) d +
+l
+
+j=1
+v(rj; t) + n(t):
+(8)
+Eq. (8) describes the overall vibration response of an engine. uf(ri; t) presents a major component
+of it, caused by the inner-cylinder working process, which dominates the non-stationary vibration
+property of the whole engine; while the component uv(rj; t) is mainly caused by the mechanical and
+1398
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+Kuid impact, acts as a typical time-varying point process and contributes to the overall vibration
+response. Further derivation of Eq. (8) is essential for an in-depth understanding of the engine
+vibration.
+3.1. Time-domain analysis
+3.1.1. The non-stationary response uf(ri; t)
+According to Eq. (4), as a general expression, f(ri; t) can be set as a product of a stationary
+component fc(ri; t) with a Gaussian random component fn(ri; t) : f(ri; t) = fc(ri; t) fn(ri; t). Then
+the mean-value of the vibration response uf(ri; t) can be derived as
+muf(ri; t) = mfn
+ t
+0
+h(ri; t −) fc(ri; ) d:
+(9)
+Its time-varying auto-correlation function can be derived as
+Ruf(ri; t; ) =
+ t+=2
+0
+ t−=2
+0
+h
+
+ri; t + 
+2 −t1
+	
+h
+
+ri; t −
+2 −t2
+	
+f(ri; t1) f(ri; t2) dt1 dt2
+=
+ ∞
+−∞
+Sfn(ri; !) I
+
+ri; t + 
+2; !
+	
+I∗
+ri; t −
+2; !
+	
+d!;
+(10)
+where I(ri; t; !) =
+
+ t
+0 h(ri; t −) fc(ri; ) ej!r d.
+Setting  = 0, then the mean square function of uf(ri; t) is
+Duf(ri; t) =
+ ∞
+−∞
+Sfn(ri; !) |I(ri; t; !)|2 d!:
+(11)
+The above derivations clearly demonstrate the co-modulating e?ect of f(ri; t) and h(ri; t) on the
+non-stationary vibration uf(ri; t). Firstly, the time-varying mean-value shown in Eq. (9) and
+frequency-dependant mean-square function shown in Eq. (11) explains the di2culty in recovering the
+time-domain excitation waveform f(ri; t) by ordinary stationary signal processing methods, as are
+currently attempted by some researchers [2,7]. Secondly, as shown in Eqs. (10) and (11), high-order
+frequency or time-frequency expression is essential, even for the time-domain description of this
+kind of time-varying signal, so does the high-order frequency or time-frequency signal processing
+methods (refer to our practical method design in Section 4). Finally, Eqs. (9)–(11) also indicates
+that e?ective elimination of the Gaussian random component fn(ri; t) is an important factor in the
+statistical signature extraction of the excitation sources (also refer to our practical method design in
+Section 4).
+3.1.2. The time-varying Poisson process uv(rj; t)
+Describing the statistic characteristics of the Poisson process uv(rj; t), its mean-value may begin
+with
+muv(rj; t) = mVn mw(rj; t) !(rj; t):
+(12)
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1399
+Its time-varying auto-correlation function as
+Ruv(rj; t; ) =
+ t
+0
+uv
+
+rj; t + 
+2
+	
+uv
+
+rj; t −
+2
+	
+dt = E(V 2
+n ) Rw(rj; t; ) R!(rj; t; );
+(13)
+where !(rj; t) = E[dN(rj; t)=dt].
+Eqs. (12) and (13) clearly indicate that the statistical parameters of the time-varying Poisson
+process uv(rj; t) are sensitive to the impact intensity Vn as well as the non-stationary working process
+of the engine. It suggests that a well-designed time-varying statistical approach will be e?ective in
+extracting the time-domain signatures of the high-frequency mechanical and Kuid impacts (refer to
+our practical method design in Section 4).
+3.2. Frequency domain analysis
+As naturally derived from Eqs. (10) and (11), the high-order time-frequency expression I(ri; t; !)
+(under certain conditions, it can be transferred into a high-order frequency expression) is introduced
+into the time-varying vibration description. This means, high-order frequency or time-frequency anal-
+ysis is essential in this research. As a well-de6ned and widely recognized means for high-order fre-
+quency analysis, the Bi-spectrum is traditionally used both for theoretic analytics and experimental
+signal analysis [9,10]. From another point, the more advanced Wigner-Ville time-frequency distribu-
+tion supplies a powerful tool for time-frequency analysis [11–13]. In order to compare between both
+the two approaches and reach a reasonable solution for the engine vibration analysis, the following
+derivations and discussions are made to the high-order frequency and time-frequency characteristics
+of the engine vibration.
+3.2.1. Bi-spectral analysis
+Theoretically, the Bi-spectral expression of the non-stationary vibration u(t) is based upon a
+stationary correlation de6nition [9,10]
+Ru(t1; t2) =
+ t1
+0
+ t2
+0
+u(t) u() dt d
+= Ru(t1; ) =
+ t1
+0
+u(t) u(t + ) dt = Ru(t1; −) =
+ t1
+0
+u(t) u(t −) dt:
+(14)
+Based on this de6nition, the Bi-spectrum of uf(ri; t) can be further derived as
+Suf(ri; !1; !2) =
+ ∞
+−∞
+ ∞
+−∞
+uf(ri; t1) uf(ri; t2)e−j(!1t1−!2t2) dt1 dt2
+= H(ri; t1; !1) H ∗(ri; t2; !2) Sf(ri; !1; !2):
+(15.1)
+When the transfer function h(ri; t) is stationary and the excitation f(ri; t) is non-stationary, Eq. (15.1)
+can be simpli6ed as
+Suf(ri; !1; !2) = H(ri; !1) H ∗(ri; !2) Sf(ri; !1; !2):
+(15.2)
+When the transfer function h(ri; t) is time-varying and the excitation f(ri; t) is stationary, it can be
+further simpli6ed as
+Suf(ri; !1; !2) = H(ri; t1; !1) H ∗(ri; t2; !2) Sf(ri; !1; !2)-(!2 −!1):
+(15.3)
+1400
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+When both the transfer function h(ri; t) and the excitation f(ri; t) are stationary, it returns to the
+traditional spectral expression for a stationary random vibration
+Suf(ri; !) = |H(ri; !)|2 Sf(ri; !):
+(15.4)
+With the same de6nition, the Bi-spectrum of uv(rj; t) can be derived as:
+Suv(rj; !1; !2) = 2,E[V 2
+n ] Sw(rj; t1; !1) S∗
+w(rj; t2; !2) S!(rj; !1 −!2):
+(16)
+With the Bi-spectrum de6nition, Eq. (15) presents a combined reKection, respectively, from the
+conjugate time-varying transfer route H(ri; t1; !1), H ∗(ri; t2; !2), as well as the high-order spectrum
+of excitation Sf(ri; !1; !2) (same to Eq. (16)). This means, its physical explanation for the engine
+vibration will be confusing and very hard to understand. A simple example is as shown in Eq. (15.3),
+its description for a stationary transfer function coupled with a non-stationary excitation is often the
+same as for a time-varying transfer function coupled with a stationary excitation, so as to confuse
+the time-varying characteristics of the engine vibration. Another vital disadvantage of Bi-spectrum
+in describing the time-varying engine vibration can be directly found from the even-symmetry as-
+sumption of its stationary correlation Ru(t1; ) = Ru(t1; −) as shown in Eq. (14), which ensures
+the non-negative real values of the Bi-spectrum [9]. Actually, when the engine vibration response
+u(t) is non-stationary, Ru(t1; ) ̸= Ru(t1; −). This non-even-symmetry characteristics of its stationary
+correlation means that the Bi-spectral expression may not only comprise of real-values, therefore its
+physical explanation for the engine vibration might be unreasonable.
+3.2.2. Time-frequency spectral analysis
+Contrasting to Eq. (14), a more reasonable non-stationary correlation de6nition as shown in
+Eqs. (10) and (13) is introduced into the time-frequency expression of engine vibration [11,12]. This
+de6nition
+ensures
+the
+even-symmetry
+of
+the
+non-stationary
+correlation,
+i.e.
+Ru(t; t + )=
+Ru(t; t −) = Ru(t + (=2); t −(=2)). Same to the above-mentioned Bi-spectrum, its time-frequency
+characteristics are derived as follows.
+For the non-stationary response uf(ri; t), its time-frequency spectrum expression can be derived
+as
+Wuf(ri; t; !) =
+ ∞
+−∞
+uf
+
+ri; t + 
+2
+	
+uf
+
+ri; t −
+2
+	
+e−j! d = H(ri; t; !)∗
+t Wf(ri; t; !):
+(17)
+For the Poisson process uv(rj; t), its time-frequency spectrum can be derived as
+Wuv(rj; t; !) = E(V 2
+k ) Ww(rj; t; !)∗
+t W!(rj; t; !):
+(18)
+These time-frequency expressions for the engine vibration show some special advantages over its
+Bi-spectral expression. Firstly, the even-symmetry of its non-stationary correlation guarantees real
+values in its time-frequency expressions and therefore allows a de6nite physical explanation. Sec-
+ondly, descriptions of the vibration compositions are expressed as convolutions of the time-varying
+transfer function with non-stationary excitations along the time axis. This feature possesses spe-
+cial signi6cance for the time-frequency signature extraction of the excitations (refer to our practical
+method design in Section 4).
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1401
+4. Applicable diagnosing approach design
+Directed by the above-mentioned theoretical analysis, an applicable diagnosing approach is de-
+signed and successfully applied to the 6190ZLC diesel engine. All the experimental results coincided
+perfectly with the theoretical derivations and therefore veri6ed the validity and practicability of this
+approach.
+4.1. Software-based synchronizing =ltering
+In order to e?ectively eliminate the time-varying random noise as discussed in Eqs. (9)–(11),
+also get a clari6ed Poisson process uv(rj; t) discussed in Eq. (13), a software-based instantaneous
+synchronizing 6lter is designed for pre-treatment of the engine vibration signal in Fig. 4 [3,4].
+Compared with the traditional phase-locked loop (PLL) technique [1,2], this method exactly delays
+one crankshaft revolution to instantaneously lock the sampling phase and period. Although there is
+always a sampling error between Ms 6 T0f2 ¡ Ms + 1, its inKuence on the 6ltering accuracy can
+be neglected because of the high oscillating frequency of the computer f1. At the same time, the
+Poisson process counting variable N(rj; t) can also be obtained easily. A comparison of un6ltered
+and 6ltered vibration signals measured from the 6190ZLC diesel engine casing is provided in Fig. 5.
+4.2. Excitation signatures’ extraction
+As outlined in Eqs. (4) and (7), di?erent kinds of excitation inside the engine presents di?erent
+impact signatures, further modulated by the time-varying transfer properties of the reciprocating
+engine. Therefore, specially designed multi-band pass and/or resistant 6ltering techniques are essential
+for these signature extractions. In this paper, a successful application of this strategy is the wavelet
+packet based multi-band synchronizing optimal 6ltering technique [4].
+4.2.1. Decomposition algorithm of the wavelet-packet [12,13]
+According to the wavelet algorithm [14,15], the time-varying engine vibration signal u(t) can be
+further represented as its wavelet decomposition form
+u(t) = AJ2u(t) +
+J2
+
+j=J1
+Dju(t) =
+
+k∈Z
+CJ2k’J2k(t) +
+J2
+
+j=J1+1;k∈Z
+ jk(t);
+(19)
+1f
+÷ Ns
+÷ Ms
+0f
+N
+f
+s
+s
+•
+=
+2f
+)
+(
+0
+0 T
+f
+                 Counting 
+Fig. 4. Software-based instantaneous synchronizing 6lter.
+1402
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+Fig. 5. Instantaneously synchronizing 6ltration of the engine vibration.
+where AJ2u(t)=
+k∈Z CJ2k’J2k(t) represents the signal components which frequencies are lower than
+2−J2, whilst Dju(t) = 
+k∈Z  jk(t) represents the signal components which frequencies are between
+2−j and 2−(j−1). Sampling point j = J1; : : : ; J2 −1.
+Further representing Eq. (19) into the combination form of its low-pass Average-Filter H and
+high-pass Di?erential-Filter G, it can be expressed as follows:
+Cj+1 = HCj;
+Dj+1 = GCj;
+j = J1; : : : ; J2 −1:
+(20)
+Referring to the commonly accepted approaches [14,15], decomposition algorithm of the wavelet-
+packet proceeds with its two-to-one sampling by a serial of orthogonal conjugate 6lters H and G.
+Supposing Ci;j as its ith by jth scale factor, then
+C1;0(t) = u(t);
+C2i−1;j(t) = HCi;j−1(t);
+C2i;j(t) = GCi;j−1(t)
+t = 1; : : : ; 2J−j;
+i = 1; : : : ; 2j;
+j = 1; : : : ; J;
+J = log2 N:
+(21)
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1403
+sm
+f
+Fig. 6. Layer-to-layer decomposing algorithm of the wavelet-packet.
+After this decomposition procedure, the Gray code based sorting [14] must be done to get the
+function of GC−1, to get an orderly frequency-divided serial. Its deductive expression is as follows
+(Fig. 6):
+GC−1(0) = 0;
+GC−1(1) = 1;
+GC−1(2n) = 2GC−1(n);
+GC−1(n) be even;
+GC−1(2n) = 2GC−1(n) + 1;
+GC−1(n) be odd;
+GC−1(2n + 1) = 2GC−1(n) + 1;
+GC−1(n) be even;
+GC−1(2n + 1) = 2GC−1(n);
+GC−1(n) be odd:
+(22)
+4.2.2. Fast reconstruction algorithm of the wavelet-packet
+Above layer-to-layer decomposition brings well-distributed frequency-bands. In this paper, only
+several important frequency-bands as discussed will be interested in. A fast reconstruction algorithm
+can be arranged as follows:
+(1) Choosing the suitable orthogonal conjugate 6lters H and G.
+(2) Selecting the decomposing layers J and routes (Fig. 7). If the length of original signal u(t)
+equals 2N, its sampling frequency is fsm and we are only interested in the m frequency-bands
+at the jth layer, we can get it as {n1; n2; : : : ; nm}.
+(3) Decomposing u(t) by using Eq. (22), a new serial can be obtained as follows:
+nCi;J(t) = Ci;J(t);
+i = {n1; n2; : : : ; nm};
+nCi;J(t) = 0;
+i ̸= {n1; n2; : : : ; nm}:
+(23)
+(4) Reconstructing the original signal with interested frequency components:
+Ci;j(t) = 2[H ∗C2i−1;j+1(t) + G∗C2i;j+1(t)]:
+(24)
+A simulating signal u(t) = sin(2,f1t) + sin(2,f2t) + n(t) is designed to verify the above algorithm
+(Fig. 8). f1 = 700 Hz, f2 = 60 Hz and n(t) is Gaussian noise. Obviously, the fast wavelet-packet
+reconstruction algorithm can perfectly extract the interested frequency components from a complex
+signal with much less power-leaking and aliasing e?ects than the commonly used FIR 6lters.
+1404
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+fsm/32
+fsm/8
+fsm/2
+fsm/4
+fsm
+Fig. 7. Fast reconstruction of the wavelet packet.
+0
+500
+1000 Hz 
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2/Hz
+0.8/Hz
+Spectrum of the original signal. 
+Spectrum of the reconstructed signal. 
+0
+500
+1000 Hz 
+0
+0.2
+0.4
+0.6
+(a)
+(b)
+Fig. 8. Simulation of the fast wavelet packet reconstruction algorithm.
+Directed by the discussion of Eq. (4), signature extraction of the inner-cylinder excitations is
+performed by using the above designed wavelet packet based multi-band optimal 6ltering technique.
+Fig. 9(a) shows the extracted high-frequency combustion component of the 6190ZLC diesel engine
+inner-cylinder excitation while Fig. 9(b) shows the low-frequency compressive one. Obviously, this
+result coincides with the theoretical discussion from Eqs. (1)–(4).
+4.3. Time-frequency signature extraction
+As derived in Eqs. (17) and (18), the time-frequency expression based on the non-stationary
+correlation de6nition can more reasonably describe the time-varying property and composition of
+the time-varying engine vibration. Based upon this understanding, a new time-frequency signature
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1405
+Fig. 9. Signature extraction of the inner-cylinder excitation.
+extracting method named as the auto-regressive model based pseudo Wigner-Ville distribution
+(AR-PWVD) is designed and applied into this research work [13].
+4.3.1. De=nition of the PWVD
+According to the traditional de6nition of Wigner-Ville Distribution (WVD) made by Clessen in
+1980 [11], its continuous expression is the same as shown in Eq. (17). However, in practical appli-
+cation, the continuous vibration signal u(t) is treated as a discrete time series u(n) (n = 1; 2; : : : ; N).
+In this case Eq. (17) (PWVD-pseudo-WVD) is expressed as
+W C
+u (n; !) = 2
+2N
+
+k′=2
+u
+
+n + k′
+2
+
+u∗
+
+n −k′
+2
+
+e−jk′!;
+k′ = 2; 4; : : : ; 2N:
+(25.1)
+Letting k′ = 2k, then
+W C
+u (n; !) = 2
+N
+
+k=1
+u(n + k) u∗(n −k)e−2jk!:
+(25.2)
+Its frequency-domain sum can therefore be derived as
+N
+
+n=1
+W C
+u (n; !) = |Su(!)|2 + |Su(! + ,)|2:
+(25.3)
+In a theoretical sense, Eq. (25) demonstrates its suitability in describing the time-varying engine
+vibration. However, in practical application, it is clearly seen that there are some fatal disadvan-
+tages existing in this discrete algorithm, which seriously impede its e?ective application. These
+1406
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+include: (1) the aliasing phenomenon along its frequency axis as shown in Eq. (25.3); (2) its
+low frequency-resolution (PfWVD = 1=2NPt ¡ PfFFT = 1=NPt) unsuitable for the impact response
+description as shown in Eq. (25.1) and, (3) its huge data size 2N × 2N unsuitable for signature
+extraction as shown in Eq. (25.1).
+4.3.2. Design and application of the AR-PWVD
+In order to overcome the above disadvantages of the PWVD, a more reasonable de6nition W P
+u (n; !)
+made by Peyrin in 1986 is introduced into the original expression (25.1) [12].
+Substituting n + k′=2 = k; n −k′=2 = n′ −k into Eq. (25.1), then
+W P
+u (n′; !) = 2
+N
+
+k=1
+u(k) u∗(n′ −k)e−2j!(2k−n′):
+(26.1)
+Letting n′ = 2n; n = 1; 2; : : : ; N, then
+W P
+u (2n; !) = 2
+N
+
+k=1
+u(n + k) u∗(n −k)e−2j!(2k) = 1
+2 W C
+u (n; !):
+(26.2)
+In this case, its frequency-domain sum is
+N
+
+n=1
+W P
+u (n; !) = |Su(!)|2:
+(26.3)
+Comparing Eq. (26.3) with Eq. (25.3), it can be seen that the aliasing phenomenon is overcome in
+the sense of its frequency-domain sum. Complemented with an analytic transform to the time-varying
+variable ru(n; k) = u(k) u∗(n −k) in Eq. (25.1), this disadvantage of the PWVD is reduced to its
+minimum [12,13].
+Further taking the analytic transform of the time-varying variable ru(n; k) as rua(n; k), then it can
+be described by using a M order, complex, time-varying auto-regressive time series model (AR(n; M)
+model) as follows [13]:
+rua(n; k) =
+M
+
+i=1
+’r(n; i) rua(n; k −i) + ar(n):
+(27)
+Introducing Eq. (27) into Eq. (25.1), an AR(n; M) model based pseudo-Wigner-Ville distribution
+(AR-PWVD) can be derived as
+W AR
+u (n; f) = 2Re
+ N
+
+k=1
+rua(n; k)e−j2,f(2k−n)
+
+:
+(28.1)
+It can also be expressed as a form of the time-varying model spectrum
+W AR
+u (n; f) =
+'2
+ar(n)
+1 −M
+i=1 ’r(n; i)e−2j,f(2i−n)2
+(28.2)
+The AR-PWVD shown in Eq. (28) overcomes most the disadvantages of the traditional PWVD.
+Firstly, its frequency-domain aliasing is reduced to a minimum in this algorithm. Secondly, its
+time-frequency expression is purely dependent on the auto-regressive model AR(n; M), which
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1407
+Fig. 10. AR-PWVD of the engine vibration (measured on cylinder cap of the 6190ZLC diesel engine).
+possesses a high frequency resolution to suitably describe the impact response of the engine vibration.
+The most important advantage of this algorithm over others is probably that all its analyzing messages
+are concentrated inside the limited model coe2cients ’r(n; i) (i=1; 2; : : : ; M. In this paper, M is less
+than 10) and residual error '2
+ar(n), which is essential for data compression and signature extraction.
+Detailed discussions on the AR-PWVD algorithm have been published in Ref. [13]. Practical
+diagnosing results for three typical working condition (normal, insu2cient combustion and outlet
+valve leaking) of the 6190ZLC diesel engine are shown in Fig. 10. As a result of the synchronizing
+6ltering pre-treatment as mentioned in Section 4.1, the time axis becomes the engine’s crankshaft
+rotating angle, so that the AR-model spectral frequency compositions as well as the angular positions
+of the impacting response sections I, II and III as mentioned in Fig. 1 are clearly identi6ed and
+distinguished between each other. For the normal combustion condition shown in Fig. 10(a), the
+impacting section I (mainly caused by the inner-cylinder gas excitation), II (mainly caused by the
+outlet valve impacting) and III (mainly caused by the inlet valve impacting), respectively, shares
+a reasonable proportions in the AR-PWVD. For the insu2cient combustion condition shown in
+Fig. 10(b), the impacting response mainly caused by the high-frequency inner-cylinder combustion
+(section I) as well as the outlet valve impacting response (section II) almost disappears from the
+AR-PWVD. This is a reasonable explanation to the diesel engine’s practical working condition.
+Another reasonable explanation can also be reached from Fig. 10(c) for the corresponding engine
+working condition. All this means, the AR-PWVD indeed provides a suitably precise time-frequency
+description of the time-varying engine vibration.
+1408
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+4.3.3. AR-PWVD based signature extraction
+By composing the coe2cients ’r(n; i) and residual error '2
+ar(n) (i = 1; 2; : : : ; M) of the AR(n; M)
+model into a message mode vector (n) = [’r(n; 1); ’r(n; 2); : : : ; ’r(n; m); '2
+ar(n)]T, the message-
+distance-based intelligent classi6cation and signature extraction can be performed to it [1,2]. Taking
+the commonly used J-divergence distance between the reference mode R and the testing mode T of
+the engine conditions [1,2,4] as an application example, it can be expressed as follows:
+J(PR; PT)
+=I(PR; PT) + I(PT; PR) =
+1
+M + N + 1
+N
+
+n=1
+×
+M+1
+
+i=1
+
+
+
+
+
+
+
+1
+2'2
+R(n; i)
+
+'2
+T(n; i) + [R(n; i) −T(n; i)]T(R(n; i)[R(n; i) −T(n; i)]
+
++
+1
+2'2
+T(n; i)
+
+'2
+R(n; i) + [R(n; i) −T(n; i)]T(T(n; i)[T(n; i) −R(n; i)]
+
+−1
+
+
+
+
+
+
+
+:
+(29)
+During the experimentation, 6 standard reference fault modes (modes 1–6) are set along with 2
+test fault modes (modes 7 and 8) of the 6190ZLC diesel engine (as laid out in Table 1). The
+relevant J-divergence distance results based on the AR-PWVD coe2cients are listed in Table 2.
+Classi6cations in Table 2 (the underlined) clearly indicate that the test modes 7 and 8, respectively,
+Table 1
+Simulated fault modes of the 6190ZLC diesel engine (1500 rev=min)
+Mode
+1
+2
+3
+4
+5
+6
+7
+8
+Inlet valve
+0.43
+0.23
+0.63
+Spring
+0.43
+0.43
+0.43
+0.43
+Clearance (mm)
+(normal)
+(max)
+(min)
+Breaking
+(normal)
+(normal)
+(normal)
+(normal)
+Outlet valve
+0.48
+0.28
+0.68
+0.48
+Spring
+Leaking
+0.28
+0.68
+Clearance (mm)
+(normal)
+(max)
+(min)
+(normal)
+breaking
+(max)
+(min)
+Table 2
+J-divergence distance results based on the AR-PWVD
+Mode
+1
+2
+3
+4
+5
+6
+7
+8
+1
+0.00
+3.51
+3.79
+6.96
+3.11
+3.72
+4.41
+11.42
+2
+3.51
+0.00
+2.62
+3.86
+2.20
+6.10
+1:31
+7.92
+3
+3.79
+2.62
+0.00
+4.26
+5.32
+6.34
+7.27
+1:06
+4
+6.96
+3.86
+4.26
+0.00
+8.38
+14.22
+8.68
+13.55
+5
+3.11
+2.20
+5.32
+8.38
+0.00
+2.82
+3.42
+2.02
+6
+3.72
+6.10
+6.34
+14.22
+2.82
+0.00
+8.91
+1.70
+7
+4.41
+1:31
+7.27
+8.68
+3.42
+8.91
+0.00
+2.77
+8
+11.42
+7.92
+1:06
+13.55
+2.02
+1.70
+2.77
+0.00
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+1409
+approach the reference modes 2 and 3, which coincide with the fault mechanism and changing
+tendency of the engine. This also explains the suitability of AR-PWVVD to an integrated signature
+extraction of the engine vibration.
+5. Conclusions
+As a stage summary of the authors’ serial researches on the reciprocating engine vibration and
+condition monitoring [3,4,13], this paper presents a systemic and detailed discussion successively on
+the impacting excitations, time-varying vibration characteristics and applicable analyzing and diag-
+nosing strategy of the reciprocating engine. Through in-depth theoretic derivations respectively on the
+time-domain, high-order-frequency-domain and time-frequency-domain characteristics of the engine
+vibration, reasonable description and applicable methodologies for the engine vibration analysis and
+condition monitoring are concluded. Satisfactory veri6cation is also carried out via suitable designed
+experimentation. The signi6cance of this paper lies in the following aspects:
+(1) A detailed investigation is made to the widespread inner-engine impact excitations.
+Theoretical derivation is made to the engine inner-cylinder working process. Oscillating per-
+formance of the inner-cylinder gas excitation is theoretically analyzed and the high-frequency
+mechanical and Kuid impacts are reasonably classi6ed. This work lays down an important foun-
+dation for the further investigation into the engine vibration characteristics and design of the
+suitable diagnostic strategies.
+(2) A detailed theoretical analysis is made to the time-varying engine vibration response.
+Based upon the above investigation on the inner-engine impacting excitations, a theoretical
+model is developed to describe the time-varying engine vibration response. Derivation of the
+time-domain, high-order frequency-domain and time–frequency-domain interdependent relations
+of the impacting excitations and the engine vibration, from a strict theoretic viewpoint, supplies
+a reasonable description and applicable methodologies for the engine vibration analysis and
+condition monitoring.
+(3) Applicable vibration analyzing and condition monitoring strategies for the diesel engine are
+designed and applied into the practical engineering.
+Following the theoretical research conclusions gained in this paper, practical analyzing and diag-
+nosing methods are designed and applied to the 6190ZLC diesel engine. These include the software-
+based instantaneous synchronizing 6ltration for the pre-treatment of the time-varying engine vibration
+signal; the wavelet-packet based multi-band optimal 6ltering technique for signature extraction of the
+inner-cylinder impact excitations; as well as the AR-PWVD time-frequency analysis method for an
+integrated signature extraction of the engine vibration. Finally, experiments on the 6190ZLC diesel
+engine veri6ed the validity and practicability of these methods in practical engineering.
+Acknowledgements
+This work was sponsored by the NSFC (Approved No.: 59775024) and the K.C. Wong Education
+Foundation in Hong Kong.
+1410
+Z. Geng et al. / International Journal of Mechanical Sciences 45 (2003) 1391–1410
+References
+[1] Cempel C. Vibroacoustic condition mornitoring. London: Ellis Horwood Ltd.; 1994.
+[2] Lyon RH. Machinery noise and diagnostics. New York: Butterworths; 1987.
+[3] Geng ZM. Research on the vibroacoustic features and diagnosing approaches of the diesel engine. Transactions of
+CSICE 1995;13(2):11–25.
+[4] Geng ZM. Some techniques applicable to the non-stationary vibration analysis and fault diagnosis of the reciprocating
+machinery. Chinese Journal of Mechanical Engineering 1996;32(4):110–21.
+[5] Gu F, Jacob PJ, Ball AD. Non-parametric models in the monitoring of engine performance and condition—Part 2:
+Non-intrusive estimation of diesel engine cylinder pressure and its use in fault detection. ImechE. Proceedings Part
+D, Journal of Automobile Engineering 1999;213:135–43.
+[6] Jones NB. A review on condition monitoring and fault diagnosis for diesel engines. Condition monitoring’97. Xi’an,
+P. R. China: National defense industry press; 1997. p. 221–42.
+[7] Jeung Kim T, Lyon RH. Cepstral analysis as a tool for robust processing. Journal of Mechanical System and Signal
+Processing 1992;6(1):1–15.
+[8] Cartmell M. Introduction to linear, parametric, and non-linear vibrations. London: Chapman & Hall; 1990.
+[9] Lonmann AW. Triple correlation. IEEE 1984;72(7):1042–53.
+[10] Lii KS. Cross-bispectrum computation and variance estimation. ACM Transactions on Mathematical Software
+1981;7(1):66–87.
+[11] Classen TA. The Wigner distribution—a tool for time-frequency signal analysis. Philips Journal of Research 1980;35.
+[12] Peyrin FA. A uni6ed de6nition for the discrete-time, discrete-frequency, and discrete-time/frequency Wigner
+distributions. IEEE Transactions On ASSP, 1986, pp. 858–68.
+[13] Geng ZM. Some modi6cations on the Wigner distribution for application into the non-stationary vibration analysis
+and fault diagnosis. Journal of Signal Processing 1995;11(2):116–23.
+[14] Aguirre J. Basis of wavelets and atomic decompositions of H 1 →(Rn) and H 1 →(Rn × Rn). Proceedings of AMS
+1991;111(3):683–93.
+[15] Rioul O, Duhamel P. Fast algorithm for discrete and continuous wavelet transforms. IEEE Transactions on
+Information Theory 1992;38:569–86.

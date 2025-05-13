@@ -1,0 +1,1972 @@
+Chapter-8 
+VALVE AND VALVE MECHANISM 
+ 
+Types of valve operating 
+mechanisms, 
+valve 
+springs, 
+guides, push rods, rocker arms, 
+tappets, valve timing diagrams, 
+design 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+1
+Valve and valve mechanism
+To admit the air-fuel mixture in the engine cylinder and to force the 
+exhaust gases out at correct timings, some control system is necessary, 
+which is provided by the valves. 
+ 
+The engine valves may be broadly divided into 3 main categories: 
+1. Poppet valve 
+2. Sleeve valve 
+3. Rotary valve 
+ 
+Out of these three, poppet valve is the one which is being universally used 
+for automobile engines. 
+ 
+The conventional automotive engine is 
+fitted with mechanically operated poppet valves for 
+both inlet and exhaust. A poppet valve consists of a 
+disc of metal with a coaxial stem on one side 
+which closes a circular opening in a wall 
+separating two chambers, against which wall it is 
+drawn by a spring. To open the valve, a force must 
+be applied to it in, a direction contrary to that of 
+the spring pressure. In the earliest automotive 
+engines, 
+the 
+inlet- 
+valves 
+were 
+opened 
+automatically by the suction in the cylinder during 
+the inlet stroke,. Automatic valves cannot be used 
+in engines that must operate over a wide speed 
+range, as they close too early at low and too late at 
+high speeds to permit of good volumetric 
+efficiency. 
+These 
+valves, 
+moreover, 
+are 
+troublesome in service, because gum in the 
+gasoline may cause them to stick. 
+ 
+Poppet valves are lifted from their seats by 
+means of cams, and are closed by springs. The rate 
+at which the valve is opened and closed depends 
+on the cam outline and on the type and size of cam 
+follower employed. From the standpoint of gas 
+flow it is, of course, desirable that the valve should 
+open and close very quickly, and remain fully open 
+for the greatest possible length of time. However, 
+the valve gear must operate quietly, and in order to 
+do this it must lift and drop the valves more or less 
+gradually. Cams, therefore, usually are so designed 
+that the valve begins to close as soon as it has 
+attained its full lift, and there is no "dwell" in the 
+full-open position 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+2
+Construction of Poppet Valves
+The poppet valve derives its name 
+from its motion of popping up and down. 
+This is also called "mushroom valve" 
+because of its shape which is similar to a 
+mushroom. It consists of a head and a stem 
+as shown in Fig. 
+ It possesses certain advantages over the 
+other valve types because of which it is 
+extensively used in the automotive engines: 
+1. Simplicity of construction 
+2. Self-centering. 
+3. Free to rotate about the stem to 
+ 
+new position. 
+4. Maintenance of sealing efficiency 
+ 
+is relatively easier. 
+Generally inlet valves are larger than 
+the exhaust valves, because speed of 
+incoming air-fuel mixture is less than the 
+velocity of exhaust gases which leave under 
+pressure. Further, because of pressure, the 
+density 
+of 
+exhaust 
+gases 
+is 
+also 
+comparatively high. Moreover, smaller 
+exhaust valve is also preferred because of 
+shorter path of heat flow in this case and consequent reduced thermal loading. 
+Generally inlet valves and exhaust valves are 45% and 38% of the cylinder bore respectively. 
+Further, to improve heat transfer to the cylinder head, the stem diameter of the exhaust valve is generally 
+10 to 15% greater than that of the inlet valve. Moreover, the valve lift in both inlet and exhaust valves 
+should be at least equal to 25% of the valve head diameter which would provide the annular valve-
+opening area equal to the port throat area. If the valve lift is less, the volumetric efficiency of the engine 
+will be decreased. On the other hand if it is excessive, the inertia of the valve actuating mechanism would 
+be unduly large resulting in excessive noise and wear. 
+The valve face angle (with the 
+plane of the valve head) is generally 
+kept 45° or 30°. A smaller face angle 
+provides greater valve opening for a 
+given lift, but poor sealing because of 
+the reduced seating pressure for a 
+given valve spring load. Due to this 
+reason in some engines, the inlet valve 
+face angle may be kept 30° or 45° 
+whereas the exhaust valve face angle 
+is only 45°, as this increases its heat 
+dissipation. In some cases, a further 
+differential angle of about 1/2 deg to 1 
+deg is provided between the valve and its seating (Fig.), which results in better sealing conditions. 
+The machined surface of the block or the cylinder head on which the valve rests when closed is 
+known as the valve seat. This surface usually forms a truncated cone whose generatrices make an angle of 
+either 45° or 30° with the plane of the valve head. During the early years of the industry flat-seated poppet 
+valves were used to a certain extent, which have the advantage that for a given port diameter and lift, the 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+3
+flow area is considerably greater than with conical valves. A disadvantage of flat-seated valves, which led 
+to their abandonment-is that they are not self centering, and therefore are more likely to leak, especially 
+after the guides have become worn. 
+In the analysis it has been assumed that the flow through the valve is parallel to the seat elements. 
+This is substantially correct at small lifts, when the distance between valve and seat is only a fraction of 
+the width of the seat, but with increase in the lift the direction of flow changes. The gases naturally seek 
+the path of least resistance, and in turning a corner they approach the inner boundary of the flow path. 
+In an L-head engine the direction of flow on the side of the valve toward the cylinder, where the 
+gases can flow off freely, is somewhat different from that on the opposite side, where there is only a 
+moderate clearance between valve and valve-chamber wall. There the gases must describe nearly a semi-
+circle, and in seeking the path of least resistance, they approach the edge of the valve head. The best 
+measure of valve capacity evidently is the minimum sectional area normal to the direction of flow. 
+From Fig., where the dashed lines are 
+meant to represent the center lines of the 
+flow paths, it can be seen that the direction 
+of flow relative to the seat elements varies 
+around the circumference of the valve. In 
+modern engines the valve seats are made 
+comparatively narrow, and in Fig., which 
+closely represents actual proportions, the 
+line BC connecting the inner edge of the 
+valve seat at full lift with the outer edge of 
+the seat on the block, makes an obtuse 
+angle with the elements of the seats, 
+instead of a right angle as in flat-seated 
+valve Fig.. It has been suggested that the 
+area of the conical frustrum of which BC, 
+is an element be taken as a measure of the 
+valve capacity, but in view of the fact that the direction of flow is not normal to that line this plan is of 
+doubtful value.  
+The valve lift generally is slightly more than one-fourth the port diameter in the case of 45-deg, and 
+slightly less in the case of 30-deg valves. Valve-stem diameters are made equal to one-fourth the valve 
+diameter. The outside diameter of the valve head will be about 1.175 times the port diameter. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+4
+Valve-Operating Conditions
+The heads of the valves are 
+subjected to the high temperature of the 
+burning gases, and it is essential that they 
+should not warp under the influence of the 
+heat, and that their seats should not scale or 
+corrode, as in either case they would 
+become leaky. Occasionally small particles 
+of scale will get onto the valve seats, and 
+the valve heads must be of sufficient 
+hardness at the high temperature at which 
+they operate so they will not pit under this 
+condition. 
+Lubrication of the valve stems is 
+hard to effect, and the stems must not wear 
+too rapidly in their guides, even though 
+poorly lubricated or not lubricated at all. 
+That portion of the stem immediately 
+below the head is subject also to the heat of 
+the burning gases which, when the exhaust 
+opens rush by it at a velocity of up to  300 
+fps; and to the corrosive action of 
+unconsumed, hot oxygen and intermediate 
+products of combustion. 
+ 
+Trouble of a rather serious 
+nature is sometimes caused by valves 
+breaking a short distance below the 
+head, at the point where their working 
+temperature is the maximum. This is 
+probably due to corrosion fatigue; in 
+other words, it results from repetitive 
+applications 
+of 
+mechanical 
+stress 
+combined with corrosive action by the 
+exhaust gases or certain constituents 
+thereof. Air-hardening properties of 
+the valve steel sometimes have been 
+blamed for such breakages, but these 
+latter occur also with valves made of a 
+steel having no such properties. High 
+resistance to corrosion fatigue is 
+therefore desirable in valve steels. 
+Finally, the tip of the stem 
+receives a quick succession of blows 
+from the tappet as the clearance is 
+being taken up, and it must be 
+sufficiently hard to withstand these 
+blows without undue wear. Hardening 
+of the tips is sometimes effected by 
+the so-called cyaniding process (dipping in a bath of molten potassium ferro-cyanide). 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+5
+Valve-Operating Temperatures
+Tests have .shown that 
+under 
+continued 
+full-load 
+conditions, exhaust valves may 
+reach a temperature of 1475 F-
+a cherry red. Valves of large 
+diameter 
+run 
+hotter 
+than 
+smaller ones, and the valve 
+temperature 
+increases 
+with 
+engine speed. An increase in 
+the compression ratio, as a 
+rule, 
+lowers 
+the 
+valve 
+temperature, 
+but 
+if 
+the 
+compression is carried too high 
+and detonation sets in, the 
+effect is reversed. It is usually 
+assumed that exhaust valve 
+temperatures are highest with 
+retarded ignition and weak mixtures, probably because the exhaust pipe is hottest under these conditions, 
+but a large number of tests carried out on a particular engine showed that the reverse holds true, the 
+exhaust-valve temperature being lower with a weak mixture and retarded ignition. The explanation is that 
+the temperature of the valve depends not only on that of the exhaust gases, but also on the temperature of 
+combustion, which latter is lowered by weakening the mixture and retarding the spark. 
+ 
+It was found that the exhaust valve 
+ran cooler when a long valve guide (Fig.) 
+was used; that is, when the valve guide was 
+carried closer to the valve head. The guide 
+then has the effect of protecting the valve 
+stem from the hot gases passing through the 
+valve immediately after opening. One 
+objection to such a long valve guide is that it 
+is difficult to lubricate, and as a result wear 
+on both the valve stem and guide is rapid. 
+The experiment was therefore tried of 
+enlarging the bore of the guide 0.016 in., by 
+counter boring from the valve-head end as 
+far as the wall of the valve pocket, and this 
+was found to result in decreasing the valve 
+temperature (27 deg at 1500 rpm and 72 deg 
+at 4500 rpm). An increase in the valve-stem 
+diameter from 0.343 to 0.405 in. lowered 
+the temperature of the valve about 40 deg 
+throughout the speed range. 
+If an exhaust valve becomes leaky, as, for instance, through "dishing" of its head by reason of loss 
+of strength at high temperature, through improper adjustment, or through excessive warping, the head will 
+be destroyed very quickly, as the burning gases will then blow by it. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+6
+Exhaust 
+valves 
+operate 
+under 
+relatively more severe conditions on account 
+of higher temperatures involved. An exhaust 
+valve is subjected to: 
+1. Longitudinal cyclic stresses due to 
+the return spring load and the inertia response 
+of the valve assembly. 
+2. 
+Thermal 
+stresses 
+in 
+the 
+circumferential and longitudinal directions 
+due to the large temperature gradient from the 
+centre of the head to its periphery and from 
+the crown to the stem. A typical variation of 
+temperature in an exhaust valve is given in 
+Fig. 
+3. Creep conditions due to operation 
+at very high temperatures, particularly in case 
+of valve head. 
+4. Corrosion conditions. 
+ 
+Exhaust Valve Material Requirements 
+On account of operating conditions described 
+above the material for exhaust valve should 
+have the following requirements. 
+1. High strength and hardness to resist 
+tensile loads and stem wear. 
+2. High hot strength and hardness to 
+combat head cupping and wear of seats. 
+3. High fatigue and creep resistance. 
+4. Adequate corrosion resistance. 
+5. 
+Least 
+coefficient 
+of 
+thermal 
+expansion to avoid excessive thermal stresses 
+in the head. 
+6. High thermal conductivity for better 
+heat dissipation. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+7
+Materials for Valves
+Owing to the expensive character of the material necessary for the exhaust valves, the inlets are 
+now generally made of more common and cheaper material. This practice is encouraged also by the fact 
+that the inlet valves now are generally made of somewhat larger diameter, so they would not be 
+interchangeable with the exhaust valves even if they were made of the same material. 
+Both the mechanical and the thermal stresses on engine valves increase with the speed of 
+operation, and as engine speeds have increased continuously, there has been a constant search for better 
+materials, especially for the exhaust valves. Silicon-chromium (Silcrome) steel containing 3-3.5 per cent 
+silicon and 8-9 per cent chromium came into use during the early twenties, and was considered an 
+excellent exhaust-valve material at the time. This steel possessed good workability and good machining 
+qualities, but it left something to be desired with respect to hot strength. While at normal temperature it 
+showed a tensile strength in excess of 200,000 psi, at 1200 F this dropped to 42,000 psi, and at 1600 F it 
+was only 4600 psi. The steel began to scale at 1800 F. Its resistance to warpage and corrosion at high 
+temperatures was poor. 
+In the middle thirties specific outputs had increased so much that a better material was needed for 
+heavy-duty bus and truck engines. What was called for particularly was higher hot strength and a higher 
+scaling temperature. These properties could be obtained by a more liberal use of alloying elements, 
+particularly chromium, and a new type of valve steel was then introduced of which Silcrome XB, 
+developed by Thompson Products, Inc., is representative. This has a higher carbon content than the 
+original Silcrome steel, viz., 0.60-0.86 per cent; less silicon, 1.25-2.75; but more than twice as much 
+chromium, 19.00-23.00, and in addition from 1.00 to 2.00 per cent nickel. This steel resists warping much 
+better, and it also has greater resistance to heat corrosion. At 1600 F its tensile strength is 7625 psi, and its 
+scaling temperature is 2150 F. 
+Austenitic Valve Steels 
+More recently so-called austenitic, non hardening steels have been introduced as a 
+material; for exhaust valves. They excel silicon-chromium steel with respect to hot strength, impact value, 
+hot hardness, and resistance to oxidation and corrosion. These steels, which contain high percentages of 
+chromium and nickel-the combined contents of these two elements usually ranging between 25.00 and 
+30.00 per cent-in addition to being non-responsive to heat treatment, are non-magnetic. 
+ 
+An austenitic valve steel contains 0.30-0.45 carbon, 0.80-1.30 manganese, 2.50-3.25 
+silicon, 17.50-20.50 chromium, 7.00-9.00 nickel and not over 0.03 phosphorus and sulphur each. 
+ 
+It has a hot strength of 17,500 psi at 1600 F and a scaling temperature of 2200 F. But while 
+these austenitic valve steels possess many advantages, they also have some undesirable qualities. One 
+thing against them is that their coefficient of heat expansion is materially greater than that of silicon-
+chromium steel (0.000011 as compared with 0.0000078). This calls for a slightly greater clearance 
+between the valve stem and its guide and between the valve and its tappet. For heavy-duty engines a 
+valve-stem clearance of 0.010 to 0.015 in. per inch of stem diameter is recommended. The hardness of 
+austenitic steel is rather low (about 45 Rockwell C, as compared with 55 for the original Silcrome steel) 
+,and it does not resist the hammering action on the tip very well, especially where there is line or point 
+contact, as with rocker arms contacting the tip. To meet this condition, valves of heavy-duty engines 
+sometimes have tips of Stellite or tool steel applied by either electric or acetylene welding. The wear of 
+austenitic valve stems' in the guides also is somewhat more rapid than that of other steels. This difficulty 
+may be overcome by nitriding the stems, but the injurious effect of tetraethyllead on nitrided surfaces 
+would seem to discourage this practice. Cold-working (rolling) of the stems to increase their hardness 
+also has been suggested. The various processes by which nonmetallic coatings are formed on wearing 
+surfaces to keep them from scoring may be applied also to valve stems. Carbon-steel stems may be. 
+welded to heads of austenitic steel, which has the further advantage that the carbon steel is much lower in 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+8
+cost. This process of building up valves by welding has been carried to its logical conclusion by welding 
+heads of a material resistant to scaling and pitting, to a stem of a material having good bearing qualities in 
+cast iron under conditions of poor lubrication, and to the latter a tip of a material which is capable tappet 
+action well of withstanding the 
+Precipitation-Hardening Steel 
+The latest addition to the list of exhaust-valve materials is a steel intermediate between the 
+ferritic and the austenitic types; it shares the property of harden ability with the ferritic steels, and high hot 
+strength with the austenitic. This steel, Silcrome XCR, contains 0.40-0.50 carbon, not more than 1.00 
+manganese, 23.25-24.25 chromium, 4.50-5.00 nickel, 2.50-3.00 molybdenum, and not more than 0.035 
+phosphorus and sulphur each. At 1600 F it shows a tensile strength of 20,000 psi, which is a tremendous 
+improvement over the 4600 psi of the original Silcrome. With respect to heat expansion it is intermediate 
+between the ferritic Silcromes and the austenitic type. Its oxidation and corrosion resistances are 
+excellent, but its workability is only fair, and its machinability definitely poor. Valves of Silcrome XCR 
+are hardened to 48-58 Scleroscope all over, and owing to the relatively great hardness, both the seat and 
+the stem wear well. This steel must be forged within a narrow temperature range; if overheated it loses its 
+hardenability; while if forged at too lower temperature, it is likely to shatter, its impact value being quite 
+low. In spite of these drawbacks and its rather high cost, this steel is being used extensively for the 
+exhaust valves of heavy-duty engines. 
+ 
+Materials for Inlet Valves
+The inlet valve does not present nearly so difficult a materials problem as the exhaust valve, as the 
+temperature attained by it in service is always considerably lower. Two types of low alloysteel are used 
+extensively for inlet valves. Nos. 3140 and 8645. The former is a chrome-nickel steel- containing 1.0 to 
+1.5 percent of nickel and 0.50-0.80 percent chromium (besides 0.37-0.45 per cent carbon and 0.60-0.95 
+per cent manganese); the latter a chromium-nickel-molybdenum steel containing 0.35-0.75 percent nickel, 
+0.35-0.65 per cent chromium, and 0.12- 0.25 per cent molybdenum, besides normal amounts of carbon 
+and manganese. Some-use has been made of a medium-alloy chromenickel- silicon steel-with(8 to 9 per 
+cent nickel, 12 to 13 per cent chromium, and 2.5 to3 per cent silicon. This CNS steel, which has low 
+carbon and manganese contents, is said to be immune to the corrosive influences of tetra-ethyl lead. 
+ 
+Miscellaneous Considerations
+1. An adequately designed valve with proper material can also fail due to local stress 
+concentrations if there is any unevenness around the valve-seat interface on account of distortion of valve 
+heads or seats, bending of valve stem or trapping of carbon particles between the valve and the seat. 
+2. Excessive surface finish of the valve stem will result in loss of lubricating oil film, while 
+excessive roughness of the stem would increase the guide wear. A thin layer of chromium giving the 
+surface finish of about 0.5 µm would provide the optimum condition. 
+3. As engine thermal efficiency is increased with increase of compression ratio, lower valve 
+temperatures would result in case of higher compression ratio. 
+4. Arranging the inlet and the exhaust ports in the cylinder head alternately would increase the 
+transfer of heat from the exhaust to the inlet valves, compared to the case when the like valves are placed 
+together. This would result in decreased exhaust valve temperatures. However, this would also complicate 
+the design of the inlet and the exhaust manifolds in case both are to be on the same side of the engine. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+9
+Form and Dimensions of Head
+The valve head should be made of the minimum thickness consistent with strength requirements. 
+In American practice, the top of the head is usually made spherical and the bottom surface conical. This 
+gives a head which is much thicker at the center (where the bending moment is the maximum) than at the 
+edge. Poppet valves have been standardized by the.S.A.E. 
+The seat on the valve head must project slightly beyond the seat in the cylinder casting at both top 
+and bottom, in order that no shoulder will be formed on the-casting when the valve is ground in. A fairly 
+wide seat is an advantage, as it helps to keep down the temperature of the head. The heat absorbed from 
+the burning gases by the valve head has only two paths through which to flow off-down the valve stem to 
+the valve guide and thence into the cylinder block and jacket, and through the valve seat directly into the 
+block-and with the- conventional design by far the greater portion passes off through the seat. 
+ 
+In Fig. is shown the form of head generally used for steel valves in 
+American practice, as fixed by the S.A.E. standard. 
+ 
+Fig. is the so-called tulip valve, used to a considerable extent in 
+aircraft and racing engines, which is thought to facilitate How through 
+the valve port. 
+ 
+Fig. shows a form of valve that is intermediate between the S.A.E. 
+standard and the tulip type, which has come into use in recent years. It has 
+a Hat-top head and a rather large fillet between head and stem, which 
+latter tends to improve How conditions and to add to the strength of the 
+stem near its junction with the head. Sometimes that part of the stem 
+which does not enter the guide is made to taper slightly from the fillet 
+down. 
+To ensure good seating of the valve, -it should be made with an 
+interference angle of 1 deg. That is to say, the included angle of the valve 
+face should be made 1 deg greater than that of the seat face, so that 
+initially the valve seats only on the outer edge. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+10
+Sodium-Cooled Valves
+The exhaust valve temperatures in modern engines reach very high values of the order of 750°C. 
+In heavy duty engines, it may be still higher. Therefore, cooling of exhaust valves becomes very 
+important. To do this cooling water jackets are arranged as near the valve as possible. In many cases, 
+nozzles are directed towards the hot spot caused by the exhaust valve. 
+Large valves of heavy-duty engines can be 
+kept at a reasonably low temperature by sodium-
+cooling, which is now employed extensively for 
+aircraft-engine valves, and occasionally for bus- and 
+truck-engine valves. 
+Originally a mixture of potassium nitrate and 
+lithium nitrate was used, which melts at about 
+260 F, but later metallic sodium -was substituted for 
+these salts. 
+The advantages of sodium are a low specific gravity 
+(0.97), a high specific heat, a low melting point (207 
+F), and a high boiling point (1616 F). Fig. shows a 
+section of a sodium-cooled valve designed for use in 
+aircraft engines. The stem is of somewhat larger 
+diameter than usual, and is drilled out from the end 
+& the chamber thus formed, after being nearly closed 
+at the end by   swaging process, is filled about half 
+full with metallic sodium. Assuming the valve to be 
+positioned as in an L-head vertical engine, the 
+sodium will be at the bottom (tip end) of the chamber 
+when the valve is closed. it may be seen that in 
+normal operation the valve is alternately accelerated 
+and decelerated at rates many times that due to gravity, with the result that the sodium is thrown violently 
+from one end of the chamber to the other. When at the top end, it absorbs heat from the hot wall, which it 
+gives up to the cooler, lower end of the stem when next it drops to the bottom of the chamber, whence the 
+heat passes to the valve guide and into the cylinder block. These sodium-cooled valves are sometimes 
+furnished with an inner lining of copper, which latter has four times the heat conductivity of valve steels. 
+The end of the stem is sealed with a steel plug, over which is welded a cap of hard steel. 
+In the sodium-cooled valve shown in Fig., which is of an earlier design, only the stem is hollow 
+and partly filled with sodium. Later it was found possible to make both the head and the stem hollow, as 
+in Fig., which shows a valve designed for installation in the cylinder head. In operation the highest 
+temperatures are reached by the center portion of the top surface of the valve and a point on the stem 
+some distance below the head. In comparative tests under similar conditions with a conventional "solid" 
+valve, a sodium cooled valve with hollow stem, and a sodium-cooled valve with hollow stem and head, 
+the maximum temperatures reached by the center portions of the heads were approximately 1380 F, 1240 
+F, and 1170 F, respectively. At the seat the temperatures of the valves in these cases ranged between 1000 
+F and 1100 F. In solid valves the higher temperature of the center portion of the head sometimes results in 
+the formation of cracks at the seat. 
+There can be no doubt as to the great operating advantages of sodium-cooled valves, and the only 
+reason they are not widely used in automotive engines is that they are rather expensive to produce. 
+Considerable effort has been devoted in recent years to the development of improved processes of 
+production. In one process a piece of steel tubing of slightly more than the diameter of the finished stem, 
+after being cut off to the right length, is upset at one end and then spun to what may be called "tulip 
+shape." A disc of steel is then welded on to close the opening in the head, while the end of the stem is 
+closed in the same way as in the case of a valve in which only the stem is hollow. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+11
+Valve Seats
+The valve seats must be faced very accurately, so that there is complete contact between the valve 
+and the valve seat when the former closes. Valve seat face is thus ground to the same angle to which the 
+valve face is ground. This may have any value from 30° to 45°. For cylinder blocks or heads made of grey 
+iron, the inlet valve seats are directly machined on the cylinder blocks or heads as the case may be 
+because working conditions are not severe. These are called integral seats. However, where aluminium 
+blocks or heads are used, separate valve seat inserts are employed even for inlet valves. For the exhaust 
+valves, always the separate valves seat inserts are used, the operating conditions being very severe. Insert 
+seats are also used as salvage procedure when badly damaged integral seats are reconditioned. Valve seat 
+inserts are simply rings made of alloy steel consisting of chromium, silicon, tungsten or cobalt with a 
+conical seat on one of the inside edges. These are force-fitted in the recesses machined in the cylinder 
+head. When worn, these inserts can be easily replaced. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+12
+Valve Springs
+Helical springs are used to keep the 
+valve in constant contact with the tappet and 
+the tappet with the cam. Since the spring is 
+subject to compressive loads, it is ground 
+flat at each end to ensure even distribution 
+of pressure. The coil ends are also placed 
+diametrically opposed to avoid the bending 
+tendency of the spring under compression. 
+The arrangement for the retention of the 
+springs is simple. A ring split into two 
+halves with internal projection to fit into the 
+valve spring retaining groove and the outer 
+surface tapered is employed. Over the split 
+ring another ring is inverted which supports 
+the spring. The valve springs are subject to 
+heavy service. These are, therefore, made 
+from high grade spring steel wire, the 
+materials 
+being 
+generally 
+hard-drawn 
+carbon steel or chrome-vanadium steel. 
+Valve springs are often shot peened to make 
+them fatigue resistant. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+13
+Valve Rotators
+Ordinarily the temperature is not uniform around the circumference of a valve head, being highest 
+where the greatest mass of hot gases passes over it, as on the side nearest the cylinder in an L-head 
+engine. By actual test it was found that in an engine of this type, under certain operating conditions, the 
+exhaust valve- seat insert reached a temperature about 280 F higher on the "near" than on the "far" side, 
+and there can be little doubt that even greater temperature differences exist between opposite sides of the 
+valve head. Such temperature differences cause distortion and leakage. If while in operation the valve 
+could be made to rotate on its seat, that would tend to equalize temperatures and keep down their 
+maximum value. It would tend to keep the seat clean and if leakage should start at any point of the 
+circumference, the resulting damage to the valve would be reduced. A number of so-called valve rotators 
+have been brought out, but so far they have not come into extensive use, probably because they have not 
+always been reliable. Some merely "free" the valve of the restraining effect of the friction due to the 
+spring pressure, while others, in addition, convert some of the axial force producing the opening or the 
+closing motion into a tangential force. The problem of a simple mechanism that will positively rotate the 
+valve on its seat evidently is not an easy one, and complicated and delicate mechanisms can hardly be 
+tolerated in the valve gear. However, according to one valve specialist, positive rotation is more effective 
+in prolonging valve life than any other known means. 
+ 
+Fig. shows a valve-rotating mechanism. The valve spring rests on a seating collar which transmits 
+the spring pressure to the retainer cap through a conical spring washer. When the valve is closed (left 
+view) the pressure of the valve spring is relatively light, hence the spring washer is distended and bears 
+with its inner edge on the retainer cap at 2. As the valve is being lifted (right view) the pressure of the 
+spring increases, the spring washer flattens out, and its point of support is transferred from 2 on the 
+retainer cap to 3 on the steel balls, which latter rest on inclined surfaces on the retainer cap. The effect of 
+the incline is to create a 
+horizontal 
+force 
+component tending to 
+produce 
+relative 
+angular 
+motion 
+between spring washer 
+and retainer cap. Both 
+parts are subject to 
+friction, 
+but 
+the 
+restraining moment on 
+the spring washer is 
+much greater than that 
+on the valve, and as a 
+result 
+an 
+angular 
+motion is imparted to 
+the assembly consisting 
+of valve, retainer cap 
+and 
+retainer 
+lock. 
+During each valve lift 
+each ball moves down 
+the 
+incline, 
+and 
+in 
+between 
+lifts 
+it 
+is 
+returned to the top of 
+the incline by a light 
+spring. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+14
+Valve Guides
+In low-cost engines the valve guides are sometimes cast integral with the 
+cylinder block or head, but the more general practice is to make them in the form of a 
+bushing which is pressed into a hole drilled in the cylinder or head casting. Separate 
+guides have the advantage that they can be renewed when worn. A fairly close fit for 
+the valve stem in the guide is necessary, particularly in the case of inlet valves, 
+because if there is excessive clearance between the stem and guide of these valves, air 
+will be drawn into the cylinder through this clearance during the inlet stroke and 
+dilute the charge received by the cylinder. If the clearances of the valve stems of an 
+engine differ, the charges received by the different cylinders will be unequally 
+diluted, a condition that cannot be corrected by carburetor adjustment. In passenger-
+car engines the clearance between inlet-valve stem and guide ranges between 0.002 
+and 0.003 in. It is very difficult to lubricate the exhaust valve guides effectively, 
+owing to the high temperatures reached by them, and these, therefore, are subject to 
+comparatively rapid wear. Exhaust-valve stems should have a clearance of between 
+0.002 and 0.004 in. in their guides. 
+Separate guides are usually made of cast iron, of 1/8 to 3/16-in. wall 
+thickness, and are made a force fit in the hole in the cylinder or head casting. 
+Sometimes the guide is provided with a flange or shoulder which abuts against a 
+finished surface on the cylinder or head casting as the guide is pressed into position, 
+but more generally this is omitted. 
+The exhaust-valve guide is preferably made to extend substantially up to the point of the stem 
+where the fillet under the head begins, as it has been found that this keeps the valve head cooler than a 
+design which leaves more of the stem exposed to the action of the hot gases during the exhaust period. A 
+slight further reduction of the valve-head temperature can be achieved by counter boring the upper part of 
+the valve guide, or, alternatively, undercutting the upper part of the valve stem, so that there is no contact 
+between stem and guide over this portion of the length of the latter, which then serves merely as a shield 
+for the valve stem, protecting it from the 
+hot gases rushing by during the exhaust 
+period. The guides of inlet valves are 
+preferably made shorter, so that they 
+project into the valve pocket only very 
+slightly, as this reduces the resistance to 
+flow. As indicated in Fig., in the case of 
+the exhaust valve it is advantageous to 
+water-jacket the whole length of the 
+boss for the valve guide, as this keeps 
+down the valve temperature. Lengths of 
+valve guides are usually between 2 and 
+3 times the valve-port diameter. 
+An unusual type of valve guide 
+(Fig.) was used in early Ford engines. 
+The valves of this engine were formed 
+with an enlargement on the end of their 
+stem, which supported a horseshoe-
+shaped spring retainer. Owing to this 
+enlargement, it was impossible to insert the valve into a one-piece guide. The guide therefore was split 
+through its axis, and valve and guide were inserted and with drawn together. The guide was held in 
+position in the bore in the cylinder block by a horseshoe-shaped stamping which entered a groove turned 
+in the guide and rested against a machined surface on the block. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+15
+Design of Valve Tappets
+In L-head engines the valves are operated from the cams 
+through the intermediary of tappets, which latter usually consist of 
+a cylindrical steel part moving in a cast-iron guide formed on or 
+secured to the crankcase. The tappet carries the cam follower at its 
+lower end and is provided with clearance adjusting means at its 
+upper end. 
+ 
+In the design of these members, 
+lightness is an important consideration, 
+since the strength of the valve spring 
+required and the shock and noise 
+produced by the lifting action are directly 
+proportional to the weight of the parts 
+moved by the cam, which include the 
+tappet. In Fig. is shown a section of a 
+roller-type tappet. Its body A is drilled out 
+from the top for the sake of lightness, and 
+its lower end is slotted to receive the roller 
+B carried on roller pin C. A roller-type 
+cam follower must be held in alignment 
+with the cam, and to this end the guide is 
+extended downwardly and slotted to 
+receive the roller. At its upper end the 
+tappet is threaded internally to receive the adjusting screw E, which latter also is 
+drilled out. After a clearance adjustment has been made by means of screw E, the 
+latter is locked by check nut F. 
+Two tappets for use with mushroom-type cams 
+are shown in Fig.. The one on the left is a very light 
+design which provides ample bearing surface. The other 
+one is of tubular stock and has the foot welded to it. A 
+foot of cast iron sometimes is welded to a tubular shank 
+and is hardened by chilling. In other cases the entire 
+tappet is made of cast iron. Tappets have been made also 
+in which the wearing surface of the foot was provided 
+with a veneer of Stellite or some other hard alloy. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+16
+Tappets are used also in valve-in-head engines, but in that 
+case the clearance-adjusting means are located on the top of the 
+engine, where they are more accessible. Two designs of tappets for 
+this type of engine are shown in Fig.. The one on the left is 
+thimble shaped and formed on the inside with a spherical seat for 
+the ball end of the side rod. Solid side rods are used where the 
+distance between the tappet and the rocker lever is comparatively 
+short, as where the camshaft is located on the side of the cylinder 
+block; with the camshaft in the crankcase, tubular side rods are 
+preferable, because of their greater resistance to buckling. It will 
+be seen that the side rod is shown to make a small angle with the 
+axis of the tappet. This has the advantage that its reaction on the 
+tappet has a small horizontal component which can be made to 
+counteract the friction between cam and tappet, thus reducing the 
+friction encountered by the latter. In the design shown at the right 
+the spherical seat for the tubular side rod is at the top  
+The tappet bearing surface must be 
+brought down as close to the cam as feasible, 
+because the load on it is an overhanging load, 
+and if the overhang were great the pressure near 
+the lower end of the bearing would be quite 
+intense. With mushroom type cam followers it 
+is a good plan to offset the follower lengthwise 
+from the middle of the cam, so it will rotate in. 
+its bearing, and no groove will wear in its foot. 
+Such an arrangement is shown in Fig.. 
+In the past it has been customary to 
+make the contact surface of the tappet foot flat. 
+However, the cam usually is located closer to 
+one supporting bearing than to the other, and 
+when the camshaft flexes under the lifting 
+impact, its contact element or surface will be 
+inclined toward the flat tappet surface, which 
+results in stress concentration at one side of the 
+cam. To prevent such stress concentration, 
+tappet-foot surfaces now are sometimes made spherical, with a radius of 30 in. or more. To cause tappets 
+with spherical contact surface to rotate, the cams are made to taper slightly in the axial direction. 
+ 
+Clearance Required
+The amount of valve clearance required has increased in the course of time, because modern 
+engines, on account of their much higher speeds, operate at higher temperatures. In passenger-car engines 
+of the L-head type the average clearance between pushrod and valve stem with the engine cold is about 
+0.010 in. for the inlet, and 0.012 in. for the exhaust valves. For service purposes the "hot" clearances 
+usually are specified, and are somewhat smaller than the figures given. Valve-in-head engines require 
+greater clearances, especially where the cam motion is amplified by the tappet levers. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+17
+Automatic "Zero-Clearance" Tappets
+By means of a hydraulic device supplied with oil from the engine 
+lubricating system (or from a separate source), it is possible to take up 
+clearance between the tappet and valve automatically as soon as it develops. 
+A hydraulic tappet is used extensively by engine manufacturers. A 
+sectional view of this tappet is shown in Fig.. The adjusting means is a 
+separate hydraulic unit which is set into the valve lifter body during the 
+process of assembly. The lifter body is of substantially the same design as 
+the conventional valve lifter, hence only the hydraulic unit needs to be 
+described. 
+ 
+Oil from the engine lubricating system is delivered to a chamber 
+adjacent to the tappet guide, and is fed into the lifter from a point near the 
+bottom of the chamber. It enters the annular groove in the tappet body and 
+passes through the radial hole therein, into the cavity below the hydraulic 
+unit. In order that the hydraulic unit may function properly, the oil must be 
+free from air bubbles, and suitable means are provided to de-aerate it before 
+it enters the tappet. The tube extending down from the hydraulic unit also 
+assists somewhat in the separation of air, and it assures that practically all of 
+the oil in the cavity forms a reserve supply for starting. Oil from the cavity 
+passes through the ball-type check valve into the adjusting chamber below 
+the plunger. A light spring holds the plunger against the valve stem, and the 
+face of the lifter in constant contact with the 
+cam. The bottom of the plunger clears the 
+bottom of the bore by about 1/I6 in. In this 
+manner the air is worked out at the time of 
+installation, the lifter is always filled with oil, 
+and the clearance is entirely taken up by the oil 
+column below the plunger. Hydraulic tappets 
+of this type assure silent operation, eliminate 
+the need for valve adjustment, and increase 
+valve life. They obviate the need for a quieting ramp on the cam. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+18
+Rocker Arm and Rocker Shaft
+The function of the rocker arm is to 
+reverse the upward motion of the push rod to 
+downward motion of the valve and vice versa. 
+The rocker arm may be either solid or hollow. 
+A
+stationary hollow rocker shaft 
+serves as a pivot to the rocker arms and 
+provides 
+passage 
+for 
+lubricating 
+oil 
+simultaneously. Rocker arm is made of steel 
+(forged or stamped) or iron (cast). Cast rocker 
+arms are comparatively cheaper but are not as 
+strong as forged or stamped ones. However, 
+these give satisfactory service in cars. 
+Stamped rocker arms have been found to be 
+light, very strong, yet cheapest of all the 
+types. Rocker shafts are made from hollow 
+steel tubing. A typical material for these 
+would consist of 0.55% carbon, 0.2% silicon, 
+0.65% manganese and the remainder iron. 
+After machining the shaft is case-hardened. It 
+is mounted on cast iron or aluminium 
+pedestals placed between each pair of rocker 
+arms. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+19
+Push Rod
+It 
+serves 
+to 
+transmit 
+the 
+reciprocating motion of the valve lifter 
+to the rocker arm. Since the valve lifter 
+moves in a straight line whereas the 
+rocker arm end moves in an arc about 
+its pivot, to provide compatibility of the 
+two, the push rod forms part of ball and 
+socket joints on both ends. Push rods 
+are made of carbon-manganese steel. A 
+typical push rod steel contains 0.35% 
+carbon, 
+0.2% 
+silicon 
+and 
+1.5% 
+manganese. 
+After 
+hardening 
+and 
+tempering, a hardness of about 250 
+B.H.N. is obtained. The push rod may 
+be either solid or hollow. A hollow 
+push rod is lighter, resulting in decrease 
+of inertia forces. Further, it may also 
+serve as a passage for oil for lubrication 
+of the valve actuating mechanism. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+20
+Dual Valves
+Large valves are more troublesome than small ones, because a large disc will be warped more by 
+the heat, and, besides, the weight of the valve increases rapidly 
+with the linear dimensions, hence the stress on the valve and 
+its mechanism due to rapid opening and closing becomes very 
+great for large diameters. For this reason it has become 
+customary in high-speed engines with large cylinder bores to 
+use two inlet and two exhaust valves per cylinder. 
+An experimental investigation of the relative capacities 
+of large and small valves was made in connection with the 
+development of the Liberty aircraft engine, and the conclusions 
+reached were that at the same pressure drop, one valve of 
+diameter D and lift h is equal in capacity to, first, a pair of 
+valves of diameter O.707D (equal port area) and lift 0.70h and, 
+second, a pair of valves of diameter 0.6D and lift h, for values 
+of h not exceeding about O.25D. Engines with two, three, four 
+& five valves are shown in the following Figures. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+21
+Valve Timing
+The valves are operated by cams on a shaft which turns at one-half the speed of the crankshaft, so 
+that each valve is opened and closed once during two revolutions of the crankshaft. In order that an engine 
+may operate satisfactorily at high speeds, it is necessary that the exhaust valve open before the end of the 
+power stroke and close after the completion of the exhaust stroke; and that the inlet open before the end of 
+the exhaust stroke and close after the completion of the inlet stroke. This involves an overlapping of the 
+exhaust and inlet periods, which is made necessary in part by the very slow opening and closing motions 
+now employed for the sake of quiet operation. If the inlet began to open only after the exhaust had closed, 
+the effective valve opening during a considerable part of the inlet stroke would be so small that the 
+incoming charge would be seriously throttled. For an engine which is intended to "peak" at 3000-4000 
+rpm the valve timing shown in Fig. should prove satisfactory. That there is considerable latitude with 
+respect to the different valve functions may be seen from the following table which applies to 1953 
+passenger-car engines: 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+22
+Overhead Valves
+Valves in the head are operated either by tappet 
+rods extending up the side of the cylinders, or by means of 
+an overhead camshaft. When tappet rods are used, they 
+extend up through an enclosed space and the rocker arms, 
+etc., at the top of the engine are enclosed by a valve cover, 
+which is usually of pressed steel. When the whole valve 
+mechanism is thus enclosed, not only are any noises 
+produced by it muffled, but the joints can all be effectively 
+lubricated and all bearings are protected against dust. In 
+multi-cylinder overhead-valve engines the rocker arms are 
+mounted on a hollow shaft, to which is connected a lead 
+from the pressure lubricating system. At the center of each 
+rocker arm bearing an oil hole is drilled through the wall-of 
+the hollow shaft, so that oil will feed to the bearing surface, 
+and sometimes a hole is drilled lengthwise of the rocker 
+arm from the rocker bearing surface to the 
+point of contact with the valve 
+stem. By placing the breather 
+pipe on the valve cover and 
+establishing communication with 
+the crankcase by means of the 
+tappet-rod passages, an oil-misty 
+atmosphere is created in the valve 
+chamber, and the lubrication of 
+all bearings is provided for. 
+ 
+With 
+tappet 
+rods 
+extending up the side of the 
+cylinder block, as shown in Fig., 
+the weight of the moving parts 
+naturally is greater than in L head 
+engines, and every effort should 
+be made to lighten these parts. 
+The tappet rods preferably are 
+made of steel tubing of an outside 
+diameter of about 3/8 in. for the 
+size 
+of 
+cylinder 
+used 
+in 
+passenger-car engines. Into the 
+lower end of the tube can be 
+fitted a thrust pin with a half-
+round head which has a bearing 
+in a socket formed on a thrust 
+block set into the hollow tappet. 
+At the top an internally threaded sleeve with a hexagon on it is fitted over the tube, and receives the 
+clearance-adjusting screw, which latter has a spherical head nested in a socket formed on the end of the 
+rocker-lever arm. Owing to the fact that all contact surfaces are very liberal in size, and of such shape that 
+they naturally retain any oil getting onto them, there is usually very little wear on these surfaces. The 
+rocker levers usually are drop forgings, though one manufacturer has made them of steel pressings. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+23
+In determining the weight of the valve-
+reciprocating parts where rocker levers are used, it is 
+necessary to first find the radius of gyration of the 
+rocker lever, which can be done either by calculation 
+or experimentally by the pendulum method. The 
+actual weight of the rocker is then reduced in the 
+proportion of the radius of gyration to the length of 
+the rocker arm bearing on the side rod, and the value 
+thus obtained is added to the weight of the tappet 
+and side rod. The weight of the valve and parts 
+moving with it is reduced in the proportion of valve 
+motion to tappet motion, and then added to the other 
+weights. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+24
+Overhead Camshahs
+The simplest and 
+most direct method 
+of actuating valves 
+in 
+the 
+cylinder 
+head is by means 
+of 
+an 
+overhead 
+camshaft, Fig.. It 
+reduces 
+the 
+necessary 
+weight 
+of 
+valve 
+reciprocating parts, 
+thus 
+making 
+it 
+possible 
+to 
+get 
+along with lighter 
+springs 
+and 
+to 
+increase 
+the 
+maximum speed. 
+It appears that one 
+reason for the less 
+quiet operation of 
+the engine is that 
+the source of the 
+noise (the cam gear) is directly underneath the hood, and the noise is therefore more readily transmitted to 
+the passengers ears than when it originates down in the crankcase. It has been found that a contributing 
+factor to noise in the valve gear is the discontinuity of the torque; that is, when the nose of a cam has 
+passed a cam follower, the pressure of the valve spring causes the cam and its shaft to snap forward, 
+thereby taking up the clearance between gear teeth. Trouble from this source may be guarded against by 
+"burdening" the camshaft with additional load, such as the fan, water pump, or generator.  
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+25
+Valve Actuating Mechanisms
+In 
+all 
+the 
+valve 
+actuating 
+mechanisms a cam driven at half the 
+crankshaft  speed is used to operate each 
+valve inlet or exhaust. However, there 
+are different methods of operating the 
+valves from the cam.  
+ 
+These may be broadly divided 
+into two types viz., 
+ 
+1. Mechanisms with side camshaft and 
+2.The 
+mechanisms 
+with 
+overhead 
+camshaft. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+26
+1. Mechanisms with side camshaft 
+ 
+In these the camshaft is on the side of the engine and the valves are operated either directly by the 
+cams or through the push rods and rocker arms. 
+ 
+These may be further classified as: 
+ 
+(a)Double row side valve mechanism (T-head) 
+This is the oldest type of valve 
+actuating mechanism and is shown in 
+Fig. In this the inlet and the exhaust 
+valves 
+are 
+operated 
+by 
+separate 
+camshafts which makes the mechanism 
+complicated. Moreover the shape of the 
+combustion chamber provides poor 
+combustion and low engine performance 
+due to which this type of mechanism is 
+obsolete. 
+ 
+(b) Single row side valve mechanism (L-head) 
+ 
+In this the inlet and the exhaust valves are all arranged in a single row 
+and operated from the same 
+camshaft (Fig.). This method was once quite popular on account of the 
+following advantages: 
+ 
+(i) Low engine height. 
+(ii) Low production cost. 
+(iii) Quiet operation. 
+(iv) Ease of lubrication 
+ 
+This mechanism is, however, no more in 
+use, because it was found to be very inefficient on 
+account of the complicated shape of the combustion 
+chamber which is more prone to detonation. There 
+were also restrictions of space on the size of inlet 
+valves that would be used. Moreover, difficulties 
+were experienced in cooling the exhaust valves. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+27
+(c) Overhead inlet and side exhaust valve mechanism (F-head) 
+This is a combination of the two systems described above. 
+Overhead valve mechanism is used for the inlet valve operation and 
+the side valve mechanism for the exhaust valve. It is used in F-head 
+engines. This mechanism is simpler than the overhead camshaft 
+operated types and allows the use of larger inlet valves, but larger 
+valves being heavier, there is also a limitation on the maximum 
+speed of the engine that could be allowed. F-head engines were 
+found to be less efficient and were also more expensive due to which 
+these have also become obsolete. 
+ 
+(d) Single row overhead valve mechanism (I-head) 
+This type is used quite extensively these days and is shown 
+in Fig.. The cam operates the valve lifter which in turn actuates the 
+push rod. The push rod further operates the rocker arm, which 
+actuates the valve.  
+This type of mechanism is having the following advantages: 
+(i) Higher volumetric efficiency than the side valve design. 
+(ii) Higher compression ratios can be used. 
+(iii) Leaner air-fuel mixtures can be burnt. 
+(iv) The rocker-arm leverage makes it possible to impart 
+desired cam profile lift multiplication to the system and hence use 
+smaller cam lobes compared to the side valve mechanism. 
+The above advantages are, however, accompanied by some 
+drawbacks of the mechanism. 
+These are, 
+(i) The valve operation, on account of the 
+elasticity of the system and the resulting vibrations, is 
+not very precise while accelerating or 
+operating at high engine speeds. 
+(ii) Larger valve lifter clearances are required. 
+(iii) Noisy operation. 
+(iv) Greater maintenance required due to more 
+wear at more joints.  
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+28
+2. Mechanisms with overhead camshaft 
+The 
+valve 
+operating 
+mechanisms with overhead single or 
+double 
+camshafts 
+are 
+highly 
+efficient. 
+However, 
+with 
+these 
+considerably more lubricating oil is 
+needed to flood the cam profiles as 
+compared to the overhead valves 
+operated 
+by 
+side 
+camshafts. 
+Moreover, 
+they 
+have 
+the 
+disadvantage of higher initial costs. 
+Figure. shows single row 
+valves operated by a single overhead 
+camshaft and an inverted bucket 
+type follower. With this type of 
+follower, the camshaft is arranged directly over 
+the valve stems. This type of mechanism is direct 
+and very rigid so that valve movement follows 
+precisely the designed cam-profile lift. Moreover, 
+valve stems are not subjected to side-thrust which 
+means less wear. Tappet clearances are also quite 
+small and do not require adjustment very often. 
+However, drive to the camshaft is quite 
+complicated, positive lubrication is required and 
+adjustment of valve lifter clearance is relatively 
+more difficult. 
+A
+similar valve-operating mechanism
+with end-pivoted rocker arm is shown in Fig..
+The rocker arm provides leverage ratio, which 
+enables the designer to provide smaller cam 
+profile. Moreover, the inertia of rocker arm 
+follower is less compared to the sliding bucket 
+type described earlier and adjustment of tappets is 
+easy. However, due to the elastic bending of the 
+rocker arm, the stiffness of the system and hence 
+precision of valve operation is decreased, a side-
+thrust is produced to the valve stem and guide 
+and more wear and noise occur. 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+29
+In Fig. is depicted a mechanism for 
+inlet and exhaust valves in separate rows, but 
+operated by a single overhead camshaft with 
+inverted bucket type follower and the pivoted
+rocker arm.
+However, quite often the double-row 
+valves are operated by two separate overhead 
+camshafts as shown in Figures. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+30
+Comparison of the Side Camshaft and the Overhead Camshaft Mechanisms 
+ 
+The overhead camshaft type valve actuating 
+mechanisms is generally preferred over the side 
+camshaft type mainly because of its greater rigidity 
+since the camshaft directly operates the valve 
+instead of operating through push rod and rocker 
+arm. Due to this the valve is opened and closely 
+quicker with decreased vibrations and undesirable 
+oscillation. This means in case of high-lift, high-
+acceleration cam profile, the valve operation in 
+case of overhead camshaft is much more precise 
+and smooth than in case of the side camshaft valve 
+system. 
+ 
+However, in case of overhead camshaft with inverted 
+bucker follower, the valve lift is equal to the cam lift, whereas in 
+case of the side camshaft, the valve lift can be adjusted by suitable 
+design, for a given cam lift. This means that in case of overhead 
+camshaft, the cam size has to be relatively larger for the same 
+valve lift, which leads to higher cam-to-follower velocities and 
+relative rubbing velocities resulting in side-thrust reaction caused 
+by the cam action. 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+31
+Desmodromic 
+ 
+A form of valve actuation that uses mechanical means to open & close the valves, thus eliminating 
+valve springs & the resulting bounce at high speeds. They featured in the Mercedes racing cars of the 
+mid-50’s but are now associated with Ducati road & racing motor cycles 
+ 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+32
+Valve Production
+The forgings for conventional poppet valves may be produced by several processes, including 
+drop-forging, upsetting extruding, and electric gathering. In each case the stock used comes in rod or bar 
+form. The extrusion process employs stock of a diameter approximately 70 per cent that of the finished 
+valve head and forms the stem by forcing some of the material through a die while at a red heat. To 
+prevent fracture during the shearing operation, the bars are first brought up to red heat either by induction 
+or in an open furnace. Burrs on the slugs are removed by tumbling. 
+ 
+The average valve forging is completed in one heating on a 500- ton or 750-ton press operating at 
+about 45 rpm. Valve slugs are placed in a hopper which feeds them into an induction-heating coil. The 
+rate of feed can be varied by the operator from 8 to 20 slugs per minute, by means of a variable-speed 
+motor drive. The average automotive valve requires a 1-in. slug, and of these slugs 16 are heated to about 
+2000 F per minute, the power consumption amounting to 50kw. 
+ 
+After the Forging Process, next process is Annealing.
+Most exhaust-valve and all intake-valve forgings are annealed to relieve forging stresses. The 
+treatment varies with the material, annealing temperatures ranging from 1200 F to 1800 F, and annealing 
+periods from one hour to six hours. The process usually is carried on in a chain-type conveyor furnace, a 
+dual control system permitting of changing the temperature during the annealing cycle. Another operation 
+in the heat-treating department consists in grit-blasting the forgings in a tumble blast unit, to remove scale 
+formed in the forging operation and to improve the appearance of the forgings. 
+ 
+The next process in valve production is Machining and Grinding Operations 
+Machining and grinding operations are performed on machine tools set up to make possible 
+progressive line production. After passing through this line and having been subjected to the final 
+inspection, the valves go directly to the shipping room for oiling and packing. The lay-out of the line for 
+a particular valve depends on such factors as size, type, material, and quantity. 
+ 
+All automotive valves have the following operations carried out on them: Roll straightening 
+of stem and head, inspection for straightness, center-less rough-grinding of stem, hardening tip, 
+finish grinding stem, finish grinding seat, inspection 
+ 
+The valve forging is straightened on a machine of the Waterbury- Farrell thread-roller type, the 
+valves are heated to 1425 F in a Surface Combustion chain-type furnace, which is loaded through a 
+hopper and discharges into a chute feeding the straightening machine. The center-less grinders used to 
+grind the stems are pro vided with an infeed attachment which causes the valves to drop into position 
+between the wheels, and with a "kicker" which removes the valves at the end of the grinding cycle. All 
+valves are forged with a flash on the periphery of the head. Most automotive valves are "forge-finished" 
+on top and under the head, but the heads must be finished on the outside diameter and on the seat. That 
+operation, which is usually performed on multiple-spindle automatics with carbide tools is followed by 
+machining of the tip of the valve stem and of the ,keeper groove chamfering of the tip, and facing the 
+valve to length. 
+ 
+Heat Treatment 
+Valves made of XCR and chrome-manganese. steel usually are age-hardened after the semi-finish 
+machining operation, and many intake valves of SAE 3140 steel also are hardened in the semi-finish 
+stage. If the valve is to be heat-treated, semi finish grinding of the stem follows the heat treatment; 
+otherwise it precedes machining of the retainer groove. Heat-treated valves usually are grit-blasted to 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+33
+remove surface scale, and then are hand straightened before any grinding is done on them. The semi-
+finish grind is performed on a Cincinnati centerless grinder. 
+ 
+Hardening and Grinding of Tip 
+ 
+Tips of high-production valves usually are hardened by induction heat, those of others by the 
+conventional flame-hardening process. A 20-kw high-frequency generator supplies the current for 
+induction hardening. Induction hardening permits much better control of the hardness than flame 
+hardening. It is usually specified that tips shall be ground to 15 RMS surface finish, and square with the 
+valve stem to within 0.0015 in.. Large-production valves have the tip ground on automatic grinder 
+equipped with a rotating fixture in which the valves are located from the seat face.  
+ 
+Grinding of the seat is the last operation on the valve, and usually is done on a hydraulic grinder. 
+The total indicator reading of seat runout to stem can be held to less than 0.001 in. in large-volume 
+production. For this operation most valves are located from the tip end. 
+ 
+Inspection 
+All valves are visually inspected for surface defects, possible operations missed, etc., at 'the end of 
+the line. Scleroscope and Rockwell machines are used to check the hardness. Stellited and welded valves 
+are inspected 100 per cent. Magnaflux inspection is made to discover seams, subsurface stringers, and 
+other defects difficult to recognize with the naked eye. Standard gauges are used throughout the line, 
+masters being provided to check the dimensions from seat to tip, from seat to groove, and from groove to 
+tip, and determinations are made of the runout of the tip and the seat relative to the stem. The machined 
+retainer grooves are checked for form, radii, etc., in Comparators with a magnification of 25 to 1.
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+34
+SLEEVE VALVES
+As the term indicates, sleeve valves are cylindrical in 
+shape. They surround the piston and actually form the working 
+cylinder. There are two types of sleeves valves, viz., the single 
+sleeve and the double sleeve types. 
+A single sleeve valve is shown in Fig.. The sleeves are 
+made of steel. 
+The advantages of sleeves are: 
+I. Simplicity of construction. 
+2. Silent in operation, because there are no valve cams, tappets, 
+valves, etc. which make noise. 
+3. A longer period of running before decarbonization becomes 
+necessary (50,000 km as compared to about 10,000 km for 
+poppet valves). 
+4. Reduced tendency to denote, because there are no hot spots, 
+path of flame travel is short and combustion chamber is of 
+symmetrical shape. 
+5. Higher thermal efficiency is attained. 
+ 
+However there are certain disadvantages also because 
+of which it has become obsolete: 
+I. High oil consumption, because larger area of sleeve surface 
+has to be lubricated. 
+2. Gumming. 
+ 
+ROTARY VALVES
+Many types of rotary valves have been developed. Fig. 
+shows a disc type rotary valve. It consists of a rotating disc, 
+which has a port. While rotating, it communicates alternately 
+with inlet and exhaust manifolds. The main advantage of rotary 
+valves is their uniform and noise- free motion. However, there 
+are many difficulties in pressure sealing. Economical valve 
+lubrication is another problem. 
+ 
+References
+•
+High speed Combustion Engines-P M Heldt 
+•
+Automobile Engineering-Dr. Kirpal Singh 
+•
+Machine Design-Abdulla sheriff 
+•
+Theory & Practice in I C Engines-C F Taylor 
+•
+Autocar India Illustrated Automotive Glossary 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+35
+VALVE DESIGN 
+•
+Material -For valve 
+-Nickel steel for inlet valves; & High nickel chromium steel for exhaust valves (due 
+to high temp. and corrosive action) 
+For valve seat-Cast iron or bronze – Replaceable, (Cast iron-for big engines – due to economic reasons.) 
+ 
+•
+Size of valve ports 
+Vg×a=Ap×Cp ave. 
+Where Vg=velocity of gas 
+≈2300 to 3300m/min-for stationary/marine engines 
+ 
+≈3300 to 5000m/min-for automobile engines 
+a=port area=
+4
+2
+port
+d
+π
+;
+Ap=area of piston=
+4
+2
+D
+π
+;
+Cp ave= average piston velocity=2LNm/min 
+*Fix vel. of gas, calculate port area & port diameter 
+(
+)
+β
+α
+η
++
++
+×
+=
+180
+520
+180
+7.
+14
+'
+P
+T
+V
+V
+ch
+g
+g
+Where Vg=gas velocity – fixed – in ft/min 
+ 
+(180+α+β) =duration of valve opening 
+ 
+T=temp. in Rankine - ToF=1.8ToC+32, and T(R)= ToF+459.67 
+ 
+Intake temp.≈20oC = 68oF = 528Rankine; 
+ 
+Exhaust temp.≈300oC=1032Rankine 
+ch
+η
+=charging efficiency for NA Engine≈85%; and 
+SC Engine≈95 to 100% 
+P=pr. of gas in psi 
+=14.7psi - for intake=1atm. 
+ 
+=29psi to 35psi – for exhaust=2 to 4atm. 
+Inlet valve 
+-α=opening advance – generally = 10o,
+& β=closing delay – generally = 20 to 30o
+Exhaust valve
+-α= opening advance – generally – 40 to 50o,
+& β=closing delay – generally – 10 to 20o
+Hence calculate 
+'
+g
+V
+-For stationary engines≤12000ft/min – for intake valve &≤18000ft/min – for exhaust valve
+ 
+-For automobile engines ≤18000ft/min – for intake valve &≤27000ft/min – for exhaust valve 
+ 
+•
+d1=dport=port diameter=
+valve
+gasthrough
+velocityof
+d
+pistonspee
+D
+mean
+)
+(
+•
+fix αv=valve face angle=30o or 45o
+•
+valve lift h 
+Angular area of opening 
+4
+cos
+2
+1
+1
+d
+h
+d
+v
+π
+α
+π
+=
+=port area 
+or 
+α
+cos
+25
+.0
+1
+d
+h =
+But this gives hammering effect 
+ 
+ 
+(h=0.1d1 to 0.2d1)
+Therefore empirical relation 
+h=0.2d1
+may be adopted 
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+36
+•
+Thickness of valve disc = 
+S
+P
+d
+k
+t
+1
+1
+=
+Where k1=0.54-for cast iron; 
+0.42-for carbon steel & high grade steel 
+ 
+S =4000psi-forcast iron; 8000psi-forcarbon steel & 
+ 
+15000psi-for high grade steel 
+ 
+P =max. gas pressure;  
+d1=dport=port diameter 
+[Or
+σ
+max
+1
+5.0
+P
+d
+t =
+, where, σ =allowable stress=420ksc for carbon steel & 700 to 800ksc for high grade steel] 
+ 
+•
+)]
+90
+sin(
+[2
+1
+2
+v
+t
+d
+d
+α
+−
+×
++
+=
+or=d1+2b 
+0.7854(
+)
+2
+1
+2
+2
+2
+3
+7854
+.0
+d
+d
+d
+≥
+−
+•
+d3= (
+)
+2
+2
+2
+1
+d
+d +
+•
+b=0.5(d2-d1) = 0.5d1
+
+
+
+
+
+
+−
+−
+1
+max
+P
+S
+S
+b
+b
+,
+Where Sb=safe bearing pressure=4000psi for cast iron 
+b=0.05d1 to 0.07d1
+an empirical formula 
+or b=
+α
+tan
+t
+=0.1d1+4mm 
+ 
+•
+do=diameter of valve stem = 
+inch
+d
+16
+3
+18
+1 +
+bearing pressure = 
+1
+1
+2
+2
+)
+(
+d
+d
+d
+load
+a
+bearingare
+load
+×
+×
+−
+=
+π
+Valve & valve mechanism 
+B Dinesh Prabhu, Assistant Professor, P E S C E, Mandya 
+ 
+ 
+37
+(
+)
+(
+)
+62.27mm
+50.96
+35.8
+d
+d
+d
+area
+opening
+head
+valve
+of
+Diameter
+8.5mm
+4mm
+8
+35.8
+4mm
+8
+d
+d
+stem
+valve
+of
+Diameter
+7.58mm)
+b
+(assuming,
+7.58
+2
+35.8
+2b
+d
+d
+head
+Valve
+of
+Diamter
+7.58mm
+4mm
+35.8
+0.1
+4mm
+0.1d
+b
+Also,
+10.74mm
+tan30
+6.2
+tanα
+t
+b
+seating
+of
+Width
+And
+6.2mm
+42
+5
+35.8
+0.5
+σ
+p
+d
+0.5
+t
+head
+valve
+of
+Thickness
+h
+Lift
+Valve
+Max.
+35.8mm
+1500
+300
+80
+V
+S
+D
+d
+diameter
+Port
+DN
+DNm/min
+300m/min
+S
+,
+30
+42N/mm
+1500m/min,
+V
+80mm,
+D
+,
+5N/mm
+P
+Given,
+Solution;
+,
+30
+Angle
+Seat
+ 
+Valve
+42N/mm
+Stress
+ 
+Allowable
+300m/min,
+Speed
+ 
+Piston
+ 
+Mean
+1500m/min,
+ Velocity
+Gas
+80mm,
+Diameter
+ 
+Bore
+ 
+Cylinder
+,
+5N/mm
+Pressure
+ 
+Gas
+ 
+Max.
+data;
+ 
+following
+ 
+the
+ 
+from
+ 
+engine
+ 
+an
+of
+dimensions
+ 
+valve
+ 
+&
+lift
+ 
+valve
+ 
+the
+ 
+Determine
+1
+-
+Example
+2
+2
+2
+2
+2
+1
+3
+1
+0
+1
+2
+1
+max
+1
+1
+0
+2
+2
+max
+0
+2
+2
+=
++
+=
++
+=
+=
+=
++
+=
++
+=
+=
+=
+=
+×
++
+=
++
+=
+=
+∴
+=
++
+×
+=
++
+=
+=
+=
+=
+=
+=
+×
+=
+×
+=
+=
+=
+×
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+mm
+mm
+d
+m
+96
+.
+50
+33
+.
+10
+30
+cos
+4
+8.
+35
+cos
+4
+sec
+/
+60
+,
+,
+1
+α
+π
+π
+α
+σ

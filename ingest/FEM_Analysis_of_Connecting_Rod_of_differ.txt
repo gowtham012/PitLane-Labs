@@ -1,0 +1,1452 @@
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 29 
+ 
+FEM Analysis of Connecting Rod of different materials using 
+ANSYS 
+Prateek Joshi1, Mohammad UmairZaki2 
+1(Department of Mechanical Engineering, Noida International University, Greater Noida, India) 
+2 (Faculty of Mechanical Engineering, Noida International University, Greater Noida, India) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+I. INTRODUCTION 
+Connecting Rods are used practically generally 
+used in all varieties of automobile engines. Acting 
+as an intermediate link between the piston and the 
+crankshaft of an engine of an automobile. It is 
+responsible for transmission the up and down 
+motion of the piston to the crankshaft of the engine, 
+by converting the reciprocating motion of the piston 
+to the rotary motion of crankshaft. While the one 
+end, small end the connecting rod is connecting to 
+the piston of the engine by the means of piston pin, 
+the other end, the bigger end being connected to the 
+crankshaft with lower end big end bearing by 
+generally two bolts. 
+ 
+Generally connecting rods are being made 
+up of stainless steel and aluminium alloy through 
+the forging process, as this method provides high 
+productivity and that too with a lower production 
+cost. Forces generated on the connected rod are 
+generally by weight and combustion of fuel inside 
+cylinder acts upon piston and then on the  
+ 
+ 
+ 
+connecting rod, which results in both the bending 
+and axial stresses. 
+ 
+Therefore it order to study the strain 
+intensity, stress concentration and deformation in 
+the crank end of the connection rod, firstly based on 
+the working parameter and the vehicle chosen the 
+design parameter or dimensions of the connecting 
+rod is calculated, then the model of the connecting 
+rod parts is prepared and finally it is analysed using 
+Finite Element Method and results thus achieved 
+will provide us the required outcome of the work 
+done here .Also further study can also be carried 
+out later on for the dynamic loading working 
+conditions of the connecting rod and also 
+improvement in design can also be made for 
+operation condition and longer life cycle against 
+failure. 
+ 
+Pro/ENGINEER Wildfire 4.0 software is 
+used for modelling of the connecting rod model and 
+ANSYS 13 is analysis. ANSYS being an analysis 
+system which stands for “Advanced Numerical 
+System Simulation”. It is an CAE software, which 
+RESEARCH ARTICLE
+OPEN ACCESS
+Abstract: 
+ 
+Connecting Rods are practically generally used in all varieties of automobile engines. Acting as an 
+intermediate link between the piston and the crankshaft of an engine. It is responsible for transmission of the up 
+and down motion of the piston to the crankshaft of the engine, by converting the reciprocating motion of the 
+piston to the rotary motion of crankshaft. Thus, this study aims to carry out for the load, strain and stress analysis 
+of the crank end of the connecting rod of different materials. Based on which the High Strength Carbon Fiber 
+connecting rod will be compared with connecting rod made up of Stainless Steel and Aluminum Alloy. The 
+results can be used for optimization for weight reduction and for design modification of the connecting rod. Pro-E 
+software is used for modeling and analyses are carried out in ANSYS software. The results archived can also help 
+us identify the spot or section where chances of failure are high due to stress induced. Also the results obtained 
+can be used to modify the existing designs so that better performance and longer life cycle can be archived. 
+ 
+Keywords —Connecting Rod, Pro-E, FEA, ANSYS Workbench, Crank, Crankshaft, Piston, Carbon Fiber, 
+Stainless Steel, Aluminum Alloy.
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 30 
+has many capabilities, ranging from simple static 
+analysis to complex non-linear, dynamic analysis, 
+thermal analysis, transient state analysis, etc. By 
+solid modeling software, the geometric shape for 
+the model is described, and then the ANSYS 
+program is used for meshing the geometry for 
+nodes and elements. In order to obtain the desirable 
+results at each and every point of the model, the 
+fine meshing is done which also results in accurate 
+results output. In this study the elements formed 
+after meshing are tetrahedral in shape. Loads and 
+boundary constrains in the ANSYS can be applied 
+on the surfaces and volume as required. Finally the 
+results calculation is done by the ANSYS software 
+and the desired output results can achieved. 
+ 
+II. FINITE ELEMENT METHOD 
+The finite element method (FEM) is a 
+numerical technique for solving problems to find 
+out approximate solution of a problem which are 
+described by the partial differential equations or can 
+also be formulated as functional minimization. A 
+principle of interest is torepresented as an assembly 
+of finite elements. Approximating functions in the 
+finite elements are determined in the terms of the 
+nodal values of a physical field which is sought. 
+FEM subdivides a whole problem or entity into 
+numbers of smaller simpler parts, called finite 
+elements, and solve these parts for the problems. 
+The main advantage of FEM is that it can handle 
+complicated boundary and geometries with very 
+ease. 
+ 
+Steps for the Finite Element Method are:- 
+• Modelling the Model 
+• Import the model 
+• Defining element type 
+• Defining material properties 
+• Meshing of model 
+• Applying boundary constrains 
+• Applying load 
+• Results and Analysing it. 
+ 
+III. 
+SPECIFICATION OF THE PROBLEM 
+The objective of the present work is to design and 
+optimize a connecting rod based upon its material 
+properties by using connecting rod of different 
+materials. Here Stainless Steel, Aluminum Alloy 
+and 
+High 
+Strength 
+Carbon 
+fiber 
+280gsm 
+bidirectional are used to analyze the connecting rod. 
+The material of connecting rod will be optimized 
+depending upon the analysis result output. CAD 
+model of connecting rod will be modelled in Pro-E 
+and then be analyzed in ANSYS Software. After 
+analysis a comparison will be made between 
+existing material and alternate material which will 
+be suggested for the connecting rod in terms of 
+deformation, stresses and strain.and the desired 
+output results can achieved. 
+ 
+IV. 
+OBJECTIVE 
+1. Designing of the analysis rod based on the 
+input parameters and then modeling of the 
+connecting rod in the Pro/ENGINEER 
+Wildfire 3.0 software. 
+2. FEM tool software ANSYS 13.0 is given 
+model and material input based on the 
+parameters obtained. 
+3. To determine the Von Misses stresses, 
+Strain Intensity, Total Deformation and to 
+optimize in the existing Connecting rod 
+design. 
+4. To calculate stresses in critical areas and to 
+identify the spots in the connecting rod 
+where there are more chances of failure. 
+5. To reduce weight of the existing connecting 
+rod based on the magnitude of the output of 
+analysis. 
+ 
+The main aim of the project is to determine the 
+Von-Misses Stresses, Strain Intensity output and 
+optimize the new material used for connecting rod. 
+Based on which the new material can be compared 
+with the existing materials used for Connecting Rod. 
+ 
+V. PRESSURE CALCULATION FOR CONNECTING 
+ROD 
+Engine type air cooled 4-stroke 
+Bore x Stroke   
+= 57.0 x 58.6 mm 
+Displacement   
+= 149.5 cc 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 31 
+Maximum Power  
+= 13.8bhp@8500rpm 
+Maximum Torque  
+= 13.4Nm@6500rpm 
+ 
+Compression Ratio  
+= 9.35: 1 
+ 
+Density of petrol  
+ 
+=737.22kg/m3=737.22E-9 kg/mm3 
+ 
+Flash point for petrol (Gasoline) 
+Flash point 
+ 
+= -43°c (-45°F) 
+Auto ignition temp. 
+= 280°c (536°F) = 553°k 
+ 
+Mass = Density x volume 
+= 737.22E-9 x 19.5E3 
+= 0.110214kg 
+ 
+Molecular weight of petrol 
+= 114.228g/mole 
+= 0.11423 kg/mole 
+ 
+From gas equation, 
+PV=m * Rspecific * T 
+ 
+Where, P = Pressure, MPa 
+V = Volume 
+m = Mass, kg 
+Rspecific = Specific gas constant 
+T = Temperature, °k 
+ 
+Rspecific = R/M 
+Rspecific = 8.3143/0.114228 
+Rspecific = 72.76 Nm/kg K 
+ 
+P 
+= m.Rspecific.T/V  
+ 
+P 
+= (0.110214 x 72.757 x 553) / 149.5 
+= 29.67 MPa 
+ 
+Calculation of analysis is done for maximum 
+Pressure of 30 MPA and 15 MPA. 
+ 
+VI. 
+DESIGN CALCULATION FOR THE 
+CONNECTING ROD 
+In general, 
+ 
+Figure 1: I Section Standard Dimensions of connecting rod 
+ 
+From standards, 
+• Thickness of the flange & web of the 
+section = t 
+• Width of the section, B = 4t 
+• Height of the section, H = 5t 
+• Area of the section, A = 11t2 
+• Moment 
+of 
+inertia 
+about 
+x-axis,Ixx= 
+34.91 
+• Moment of inertia about y-axis Iyy= 
+10.91 
+• Therefore Ixx/Iyy = 3.2 
+Length of the connecting rod (L) = 2 times stroke 
+L = 117.2 mm 
+ 
+Total Force acting F = -	 
+Where   = force acting on the piston 
+	 = force of inertia 
+ =  
+4  ×   
+ = 39473.1543 N 
+	 = 1000
+
+×  ± 2
+"#
+ 
+ 
+wr = weight of the reciprocating parts 
+wr = 1.6 * 9.81 = 15.696 N 
+r = crank radius 
+r = stroke of piston / 2 
+r = 58.6/2 = 29.3 
+ 
+Also,  = Crank angle from dead center 
+ = 0 considering connecting rod is at TDC position 
+"# = length of connecting rod / crank radius 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 32 
+"# = 117.2/29.3 = 4 
+g = acceleration due to gravity, 9.81 
+v = crank velocity m/s 
+w = 2"/60 
+w = 28500/60 = 890.1179 
+v = rw = 29.3e-3*890.1179 = 26.08 
+ 
+On substituting these, 
+	 = 9285.5481 
+Thus, 
+F = 39473.1543 – 9285.5481 
+F = 30187.6062 N 
+ 
+Now, According to Rankine’s – Gordon formula, 
+ =
+$ A
+1 + (
+(
+)**)
+ 
+ 
+Let, 
+A = Cross-section area of connecting rod, 
+L = Length of the connecting rod 
+$ = Compressive yield stress, 
+F = Buckling load 
+Ixx&Iyy = Radius of gyration of sectionabout the x 
+– x and y – y axis resp. 
+Kxx&Kyy = Radius of gyration of section about x – 
+x and y – y axis resp. 
+ 
+For Stainless Steel 
+On substituting these to Rankine’s formula 
+30187.6 =
+170 ∗11
+1 + 0.002(
+2.
+.23)
+ 
+Thus by solving we get, 
+ = 4.7321 
+ 
+Therefore 
+Width B 
+= 4t = 18.9284 mm 
+Height H = 5t = 23.6605 mm 
+Area A = 11t = 246.32 mm2 
+ 
+Height at the piston end   = 0.75H – 0.9 H 
+ 
+ 
+= 0.75*23.66 = 17.745mm 
+Height at the crank end = 1.1H – 1.25H 
+ 
+ 
+= 1.1*23.66 = 26.026 mm 
+Length of the connecting rod (L) = 117.2 mm 
+ 
+Figure 2: Connecting Rod General Dimensions 
+ 
+ 
+Design of small end: 
+Load on the piston pin or the small end bearing () 
+= Projected area * Bearing pressure 
+ 
+ 
+ = dplp * 456 
+ 
+= 39473.154 N load on the piston pin,  
+ 
+= Inner dia. of the small end 
+456= Bearing pressure  
+= 10.0 for oil engines. 
+= 12.7 for automotive engines. 
+ 
+We assume it is a 150cc engine, thus 
+456 
+= 10 MPa 
+7 
+= length of the piston pin 
+= 1.5  
+Substituting, 
+39473.154 = 1.5 . x 10 
+ 
+ = 51.29  ≅  51 mm 
+ 
+7 = 1.5  = 76.5 mm 
+ 
+Outer diameter of small end = +25+29 
+= 51 + [2×2] + [2×5]  
+= 65mm 
+Where,  
+Thickness of bush (5) = 3 to 5 mm  
+Marginal thickness (9) = 5 to 10 mm 
+ 
+Design of Big end: 
+Load on crankpin or the big end bearing () = 
+Projected Area * Bearing pressure 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 33 
+ 
+ = dplp * 456 
+ 
+= 39473.154 N force or load on piston pin 
+$ 
+= Inner dia. of big end 
+7$ 
+= length of crankpin 
+= 1.25 $ 
+45$ = 7.5 MPa  
+ 
+Putting these, 
+ 
+39473.154 = 1.25 $ . $7.5 
+ 
+$ = 64.88  ≅  65 mm 
+ 
+7$ = 1.5  = 97.5 mm 
+ 
+Outer 
+diameter 
+of 
+the 
+big 
+end 
+= 
+$+25+29+25 
+= 65 + [2×2] + [2×5] + [2×4] 
+= 87mm 
+ 
+Where,  
+Thickness of bush (5) = 3 - 5 mm  
+ 
+Marginal thickness (9) = 5 - 10 mm 
+Marginal thickness for bolt (5) = 3 - 6 mm 
+ 
+Design of Big end Bolts: 
+Force on bolts = 
+:
+ ($5) × ;3 × "5 
+$5 
+= Core dia. of bolts 
+;3  
+= Allowable tensile stress for material of the 
+bolts 
+= 12 MPa assume 
+"5 
+= Number of bolts(2 bolts are used) 
+ 
+= 
+:
+ ($5) ×  12 ×  2 
+ 
+= 18.85 ($5) 
+ 
+Also, 
+The bolts and the big end cap are subjected to the 
+tensile forces which correspond to inertia forces on 
+the reciprocating parts at the TDC while on the 
+exhaust stroke. 
+We know that inertia force on the reciprocating 
+parts 
+	 = 1000
+
+×  ± 2
+"#
+ 
+ 
+As calculated above, 
+F = 9285.5481 N 
+Equating Inertia force, to force on bolts, 
+Table 1: Dimensional Specifications of the connecting rod 
+ 
+ 
+9285.5481 = 18.85 ($5) 
+ 
+$5 = 22.19 
+Normal diameter of bolts ($5) 
+$5 
+= 
+<=>
+?. = 27.28 mm 
+ 
+ 
+≅30 @@ 
+Hence we will use M30 sized bolts. 
+ 
+ 
+ 
+The materials chosen for analysis of the connecting 
+rod here are Stainless Steel, Aluminum 7075 and 
+High Strength Carbon fiber.  These materials where 
+tested using ANSYS software for the stress and 
+strain and other forces acting on the connecting rod 
+based on these material properties as shown in the 
+table 2, below 
+ 
+ 
+ 
+ 
+ 
+S.no.
+Parameters (mm)  
+1 
+Thickness of the connecting rod (t) = 4.7
+2
+Width of the section (B = 4t) = 18.92
+3 
+Height of the section(H = 5t) = 23.66 
+4 
+Height at the big end = (1.1 to 1.125)H = 
+26.02 
+5
+Height at the small end = 0.9H to 0.75H= 
+17.74 
+6
+Inner diameter of the small end = 51
+7 
+Outer diameter of the small end = 65 
+8
+Inner diameter of the big end = 65
+9 
+Outer diameter of the big end = 87 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 34 
+Material 
+Selected 
+Stainless 
+Steel 
+Aluminum 
+Alloy 7075 
+ High 
+Strength 
+Carbon 
+Fiber 
+Young’s 
+Modulus, 
+E 
+2.0*10^5 
+MPa 
+71.7 GPa 
+ 100 GPa 
+Poisson’s 
+ratio 
+0.30 
+0.33 
+ 0.10 
+Density 
+7850 
+kg/m^3 
+2700 
+kg/m^3 
+ 1600 
+kg/m^3 
+Shear 
+Modulus 
+29.6 GPa 
+26.9 GPa 
+ 0.6 Msi 
+Tensile 
+Strength, 
+Ultimate
+460 MPa 
+572 MPa 
+ 75.85 
+N/mm^2 
+Shear 
+Strength 
+250 MPa 
+331 MPa 
+ 600 MPa 
+ 
+ 
+ 
+  
+Table 2: Material Properties Used for Analysis 
+ 
+VII. 
+MODELING OF THE CONNECTING ROD 
+USING PRO-E 
+ 
+Pro-Eis used to create a complete 3D digital 
+model of manufactured goods. The models consist 
+of 2D and 3D solid model data which can also be 
+used downstream in finite element analysis, rapid 
+prototyping, 
+tooling 
+design, 
+and 
+CNC 
+manufacturing. 
+Connecting rod of a Light Vehicle Engine 
+easily available in the market is selected and its 
+dimensions are calculated based on the design and 
+working parameters. According the dimensions 
+obtained the model of the connecting rod is 
+developed in the Pro/ENGINEER Wildfire 4.0. 
+Model of the connecting rod and its Big end 
+Bearing Lower half the separately developed of this 
+study as shown in figures below, 
+ 
+ 
+ 
+ 
+Figure 3: Model of connecting rod in Pro-E 
+ 
+ 
+ 
+Figure 4: Model of Crank end Bearing Lower half 
+ 
+VIII. FINITE ELEMENT ANALYSIS USING ANSYS 
+The analysis of connecting rod models are carried 
+out using ANSYS software using Finite Element 
+Method. Firstly the model files prepared in the Pro-
+E, then are exported to ANSYS software as an 
+IGES files as shown in figure 5 & 6 below; 
+ 
+ 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 35 
+ 
+Figure 5: Imported model of Connecting Rod to 
+ANSYS 
+ 
+ 
+Figure 6: Imported model of the Lower Bearing of 
+Connecting Rod to ANSYS 
+ 
+After this areas and sections are segmented as 
+importing the model to ANSYS results in some 
+imperfection. Thus the geometry clean-up is done. 
+Now the material properties are defined on the 
+model for the material used as shown in table above. 
+After that, the meshing of model is to be done. Here 
+a model is divided into a number of elements and 
+nodes. The meshed models of the connecting rod 
+are as shown in figure 7 & 8 below, 
+ 
+ 
+ 
+Figure 7: Meshed model of connecting rod on 
+ANSYS 
+ 
+ 
+Figure 8: Meshed Model of the Lower Bearing of 
+Connecting Rod in ANSYS 
+ 
+Once meshing is done the boundary conditions i.e... 
+DOF constrains, forces, loads are to be applied on 
+the model. As shown fig 9, the pressure is applied 
+on the Crank end bearing of the connecting rod, 
+while keeping piston end fixed. The pressure of 15 
+& 30 Mpa is used. 
+ 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 36 
+ 
+ 
+Figure 9: Load constrained section of connecting rod. 
+ 
+Now the Lower half Crank end bearing is taken and 
+boundary constrained and loads are applied on it. 
+As shown in fig 10, the pressure is applied on the 
+bearing face of the model, while keeping bolt area 
+fixed. The pressure of 15 & 30Mpa is used. 
+ 
+ 
+ 
+Figure 10: Load constrained section of Lower Crank 
+end Bearing. 
+ 
+IX. 
+RESULTS OUTPUT OF ANALYSIS: 
+The static analysis of connecting rod models was 
+conducted for different materials to identify the 
+fatigue locations on it. The tern “static” implies that 
+the forces do not change with time. Results of the 
+static analysis output are shown via stress, strain 
+and deformation under the applied load. The output 
+results of static analysis of both the components are 
+shown in fig below; 
+ 
+Results obtained by ANSYS for the crank end 
+bearing lower half and the connecting rod for 
+stainless steel at the applied pressure of 15mpa. 
+ 
+ 
+Figure 11: Displacement Output of the Lower 
+Bearing of Stainless Steel Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 12: Displacement Output of the Connecting 
+Rod in ANSYS 
+ 
+From the fig 11 the maximum displacement occurs 
+in the Lower Bearing of connecting rod is 0.019415 
+mm. From the fig 12 the maximum displacement 
+occurs in the connecting rod is 0.012095 mm. 
+ 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 37 
+ 
+ 
+ 
+Figure 13: Von-Misses Stress Output of the Lower 
+Bearing of Stainless Steel Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 14: Von-Misses Stress Output of the Stainless 
+Steel Connecting Rod in ANSYS 
+ 
+From the fig 13 the maximum Von-Misses Stress 
+occurs in the Lower Bearing of connecting rod is 
+0.140E+09 MPa. From the fig 14 the maximum 
+Von-Misses Stress occurs in the connecting rod is 
+0.113E+09 MPa. 
+ 
+ 
+ 
+ 
+Figure 15: Total Stain Intensity Output of the Lower 
+Bearing of Stainless Steel Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 16: Total Stain Intensity Output of the 
+Stainless Steel Connecting Rod in ANSYS 
+ 
+From the fig 15 the maximum Strain occurs in the 
+Lower Bearing of connecting rod is 0.960E-03. 
+From the fig 16 the maximum Strain occurs in the 
+connecting rod is 0.796E-03. 
+ 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 38 
+Results obtained by ANSYS for the crank end 
+bearing lower half and the connecting rod for 
+aluminium alloy at the applied pressure of 15mpa. 
+ 
+ 
+ 
+Figure 17: Displacement Output of the Aluminium 
+Alloy Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 18: Displacement Output of the Lower 
+Bearing of Aluminium Alloy Connecting Rod in ANSYS 
+ 
+From the fig 18 the maximum displacement occurs 
+in the Lower Bearing of connecting rod is 0.054893 
+mm. From the fig 17 the maximum displacement 
+occurs in the connecting rod is 0.03481 mm. 
+ 
+ 
+Figure 19: Von-Misses Stress Output of the 
+Aluminium Alloy Connecting Rod in ANSYS 
+ 
+ 
+ 
+ 
+Figure 20: Von-Misses Stress Output of the Lower 
+Bearing of Aluminium Alloy Connecting Rod in ANSYS 
+ 
+From the fig 20 the maximum Von-Misses Stress 
+occurs in the Lower Bearing of connecting rod is 
+0.156E+09 MPa. From the fig 19 the maximum 
+Von-Misses Stress occurs in the connecting rod is 
+0.115E+09 MPa. 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 39 
+ 
+ 
+Figure 21: Total Stain Intensity Output of the 
+Aluminum Alloy Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 22: Total Stain Intensity Output of the Lower 
+Bearing of Aluminum Alloy Connecting Rod in ANSYS 
+ 
+From the fig 22 the maximum Strain occurs in the 
+Lower Bearing of connecting rod is 0.003099. From 
+the fig 21 the maximum Strain occurs in the 
+connecting rod is 0.002319. 
+ 
+ 
+Results obtained by ANSYS for the crank end 
+bearing lower half and the connecting rod for high 
+strength carbon fiber at the applied pressure of 
+15mpa. 
+ 
+ 
+ 
+Figure 23: Displacement Output of the High Strength 
+Carbon fiber Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 24: Displacement Output of the Lower 
+Bearing of High Strength Carbon fiber Connecting Rod in 
+ANSYS 
+ 
+From the fig 24 the maximum displacement occurs 
+in the Lower Bearing of connecting rod is 0.036934 
+mm. From the fig 23 the maximum displacement 
+occurs in the connecting rod is 0.023777 mm. 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 40 
+ 
+ 
+Figure 25: Von-Misses Stress Output of the High 
+Strength Carbon fiber Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 26: Von-Misses Stress Output of the Lower 
+Bearing of High Strength Carbon fiber Connecting Rod in 
+ANSYS 
+ 
+From the fig 26 the maximum Von-Misses Stress 
+occurs in the Lower Bearing of connecting rod is 
+0.142E+09 MPa. From the fig 25 the maximum 
+Von-Misses Stress occurs in the connecting rod is 
+0.121E+09 MPa. 
+ 
+ 
+Figure 27: Total Stain Intensity Output of the High 
+Strength Carbon fiber Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 28: Total Stain Intensity Output of the Lower 
+Bearing of High Strength Carbon fiber Connecting Rod in 
+ANSYS 
+ 
+From the fig 28 the maximum Strain occurs in the 
+Lower Bearing of connecting rod is 0.00159. From 
+the fig 27 the maximum Strain occurs in the 
+connecting rod is 0.001381. 
+ 
+ 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 41 
+Results obtained by ANSYS for the crank end 
+bearing lower half and the connecting rod for 
+stainless steel at the applied pressure of 30mpa. 
+ 
+ 
+ 
+Figure 29: Displacement Output of the Lower 
+Bearing of Stainless Steel Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 30: Displacement Output of the Stainless 
+Steel Connecting Rod in ANSYS 
+ 
+From the fig 29 the maximum displacement occurs 
+in the Lower Bearing of connecting rod is 0.038749 
+mm. From the fig 30 the maximum displacement 
+occurs in the connecting rod is 0.024635 mm. 
+ 
+ 
+Figure 31: Von-Misses Stress Output of the Lower 
+Bearing of Stainless Steel Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 32: Von-Misses Stress Output of the Stainless 
+Steel Connecting Rod in ANSYS 
+ 
+From the fig 31 the maximum Von-Misses Stress 
+occurs in the Lower Bearing of connecting rod is 
+0.302E+09 MPa. From the fig 32 the maximum 
+Von-Misses Stress occurs in the connecting rod is 
+0.229E+09 MPa. 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 42 
+ 
+ 
+Figure 33: Total Stain Intensity Output of the Lower 
+Bearing of Stainless Steel Connecting Rod in ANSYS 
+ 
+ 
+Figure 34: Total Stain Intensity Output of the 
+Stainless Steel Connecting Rod in ANSYS 
+ 
+From the fig 33 the maximum Strain occurs in the 
+Lower Bearing of connecting rod is 0.002071. From 
+the fig 34 the maximum Strain occurs in the 
+connecting rod is 0.001675. 
+Results obtained by ANSYS for the crank end 
+bearing lower half and the connecting rod for 
+aluminium alloy at the applied pressure of 30mpa. 
+ 
+ 
+ 
+Figure 35: Displacement Output of Lower Bearing of 
+the Aluminium Alloy Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 36: Displacement Output of the Aluminium 
+Alloy Connecting Rod in ANSYS 
+ 
+From the fig 35 the maximum displacement occurs 
+in the Lower Bearing of connecting rod is 0.108868 
+mm. From the fig 36 the maximum displacement 
+occurs in the connecting rod is 0.069038 mm. 
+ 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 43 
+ 
+ 
+Figure 37: Von-Misses Stress Output of Lower 
+Bearing of the Aluminum Alloy Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 38: Von-Misses Stress Output of the 
+Aluminum Alloy Connecting Rod in ANSYS 
+ 
+From the fig 37 the maximum Von-Misses Stress 
+occurs in the Lower Bearing of connecting rod is 
+0.311E+09 MPa. From the fig 38 the maximum 
+Von-Misses Stress occurs in the connecting rod is 
+0.229E+09 MPa. 
+ 
+ 
+Figure 39: Total Stain Intensity Output of Lower 
+Bearing of the Aluminum Alloy Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 40: Total Stain Intensity Output of the 
+Aluminum Alloy Connecting Rod in ANSYS 
+ 
+From the fig 39 the maximum Strain occurs in the 
+Lower Bearing of connecting rod is 0.006146. From 
+the fig 40 the maximum Strain occurs in the 
+connecting rod is 0.004598. 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 44 
+Results obtained by ANSYS for the crank end 
+bearing lower half and the connecting rod for high 
+strength carbon fiber at the applied pressure of 
+30mpa. 
+ 
+ 
+ 
+Figure 41: Displacement Output of Lower Bearing of 
+the High Strength Carbon fiber Connecting Rod in ANSYS 
+ 
+ 
+ 
+Figure 42: Displacement Output of the High Strength 
+Carbon fiber Connecting Rod in ANSYS 
+ 
+From the fig 41 the maximum displacement occurs 
+in the Lower Bearing of connecting rod is 0.073868 
+mm. From the fig 42 the maximum displacement 
+occurs in the connecting rod is 0.047555 mm. 
+ 
+ 
+Figure 43: Von-Misses Stress Output of the High 
+Strength Carbon fiber Connecting Rod in ANSYS 
+ 
+ 
+ 
+ 
+Figure 44: Von-Misses Stress Output of the High 
+Strength Carbon fiber Connecting Rod in ANSYS 
+ 
+From the fig 43 the maximum Von-Misses Stress 
+occurs in the Lower Bearing of connecting rod is 
+0.283E+09 MPa. From the fig 44 the maximum 
+Von-Misses Stress occurs in the connecting rod is 
+0.243E+09 MPa. 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 45 
+ 
+ 
+Figure 45: Total Stain Intensity Output of Lower 
+Bearing of the High Strength Carbon fiber Connecting Rod 
+in ANSYS 
+ 
+ 
+ 
+Figure 46: Total Stain Intensity Output of the High 
+Strength Carbon fiber Connecting Rod in ANSYS 
+ 
+From the fig 45 the maximum Strain occurs in the 
+Lower Bearing of connecting rod is 0.00318. From 
+the fig 46 the maximum Strain occurs in the 
+connecting rod is 0.002761. 
+ 
+ 
+Based on the results obtained by the ANSYS 
+software for the displacement, Von-Misses Stress 
+and Strain Intensity at the pressure of 15 MPa and 
+30 MPa the valves for the output obtained can be 
+represented as shown in the tables below. 
+ 
+Table 3: Analysis data for Crank End Bearing lower half at 
+15MPa 
+ 
+ 
+Table 4: Analysis data for Connecting Rod at 15MPa 
+ 
+For 15Mpa 
+Pressure 
+Stainless 
+Steel 
+Aluminum 
+Alloy 7075 
+High 
+Strength 
+Carbon 
+Fiber 
+Displacement
+0.019415 
+0.054893 
+0.036934 
+ 
+ 
+ 
+ 
+Von-Misses 
+Stress 
+0.149E+09 
+0.156E+09 
+0.142E+09 
+ 
+ 
+ 
+ 
+Total strain 
+intensity 
+0.969E-03 
+0.003099 
+0.00159 
+ 
+ 
+ 
+ 
+For 
+15Mpa 
+Pressure 
+Stainless 
+Steel 
+Aluminu
+m 
+Alloy 
+7075 
+High 
+Strength 
+Carbon 
+Fiber 
+Displacemen
+t 
+0.012095
+0.03481
+0.023777
+Von-Misses 
+Stress 
+0.113E+0
+9 
+0.115E+0
+9 
+0.121E+0
+9 
+ 
+ 
+ 
+ 
+Total strain 
+intensity 
+0.796E-03 0.002319 
+0.001381 
+ 
+ 
+ 
+ 
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 46 
+Table 5: Analysis data for Crank End Bearing lower half at 
+30MPa. 
+ 
+ 
+ 
+Table 6: Analysis data for Connecting Rod at 30MPa 
+ 
+ 
+ 
+For comparisons of the results obtained the 
+cumulative graph can be made for both Crank End 
+Bearing Lower half & Connecting Rod for 
+Displacement, Von-Misses Stress and Strain 
+Intensity respectively can as shown below. 
+ 
+ 
+BE- Crank End Bearing Lower half         Cr- 
+Connecting Rod 
+ 
+Graph 1: Displacement Output data for Bearing Lower half 
+and Connecting Rod. 
+ 
+ 
+Graph 2: Von-Misses Stress Output data for Crank End 
+Bearing Lower half and Connecting Rod 
+ 
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+Stainless Steel
+Aluminum Alloy 
+7075
+High Strength 
+Carbon Fiber
+0.00E+00
+5.00E+07
+1.00E+08
+1.50E+08
+2.00E+08
+2.50E+08
+3.00E+08
+3.50E+08
+Axis Title
+Axis Title
+Chart Title
+Stainless Steel
+Aluminum Alloy 
+7075
+High Strength 
+Carbon Fiber
+For 30Mpa 
+Pressure 
+Stainless 
+Steel 
+Aluminum 
+Alloy 
+7075 
+High 
+Strength 
+Carbon 
+Fiber
+Displaceme
+nt 
+0.038749
+0.108868
+0.07386
+8 
+ 
+ 
+ 
+ 
+Von-Misses 
+Stress 
+0.302E+0
+9 
+0.311E+0
+9 
+0.283E
++09 
+ 
+ 
+ 
+ 
+Total strain 
+intensity 
+0.002071 
+0.006146 
+0.00318
+For 
+30Mpa 
+Pressure 
+Stainless 
+Steel 
+Aluminu
+m 
+Alloy 
+7075 
+High 
+Strength 
+Carbon 
+Fiber 
+Displacemen
+t 
+0.024635 
+0.069038 
+0.047555 
+ 
+ 
+ 
+ 
+Von-Misses 
+Stress 
+0.229E+0
+9 
+0.229E+0
+9 
+0.243E+0
+9 
+ 
+ 
+ 
+ 
+Total strain 
+intensity 
+0.001605
+0.004598
+0.002761
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 47 
+ 
+Graph 3: Strain Intensity Output data for Crank End Bearing 
+Lower half and Connecting Rod 
+ 
+X. CONCLUSIONS 
+The forces were applied on the piston head and the 
+effect of it on the connecting rod was studied in this 
+analysis. The pressure developed in the big 
+end/crank end of the connecting rod is analysed in 
+two different parts i.e... Crank end Bearing Lower 
+half and connecting rod for displacement, von-
+misses stress and strain intensity output. The results 
+or conclusion thus that can made on the bases of the 
+output results by ANSYS can be as followed: 
+• It is observed that displacement, Stress and 
+Strain Intensity induced in the Connecting 
+Rod 
+made 
+up 
+of 
+Carbon 
+fiber 
+is 
+comparatively slightly greater than as 
+compare to the Connecting Rod made up of 
+Stainless Steel, thus more advancement in 
+the field of Carbon Fiber is required to be as 
+equivalent and efficiently used as Stainless 
+Steel. 
+• Also it was observed that Connecting Rod 
+made up of Aluminium Alloy has higher 
+intensity of Stress and Strain induced as 
+compare to Connecting Rod made up of 
+Carbon Fiber, thus Carbon Fiber can be a 
+good replacement of Aluminium Alloy.  
+• It was observed that Von-misses Stress 
+Intensity in the both the component Crank 
+end Bearing Lower Half and the Connecting 
+Rod for carbon fiber is lesser as compare to 
+the that of Stainless Steel and Aluminium 
+Alloy. Also manufacturing of complex 
+shape and curved surfaces from Carbon 
+Fiber is much easier and convenient than 
+that of other materials used here. 
+• Though the intensity of displacement in 
+Carbon fiber is much greater than that of 
+Stainless Steel, but this can in minimize by 
+adding more layers of carbon fiber during 
+manufacturing process as it will increase the 
+overall strength of component that too at 
+much lesser increase in overall weight. 
+• It can observed from the displacement, Von-
+misses stress and Strain Intensity Output 
+obtained that the hot spot or the areas where 
+the stresses and strain intensity in higher can 
+be minimize by adding material i.e.… 
+increasing the thickness of that area and also 
+the areas where the stress and strain 
+intensity in less, the materials can be 
+removed from that spot or area in order to 
+decrease the weight of the component.  
+• The composite material like carbon fiber has 
+good strength and also being lighter than 
+both Stainless steel and Aluminium Alloy 
+7075 can be used for connecting rod with 
+the more easily in the near future. 
+• Also lighter weight of connecting rod (made 
+up of High Strength Carbon fiber) can also 
+help in reducing weight of engine block of 
+the 
+automobile, 
+thus 
+increasing 
+fuel 
+economy and thus also decreasing the 
+emission from the automobile. 
+• Thought the stresses and strain intensity 
+induced in the Connecting Rod made up 
+Carbon Fiber is more than that induced in 
+the 
+Stainless 
+Steel, 
+but 
+with 
+the 
+advancement in technology in the field of 
+carbon fiber more higher Strength Carbon 
+Fiber will be there in the near future for 
+automobile industry. 
+• Thought the cost factor and time factor in 
+the manufacturing of components by Carbon 
+0.00E+00
+1.00E-03
+2.00E-03
+3.00E-03
+4.00E-03
+5.00E-03
+6.00E-03
+7.00E-03
+BE Total strain …
+BE Total strain …
+CR Total strain …
+CR Total strain …
+Axis Title
+Axis Title
+Chart Title
+Stainless Steel
+Aluminum Alloy 
+7075
+High Strength 
+Carbon Fiber
+International Journal of Engineering and Techniques - Volume 1 Issue 3, May - June 2015 
+ISSN: 2395-1303                                       http://www.ijetjournal.org 
+Page 48 
+Fiber in more at present time as compare to 
+manufacturing by Stainless Steel and 
+Aluminium Alloy, but mass production will 
+greatly reduce the cost incurred and also 
+time occurred will also reduce with the 
+advancement in technology. 
+Hence at last in can be concluded that Carbon 
+Fiber are the future material that can be used for the 
+manufacturing of Connecting Rod, for being lighter 
+and comparable strength with that of Stainless Steel 
+and Aluminium Alloy. 
+ 
+REFERENCES 
+1. Pro/ENGINEER Wildfire 4.0 manual. 
+ 
+2. ANSYS WORKBENCH 13  manual. 
+ 
+3. G.M Sayeed Ahmed, SirajuddinElyasKhany , Syed 
+HamzaShareef “DESIGN, FABRICATION AND 
+ANALYSIS OF A CONNECTING ROD WITH 
+ALUMINUM ALLOYS AND CARBON 
+FIBER”International Journal of Innovative Research in 
+Science, Engineering and Technology, ISSN: 2319-8753, 
+Vol. 3, Issue 10, October 2014. 
+ 
+4. Nikhil U.Thakare, Nitin D. Bhusale, Rahul P.Shinde, 
+Mahesh M.Patil “FINITE ELEMENT ANALYSIS OF 
+CONNECTING ROD USING ANSYS” Proceedings of 
+Third IRF International Conference on 8th February 2015, 
+Cochin, India, ISBN: 978-93-84209-88-9. 
+5. Prof. N.P.Doshi, 1 Prof .N.K.Ingole “ANALYSIS OF 
+CONNECTING ROD USING ANALYTICAL AND FINITE 
+ELEMENT METHOD” INTERNATIONAL JOURNAL OF 
+MODERN ENGINEERING RESEARCH” (IJMER) 
+www.ijmer.com Vol.3, Issue.1, Jan-Feb. 2013, ISSN: 
+2249-6645. 
+6. Kuldeep B, Arun L.R, Mohammed Faheem “ANALYSIS 
+AND OPTIMIZATION OF CONNECTING ROD USING 
+ALFASiC COMPOSITES”, ISSN: 2319-875, International 
+Journal of Innovative Research in Science, Engineering 
+and Technology, Vol. 2, Issue 6, June 2013. 
+7. Priyank D. Toliya, Ravi C. Trivedi, Prof. Nikhil J. Chotai 
+“DESIGN AND FINITE ELEMENT ANALYSIS OF 
+ALUMINIUM-6351 CONNECTING ROD” Volume/Issue: 
+Vol.2 - Issue 5 (May - 2013), e-ISSN: 2278-0181. 
+ 
+8. Prof. Vivek C. Pathade , Dr. Dilip S. Ingole “STRESS 
+ANALYSIS OF I.C.ENGINE CONNECTING ROD BY 
+FEM AND PHOTOELASTICITY” IOSR Journal of 
+Mechanical and Civil Engineering (IOSR-JMCE) e-ISSN: 
+2278-1684 Volume 6, Issue 1 (Mar. - Apr. 2013), PP 117-
+125. 
+ 
+9. Aniket B. Phatangare,  Prof. M.S. Mhaske,  Prof. 
+S.B.Belkar,  SwapnilKulkarni “USING FINITE ELEMENT 
+ANALYSIS FOR DETERMINING FATIGUE LIFE OF 
+CONNECTING ROD AS USED IN A MOTOR-BIKE”  
+International Journal of Advanced Engineering Research 
+and Studies E-ISSN: 2249–8974. 
+ 
+10. P S Shenoy and A Fatemi, “DYNAMIC ANALYSIS OF 
+LAODS AND STRESSES IN CONNECTING”,  
+Proc.IMechE Vol. 220 Part C: J. Mechanical Engineering 
+Science. 
+11. Ram Bansal “DYNAMIC SIMULATION OF A 
+CONNECTING ROD MADE OF ALUMINIUM ALLOY 
+USING FINITE ELEMENT ANALYSIS APPROACH” 
+IOSR Journal of Mechanical and Civil Engineering 
+(IOSR-JMCE) e-ISSN: 2278-1684 Volume 5, Issue 2 (Jan. 
+- Feb. 2013), PP 01-05. 
+ 
+12. AbhinavGautam, K PriyaAjit “STATIC STRESS 
+ANALYSIS OF CONNECTING ROD USING FINITE 
+ELEMENT APPROACH” IOSR Journal of Mechanical 
+and Civil Engineering (IOSR-JMCE) e-ISSN: 2278-
+1684,p-ISSN: 2320-334X, Volume 10, Issue 1 (Nov. - Dec. 
+2013), PP 47-51. 
+ 
+13. S. Shaari, M.M. Rahman, M.M. Noor, K. Kadirgama and 
+A.K. Amirruddin “DESIGN OF CONNECTING ROD OF 
+INTERNAL COMBUSTION ENGINE: ATOPOLOGY 
+OPTIMIZATION APPROACHM” National Conference in 
+Mechanical Engineering Research and Postgraduate 
+Studies (2nd NCMER 2010)3-4 December 2010, pp.155-
+166. 
+ 
+14. Bhuptani K. M“STRUCTURAL ANALYSIS OF BUSH 
+BEARING FOR SMALL END CONNECTING ROD 
+USING “PROMECHANICA” ISSN 0975 – 668X| NOV 12 
+TO OCT 13 | VOLUME – 02. 2344-02.
+ 

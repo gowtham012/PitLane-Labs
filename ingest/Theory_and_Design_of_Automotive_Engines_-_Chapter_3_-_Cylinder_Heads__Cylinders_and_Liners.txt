@@ -1,0 +1,2120 @@
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+1
+Chapter-3 
+Cylinder heads, Cylinders & liners 
+Most modern automotive engines have all of their cylinders and the greater part of their 
+crankcase poured in a single casting, so that cylinders and crankcase form a single unit. However, 
+cylinders and crankcase perform different functions. 
+ 
+Separate Vs. Integral Cylinder Heads.
+Cylinder heads now almost always are made separate castings, which are secured to the 
+cylinder block with studs and nuts, with a gasket in between to ensure a gas-tight joint. The cylinder 
+head can be cast integral with the block, and at one period in engine development that was the 
+predominant practice. 
+With integral cylinder heads there is, of course, no machining of joint surfaces and no need 
+for a gasket, but the cylinder casting is much more difficult to produce, and. besides, with the design 
+which was usually employed, cooling of the combustion-chamber walls was less effective-the wall 
+temperature of each combustion chamber being less uniform-than in an engine with a detachable 
+head. 
+In the case of L-head engines with integral cylinder heads, the valves were introduced 
+through openings in the head which were closed by threaded plugs generally referred to as "valve 
+caps." These plugs presented to the hot gases in the cylinder a considerable surface which was not 
+water-cooled, and which therefore formed "hot spots." It was customary to screw the spark plug into 
+one of these "valve caps." Since the insulator of the plug 
+naturally is a poor conductor of heat, and the additional 
+threaded joint also formed an obstruction to heat flow, 
+this further aggravated the situation with respect to "hot 
+spots" and made it necessary to keep the compression 
+quite low. 
+With the valve-in-head type of cylinder there are 
+two alternate designs of integral heads. With one of 
+these, exemplified in Fig, 1, the valves seat directly on 
+the metal of the head, but this has the disadvantage that 
+when they are to be reground, the whole block has to be 
+removed from the car. With the other, use is made of so-
+called valve cages, that is, cylindrical sleeves which are 
+set into bores in the cylinder head and retained therein 
+between a shoulder and a ring nut. The valve seat is 
+fom1ed on the inner end of the cage, and there is a port 
+in the wall of the latter through which the gases flow 
+from or into a valve passage cast in the cylinder head. 
+The objection to valve cages is that they add another 
+"joint" to the path for heat flow from the valve head to 
+the jacket water, and therefore result in higher valve 
+temperatures (particularly of the exhaust valve), which 
+promotes detonation and makes the construction 
+unsuitable for high speed, high-compression engines. 
+Fig.1. Cylinder with integral head 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+2
+When the cylinder head is a detachable casting, the cylinder and jacket cores can be more 
+securely supported in the mold, and the cylinder castings are likely to be more nearly true to pattern, 
+with the result that after the cylinder is finished, its walls will be more nearly uniform in thickness. 
+With an engine having a removable head it is possible to thoroughly clean the combustion 
+chamber of carbon, by scraping, after the head has been removed. If it is desired to locate the valves 
+in the head, they may be seated directly on a water-cooled surface. 
+One reason for the continued, limited use of integral heads is that they avoid trouble due to 
+distortion of the upper or outer end of the cylinder bore due to the drawing up of the cylinder-head 
+retaining nuts. Such trouble is experienced occasionally, with detachable cylinder heads (blow-by 
+past piston rings, leakage past valves, and excessive oil consumption), but it can be guarded against 
+by performing the final finishing operation on the bore with a dummy cylinder head in place~ This 
+produces a bore which is true when the retaining nuts are tightened. 
+ 
+Gaskets 
+Copper-Asbestos Gaskets.
+Separate cylinder heads were rendered 
+practical by the introduction of the copper-
+asbestos gasket. This consists of an asbestos 
+sheet cut or stamped to the required form, 
+which is armored with thin sheet copper. 
+There is a copper sheet on each side of the 
+asbestos sheet, and the two copper sheets lap 
+along the outer edges of the asbestos sheet, so 
+that the latter is completely encased. Copper 
+grommets are inserted in the waterway openings and sometimes also in the combustion-chamber 
+openings. In heavy duty engines the combustion-chamber grommet of the gasket may be reinforced 
+by a copper-wire loop or a copper washer. In these copper-asbestos gaskets the copper provides the 
+tenacity and the asbestos the compressibility needed in a packing. A gasket for a four-cylinder L-
+head engine is shown in Fig.2. 
+ 
+Steel-Encased and Other Gaskets.
+Cylinder-head gaskets are made also of asbestos sheet encased in steel instead of copper. 
+Cold-rolled, deep-drawing steel is used, and is rust-proofed to prevent trouble from corrosion. 
+Among the rust-proofing processes applied to sheet steel for gaskets are tinning, electro-
+galvanizing, and terne-plating. Steel, being harder, does not have as good sealing properties as 
+copper, and a sealing coat of some heat-resistant, non-hardening material is generally applied to the 
+gasket, either in the manufacturing process or during installation. The edges of the steel sheet, of 
+course, are not rust-proofed, and some steel-encased gaskets are fitted with copper grommets at the 
+waterways. The principal advantage of steel- over copper-encased gaskets is that the production 
+cost of the former is about 20 per cent less. 
+Another type of gasket comprises a central steel core with a layer of .coated and graphited 
+asbestos on each side thereof, the asbestos being bonded to the core by means of integral steel tangs 
+clinched into it. These gaskets, which are used chiefly in the engines of low-priced passenger cars, 
+generally are provided with steel grommets at the combustion-chamber and waterway openings, one 
+manufacturer is using a cylinder head gasket consisting of a sheet of SAE No. 1010 steel 0.015 in. 
+thick, which is corrugated around the openings therein, including those for the cylinder-head studs. 
+The corrugations have a spring action. and the sealing properties of the gasket are further improved 
+by applying a coating of a heat-resistant lacquer to both sides. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+3
+Cylinder-Head Studs.
+To obtain a gas-tight permanent joint with a cylinder-head gasket it is necessary to make 
+provision for an adequate number of studs distributed as nearly uniformly as possible. With L-head 
+cylinders from 16 to 20 studs are used for a four-cylinder block, from 24 to 26 for a six-cylinder, 
+and from 30 to 32for an eight-cylinder. With , valve-in-head cylinders only two rows of studs are 
+required, instead of three, and the total number therefore is less, viz., 12 for a four-cylinder block, 
+16 for a six- cylinder, and 20 for an eight-cylinder. To prevent distortion of the casting by drawing 
+up the nuts, there must be plenty of metal in the bosses for the studs, and the studs must not be too 
+near the valve seats. In the design of the heads careful attention must be given to the avoidance of 
+pockets which might form steam traps. It is not necessary to use very large water ports. Moderate-
+sized ports judiciously distributed, are better, as they make it easier to prevent leaks. 
+ 
+Cylinder Material.
+In the past automobile-engine cylinders have been generally cast of close-grained gray iron 
+approximating the following composition. 
+ 
+Percent 
+Silicon  
+ 
+1.9 to 2.2 
+Sulphur 
+ 
+not over 0.12 
+Phosphorus 
+ 
+not over 0.15 
+Manganese 
+ 
+0.6 to 0.9 
+Combined carbon 
+0.35 to 0.55 
+Total carbon  
+3.2 to 3.4 
+The SAE has standardized five grades of cast iron, of which four are recommended for 
+cylinder blocks and cylinder heads as follows: No. 111 for small cylinder blocks; No. 120 for 
+cylinder blocks generally. No.121 for truck and tractor-, and No. 122 for diesel engine cylinder 
+blocks. Pistons also are cast of these irons.  
+It was determined from tests conducted, that to obtain the better physical properties the total 
+carbon & silicon contents must be reduced and the phosphorus content held to a lower limit. 
+Among other points usually covered in specifications for cylinder castings arc the following: 
+Castings must be smooth, well cleaned and free from shrinkage cavities, cracks and holes, large 
+inclusions, chills, excess free carbides and any other defects detrimental to machinability, 
+appearance, or performance. They must finish to the size specified. When tensile tests are provided 
+for, the portion of the casting from which the test piece is to be machined is usually specified. . 
+The use of steel for cylinders has often been suggested, and for racing and aircraft engines, 
+cylinders are sometimes made from hollow steel forgings. Several American manufacturers use 
+cylinder castings of semi-steel, more properly called high-test cast iron. This material is made by 
+adding a certain percentage of scrap steel to the melt of cast iron, which results in a finer grain and 
+in somewhat better tensile properties. 
+To make it possible to successfully cast a multiple-cylinder block with thin walls, the iron 
+must pour well and have a "long life" (as the foundry men call it). These characteristics are 
+strengthened, by high phosphorus content, but, unfortunately, this element tends to make the iron 
+soft and less resistant to wear. 
+ 
+Nickel-Chromium irons.
+Certain iron ore mined in Cuba contains small percentages of nickel and chromium, and the 
+metal made from this are, known as Mayari iron, is sometimes added to gray iron for cylinder 
+castings: Mayan iron therefore is a natural alloy. It is claimed that it is free from oxidation & has a 
+lower solidification point, and that the "longer life" of the iron improves the "feeding" of castings 
+when they are properly gated, in spite of low phosphorus content. Castings when sectioned -show 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+4
+sound metal even where there are heavy bosses and thick sections. Cylinder castings made of a 
+mixture containing 10 per cent of Mayari iron showed a tensile strength of 36,740 psi, according to 
+makers of the iron; a transverse strength of 4250 lb, and a Brinell hardness of 223-229. The same 
+iron is also used for cylinder heads and pistons. Results similar to those from Mayari iron are being 
+obtained by the addition of small quantities of nickel and chromium, and such alloy irons are now 
+used not only for cylinder blocks, but also for pistons, particularly for heavy duty, commercial-
+vehicle engines. 
+The chief advantage of alloyed irons is that they possess greater hardness and wear 
+resistance, and that without being harder to machine. The machinability of grey iron is dependent 
+upon the absence of excess iron carbide of chilled or hard spots. Nickel acts to eliminate both, and 
+so to improve machinability. In many cases the alloyed iron, although having a Brinell hardness 
+from 30 to 40 points greater, is actually easier to machine than ordinary gray iron. 
+When nickel is used alone as an alloying element, the content usually ranges between 1.25 
+and 2.5%, whereas if it is used in combination with chromium, the nickel content ranges between 
+o.50 and 1.50 % and that of chromium between 0.25 and 0.50 % it is claimed that a combed content 
+of nickel and chromium of 1 per cent will give cast iron with a Brinell hardness of 207-217; of 2 per 
+cent, 223-235, and of 3 per cent, 241-255. 
+Chromium and nickel, however, are not the only alloying elements purposely added to 
+cylinder irons; others added to improve the fluidity of the molten iron, the resistance of the iron to 
+wear, its machinability, or both of the latter qualities, include, molybdenum, vanadium and titanium. 
+ 
+Copper and Molybdenum Additions.
+Copper is of value in cylinder irons in that it tends to prevent chill in thin sections and to 
+give a finer grain structure in the heavier sections, thus acting the part of a stabilizer, It also 
+increases the fluidity of the iron and acts as a "graphitizer"; it hardens and tightens up the matrix so 
+that “sponginess” is reduced. The improvement due to copper is well shown in transverse tests, and 
+these additions are particularly effective in the presence of high manganese and of nickel or 
+chromium. 
+Molybdenum increases the resistance to wear of cast iron, especially at higher temperatures. 
+This results from the refining action it has on the grain, and from the finer division of graphite 
+which it brings about. It increases the Brinell hardness-although in this respect it is not as effective 
+as an equal proportion of chromium and it accomplishes this without rendering the metal less 
+machinable. It also increases the tensile strength and the toughness of the metal. Where there is a 
+tendency for the castings to crack owing to faults in either the design or the foundry technique-
+molybdenum is often of benefit. It is mostly used in combination with either chromium alone or 
+with both nickel and chromium. 
+ 
+Heat Cracks in Cylinder Walls.
+Cracks in L-head cylinder castings (especially in large ones) sometimes start at the sharp 
+edge formed by the cylinder bore and the valve-passage wall. This edge reaches a very high 
+temperature, because the hot gases pass over it during the exhaust period, and a crack naturally 
+starts easily at a sharp edge. Rounding off this edge has been found a good preventative against heat 
+fatigue cracks. Cracks may start also at either the inlet- or exhaust-valve seat. It was shown that 
+such cracks usually are the result of pre-ignition. The latter causes local overheating of the 
+combustion-chamber wall, and the crack forms when the overheated metal cools again. By 
+installing a "hot" spark plug in one cylinder and then running the engine under full load at from 
+3000 to 3500 rpm, cracks could be produced at will. The "hot" plug causes pre-ignition, and usually 
+one 10-minute run under these conditions resulted in the formation of a crack, though sometimes 
+several such runs were required. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+5
+Cylinder Wear.
+The characteristic which is most important in judging cylinder irons is their resistance to 
+wear under engine- operating conditions. As the cylinder bore wears, the engine loses power, 
+consumes excessive quantities of oil, and gives off smoke in the exhaust. In fact, the rate of oil 
+consumption is usually taken as an index of the state of wear of the cylinder bore. 
+It was observed many years ago that the wear of cylinder bores is very non-uniform. It is greatest at 
+the top end of piston travel (under the topmost ring with the piston at the end of its up-stroke), and 
+decreases rather rapidly from there down. (Fig. 3.) It has been pointed out that cylinder wear is due 
+to three separate causes, viz., 
+Abrasion, which is due to 
+foreign particles in the oil 
+film; 
+Erosion, which is due to 
+metal-to-metal 
+contact 
+between the cylinder wall 
+on the one hand and the 
+piston and rings on the 
+other; and 
+Corrosion,
+which results 
+from chemical action on 
+the cylinder walls by the 
+products of combustion. 
+The order of importance of the three causes varies with conditions of operation. That corrosion 
+may play an important part in the wear of cylinder bores, it was found that accelerated cylinder 
+wear occurs at low cylinder temperatures and is attributable to corrosion resulting from deposition 
+of acid-bearing moisture on the cylinder walls. The reasons for assuming corrosion to be 
+responsible were briefly as follows: 
+1. The pitted and discolored appearance of the cylinder walls and piston rings after low-
+temperature operation. 
+2. The fact that increased wear begins just below the calculated dew point. 
+3. The detection of acids in the water of combustion. 
+4. A large reduction in the rate of wear obtained with hydrogen fuel. 
+5. A reduction in wear obtained when using corrosion-resisting materials. 
+The research work showed that corrosion is largely due to carbonic acid formed by the 
+solution of carbon dioxide, a product of combustion, in water condensed from the gases of 
+combustion. When hydrogen is used as fuel there is no carbon dioxide in the exhaust, so that no 
+carbonic acid can form. 
+ 
+Effect of Cylinder Material on Rate of Bore Wear. 
+The result of the Brinell test 
+is generally regarded as bearing 
+some relation to the rate of cylinder 
+wear. That hardness is a factor in 
+wear resistance is indicated by the 
+fact that heat-treated liners of 
+alloyed iron with a Brinell hardness 
+of slightly over 500, have been 
+found to require reconditioning of 
+the bore (by re-grinding) only one 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+6
+third as often as the bores of gray-iron cylinder blocks with a Brinell hardness of around 200. 
+Cylinders with soft or "porous" spots which are readily detected by the Brinell test, usually show a 
+high rate of wear, but differences in hardness within the usual range specified for gray-iron cylinder 
+castings, say. 180 to 230 Brinell, have little effect on the resistance to wear. 
+ 
+Cylinder Stress and Wall Thickness.
+With the usual compression ratio of between 7 and 8 (for passenger-car engines) a 
+maximum explosion pressure of about 700 psi may be figured with. Now consider a section of a 
+cylinder of b in. bore and 1 in. long, as represented in Fig. 4. The pressure developed in the cylinder 
+by the explosion tends to rupture the wall along lines parallel with the cylinder axis and at opposite 
+ends of a diameter. With a maximum combustion pressure of 700 psi the rupturing force on the 
+section of the cylinder considered is 700b lb. If the wall has a thickness t and the material has a 
+tensile strength of 35,000 psi, the resistance to rupture of the two sections 1 in. long and t in. thick is 
+70.000t lb and the. factor of safety then is 
+f
+=70000t/700b  =100t/b 
+For a factor of safety of 4 the ratio of wall thickness to bore then evidently must be 1/25 
+This rule when applied to cylinders of small bore gives values for the cylinder-wall thickness 
+which, while large enough so far as withstanding the stresses of a normal explosion is concerned, 
+would be too small from the standpoint of shop production. If the water jacket is cast integral, as it 
+usually is, the cylinder can be machined only on the inside, and the minimum thickness of the wall 
+then depends upon the accuracy with which the cores are set. Some allowance must be made for 
+inaccurate core work, and a good value for the wall thickness is  
+ 
+t 
+= (b/25) +0.10in 
+This formula can be safely applied to the whole range of sizes of automotive engines with 
+cast-iron cylinders. 
+The cylinder head must be quite stiff in order to resist the stresses of detonation. The wall 
+itself is usually made slightly thicker than the cylinder wall. In the case of an overhead-valve 
+engine, the Wall is normally stiffened by the vertical walls of the valve pockets. A similar stiffening 
+effect is usually obtained in the heads of L-head cylinders from the walls of spark-plug wells, but if 
+there are any extended flat surfaces in these heads, they should be stiffened by ribbing. 
+ 
+Details of Water Jacket. 
+For a long time it was the general practice to extend the water jacket down the cylinder wall 
+only to the level of the top of the piston when at the bottom of the stroke. As the lower part of the 
+cylinder is not contacted directly by the hot gases, it does not reach an excessive temperature, and 
+therefore does not seem to require water-jacketing. However, in modern high-speed engines the 
+crankcase oil often reaches an excessive temperature, which reduces the load-carrying capacity of 
+the oil film in the bearings, and may cause the latter to fail in hard service. It has been found that by 
+extending the water jacket all the way down the cylinder, the temperature of the oil in the crankcase 
+under extreme conditions may be lowered by as much as 50 Fahrenheit degrees, as compared with 
+an engine with "half-length" jackets, and "full-length" jackets have come into general use. 
+Some designers taper the jacket down from the top to the lower end, so as to place a larger 
+body of water around the compression chamber, where most of the heat must be absorbed. In most 
+engines, however, the depth of the water jacket is uniform from top to bottom. This depth varies 
+somewhat in different designs, but usually is equal to about one-eighth the cylinder bore. Certain 
+parts of the jacket which directly affect the over-all dimensions of the block can be made smaller in 
+depth, including the space between adjacent cylinders and that between a cylinder and a valve 
+pocket or a tappet housing. Liberal water spaces have the advantage that the core sand can be more 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+7
+effectively removed from the casting. In engines of special design, such as those with "wet" liners, 
+the jacket depth can be made less.  
+The jacket wall generally is made as thin as the foundry process permits. It can be made 
+thinner, of course, in a small cylinder than in a big one, because in the former the area is smaller. 
+Average practice with regard to jacket-wall thickness is as follows: 
+Cylinder bore, inches  
+ 
+3 
+4 
+5 
+6 
+Thickness of jacket wall inches 
+5/32 
+3/16 
+7/32 
+1/4 
+Jacket walls must be made heavier when cylinder liners (especially the "wet" kind) are used 
+and the tensile stresses due to the force of explosion are sustained chiefly or wholly by these walls. 
+On the cylinder head the water jacket is usually made of somewhat greater depth than 
+around the cylinders, so as to provide adequate heat-storage capacity over the area where most of 
+the waste heat enters the cooling water. There should be water spaces between all adjacent valve 
+pockets (instead of common walls), and the water should come quite close to the valve seats, as it is 
+only in this way that uniform cooling of the valve seat can be assured, and distortion and 
+consequent leakage prevented. Cylinder heads must be so designed that no steam pockets can form 
+in them; that is, it must be possible for the water to flow from any part of the jacket to the outlet 
+along a continuously rising path. Trouble from overheating is most likely to arise at the exhaust-
+valve seats, and it is therefore desirable that the cooling effect of the circulating water be most 
+intense at the valve pockets. This can be assured by inserting a distributing header in the water 
+jacket, the header connecting with the water entrance to the jacket at the front of the block and 
+having an outlet adjacent to each exhaust-valve pocket. The header is usually made of sheet metal 
+and set into the mold. Two arrangements are illustrated in Fig. 5. 
+With valve-in-head cylinders the location of the water outlet presents some difficulty: 
+because the valve mechanism on top of the engine is usually provided with a cover. One solution of 
+the problem consists in forming a number of outlet bosses on the head over to one side, so they 
+come outside the valve cover, and using a water-return manifold. While this tends to promote 
+uniformity of circulation, it 
+makes for dissymmetry of 
+appearance, which is the more 
+objectionable 
+because 
+the 
+manifold 
+is 
+located 
+very 
+prominently on top of the 
+engine. The more common 
+plan is to have an outlet at the 
+front end of the head, just 
+outside the valve cover, and 
+usually oblong in form, with 
+the long diameter across the 
+engine, so as to minimize the 
+overhang. 
+In cylinders provided 
+with "full-length" jackets, the central portion of the barrel lacks the reinforcement which with "half-
+length" jackets is provided by the flange that forms the bottom of the jacket. If the barrel also 
+happens to be of minimum thickness its central portion will have very little rigidity and will distort 
+easily, particularly if during machining operations the tool strikes a “hard spot:” This makes it 
+almost impossible to obtain a true cylindrical bore. Conditions can be improved in this respect by 
+providing the barrels of such engines with one or two circumferential ribs at intermediary points of 
+their length. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+8
+While the flange around the cylinder at mid-length in engines with half-length water jackets 
+has the advantage of affording the rigidity of structure desirable during machining operations it is 
+detrimental under certain operating conditions. For instance, when an engine is being run under full 
+load immediately after a cold start, the piston heats up much more rapidly than the cylinder block 
+and is apt to get tight in the cylinder and scuff. It has been observed that in engines with half-length 
+jackets such scuffing occurs particularly at the level of the water-jacket bottom flange, which latter 
+prevents the cylinder from expanding. 
+ 
+Guarding Against Cylinder Distortion. 
+It has been pointed out already that a frequent source of trouble 
+in operation is distortion of the cylinder bore which results in 
+blow-by overheating and excessive cylinder wear. Cylinder 
+distortion may he due to either mechanical or thermal causes. 
+Mechanical distortion is most likely to result from tightening of 
+the cylinder-head nuts, if the anchorages for the cylinder head 
+studs are not properly supported. It .has been suggested that 
+these anchorages be either located in a wall which extends 
+straight down to the cylinder bottom flange so that the pull of the 
+stud produces pure tensile stresses on the material of the block, 
+or else be cast on the jacket wall rather than on the cylinder wall, 
+as illustrated in Fig. 6. To further reduce cylinder-wall distortion, 
+this wall is thickened near the top, while the thickness of the 
+deck around the cylinder wall is reduced. 
+In valve-in-head engines the bases for the brackets 
+carrying the rocker arms must he well supported, so they will not 
+yield unduly under load which would make the engine noisy. 
+ 
+Removable Liners. 
+In most engines the pistons hear directly on walls 
+forming part of the cylinder block, hut in some-and 
+particularly in engines with large cylinders-removable liners 
+are used. There are two types of these liners: 
+A "dry" liner is one which is in contact with metal of the 
+block over its whole length, or nearly its whole length, while 
+a "wet" liner is one which is supported by the block over 
+narrow belts only, and is surrounded by cooling water 
+between these belts. 
+In the United States "wet" liners came into use first, 
+especially in the engines of farm tractors and commercial 
+vehicles. Aside from the fact that any liner when worn or 
+damaged can be replaced at relatively low cost, the 
+construction offers the advantage that because of their 
+uniform wall thickness (being machined inside and lout) and 
+because they are very little affected by the tension of 
+cylinder-head studs, separate liners distort less in service than 
+the integral barrels of conventional cylinder blocks.  
+Fig. 7 "Wet" cylinder liner with packing rings. 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+9
+At first the liners were made of the same gray iron that was used for cylinder blocks, but in 
+the course of time materials of greater wear resistance were developed, and as most of these were 
+more expensive than ordinary gray iron, they lent themselves particularly to use in liners. One 
+method of installing a removable "wet" liner in a cylinder block is illustrated in Fig. 7. At the top 
+the liner is provided with an external flange which enters a counter bore in the cylinder. The top of 
+the liner is flush with the top of the block, and the joint is sealed by the cylinder-head gasket. In 
+some cases and especially in Diesel engines-the hole in the gasket is made slightly larger than the 
+cylinder bore, and a ring or loop of copper is inserted to reduce the pressure on the gasket.  
+At the bottom the liner is enlarged in diameter and has three grooves for packing rings cut in it. 
+Instead of in the liner, the grooves may be cut in the block. These packing rings are made of 
+synthetic rubber, which is more resistant to mineral oil and other petroleum products than natural 
+rubber. The packing rings may be made of circular section, of a diameter slightly larger than the 
+width of the grooves, and insertion of the liner then will deform them so that they substantially fill 
+the grooves. To permit easy insertion of the liner, either it or the bore of the block is chamfered, 
+depending on which part contains the packing rings. 
+Inaccuracies in the section diameter of these packing rings are said to have been the cause of 
+some trouble. If the diameter is too small there may be leakage, whereas if it is too large the 
+pressure exerted when the liner is forced into place may crack it. To overcome this difficulty, a 
+cork-synthetic rubber composition of greater elastic compressibility has been developed. Packing 
+ring of this material are molded with a square section, and when inserted project slightly above the 
+surface of the part in which the grooves are cut. Insertion of the liner compresses them flush with 
+that surface. Single and two packing rings also are used, and in the case of two rings, a third groove 
+sometimes is cut between the two containing the packing rings, to collect any oil or water that may 
+seep past the rings and allow it to drain off. 
+"Dry" liners, which in Great Britain 
+were used practically exclusively from the 
+beginning, seem to have gained the ascendancy 
+over the "wet" type in this country after World 
+War II. A typical "dry-liner" installation (in a 
+GMC engine) is shown in Fig. 8. In this engine 
+the cylinder block and crankcase are separate 
+castings, and the liner extends some distance 
+into the crankcase. It is held in position by a 
+flange. at the top. In some other engines with 
+dry liners and a separate crankcase the retaining 
+flange on the liner is near the bottom and is held 
+between the cylinder block and the crankcase. A 
+British manufacturer of Diesel truck engines 
+(Albion) copper-plates the dry liners on the 
+outside. The copper is said to act as a lubricant, 
+facilitating the insertion of the liner, and also to 
+improve the heat flow from liner to cylinder 
+wall.  
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 8 "Dry" cylinder liner in position.
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+10
+Materials for Cylinder Liners 
+For the engines of public-service vehicles, which latter run up enormous mileages in the 
+course of a year, it has been found advisable to use alloy iron for the liners and to heat-treat them. 
+General Motors Truck & Coach Division, for instance, uses such hardened liners in all of its larger 
+engines, the material being a nickel-chromium iron of the following composition:  
+Percent 
+Total carbon  
+ 
+3.10-3.40 
+Combined carbon 
+ 
+0.75-0.90 
+Manganese 
+ 
+ 
+0.55-0.75 
+Phosphorus 
+ 
+ 
+0.20 max. 
+Sulphur 
+ 
+ 
+0.10 max. 
+Silicon  
+ 
+ 
+1.90-2.10 
+Nickel  
+ 
+ 
+1.80-2.20 
+Chromium 
+ 
+ 
+0.55-0.75 
+In the "as cast" condition the liners show a Brinell hardness of 212-241, a transverse strength 
+of 2400 lb on A.S.T.M. arbitration bars (bars of 1.2 in. diameter and 18 in. between supports), a 
+transverse deflection of 0.20-0.30 in., and a minimum tensile strength of 37,000 psi on test bars 
+machined from-the casting. A hydrostatic test also is applied to the liners, which must withstand 
+1500 psi for a wall thickness of l/8 in. and. bores of 4-5 in. To increase their wear resistance, the 
+liners are hardened, by being heated to. 1540- 1560 F for 30 to 40 minutes and quenched in still oil. 
+After this they must show a Brinell hardness of at least tensile 512 while the strength must range 
+between 28,000 and 36,000 psi and the transverse strength between 2700 and 2900 lb for the 
+arbitration bar. With these liners the mileage between cylinder overhauls is said to be practically 
+trebled, as compared. With solid cylinders of gray cast iron showing from 230 to 240 Brinell. A 
+minor disadvantage is that it takes up to 5000 miles for the piston rings to wear in fully, hence the 
+oil consumption is rather high during the early part of the life of the liner. 
+ 
+Nitrided Cylinder Liners.
+A process for nitrogen hardening or “nitriding” cast iron was developed in Europe. The 
+process consists in exposing cast-iron objects to be case- hardened to a current of ammonia vapor at 
+about 900 F for a considerable length of time, and then quenching. At this high temperature the 
+ammonia breaks up into its constituents. Nitrogen and hydrogen, and the nitrogen penetrate into the 
+surface of the casting & combines chemically with the metallic elements, forming very hard 
+nitrides. 
+A Special alloy iron containing aluminum must be used. The liners are exposed to the 
+ammonia vapors for 65 hours at 950 F and then have a hardened case of 0.015 in. depth, the 
+hardness tapering off from the outside, where it is somewhere between 800 and 1000 Brinell.  
+A slight "nitride fuzz" produced on the surface of the liners during the process is removed 
+before they are shipped to engine builders. Some distortion is caused, and the effects of this are 
+eliminated by honing after the liners are inserted into the block, for which purpose an allowance of 
+0.002 in. on the diameter is made. Nitriding also produces a slight "growth," of the order of 0.001 
+in., and this, too, is allowed for in advance. Liners are installed in blocks with a press fit, an 
+interference of 0.0015 to 0.0025 in. being allowed, depending on the bore.  
+ 
+Chromium Plating.
+Another method of reducing the rate of wear consists in chromium plating the bore. The 
+process differs radically from that of chromium plating for ornamental purposes. .It gives a "porous" 
+coating which holds oil, while the so called bright plating process gives a dense coating to which oil 
+will not adhere & which for this reason is readily is scored in service. From 200 to 500 times as 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+11
+much chromium as in conventional decorative plating is deposited per unit of area. If slightly too 
+much should be deposited, so that the bore is undersize by from 0.0005 to 0.001 in., the excess can 
+be removed by honing.Wear tests made on a plain gray-iron cylinder of 241 Brinell hardness and a 
+similar cylinder plated indicated that chromium plating reduces the rate of cylinder wear 
+approximately in the proportion of 7:1 and that the wear on the top piston ring is coincidentally 
+reduced about 4:1. 
+Such methods as nitriding and chromium plating of cylinder bores are applicable 
+particularly to bus and railcar gasoline engines and to Diesel engines, which have a much longer 
+service life than passenger-car engines. Cylinder bores in plain cast iron must be reconditioned 
+about every 50,000 miles, and with either a nitrided or chromium-plated bore, if reconditioning is 
+required at all, it will be required only after a much longer interval. 
+ 
+Length of Bore 
+In most modem engines of both the L-head and I-head type the combustion chamber is 
+formed in the cylinder head and at the end of the up-stroke the top of the piston is flush with the 
+finished top surface of the cylinder block. One reason for not making the piston overrun the end of 
+the bore is that that would bring the top ring beyond the upper end of the water jacket at the end of 
+the up-stroke, where it would not be so effectively cooled, in the ring groove. The lower end of the 
+piston generally is made to overrun the end of the bore slightly. 
+The total length of the finished bore evidently is equal to the length of stroke plus the length 
+of the piston minus any overrun of the piston at both ends, the overrun being considered negative 
+when the piston does not come quite to the end of the bore. To facilitate getting the piston rings into 
+the cylinder, the bore is chamfered at the end from which the piston is entered 
+ 
+Production of Engine Blocks 
+In the design of engine block or cylinder block it is well to consult with the foreman of the 
+pattern shop, because a casting of this kind is a difficult piece of mold, and the advice of an 
+experienced mechanic may obviate trouble later. 
+Cylinders must be molded with the head downward, for the reason that blowholes, porous 
+spots, etc are most likely to occur near the top of the casting, & the head of the cylinder, which is 
+the working end, must of necessity be of sound metal. 
+When the castings have cooled the core sand is removed, the seams etc., are chipped off, & 
+the castings are then put through a cleaning process. [Either by pickling & neutralizing or by blast 
+cleaning (blast cleaning by sand or small granules of chilled iron or steel) & then normalizing & 
+cleaning] 
+Further the cast & cleaned blocks would undergo other operations in sequence like Milling, 
+Drilling, Cylinder boring, Precision boring, Finish of bore, Honing, Lapping, followed by 
+measurement of quality of surface finish, Water test Finishing of valve seats & guides & surface 
+broaching. 
+Transfer machines were adopted since world war-II to perform the operations automatically.  
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+12
+DESIGN OF CYLINDER AND CYLINDER HEAD 
+ 
+Cylinder should be 
+- designed to withstand the high pr. & temp. conditions.  
+- be able to transfer the unused heat effectively so that metal temp. does not approach the 
+dangerous limit. 
+The Cylinder wall is subjected to gas pressure & the piston side thrust. 
+-Piston side thrust tends to bend the wall but the stress in the wall due to side thrust is very 
+small & can be neglected. 
+-The gas pressure Produces 2 types of stresses; 
+-longitudinal and circumferential, which act at right angle to each other & the net stress in 
+each direction is reduced. The longitudinal stress is usually small & can be neglected. 
+lf =longitudinal stress= area
+force = (
+)
+4
+4
+2
+2
+max
+2
+D
+D
+p
+D
+O −
+π
+π
+D=cylinder diameter, 
+DO= cylinder outside diameter, 
+max
+p
+=max. gas pr. 
+cf =circumferential force=
+t
+D
+p
+2
+max ×
+Net  
+lf =
+lf -
+m
+f c , &
+Net 
+cf
+=
+cf -
+m
+fl ,
+where
+=
+m
+1
+poision’s ratio= 4
+1
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+13
+CYLINDER WALL THICKNESS 
+The Wall Thickness is usually calculated by applying the formula for a thin cylinder, 
+thus 
+k
+f
+D
+p
+t
+c
++
+×
+=
+2
+max
+ 
+Where t=wall thickness, mm, 
+max
+p
+= max. gas pr.,N/mm2 (3.1 to 3.5N/mm2), 
+D=cy. bore, mm, 
+cf =max. hoop stress and is equal to 35 to 105 N/mm2 depending on the size and material, larger 
+values are used for smaller bores,  
+Cylinder bore, mm 
+75 
+100 
+150 
+200 
+250 
+300 
+350 
+400 
+450 
+500 
+k =reboring factor, mm 
+1.5 
+2.3 
+4.0 
+6.0 
+7.5 
+9.5 
+10.5 
+12.5 
+12.5 
+12.5 
+The thickness of the cylinder wall usually varies from 4.5mm to more than 25mm, depending upon 
+the cylinder size. 
+According to an empirical relation, 
+For liners of oil engines, 
+t≥15
+D near the top portion & through 20% of the stroke. 
+For dry liners, 
+The total thickness‘t’ is the thickness of the liner & that of the cylinder wall.  
+The thickness of the Dry liner is given as  
+'t =0.03D to 0.035D 
+The thickness of the inner walls of the automobile engine cylinders is usually given empirically as
+ 
+t =0.045D+1.6mm 
+The thickness of Jacket wall is given as 
+  = 3
+1 to 4
+3 t , larger ratio for smaller cylinder 
+ 
+or
+=0.032D+1.6mm 
+The water space between the outer cylinder wall & inner jacket wall is =10mm 
+for a 75mm cylinder to about 75mm for a 750mm cylinder  
+ 
+or
+=0.08D+6.5mm 
+ 
+CYLINDER DIAMETER AND LENGTH 
+The o/p of a given cylinder can be written as - Power=
+W
+pLAn ,
+60
+Where L=stroke in m, 
+A=piston area, mm2,
+n=no. of working strokes per minute= N for 2 stroke engines and 2
+N for 4 stroke engines 
+p=imep-if power is indicated & 
+bmep if o/p is in brake power, N/mm2
+* As a guide, the max. gas pr. can be taken as 9 to 10 times the bmep 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+14
+CYLINDER FLANGES AND STUDS 
+The cylinder is either cast integral with the upper half of the crankcase or attached to it with the help 
+of flanges, studs and nuts. 
+The cylinder flange is made thicker than the wall of the cylinder. 
+Flange thickness should not be less than 1.1 to 1.25t
+Common value for flange thickness = 1.2 to 1.4t
+Or 
+=1.25 to 1.5 d where d =bolt diameter, nominal 
+The distance of the end of the flange from the center of the stud or bolt should not be < d +6mm, 
+and not >1.5 d .
+The use of studs decreases the bending stress at the flange root since the moment arm can be made 
+very small. 
+The material of the studs or bolts is usually nickel steel with a yield point of 630 to 945MPa. 
+The diameter of the bolt or stud is calculated by equation of the gas load to the area of all the studs 
+at the root of the threads multiplied by the allowable fibre stress. 
+,
+∴
+4
+π
+.
+max
+2
+p
+D ×
+=
+t
+c
+f
+d
+z
+×
+×
+2
+4
+π
+∴
+.
+max
+2
+p
+D ×
+=
+t
+c
+f
+d
+z
+×
+×
+2
+∴
+c
+d =
+tf
+z
+p
+D
+×
+max ,
+where
+tf = allowable fibre stress, 35 to 70 N/mm2,
+c
+d = core diameter 
+Low value of 
+tf is taken since there is already high stress in the studs due to tightening of the nuts. 
+The number of studs 
+'
+'z may be taken as 
+
+
+
+
+
+
++
+
+
+
+
+
+
++
+4
+50
+4
+100
+D
+to
+D
+, D in mm 
+Or the pitch of the bolts may be taken as 
+d
+19
+ to 
+d
+5.
+28
+, where d is in mm. 
+In practice d generally varies from ( 4
+3 to 1) times the thickness of the flange. 
+In no case d should be < 16mm 
+Outside 
+ 
+Diameter 
+Core 
+ 
+Diameter 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+15
+CYLINDER HEAD 
+Usually a separate cylinder cover or head is provided with all but the smallest engines. A box 
+type section is employed of considerable depth to accommodate ports. The general design of the 
+cover is governed by the following factors along with the strength consideration. 
+ Air and gas passages 
+ Accommodation of valves and their gear 
+ Accommodation of the atomizer at the centre of the cover in the case of the diesel engines. 
+Cylinder head is the most difficult part to be designed and manufactured. The cylinder heads are 
+usually made of close grained cast iron or alloy cast iron containing nickel, chromium and 
+molybdenum, for small and medium sized engines, while for large engines, the material is low 
+carbon steel. 
+The thickness of the cylinder wall ranges from about 6.5mm for small engines to 
+proportionately larger values for large engines. The thickness depends on the shape of the head. If 
+the cylinder head is approximately a flat circular plate, the thickness can be determined by the 
+relation: 
+tf
+Cp
+D
+t
+max
+=
+Where C=const., in this case equal to 0.1, 
+tf =allowable stress, taken to be 35 to 56 N/mm2
+A low value of 
+'
+'
+tf
+is taken because both pr. & temp. stresses are induced in the cylinder 
+head and the above equation is based upon only the cylinder pressure. The heat transfer through the 
+head is about 5 to 13 times as much heat per unit area as the cylinder walls, depending on the design 
+and amount of cooling. 
+ 
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+16
+3.5N/mm2
+ 
+pr.
+ 
+gas
+ 
+max.
+ 
+300mm,
+bore
+cylinder 
+D
+Given
+:
+Solution
+•
+3.5N/mm
+ 
+of
+pressure
+ 
+gas
+ 
+maximum
+ a
+with 
+engine,
+ 
+petrol
+ 
+300mm
+ a
+for
+stresses
+ 
+the
+&
+all
+cylinder w
+iron 
+cast 
+ a
+of
+thickness
+ the
+Determine
+1
+-
+Example
+•
+max
+2
+=
+=
+=
+=
+p
+bores,
+smaller 
+for 
+ 
+used
+are
+ 
+ues
+larger val
+ 
+material,
+ 
+and
+ 
+size
+ 
+the
+on
+depending
+2
+N/mm
+ 
+105
+ 
+to
+35
+to
+equal
+ 
+is
+and
+ 
+stress
+ 
+hoop
+ 
+max.
+fc
+),
+2
+3.5N/mm
+ 
+to
+(3.1
+ 
+2
+N/mm
+pr.,
+ 
+gas
+ 
+max.
+ 
+max
+mm,
+ 
+bore,
+ 
+cy.
+D
+,
+,
+2
+max
+p
+t
+Thickness,
+ 
+Wall
+Thus
+cylinder,
+thin 
+a
+for
+formula
+applying
+by 
+calculated
+usually 
+is
+Thickness
+Wall
+=
+=
+=
++
+×
+=
+p
+where
+k
+cf
+D
+mm
+k
+f
+D
+p
+Thickness
+Wall
+mm
+N
+f
+Assume
+mm
+k
+table
+above
+From
+c
+c
+t
+5.
+21
+5.9
+45
+2
+300
+5.3
+2
+,
+,
+/
+45
+,
+5.
+21
+max
+2
+=
++
+×
+×
+=
++
+×
+=
+=
+=
+12.5
+ 
+12.5
+12.5
+10.5
+9.5
+7.5
+6.0
+4.0
+2.3
+1.5
+mm
+factor,
+ 
+Reboring
+500
+ 
+450
+400
+350
+300
+250
+200
+150
+100
+75
+mm
+bore,
+Cylinder 
+(
+)
+(
+)
+(
+)
+2
+2
+2
+2
+max
+o
+2
+2
+2
+max
+2
+2
+max
+2
+/
+45
+.
+11
+300
+343
+300
+5.3
+stress
+ 
+al
+longitudin
+Apparent 
+343mm
+ 
+21.5)
+(2
+300
+2t
+300
+2t
+D
+Do
+Now
+pr.
+ 
+gas
+ 
+max.
+ 
+&
+diameter 
+ 
+outside
+cylinder 
+ 
+D
+diameter,
+cylinder 
+ 
+D
+Where,
+4
+/]
+[
+]
+)
+4
+/
+[(
+stress,
+ 
+al
+longitudin
+apparent 
+ 
+Now
+mm
+N
+f
+p
+D
+D
+D
+p
+D
+D
+p
+D
+area
+force
+f
+l
+o
+o
+l
+=
+−
+×
+=
+=
+×
++
+=
++
+=
++
+=
+=
+=
+=
+−
+×
+=
+−
+×
+=
+=
+π
+π
+2
+2
+c
+2
+max
+/
+54
+.
+21
+86
+.2
+4.
+24
+4
+11.45
+-
+24.4
+ 
+=
+Net
+ 
+&
+/
+35
+.5
+1.6
+45
+.
+11
+4
+24.4
+-
+11.45
+=
+Net
+ 
+4
+1
+=
+ratio
+ s
+poision'
+m
+1
+where
+,
+m
+f
+-
+=
+Net 
+ 
+/
+4.
+24
+5.
+21
+2
+300
+5.3
+2
+stress,
+ 
+ntinal
+circumfere
+apparent 
+ 
+Now
+mm
+N
+f
+mm
+N
+f
+f
+f
+mm
+N
+t
+D
+p
+area
+force
+f
+c
+l
+l
+l
+c
+=
+−
+=
+=
+−
+=
+=
+=
+×
+×
+=
+×
+=
+=
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+17
+Watt
+rpm
+n
+mm
+A
+m
+L
+mm
+Ν
+P
+Power
+Indicated
+kW
+o
+η
+Power
+Brake
+Power
+Indicated
+Power
+Indicated
+Power
+Brake
+η
+Since
+Solution
+cylinder.
+the
+of
+dimensions
+the
+Detrmine
+0.80
+η,
+mm
+0.35Ν
+imep
+1200rpm,
+Speed
+4.5kW,
+power
+Βrake
+ions:
+specificat
+following
+the
+has
+Εngine
+CI
+stroke
+4
+vertical
+Α
+2
+Example
+2
+2
+imep
+mech
+mech
+mech
+2
+60
+/
+625
+.5
+8.
+5.4
+:
+.
+/
+×
+×
+×
+=
+=
+=
+=
+∴
+=
+=
+=
+=
+=
+D
+L
+or
+as
+ratio
+D
+L
+e
+i
+Bore
+Stroke
+assuming
+Now
+mm
+D
+m
+L
+or
+mm
+A
+m
+L
+or
+A
+L
+watt
+Engine
+stroke
+acting
+single
+for
+n
+n
+s
+m
+N
+Watt
+35
+.1
+,
+35
+.1
+.
+.
+10
+608
+.1
+4
+10
+608
+.1
+600
+35
+.0
+60
+10
+625
+.5
+60
+600
+35
+.0
+10
+625
+.5
+3
+2
+2
+3
+3
+2
+3
+600
+2
+1200
+4
+2
+]
+1
+1[
+=
+×
+=
+×
+×
+×
+=
+×
+×
+×
+=
+×
+×
+×
+×
+=
+×
+∴
+=
+=
+=
+=
+π
+mm
+Cylinder
+of
+Length
+stroke
+the
+of
+to
+Stroke
+sides
+both
+on
+clearance
+Stroke
+Cylinder
+of
+Length
+Now
+mm
+D
+L
+Length
+Stroke
+mm
+D
+Diameter
+Bore
+or
+mm
+D
+mm
+D
+or
+mm
+D
+m
+D
+5.
+178
+)
+15
+.0
+155
+(
+155
+%
+15
+10
+155
+115
+35
+.1
+35
+.1
+,
+115
+10
+608
+.1
+4
+1000
+35
+.1
+10
+608
+.1
+4
+35
+.1
+3
+2
+2
+3
+2
+2
+=
+×
++
+=
+∴
++
+=
++
+=
+=
+×
+=
+=
+∴
+=
+×
+=
+×
+×
+×
+=
+×
+×
+∴
+π
+π
+Theory and Design of Automotive Engines 
+By B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, KARNATAKA 
+18
+References: 
+1. High Combustion Engines – P M Heldt 
+2. M/C Design –Sharma & Agarwal 
+mm
+t
+iron
+cast
+grade
+good
+for
+mm
+N
+f
+assuming
+mm
+N
+to
+stress
+fibre
+allowable
+f
+constant
+C
+mm
+N
+p
+mm
+whereD
+f
+p
+C
+D
+t
+cover
+cylinder
+of
+Thickness
+Solution
+cover
+cylinder
+the
+for
+also
+studs
+the
+Design
+.
+3.2N/mm
+ely
+approximat
+is
+pressure
+gas
+maximum
+The
+cylinder.
+0.3m
+for
+head
+cylinder
+plain
+a
+of
+thickness
+the
+Determine
+Example
+t
+t
+t
+2
+2.
+26
+42
+2.3
+1.0
+300
+,
+/
+42
+}
+/
+56
+35
+&
+,1.0
+{
+/
+2.3
+,
+300
+:
+.
+3
+2
+2
+2
+max
+max
+=
+×
+=
+∴
+=
+=
+=
+=
+=
+=
+=
+×
+=
+=
+pressure
+gas
+D
+stud
+the
+on
+Load
+mm
+d
+d
+D
+D
+diameter
+circle
+Pitch
+diameter
+core
+d
+diameter
+bolt
+nominal
+d
+cylinder
+the
+of
+wall
+inner
+the
+the
+from
+d
+to
+d
+be
+should
+stud
+the
+of
+centre
+the
+that
+practice
+common
+a
+is
+it
+Or
+diameter
+cylinder
+the
+acting
+be
+to
+assumed
+be
+may
+pressure
+the
+initially
+known
+not
+is
+diameter
+stud
+the
+as
+but
+studs
+the
+of
+d
+c
+p
+the
+upon
+act
+actually
+will
+gas
+The
+Studs
+p
+p
+c
+.
+max
+4
+3
+300
+3
+)
+,
+(
+.
+5.1
+25
+.1
+,
+.
+,
+,
+.
+.
+.
+2
+×
+×
+=
+∴
++
+=
++
+=
+∴
+=
+=
+π
+2
+/
+63
+.
+,
+&
+2
+/
+70
+35
+&
+8
+8.0
+8.0
+,
+,
+,
+4
+2.3
+4
+)
+3
+300
+(
+,
+10
+7
+4
+50
+300
+4
+100
+300
+4
+50
+4
+100
+.
+2
+2
+mm
+N
+tf
+studs
+of
+No
+Z
+diameter
+core
+c
+d
+mm
+N
+to
+tf
+where
+Z
+Let
+d
+diameter
+nominal
+d
+diameter
+core
+let
+f
+d
+Z
+load
+But
+d
+to
+to
+D
+to
+D
+Z
+studs
+of
+No
+Now
+c
+t
+c
+=
+=
+=
+=
+=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+×
+=
+×
+=
+×
+×
+×
+=
+×
++
+×
+=
+=
++
++
+=
++
++
+=
+π
+π
+satisfied
+are
+conditions
+Both
+mm
+to
+mm
+e
+i
+d
+to
+d
+between
+lies
+pitch
+maximum
+and
+mm
+d
+be
+should
+pitch
+minimum
+Now
+mm
+Z
+D
+studs
+the
+of
+Pitch
+mm
+d
+d
+D
+D
+mm
+d
+get
+we
+error
+trial
+By
+d
+d
+p
+p
+∴
+=
+×
+=
+=
+×
+=
+×
+=
+∴
+=
+×
++
+=
++
+=
++
+=
+∴
+=
+×
+×
+×
+=
+×
++
+×
+∴
+,
+187
+5.
+124
+.,
+.
+5.
+28
+19
+129
+43
+3
+3
+5.
+168
+8
+429
+429
+43
+3
+300
+3
+300
+3
+43
+,
+,
+&
+63
+4
+)
+8.0
+(
+8
+2.3
+4
+)
+3
+300
+(
+2
+2
+π
+π
+π
+π

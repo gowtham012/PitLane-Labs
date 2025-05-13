@@ -1,0 +1,184 @@
+ 
+Finite Element Analysis of a Four-Cylinder Four Stroke 
+Gasoline Engine Crankshaft  
+Setyamartana Parman1,a, Bambang Ari-Wahjoedi2 and Abdul Jalil Ismail1 
+1Department of Mechanical Engineering, Universiti Teknologi PETRONAS, Malaysia 
+2Department of Fundamental and Applied Sciences, Universiti Teknologi PETRONAS, Malaysia 
+Abstract. Stress analysis of a crankshaft using traditional method is complicated and 
+needs modification by considering its stress concentration factors. To solve this problem, 
+the crankshaft strength of a four-cylinder four stroke gasoline engine is modeled and 
+analyzed using finite element method (FEM) in this paper. For this purpose, the 
+crankshaft is modeled using CATIA software in detail. Then, the model is imported in 
+ANSYS. In the recent software, the model is meshed into a number of finite elements. 
+After defining the boundary and loading conditions, the stresses occur in the crankshaft 
+are analyzed in order to identify critical locations on it. 
+1 Introduction  
+Engine crankshaft is an important component of an engine as it converts the reciprocating 
+displacement of the piston to a rotary motion. The crankshaft effectively absorbs forces from the 
+explosion, transmits energy to the engine flywheel, which transfers energy to a shaft connected to the 
+driven machinery [1]. Since the crankshaft experiences a large number of load cycles during its 
+service life, it is important to study and analyze the strength of this component in evaluating their 
+performance and lifetime of the crankshaft.  
+In the traditional crankshaft stress calculation methods, such as the method of beam supported of 
+both ends and the continuous beam method, the calculation process is complicated and needs to 
+modify the crankshaft stress that calculated by stress concentration factor [2]. Finite element method 
+(FEM) is a numerical calculation method based on variation principle for solving mathematical and 
+physical problems [3]. Besides, it is a powerful tool to analyze various structural problems and 
+provide theoretical basic for the design [4].  
+The objective of the paper is to model the four-cylinder four stroke gasoline engine crankshaft 
+geometry using CATIA, and then analyze the stresses occur in it under loading conditions using 
+ANSYS. Critical locations will be identified based on the results of finite element analysis given by 
+the ANSYS software. 
+2 Finite Element Model  
+In this paper, the model of a four-cylinder four stroke gasoline engine crankshaft was developed using 
+CATIA software. The model includes the parts of crankpin, journal, counterweight, main bearing 
+DOI: 10.1051/
+C
+⃝Owned by the authors, published by EDP Sciences, 2014
+,
+/
+04004 (2014)
+201
+conf
+ 
+Web of Conferences
+4
+04004
+13
+13
+MATEC
+matec
+ This is an Open Access article distributed under the terms of the Creative Commons Attribution License 2.0, which permits 
+unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
+ This is an Open Access article distributed under the terms of the Creative Commons Attribution License 2.0, which permits 
+unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
+Article available at http://www.matec-conferences.org or http://dx.doi.org/10.1051/matecconf/20141304004
+journal and flywheel mounting flange as shown in Figure 1. The dimensions of crankshaft parts are 
+shown in Figure 2 and listed in Table 1. 
+ 
+Figure 1. Four-cylinder four stroke engine crankshaft. 
+Figure 2. Crankshaft dimension and parts: (1) power-
+off end, (2) flywheel mounting flange, (3) crankpin, (4) 
+crank web, (5) journal, (6) counterweight and (7) 
+crankshaft free end. 
+2.1 Engine crankshaft modeling  
+Several various reasonable simplifications were made in the finite element analysis. Petty details such as fillet, 
+chamfering and so on were given up and only the relative importance features is left, such as done in Ref. [3]. 
+These simplifications were necessary as to avoid the incomplete part when the model imported from CATIA 
+software, see Figure 3, to the ANSYS software for the finite element analysis part as shown in Figure 4. It found 
+that the mistakes frequently occurred for the incomplete part of the crankshaft in the grid analysis used in ANSYS 
+software. Furthermore, the simplification made due to the of lack accurate geometric information for some parts 
+of the crankshaft. Since the needed result from the analysis was the strength of the crankshaft, small errors could 
+be occur by ignoring some chamfers and fillets. The position drawn of the crankshaft is in Top Dead Center 
+(TDC) position.   
+Table 1. Basic dimension of crankshaft 
+ 
+ 
+ 
+Figure 3. Three-dimensional geometry model using 
+CATIA. 
+ 
+Figure 4. Meshing model in ANSYS. 
+MATEC  Web of Conferences  
+04004-p.2
+2.2 Model meshing 
+Meshing is the procedure of cutting the structure into several elements. Then the connection between 
+elements defined as nodes that hold elements together as if the nodes were pins or drops of glue. This 
+process results in a set of simultaneous algebraic equations [1]. The mesh type selected for the model 
+is tetrahedrons with 77442 elements number and 117685 nodes number as shown in the figure below. 
+Greater the fineness of the model mesh, the better accuracy of the result. In order to analysis the 
+strength of crankshaft, the material attribute of the model must be define. The material of the 
+crankshaft is QT-800 (gray cast iron), where the mass density, Poisson’s ratio, Young’s modulus and 
+the tensile strength are 7800 kg/m3, 0.28, 210 GPa and 345 GPa, respectively. 
+3 Finite Element Analysis  
+3.1 Load constraints  
+According to the crankshaft actual working condition, the major force on the crankshaft is generated 
+by interaction between the mixture of fuel and air combustion and the piston. Piston is connected to 
+crankshaft by a connection rod at the crankpin. While the crankshaft is operated at high rotational 
+motion, the bending load acts directly to the crankshaft through connecting road. The crankshaft 
+analyzed in this project is one of the gasoline engine. Generally, it is also known as a spark-ignition 
+(S.I) engine.  
+ 
+Figure 5. Piston formation and top dead center 
+(TDC) position. 
+ 
+Figure 6. Forces acting on the crankshaft. 
+In four stroke spark-ignition engine, four piston strokes required to complete one cycle [5]. The 
+first strokes known as induction stroke where it created mixture of air and fuel as the piston moves 
+away from cylinder head. The second stroke is compression stroke where it compressed the fuel and 
+air mixture towards cylinder head. For the third stroke known as power stroke whose produced the 
+highest force of the engine where the spark plug ignites the fuel and air mixture and pushed the piston 
+downward. While the last stroke known as exhaust strokes works as to remove the exhaust gas of fuel 
+and air combustion to the air. These formations of engine piston made the engine crankshaft at it top 
+dead center (TDC) position which is studied in this paper as shown in Figure 5. 
+From the operation of the engine piston, it produced four different value pressures acting to the 
+engine crankshaft. The maximum or the highest pressure produced by the power stroke is 60 bar, 
+while induction stroke produced 0.12 bar, the compression stroke produced 14 bar and exhaust stroke 
+produced 5 bar of pressure [4]. The force imposed to crankshaft calculated using mathematical 
+equation of P = F/A with the bore diameter of the engine cylinder is 82 mm. This force is assumed to 
+be acting at the crankpin center point as shown in Figure 6.  
+ICPER-2014 
+04004-p.3
+3.2 Boundary conditions  
+The definition of boundary condition has a direct relationship to the type of the meshing model. 
+Therefore, it must be carefully defined in order to be similar to the engine crankshaft actual working 
+condition. Some simplified assumption has to be justified in order to establish the boundary condition 
+in this paper: (1) The torque acting to the crankshaft is ignored. Only bending moment is considered in 
+this analysis. Engine crankshaft mostly affected by the bending moment causing tensile and 
+compressive stresses. (2) The mass force is included in the program itself. As the material defined in 
+the program, it automatically provides the value of the mass based on the crankshaft density. 
+Therefore, mass force boundary condition excluded.  
+ 
+Figure 7. Fixed support on crankshaft. 
+ 
+Figure 8. Frictionless support on crankshaft. 
+The engine crankshaft is supported at both flywheel mounting flange and crank nose part. 
+Therefore, it restricted the movement in x, y and z direction as shown in Figure 7. Based on Figure 8, 
+the movement of the crankshaft journal is constrained in x and y direction as the bearing restricted the 
+movement. 
+ 
+Figure 9. Crankshaft deformation. 
+ 
+Figure 10. Crankshaft stress distribution. 
+4 Result and Discussion 
+After all the requirement data and steps fulfill in the program, the result calculated by the software. 
+From Figure 9 and 10, it shows the deformation of engine crankshaft and stress concentration region 
+resemble to actual working condition. Based from Figure 9, the maximum displacement value is 0.013 
+mm located at the counterweight part of crankshaft. Besides that, Figure 10 shows that the second 
+crankpin from right became high stress concentration regions which suffered the largest stress and 
+most easily broken. While according to Figure 11 shows the stress maximum point located at the edge 
+of crankpin which value is 45.35 MPa. Furthermore, the shear stress maximum value calculated by the 
+program is 22.17 MPa located opposite to the maximum stress point as shown in Figure 12. From the 
+MATEC  Web of Conferences  
+04004-p.4
+value obtained by the software, it can be conclude that the crankpin parts of the engine crankshaft 
+appeared to be the danger zone with high stress.  
+Figure 11. Location of maximum stress at crankshaft.
+Figure 12. Location of maximum shear stress at 
+crankshaft.
+ 
+5 Conclusion 
+Modeling the geometry and analysis the crankshaft using CATIA and ANSYS software has been done 
+in this paper. The loads on the crankpin were modeled as surface forces. In the analysis, only bending 
+loads were considered, while torsional loads were neglected.  
+Under 60 bars pressure, results indicate that the maximum stress on the crankshaft is 43.35 MPa and it 
+occurs at the point located on the edge of crankpin. The value of maximum shear stress happening is 
+22.17 MPa and it takes place at the opposite side of the point with maximum stress.  
+Acknowledgement  
+The authors would like to thank to Universiti Teknologi PETRONAS for the computer facilities 
+provided in order to complete this research.  
+References  
+[1] Dunford, C. (2011) Looking at the Technical Issues and Beyonds: Crankshaft purpose, design and 
+modes of failure. CSL Technical Focus, Issue 2 (November), pp. 1-2  
+[2] Xu, Z., Cui, Z. and Wang, X. (2012) A New Method Based on Finite Element Analysis for 
+Crankshaft Strength. Applied Mechanics and Materials, pp. 2125-2128  
+[3] Yingkui, G. and Zhibo, Z. (2011) Strength Analysis of Diesel Engine Crankshaft Based on 
+PRO/E and ANSYS. Third International Conference on Measuring Technology and 
+Mechatronics Automation, pp. 362-364 
+[4] Lianke, S., Tang-Bin, Dongxin, X. and Xigeng, S. (2007) FEA Optimal Design of Diesel Engine 
+Crankshaft. Tractor & Farm Transporter, pp. 54-55  
+[5] First-Hand.info. (2007) Retrieved March 26, 2014, from Four Stroke Cycle Spark Ignition 
+(petrol) Engine: http://www.first-hand.info/FourStrokeCycle.html  
+[6] Cook, R. D. (1995) Finite Element Modeling for Stress Analysis. John Wiley & Sons 
+ICPER-2014 
+04004-p.5

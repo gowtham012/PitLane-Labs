@@ -1,0 +1,1258 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Electronic Valve Actuation 
+ 
+ 
+ 
+ 
+ 
+by 
+ 
+Andrew John Gray 
+ 
+ 
+Department of Information Technology and 
+Electrical Engineering 
+ 
+University of Queensland 
+ 
+ 
+Submitted for the degree of Bachelor of Engineering (Honours) 
+ 
+ 
+ii 
+Abstract 
+ 
+This thesis provides a method for electronically actuating valves used in an internal 
+combustion engine.  This method for valve actuation looks at utilising the expected 
+change to a 42V standard in motor vehicles.  It also provides a simplified model 
+detailing how this principle works. 
+ 
+The advantage of electronic valve actuation is that it provides an easy method of 
+infinitely varying the valve timing in internal combustion engines.  The relationship 
+between the desired open and shut intervals of the intake and exhaust valves vary with 
+respect to engine speed.  While some car manufacturers have developed methods of 
+varying valve timing, most of these are still mechanical methods, and don’t allow for 
+an infinitely variable timing profile.  Improved timing will result in reduced fuel 
+consumption and improved power in motor vehicles. 
+ 
+Characteristics of solenoids are examined.  These characteristics are used to design 
+different mechanical layouts of the valve in order to reduce the required force by the 
+solenoids. 
+ 
+With the use of the electronics from James Kennedy’s PUMA arm control board, the 
+working of the simplified model is explained.  The software is currently written to 
+generate a PWM signal for driving the solenoid, and to modify that signal in response 
+to an encoder input.   
+ 
+ 
+ 
+iii 
+Acknowledgements 
+ 
+I thank the following people for their contributions to this project: 
+ 
+Dr Geoff Walker, my supervisor, for his guidance and help with the project. 
+ 
+Mr Matthew Greaves and Mr Andrew Simpson for their advice with the mechanical 
+layout of the actuation system. 
+ 
+My fellow students in the Power Electronics Lab for their interest, discussion and help 
+with the project. 
+ 
+My family, for their support and tolerance of the many late nights. 
+ 
+iv 
+Table of Contents 
+ 
+Abstract .......................................................................................................................... ii 
+Acknowledgements........................................................................................................iii 
+Table of Contents.......................................................................................................... iv 
+List of Figures and Illustrations .................................................................................... vi 
+Chapter 1 
+Introduction................................................................................................1 
+1.1 
+Thesis Overview ............................................................................................1 
+1.2 
+Scope of Work for this Thesis .......................................................................1 
+1.3 
+Research Justification....................................................................................2 
+1.4 
+Outline of Chapter Headings and Contents ...................................................3 
+Chapter 2 
+Review of Literature and Background Material ........................................4 
+2.1 
+Valve Actuation in Internal Combustion Engines .........................................4 
+2.2 
+Current Methods of Variable Valve Timing..................................................6 
+2.3 
+Solenoid Characteristics.................................................................................8 
+2.4 
+Literature Review...........................................................................................9 
+Chapter 3 
+Design Considerations and Matlab Modelling ........................................14 
+3.1 
+Design Considerations .................................................................................14 
+3.2 
+Matlab Modelling.........................................................................................15 
+Chapter 4 
+Hardware..................................................................................................19 
+4.1 
+The TMS320F241 Discrete Signal Processor..............................................19 
+4.2 
+Electronics on James Kennedy’s Board.......................................................21 
+4.2.1 
+DSP Support Circuitry.........................................................................21 
+4.2.2 
+Power Electronics Hardware................................................................21 
+4.3 
+Solenoid .......................................................................................................22 
+4.4 
+Rotary Encoder ............................................................................................23 
+4.5 
+Demonstration Model ..................................................................................23 
+Chapter 5 
+Software Implementation.........................................................................24 
+5.1 
+Overview of Entire System..........................................................................24 
+5.2 
+PWM Software.............................................................................................26 
+5.3 
+Encoder Software.........................................................................................26 
+Chapter 6 
+Project Performance and Evaluation........................................................28 
+6.1 
+Proposed Mechanical Design.......................................................................28 
+ 
+v 
+6.2 
+Software Performance..................................................................................28 
+6.3 
+Overall System.............................................................................................29 
+6.4 
+Project Pitfalls..............................................................................................29 
+Chapter 7 
+Conclusions and Recommendations ........................................................30 
+7.1 
+Possible Future Work...................................................................................30 
+7.2 
+Outcomes of this Thesis...............................................................................31 
+References....................................................................................................................32 
+Appendix A – Matlab Script ........................................................................................34 
+A.1 – valve.m...........................................................................................................34 
+Appendix B – Program C-code Listing .......................................................................34 
+B.1 – pwm241.c .......................................................................................................34 
+B.2 – valve.c.............................................................................................................34 
+ 
+ 
+vi 
+List of Figures and Illustrations 
+ 
+Figure 1-1 – Current Engine 
+ 
+Figure 2-1 – Stroke Diagrams 
+Figure 2-2 – Timing Diagram 
+Figure 2-3 – DOHC VTEC Engine 
+Figure 2-4 – Porsche’s Method of Variable Valve Timing 
+Figure 2-5 – Mechanical Layout of a Solenoid 
+ 
+Figure 3-1 – Mechanical Layout of Proposed Electronic Valve Actuation Method 
+Figure 3-2 – Valve Profile Modelling in Matlab 
+Figure 3-3 – Forces Acting on the Valve 
+Figure 3-4 – Required Force with Varying Speeds 
+ 
+Figure 4-1 – James Kennedy’s PUMA Arm Control Board 
+Figure 4-2 – Block Model of TMS320F241 
+Figure 4-3 – Solenoid 
+Figure 4-4 – Generated Force vs Distance 
+ 
+Figure 5-1 – Flow Chart of Entire System 
+ 
+ 
+Chapter 1 – Introduction 
+ 
+1
+Chapter 1 Introduction 
+ 
+1.1 
+Thesis Overview 
+ 
+The aim of this thesis is to provide a method for electronically actuating valves used 
+in an internal combustion engine.  A simplified model of an engine valve has been 
+built to demonstrate the principal behind this, and to provide a platform to 
+demonstrate the functionality of the software.  The electronics to be used have been 
+taken from James Kennedy’s board used in the Control of the PUMA 560 arm and 
+detailed in his thesis, Design and Implementation of a Distributed Digital Control 
+System in an Industrial Robot. 
+ 
+The reason behind electronically actuating valves is to allow for easy and infinitely 
+variable valve timing to improve engine performance.  Current mechanical methods 
+used are difficult to change and when they are changed they don’t allow more then a 
+few possibilities for valve timing. 
+ 
+The valve controller explained in this thesis uses the Texas Instruments TMS320F241 
+to run a full bridge power converter to drive the DC solenoid used to actuate the 
+valve.   
+ 
+ 
+1.2 
+Scope of Work for this Thesis 
+ 
+This thesis covers the modelling and software for an electronically actuated valve.  It 
+also provides a concept and a basic hardware model that can be further developed for 
+use in practical applications.  The model provides a starting point for future 
+development towards a design robust enough to run inside an internal combustion 
+engine, while the software provides position control and as more becomes known 
+about what is required by the actuation system, it can be further developed to 
+encompass this. 
+  
+This thesis does not deal with running the valve in an engine, as, at this stage, that is 
+too complex a step to go to.  This thesis looks at running the bench top model at 
+Chapter 1 – Introduction 
+ 
+2
+speeds of up to 3000rpm.  This is close to what is needed for everyday driving but for 
+practical use, it would need to be increased a little. 
+ 
+ 
+1.3 
+Research Justification 
+ 
+Current internal combustion motors used in motor vehicles rely on an outdated system 
+for opening and closing the intake and exhaust valves to the engine.  This system 
+involves using a camshaft that is 
+attached by pulleys to the 
+crankshaft.  The trouble with this 
+system is that it is a purely 
+mechanical system and therefore 
+the timing of the valve openings 
+cannot be readily modified.  This 
+mechanical system also 
+eliminates the possibility of an 
+upgrade without a complete 
+overhaul. 
+ 
+This mechanical system does not optimise fuel economy and performance for the full 
+range of engine revs.  Electronic valve actuation will allow for these criteria to be 
+optimised.  With the increasing price of petrol and the increasing awareness of 
+problems caused by vehicle emissions, these optimisations are important. 
+ 
+Attempts at electronically actuating valves have been limited by the power that is 
+supplied by the 12V standard currently used in motor vehicles.  This thesis will look 
+at utilising the expected change to a 42V standard to overcome some of the problems 
+inherent with this lack of power.  Other problems present have been getting the valve 
+to run at the required speeds and generating enough force from solenoids to meet 
+these speeds.  The use of a DSP chip should help to overcome the speed problems, 
+while careful modelling and analysis will look at reducing the force required by the 
+solenoids. 
+ 
+Figure 1-1 Current Engine 
+Chapter 1 – Introduction 
+ 
+3
+ 
+1.4 
+Outline of Chapter Headings and Contents 
+ 
+Chapter 2 contains an overview of how an internal combustion engine runs with 
+particular attention being paid to how variable valve timing can improve this.  It 
+covers some of the methods currently used for variable valve timing and research 
+already being done on this.  It also contains a literature review of relevant previous 
+work done. 
+ 
+Chapter 3 covers the design considerations for the mechanical side of the problem and 
+also discusses how the problem was modelled in Matlab.  It discusses problems 
+associated with electronic valve actuation and the physical constraints due to the 
+solenoids. 
+ 
+Chapter 4 describes the electronics used on James Kennedy’s board and the 
+construction of the model valve used to demonstrate the concept.  It pays attention to 
+the solenoid used and the system used for generating position control. 
+ 
+Chapter 5 gives a detailed analysis of the various software components used in the 
+valve actuation system.  It breaks the software down into modules and discusses each 
+separately as well as giving an overview of the system as a whole. 
+ 
+Chapter 6 discusses the outcomes of the thesis in relation to the goals set in chapter 1.  
+It outlines the results of the system modelling performed and discusses the 
+effectiveness of the software.  It also deals with some of the pitfalls encountered with 
+the thesis. 
+ 
+Chapter 7 contains a conclusion and offers some pointers to areas of future work.
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+4
+Chapter 2 Review of Literature and Background Material 
+ 
+2.1 
+Valve Actuation in Internal Combustion Engines 
+ 
+Current methods of valve actuation involve turning the camshaft via pulleys and lobes 
+attached to the crankshaft.  As the camshaft turns the valves are opened and closed.  
+This purely mechanical system makes it very difficult to vary the timing of the valves, 
+that is, the opening intervals and the period for which they occur. 
+ 
+As a four stroke engine operates it runs through four stages.  Initially it starts with the 
+piston up close to the top and both valves closed.  Just before this the spark has 
+ignited the compressed fuel and oxygen mixture in the cylinder.  This drives the valve 
+piston down and provides the power to turn the crankshaft.  This is called the power 
+stroke. 
+ 
+ 
+Figure 2-1 Stroke Diagrams [12] 
+ 
+As the piston nears the bottom the exhaust valve begins to open.  Most of the fuel has 
+been burnt and the cylinder pressure will begin to push the exhaust out through the 
+valve.  The piston then passes through Bottom Dead Centre (the turning point at the 
+bottom of the cylinder) and begins to rise towards the top, thereby forcing the exhaust 
+out of the cylinder.  This is the exhaust stroke. 
+ 
+With the piston nearing Top Dead Centre and the exhaust valve nearly closed, the 
+intake valve begins to open and starts drawing the fuel and air mixture into the 
+cylinder, while the exhaust is passed out through the exhaust valve.  This period while 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+5
+the intake and exhaust valves are both open is termed the “overlap”.  As the piston 
+passes through Top Dead Centre and moves down the exhaust valve closes and more 
+fuel is dragged in.  This is the intake stroke. 
+ 
+As the piston nears Bottom Dead Centre the intake valve starts to close.  Once the 
+intake valve closes and the piston starts moving upwards the fuel and air start to 
+compress ready for igniting.  This is the compression stroke. 
+ 
+Each stroke lasts for 180 crankshaft degrees.  The crankshaft runs at twice the speed 
+of the camshaft so each stroke only sees 90 camshaft degrees.  This means that every 
+intake and exhaust valve opens once every 2 revolutions of the crankshaft. 
+ 
+ 
+Figure 2-2 Timing Diagram 
+ 
+The main area that allows for improvement is the overlap period while the exhaust 
+valve is closing and the intake valve is opening.  This overlap is used to create a 
+siphon effect to draw unburnt fuel into the cylinder while forcing the exhaust out of it.  
+Having too short an overlap period means that not all of the burnt fuel will be 
+expelled, and power will be compromised.  Too long an overlap period means that 
+some of the unburnt fuel will pass through into the exhaust manifold and be wasted.  
+For different driving conditions and different operating speeds a different overlap 
+period is required.  With current mechanical methods of valve actuation this period 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+6
+cannot be readily changed.  By operating the valves electronically, with a feedback 
+loop governed by the driving conditions, the optimum overlap can be determined. 
+ 
+Another advantage of electronically actuated valves is that the shape of the curve 
+corresponding to the opening and closing of the valve (figure 2-2) can be easily 
+varied.  This allows for changes in the maximum speed that the valve reaches and 
+changes in the ‘touch down’ speed of the valve.  There are different views as to 
+whether or not this will provide any benefit, but changing the shape of the curve will 
+also allow for increased lift, thereby allowing a greater airflow into or out of the 
+cylinder. 
+ 
+Further advantages lie in the ability to simply shut off a cylinder of a car when it is 
+not required.  As it is done electronically, the intake valve to a cylinder could be 
+permanently closed.  This could be used in an eight-cylinder car when it is cruising on 
+the highway.  Four (or more) cylinders could be sealed shut, thereby reducing fuel 
+consumption. 
+ 
+ 
+2.2 
+Current Methods of Variable Valve Timing 
+ 
+Several forms for varying the timing on valves are currently available on production 
+cars.  These solutions are mostly still mechanical and don’t allow complete freedom 
+as far as valve timing is concerned. 
+ 
+Probably the most well known of these is 
+Honda’s VTEC or Variable valve Timing and 
+lift Electronic Control.  VTEC works by 
+having two sets of lobes for each intake and 
+exhaust valves.  With low revs the first set is 
+operating at their predetermined timing 
+conditions, while the other set is hanging 
+uselessly.  As the vehicle is revved past a 
+certain point, an electronic signal is sent 
+which opens up a valve and allows oil to flow through.  This pushes a mechanical 
+Figure 2-3 DOHC VTEC Engine 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+7
+sliding pin that locks into place the lobes used for higher operating revs, thereby 
+completely changing the valve timing.  Depending on the requirements of the vehicle 
+there are different types of VTEC.  Some are for maximum efficiency, while others 
+are for maximum power.  There also exists a VTEC system that seals off cylinders 
+when they’re not required.  The shortfall of VTEC is that while different timing can 
+be obtained there are still only two different settings. 
+ 
+Some vehicles use a device that allows the opening of the intake valve to be delayed.  
+This creates more overlap but doesn’t allow the opening time of the intake valve to be 
+extended which results in losses in other areas.  Ferrari varies its valve profiles by 
+using a camshaft that has different profiles along its length, less aggressive profiles at 
+one end and more aggressive profiles at the other.  As the engine speed and load 
+change the camshaft is slid by a mechanism to alter the profile of the valve.  Again 
+this method has its shortfalls and doesn’t allow for infinitely variable valve timing. 
+ 
+Porsche use a different 
+system for variable valve 
+actuation.  The Porsche 
+system uses two tappets 
+inside one another for the 
+valve lifters.  The inner 
+tappet is in contact with a 
+smaller cam lobe and the 
+outer tappet a larger cam 
+lobe.  The camshaft then 
+accommodates two 
+different contours and therefore two different valve profiles.  An electro-hydraulic 
+switching valve decides which tappet is locked in.  Again, like Honda’s VTEC, this 
+system offers two different settings, one for low engine revs and one for high engine 
+revs. 
+ 
+Currently several car and vehicle parts manufacturers around the world are working 
+on implementing systems which have infinitely variable timing.  Up to this point there 
+are no production cars available which utilise these advances. 
+Figure 2-4 Porsche’s Method of Variable Valve Timing [13] 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+8
+ 
+Methods for electronically actuating valves have been patented but there are still 
+problems inherent in these.  These include problems with the solenoids closing the 
+gap once parts of the system have been affected by thermal expansion, and problems 
+supplying a consistently strong enough seating force to the valve. 
+ 
+These patents all look at running the valves with the current 12V standard used in 
+motor vehicles.  This thesis will be utilising the expected change to 42V.  This will 
+help overcome some of the problems with the required power. 
+ 
+Siemens Automotive have designed an Electronic Valve Timing method which when 
+used on an engine completely removes the need for a camshaft and offer infinitely 
+variable valve timing.  This method will improve fuel efficiency by an anticipated 
+10%.  The Siemens method uses a digital valve which is either open or shut, so it does 
+not allow for soft landings but hence doesn’t require ramp up or ramp down times.  
+There are some problems with the system caused by this approach and caused by the 
+problems with electronic valve actuation itself.  These include noise, durability, 
+packaging and energy consumption. 
+ 
+ 
+2.3 
+Solenoid Characteristics 
+ 
+A solenoid is a coil of low resistance wire.  They work on the principle that a current 
+travelling through a wire generates a magnetic field.  If, as in a solenoid, a wire is 
+continually wound tightly together a 
+magnetic field is created. This field 
+acts perpendicular to the wire coil 
+(along the axis of the solenoid).  The 
+mechanical construction of a solenoid 
+can be seen in figure 2-4.  The force 
+generated by a solenoid is directly 
+proportional to the current being 
+applied to the solenoid and inversely 
+Figure 2-5 Mechanical Layout of a Solenoid 
+[10] 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+9
+proportional to the square of the distance between the plunger and the solenoid coil. 
+ 
+The magnetic field strength is given by: 
+ 
+I
+n
+B
+0
+µ
+=
+ 
+where B = is the field strength in Tesla 
+n is the number of turns in the solenoid divided by its length 
+I is the current flowing through the solenoid. 
+ 
+The force generated is: 
+ 
+ 
+BIl
+F =
+ 
+ 
+where l is the length of the solenoid 
+ 
+ 
+ 
+2.4 
+Literature Review 
+ 
+[1] 
+J. Kennedy, Design and Implementation of a Distributed Digital Control 
+System in an Industrial Robot, Undergraduate Thesis, Univ. of Queensland, Computer 
+Science and Electrical Engineering, 1999. 
+ 
+This thesis reports the upgrades made to the control system of the PUMA 560 arm 
+manufactured by Kawasaki Heavy Industries.  The old system needed to be upgraded, 
+as it was bulky, unreliable and required an external PC to control it.  This thesis 
+describes the design, construction, installation and testing of the hardware used.  This 
+thesis is useful in that the electronics on the board created for it are very similar to 
+what is required by this thesis and so this board will be used.  
+ 
+ 
+ 
+ 
+ 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+10
+[2] 
+Texas Instruments website, 
+ http://www.ti.com (current April 27th, 2001) 
+ 
+This website gives information on the Digital Signal Processors which are required by 
+my thesis.  It is a good source of information for all Texas Instruments DSP chips and 
+provides information on interfacing to other devices, and programming the chips.  
+This website provides important information for the design of the hardware and the 
+programming involving the DSP chip. 
+ 
+ 
+[3] 
+L.C. Lichty, Internal Combustion Engines, McGraw-Hill, New Your, 1951. 
+ 
+This book covers in detail the workings of an internal combustion engine.  It deals 
+with the theory and calculations required to understand how the engines work.  This 
+book is relevant to this thesis because in addition to providing a solid background 
+understanding of how engines work this book also covers in detail the theory behind 
+valve timing and what the effects of changing the timing are.  In addition to this it also 
+includes examples of the different timing employed in current cars and what these 
+methods deliver in terms of performance.  It also demonstrates how to calculate the 
+required forces used to open and shut the valves at speed. 
+ 
+ 
+[4] 
+N. Mohan, T.M. Undeland and W.P. Robbins, Power Electronics: Converters, 
+Applications, and Design, John Wiley & Sons, New York, 1989. 
+ 
+This book covers the basics of power electronics design.  It is a highly practical book 
+that focuses on switch mode and high frequency design.  This is useful to this thesis in 
+that it helps to understand the necessary circuits to provide the solenoids with the 
+required currents. 
+ 
+ 
+ 
+ 
+ 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+11
+[5] 
+F. Liang, and C. Stephan, Electromechanically Actuated Valve with Soft 
+Landing and Consistent Seating Force, US patent 5645019, to Ford Global 
+Technologies, Inc, Patent and Trademark Office, Washington D.C., 1997. 
+ 
+This patent deals with the use of an electromechanically actuated valve for use as an 
+intake or exhaust valve in an internal combustion engine.  In particular it looks at an 
+assembly to allow the valves to be closed softly, thereby reducing noise and 
+increasing component life.  This is of value to this thesis as it provides a starting 
+platform with regards to the mechanical layout of an electronically actuated valve.  
+ 
+ 
+[6] 
+N. S. Nise, Control Systems Engineering 3rd Ed, John Wiley & Sons Inc, New 
+York, 2000. 
+ 
+This book covers the theory and practice of control systems engineering.  It provides a 
+detailed description of how to design control loops required in practical applications.  
+It is of use to this thesis as it helps to design a suitable control algorithm for the 
+positioning of the valve. 
+ 
+ 
+[6] 
+H. Bauer et al., Automotive Handbook 4th Ed, Rubert Bosch BmgH, Germany, 
+1996. 
+ 
+This handbook deals with every aspect of an automobile.  It covers issues involved 
+with valve timing and outlines some of the standards used in the field.  This is useful 
+to this thesis because it helps to develop a working model of the valve. 
+ 
+ 
+[7] 
+Electromechanical Valve Control, 
+http://www.fev-et.com/03eng/02ed/e_ed_vt.html (current April 27th, 2001) 
+ 
+This article deals with the use of electromechanical valve control in modern engines.  
+In particular it covers the idea behind it and what some of the expected improvements 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+12
+are.  This article is of particular relevance to this thesis because it gives a place to start 
+in design of the solution and helps to explain the benefits involved. 
+ 
+ 
+[8] 
+R. Stone, Introduction to Internal Combustion Engines 2nd Ed, Society of 
+Automotive Engineers, Warrendale, 1992. 
+ 
+This book describes the workings of an internal combustion engine.  It deals with the 
+operation of valves in the engine and the timing associated with them.  Of particular 
+use to this thesis are the timing diagrams and the details of the accuracy required for 
+efficient performance. 
+ 
+ 
+[9] 
+V.D. Toro, Electric Machines and Power Systems, Prentice Hall, New Jersey, 
+1985. 
+ 
+This book covers the workings of electric machines and the calculations required to 
+use them effectively.  It is useful to this thesis in its coverage of solenoids and their 
+characteristics. 
+ 
+ 
+[10] 
+J.L. Lumley, Engines an Introduction, Cambridge University Press, New 
+York, 1999. 
+ 
+This book describes the workings of an internal combustion engine.  Of particular 
+relevance to this thesis it also discusses some of the methods used to currently vary 
+valve timing.  This helps to understand how doing it electronically can further 
+improve on the gains already made. 
+ 
+ 
+ 
+ 
+ 
+ 
+Chapter 2 – Review of Literature and Background Material 
+Electronic Valve Actuation 
+13
+[11] 
+Comp Cams Valve Timing Tutorial, 
+http://www.compcams.com/valvtim1.html 
+ 
+This website has a tutorial on what the valves are doing at each stage of engine 
+operation in a four stroke engine and why.  This is of particular use to this thesis 
+because it helps to understand what the valves are required to do. 
+ 
+ 
+[12] 
+Porsche 911 variocam page, 
+http://www.us.porsche.com/english/911/turbo/engine/variocam.htm (current 13th 
+October 2001) 
+ 
+This website deals with Porsche’s method for variable valve timing.  It is useful to 
+this thesis because it provides an example of an actuation method currently in 
+production and helps to provide different methods of approaching the problem. 
+ 
+ 
+ 
+Chapter 3 – Design Considerations and Matlab Modelling 
+Electronic Valve Actuation 
+14
+Chapter 3 Design Considerations and Matlab Modelling 
+ 
+3.1 
+Design Considerations 
+ 
+For the purposes of this thesis it was decided that the valve would be run up to speeds 
+of 3000rpm.  This is fast enough to be useful in motor vehicles but will require less 
+force then to run at greater speeds (for example up to 6000rpm).  Generating the 
+forces required to run the engine at up to 6000rpm was considered beyond the scope 
+of this thesis. 
+ 
+The electronic valve actuation design has to take into account the following 
+constraints: 
+ 
+• 
+Force required by solenoids must be minimised in order to reduce the power 
+required and the heat which must be dissipated by them 
+ 
+• 
+Force provided by solenoids decreases exponentially with the distance the 
+plunger moves form the coil 
+ 
+• 
+At lesser engine speeds the force due to inertia will be nearly zero, so that 
+having very stiff springs will mean that the solenoids will have to overcome 
+these on their own. 
+ 
+• 
+The valve is to follow a standard valve profile, as soft landings are required by 
+the valve for the same reason they are used in a traditional camshaft setup.  
+That is, to reduce noise and wear on the valve, thereby increasing the lifespan 
+of the valve. 
+ 
+Due to these constraints the mechanical design had to be set up in such a way as to 
+reduce the required force from the solenoids, while not being disadvantaged by the 
+force drop off due to distance.  In order to achieve this a mechanical design consisting 
+of two springs and two solenoids was chosen.  Two solenoids are to be used so that 
+one can be fixed to pull when opening the valve and the other when closing the valve.  
+Chapter 3 – Design Considerations and Matlab Modelling 
+Electronic Valve Actuation 
+15
+This allows the solenoid to be used at it’s most effective.  That is, when the gap it is 
+acting across is very small.  The two-spring design was chosen so that the valve’s 
+resting point (no current applied to either solenoid) could be offset so as to be some 
+distance between both the closed and shut positions.  This was found to greatly reduce 
+the forces required to be generated by the solenoids. 
+ 
+Figure 3-1 shows an example of the mechanical layout of the valve. 
+ 
+ 
+Figure 3-1 Mechanical Layout of Proposed Electronic Valve Actuation Method [8] 
+ 
+3.2 
+Matlab Modelling 
+ 
+In order to calculate the best possible design, the required forces were modelled in 
+Matlab.  Due to difficulties finding a valve profile in a form that could be readily 
+entered into a computer, a Kaiser window function was used.  The Kaiser window 
+allows for a shape parameter â that can be modified.  The Kaiser window is defined 
+as: 
+ 
+ 
+,
+0,]
+)
+]
+/)
+[(
+1(
+[
+]
+[
+0
+2
+/
+1
+2
+0
+M
+n
+I
+n
+I
+n
+w
+≤
+≤
+−
+−
+=
+β
+α
+α
+β
+ 
+ 
+0, otherwise 
+Chapter 3 – Design Considerations and Matlab Modelling 
+Electronic Valve Actuation 
+16
+ 
+Figure 3-2 Valve Profile Modelling in Matlab 
+ 
+ 
+A â of 10 best simulates a valve profile, accommodating all the required factors 
+include soft landings so as to reduce noise and wear on the valve.  The valve position 
+with respect to time could then be entered into Matlab as shown at the top of figure 3-
+2.  From there the position curve is integrated to give the velocity versus time graph 
+(middle graph) and then again to give the acceleration versus time graph (bottom 
+graph).  Then by using an expected mass of 150grams (to allow for the weight of the 
+valve plus any weight due to the actuation system) the force due to inertia on the 
+valve can be calculated. 
+ 
+Initially discounting forces due to friction and the difference in pressure inside the 
+cylinder and out, the force required by the solenoids for given spring constants can be 
+calculated.  This force is equal to the spring force added to the force due to inertia.  
+By writing a Matlab script that runs this (see Appendix A.1), and as this is such a 
+generic model, the values of the spring constants can be readily changed, as well as 
+the initial offset of the valve. 
+ 
+Chapter 3 – Design Considerations and Matlab Modelling 
+Electronic Valve Actuation 
+17
+A model using one spring and one solenoid was initially looked at.  It was found that 
+no amount of manipulation of the spring constant could reduce the force required by 
+the solenoids to an achievable level.  The trouble was that higher engine speeds 
+required a stiffer spring, while at lower engine speeds, as the forces due to inertia 
+were nearly zero, the solenoids were having to work solely against the springs and the 
+solenoid was having to provide the most force when it was fully open. 
+ 
+By using the two-spring format with an offset which could be controlled by the 
+differences between the stiffness of the two springs these problems were overcome 
+and the required forces were significantly reduced.  In order to run an engine at speeds 
+of up to 3000rpm we use combined spring constants of 70000 with the springs set so 
+that the valve will be 4mm open when at rest. 
+ 
+ 
+Figure 3-3 Forces Acting on the Valve 
+ 
+Using these characteristics gives us the required forces as seen in figure 3-3.  From 
+this it can be seen that the force required by the solenoids to run at 3000rpm is 273N, 
+and, by using the two solenoid layout, the solenoids are required to exert their greatest 
+force when the gap they are trying to act across is at its smallest. 
+Chapter 3 – Design Considerations and Matlab Modelling 
+Electronic Valve Actuation 
+18
+ 
+ 
+Figure 3-4 Required Force with Varying Speeds 
+ 
+Figure 3-4 shows that as the engine speed decreases down towards 0rpm the required 
+force from the solenoids increases to 600N.  It is not really very practical to run an 
+engine at speeds much below 1000rpm and the force required at this speed is 495N. 
+ 
+ 
+Chapter 4 – Hardware 
+Electronic Valve Actuation 
+19
+Chapter 4 Hardware 
+ 
+As this the thesis deals largely with the principles behind electronic valve actuation 
+and discovering the problems inherent with it, the design of the electronics to be used 
+in this system was considered both premature and beyond the scope of this thesis.  
+Due to this it was decided that the control board used in James Kennedy’s thesis in 
+1999 would be 
+used.  This 
+board does 
+everything that 
+is required for 
+this model and 
+is also readily 
+available. 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1 
+The TMS320F241 Discrete Signal Processor 
+ 
+The use of a Discrete Signal Processor (DSP) in this thesis allows for many 
+possibilities.  It provides the processing speed necessary to run engines at very high 
+speeds, easy use of Pulse Width Modulation (PWM) to efficiently run the solenoids 
+and room for potential upgrades, such as the use of the Control Area Network (CAN) 
+and many timers for use in speed sensing of the engine for more accurate timing 
+calculations. 
+ 
+The TMS320F241 by Texas Instruments has 8 PWM channels, 8k words of internal 
+flash memory, Quadrature input circuitry, an 8 channel 10-bit analog to digital 
+converter with a conversion time of 800ns, the CAN module and an instruction time 
+Figure 4-1 James Kennedy’s PUMA Arm Control Board [1] 
+Chapter 4 – Hardware 
+Electronic Valve Actuation 
+20
+of 50ns.  This means that it is more then capable to run this model and also has many 
+features for potential upgrades.  
+ 
+There currently exist several off the shelf solenoid/valve driver chips, such as the 
+DRV102 by Burr Brown, which could have been used in this thesis.  While these 
+chips are specifically designed for use in this kind of application the advantage of 
+using a DSP over these lies in the need to constantly vary the speed at which the valve 
+is being run.  With the way the DRV102 works an additional microprocessor would 
+also be required to allow for this feature.  Further advantages of using a DSP lie in 
+ability to upgrade it and new features as mentioned above. 
+ 
+ 
+Figure 4-2 Block Model of TMS320F241 [2] 
+Chapter 4 – Hardware 
+Electronic Valve Actuation 
+21
+ 
+ 
+4.2 
+Electronics on James Kennedy’s Board 
+ 
+The board was designed to operate at 40V, supplying 4A.  It is able to handle the 42V 
+to be used in this thesis and 4A is more then adequate to run the solenoid.   
+ 
+ 
+4.2.1 DSP Support Circuitry 
+ 
+The support circuitry for the DSP consists of a 5Mhz crystal for use as the internal 
+clock, reset circuitry for holding the reset pulse low to save the chip in the event of a 
+reset and a 5V supply rail.  James Kennedy’s board also allows for a manual reset 
+through the use of pushbutton 1. 
+ 
+He has also designed a serial programmer to allow boot loading of programs into the 
+internal flash memory. 
+ 
+ 
+4.2.2 Power Electronics Hardware 
+ 
+The board uses a switch mode power amplifier in a H-Bridge configuration.  It has a 
+high efficiency of over 96% meaning that very little power is lost to heat and 
+therefore no heat sink is required.  The H-Bridge circuit incorporates a semi-discrete 
+design using the HIP4081A Harris Semiconductor driver chip with low on-resistance 
+and fast switching N-Channel MOSFETs to give maximum efficiency and good 
+control.  The IRF520 MOSFET is used for its switching time of 9ns, continuous 
+current rating of 9A, peak current of 37A, on resistance of 0.25Ù and breakdown 
+voltage of 100V. 
+ 
+The use of this board is something of an overkill in that the capabilities of this board 
+are more then ample to run the simplified model of the electronic valve actuation.  
+Chapter 4 – Hardware 
+Electronic Valve Actuation 
+22
+The supplied 2 full bridge drivers is much more then the required 1 half bridge driver, 
+although in future 2 half bridge drivers will be required to run the system. 
+ 
+ 
+ 4.3 Solenoid 
+ 
+The solenoid to be used in the model is a standard 12V 
+dc solenoid from RS Components.  Its component 
+number is 346-340 and it is pictured in figure 4-3.  
+While it is only rated for 12V at continuous operation 
+we will not be running it with a 100% duty cycle so it is 
+fine to run it at 42V. 
+ 
+As seen in figure 3-3, when the solenoid is at its 
+maximum opening of 5.4mm, it is required to supply 
+110N.  The graph in figure 4-4 shows that at this distance the solenoid can provide 
+approximately 3kgf when run at 12V.  When run at 42V it generates enough force for 
+driving the valve and therefore the simplified model. 
+ 
+ 
+Figure 4-4 Generated Force vs Distance 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4-3 Solenoid 
+Chapter 4 – Hardware 
+Electronic Valve Actuation 
+23
+4.4 
+Rotary Encoder 
+ 
+In order to generate the feedback necessary for the position control in the valve, a 
+rotary encoder will be used.  At the time of the writing of this thesis it was not 
+determined which rotary encoder would be made available for use in the model so 
+exact specifications cannot be listed.   The rotary encoder works by sending a pulse to 
+the DSP every fraction of a turn.  With a known starting position these pulses can be 
+used to accurately determine the position of the valve. 
+ 
+4.5 
+Demonstration Model 
+ 
+The model to demonstrate the principal behind electronic valve actuation is shown in 
+figure 4-5.  The solenoid plunger is connected to the spring to simulate a valve in 
+action, with the plunger moving as if it were the valve stem and the spring providing 
+the required force. The spring is mounted at the top of the valve stem, as it would be 
+in an internal combustion engine. 
+ 
+The feedback for the system is generated by attaching the wire to the valve and then 
+looping it around the rotary encoder.  A smaller spring connects the ends of the wire 
+together and acts to provide the necessary tension for the rotary encoder to operate 
+effectively. 
+ 
+Figure 4-5 Design of Demonstration Model
+wire 
+Chapter 5 – Software Implementation 
+Electronic Valve Actuation 
+24
+Chapter 5 Software Implementation 
+ 
+Due to the fact that at the time of the writing of this thesis the hardware model for the 
+valve was not completed the different components for the software have not been 
+fully integrated with one another.  Each of the sections has however, been tested 
+separately. 
+ 
+ 
+5.1 
+Overview of Entire System 
+ 
+The entire system has to provide accurate valve positioning as the valve moves 
+through its profile, as well as ensuring that when the valve is at rest it remains firmly 
+pressed against the valve seating. 
+ 
+As can be seen in figure 5-1, this is done by using the rotary encoder to track the 
+valves actual position and compare this to the predetermined desired position.  Any 
+differences between the two result in the required actuator signal being sent to the 
+solenoid 
+Chapter 5 – Software Implementation 
+Electronic Valve Actuation 
+25
+ 
+Figure 5-1 Flow Chart of Entire System 
+ 
+ 
+This system can also be used to maintain the required seating force as it compensates 
+for any movement from the resting position by continually comparing the current 
+position back to the desired position.  
+ 
+ 
+Chapter 5 – Software Implementation 
+Electronic Valve Actuation 
+26
+5.2 
+PWM Software 
+ 
+The DSP has 8 PWM channels.  To enable these outputs to work Timer 1 is set to 
+count in a continual up-counting mode.  The counter has a maximum count of 1023 
+which equates to a frequency of 19.531kHz.  The PWM outputs are generated by 
+inputting values to the compare units that govern the duty cycle output by the chip.  
+The deadband timer is used to provide lag between the switching MOSFETs so as to 
+ensure that there is no shoot through condition that would damage the power devices.  
+The outputs from the PWM registers are then used for running the MOSFET driver.  
+The code for this is in appendix B.1. 
+ 
+ 
+5.3 
+Encoder Software 
+ 
+Timer 2 is used to track the position of the plunger.  The initial count span of 65536 is 
+further extended by the use of overflow and underflow interrupts which increment or 
+decrement a variable.  This extends the counter out to a 32-bit range.  This gives a 
+position accuracy of 2.89pm for the 12.4mm range of the valve.  This means that the 
+rotary encoder and not software will limit the accuracy of the positioning.  Thus the 
+software is sufficient.  By gearing the encoder effectively the accuracy will be much 
+better then the required 4.6um. 
+ 
+The position of the plunger is controller by comparing it to the desired position 
+generated by the Kaiser Window function.  Due to difficulties obtaining a rotary 
+encoder at the time of the writing of this thesis the encoder software has not been fully 
+tested.  The control loop works by taking the distance between the desired position 
+and the actual position and multiplying this error by the gain term.  A new PWM 
+signal is then generated with the duty cycle corresponding to the magnitude of this 
+compensated error term.   
+ 
+In order to increase the transient response of this system, a differentiator is inserted 
+into the forward path along with the gain.  The error is differentiated and when it is 
+large it results in a larger still signal being sent, but as the error gets smaller the 
+differentiated signal becomes insignificant next to the gain and hence has little effect.  
+Chapter 5 – Software Implementation 
+Electronic Valve Actuation 
+27
+This results in the system moving faster for greater errors but still slowing down as 
+the valve approaches the desired position. 
+ 
+Steady state error may be present in the system.  It results from friction or other 
+external forces that the motor may struggle to overcome with the gain term effectively 
+very small as the valve nears the desired point.  No steady state error is very important 
+in this system, as it is vital that the valve must stay sealed shut.  To eliminate steady 
+state error in the system an integrator is placed in the forward path.  The integration 
+term overcomes the steady state error by steadily increasing until it is large enough to 
+overcome the friction or forces holding it back. 
+ 
+The response of this system needs to be fast, have very little overshoot and have no 
+steady state error.  At the writing of this thesis, software had only been written to 
+allow for the gain term, but it is expected that the integrator term will be added by the 
+end of the year.  More testing is required to determine whether or not the 
+differentiator term will be required as the transient response may already be fast 
+enough. 
+ 
+ 
+Chapter 6 –Project Performance and Evaluation 
+Electronic Valve Actuation 
+28
+Chapter 6 Project Performance and Evaluation 
+ 
+At the time of writing this thesis, there was still work to be done on the completion of 
+the hardware model of the valve and as a result of this the software was still to be 
+integrated together for final testing.  The mechanical design proposed provides a 
+feasible solution to the electronic valve actuation problem and can be built upon 
+further. 
+ 
+ 
+6.1 
+Proposed Mechanical Design 
+ 
+The proposed mechanical design has reduced the required force for the solenoids 
+down to 273N for an operating speed of 3000rpm.  This is achievable using a 42V 
+system.  The 42V system can also provide more force for other factors not yet 
+calculated into the problem, such as the increased required holding force due to the 
+force of the compression of the cylinder and the explosion of the fuel and air mixture 
+inside it.  The modelled system looks at using worst case scenarios for the weight of 
+the valve.  It looks at using a 150gm valve where an actual valve weighs around 60-
+80gm.  The extra weight is factored in to allow for any additions to the valve stem for 
+actuation purposes. 
+ 
+ 
+6.2 
+Software Performance 
+ 
+As the system has not been totally integrated together the software components have 
+only been tested individually.  There are working code modules for the PWM, reading 
+the encoder and altering the PWM signal based on some feedback.  It is anticipated 
+that by the end of the year these software modules will be fully working together and 
+in a position to allow someone to easily adapt them to fit a more complicated model 
+of the system. 
+ 
+ 
+ 
+Chapter 6 –Project Performance and Evaluation 
+Electronic Valve Actuation 
+29
+6.3 
+Overall System 
+ 
+With the use of James Kennedy’s motor controller board, the overall system designed 
+to demonstrate the principals of electronic valve actuation should provide a good 
+functional model which can be readily built on for use in more ‘real world’ situations. 
+ 
+The cost of the system to date is approximately $40 for the solenoid, $180 for the 
+board and the electronics and $400 for the rotary encoder. 
+ 
+ 
+6.4 
+Project Pitfalls 
+ 
+The main problem with the project was the difficulties in accessing work already done 
+in this area.  The patents on the research to date only gave very brief information on 
+the methods used and access to any journals required joining institutions and paying 
+large fees for access to the journals.  This meant to having to start from scratch and 
+having to rediscover many of the problems inherent in a very large project.  It also 
+meant that significant amounts of time were lost looking for material that is out there, 
+but isn’t available. 
+ 
+ 
+Chapter 7 –Conclusions and Recommendations 
+Electronic Valve Actuation 
+30
+Chapter 7 Conclusions and Recommendations 
+ 
+This thesis met its goals of coming up with a possible mechanical design for 
+electronic valve actuation.  It looked at the feasibility of electronic valve actuation and  
+ 
+7.1 
+Possible Future Work 
+ 
+Before this system is ready to run in an internal combustion engine there are several 
+more factors that need to be looked at.  These include: 
+ 
+• 
+Looking at different methods of position sensing in the valve.  While the 
+rotary encoder is suitable for use on a bench top, a more robust solution is 
+needed for use in an engine.  A possible solution could be the use of sensing 
+the induction in the solenoids. 
+ 
+• 
+Methods to integrate the electronic valve timing into use with an engine.  
+These include sensing the crankshaft angle and using this to confirm current 
+desired valve position, and sensing engine speed to determine the desired 
+overlap between the intake and exhaust valves’ opening periods. 
+ 
+• 
+Design of a board specific for use with electronic valve actuation.  This is not 
+paramount and reliable solutions to some of these other problems need to be 
+found first, so that they can be built onto this board as well. 
+ 
+• 
+Possibly using a newer DSP chip.  While the TMS320F241 does the job, since 
+it was made Texas Instruments have released several newer DSP chips which 
+offer more features and allow for greater ease of use and less chance of 
+making mistakes with regards to programming them. 
+ 
+ 
+ 
+ 
+Chapter 7 –Conclusions and Recommendations 
+Electronic Valve Actuation 
+31
+7.2 
+Outcomes of this Thesis 
+ 
+• 
+Design of a mechanical model for use in electronic valve actuation.  This 
+includes looking at several different mechanical layouts, running Matlab 
+simulations to minimise the required forces and looking at designs from the 
+perspective of using them in an engine and replacing current mechanical 
+systems. 
+ 
+• 
+Software modules for each of the components have been written and tested on 
+the DSP.  It is expected that by the end of semester these modules will have 
+been integrated together and tested fully. 
+ 
+Electronic Valve Actuation 
+32
+References 
+ 
+[1] 
+J. Kennedy, Design and Implementation of a Distributed Digital Control 
+System in an Industrial Robot, Undergraduate Thesis, Univ. of Queensland, Computer 
+Science and Electrical Engineering, 1999. 
+ 
+[2] 
+Texas Instruments website, 
+ http://www.ti.com (current April 27th, 2001) 
+ 
+[3] 
+L.C. Lichty, Internal Combustion Engines, McGraw-Hill, New Your, 1951. 
+ 
+ [4] 
+N. Mohan, T.M. Undeland and W.P. Robbins, Power Electronics: Converters, 
+Applications, and Design, John Wiley & Sons, New York, 1989. 
+ 
+[5] 
+F. Liang, and C. Stephan, Electromechanically Actuated Valve with Soft 
+Landing and Consistent Seating Force, US patent 5645019, to Ford Global 
+Technologies, Inc, Patent and Trademark Office, Washington D.C., 1997. 
+ 
+[6] 
+N. S. Nise, Control Systems Engineering 3rd Ed, John Wiley & Sons Inc, New 
+York, 2000. 
+ 
+[7] 
+H. Bauer et al., Automotive Handbook 4th Ed, Rubert Bosch BmgH, Germany, 
+1996. 
+ 
+[8] 
+Electromechanical Valve Control, 
+http://www.fev-et.com/03eng/02ed/e_ed_vt.html (current April 27th, 2001) 
+ 
+[9] 
+R. Stone, Introduction to Internal Combustion Engines 2nd Ed, Society of 
+Automotive Engineers, Warrendale, 1992. 
+ 
+ 
+[10] 
+V.D. Toro, Electric Machines and Power Systems, Prentice Hall, New Jersey, 
+1985. 
+ 
+Electronic Valve Actuation 
+33
+ 
+[11] 
+J.L. Lumley, Engines an Introduction, Cambridge University Press, New 
+York, 1999. 
+ 
+[12] 
+Comp Cams Valve Timing Tutorial, 
+http://www.compcams.com/valvtim1.html 
+ 
+[13] 
+Porsche 911 variocam page, 
+http://www.us.porsche.com/english/911/turbo/engine/variocam.htm (current 13th 
+October 2001) 
+ 
+ 
+Electronic Valve Actuation 
+34
+Appendix A – Matlab Script 
+ 
+ 
+ 
+A.1 – valve.m 
+ 
+ 
+ 
+Appendix B – Program C-code Listing 
+ 
+ 
+ 
+B.1 – pwm241.c 
+ 
+ 
+B.2 – valve.c 
+ 

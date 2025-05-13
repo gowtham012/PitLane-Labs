@@ -1,0 +1,1563 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Development of a Dynamic Engine Brake Model for 
+Control Purposes 
+X.L.J. Seykens1*, R.S.G. Baert1 
+F.P.T. Willems2, W. Vink2 
+I.T.M. van den Heuvel3 
+1 Eindhoven University of Technology, The Netherlands  
+2 TNO Automotive, The Netherlands 
+3 DAF Trucks, The Netherlands  
+* Corresponding author ; e-mail : X.L.J.Seykens@tue.nl 
+Abstract — This paper presents the extension of an existing mean value 
+dynamic engine model with new models for the combination of a compression 
+release brake and an exhaust valve brake. The focus is on the prediction of 
+engine brake torque, exhaust gas temperatures and mass flow rates. The 
+implemented models are tuned on the basis of steady-state engine data. Transient 
+simulation results, i.e. for the activation of the engine brake, show good 
+agreement with measurements. The developed model has been used to analyze 
+the possibility to use the engine brake to facilitate automatic gear switching. This 
+has been verified by measurements on an actual vehicle and resulted in much 
+smoother and faster gear shift.   
+INTRODUCTION 
+Engine brakes serve as a necessary alternative to wheel 
+brakes for vehicle speed reduction. By applying the engine 
+brake wheel brakes are relieved. This reduces wheel brake 
+maintenance frequency and costs, helps to prevent brake 
+overheating and allows for a faster reduction in engine 
+speed. The faster reduction in engine speed may also be 
+used to facilitate automatic gear switching.  
+Traditionally, engine braking is performed by closing a 
+throttle (in the form of a butterfly valve) in the exhaust 
+system. Compression release brakes, in which the exhaust 
+valve is opened at the end of the compression stroke, are 
+more and more applied, [1][2],[3]. During compression 
+release braking, the fuel injection is stopped and the engine 
+functions as an air pump. By opening the exhaust valve at 
+the end of the compression stroke the work performed by 
+the piston during the compression stroke is not (partially) 
+regained during the expansion stroke. The resulting 
+negative work causes the engine speed to decrease. This 
+technology is closely related to variable valve train 
+operation, which is of great interest in engine development.  
+During 
+engine 
+braking, 
+manifold 
+conditions 
+(temperatures and pressures) and mass flow rates differ 
+significantly from the conditions during normal engine 
+operation. These conditions greatly influence the efficiency 
+of the engine aftertreatment system. Therefore, for engine 
+controller development, not only an accurate simulation of 
+the engine brake torque and engine speed, is required, but 
+also the prediction of exhaust temperatures and mass flow 
+rates.  
+Dynamic 
+engine 
+models 
+used 
+for 
+powertrain 
+simulations that include an engine brake are most 
+frequently crankangle based models, see e.g. [4] and [5].  
+The justification for this is that the relevant time scales of 
+the relevant processes for switching from normal engine 
+operation to braking operation are small and in the order of 
+a single cylinder event. However, the higher accuracy 
+obtained by applying a greater temporal resolution comes 
+at the cost of an increase in computational effort. 
+Therefore, in order for a model to be useable in real-time 
+applications, as are typical for control algorithm validation 
+(e.g. as part of a Hardware-In-the-Loop environments), the 
+temporal resolution has to be decreased to limit the 
+Seykens et al / Development of a Dynamic Engine Brake Model for Control Purposes 
+321 
+ 
+ 
+ 
+computation time.  Here, mean value engine models, such 
+as TNO’s DYNAmic engine MOdel DYNAMO [6], are a 
+valuable 
+tool. 
+DYNAMO 
+is 
+implemented 
+in 
+a 
+Matlab/Simulink environment and relies heavily on engine 
+measurement data. It is a tool for concept studies and 
+(model-based) controller development rather than a tool for 
+fundamental analysis.  
+Without significant modeling efforts, DYNAMO is 
+already capable of simulating engine brake torque with 
+good accuracy. However, for the simulation of mass flow 
+rates and exhaust temperatures additional modeling is 
+necessary. Accurate modeling of the engine dynamics 
+during engine braking  is of great importance for controller 
+development in the area of exhaust gas aftertreatment 
+systems and, as a first application of the model used in this 
+study, automatic gear switching.   
+In this paper, the extension of TNO’s existing dynamic 
+engine model with new models for the combination of 
+compression release brake and exhaust valve brake, is 
+presented. The focus will be on the improvement of mass 
+flow rate prediction, which is closely related to the 
+simulation of turbine behavior, and exhaust temperatures.  
+First, the implementation of the new engine brake models 
+will be presented. The brake models are tuned on the basis 
+of steady-state engine data. The tuning process is not 
+described in detail. Only the final results will be shown as a 
+model validation. The complete engine model is then 
+validated on the basis of both steady state and transient, i.e. 
+for the activation of the engine brake, engine data. Finally, 
+an example of model application will be presented: the 
+developed model is used to examine the influence of 
+engine braking on automatic gear switching. Measurements 
+on an actual vehicle are performed and are shown for 
+verification.    
+1 IMPLEMENTATION OF BRAKE MODELS 
+The engine brake models are implemented in a 
+DYNAMO model of a 12.9 liter 6 cylinder DAF MX diesel 
+engine. The used approach and technology can, however, 
+also be applied to conventional diesel engines provided 
+they have variable valve train equipment.  In figure 1 the 
+architecture of the considered engine is depicted.  
+The exhaust valve brake is positioned just downstream 
+of the turbine.  The exhaust valve brake is explicitly added 
+to the current model as an additional sub-model. Since 
+DYNAMO is a mean value model, the resolution in time is 
+larger than one engine cycle, i.e. in-cylinder phenomena are 
+not explicitly modeled. As a result, the motion of the 
+exhaust valve (gas exchange) is not described. The 
+compression release brake can therefore be modeled 
+implicitly only, i.e. by capturing its influence on the 
+important engine variables. Table 1 shows an overview of 
+the adaptations made to the existing mean value model with 
+the required quantities that need to be determined.  
+ 
+Figure 1 
+Engine architecture. 
+ 
+TABLE 1 
+Overview of new brake models and required quantities 
+Exhaust valve brake (ExhB) 
+Module 
+Required quantities 
+Exhaust valve brake component 
+eff
+d
+A
+C
+A
+=
+⋅
+; 
+pipe
+K
+ 
+Diesel Nucleus 
+vol
+η
+; 
+pump
+P
+; 
+engine
+T
+∆
+ 
+Turbine 
+eff
+A
+; 
+turbo
+N
+; 
+turbine
+T
+∆
+Compression release brake (CRB) 
+ 
+Module 
+Required quantities 
+Diesel Nucleus 
+vol
+η
+; 
+CRB
+P
+; 
+engine
+T
+∆
+ 
+Turbine 
+eff
+A
+; 
+turbo
+N
+; 
+turbine
+T
+∆
+ 
+1.1 Exhaust valve brake component model 
+As mentioned, the exhaust valve brake is added as a 
+new component to the mean value model. This component 
+consists of a volume and a restriction with a variable flow 
+area. An exhaust valve brake is a device that essentially 
+creates a major restriction to the compressible flow in the 
+exhaust system, thus causing a substantial exhaust 
+backpressure. This backpressure remains in the cylinder for 
+the entire exhaust stroke (exhaust valve open) and performs 
+negative work on the piston. The result is a negative torque 
+that slows down the engine.  
+If the exhaust throttle is in the open position, the part of 
+the exhaust system containing the exhaust valve brake is 
+322 
+ 
+ 
+modeled straightforwardly as a duct with a ‘pipe loss’ 
+coefficient
+pipe
+K
+: 
+2
+2
+2
+1
+1
+2
+2
+pipe
+pipe
+pipe
+K
+RT
+p
+K
+v
+m
+p
+A
+ρ
+∆=
+=
+ɺ
+ 
+ 
+             (1) 
+ 
+where ρ  is the gas density,  v  is the gas velocity,  mɺ  
+is the mass flow rate, 
+pipe
+A
+ is the flow area of the exhaust 
+duct,  p is the pressure, T is the temperature and R is the 
+specific gas constant. The pressure is taken equal to the 
+mean pressure over the restriction.  
+To model the resistance to the flow as performed by the 
+closed exhaust throttle (butterfly valve with a small 
+orifice), the mass flow rate through the exhaust valve brake 
+is described by the compressible valve flow equation: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+
+
+
+
+
+
+
+
+
+
+
+−
+=
++
+κ
+κ
+κ
+κ
+κ
+1
+1
+2
+2
+1
+2
+1
+1
+1
+1
+2
+ 
+p
+p
+p
+p
+RT
+p
+A
+C
+m
+d
+ɺ
+ 
+ 
+ 
+(2) 
+ 
+where 
+d
+C  the discharge coefficient, A  the equivalent 
+geometrical flow area and κ the ratio of the specific heats.  
+Pressures and temperatures in (2) are total pressures and 
+temperatures. However, the dynamic part of these 
+quantities can be neglected. Index 1 and 2  refer to 
+respectively the upstream and downstream conditions. The 
+discharge coefficient 
+d
+C   has to be tuned to measurement 
+data.  An instantaneous switch is made between equation 
+(1) and (2) when the exhaust valve brake is activated. 
+Equation (1) and (2) require the pressure upstream of 
+the butterfly valve to be known. However, in current 
+DYNAMO, the output of the turbine model is a mass flow 
+rate. In order to be able to connect the butter-fly resistance 
+model to the turbine model, a volume element, i.e. the duct 
+between the two components, has to be added. In this 
+volume, pressure is calculated using the ideal gas law: 
+(
+)
+out
+volume
+in
+volume
+volume
+volume
+m
+m
+V
+RT
+dt
+dp
+ɺ
+ɺ
+−
+⋅
+=
+ 
+ 
+     (3) 
+ 
+where V  is the volume.  
+Since the exhaust valve brake is positioned very close 
+to the turbine outlet, the heat loss to the surroundings in the 
+connecting duct is neglected. The temperature in the 
+volume is assumed to be identical to the temperature of the 
+incoming exhaust gas, i.e. turbine out temperature. 
+1.2   Adaptation of diesel nucleus model 
+The diesel nucleus component in DYNAMO calculates 
+the engine torque generation, the engine mass flow rates to 
+and from the engine and the temperature of the exhaust gas 
+entering the exhaust manifold. Both the exhaust valve 
+brake and the compression release brake (always used  in 
+combination with the exhaust valve brake) have great 
+influence on these variables.  First, the engine torque is 
+considered followed by the engine mass flow rate and the 
+temperature difference across the engine, i.e. the exhaust 
+gas temperature. 
+1.2.1 
+Engine brake torque 
+In current DYNAMO, the engine torque is computed 
+from: 
+(
+)60
+2
+ind
+pump
+friction
+engine
+P
+P
+P
+Torq
+N
+π
++
+−
+=
+ 
+ 
+     (4) 
+ 
+where  
+ind
+P
+ is the indicated work by combustion, 
+pump
+P
+is 
+the pumping work performed by the engine, 
+friction
+P
+are the 
+frictional losses and 
+engine
+N
+ is the engine speed. Because 
+the fuel injection process is stopped during engine braking, 
+the indicated power is zero. The frictional power is mainly 
+a function of engine speed. It is assumed that the frictional 
+power during braking is the same as for normal engine 
+operation. The computation of the frictional power is 
+therefore not altered. The exhaust valve brake interacts 
+with the torque generation through the pumping work. The 
+increase in backpressure results in an increase in the 
+pumping work. The pumping work during normal engine 
+operation is modeled as: 
+(
+)
+1
+2
+120
+pump
+int
+exh
+Engine
+Swept
+P
+p
+p
+PMEP
+PMEP
+N
+V
+
+
+=
+−
+⋅
++
+⋅
+
+
+⋅
+     
+ 
+ 
+  (5) 
+ 
+where 
+int
+p
+ and 
+exh
+p
+ are respectively the pressure in the 
+intake and exhaust manifold and 
+swept
+V
+ is the total swept 
+volume of the engine.  The coefficients 
+1
+PMEP  (Pumping 
+Mean Effective Pressure) and 
+2
+PMEP  have to be fitted to 
+engine data.  This model is also used during activation of 
+the exhaust valve brake. Preliminary simulation results 
+indicated that the values of both the coefficients 
+1
+PMEP  
+and 
+2
+PMEP  used for normal engine operation need not be 
+Seykens et al / Development of a Dynamic Engine Brake Model for Control Purposes 
+323 
+ 
+ 
+ 
+changed to model the pumping power during engine 
+braking. However, the increased backpressure during 
+braking, i.e. negative pressure difference across the engine, 
+required the operating range to be extended to larger 
+negative pressure differences across the engine.   
+In addition to the increased pumping losses by the 
+increased backpressure, resulting from the activation of the 
+exhaust valve brake, the compression release brake further 
+increases the braking power (i.e. larger negative engine 
+torque). The pumping losses are assumed to be unaffected 
+by the application of the compression release brake. The 
+influence of the compression release brake on the engine 
+torque is captured by adding a new power term
+CRB
+P
+. By 
+opening the exhaust valve at the end of the compression 
+stroke, the engine performs compression work which is not 
+(partially) regained during the subsequent expansion 
+stroke. The performed compression work is mainly 
+dependent on the amount of mass inside the cylinder at the 
+start of compression. This in-cylinder mass is determined 
+by the gas-exchange process, which is greatly affected by 
+the pressure difference across the engine. The compression 
+release brake power is therefore made a function of the 
+pressure difference across the engine: 
+(
+)
+120
+engine
+CRB
+CRB
+engine
+swept
+N
+P
+MEP
+p
+V
+=
+∆
+⋅
+⋅
+ 
+ 
+(6) 
+ 
+where 
+CRB
+MEP
+ 
+is 
+the 
+mean 
+effective 
+pressure 
+corresponding to the compression release brake.  It is 
+implemented as a one dimensional table in DYNAMO 
+using the pressure difference across the engine as an input. 
+The table is filled on the basis of steady-state engine 
+measurements. It has to be noted here that the timing of the 
+compression release brake is held fixed. The influence of 
+compression release brake timing on engine behaviour was 
+no subject in current study. 
+1.2.2 
+Engine aspirated mass flow rate – 
+volumetric efficiency 
+In the original model, the aspirated mass flow by the 
+engine 
+aspirated
+mɺ
+ is taken proportional to the volumetric 
+efficiency 
+vol
+η
+ and a theoretical mass flow rate  
+theoretical
+mɺ
+ 
+based on intake manifold conditions. The pressure 
+difference across the engine is decisive for the gas 
+exchange process and thus for the degree of filling of the 
+cylinders with fresh charge. Pressure oscillations in the 
+manifolds (i.e. manifold tuning), which are dependent on 
+engine speed, also influence the volumetric efficiency. 
+Therefore, in general, the volumetric efficiency is 
+implemented as a map with the pressure difference across 
+the engine and engine speed as input. The used model is 
+given by: 
+ 
+(
+)
+,
+120
+aspirated
+vol
+theoretical
+swept
+engine
+intake
+vol
+engine
+engine
+intake
+m
+m
+V
+N
+p
+p
+N
+RT
+η
+η
+=
+⋅
+=
+∆
+⋅
+ɺ
+ɺ
+ 
+ 
+ 
+(7) 
+ 
+For Heavy Duty applications,  engine speed  effects  on 
+volumetric efficiency are limited. Therefore, only the 
+pressure difference across the engine is used as an input.  
+To capture the influence of engine braking on the 
+volumetric efficiency, only the operating range of the used 
+map has to be extended to larger negative pressure 
+differences. No significant differences are found between 
+the volumetric efficiencies for the exhaust valve brake and 
+the combination of the exhaust valve brake and the 
+compression release brake. Therefore, one operating map is 
+used for both engine brake configurations.   
+1.2.3 
+Exhaust gas temperature 
+ 
+In current DYNAMO, the temperature of the gas 
+leaving the engine is computed as the sum of the intake 
+manifold temperature and a certain temperature rise over 
+the engine. For a given fuel, this temperature rise is 
+dependent on the mass of fuel injected, engine speed and 
+charge composition. The latter is modeled through an 
+adjusted air-fuel ratio λ  in which the amount of exhaust 
+gas residual in the charge is incorporated. Furthermore, a 
+correction for the start of injection is implemented. During 
+engine braking, the fuel injection is instantaneously 
+stopped. Extrapolation of the current model to the limits 
+0
+fuel
+m
+→
+ɺ
+ and λ →∞ gives inaccurate results. 
+Therefore, as a first attempt, the temperature rise across the 
+engine 
+is 
+directly 
+taken 
+from 
+measurements 
+and 
+implemented in a table as function of engine speed.  
+The engine condition can change stepwise from firing 
+condition to engine braking, but the engine temperature 
+will change more smoothly. Some dynamics has therefore 
+been added to the engine out temperature model to capture 
+these dynamics. When switching to “engine braking” the 
+engine out temperature changes with a first order response 
+from the current temperature to the steady-state “engine 
+braking” temperature 
+_
+EB
+steady
+T
+: 
+(
+)
+_
+1
+EB
+steady
+T
+T
+T
+τ
+=
+−
+ɺ
+ 
+ 
+(8) 
+ 
+324 
+ 
+ 
+The time constant τ  of this first order filter has to be 
+fitted to transient test results. 
+1.3    Adaptation of turbine model 
+As mentioned before, the existing DYNAMO engine 
+model is not capable of accurately simulating the mass flow 
+rates during engine braking. This is mainly caused by the 
+fact that the behavior of the turbo is not correctly captured. 
+Analysis of preliminary simulation results learned that the 
+pressure ratio over the turbine (
+in
+out
+p
+p
+) is very low 
+when using the exhaust brake. Consequently, the turbo 
+speed is very low (10000 – 40000 RPM) too. These two 
+factors cause the turbine to operate far outside the 
+operating range described in the turbine manufacturer’s 
+map. The operating range described by the compressor 
+operating map is somewhat larger. For the steady-state 
+measurements used in this study, the operating range lies 
+just inside the map. However, it is possible that during 
+transient operation, the compressor operates outside of the 
+operating range for which data is available. At present, no 
+corrections are made for this. 
+The fact that the turbine operates outside of the turbine 
+map, is the main reason for the deviations between 
+measured and simulated mass flow rates during engine 
+braking. The turbine efficiency derived from the maps is 
+not correct which results in a severe under-prediction of 
+turbospeeds. This finally results in too low mass flow rates 
+delivered by the compressor and inaccurate simulation of 
+the manifold conditions. 
+For a good verification of engine behavior during 
+exhaust brake operation, compressor and turbine maps 
+should be made available for very low turbo speeds and 
+pressure ratios. However, this data was not available in this 
+project. As a pragmatic alternative to obtaining compressor 
+and turbine maps for wider operating ranges, a model 
+transition is proposed here. If the turbo speed drops below 
+42,000 RPM and the pressure ratio over the turbine drops 
+below 1.2, the turbine model changes into a simple 
+compressible flow resistance. The mass flow rate through 
+this restriction is again given by (1). The compressor model 
+has not been changed for aforementioned reasons.   
+The effective flow area 
+(
+)
+eff
+d
+geo
+A
+C
+A
+=
+⋅
+  in the 
+compressible valve flow equation, see (1), describing the 
+mass flow rate through the turbine, is tuned on the basis of 
+steady state measurements for the combination of the 
+exhaust valve brake and compression release brake. This 
+effective flow area is held constant for all operating 
+conditions. Figure 2 gives a comparison between the 
+resulting simulated mass flow rates and the measured mass 
+flow rate for different engine speeds. An acceptable 
+accuracy is present (max. deviation <5% with respect to 
+measured value).  Data presented in the figures is 
+normalized on the basis of the maximum value from the 
+corresponding measurements.  
+1200
+1400
+1600
+1800
+2000
+2200
+0.55
+0.6
+0.65
+0.7
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+1.05
+Engine Speed [RPM]
+Norm. Turbine mass flow rate [-]
+Simulated
+Measured
+Figure 2 
+Steady-state simulated and measured normalized turbine 
+mass flow rate 
+ 
+Apart from the turbine mass flow rate, the turbospeed 
+and temperature drop over the turbine must also be 
+described. The turbospeed is required in the compressor 
+model to compute the compressor mass flow rate. The 
+turbine out temperature is of great importance for the 
+exhaust aftertreatment system. Both variables are fitted 
+directly 
+on 
+steady-state 
+measurement 
+data. 
+The 
+determination of the turbospeed, which is proportional to 
+the mass flow rate through the turbine, is based on the 
+engine speed.  The turbine out temperature is computed as 
+a function of the exhaust manifold temperature. 
+2 SIMULATION RESULTS 
+The implemented engine brake models are tuned on the 
+basis of steady-state measurement data. In this section, first 
+steady-state simulation results for the complete engine 
+model will be compared with measurements for model 
+validation. Here, results will be shown for both the exhaust 
+valve brake and the combination of exhaust valve brake 
+and compression release brake. Thereafter, the dynamics of 
+the model will be validated through a comparison between 
+transient simulation results and measurements, i.e. for the 
+activation of the engine brake. Transient measurement data 
+was only available for the configuration of the compression 
+release brake (CRB) in combination with the exhaust valve 
+brake (ExhB). The important variables to be considered 
+here are the engine brake torque, which is of great 
+importance for the engine braking efficiency, the aspirated 
+mass flow rates and exhaust gas temperatures which are of 
+great significance for the exhaust gas aftertreatment system.  
+Seykens et al / Development of a Dynamic Engine Brake Model for Control Purposes 
+325 
+ 
+ 
+ 
+2.1  Simulation results steady-state operation 
+The steady-state results shown in this section are 
+obtained by using the full engine model in DYNAMO. The 
+only predefined model inputs are the engine speed, fuel 
+mass flow rate (zero during engine braking) and ambient 
+conditions.  These inputs are taken from the engine 
+measurements.  
+Figures 3 to 5 show a comparison between 
+measurements and simulations for respectively the engine 
+torque, aspirated air mass flow rate and exhaust manifold 
+temperature. In the figures, the results for both the 
+configuration of the exhaust valve brake (EhxB) and the 
+combination of the exhaust valve brake and the 
+compression release brake (CRB) are shown.  
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2200
+2400
+-4.5
+-4
+-3.5
+-3
+-2.5
+-2
+-1.5
+-1
+-0.5
+Engine Speed [RPM]
+Normalized Engine Torque [-]
+ExhB Simulated
+ExhB Measured
+CRB Simulated
+CRB Measured
+ 
+Figure 3 
+Comparison steady-state simulated and measured engine 
+torque for both the exhaust valve brake and the 
+combination of the exhaust valve brake and compression 
+release brake. 
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2200
+2400
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+Engine Speed [RPM]
+Normalized air mass flow rate [-]
+ExhB Simulated
+ExhB Measured
+CRB Simulated
+CRB Measured
+ 
+Figure 4 
+Comparison steady-state simulated and measured 
+aspirated air mass flow rate for both the exhaust valve 
+brake and the combination of the exhaust valve brake and 
+compression release brake. 
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2200
+2400
+0.55
+0.6
+0.65
+0.7
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+Engine Speed [RPM]
+Normalized Exhaust manifold Temperature [-]
+ExhB Simulated
+ExhB Measured
+CRB Simulated
+CRB Measured
+ 
+ 
+Figure 5 
+Comparison steady-state simulated and measured exhaust 
+manifold temperatures for both the exhaust valve brake 
+and the combination of the exhaust valve brake and 
+compression release brake. 
+ 
+The figures show a good agreement between 
+measurements and simulations for steady-state engine 
+braking over a large range of engine speeds. The deviations 
+between measured and simulated mass flow rate and engine 
+torque are within 5% of the simulated values. For engine 
+torque and aspirated air mass flow rate, these results 
+confirm that they are mainly dependent upon the pressure 
+difference across the engine as is assumed in the engine 
+brake models. 
+ 
+ 
+2.2. Simulation results for transient 
+operation – activation of engine brake 
+In order to validate the dynamic behavior of the model, 
+transient measurements have been performed on the 
+engine. During these tests, the engine is operating normally 
+at a predefined steady-state operating point before the 
+engine brake, i.e. the combination of the exhaust valve 
+brake and compression release brake is activated. In these 
+experiments, first the fuel flow is stopped. After one 
+second, both the compression release brake and the exhaust 
+valve brake are activated. For the exhaust valve brake it is 
+assumed that the closing of the exhaust valve requires 0.3 
+seconds. The compression release brake is activated 
+instantaneously. The engine speed in the final steady state 
+is also predefined.  In table 2 an overview of the initial and 
+final steady states of four of the performed transient tests, 
+326 
+ 
+ 
+for which the results will be shown, is presented. In 
+practice, transients A and D can be seen as activating the 
+engine brake to maintain a constant velocity when going 
+down a hill. Transients B and C can be considered as 
+activating the engine brake to decrease vehicle speed, for 
+example when stopping for a traffic light. 
+TABLE 2 
+Overview of transients – activation of engine brake 
+Transient 
+Initial state 
+Final state 
+A 
+100% load ; 2100 rpm 
+2100 rpm 
+B 
+100% load ; 2100 rpm 
+1500 rpm 
+C 
+70% load; 1500 rpm 
+2100 rpm 
+D 
+70% load; 1500 rpm 
+1500 rpm 
+ 
+The actuation signals to the fuel injection system, 
+exhaust valve brake, compression release brake and the 
+engine speed are used as input variables in the DYNAMO 
+simulations. It has to be noted here, that the actuator 
+signals to the compression release brake and exhaust valve 
+brake are not actually measured but have been numerically 
+constructed. The input signal to the exhaust valve brake 
+directly describes the opening percentage of the exhaust 
+throttle.  Figure 6 shows the used inputs for transient A. 
+As can be seen in figure 6, the engine speed drops as 
+soon as the fuel flow is stopped. However, the 
+dynamometer connected to the crankshaft has a set-point of 
+2100 rpm. During the time period between the stopping of 
+the fuel flow and the activation of the engine brake, the 
+engine is driven by the dynamometer and the engine speed 
+starts to increase. The activation of the engine brake results 
+in a rapid decrease in engine speed before the 
+dynamometer comes into play and speeds-up the engine to 
+the desired final steady-state engine speed of 2100 rpm.  
+0
+5
+10
+15
+2000
+2050
+2100
+2150
+Time [s]
+Engine speed [RPM]
+0
+5
+10
+15
+0
+0.5
+1
+Time [s]
+Norm. Fuel flow [-]
+0
+5
+10
+15
+0
+0.5
+1
+Time [s]
+CRB signal [-]
+0
+5
+10
+15
+0
+0.5
+1
+Time [s]
+ExhB signal [-]
+ 
+Figure 6 
+Input signals for transient simulations for transient A. 
+ 
+Figures 7 to 10 show the results for respectively engine 
+torque, 
+aspirated 
+air 
+mass 
+flow 
+rate, 
+turbine-out 
+temperature and turbo speed. It has to be noted here, that 
+the deviation present in the initial state for transients A and 
+B are caused by inaccuracies in the original DYNAMO 
+engine model and are not the result of the implemented 
+engine brake models. The origin of the deviations in the 
+initial conditions is an incorrect simulation of the exhaust 
+manifold temperature, i.e. the temperature rise across the 
+engine. In all figures the instantaneous events of stopping 
+the fuel flow rate and activating the engine brake can be 
+clearly seen as discontinuities in both the measurements 
+and simulation results. As can be concluded from these 
+figures, the predicted dynamic behavior is in good 
+agreement with the measurements. The largest deviations 
+are present in the turbo speed and exhaust manifold 
+temperatures. The turbo speeds drops too slowly after the 
+fuel flow has stopped. This is most probably the result of a 
+defined turbo inertia which is too high in the original 
+model.  This also causes the mass flow rates to remain too 
+high during the time period between stopping of the fuel 
+flow and activation of the engine brake. However, after the 
+activation of the engine brake, the turbo speeds and mass 
+flow rates are in good agreement with the measurements.  
+This is an important conclusion for controller development 
+for, amongst others, automatic gear switching algorithm 
+development. If the engine brake is deactivated, the turbo 
+speed is a decisive factor in the engine response.  The good 
+agreement in mass flow rates and also in engine torque 
+Seykens et al / Development of a Dynamic Engine Brake Model for Control Purposes 
+327 
+ 
+ 
+ 
+indicate that the manifold pressures are correctly simulated 
+(not shown).  
+0
+5
+10
+15
+-1
+-0.5
+0
+0.5
+1
+Time [s]
+Transient A
+Norm. Engine Torque [-]
+0
+5
+10
+15
+-1
+-0.5
+0
+0.5
+1
+Time [s]
+Transient B
+Norm. Engine Torque [-]
+0
+5
+10
+15
+-1
+-0.5
+0
+0.5
+Time [s]
+Transient C
+Norm. Engine Torque [-]
+0
+5
+10
+15
+-1
+-0.5
+0
+0.5
+Time [s]
+Transient D
+Norm. Engine Torque [-]
+ 
+ 
+Measured
+Simulated
+ 
+ 
+Figure 7 
+Comparison transient simulated and measured engine 
+torque for the four selected transients and the combination 
+of the exhaust valve brake and compression release brake. 
+ 
+0
+5
+10
+15
+0.4
+0.6
+0.8
+1
+Time [s]
+Transient A
+Norm. Air mass flow rate [-]
+0
+5
+10
+15
+0.2
+0.4
+0.6
+0.8
+1
+Time [s]
+Transient B
+Norm. Air mass flow rate [-]
+0
+5
+10
+15
+0.3
+0.4
+0.5
+0.6
+Time [s]
+Transient C
+Norm. Air mass flow rate [-]
+0
+5
+10
+15
+0.3
+0.4
+0.5
+0.6
+Time [s]
+Transient D
+Norm. Air mass flow rate [-]
+ 
+ 
+Measured
+Simulated
+ 
+Figure 8 
+Comparison transient simulated and measured aspirated 
+air mass flow rate for the four selected transients.  
+ 
+0
+5
+10
+15
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+Time [s]
+Transient A
+Norm. Turbine out temperature [-]
+0
+5
+10
+15
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+Time [s]
+Transient B
+Norm. Turbine out temperature [-]
+0
+5
+10
+15
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+Time [s]
+Transient C
+Norm. Turbine out temperature [-]
+0
+5
+10
+15
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+Time [s]
+Transient D
+Norm. Turbine out temperature [-]
+Measured
+Simulated
+ 
+Figure 9 
+Comparison transient simulated and measured exhaust gas 
+temperature for the four selected transients.  
+ 
+0
+5
+10
+15
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Time [s]
+Transient A
+Norm. Turbospeed [-]
+0
+5
+10
+15
+0.4
+0.6
+0.8
+1
+Time [s]
+Transient B
+Norm. Turbospeed [-]
+0
+5
+10
+15
+0.45
+0.5
+0.55
+0.6
+0.65
+0.7
+Time [s]
+Transient C
+Norm. Turbospeed [-]
+0
+5
+10
+15
+0.4
+0.5
+0.6
+0.7
+Time [s]
+Transient D
+Norm. Turbospeed [-]
+ 
+ 
+Measured
+Simulated
+ 
+Figure 10 
+Comparison transient simulated and turbospeed for the 
+four selected transients. 
+ 
+The turbine-out temperatures in figure 9 show the 
+largest deviations between simulations and measurements 
+when the exhaust valve brake is activated. This is only 
+partially caused by the large response time of the used 
+thermocouples in the exhaust system.  The final steady 
+states (not shown) show an acceptable accuracy with 
+deviations < ~5% of the measured value. The used models 
+for the determination of the exhaust manifold temperature 
+and turbine-out temperature therefore need to be extended 
+with a more physically based model to capture all of the 
+influences and give a better approximation of the dynamic 
+behavior.    
+328 
+ 
+ 
+3 MODEL APPLICATION 
+The good agreement between measured and simulated 
+mass flow rates and the reasonable agreement in exhaust 
+gas temperature make the developed model a valuable tool 
+for exhaust gas aftertreatment controller development.  The 
+accurate simulation of the engine torque during the 
+activation of the engine brake is beneficial for power train 
+controller development. This has also been one of the first 
+application of the developed engine model.  More 
+specifically, the model has been used to examine the 
+possibility of using the exhaust valve brake to facilitate 
+automatic gear switching.  
+The dynamic model has been used as a tool to verify 
+that by activating the exhaust valve brake during gear 
+switching the gear switching process can occur faster. The 
+activation of the exhaust valve brake results in a more rapid 
+decrease in engine speed. With the aid of the model a 
+control algorithm (of the open loop type, i.e. feedforward) 
+has been developed for this, which has subsequently been 
+tested on an actual vehicle, i.e. complete power train.  
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+0
+5
+10
+Time [s]
+Gear [-]
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+0
+0.5
+1
+Time [s]
+Norm. Engine speed [-]
+Without ExhBrake
+With Exhbrake
+Without ExhBrake
+With Exhbrake
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+0
+50
+100
+Time [s]
+Engine Torque [%], 
+Throttle position [%]
+Torque Without ExhBrake
+Torque With Exhbrake
+Throttle Without ExhBrake
+Throttle With Exhbrake
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+0
+500
+1000
+Time [s]
+Pressure [kPa]
+Actuator pressure
+Backpressure
+Figure 11 
+Comparison between automatic gear switching 
+measurements with and without the use of the exhaust 
+valve brake.  
+ 
+Figure 11 shows the measurements for both the 
+situation with and without the application of the exhaust 
+valve brake for up-shifting from 3rd to 9th gear. At every 
+gear switch the exhaust valve brake is activated, which can 
+be seen in the bottom graph which shows the pressure in 
+the exhaust valve brake actuator and the exhaust manifold 
+pressure. Both pressures increase during braking. The 
+accelerator pedal remains at 100% (full load) during the 
+whole shifting sequence. During activation of the exhaust 
+valve, the engine torque and engine speed rapidly decrease. 
+As can be observed from the figure, the decrease in engine 
+speed is much faster when the exhaust valve brake is used. 
+This will result in a much smoother and faster gear shift.  
+4 CONCLUSIONS AND OUTLOOK 
+In this study, the implementation of engine brake 
+models in an existing engine simulation tool, DYNAMO, is 
+described. Although the implementation only requires 
+minor adjustments to the current engine model through 
+mostly empirical correlations, the model gives satisfactory 
+results for both steady-state and transient (i.e. activation of 
+engine brake) engine behavior during engine braking. The 
+implemented 
+models 
+are 
+based 
+on 
+steady-state 
+measurement data. During braking the engine operates 
+outside of the operating range for normal engine operation, 
+e.g. higher backpressures. As a consequence, additional 
+engine measurements need to be performed. However, no 
+quantities are required that are not already measured in 
+case of normal engine operation. The required data is 
+therefore relatively easy to obtain.  
+The predicted mass flow rates are greatly dependent on 
+the turbo model (i.e. compressor and turbine). During 
+engine braking, the turbine operates outside of its normal 
+operating range for which data is available through the 
+turbine manufacturers operating map.  A very pragmatic 
+model for simulating the mass flow rate, turbine-out 
+temperature and turbo speed is currently implemented as a 
+first attempt. Results however show that already 
+satisfactory agreement on mass flow rates and turbo speed 
+are present with the use of these models. Only for the 
+turbine-out temperature an extension of the current model, 
+i.e. a more physically based model, is requested. 
+Deviations present are not only coupled to the turbine 
+model, but mainly to the prediction of the exhaust gas 
+temperature exiting the engine.   
+The benefits of the model are that it is relatively simple, 
+computationally very efficient (real-time) and it able to 
+calculate quantities during engine braking which are of 
+great significance for exhaust gas aftertreatment system 
+control, i.e. engine mass exhaust gas flow rate and 
+temperature.  This is of great importance since in the future 
+exhaust gas aftertreatment system controls will become 
+more and more integrated in the engine control system. The 
+accurate prediction of dynamic engine behavior during 
+engine braking makes the model a valuable tool for 
+controller development. In the present study, the model has 
+been used to examine the possibility to apply the exhaust 
+valve brake during automatic gear switching. With the aid 
+of the model it was verified that the exhaust valve brake 
+can facilitate the gear switching by decreasing the engine 
+Seykens et al / Development of a Dynamic Engine Brake Model for Control Purposes 
+329 
+ 
+ 
+ 
+speed more rapidly.  This has subsequently been checked 
+on an actual vehicle.  
+The present engine simulation tool, DYNAMO, is a 
+mean value model. This means that in-cylinder phenomena 
+are not explicitly modeled. The temporal resolution is 
+greater than one engine cycle. Compression release braking 
+and, most importantly, combustion and emission formation, 
+are occurring on a much smaller time scale. Therefore, 
+current research focuses on extending DYNAMO with a 
+real-time in-cylinder model for combustion and emission 
+formation 
+evaluation. 
+This 
+will 
+also 
+include 
+the 
+incorporation of more advanced combustion concepts, such 
+as 
+Homogeneous 
+Charge 
+Compression 
+Ignition 
+Combustion.  
+ACKNOWLEDGEMENTS 
+The authors would like to acknowledge TNO 
+Automotive for the use of DYNAMO and DAF Trucks for 
+providing the experimental data. This research is part of the 
+PREDUCE research program, which is partially funded by 
+the Dutch Ministry of Economical Affairs. 
+REFERENCES 
+1. D.D. Cummins, The Jacobs Engine Brake Application 
+and Performance, SAE paper 660740, Oct. 1966 
+2. H. Hu, J.M. Vorih and M. A. Israel, The Integrated 
+Lost Motion VVT Diesel Engine Retarder, SAE paper 
+973180, Nov. 1997 
+3. Z. Yang, A Study of Two-Stroke Engine Braking for 
+HD Diesel Engines, SAE paper 2002-01-0487, March 
+2002 
+4. P. Templin, A Diesel Engine Model, including 
+Compression brake, for Powertrain Control, SAE 
+paper 2002-01-3215 
+5. J. Schwoerer, S. Huang and G. Trzaska, Simulation 
+Tools for Development of Advanced Engine Braking 
+and Variable Valve Actuation Systems, SAE paper 
+2002-01-0375, March 2002 
+6. R. Ewalds, TNO DYNAMO – User Guide, TNO 
+Automotive internal report, March 2003 
+ 

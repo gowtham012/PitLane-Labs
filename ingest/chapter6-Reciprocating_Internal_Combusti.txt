@@ -1,0 +1,1152 @@
+224
+C H A P T E R   6
+RECIPROCATING INTERNAL
+ COMBUSTION ENGINES
+6.1 Introduction
+Perhaps the best-known engine in the world is the reciprocating internal combustion
+(IC) engine. Virtually every person who has driven an automobile or pushed a power
+lawnmower has used one. By far the most widely used IC engine is the spark-ignition
+gasoline engine, which takes us to school and work and on pleasure jaunts. Although
+others had made significant contributions, Niklaus Otto is generally credited with  the
+invention of the engine and with the statement of its theoretical cycle.
+     Another important engine is the reciprocating engine that made the name of Rudolf
+Diesel famous. The Diesel engine, the workhorse of the heavy truck industry, is widely
+used in industrial power and marine applications. It replaced the reciprocating steam
+engine in railroad locomotives about fifty years ago and remains dominant in that role
+today.
+     The piston, cylinder, crank, and connecting rod provide the geometric basis of the
+reciprocating engine. While two-stroke-cycle engines are in use and of continuing
+interest, the discussion here will emphasize the more widely applied four-stroke-cycle
+engine. In this engine the piston undergoes two mechanical cycles for each
+thermodynamic cycle. The intake and compression processes occur in the first two
+strokes, and the power and exhaust processes in the last two. These processes are made
+possible by the crank-slider mechanism, discussed next. 
+6.2 The Crank-Slider Mechanism
+Common to most reciprocating engines is a linkage known as a crank-slider mechan-
+ism. Diagramed in Figure 6.1, this mechanism is one of several capable of producing
+the straight-line, backward-and-forward motion known as reciprocating. Fundament-
+ally, the crank-slider converts rotational motion into linear motion, or vice-versa. With
+a piston as the slider moving inside a fixed cylinder, the mechanism provides the vital
+capability of a gas engine: the ability to compress and expand a gas. Before delving into
+this aspect of the engine, however, let us examine the crank-slider mechanism more
+closely.
+225
+It is evident from Figure 6.2 that, while the crank arm rotates through 180°, the
+piston moves from the position known as top-center (TC) to the other extreme, called
+bottom-center (BC). During this period the piston travels a distance, S, called the
+stroke, that is twice the length of the crank. 
+For an angular velocity of the crank, , the crank pin A has a tangential velocity
+component S/2. It is evident that, at TC and at BC, the crank pin velocity component
+in the piston direction, and hence the piston velocity, is zero. At these points,
+corresponding to crank angle  = 0° and 180°, the piston reverses direction. Thus as 
+varies from 0° to 180°, the piston velocity accelerates from 0 to a maximum and then
+returns to 0. A similar behavior exists between 180° and 360°.
+The connecting rod is a two-force member; hence it is evident that there are both
+axial and lateral forces on the piston at crank angles other than 0° and 180°. These
+lateral forces are, of course, opposed by the cylinder walls. The resulting lateral force
+component normal to the cylinder wall gives rise to frictional forces between the piston
+rings and cylinder. It is evident that the normal force, and thus the frictional force,
+alternates from one side of the piston to the other during each cycle. Thus the piston
+motion presents a challenging lubrication problem for the control and reduction of both
+wear and energy loss.
+The position of the piston with respect to the crank centerline is given by
+x = (S/2)cos  + Lcos
+[ft | m]
+(6.1)
+where yA  = (S/2)sin  = Lsin   can be used to eliminate   to obtain
+x/L = (S/2L)cos  + [1– (S/2L)2 sin2  ]½
+[dl]
+(6.2)
+Thus, while the axial component of the motion of the crank pin is simple harmonic, 
+xA = (S/2)cos, the motion of the piston and piston pin is more complex. It may be 
+226
+seen from Equation (6.2), however, that as S/L becomes small, the piston motion
+approaches simple harmonic. This becomes physically evident when it is recognized
+that, in this limit, the connecting rod angle,  , approaches 0 and the piston motion
+approaches the axial motion of the crank pin. Equations (6.1) and (6.2) may be used to
+predict component velocities, accelerations, and forces in the engine. 
+The volume swept by the piston as it passes from TC to BC is called the piston
+displacement, disp.  Engine displacement, DISP, is then the product of the piston
+displacement and the number of cylinders, DISP = (n)(disp). The piston displacement is
+the product of the piston cross-sectional area and the stroke. The cylinder inside
+diameter (and, approximately, also the piston diameter) is called its bore. Cylinder bore,
+stroke, and number of cylinders are usually quoted in engine specifications along with
+or instead of engine displacement. It will be seen later that the power output of a
+reciprocating engine is proportional to its displacement. An engine of historical interest
+that also used the crank-slider mechanism is discussed in the next section.
+6.3 The Lenoir Cycle
+An early form of the reciprocating internal combustion engine is credited to Etienne
+Lenoir. His engine, introduced in 1860, used a crank-slider-piston-cylinder arrangement 
+227
+in which a combustible mixture confined between the piston and cylinder is ignited after
+TC. The resulting combustion gas pressure forces acting on the piston deliver work by
+way of the connecting rod to the rotating crank. When the piston is at BC, combustion
+gases are allowed to escape. The rotational momentum of the crank system drives the
+piston toward TC, expelling additional gases as it goes. A fresh combustible mixture is
+again admitted to the combustion chamber (cylinder) and the cycle is repeated.
+The theoretical Lenoir cycle, shown in Figure 6.3 on a pressure-volume diagram, 
+consists of the intake of the working fluid (a combustible mixture) from state 0 to state
+1, a constant-volume temperature and pressure rise from state 1 to state 2, approxim-
+ating the combustion process, an isentropic expansion of the combustion gases to state
+3, and a constant-pressure expulsion of residual gases back to state 0. Note that a
+portion of the piston displacement, from state 0 to state 1, is used to take in the
+combustible mixture and does not participate in the power stroke from state 2 to state
+3. The engine has been called an explosion engine because the power delivered is due
+only to the extremely rapid combustion pressure rise or explosion of the mixture in the
+confined space of the cylinder. 
+     Hundreds of  Lenoir engines were used in the nineteenth century, but the engine is
+quite inefficient by todays standards. In 1862, Beau de Rochas pointed out that the 
+228
+efficiency of internal combustion could be markedly improved in reciprocating engines
+by compression of the air-fuel mixture prior to combustion. In 1876 Niklaus Otto (who
+is thought to have been unaware of Rochas’ suggestion) demonstrated an engine that 
+incorporated this important feature, as described next.   
+6.4 The Otto Cycle
+     The Otto cycle is the theoretical cycle commonly used to represent the processes in
+the spark ignition (SI) internal combustion engine.  It is assumed that a fixed mass of
+working fluid is confined in the cylinder by a piston that moves from BC to TC and
+back, as shown in Figure 6.4.  The cycle consists of isentropic compression of an
+air-fuel mixture from state 1 to state 2, constant-volume combustion to state 3,
+isentropic expansion of the combustion gases to state 4, and a constant-volume heat
+rejection back to state 1. The constant-volume heat rejection is a simple expedient to
+close the cycle. It obviates the need to represent the complex expansion and outflow of
+229
+combustion gases from the cylinder at the end of the cycle. Note that the Otto cycle is
+not concerned with the induction of the air-fuel mixture or with the expulsion of
+residual combustion gases. Thus only two mechanical strokes of the crank-slider are
+needed in the Otto cycle, even when it is used to represent an ideal four-stroke-cycle
+Otto engine.  In this case the remaining strokes are used to execute the necessary intake
+and exhaust functions.  Because it involves only two strokes, the Otto cycle may also
+represent a two-stroke-cycle engine.  The two-stroke-cycle engine is in principle
+capable of as much work in one rotation of the crank as the four-stroke engine is in
+two.  However, it is difficult to implement because of the necessity of making the
+intake and exhaust functions a part of those two strokes.  It is therefore not as highly
+developed or widely used as the four-stroke-cycle engine.  We will focus on the four-
+stroke-cycle here.     
+The simplest analysis of the Otto cycle assumes calorically perfect air as the work-
+ing fluid in what is called the Air Standard cycle analysis.  Following the notation of
+Figure 6.4, the compression process can be represented by the isentropic relation for a
+calorically perfect gas, Equation (1.21), as
+ p2/p1 = (V1/V2)k
+[dl]
+(6.3)
+where the compression ratio, CR = V1/V2, is a fundamental parameter of all recipro-
+cating engines. The diagram shows that the expansion ratio for the engine, V4 /V3, has
+the same value, V1/V2. The clearance volume, V2, is the volume enclosed between the 
+cylinder head and the piston at TC. Thus the compression ratio may be expressed as the
+ratio of the sum of the clearance and displacement volumes to the clearance volume: 
+CR = [V2 + (V1 – V2)]/V2
+Thus, for a given displacement, the compression ratio may be increased by reducing the
+clearance volume. 
+The efficiency of the cycle can be most easily determined by considering constant-
+volume-process heat transfers and the First Law cyclic integral relation, Equation (1.3).
+The heat transferred in the processes 23 and 41 are
+q23 = cv (T3 – T2)
+[Btu/lbm | kj/kg]
+(6.4)
+and
+ 
+q41 = cv (T1 – T4)
+[Btu/lbm | kJ/kg]
+(6.5)
+Both the expansion process, 34, and the compression process, 12, are assumed to
+be isentropic. Thus, by definition, they are both adiabatic.  From the cyclic integral, the
+net work per unit mass is then:
+w = q23 + q41 = cv (T3 – T2 + T1 – T4)
+[Btu/lbm | kJ/kg]
+(6.6)
+230
+As before, the cycle thermal efficiency is the ratio of the net work to the external heat
+supplied:
+Otto = w/q23 = cv (T3  – T2 + T1  – T4) / [cv (T3  – T2)]
+   
+  = 1 + (T1 – T4) / (T3 – T2)
+  = 1 – T1/T2 = 1 – 1 / CR k-1
+[dl]
+(6.7)
+where Equation (1.20) has been used to eliminate the temperatures. Equation (6.7)
+shows that increasing compression ratio increases the cycle thermal efficiency. This is
+true for real engines as well as for the idealized Otto engine. The ways in which real
+spark ignition engine cycles deviate from the theoretical Otto cycle are discussed later.
+EXAMPLE 6.1 
+An Otto engine takes in an air-fuel mixture at 80°F and standard atmosphere presssure.
+It has a compression ratio of 8. Using Air Standard cycle analysis, a heating value of
+20,425 Btu/lbm, and A/F = 15, determine:
+(a) The temperature and pressure at the end of compression, after combustion, and
+at the end of the power stroke.
+(b) The net work per pound of working fluid.
+(c) The thermal efficiency.
+Solution
+We use the notation of Figure 6.4:
+(a) p2    =  p1(V1/V2)k = 1(8)1.4 = 18.38 atm
+T2  = T1(V1/V2)k – 1 = (540)(8)0.4 = 1240.6°R
+T3  = T2 + qa /cv = T2 + (F/A)(HV)k/cp = 1240.6 + 1.420,425/150.24 = 9184°R
+ p3 = p2T3 /T2 = 18.38(9184/1240.6) = 136.1 atm
+T4 = T3 /CRk–1 = 9184/ 80.4 = 3997.2°R
+p4 = p3 /CRk = 136.1/81.4 = 7.4 atm
+(b) The constant-volume heat addition is governed by the fuel-air ratio and the fuel
+heating value:
+qa = HV(F/A) = 20,425/15 = 1361.7 Btu/lbm of air
+231
+qr = cv (T1 – T4) = (0.24/1.4)( 540 – 3997.4) =  – 592.7 Btu/lbm
+w = qa + qr = 1361.7 + ( – 592.7) = 769 Btu/lbm
+(c) The cycle termal efficiency may then be determined from the definition of the
+heat engine thermal efficiency or Equation (6.7):
+th = w/qa = 769/1361.7 = 0.565
+th = 1 – 1/80.4 = 0.565
+_____________________________________________________________________
+In view of the discussion of gas properties and dissociation in Chapter 3, the values
+of T3 and T4 in Example 6.1 are unrealistically high.  Much of the energy released by the
+fuel would go into vibration and dissociation of the gas molecules rather than into the
+translational and rotational degrees of freedom represented by the temperature.  As a
+result,  significantly lower temperatures would be obtained.  Thus, while the analysis is
+formally correct, the use of constant-low-temperature heat capacities in the Air
+Standard cycle makes it a poor model for predicting temperature extremes when high
+energy releases occur. Some improvement is achieved by using constant-high-
+temperature heat capacities, but the best results would be achieved by the use of real
+gas properties, as discussed in several of the references.
+6.5 Combustion in a Reciprocating Engine
+The constant-volume heat transfer process at TC in the Otto cycle is an artifice to
+avoid the difficulties of modeling the complex processes that take place in the
+combustion chamber of the SI engine. These processes, in reality, take place over a
+crank angle span of 30° or more around TC. Let us consider aspects of these processes
+and their implementation in more detail.
+Normally, the mixture in the combustion chamber must have an air-fuel ratio in the
+neighborhood of the stoichiometric value for satisfactory combustion. A more or less
+homogeneous mixture may be produced outside the cylinder in a carburetor, by
+injection into the intake manifold, or by throttle-body injection into a header serving
+several intake manifolds.  In the case of the carburetor, fuel is drawn into the engine
+from the carburetor by the low pressure created in a venturi through which the
+combustion air flows. As a result, increased air flow causes lower venturi pressure and
+hence increased fuel flow. The fuel system thus serves to provide an air-fuel mixture
+that remains close to the stoichiometric ratio for a range of air flow rates.  Various
+devices designed into the carburetor further adjust the fuel flow for the special
+operating conditions encountered, such as idling and rapid acceleration.
+Maximum fuel economy is usually attained with excess air to ensure that all of the
+fuel is burned. A mixture with excess air is called a lean mixture. The carburetor
+232
+usually produces this condition in automobiles during normal constant-speed driving.
+On the other hand, maximum power is achieved with excess fuel to assure that all
+of the oxygen in the air in the combustion chamber is reacted. It is a matter of exploit-
+ing the full power-producing capability of the displacement volume. A mixture with
+excess fuel is called a rich mixture. The automotive carburetor produces a rich mixture
+during acceleration by supplying extra fuel to the air entering the intake manifold.
+The equivalence ratio is sometimes used to characterize the mixture ratio, whether
+rich or lean. The equivalence ratio, , is defined as the ratio of the actual fuel-air ratio
+to the stoichiometric fuel-air ratio. Thus   > 1 represents a rich mixture and   < 1
+represents a lean mixture. In terms of air-fuel ratio,  = (A/F)stoich /(A/F).
+Homogeneous air-fuel mixtures close to stoichiometric may ignite spontaneously
+(that is, without a spark or other local energy source) if the mixture temperature
+exceeds a temperature called the autoignition temperature. If the mixture is brought to
+and held at a temperature higher than the autoignition temperature, there is a period of 
+delay before spontaneous ignition or autoignition This time interval is called the
+ignition delay, or ignition lag. The ignition delay depends on the characteristics of the
+fuel and the equivalence ratio and usually decreases with increasing temperature. 
+In spark-ignition engines, compression ratios and therefore the temperatures at the
+end of compression are low enough that the air-fuel mixture is ignited by the spark plug
+before spontaneous ignition can occur. SI engines are designed so that a flame front
+will propagate smoothly from the spark plug into the unburned mixture until all of the
+mixture has been ignitied. However, as the flame front progresses, the temperature and
+pressure of the combustion gases behind it rise due to the release of the chemical
+energy of the fuel. As the front propagates, it compresses and heats the unburned
+mixture, sometimes termed the end-gas. Combustion is completed as planned when the
+front smoothly passes completely through the end-gas without autoignition. However,
+if the end-gas autoignites, a pinging or low-pitched sound called knock is heard.
+The avoidance of knock due to autoignition of the end-gas is a major constraint on
+the design compression ratio of an SI engine. If hot spots or thermally induced
+compression of the end-gas ignite it before the flame front does, there is a more rapid
+release of chemical energy from the end-gas than during normal combustion. Knock is
+sometimes thought of as an explosion of the end gas that creates an abrupt pulse and
+pressure waves that race back and forth across the cylinder at high speed, producing
+the familiar pinging or low-pitched sound associated with knock. Knock not only
+reduces engine performance but produces rapid wear and objectionable noise in the
+engine. Thus it is important for a SI engine fuel to have a high autoignition
+temperature. It is therefore important for SI engine fuel to have a high autoignition
+temperature. Thus the knock characteristics of commercially available fuels limit the
+maximum allowable design compression ratio for SI engines and hence limit their best
+efficiency.     
+The octane number is a measure of a gasoline's ability to avoid knock. Additives
+such as tetraethyl lead have been used in the past to suppress engine knock. However,
+the accumulation of lead in the environment and its penetration into the food cycle has
+233
+resulted in the phaseout of lead additives. Instead refineries now use appropriate blends
+of  hydrocarbons as a substitute for lead additives in unleaded fuels. 
+The octane number of a fuel is measured in a special variable-compression-ratio
+engine called a CFR (Cooperative Fuels Research) engine. The octane rating of a fuel is
+determined by comparison of its knocking characteristics with those of different 
+mixtures of isooctane, C8H18, and n-heptane, C7H16. One hundred percent isooctane is
+defined as having an octane number of 100 because it had the highest resistance to
+knock at the time the rating system was devised. On the other hand, n-heptane is
+assigned a value of 0 on the octane number scale because of its very poor knock
+resistance. If a gasoline tested in the CFR engine has the same knock threshold as a
+blend of 90% isooctane and 10% n-heptane, the fuel is assigned an octane rating of 90.  
+In combustion chamber design, the designer attempts to balance many factors to
+achieve good performance. Design considerations include locating intake valves away
+from and exhaust valves near spark plugs, to keep end-gas in a relatively cool area of
+the combustion chamber and thereby suppress hot-surface-induced autoignition
+tendencies. Valves are, of course, designed as large as possible to reduce induction and
+exhaust flow restrictions. More than one intake and one exhaust valve per cylinder are
+now used in some engines to improve “engine breathing.”  In some engines, four valves
+in a single cylinder are employed for this purpose.  The valves are also designed to
+induce swirl and turbulence to promote mixing of fuel and air and to improve
+combustion stability and burning rate.
+Pollution and fuel economy considerations have in recent years profoundly
+influenced overall engine and combustion chamber design. Stratified-charge engines,
+for example,  attempt to provide a locally rich combustion region to control peak
+temperatures and thus suppress NOx formation. The resulting combustion gases
+containing unburned fuel then mix with surrounding lean mixture to complete the
+combustion process, thus eliminating CO and unburned hydrocarbons from the exhaust.
+These processes occur at lower temperatures than in conventional combustion chamber
+designs and therefore prevent significant nitrogen reactions.
+6.6 Representing Reciprocating Engine Perfomance
+In an earlier section, the theoretical work per unit mass of working fluid of the Otto
+engine was evaluated for a single cycle of the engine, using the cyclic integral of the
+First Law of Thermodynamics. The work done by pressure forces acting on a piston
+can also be evaluated as the integral of pdV. It is evident therefore that the work done
+during a single engine cycle is the area enclosed by the cycle process curves on the
+pressure-volume diagram. Thus, instead of using the cyclic integral or evaluating pdV
+for each process of the cycle, the work of a reciprocating engine can be found by
+drawing the theoretical process curves on the p–V diagram and graphically integrating
+them. Such a plot of pressure versus volume for any reciprocating engine, real or
+theoretical, is called an indicator diagram.
+234
+     In the nineteenth and early twentieth centuries a mechanical device known as an
+engine indicator was used to produce indicator cards or diagrams to determine the
+work per cycle for slow-running steam and gas reciprocating engines. The indicator
+card was attached to a cylinder that rotated back and forth on its axis as the piston
+oscillated, thus generating a piston position (volume) coordinate. At the same time a
+pen driven by a pressure signal from the engine cylinder moved parallel to the cylinder
+axis, scribing the p-V diagram over and over on the card. The work of high speed
+engines is still evaluated from traces of pressure obtained with electronic sensors and
+displayed on electronic monitors and through digital techniques.
+The work done per cycle (from an indicator card, for instance) can be represented
+as an average pressure times a volume.  Because the displacement volumes of engines
+are usually known,  an engine performance parameter known as the mean effective
+pressure, MEP, is defined in terms of the piston displacement. The mean effective
+pressure is defined as the value of the pressure obtained by dividing the net work per
+cylinder per cycle at a given operating condition by the piston displacement volume:
+MEP = W/disp
+[lbf/ft2 | kPa]
+(6.8)
+Thus the MEP is a measure of the effectiveness of a given displacement volume in
+producing net work.
+The power output of an engine with identical cylinders may be represented as the
+product of the work per cycle and the number of cycles executed per unit time by the
+engine. Thus if the engine has n cylinders, each executing N  identical thermodynamic
+cycles per unit time, and delivering W work units per cylinder, with a piston
+displacement, disp, the power output is given by 
+P = nNW = nN MEP  disp
+[ft-lbf /min | kW]
+(6.9)
+Expressed for the entire engine, the engine displacement is DISP = ndisp and the
+engine work is MEP DISP. Hence the engine power is:
+     P = N MEPDISP
+[ft-lbf /min | kW]
+(6.10)
+where N, the number of thermodynamic cycles of a cylinder per unit time, is the number
+of crank-shaft revolutions per unit time for a two-stroke-cycle engine and one-half of
+the revolutions per unit time for a four-stroke-cycle engine. The factor of ½ for the
+four-stroke-cycle engine arises because one thermodynamic cycle is executed each time
+the crank rotates through two revolutions.
+EXAMPLE 6.2
+What is the displacement of an engine that develops 60 horsepower at 2500 rpm in a
+four-stroke-cycle engine having an MEP of 120 psi?
+235
+Solution
+From Equation (6.10), the displacement of the engine is
+DISP = P/(N MEP) = (60)(33,000)(12)/[(2500/2)(120)] = 158.4 in3
+Checking units:   (HP)(ft-lbf/HP-min)(in/ft)/[(cycles/min)(lbf/in2)] = in3
+_____________________________________________________________________
+If the work is evaluated from an indicator diagram the work is called indicated
+work; the MEP is called the indicated mean effective pressure, IMEP; and the power is
+indicated power, IP. Note that the indicated work and power, being associated with the
+work done by the combustion chamber gases on the piston, do not account for
+frictional or mechanical losses in the engine, such as piston-cylinder friction or the drag
+of moving parts (like connecting rods) as they move through air or lubricating oil.
+Brake Performance Parameters
+Another way of evaluating engine performance is to attach the engine output shaft
+to a device known as a dynamometer, or brake. The dynamometer measures the
+torque, T, applied by the engine at a given rotational speed. The power is then
+calculated from the relation
+P = 2rpm T
+[ft-lbf /min | N-m/min]
+(6.11)
+    A simple device called a prony brake, which was used in the past, demonstrates the
+concept for the measurement of the shaft torque of engines. Figure 6.5 shows the prony
+brake configuration in which a stationary metal band wrapped around the rotating
+flywheel of the engine resists the torque transmitted to it by friction. The product of the
+force measured by a spring scale, w, and the moment arm, d , gives the resisting torque.
+The power dissipated is then given by 2(rpm)w d.
+Modern devices such as water brakes and electrical dynamometers long ago
+replaced the prony brake. The water brake is like a centrifugal water pump with no
+outflow, mounted on low-friction bearings, and driven by the test engine. As with the
+prony brake, the force required to resist turning of the brake (pump) housing provides
+the torque data. This, together with speed measurement, yields the power output from
+Equation (6.11).  The power dissipated appears as increased temperature of the water
+in the brake and heat transfer from the brake. Cool water is circulated slowly through
+the brake to maintain a steady operating condition. The torque measured in this way is
+called the brake torque, BT, and the resulting power is called the brake power, BP. To
+summarize: while indicated parameters relate to gas forces in the cylinder, brake
+parameters deal with output shaft forces.
+Thus the brake power differs from the indicated power in that it accounts for the
+effect of all of the energy losses in the engine. The difference between the two is
+referred to as the friction power, FP. Thus FP = IP – BP.
+236
+Friction power varies with engine speed and is difficult to measure directly. An
+engine is sometimes driven without fuel by a motor-dynamometer to evaluate friction
+power. An alternative to using friction power to relate brake and indicated power is
+through the engine mechanical efficiency, m:
+m = BP/IP
+[dl]
+(6.12)
+Because of friction, the brake power of an engine is always less than the indicated
+power; hence the engine mechanical efficiency must be less than 1. Clearly, mechanical
+efficiencies as close to 1 as possible are desired.
+The engine indicated power can also be expressed in terms of torque, through
+Equation (6.11). Thus an indicated torque, IT, can be defined. Similarly, a brake mean
+effective pressure, BMEP, may be defined that, when multiplied by the engine displace-
+ment and speed, yields the brake power, analogous to Equation (6.10). Table 6.1
+summarizes these and other performance parameters and relations.
+The thermal efficiency, as for other engines, is a measure of the fuel economy of a
+reciprocating engine. It tells the amount of power output that can be achieved for a
+given rate of heat release from the fuel. The rate of energy release is, in turn, the
+product of the rate of fuel flow and the fuel heating value. Thus, for a given thermal
+efficiency, power output can be increased by employing a high fuel flow rate and/or
+selecting a fuel with a high heat of combustion.
+If the thermal efficiency is evaluated using the brake power, it is called the brake
+thermal efficiency, BTE.  If the evaluation uses the indicated power, it is called the
+indicated thermal efficiency, ITE.
+237
+It is common practice in the reciprocating engine field to report engine fuel
+economy in terms of a parameter called the specific fuel consumption, SFC, analogous
+to the thrust specific fuel consumption used to describe jet engine performance. The
+specific fuel consumption is defined as the ratio of the fuel-mass flow rate to the power
+output. Typical units are pounds per horsepower-hour or kilograms per kilowatt-hour.
+Obviously, good fuel economy is indicated by low values of SFC. The SFC is called
+brake specific fuel consumption, BSFC, if it is defined using brake power or indicated
+specific fuel consumption, ISFC, when based on indicated power. The SFC for a
+reciprocating engine is analogous to the heat rate for a steam power plant in that both
+are measures of the rate of energy supplied per unit of power output, and in that low
+values of both are desirable.   
+Volumetric Efficiency
+The theoretical energy released during the combustion process is the product of the
+mass of fuel contained in the combustion chamber and its heating value if the fuel is
+completely reacted. The more air that can be packed into the combustion chamber, the 
+Table 6.1    Engine Performance Parameters
+Indicated
+Brake
+Friction                
+Mean effective pressure
+IMEP
+BMEP
+FMEP = IMEP – BMEP    
+m = BMEP / IMEP        
+Power
+IP
+BP
+FP = IP – BP                  
+m = BHP / IHP             
+Torque
+IT
+BT
+FT = IT – BT                  
+m = BT / IT                  
+Thermal efficiency
+ITE
+BTE
+m = BTE / ITE              
+Specific fuel consumption
+ISFC
+BSFC
+m = ISFC / BSFC         
+more fuel that can be burned with it. Thus a measure of the efficiency of the induction
+system is of great importance. The volumetric efficiency,  v, is the ratio of the actual
+mass of mixture in the combustion chamber to the mass of mixture that the displace-
+ment volume could hold if the mixture were at ambient (free-air) density. Thus the
+average mass-flow rate of air through a cylinder is v (disp) aN.  Pressure losses
+across intake and exhaust valves, combustion-chamber clearance volume, the influence
+of hot cylinder walls on mixture density, valve timing, and gas inertia effects all
+influence the volumetric efficiency. 
+EXAMPLE 6.3
+A six-cylinder, four-stroke-cycle SI engine operates at 3000 rpm with an indicated
+mean effective pressure of five atmospheres using octane fuel with an equivalence ratio
+238
+of 0.9.  The brake torque at this condition is 250 lbf–ft., and the volumetric efficiency is
+85%.  Each cylinder has a five inch bore and 6 inch stroke.  Ambient conditions are
+14.7 psia and 40°F.  What is the indicated horsepower, brake horsepower, and friction
+horsepower; the mechanical efficiency; the fuel flow rate; and the BSFC?
+Solution
+The six cylinders have a total displacement of
+DISP = 6×52×6/4 = 706.86 in3 
+ 
+Then the indicated horsepower is
+IP = MEP×DISP×N /[12×33,000]     [lbf /in2][in3][cycles/min]/[in/ft][ft-lbf /HP-min]
+= (5)(14.7)(706.86)(3000/2)/[12×33,000] = 196.8 horsepower
+The brake horsepower, from Equation (6.11), is:
+BP = 2  × 3000 × 250 / 33,000 = 142.8 horsepower
+Then the friction power is the difference between the indicated and brake power:
+FP = 196.8 – 142.8 = 54 horsepower
+and the mechanical efficiency is
+m = 142.8/196.8 = 0.726
+The ambient density is
+a = 14.7 × 144/ [53.3 × 500] = 0.0794 lbm /ft3
+and the mass flow rate of air to the engine is
+ma = 0.85×0.0794×706.86×(3000/2)/1728 = 41.4 lbm /min
+For octane the stoichiometric reaction equation is
+C8H18 + 12.5O2 + (12.5×3.76)N2   8CO2 + 9H2O + (12.5×3.76)N2
+The fuel-air ratio is then
+F/A = 0.9×[(8×12) + (18×1)]/[12.5(32 + 3.76×28)] = 0.0598 lbm-fuel /lbm-air
+239
+The fuel flow rate is
+mf = ma (F/A) = 41.4 × 0.0598 = 2.474 lbm /min
+The brake specific fuel consumption is
+BSFC = 60 mf /BHP = 60×2.474/142.8 = 1.04 lbm /BHP-hr
+____________________________________________________________________
+6.7 Spark-Ignition Engine Performance
+A typical indicator diagram showing intake and exhaust processes, valve actuation,
+and spark timing for a four-stroke-cycle SI engine is shown in Figure 6.6. It is assumed
+that an appropriate air-fuel mixture is supplied from a carburetor through an intake
+manifold to an intake valve, IV, and that the combustion gas is discharged through an
+exhaust valve, EV, into an exhaust manifold.
+The induction of the air-fuel mixture starts with the opening of the intake valve at
+point A just before TC. As the piston sweeps to the right, the mixture is drawn into the
+cylinder through the IV. The pressure in the cylinder is somewhat below that in the
+intake manifold due to the pressure losses across the intake valve. In order to use the
+momentum of the mixture inflow through the valve at the end of the intake stroke to
+improve the volumetric efficiency, intake valve closure is delayed to shortly after BC at
+point B. Power supplied from inertia of a flywheel (and the other rotating masses in the
+engine) drives the piston to the left, compressing and raising the temperature of the
+trapped mixture.
+The combustion process in a properly operating SI engine is progressive in that the
+reaction starts at the spark plug and progresses into the unburned mixture at a finite
+speed. Thus the combustion process takes time and cannot be executed instantaneously
+as implied by the theoretical cycle. In order for the process to take place as near to TC
+as possible, the spark plug is fired at point S. The number of degrees of crank rotation
+before TC at which the spark occurs is called the ignition advance. Advances of 10° to
+30° are common, depending on speed and load. The spark advance may be controlled
+by devices that sense engine speed and intake manifold pressure. Microprocessors are
+now used to control spark advance and other functions, based on almost instantaneous
+engine performance measurements.
+Recalling the slider-crank analysis, we observ that the piston velocity at top center
+is momentarily zero as the piston changes direction. Therefore no work can be done at
+this point, regardless of the magnitude of the pressure force. Thus, to maximize the
+work output, it is desired to have the maximum cylinder pressure occur at about 20°
+after TC. Adjustment of the spark advance (in degrees before TC) allows some control
+of the combustion process and the timing of peak pressure. For a fixed combustion
+duration, the combustion crank-angle interval must increase with engine speed. As a
+consequence, the ignition advance must increase with increasing engine speed to
+240
+maintain optimum timing of the peak pressure.
+     Following combustion, the piston continues toward bottom center as the high
+pressure gases expand and do work on the piston during the power stroke. As the
+piston approaches BC, the gases do little work on the piston as its velocity again
+approaches zero. As a result, not much work is lost by early opening of the exhaust
+valve before BC (at point E) to start the blowdown portion of the exhaust process. It is
+expedient to sacrifice a little work during the end of the power stroke in order to
+reduce the work needed to overcome an otherwise-high exhaust stroke cylinder
+pressure. Inertia of the gas in the cylinder and resistance to flow through the exhaust
+valve opening slow the drop of gas pressure in the cylinder after the valve opens.
+     Thus the gases at point E are at a pressure above the exhaust manifold pressure and,
+during blowdown, rush out through the EV at high speed.  Following blowdown, gases
+remaining in the cylinder are then expelled as the piston returns to TC. They remain
+above exhaust manifold pressure until reaching TC because of the flow resistance of the
+exhaust valve. The EV closes shortly after TC at point C, terminating the exhaust
+process.  The period of overlap at TC between the intake valve opening at point A and 
+exhaust valve closing at point C in Figure 6.6 allows more time for the intake and
+exhaust processes at high engine speeds, when about 10 milliseconds may be available
+for these processes.  At low engine speed and at idling there may be some mixture loss
+through the exhaust valve and discharge into the intake manifold during this valve
+overlap period. 
+The combined exhaust and induction processes are seen to form a “pumping loop”
+that traverses the p-V diagram in a counterclockwise direction and therefore 
+241
+represents work input rather than work production. The higher the exhaust stroke
+pressure and the lower the intake stroke pressure, the greater the area of the pumping
+loop and hence the greater the work that must be supplied by the power loop
+(clockwise) to compensate. Great attention is therefore paid to valve design and other
+engine characteristics that influence the exhaust and induction processes. Volumetric
+efficiency is a major parameter that indicates the degree of success of these efforts.        
+Performance Characteristics
+A given ideal Otto-cycle engine produces a certain amount of work per cycle. For such
+a cycle, MEP = W/disp is a constant. Equating the power equations (6.9) and (6.11)
+shows that the average torque is proportional to MEP and independent of engine
+engine speed. Therefore power output for the ideal engine is directly proportional to
+the number of cycles executed per unit time, or to engine speed. Thus an Otto engine
+has ideal torque and power characteristics, as shown by the solid lines in Figure 6.7.
+The characteristics of real engines (represented by the dashed lines) tend to be
+similar in nature to the ideal characteristics but suffer from speed-sensitive effects,
+particularly at low or high speeds. Torque and power characteristics for a 3.1 liter V6
+engine (ref. 9) are shown by the solid lines in Figure 6.8. Note the flatness of the
+torque-speed curve and the expected peaking of the power curve at higher speed than
+the torque curve. Rather than present graphical characteristics such as this in their 
+242
+brochures, automobile manufacturers usually present only values for the maximum
+power and torque and the speeds at which they occur.  Engine characteristics such as
+those shown in the figure are invaluable to application engineers seeking a suitable
+engine for use in a product.
+6.8 The Compression-Ignition or Diesel Cycle
+The ideal Diesel cycle differs from the Otto cycle in that combustion is at constant
+pressure rather than constant volume. The ideal cycle, shown in Figure 6.9, is
+commonly implemented in a reciprocating engine in which air is compressed without
+fuel from state 1 to state 2.  With a typically high compression ratio, state 2 is at a
+temperature high enough that fuel will ignite spontaneously when sprayed directly into
+the air in the combustion chamber from a high-pressure fuel injection system.
+By controlling the fuel injection rate and thus the rate of chemical energy release in
+relation to the rate of expansion of the combustion gases after state 2, a constant- 
+243
+pressure process or other energy release pattern may be achieved as in Figure 6.9. For
+example,  if the energy release rate is high, then pressure may rise, as from 2 to 3', and
+if  low may fall to 3''. Thus constant-pressure combustion made possible by controlling
+the rate of fuel injection into the cyclinder implies the use of a precision fuel injection
+system.
+Instead of injecting fuel into the high-temperature compressed air, the cycle might
+be executed by compression of an air-fuel mixture, with ignition occurring either
+spontaneously or at a hot spot in the cylinder near the end of the compression process.
+Inconsistency and unpredictability of the start of combustion in this approach, due to
+variations in fuel and operating conditions, and to lack of control of the rate of heat
+release with the possibility of severe knock, makes the operation of such an engine
+unreliable, at the least, and also limits the maximum compression ratio. The Diesel
+engine therefore usually employs fuel injection into compressed air rather than
+carbureted mixture formation.  
+In the Air Standard cycle analysis of the Diesel cycle, the heat addition process is at
+constant pressure:
+q23 = cp(T3 – T2)
+[Btu/lbm | kJ/kg]
+(6.13)
+and, as with the Otto cycle, the closing process is at constant volume:
+q41 = cv(T1 – T4)
+[Btu/lbm | kJ/kg]
+(6.14)
+244
+The net work and thermal efficiency are then:
+w =  q23 + q41   
+   =  cp(T3 – T2) + cv(T1 – T4)
+   =  cvT1[k(T3/T1 – T2/T1) + 1 – T4/T1]
+[Btu/lbm | kJ/kg]
+(6.15)  
+ 
+Diesel  =  w/q23 = 1 + q4-1/q23 = 1 + (cv/cp)(T1 – T4)/(T3 – T2)
+   = 1 – (1/k)(T1/T2)(T4/T1 – 1)/(T3/T2 – 1)
+[dl]
+(6.16)
+     The expressions for the net work and cycle efficiency may be expressed in terms
+two parameters, the compression ratio, CR = V1/V2 (as defined earlier in treating the
+Otto cycle) and the cutoff ratio, COR = V3/V2. The temperature ratios in Equations
+(6.15) and (6.16) may be replaced by these parameters using, for the constant-pressure
+process,
+COR = V3/V2 = T3/T2
+and by expanding the following identity:
+T4 /T1 = (T4/T3)(T3/T2)(T2 /T1)
+    = (V3 /V4)k-1(V3/V2)(V1/V2)k-1 
+                = [(V3/V4)(V1/V2)]k-1COR = (COR)k-1COR
+    = CORk
+where the product of the volume ratios was simplified by recognizing that V4 = V1.
+Thus the nondimensionalized net work and Diesel-cycle thermal efficiency are given by
+w /cvT1 =  kCRk-1(COR – 1) + (1 – CORk)
+[dl]
+(6.17)
+and
+Diesel  =  1 –  (1/k)[(CORk – 1)/(COR – 1)]/CRk-1
+[dl]
+(6.18)
+where the cutoff ratio, COR, is the ratio of the volume at the end of combustion, V3, to
+that at the start of combustion, V2. Thus the cutoff ratio may be thought of as a
+measure of the duration of fuel injection, with higher cutoff ratios corresponding to
+longer combustion durations.
+245
+     Diesel-cycle net work increases with both compression ratio and cutoff ratio. This is
+readily seen graphically from Figure 6.9 in terms of p-V diagram area.  As with the
+Otto cycle, increasing compression ratio increases the Diesel-cycle thermal efficiency.
+Increasing cutoff ratio, however, decreases thermal efficiency. This may be rationalized
+by observing from the p-V diagram that much of the additional heat supplied when
+injection is continued is rejected at increasingly higher temperatures. Another view is
+that heat added late in the expansion process can produce work only over the remaining
+part of the stroke and thus adds less to net work than to heat rejection.
+EXAMPLE 6.4
+A Diesel engine has a compression ratio of 20 and a peak temperature of 3000K. Using
+an Air Standard cycle analysis, estimate the work per unit mass of air, the thermal
+efficiency, the combustion pressure, and the cutoff ratio.
+Solution
+Assuming an ambient temperature and pressure of 300K and 1 atmosphere, the
+temperature at the end of the compression stroke is
+T2 = (300)(20)1.4 – 1 = 994.3K
+and the combustion pressure is
+p2 = (1)(20)1.4 = 66.3 atm
+Then the cutoff ratio is
+V3/V2 = T3/T2 = 3000/994.3 = 3.02
+The expansion ratio is calculated as follows:
+V4 /V3 = (V1/V2)/(V3 /V2) = 20/3.02 = 6.62
+T4 = T3 (V3 /V4)1.4 – 1 = 3000/6.620.4 = 1409K
+w = 1.005(3000 – 994.3) + (1.005/1.4)(300 – 1409) = 1219.6 kJ/kg
+qa = 1.005(3000 – 994.3) = 2015.7 kJ/kg
+th = w/qa = 1219.6/2015.6 = 0.605,     or 60.5%
+_____________________________________________________________________ 
+246
+6.9 Comparing Otto-Cycle and Diesel-Cycle Efficiencies
+A reasonable question at this point is: Which cycle is more efficient, the Otto cycle or
+the  Diesel cycle?  Figure 6.10 assists in examining this question. In general notation,
+the cycle efficiency may be written as
+th   =  wnet /qin = wnet /(wnet + |qout|)
+ = 1 /(1 + |qout| /wnet)
+[dl]
+(6.19)
+   
+Comparing the Otto cycle 1–2–3–4 and the Diesel cycle with the same compression
+ratio 1–2–3'–4, we see that both have the same heat rejection but that the Otto cycle
+has the higher net work. Equation (6.19) then shows that, for the same compression
+ratio, the Otto cycle has the higher efficiency.  
+It has been observed that Diesel-cycle efficiency decreases with increasing cutoff
+ratio for a given compression ratio. Let us examine the limit of the Diesel-cycle
+efficiency for constant CR as COR approaches its minimum value, 1. We may write
+Equation (6.18) as
+Diesel = 1 – 1 /(kCRk-1) f (COR)
+where f(COR) = (CORk – 1)/(COR – 1). Applying L'Hospital's rule, with primes
+247
+designating differentiation with respect to COR, to the limit of f(COR) as COR 1,
+yields
+ lim  f(COR) = lim (CORk – 1)'/ Lim (COR– 1)' = lim  kCORk – 1 = k
+COR1
+     COR1
+COR1
+and
+ limDiesel  =  1 –  1 /CRk – 1 =  Otto
+COR1
+Thus the limit of the Diesel-cycle efficiency as COR approaches 1 is the Otto cycle
+efficiency. Hence Equation (6.18) shows that the efficiency of the Diesel cycle must be
+less than or equal to the Otto-cycle efficiency if both engines have the same
+compression ratio, the same conclusion we reached by examination of the p-V diagram. 
+ 
+Suppose, however, that the compression ratios are not the same. Compare the Otto
+cycle 1–2'–3'–4 with the Diesel cycle 1–2–3'–4 having the same maximum temperature
+in Figure 6.10. The Otto cycle has a smaller area, and therefore less work, than the
+Diesel cycle, but the same heat rejection. Equation (6.19) demonstrates that the Otto
+cycle has a lower thermal efficiency than the Diesel cycle with the same maximum
+temperature.
+The conclusion that must be drawn from the above comparisons is quite clear. As in
+most comparative engineering studies, the result depends on the ground rules which
+were adopted at the start of the study. The Otto cycle is more efficient if the
+compression ratio is the same or greater than that of the competing Diesel cycle. But
+knock in spark-ignition (Otto) engines limits their compression ratios to about 12,
+while Diesel-engine compression ratios may exceed 20. Thus, with these higher
+compression ratios, the Air Standard Diesel-cycle efficiency can exceed that of the Otto
+cycle. In practice, Diesel engines tend to have higher efficiencies than SI engines
+because of higher compression ratios.
+6.10 Diesel-Engine Performance
+In 1897, five years after Rudolph Diesel's first patents and twenty-one years after
+Otto's introduction of the spark-ignition engine, Diesel's compression-ignition engine
+was proven to develop 13.1 kilowatts of power with an unprecedented brake thermal
+efficiency of 26.2% (ref. 7). At that time, most steam engines operated at thermal
+efficiencies below 10 %; and the best gas engines did not perform much better than the
+steam machines.
+Diesel claimed (and was widely believed) to have developed his engine from the
+principles expounded by Carnot. He had developed "the rational engine." Whether his
+claims were exaggerated or not, Diesel's acclaim was well deserved. He had developed
+an engine that operated at unprecedented temperatures and pressures, had proven his
+concept of ignition of fuel by injection into the compressed high-temperature air, and
+had overcome the formidable problems of injecting a variety of fuels in appropriate
+248
+amounts with the precise timing required for satisfactory combustion. His is a 
+fascinating story of a brilliant and dedicated engineer (refs. 7, 8).
+In the Diesel engine, the high air temperatures and pressures prior to combustion
+are attributable to the compression of air alone rather than an air-fuel mixture.
+Compression of air alone eliminates the possibility of autiognition during compression
+and makes high compression ratios possible. However, because of the high pressures
+and temperatures, Diesel engines must be designed to be structurally more rugged.
+Therefore, they tend to be heavier than SI engines with the same brake power.
+The energy release process in the Diesel engine is controlled by the rate of injection
+of fuel. After a brief ignition lag, the first fuel injected into the combustion chamber
+autoignites and the resulting high gas temperature sustains the combustion of the
+remainder of the fuel stream as it enters the combustion chamber. Thus it is evident that
+the favorable fuel characteristic of high autoignition temperature for an SI engine is an
+unfavorable characteristic for a Diesel engine.
+In the Diesel engine, a low autoignition temperature and a short ignition delay are
+desirable. Knock is possible in the Diesel engine, but it is due to an entirely different
+cause than knock in a spark-ignition engine. If fuel is ignited and burns as rapidly as it
+is injected, then smooth, knock-free combustion occurs. If, on the other hand, fuel
+accumulates in the cylinder before ignition due to a long ignition lag, an explosion or
+detonation occurs, producing a loud Diesel knock. The cetane number is the parameter
+that identifies the ignition lag characteristic of a fuel.
+The cetane number, like the octane number, is determined by testing in a CFR
+engine. The ignition lag of the test fuel is compared with that of a mixture of n-cetane,
+C16H34, and heptamethylnonane, HMN (ref. 10). Cetane, which has good ignition
+qualities, is assigned a value of 100; and HMN, which has poor knock behavior, a value
+of 15. The cetane number is then given by the sum of the percentage of n-cetane and
+0.15 times the percentage of HMN in the knock-comparison mixture. A cetane number
+of 40 is the minimum allowed for a Diesel fuel. 
+6.11 Superchargers and Turbochargers
+The importance of the volumetric efficiency, representing the efficiency of induction
+of the air-fuel mixture into the reciprocating-engine cylinders, was discussed earlier.
+Clearly, the more mixture mass in the displacement volume, the more chemical energy
+can be released and the more power will be delivered from that volume.
+During the Second World War, the mechanical supercharger was sometimes used
+with SI aircraft engines to increase the power and operational ceiling of American
+airplanes. Today supercharging is used with both Diesel engines and SI engines. The
+supercharger is a compressor that supplies air to the cylinder at high pressure so that
+the gas density in the cylinder at the start of compression is well above the free-air
+density. The piston exhaust gases are allowed to expand freely to the atmosphere
+through the exhaust manifold and tailpipe. The supercharger is usually driven by a belt
+or gear train from the engine crank shaft.
+249
+Figure 6.11 shows a modification of the theoretical Otto cycle to accommodate
+mechanical supercharging. The supercharger supplies air to the engine cyclinders at
+pressure p7 in the intake process 7  1. The processes 4  5  6 purge most of the
+combustion gas from the cylinder. The most striking change in the cycle is that the
+induction-exhaust loop is now traversed counterclockwise, indicating that the cylinder
+is delivering net work during these processes as well as during the compression-
+expansion loop. It should be remembered, however, that part of the cycle indicated
+power must be used to drive the external supercharger.
+The turbosupercharger or turbocharger, for short, is a supercharger driven by a
+turbine using the exhaust gas of the reciprocating engine, as shown schematically in
+Figure 6.12. A cutaway view of a turbocharger is shown in Figure 6.13(a). Figure
+6.13(b) presents a diagram for the turbocharger. Compact turbochargers commonly
+increase the brake power of an engine by 30% or more, as shown in Figure 6.8, where
+the performance of an engine with and without turbocharging is compared. There, a
+substantial increase in peak torque and flattening of the torque-speed curve due to
+turbocharging is evident.
+For a supercharged engine, the brake power, BP, is the indicated power (as in
+Figure 6.11) less the engine friction power and the supercharger shaft power:
+BP = DISP  IMEP  N  –  Pm  –  FP
+[ft-lbf /min | kJ/s]
+(6.15)
+250
+where Pm is the supercharger-shaft mechanical power supplied by the engine (0 for a
+turbocharger). The IMEP includes the positive work contribution of the exhaust loop.
+The exhaust back pressure of the reciprocating engine is higher with a turbocharger
+than for a naturally aspirated or mechanically supercharged engine because of the drop
+in exhaust gas pressure through the turbine. The engine brake power increases
+primarily because of a higher IMEP due to the added mass of fuel and air in the
+cylinder during combustion. Intercooling between the compressor and the intake
+manifold may be used to further increase the cylinder charge density. Turbocharging
+may increase engine efficiency, but its primary benefit is a substantial increase in brake
+power.
+In a turbocharged engine, a wastegate may be required to bypass engine exhaust
+gas around the turbine at high engine speeds. This becomes necessary when the
+compressor raises the intake manifold pressure to excessively high levels, causing
+engine knock or threatening component damage. Thirty to forty percent of the exhaust
+flow may be bypassed around the turbine at maximum speed and load (ref. 1).
+251
+252
+6.12 The Automobile Engine and Air Pollution
+Since the Second World War, concern for environmental pollution has grown from
+acceptance of the status quo to recognition and militance of national and international
+scope.  Among other sources, causes of the well-known Los Angeles smog problem
+were identified as hydrocarbons (HC) and oxides of nitrogen (NOx) in exhaust
+emissions from motor vehicle reciprocating engines.  As a result, national and
+California automobile air pollution limits for automobiles have been established and
+toughened. Prior to the Clean Air Act of 1990, the U.S. federal exhaust-gas emissions
+standards limited unburned hydrocarbons, carbon monoxide, and oxides of nitrogen to
+0.41, 3.4, and 1.0 g/mile, respectively.  According to reference 12, today it takes 25
+autos to emit as much CO and unburned hydrocarbons and 4 to emit as much NOx as a
+single car in 1960.  The reference anticipated that, led by existing California law and
+other factors, future engine designs should be targeted toward satisfying a tailpipe
+standard of 0.25, 3.4, 0.4 g/mile.  Indeed, the 1990 Clean Air Act (refs. 15,16)
+specified these limits for the first 50,000 miles or five years of operation for all
+passenger cars manufactured after 1995.  In addition to the regulations on gaseous
+emissions, the Clean Air Act of 1990 adopted the California standard for particulate
+matter of 0.08 g/mile for passenger cars.  The standards on particulates are particularly
+difficult for the Diesel engine, because of its of soot-producing tendency.
+The automobile air pollution problem arises in part because the reactions in the
+exhaust system are not in chemical equilibrium as the gas temperature drops. Oxides of
+nitrogen, once formed in the cylinder at high temperature, do not return to equilibrium
+concentrations of nitrogen and oxygen in the cooling exhaust products.  Likewise, CO
+formed with rich mixtures or by dissociation of CO2 in the cylinder at high temperature
+does not respond rapidly to an infusion of air as its temperature drops in the exhaust
+system.  Their concentrations may be thought of as constant or frozen.  Unburned
+hydrocarbons are produced not only by rich combustion but also by unburned mixture
+lurking in crevices (such as between piston and cylinder above the top piston ring), by
+lubricating oil on cylinder walls and the cylinder head that absorbs and desorbs 
+hydrocarbons before and after combustion, and by transient operating conditions.
+Starting in 1963, positive crankcase ventilation was used in all new cars to duct
+fuel-rich crankcase gas previously vented to the atmosphere back into the engine intake
+system.  Later in the ‘60s, various fixes were adopted to comply with regulation of
+tailpipe unburned hydrocarbons and CO, including lowering compression ratios.
+In 1973, NOx became federally regulated, and exhaust gas recirculation (EGR) was
+employed to reduce NOx formation through reduced combustion temperatures.  At the
+same time, HC and CO standards were reduced further, leading to the use of the
+oxidizing catalytic converter.  Introduction of air pumped into the tailpipe provided
+additional oxygen to assist in completion of the oxidation reactions.  In 1981, a
+reducing catalytic converter came into use to reduce NOx further.  This device does not
+perform well in an oxidizing atmosphere.  As a result, two-stage catalytic converters
+were applied, with the first stage reducing NOx in a near-stoichiometric mixture and the
+253
+second oxidizing the combustibles remaining in the exhaust with the help of air
+introduced between the stages.  This fresh air does not the increase NOx significantly,
+because of the relatively low temperature of the exhaust.  The three-way catalytic
+converter using several exotic metal catalysts to reduce all three of the gaseous
+pollutants was also introduced.
+The use of catalytic converters to deal with all three pollutants brought about
+significant simultaneous reductions in the three major gaseous pollutants from
+automobiles.  This allowed fuel-economy-reducing modifications that had been
+introduced earlier to satisfy emission reduction demands to be eliminated or relaxed,
+leading to further improvements in fuel economy.
+Catalytic converters, however, require precise control of exhaust gas oxygen to
+near-stoichiometric mixtures.  The on-board computer has made possible control of
+mixture ratio and spark timing in response to censor outputs of intake manifold
+pressure, exhaust gas oxygen, engine speed, air flow, and incipient knock.  The oxygen,
+or lambda, censor located in the exhaust pipe upstream of the three-way converter
+or between the two-stage converters is very sensitive to transition from rich to lean
+exhaust and allows close computer control of the mixture ratio to ensure proper
+operation of the catalytic converter.  Computer control of carburetors or fuel injection
+as well as other engine functions has allowed simultaneous improvement in fuel
+economy and emissions in recent years.  Thus, while emissions have been drastically
+reduced since 1974, according to reference 11 the EPA composite fuel economy of the
+average U.S. passenger car has nearly doubled; although this improvement has not
+come from the engine alone.  Despite the hard-won gains in emissions control and fuel
+economy, further progress may be expected.
+EXAMPLE 6.5
+The 1990 NOx emissions standard is 0.4 grams per mile.  For an automobile burning
+stoichiometric octane with a fuel mileage of 30 mpg, what is the maximum tailpipe
+concentration of NOx in parts per million?  Assume that NOx is represented by NO2 and
+that the fuel density is 692 kilograms per cubic meter.
+Solution
+For the stoichiometric combustion of octane, C8H18, the air-fuel ratio is 15.05 and
+the molecular weight of combustion products is 28.6.  The consumption of octane is
+mf = (692)(1000)(3.79×10-3)/ 30 = 87.4 g/mile
+[Note: (kg/m3)(g/kg)(m3/gal)/(mile/gal) = g/mile.] The concentration of NOx is the ratio
+of the number of moles of NOx to moles of combustion gas products:
+mole Nox /mole cg = (mNOx /mf)(mf / mcg)(Mcg /MNOx)
+         = (0.4/87.4)(28.6/46)/ (15.05 + 1) = 0.0001773
+254
+or 177.3 parts per million  (ppm).
+_____________________________________________________________________
+Bibliography and References
+1. Heywood, John B., Internal Combustion Engine Fundamentals.  New York:
+McGraw-Hill, 1988.
+2. Ferguson, Colin R., Internal Combustion Engines.  New York: Wiley, 1986.
+3. Adler, U., et al., Automotive Handbook, 2nd ed.  Warrendale, Pa.: Society of
+Automotive Engineers., 1986.
+4. Lichty, Lester C., Internal Combustion Engines.  New York: McGraw Hill, 1951.
+5. Crouse, William H., Automotive Engine Design.  New York: McGraw-Hill, 1970.
+6. Obert, Edward, Internal Combustion Engines, Analysis and Practice.  Scranton,
+Pa.: International Textbook Co., 1944.
+7. Grosser, Morton, Diesel: The Man and the Engine.  New York: Atheneum, 1978.
+8. Nitske, W. Robert, and Wilson, Charles Morrow, Rudolph Diesel: Pioneer of the
+Age of Power.  Norman, Okla.: University of Oklahoma Press, 1965.
+9. Demmler, Albert W. Jr., et al., “1989 Technical Highlights of Big-three U.S.
+Manufacturers,” Automotive Engineering.  Vol. 96, No. 10, October 1988, p. 81.
+10. Anon., “Ignition Quality of Diesel Fuels by the Cetane Method,” ASTM D 613-84,
+1985 Annual Book of ASTM Standards, Section 5.
+11. Amann, Charles A., “The Automotive Spark Ignition Engine-A Historical
+Perspective,” American Society of Mechanical Engineers, ICE-Vol. 8, Book No.
+100294, 1989. 
+12. Amann, Charles A., “The Automotive Spark-Ignition Engine-A Future
+Perspective,” Society of Automotive Engineers Paper 891666, 1989.
+13. Amann, Charles A., “The Passenger Car and the Greenhouse Effect,” Society of
+Automotive Engineers Paper, 1990.
+14. Taylor, Charles Fayette, The Internal Combustion Engine in Theory and Practice,
+2nd ed., revised.  Cambridge, Mass.: MIT Press, 1985.
+255
+15. Public Law 101-549, “An Act to Amend the Clean Air Act to Provide for
+Attainment and Maintenance of Health, Protection, National Air Quality Standards,
+and Other Purposes,” November 15, 1990.
+16. Anon., “Provisions–Clean Air Amendments,” Congressional Quarterly, November 
+24, 1990.
+EXERCISES
+6.1
+Plot dimensionless piston position against crank angle for S/2L = 0.5, 0.4, 0.3,
+and 0.2.
+6.2* Obtain expressions for the piston velocity and acceleration as a function of the
+crank angle, constant angular velocity, and S/2L ratio.  Use a spreadsheet to 
+calculate and plot velocity and acceleration against crank angle for S/2L = 0.5,
+0.4, 0.3, and 0.2.
+6.3
+Determine the equation for the piston motion for a scotch yoke mechanism in
+terms of crank angle.  Obtain an equation for the piston velocity for a crank that
+turns with a given angular velocity, .
+6.4
+Derive an equation for the Otto-engine net work by integration of pdV for the Air
+Standard cycle.  Compare with Equation (6.6).
+6.5* Use a spreadsheet to calculate and plot cycle efficiency as a function of
+compression ratio for the Diesel cycle for cutoff ratios of 1, 2, and 3.  Indentify
+the Otto-cycle efficiency on the plot.  Explain and show graphically from the plot
+how a Diesel engine can be more efficient than an Otto engine.
+6.6
+A single-cylinder Air Standard Otto engine has a compression ratio of 8.5 and a
+peak temperature of 3500°F at ambient conditions of 80°F and one atmosphere. 
+Determine the cycle efficiency, maximum cylinder pressure, and mean effective
+pressure.
+6.7
+A six-cylinder engine with a compression ratio of 11 runs at 2800 rpm at 80°F 
+and 14.7 psia.  Each cylinder has a bore and stroke of three inches and a
+volumetric efficiency of 0.82.  Assume an Air Standard, four-stroke Otto cycle
+_______________________
+* Exercise numbers with an asterisk indicate that they involve computer usage.  
+256
+ with stoichiometric octane as fuel.  Assume that the energy release from the
+fuel is equally divided between internal energy increase in cylinder gases and
+cylinder wall heat loss.  What are the cylinder mean effective pressures and the
+engine horsepower and specific fuel consumption?
+6.8
+A single-cylinder four-stroke-cycle spark-ignition engine has a BSFC of 0.4
+kg/kW-hr and a volumetric efficiency of 78% at a speed of 45 rps.  The bore is 6
+cm and the stroke is 8.5 cm.  What is the fuel flow rate, fuel-air ratio, and brake
+torque if the brake power output is 6 kW with ambient conditions of 100 kPa and 
+22°C?
+6.9
+A single-cylinder four-stroke-cycle spark-ignition engine operating at 3500 rpm
+has a brake mean effective pressure of 1800 kPa and a displacement of 400 cm3. 
+Atmospheric conditions are 101kPa and 27°C.
+(a) If the stroke is 6 cm, what is the bore?
+(b) What is the brake power?
+(c) If the mass air-fuel ratio is 16 and the fuel flow rate is 0.00065 kg/s, what
+is the volumetric efficiency?
+(d) Compare your results with the performance of a two-cylinder engine with
+the same overall geometric characteristics.
+6.10 A four-cylinder four-stroke-cycle spark-ignition engine operating at 3500 rpm has
+a brake mean effective pressure of 80 psi and a displacement of 400 cm3. 
+Atmospheric conditions are one bar and 80°F.
+(a) If the stroke is 3 inches, what is the bore?
+(b) What is the brake power?
+(c) If the mass air-fuel ratio is 16 and the fuel flow rate is 0.00065 kg/s, what
+is the volumetric efficiency?
+6.11 A four-cylinder four-stroke-cycle spark-ignition engine with 200 cm3
+displacement and operating in air at 27°C and 110 kPa has a friction power of 27
+kW and a brake power output of 136 kW at 3600 rpm.
+(a) What is the mechanical efficiency?
+(b) If it has a volumetric efficiency of 74% and burns liquid methanol with
+15% excess air, what is the brake specific fuel consumption?
+6.12 An eight-cylinder four-stroke-cycle engine has a bore of three inches and a stroke
+of 4 inches.  At a shaft speed of 3000 rpm, the brake horsepower is 325 and the 
+mechanical efficiency is 88%.  Fuel with a heating value of 19,000 Btu/lbm is
+supplied at a rate of 80 lbm/hr. What are the engine displacement, BMEP, brake
+257
+torque, and indicated specific fuel consumption in lbm/HP-hr?
+6.13 An eight-cylinder four-stroke-cycle engine has a bore of 10 cm and a stroke of 12
+cm.  At a shaft speed of 53 rps, the brake power is 300kW and the mechanical
+efficiency is 85%.  Fuel with a heating value of 40,000 kJ/kg is supplied at a rate
+of 40 kg/hr. What are the engine displacement, BMEP, brake torque, and
+indicated specific fuel consumption in kg/kW-hr?
+6.14 Consider a naturally aspirated eight-cylinder four-stroke-cycle Diesel engine with
+a compression ratio of 20 and cutoff ratio of 2.5.  Air is inducted into the cylinder
+from the atmosphere at 14.5 psia and 80°F.  Assume an Air Standard cycle.
+(a) Determine the temperatures and pressures immediately before and after
+combustion.
+(b) What is the heat added in the combustion process, in Btu/lbm?
+(c) What is the net work, in Btu/lbm, and the thermal efficiency?
+(d) If the volumetric efficiency is 85%, the engine displacement is 300 in3, and the
+engine speed is 2000 rpm, what is the mass flow rate of air through the engine in
+lbm/min?
+(e) What is the engine horsepower?
+(f) Assuming that losses through the valves cause a 20-psi pressure differential
+between the pressures during the exhaust and intake strokes, estimate the
+actual and  fractional losses, in horsepower, due to these processes.  Sketch
+the appropriate p-V diagram.
+6.15 A two-cylinder four-stroke-cycle engine produces 30 brake horsepower at a brake
+thermal efficiency of 20% at 2600 rpm.  The fuel is methane burning in air with an
+equivalence ratio of 0.8 and a heating value of 21,560 Btu/lbm.  Ambient
+conditions are 520°R and 14.7 psia.  The engine mechanical efficiency is 88%,
+and the volumetric efficiency is 92%.  What are the fuel flow rate, the
+displacement volume per cylinder, and the brake specific fuel consumption?  What
+is the bore if the bore and stroke or equal?
+6.16 Sketch carefully a single p–V diagram showing Otto and Diesel cycles having the
+same minimum and maximum temperatures.  Shade the area representing the
+difference in net work between the cycles.  Repeat for cycles having the same
+compression ratio.  Discuss the implications of these sketches.
+6.17 An eight-cylinder reciprocating engine has a 3-in. bore and a 4-in. stroke and 
+runs at 1000 cycles per minute. If the brake horsepower is 120 and the mechanical
+efficiency is 80%, estimate the indicated mean effective pressure.
+258
+6.18 Consider a naturally aspirated eight-cylinder two-stroke-cycle Diesel engine with
+a compression ratio of 20 and a cutoff ratio of 2.5.  Air is inducted into the
+cylinder at 1 atm and 23°C.  Assume an Air Standard cycle.
+(a) Determine the temperatures and pressures immediately before and after
+combustion.
+(b) What is the heat added in the combustion process, in kJ/kg?
+(c) What is the net work, in kJ/kg, and the thermal efficiency?
+(d) If the volumetric efficiency is 85%, the engine displacement is 2500 cc, and
+the engine speed is 2200 rpm, what is the mass flow rate of air through the
+engine, in lbm per minute?
+(e) What is the engine horsepower?
+(f) If losses through the valves cause a 120-kPa pressure differential between the
+pressures during the exhaust and intake strokes, estimate the actual and
+fractional losses, in horsepower, due to these processes.  Sketch the
+appropriate p–V diagram.
+6.19 A twelve-cylinder four-stroke-cycle Diesel engine has a 4-in. bore, a  4.5-in.
+stroke, and a compression ratio of 20.  The mechanical efficiency is 89%, the
+cutoff ratios is 2, and the engine speed is 1200 rpm.  The air entering the cylinder
+is at 14.5 psia and 60° F.  Assuming Air Standard cycle performance, determine
+the cycle temperatures,  indicated power, IMEP, and engine brake horsepower.
+6.20 A hypothetical engine cycle consists of an isentropic compression, a constant-
+pressure heat addition, and a constant-volume blowdown, consecutively.
+(a) Draw and label a p–V diagram for the cycle.
+(b) Use the cyclic integral of the First Law to derive an equation for the cycle net
+work in terms of the temperature.
+(c) Use the definition of mechanical work to derive an equation for the cycle net
+work also.  Show that your equation is equivalent to the result obtained in
+part (b) using the cyclic integral.
+(d) Express an equation for the cycle thermal efficiency in terms of cycle
+temperature ratios and k.
+(e) If T1 = 60°F and the volume ratio is 10, determine the other cycle
+temperatures; and compare the cycle efficiency with the efficiency the Otto
+cycle having the same compression ratio.
+6.21 A slightly more complex model of a reciprocating engine cycle than those 
+discussed combines constant-pressure and constant-volume heat additions in a
+single Air Standard cycle.
+(a) Sketch and label a p–V diagram for this cycle that consists of the following
+259
+consecutive processes: isentropic compression, constant-volume heat addition,
+constant-pressure heat addition, isentropic expansion, and constant-volume
+blowdown.
+(b)The engine may be characterized by three parameters: the compression ratio;
+the Diesel engine cutoff ratio; and a third  parameter, the ratio of the pressure
+after to that before the constant-volume combustion.  Define these parameters in
+terms of the symbols in your sketch and derive an equation for the thermal
+efficiency of the cycle.
+(c) Show how varying the parameters appropriately reduces your efficiency
+equation to the equations for the Otto and Diesel cycles.
+6.22 As a plant engineer you must recommend whether electric power for a plant
+expansion (2.5 MW continuous generation requirement) will be purchased from a
+public utility or generated using a fully attended Diesel-engine-driven generator or
+an automatic remotely controlled gas turbine generator set.  The price of
+electricity is 4.8 cents per kW-hr, and the price of natural gas is 60 cents per
+thousand cubic feet.  Both Diesel engine and gas turbine are to be natural-gas
+fired.  The gas turbine has a heat rate of 11,500 Btu/kW-hr, and the Diesel engine
+13,200 Btu/kW-hr.  The initial costs of Diesel engine and gas turbine are
+$750,000 and $850,000, respectively.  Control equipment for the gas turbine
+costs an additional $150,000.  The engines and control equipment are estimated
+to have a useful life of 20 years.  The annual wages and benefits for a Diesel
+engine operating engineer working eight-hour daily shifts is $36,000.  Assume a
+10% per annum interest-rate. Evaluate the alternatives for a natural gas heating
+value of 1000 Btu/ft3, and present a table of their costs, in cents per kW-hr. 
+Discuss your recommendation.
+6.23 Evaluate the alternatives in Exercise 6.22 based on the present-worth method.
+6.24 In terms of the notation of Figure 6.3, what are the piston displacement,
+compression ratio, and expansion ratio for the Lenoir cycle?
+6.25 What are the fuel and air flow rates and brake specific fuel consumption for an
+eight-cylinder engine with a 3.75-in. bore and 3.5-in. stroke delivering 212
+horsepower at 3600 rpm with a brake thermal efficiency of 25%?  The fuel is
+C8H18, and the equivalence ratio is 1.2.  What is the power per cubic inch of
+engine displacement?
+6.26* Construct a spreadsheet to perform an Air Standard cycle analysis for a Diesel 
+engine with a compression ratio of 20 and a range of peak temperatures from
+1000K to 3000K, in 500° increments.  Use it to tabulate and plot both the net work
+per unit mass of air and the thermal efficiency against the cutoff ratio.
+260
+6.27 Determine the maximum tailpipe concentrations of the three federally regulated
+gaseous pollutants based on the existing standards for an automobile that achieves
+28 mile/gal of  iso-octane.  Assume that the engine mixture equivalence ratio is
+0.9, that NOx is represented by NO2 and unburned hydrocarbons by monatomic
+carbon, and that the fuel density is 700 kg/m3.
+6.28 A single-cylinder Air Standard Otto engine has a compression ratio of 9.0 and a
+peak temperature of  3000°F at 80°F and one atmosphere ambient conditions. 
+Determine the net work, cycle efficiency, maximum cylinder pressure, and mean
+effective pressure.
+6.29 A six-cylinder engine with a compression ratio of 11 runs at 3200 rpm and 80°F
+and 14.7 psia.  Each cylinder has a bore of 3 inches, a stroke of 3.25 inches, and a 
+volumetric efficiency of 0.85.  Assume an Air Standard four-stroke Otto cycle
+with stoichiometric octane as fuel.  Assume that the energy release from the fuel
+is equally divided between internal energy increase in cylinder gases and cylinder
+wall heat loss.  What are the cylinder mean effective pressures and the engine
+horsepower and specific fuel consumption?  Assume a heating value of 20,600
+Btu/lbm.
+6.30 An eight-cylinder four-stroke-cycle compression-ignition engine operates with a
+fuel-air ratio of 0.03 at 2400 rpm.  It has a turbocharger and intercooler, as
+diagrammed nearby, with compressor pressure ratio of 1.7 and intercooler exit
+temperature of 320K.  The engine bore and stroke are 10 cm and 12 cm,
+respectively. The compressor efficiency, turbine efficiency, and volumetric
+efficiency are 70%, 75%, and 87%, respectively.  The entrance temperature of the
+turbine gases is 1000K.  What are the compressor power, the turbine pressure
+ratio, and the engine power, in kW and in horsepower?  Assume that the engine is
+constructed of ceramic components that minimize engine heat losses so that they
+may be neglected—and ideal “adiabatic” engine.  
+261

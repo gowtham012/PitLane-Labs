@@ -1,0 +1,4307 @@
+                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AT6601 - Automotive Engine 
+Components Design          
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+UNIT I  
+ 
+INTRODUCTION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  Introduction 
+ 
+The knowledge of materials and their properties is of great 
+significance for a design engineer. The machine elements should be 
+made of such a material which has properties suitable for the 
+conditions of operation. In addition to this, a design engineer must be 
+familiar with the effects which the manufacturing processes and heat 
+treatment have on the properties of the materials. In this chapter, we 
+shall discuss the commonly used engineering 
+materials and their properties in Machine Design. 
+                     
+                       Classification of Engineering Materials 
+The engineering materials are mainly classified as : 
+ 
+1. Metals and their alloys, such as iron, steel, 
+copper, aluminium, etc. 
+ 
+2. Non-metals, such as glass, rubber, plastic, etc. 
+The metals may be further classified as : 
+(a) Ferrous metals, and (b) Non-ferrous metals. 
+ 
+The *ferrous metals are those which have the iron as their main 
+constituent, such as cast iron, wrought iron and steel. The non-ferrous 
+metals are those which have a metal other than iron as their main 
+constituent, such as copper, aluminium, brass, tin, zinc, etc 
+ 
+Selection of Materials for Engineering Purposes 
+The selection of a proper material, for engineering purposes, is one of 
+the most difficult problem for the designer. The best material is one 
+which serve the desired objective at the minimum cost. The following 
+factors should be considered while selecting the material : 
+1. Availability of the materials, 
+2. Suitability of the materials for the working 
+conditions in service, and 
+3. The cost of the materials. 
+Mechanical Properties of Metals 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+The mechanical properties of the metals are those which are associated 
+with the ability of the 
+material to resist mechanical forces and load. These mechanical 
+properties of the metal include strength, 
+stiffness, elasticity, plasticity, ductility, brittleness, malleability, 
+toughness, resilience, creep and 
+hardness. We shall now discuss these properties as follows: 
+1. Strength. It is the ability of a material to resist the externally 
+applied forces without breaking 
+or yielding. The internal resistance offered by a part to an externally 
+applied force is called *stress. 
+2. Stiffness. It is the ability of a material to resist deformation under 
+stress. The modulus of 
+elasticity is the measure of stiffness. 
+3. Elasticity. It is the property of a material to regain its original shape 
+after deformation when 
+the external forces are removed. This property is desirable for 
+materials used in tools and machines. 
+It may be noted that steel is more elastic than rubber. 
+4. Plasticity. It is property of a material which retains the deformation 
+produced under load 
+permanently. This property of the material is necessary for forgings, in 
+stamping images on coins and 
+in ornamental work. 
+5. Ductility. It is the property of a material enabling it to be drawn into 
+wire with the application 
+of a tensile force. A ductile material must be both strong and plastic. 
+The ductility is usually 
+measured by the terms, percentage elongation and percentage 
+reduction in area. The ductile material 
+commonly used in engineering practice (in order of diminishing 
+ductility) are mild steel, copper, 
+aluminium, nickel, zinc, tin and lead. 
+6. Brittleness. It is the property of a material opposite to ductility. It is 
+the property of breaking 
+of a material with little permanent distortion. Brittle materials when 
+subjected to tensile loads, snap 
+off without giving any sensible elongation. Cast iron is a brittle 
+material. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+7. Malleability. It is a special case of ductility which permits materials 
+to be rolled or hammered 
+into thin sheets. A malleable material should be plastic but it is not 
+essential to be so strong. The 
+malleable materials commonly used in engineering practice (in order 
+of diminishing malleability) are 
+lead, soft steel, wrought iron, copper and aluminium. 
+8. Toughness. It is the property of a material to resist fracture due to 
+high impact loads like hammer blows. The toughness of the material 
+decreases when it is heated. It is measured by the amount of energy 
+that a unit volume of the material has absorbed after being stressed 
+upto the point of fracture. This property is desirable in parts subjected 
+to shock and impact loads. 
+9. Machinability. It is the property of a material which refers to a 
+relative case with which a material can be cut. The machinability of a 
+material can be measured in a number of ways such as comparing the 
+tool life for cutting different materials or thrust required to remove the 
+material at some given rate or the energy required to remove a unit 
+volume of the material. It may be noted that brass can be easily 
+machined than steel. 
+10. Resilience. It is the property of a material to absorb energy and to 
+resist shock and impact loads. It is measured by the amount of energy 
+absorbed per unit volume within elastic limit. This property is 
+essential for spring materials. 
+11. Creep. When a part is subjected to a constant stress at high 
+temperature for a long period of time, it will undergo a slow and 
+permanent deformation called creep. This property is considered in 
+designing internal combustion engines, boilers and turbines. 
+ 
+Completely Reversed or Cyclic Stresses 
+Consider a rotating beam of circular cross-section and carrying a load 
+W,  This load induces stresses in the beam which are cyclic in nature. 
+A little consideration will show that the upper fibres of the beam (i.e. 
+at point A) are under compressive stress and the lower fibres (i.e. at 
+point B) are under tensile stress. After half a revolution, the point B 
+occupies the position of 
+point A and the point A occupies the position of point B. 
+Thus the point B is now under compressive stress and 
+the point A under tensile stress. The speed of variation 
+of these stresses depends upon the speed of the beam. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+From above we see that for each revolution of the 
+beam, the stresses are reversed from compressive to tensile. 
+The stresses which vary from one value of compressive to 
+the same value of tensile or vice versa, are known as completely 
+reversed or cyclic stresses. 
+Notes: 1. The stresses which vary from a minimum value to a 
+maximum value of the same nature, (i.e. tensile or 
+compressive) are called fluctuating stresses. 
+2. The stresses which vary from zero to a certain maximum value are 
+called repeated stresses. 
+3. The stresses which vary from a minimum value to a maximum 
+value of the opposite nature (i.e. from a 
+certain minimum compressive to a certain maximum tensile or from a 
+minimum tensile to a maximum compressive) 
+are called alternating stresses. 
+ Fatigue and Endurance Limit 
+It has been found experimentally that when a material is subjected to 
+repeated stresses, it fails at 
+stresses below the yield point stresses. Such type of failure of a 
+material is known as fatigue. The 
+failure is caused by means of a progressive crack formation which are 
+usually fine and of microscopic 
+size. The failure may occur even without any prior indication. The 
+fatigue of material is effected by 
+the size of the component, relative magnitude of static and fluctuating 
+loads and the number of load 
+reversals. 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Effect of Loading on Endurance Limit—Load Factor 
+The endurance limit (e) of a material as determined by the rotating 
+beam method is for 
+reversed bending load. There are many machine members which are 
+subjected to loads other than 
+reversed bending loads. Thus the endurance limit will 
+also be different for different types of loading. The 
+endurance limit depending upon the type of loading may 
+be modified as discussed below: 
+ 
+Let Kb = Load correction factor for the 
+reversed or rotating bending load. 
+Its value is usually taken as unity. 
+Ka = Load correction factor for the 
+reversed axial load. Its value may 
+be taken as 0.8. 
+Ks = Load correction factor for the 
+reversed torsional or shear load. Its 
+value may be taken as 0.55 for 
+ductile materials and 0.8 for brittle 
+materials. 
+Endurance limit for reversed bending load, eb = e.Kb = e ...( 
+QKb = 1) Endurance limit for reversed axial load, ea = e.Ka 
+and endurance limit for reversed torsional or shear load, e = e.Ks 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ Effect of Surface Finish on Endurance Limit—Surface 
+Finish Factor 
+When a machine member is subjected to variable loads, the endurance 
+limit of the material for 
+that member depends upon the surface conditions. Fig. 6.3 shows the 
+values of surface finish factor 
+for the various surface conditions and ultimate tensile strength. 
+ 
+ 
+Important Terms used in Limit System 
+The following terms used in limit system 
+(or interchangeable system) are important from 
+the subject point of view: 
+1. Nominal size. It is the size of a part 
+specified in the drawing as a matter of convenience. 
+2. Basic size. It is the size of a part to which 
+all limits of variation (i.e. tolerances) are applied 
+to arrive at final dimensioning of the mating parts. 
+The nominal or basic size of a part is often the 
+same. 
+3. Actual size. It is the actual measured 
+dimension of the part. The difference between the basic size and the 
+actual size should not exceed a 
+certain limit, otherwise it will interfere with the interchangeability of 
+the mating parts. 
+4. Limits of sizes. There are two extreme permissible sizes for a 
+dimension of the part as 
+shown in Fig. 3.1. The largest permissible size for a dimension of the 
+part is called upper or high or 
+maximum limit, whereas the smallest size of the part is known as 
+lower or minimum limit. 
+5. Allowance. It is the difference between the basic dimensions of the 
+mating parts. The 
+allowance may be positive or negative. When the shaft size is less than 
+the hole size, then the allowance 
+is positive and when the shaft size is greater than the hole size, then 
+the allowance is negative. 
+6. Tolerance. It is the difference between the upper limit and lower 
+limit of a dimension. In 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+other words, it is the maximum permissible variation in a dimension. 
+The tolerance may be unilateral 
+or bilateral. When all the tolerance is allowed on one side of the 
+nominal size, e.g. 0.000 
+20– 0.004 
+, then it 
+is said to be unilateral system of tolerance. The unilateral system is 
+mostly used in industries as it 
+permits changing the tolerance value while still retaining the same 
+allowance or type of fit. 
+When the tolerance is allowed on both sides of the nominal size, e.g. 
+0.002 
+20– 0.002 
+, then it is said to 
+be bilateral system of tolerance. In this case + 0.002 is the upper limit 
+and – 0.002 is the lower limit. 
+The method of assigning unilateral and bilateral tolerance is shown in 
+Fig. 3.2 (a) and 
+(b) respectively. 
+7. Tolerance zone. It is the zone between the maximum and minimum 
+limit size, as shown in 
+Fig. 3.3. 
+Fig. 3.3. Tolerance zone. 
+8. Zero line. It is a straight line corresponding to the basic size. The 
+deviations are measured 
+from this line. The positive and negative deviations are shown above 
+and below the zero line 
+respectively. 
+9. Upper deviation. It is the algebraic difference between the 
+maximum size and the basic size. 
+The upper deviation of a hole is represented by a symbol ES (Ecart 
+Superior) and of a shaft, it is 
+represented by es. 
+10. Lower deviation. It is the algebraic difference between the 
+minimum size and the basic size. 
+The lower deviation of a hole is represented by a symbol EI (Ecart 
+Inferior) and of a shaft, it is 
+represented by ei. 
+11. Actual deviation. It is the algebraic difference between an actual 
+size and the corresponding 
+basic size. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+12. Mean deviation. It is the arithmetical mean between the upper and 
+lower deviations. 
+13. Fundamental deviation. It is one of the two deviations which is 
+conventionally chosen to 
+define the position of the tolerance zone in relation to zero line, as 
+shown in fig 
+ 
+ 
+Fits 
+The degree of tightness or looseness between the two mating parts is 
+known as a fit of the parts. 
+The nature of fit is characterised by the presence and size of clearance 
+and interference. 
+The clearance is the amount by which the actual size of the shaft is 
+less than the actual size of 
+the mating hole in an assembly as shown in Fig. 3.5 (a). In other 
+words, the clearance is the difference 
+between the sizes of the hole and the shaft before assembly. The 
+difference must be positive. 
+ Types of fits. 
+The interference is the amount by which the actual size of a shaft is 
+larger than the actual 
+finished size of the mating hole in an assembly as shown in Fig. 3.5 
+(b). In other words, the interference 
+is the arithmetical difference between the sizes of the hole and the 
+shaft, before assembly. The difference 
+must be negative. 
+ Types of Fits 
+According to Indian standards, the fits are classified into the following 
+three groups : 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+1. Clearance fit. In this type of fit, the size limits for mating parts are 
+so selected that clearance 
+between them always occur, as shown in Fig. 3.5 (a). It may be noted 
+that in a clearance fit, the 
+tolerance zone of the hole is entirely above the tolerance zone of the 
+shaft. 
+In a clearance fit, the difference between the minimum size of the hole 
+and the maximum size of 
+the shaft is known as minimum clearance whereas the difference 
+between the maximum size of the 
+hole and minimum size of the shaft is called maximum clearance 
+ 
+2. Interference fit. In this type of fit, the size limits for the mating 
+parts are so selected that 
+interference between them always occur, as shown in Fig. 3.5 (b). It 
+may be noted that in an interference 
+fit, the tolerance zone of the hole is entirely below the tolerance zone 
+of the shaft. 
+In an interference fit, the difference between the maximum size of the 
+hole and the minimum 
+size of the shaft is known as minimum interference, whereas the 
+difference between the minimum 
+size of the hole and the maximum size of the shaft is called maximum 
+interference, as shown in Fig. 
+3.5 (b). 
+The interference fits may be shrink fit, heavy drive fit and light drive 
+fit. 
+3. Transition fit. In this type of fit, the size limits for the mating parts 
+are so selected that either 
+a clearance or interference may occur depending upon the actual size 
+of the mating parts, as shown in 
+Fig. 3.5 (c). It may be noted that in a transition fit, the tolerance zones 
+of hole and shaft overlap. 
+The transition fits may be force fit, tight fit and push fit. 
+Effect of Surface Finish on Endurance Limit—Surface 
+Finish Factor 
+When a machine member is subjected to variable loads, the endurance 
+limit of the material for 
+that member depends upon the surface conditions. Fig. 6.3 shows the 
+values of surface finish factor 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+for the various surface conditions and ultimate tensile strength. 
+ Surface finish factor for various surface conditions. 
+When the surface finish factor is known, then the endurance limit for 
+the material of the machine 
+member may be obtained by multiplying the endurance limit and the 
+surface finish factor. We see that for a mirror polished material, the 
+surface finish factor is unity. In other words, the endurance limit for 
+mirror polished material is maximum and it goes on reducing due to 
+surface condition. 
+Let Ksur = Surface finish factor. 
+Endurance limit, 
+e1 = eb.Ksur= e.Kb.Ksur = e.Ksur ...( Q Kb = 1) 
+...(For reversed bending load) 
+= ea.Ksur = e.Ka.Ksur ...(For reversed axial load) 
+= e.Ksur = e.Ks.Ksur ...(For reversed torsional or shear load) 
+Note : The surface finish factor for non-ferrous metals may be taken 
+as unity. 
+ 
+ 
+ 
+ 
+Rankine’s Formula for Columns 
+We have already discussed that Euler’s formula gives correct results 
+only for very long columns. 
+Though this formula is applicable for columns, ranging from very long 
+to short ones, yet it does not 
+give reliable results. Prof. Rankine, after a number of experiments, 
+gave the following empirical 
+formula for columns 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+A little consideration will show, that the value of WC will remain 
+constant irrespective of the 
+fact whether the column is a long one or short one. Moreover, in the 
+case of short columns, the value 
+of WE will be very high, therefore the value of 1 / WE will be quite 
+negligible as compared to 1 / WC. 
+It is thus obvious, that the Rankine’s formula will give the value of its 
+crippling load (i.e. Wcr) 
+approximately equal to the ultimate crushing load (i.e. WC ). In case of 
+long columns, the value of WE 
+will be very small, therefore the value of 1 / WE will be quite 
+considerable as compared to 1 / WC. It 
+is thus obvious, that the Rankine’s formula will give the value of its 
+crippling load (i.e. Wcr) 
+approximately equal to the crippling load by Euler’s formula (i.e. WE 
+). Thus, we see that Rankine’s 
+formula gives a fairly correct result for all cases of columns, ranging 
+from short to long columns. 
+From equation (i), we know that L = Equivalent length of the column, 
+and 
+k = Least radius of gyration. 
+The following table gives the values of crushing stress and Rankine’s 
+constant for various 
+materials. 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Johnson’s Formulae for Columns 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+UNIT II  
+ 
+DESIGN OF CYLINDER, 
+PISTON AND 
+CONNECTING ROD 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Principal Parts of an Engine 
+ 
+The principal parts of an I.C engine, as shown in Fig. 32.1 are as follows : 
+ 
+1. Cylinder and cylinder liner, 2. Piston, piston rings and piston pin or gudgeon pin, 3. Connecting rod 
+with small and big end bearing, 4. Crank, crankshaft and crank pin, and 5. Valve gear mechanism. 
+ 
+The design of the above mentioned principal parts are discussed, in detail, in the following 
+pages. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.1. Internal combustion engine parts. 
+ 
+32.3 Cylinder and Cylinder Liner 
+ 
+The function of a cylinder is to retain the working fluid and to guide the piston. The cylinders are 
+usually made of cast iron or cast steel. Since the cylinder has to withstand high temperature due to the 
+combustion of fuel, therefore, some arrangement must be provided to cool the cylinder. The single 
+cylinder engines (such as scooters and motorcycles) are generally air cooled. They are provided with 
+fins around the cylinder. The multi-cylinder engines (such as of cars) are provided with water jackets 
+around the cylinders to cool it. In smaller engines. the cylinder, water jacket and the frame are 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  
+made as one piece, but for all the larger engines, these parts are manufactured separately. The 
+cylinders are provided with cylinder liners so that in case of wear, they can be easily replaced. The 
+cylinder liners are of the following two types : 
+ 
+1. Dry liner, and 2. Wet liner. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.2. Dry and wet liner. 
+ 
+A cylinder liner which does not have any direct contact with the engine cooling water, is 
+known as dry liner, as shown in Fig. 32.2 (a). A cylinder liner which have its outer surface in 
+direct contact with the engine cooling water, is known as wet liner, as shown in Fig. 32.2 (b). 
+ 
+The cylinder liners are made from good quality close grained cast iron (i.e. pearlitic cast 
+iron), nickel cast iron, nickel chromium cast iron. In some cases, nickel chromium cast steel with 
+molybdenum may be used. The inner surface of the liner should be properly heat-treated in order 
+to obtain a hard surface to reduce wear. 
+ 
+Design of a Cylinder 
+ 
+In designing a cylinder for an I. C. engine, it is required to determine the following values : 
+ 
+1. Thickness of the cylinder wall. The cylinder wall is subjected to gas pressure and the 
+piston side thrust. The gas pressure produces the following two types of stresses : 
+ 
+(a) Longitudinal stress, and (b) Circumferential stress. 
+ 
+ 
+ 
+ 
+Camshaft controls the 
+valves 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Crankshaft turns the 
+piston action into rotation 
+ 
+ 
+Piston 
+ 
+ 
+ 
+Cam 
+ 
+Piston ring seals the piston to 
+prevent gases escaping 
+ 
+ 
+Air intake 
+ 
+ 
+Valve lets fuel and air in and 
+exhaust gases out 
+ 
+Alternator 
+ 
+Belt drives alternator to supply 
+electricity to spark plugs. 
+ 
+Dip stick to check oil level 
+ 
+Sump is filled with oil to 
+reduce friction 
+ 
+Oil is pumped up into 
+cylinders to lubricate pistons 
+ 
+The above picture shows crankshaft, pistons and cylinder of a 4-stroke petrol engine. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Since these two stressess act at right angles to each other, therefore, the net stress in each 
+direction is reduced. 
+ 
+The piston side thrust tends to bend the cylinder wall, but the stress in the wall due to side thrust 
+ 
+is very small and hence it may be neglected. 
+Let 
+D
+0 = Outside diameter of the cylinder in mm, 
+D = Inside diameter of the cylinder in mm, 
+p = Maximum pressure inside the engine cylinder in N/mm2, 
+t = Thickness of the cylinder wall in mm, and 
+1/m = Poisson’s ratio. It is usually taken as 0.25. 
+The apparent longitudinal stress is given by 
+Force 
+π 
+ D 
+2
+  p
+D 2 . p 
+σ l = 
+ 4 
+Area 
+π 
+2 −  D
+2
+( D0 )2 −  D2 
+[( D0 ) 
+] 
+4 
+and the apparent circumferential stresss is given by 
+σ c  Force 
+ D  l   p 
+  D   p 
+Area 
+2t  l 
+2t 
+... (where l is the length of the cylinder and area is the projected area) 
+∴ Net longitudinal stress = σl − σc 
+m 
+and net circumferential stress = σ c − σl 
+m 
+The thickness of a cylinder wall (t) is usually obtained by using a thin cylindrical formula,i.e., 
+t = 
+p   D   C 
+2 σ c 
+where 
+p = Maximum pressure inside the cylinder in N/mm2, 
+D = Inside diameter of the cylinder or cylinder bore in mm, 
+σc = Permissible circumferential or hoop stress for the cylinder material 
+in MPa or N/mm2. Its value may be taken from 35 MPa to 
+100 MPa depending upon the size and material of the cylinder. 
+ 
+C = Allowance for reboring. 
+ 
+The allowance for reboring (C ) depending upon the cylinder bore (D) for I. C. engines is 
+given in the following table : 
+ 
+Table 32.1. Allowance for reboring for I. C. engine cylinders. 
+ 
+D (mm) 
+75 
+100 
+150 
+200 
+250 
+300 
+350 
+400 
+450 
+500 
+C (mm) 
+1.5 
+2.4 
+4.0 
+6.3 
+8.0 
+9.5 
+11.0 
+12.5 
+12.5 
+12.5 
+ 
+The thickness of the cylinder wall usually varies from 4.5 mm to 25 mm or more depending 
+upon the size of the cylinder. The thickness of the cylinder wall (t) may also be obtained from the 
+following empirical relation, i.e. 
+ 
+t = 0.045 D + 1.6 mm 
+The other empirical relations are as follows : 
+Thickness of the dry liner 
+ 
+= 0.03 D to 0.035 D 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+Thickness of the water jacket wall 
+ 
+= 0.032 D + 1.6 mm or t / 3 m for bigger cylinders and 3t /4 for 
+smaller cylinders  
+ 
+Water space between the outer cylinder wall and inner jacket wall 
+ 
+= 10 mm for a 75 mm cylinder to 75 mm for a 750 mm 
+cylinder or 0.08 D + 6.5 mm  
+ 
+2. Bore and length of the cylinder. The bore (i.e. inner diameter) and length of the cylinder 
+may be determined as discussed below :  
+Let 
+pm  = Indicated mean effective pressure in N/mm2, 
+ 
+D = Cylinder bore in mm, 
+ 
+A = Cross-sectional area of the cylinder in mm2, 
+= π D2/4 
+l = Length of stroke in metres, 
+ 
+N = Speed of the engine in r.p.m., and 
+ 
+n = Number of working strokes per min 
+ 
+= N, for two stroke engine 
+ 
+= N/2, for four stroke engine. 
+ 
+We know that the power produced inside the engine cylinder, i.e. indicated power, 
+ 
+I.P. 
+ p
+m  l
+  A
+  n
+ watts 
+60 
+ 
+From this expression, the bore (D) and length of stroke (l) is determined. The length of 
+stroke is generally taken as 1.25 D to 2D. 
+ 
+Since there is a clearance on both sides of the cylinder, therefore length of the cylinder is 
+taken as 15 percent greater than the length of stroke. In other words, 
+ 
+Length of the cylinder, L = 1.15 × Length of stroke = 1.15 l 
+ 
+Notes : (a) If the power developed at the crankshaft, i.e. brake power (B. P.) and the mechanical efficiency 
+(ηm) of the engine is known, then 
+ 
+B.P. 
+I.P. =  ηm 
+(b) The maximum gas pressure ( p ) may be taken as 9 to 10 times the mean effective pressure ( pm). 
+ 
+3. Cylinder flange and studs. The cylinders are cast integral with the upper half of the crank-
+case or they are attached to the crankcase by means of a flange with studs or bolts and nuts. The 
+cylinder flange is integral with the cylinder and should be made thicker than the cylinder wall. The 
+flange thickness should be taken as 1.2 t to 1.4 t, where t is the thickness of cylinder wall. 
+ 
+The diameter of the studs or bolts may be obtained by equating the gas load due to the maximum 
+pressure in the cylinder to the resisting force offered by all the studs or bolts. Mathematically, 
+ 
+π 
+ 
+4 
+ 
+where 
+ 
+ D 2 . p = n   
+π ( d 
+c 
+)2 σ 
+T 
+s 
+4 
+D = Cylinder bore in mm, 
+p = Maximum pressure in N/mm2, 
+n
+s = Number of studs. It may be taken as 0.01 D + 4 to 0.02 D + 4 
+dc = Core or minor diameter, i.e. diameter at the root of the thread in 
+mm, 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  
+σt = Allowable tensile stress for the material of studs or bolts in MPa 
+or N/mm2. It may be taken as 35 to 70 MPa. 
+The nominal or major diameter of the stud or bolt (d ) usually lies between 0.75 tf to tf, where tf is 
+the thickness of flange. In no case, a stud or bolt less than 16 mm diameter should be used. 
+ 
+The distance of the flange from the centre of the hole for the stud or bolt should not be less 
+than d + 6 mm and not more than 1.5 d, where d is the nominal diameter of the stud or bolt. 
+ 
+In order to make a leak proof joint, the pitch of the studs or bolts should lie between 19  d  to 
+ 
+28.5 d, where d is in mm.  
+ 
+4. Cylinder head. Usually, a separate cylinder head or cover is provided with most of the 
+engines. It is, usually, made of box type section of considerable depth to accommodate ports for 
+air and gas passages, inlet valve, exhaust valve and spark plug (in case of petrol engines) or 
+atomiser at the centre of the cover (in case of diesel engines).  
+ 
+The cylinder head may be approximately taken as a flat circular plate whose thickness (th) 
+may be determined from the following relation : 
+t  = D  C
+ .
+ p 
+h 
+σc 
+where 
+D = Cylinder bore in mm, 
+ 
+p = Maximum pressure inside the cylinder in N/mm2, 
+σc = Allowable circumferential stress in MPa or N/mm2. It may be 
+taken as 30 to 50 MPa, and 
+ 
+C = Constant whose value is taken as 0.1. 
+ 
+The studs or bolts are screwed up tightly alongwith a metal gasket or asbestos packing to provide 
+a leak proof joint between the cylinder and cylinder head. The tightness of the joint also depends 
+ 
+upon the pitch of the bolts or studs, which should lie between 19 d to 28.5 d. The pitch circle 
+diameter (Dp) is usually taken as D + 3d. The studs or bolts are designed in the same way as 
+discussed above. 
+ 
+Example 32.1. A four stroke diesel engine has the following specifications : 
+ 
+Brake power = 5 kW ; Speed = 1200 r.p.m. ; Indicated mean effective pressure = 0.35 N / 
+mm 2 ; Mechanical efficiency = 80 %. 
+ 
+Determine : 1. bore and length of the cylinder ; 2. thickness of the cylinder head ; and 3. size 
+of studs for the cylinder head. 
+ 
+Ignition 
+4-Stroke Petrol Engine 
+system 
+Inlet 
+Spark plug 
+Hot gases expand and force 
+Terminal 
+causes a 
+the piston down 
+valve   Piston 
+spark 
+E x h a u s t 
+Ceramic 
+Crankshaft 
+valve 
+insulator 
+Spark plug 
+casing 
+Central 
+electrode 
+Screw 
+fitting 
+Earth 
+electrode 
+1. Intake 
+2. Compression 
+3. Power 
+4. Exhaust, 
+5. Spark plug 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+Solution. Given: B.P. = 5kW = 5000 W ; N = 1200 r.p.m. or n = N / 2 = 600 ; 
+p m = 0.35 N/mm2; η m = 80% = 0.8 
+1. Bore and length of cylinder 
+Let 
+D = Bore of the cylinder in mm, 
+A = Cross-sectional area of the cylinder = π 
+ D2 mm2 
+4 
+l = Length of the stroke in m. 
+= 1.5 D mm = 1.5 D / 1000 m 
+....(Assume)
+We know that the indicated power, 
+I.P = B.P. / ηm = 5000 / 0.8 = 6250 W 
+We also know that the indicated power (I.P.), 
+6250 = pm . l . A . n 
+0.35  1.5 D  π D2  600
+= 4.12 × 10–3 D3 
+60 
+60  1000  4 
+...Q For four stroke engine, n = N/2) 
+∴ 
+D3  = 6250 / 4.12 × 10–3 = 1517 × 103 or D = 115 mm Ans. 
+and 
+l = 1.5 D = 1.5 × 115 = 172.5 mm 
+ 
+Taking a clearance on both sides of the cylinder equal to 15% of the stroke, therefore length 
+of the cylinder, 
+ 
+L = 1.15 l = 1.15 × 172.5 = 198 say 200 mm Ans.  
+ 
+2. Thickness of the cylinder head  
+ 
+Since the maximum pressure ( p) in the engine cylinder is taken as 9 to 10 times the mean 
+effective pressure ( pm), therefore let us take 
+p = 9 pm = 9 × 0.35 = 3.15 N/mm2 
+We know that thickness of the cyclinder head, 
+t = D C .p 
+ 115 0.1  3.15 = 9.96 say 10 mm Ans. 
+42 
+h 
+σt 
+...(Taking C = 0.1 and σt = 42 MPa = 42 N/mm2) 
+ 
+3. Size of studs for the cylinder head 
+ 
+Let 
+d = Nominal diameter of the stud in mm, 
+ 
+dc = Core diameter of the stud in mm. It is usually taken as 0.84 d. 
+σt = Tensile stress for the material of the stud which is usually nickel 
+steel. 
+ 
+ns = Number of studs. 
+ 
+We know that the force acting on the cylinder head (or on the studs) 
+ 
+= π   D 2   p  π (115) 2 3.15  32 702 N 
+...(i) 
+4 
+4 
+The number of studs (ns ) are usually taken between 0.01 D + 4 (i.e. 0.01 × 115 + 4 = 5.15) and 
+0.02 D + 4 (i.e. 0.02 × 115 + 4 = 6.3). Let us take ns = 6. 
+We know that resisting force offered by all the studs 
+ 
+= ns  π (dc )2 σ t 
+ 6  π (0.84d )2 65  216 d 2 N 
+...(ii) 
+4 
+4 
+...(Taking σt = 65 MPa = 65 N/mm2) 
+From equations (i) and (ii), 
+ 
+d 2  = 32 702 / 216 = 151 or d = 12.3 say 14 mm 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The pitch circle diameter of the studs (Dp) is taken D + 3d. 
+∴ 
+Dp  = 115 + 3 × 14 = 157 mm 
+We know that pitch of the studs 
+= π   Dp 
+ π  157 
+ 82.2 mm 
+ns 
+6 
+ 
+We know that for a leak-proof joint, the pitch of the studs should lie between 19 d to 28.5 d , 
+where d is the nominal diameter of the stud. 
+∴ Minimum pitch of the studs 
+ 
+= 19 d = 19 14 = 71.1 mm and 
+maximum pitch of the studs 
+ 
+= 28.5  d  28.5 14  106.6mm 
+ 
+Since the pitch of the studs obtained above (i.e. 82.2 mm) lies within 71.1 mm and 106.6 
+mm, therefore, size of the stud (d ) calculated above is satisfactory. 
+ 
+ 
+d = 14 mm Ans. 
+ 
+32.5 Piston 
+ 
+The piston is a disc which reciprocates within a cylinder. It is either moved by the fluid or it 
+moves the fluid which enters the cylinder. The main function of the piston of an internal 
+combustion engine is to receive the impulse from the expanding gas and to transmit the energy to 
+the crankshaft through the connecting rod. The piston must also disperse a large amount of heat 
+from the combustion chamber to the cylinder walls. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.3. Piston for I.C. engines (Trunk type). 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+The piston of internal combustion engines are usually of trunk type as shown in Fig. 32.3. 
+Such pistons are open at one end and consists of the following parts : 
+ 
+1. Head or crown. The piston head or crown may be flat, convex or concave depending upon 
+the design of combustion chamber. It withstands the pressure of gas in the cylinder.  
+ 
+2. Piston rings. The piston rings are used to seal the cyliner in order to prevent leakage of 
+the gas past the piston.  
+ 
+3. Skirt. The skirt acts as a bearing for the side thrust of the connecting rod on the walls of 
+cylinder.  
+ 
+4. Piston pin. It is also called gudgeon pin or wrist pin. It is used to connect the piston to the 
+connecting rod.  
+ 
+32.6 Design Considerations for a Piston  
+ 
+In designing a piston for I.C. engine, the following points should be taken into consideration : 
+ 
+1. It should have enormous strength to withstand the high gas pressure and inertia forces.  
+ 
+2. It should have minimum mass to minimise the inertia forces.  
+ 
+3. It should form an effective gas and oil sealing of the cylinder.  
+ 
+4. It should provide sufficient  bearing area to prevent undue wear. 
+ 
+5. It should disprese the heat of combustion quickly to the cylinder walls.  
+ 
+6. It should have high speed reciprocation without noise.  
+ 
+7. It should be of sufficient rigid construction to withstand thermal and mechanical distortion.  
+ 
+8. It should have sufficient support for the piston pin.  
+ 
+32.7 Material for Pistons  
+ 
+The most commonly used materials for pistons of I.C. engines are cast iron, cast aluminium, 
+forged aluminium, cast steel and forged steel. The cast iron pistons are used for moderately rated 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Spark plug 
+ 
+ 
+ 
+ 
+Carburettor 
+Twin-cylinder 
+aeroplane engine 
+ 
+Cylinder head 
+ 
+ 
+Propeller 
+2. Side view 
+ 
+1. Front view 
+ 
+Twin cylinder airplane engine of 1930s. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+engines with piston speeds below 6 m / s and aluminium alloy pistons are used for highly rated en-
+gines running at higher piston sppeds. It may be noted that 
+ 
+1. Since the *coefficient of thermal expansion for aluminium is about 2.5 times that of cast 
+iron, therefore, a greater clearance must be provided between the piston and the cylinder wall 
+(than with cast iron piston) in order to prevent siezing of the piston when engine runs continuously 
+under heavy loads. But if excessive clearance is allowed, then the piston will develop ‘piston slap’ 
+while it is cold and this tendency increases with wear. The less clearance between the piston and 
+the cylinder wall will lead to siezing of piston.  
+ 
+2. Since the aluminium alloys used for pistons have high **heat conductivity (nearly four 
+times that of cast iron), therefore, these pistons ensure high rate of heat transfer and thus keeps 
+down the maximum temperature difference between the centre and edges of the piston head or 
+crown.  
+ 
+Notes: (a) For a cast iron piston, the temperature at the centre of the piston head (TC) is about 425°C to 450°C 
+under full load conditions and the temperature at the edges of the piston head (TE) is about 200°C to 225°C. 
+(b) For aluminium alloy pistons, TC is about 260°C to 290°C and TE is about 185°C to 215°C. 
+ 
+3. Since the aluminium alloys are about ***three times lighter than cast iron, therfore, its 
+mechanical strength is good at low temperatures, but they lose their strength (about 50%) at 
+temperatures above 325°C. Sometimes, the pistons of aluminium alloys are coated with 
+aluminium oxide by an electrical method. 
+ 
+32.8 Piston Head or Crown 
+ 
+The piston head or crown is designed keeping in view the following two main considerations, i.e. 
+ 
+1. It should have adequate strength to withstand the straining action due to pressure of 
+explosion inside the engine cylinder, and  
+ 
+2. It should dissipate the heat of combustion to the cylinder walls as quickly as possible.  
+ 
+On the basis of first consideration of straining action, the thickness of the piston head is 
+determined by treating it as a flat circular plate of uniform thickness, fixed at the outer edges and 
+subjected to a uniformly distributed load due to the gas pressure over the entire cross-section. 
+ 
+The thickness of the piston head (tH ), according to Grashoff’s formula is given by 
+ 
+t  = 
+3 p. D2 
+...(i) 
+(in mm) 
+H 
+16σt 
+where 
+p = Maximum gas pressure or explosion pressure in N/mm2, 
+D = Cylinder bore or outside diameter of the piston in mm, and 
+ 
+σt = Permissible bending (tensile) stress for the material of the piston 
+in MPa or N/mm2. It may be taken as 35 to 40 MPa for grey cast 
+iron, 50 to 90 MPa for nickel cast iron and aluminium alloy and 
+60 to 100 MPa for forged steel. 
+ 
+On the basis of second consideration of heat transfer, the thickness of the piston head should 
+be such that the heat absorbed by the piston due combustion of fuel is quickly transferred to the 
+cylinder walls. Treating the piston head as a flat ciucular plate, its thickness is given by 
+ 
+tH  = 
+H 
+(in mm) 
+...(ii) 
+12.56k (TC − TE ) 
+ 
+* 
+The coefficient of thermal expansion for aluminium is 0.24 × 10–6 m / °C and for cast iron it is 0.1 × 10–6 m / °C.  
+ 
+** The heat conductivity for aluminium is 174.75 W/m/°C and for cast iron it is 46.6 W/m /°C.  
+ 
+*** The density of aluminium is 2700 kg / m3 and for cast iron it is 7200 kg / m3.  
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+where 
+H = Heat flowing through the piston head in kJ/s or watts, 
+k = Heat conductivity factor in W/m/°C. Its value is 46.6 W/m/°C for 
+grey cast iron, 51.25 W/m/°C for steel and 174.75 W/m/°C for 
+aluminium alloys. 
+TC  = Temperture at the centre of the piston head in °C, and 
+TE  = Temperature at the edges of the piston head in °C. 
+The temperature difference (TC – TE) may be taken as 220°C for cast iron and 75°C for aluminium. 
+The heat flowing through the positon head (H) may be deternined by the following expression, i.e., 
+ 
+H = C × HCV × m × B.P. (in kW) 
+ 
+where 
+C = Constant representing that portion of the heat supplied to the engine 
+ 
+which is absorbed by the piston. Its value is usually taken as 
+0.05. 
+ 
+HCV = Higher calorific value of the fuel in kJ/kg. It may be taken as 45 
+× 103 kJ/kg for diesel and 47 × 103 kJ/ kg for petrol, 
+ 
+m = Mass of the fuel used in kg per brake power per second, and 
+B.P. = Brake power of the engine per cylinder 
+Notes : 1. The thickness of the piston head (tH) is calculated by using equations (i) and (ii) and larger of the 
+two values obtained should be adopted. 
+ 
+2. When tH is 6 mm or less, then no ribs are required to strengthen the piston head against gas loads. 
+But when tH is greater then 6 mm, then a suitable number of ribs at the centre line of the boss extending 
+around the skirt should be provided to distribute the side thrust from the connecting rod and thus to prevent 
+distortion of the skirt. The thickness of the ribs may be takes as tH / 3 to tH / 2. 
+ 
+3. For engines having length of stroke to cylinder bore (L / D) ratio upto 1.5, a cup is provided in the 
+top of the piston head with a radius equal to 0.7 D. This is done to provide a space for combustion chamber. 
+ 
+32.9 Piston Rings 
+ 
+The piston rings are used to impart the necessary radial pressure to maintain the seal between 
+the piston and the cylinder bore. These are usually made of grey cast iron or alloy cast iron 
+because of their good wearing properties and also they retain spring characteristics even at high 
+temperatures. The piston rings are of the following two types : 
+ 
+1. Compression rings or pressure rings, and  
+ 
+2. Oil control rings or oil scraper.  
+ 
+The compression rings or pressure rings are inserted in the grooves at the top portion of the 
+piston and may be three to seven in number. These rings also transfer heat from the piston to the 
+cylinder liner and absorb some part of the piston fluctuation due to the side thrust. 
+ 
+The oil control rings or oil scrapers are provided below the compression rings. These rings 
+provide proper lubrication to the liner by allowing sufficient oil to move up during upward stroke 
+and at the same time scraps the lubricating oil from the surface of the liner in order to minimise 
+the flow of the oil to the combustion chamber. 
+ 
+The compression rings are usually made of rectangular cross-section and the diameter of the 
+ring is slightly larger than the cylinder bore. A part of the ring is cut- off in order to permit it to go 
+into the cylinder against the liner wall. The diagonal cut or step cut ends, as shown in Fig. 32.4 (a) 
+and (b) respectively, may be used. The gap between the ends should be sufficiently large when the 
+ring is put cold so that even at the highest temperature, the ends do not touch each other when the 
+ring expands, otherwise there might be buckling of the ring. 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.4. Piston rings. 
+ 
+The radial thickness (t1) of the ring may be obtained by considering the radial pressure 
+between the cylinder wall and the ring. From bending stress consideration in the ring, the radial 
+thickness is given by 
+t = D 3 pw 
+σt 
+1
+where 
+D = Cylinder bore in mm, 
+ 
+pw = Pressure of gas on the cylinder wall in N/mm2. Its value is 
+limited from 0.025 N/mm2 to 0.042 N/mm2, and 
+ 
+σt = Allowable bending (tensile) stress in MPa. Its value may be taken 
+from 85 MPa to 110 MPa for cast iron rings. 
+ 
+The axial thickness (t2 ) of the rings may be taken as 0.7 t1 to t1. 
+The minimum axial thickness (t2 ) may also be obtained from the following empirical relation: 
+ 
+D 
+t
+2 =
+ 10nR 
+where 
+nR  = Number of rings. 
+ 
+The width of the top land (i.e. the distance from the top of the piston to the first ring groove) 
+is made larger than other ring lands to protect the top ring from high temperature conditions 
+existing at the top of the piston, 
+ 
+∴  Width of top land, 
+b1  = tH to 1.2 tH 
+ 
+The width of other ring lands (i.e. the distance between the ring grooves) in the piston may 
+be made equal to or slightly less than the axial thickness of the ring (t2). 
+∴ Width of other ring lands, 
+ 
+b2  = 0.75 t2 to t2 
+ 
+The depth of the ring grooves should be more than the depth of the ring so that the ring does 
+not take any piston side thrust. 
+ 
+The gap between the free ends of the ring is given by 3.5 t1 to 4 t1. The gap, when the ring is 
+in the cylinder, should be 0.002 D to 0.004 D. 
+ 
+32.10 Piston Barrel 
+ 
+It is a cylindrical portion of the piston. The maximum thickness (t3) of the piston barrel may 
+be obtained from the following empirical relation : 
+ 
+t3  = 0.03 D + b + 4.5 mm 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+where 
+b = Radial depth of piston ring groove which is taken as 0.4 mm larger 
+than the radial thickness of the piston ring (t1) 
+= t1 + 0.4 mm 
+Thus, the above relation may be written as 
+ 
+t3  = 0.03 D + t1 + 4.9 mm 
+ 
+The piston wall thickness (t4) towards the open end is decreased and should be taken as 0.25 
+t3 to 0.35 t3. 
+ 
+32.11 Piston Skirt 
+ 
+The portion of the piston below the ring section is known as piston skirt. In acts as a bearing 
+for the side thrust of the connecting rod. The length of the piston skirt should be such that the 
+bearing pressure on the piston barrel due to the side thrust does not exceed 0.25 N/mm2 of the 
+projected area for low speed engines and 0.5 N/mm2 for high speed engines. It may be noted that 
+the maximum thrust will be during the expansion stroke. The side thrust (R) on the cylinder liner 
+is usually taken as 1/10 of the maximum gas load on the piston. 
+ 
+We know that maximum gas load on the piston, 
+ 
+P = p  
+πD2 
+4 
+∴ Maximum side thrust on the cylinder, 
+R = P/10 = 0.1 p  πD2 
+...(i) 
+4 
+where 
+p = Maximum gas pressure in N/mm2, and 
+ 
+D = Cylinder bore in mm. 
+The side thrust (R) is also given by 
+ 
+R = Bearing pressure × Projected bearing area of the piston skirt 
+ 
+= pb × D × l 
+ 
+where 
+l = Length of the piston skirt in mm. 
+...(ii) 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+From equations (i) and (ii), the length of the piston skirt (l) is determined. In actual practice, 
+the length of the piston skirt is taken as 0.65 to 0.8 times the cylinder bore. Now the total length of 
+the piston (L) is given by 
+ 
+L = Length of skirt + Length of ring section + Top land 
+ 
+The length of the piston usually varies between D and 1.5 D. It may be noted that a longer piston 
+provides better bearing surface for quiet running of the engine, but it should not be made unnecessarily 
+ 
+long as it will increase its own mass and thus the inertia 
+forces. 
+ 
+32.12 Piston Pin 
+ 
+The piston pin (also called gudgeon pin or wrist pin) 
+is used to connect the piston and the connecting rod. It is 
+ 
+usually made hollow and tapered on the inside, the smallest 
+ 
+ 
+inside diameter being at the centre of the pin, as shown in Fig. 32.5. 
+The 
+piston pin passes through the bosses provided on the inside of the piston skirt and the bush of the 
+small end of the connecting rod. The centre of piston pin should be 0.02 D to 0.04 D above the 
+centre of the skirt, in order to off-set the turning effect of the friction and to obtain uniform 
+distribution of pressure between the piston and the cylinder liner. 
+ 
+The material used for the piston pin is usually case hardened steel alloy containing nickel, 
+chromium, molybdenum or vanadium having tensile strength from 710 MPa to 910 MPa. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.6. Full floating type piston pin. 
+ 
+The connection between the piston pin and the small end of the connecting rod may be made 
+either full floating type or semi-floating type. In the full floating type, the piston pin is free to turn 
+both in the *piston bosses and the bush of the small end of the connecting rod. The end 
+movements of the piston pin should be secured by means of spring circlips, as shown in Fig. 32.6, 
+in order to prevent the pin from touching and scoring the cylinder liner. 
+ 
+In the semi-floating type, the piston pin is either free to turn in the piston bosses and rigidly 
+secured to the small end of the connecting rod, or it is free to turn in the bush of the small end of 
+the connecting rod and is rigidly secured in the piston bosses by means of a screw, as shown in 
+Fig. 32.7 
+ 
+The piston pin should be designed for the maximum gas load or the inertia force of the piston, 
+whichever is larger. The bearing area of the piston pin should be about equally divided between the 
+piston pin bosses and the connecting rod bushing. Thus, the length of the pin in the connecting rod 
+bushing will be about 0.45 of the cylinder bore or piston diameter (D), allowing for the end clearance 
+ 
+* 
+The mean diameter of the piston bosses is made 1.4 d0 for cast iron pistons and 1.5 d0 for aluminium 
+pistons, where d0 is the outside diameter of the piston pin. The piston bosses are usually tapered, 
+increasing the diameter towards the piston wall.  
+ 
+ 
+ 
+ 
+ 
+Fig.32.5. Piston pin. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  
+of the pin etc. The outside diameter of the piston pin (d0 ) is determined by equating the load on 
+the piston due to gas pressure (p) and the load on the piston pin due to bearing pressure ( pb1 ) at 
+the small end of the connecting rod bushing. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) Piston pin secured to the small 
+end of the connecting rod. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(b) Piston pin secured to the boss 
+of the piston. 
+ 
+Fig. 32.7. Semi-floating type piston pin. 
+Let 
+d0 
+l1 
+p
+b1 
+ 
+= Outside diameter of the piston pin in mm  
+ 
+= Length of the piston pin in the bush of the small end of the 
+connecting rod in mm. Its value is usually taken as 0.45 D.  
+ 
+= Bearing pressure at the small end of the connecting rod bushing in 
+N/mm2. Its value for the bronze bushing may be taken as 25 N/mm2.  
+We know that load on the piston due to gas pressure or gas load 
+ 
+= π  D 2   p 
+..(i)
+4 
+and load on the piston pin due to bearing pressure or bearing load 
+= Bearing pressure × Bearing area = pb1 × d0 × l1 
+...(ii)
+From equations (i) and (ii), the outside diameter of the piston pin (d0) may be obtained. 
+ 
+The piston pin may be checked in bending by assuming the gas load to be uniformly 
+distributed over the length l1 with supports at the centre of 
+ 
+the bosses at the two ends. From Fig. 32.8, we 
+find that the length between the supports, 
+l = l  
+   D
+ −  l
+1
+  l
+1  
+  D 
+2 
+1 
+2 
+2 
+Now maximum bending moment at the 
+centre of the pin, 
+M =
+P  
+l
+2
+− 
+P 
+l
+1 
+l
+1 
+2 
+2
+l 
+2 
+4 
+1 
+=P   l
+2 − P  l1 
+2 
+2 
+2 
+4 
+=P l1 
+D − P  
+l1
+Fig. 32.8 
+2 
+2
+2
+4
+2 
+=
+P.
+ l
+1 
+  P.D
+ −  P.
+ l
+1 
+P.D 
+...(iii) 
+8 
+8 
+8 
+8 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  
+We have already discussed that the piston pin is made hollow. Let d0 and di be the outside 
+and inside diameters of the piston pin. We know that the section modulus, 
+ 
+π ( d0 )4 
+− (di )4 
+Z = 32 
+d0 
+We know that maximum bending moment, 
+π 
+( d 0 )4 − (d )4 
+M = Z  σ b  
+i
+σb 
+32 
+d
+0 
+where 
+σb  = Allowable bending stress for the material of the piston pin. It is
+usually taken as 84 MPa for case hardened carbon steel and
+140 MPa for heat treated alloy steel. 
+Assuming di = 0.6 d0, the induced bending stress in the piston pin may be checked. 
+  
+Example 32.2. Design a cast iron piston for a single acting four stroke engine for the following 
+ 
+data: 
+ 
+Cylinder bore = 100 mm ; Stroke = 125 mm ; Maximum gas pressure = 5 N/mm2 ; Indicated 
+mean effective pressure = 0.75 N/mm2 ; Mechanical efficiency = 80% ; Fuel consumption = 0.15 kg 
+per brake power per hour ; Higher calorific value of fuel = 42 × 103 kJ/kg ; Speed = 2000 r.p.m. 
+Any other data required for the design may be assumed. 
+Solution. Given : D = 100 mm ; L = 125 mm = 0.125 m ; p = 5 N/mm2 ; pm = 0.75 N/mm2; 
+ηm = 80% = 0.8 ; m = 0.15 kg / BP / h = 41.7 × 10–6 kg / BP / s; HCV = 42 × 103 kJ / kg ; N = 
+2000 r.p.m. 
+ 
+The dimensions for various components of the piston are determined as follows : 
+ 
+1. Piston head or crown 
+ 
+The thickness of the piston head or crown is determined on the basis of strength as well as on 
+the basis of heat dissipation and the larger of the two values is adopted. 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+  
+We know that the thickness of piston head on the basis of strength, 
+ 
+t 
+=
+3 p . D2 
+3  5(100)2 
+= 15.7 say 16 mm 
+ 
+H 
+16 σ t 
+16  38 
+...(Taking σt for cast iron = 38 MPa = 38 N/mm2) 
+ 
+Since the engine is a four stroke engine, therefore, the number of working strokes per 
+minute, n = N / 2 = 2000 / 2 = 1000 
+ 
+and cross-sectional area of the cylinder, 
+A = π  D 2   π  (100)2 
+  7855 mm 2 
+4 
+4 
+We know that indicated power, 
+IP = p m . L . A.n 
+  0.75   0.125   7855  1000  12 270 W 
+60 
+60 
+=12.27 kW 
+∴  Brake power, 
+BP =IP × ηm  = 12.27 × 0.8 = 9.8 kW 
+...(Q ηm  = BP / IP) 
+ 
+We know that the heat flowing through the piston head, 
+ 
+H = C × HCV × m × BP  
+= 0.05 × 42 × 103 × 41.7 × 10–6 × 9.8 = 0.86 kW = 860 W  
+....(Taking C = 0.05) 
+ 
+∴Thickness of the piston head on the basis of heat dissipation, 
+ 
+H 
+860 
+tH  = 
+ 0.0067 m  6.7 mm 
+12.56 k (TC − TE ) 
+12.56  46.6  220 
+...(Q For cast iron , k = 46.6 W/m/°C, and TC – TE = 220°C) 
+Taking the larger of the two values, we shall adopt 
+tH  = 16 mm Ans. 
+ 
+Since the ratio of L / D is 1.25, therefore a cup in the top of the piston head with a radius equal 
+ 
+to 0.7 D (i.e. 70 mm) is provided. 
+ 
+2. Radial ribs 
+ 
+The radial ribs may be four in number. The thickness of the ribs varies from tH / 3 to tH / 2. 
+∴ Thickness of the ribs, tR = 16 / 3 to 16 / 2 = 5.33 to 8 mm 
+Let us adopt 
+tR  = 7 mm Ans. 
+3. Piston rings 
+ 
+Let us assume that there are total four rings (i.e. nr = 4) out of which three are compression 
+rings and one is an oil ring. 
+ 
+We know that the radial thickness of the piston rings, 
+ 
+t1 = D 
+3 pw 
+ 100 3   0.035 
+  3.4 mm 
+90 
+σ t 
+...(Taking pw = 0.035 N/mm2, and σt = 90 MPa) 
+and axial thickness of the piston rings 
+t
+2 = 0.7 t1 to t1 = 0.7 × 3.4 to 3.4 mm = 2.38 to 3.4 mm 
+Let us adopt 
+t2 = 3 mm 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+We also know that the minimum axial thickness of the pistion ring, 
+ 
+t2  = 
+D 
+ 
+100 
+  2.5 mm 
+10 nr 
+10  4 
+Thus the axial thickness of the piston ring as already calculated (i.e. t2 = 3 mm)is satisfactory. 
+Ans. The distance from the top of the piston to the first ring groove, i.e. the width of the top land, 
+b1 = tH to 1.2 tH = 16 to 1.2 × 16 mm = 16 to 19.2 mm 
+and width of other ring lands, b
+2= 0.75 t2 to t2 = 0.75 × 3 to 3 mm = 2.25 to 3 mm 
+Let us adopt 
+b1 = 18 mm ; and b2 = 2.5 mm Ans. 
+We know that the gap between the free ends of the ring, 
+G1= 3.5 t1 to 4 t1 = 3.5 × 3.4 to 4 × 3.4 mm = 11.9 to 13.6 mm 
+and the gap when the ring is in the cylinder, 
+G2= 0.002 D to 0.004 D = 0.002 × 100 to 0.004 × 100 mm 
+= 0.2 to 0.4 mm 
+Let us adopt 
+G1 = 12.8 mm ; and G2 = 0.3 mm Ans. 
+4. Piston barrel 
+Since the radial depth of the piston ring grooves (b) is about 0.4 mm more than the radial 
+thickness of the piston rings (t1), therefore, 
+b = t1 + 0.4 = 3.4 + 0.4 = 3.8 mm 
+We know that the maximum thickness of barrel, 
+t
+3= 0.03 D + b + 4.5 mm = 0.03 × 100 + 3.8 + 4.5 = 11.3 mm 
+and piston wall thickness towards the open end, 
+t
+4= 0.25 t3 to 0.35 t3 = 0.25 × 11.3 to 0.35 × 11.3 = 2.8 to 3.9 mm 
+Let us adopt 
+t4= 3.4 mm 
+5. Piston skirt 
+Let 
+l = Length of the skirt in mm. 
+We know that the maximum side thrust on the cylinder due to gas pressure ( p ), 
+R = μ  
+π D2   p  0.1  π (100)2  5  3928 N 
+4 
+4 
+...(Taking μ = 0.1) 
+We also know that the side thrust due to bearing pressure on the piston barrel ( pb ), 
+R = pb × D × l = 0.45 × 100 × l = 45 l N 
+ 
+From above, we find that 
+ 
+45 l = 3928 or l = 3928 / 45 = 87.3 say 90 
+mm Ans. ∴ Total length of the piston , 
+ 
+L = Length of the skirt + Length of the ring section + Top land 
+= l + (4 t2 + 3b2) + b1 
+= 90 + (4 × 3 + 3 × 3) + 18 = 129 say 130 mm Ans. 
+6. Piston pin 
+Let 
+d0 = Outside diameter of the pin in mm, 
+l1 = Length of pin in the bush of the small end of the connecting rod in 
+mm, and 
+ 
+ 
+ 
+ 
+ 
+...(Taking pb = 0.45 N/mm2) 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+p
+b1 = Bearing pressure at the small end of the connecting rod bushing in 
+N/mm2. It value for bronze bushing is taken as 25 N/mm2. 
+We know that load on the pin due to bearing pressure 
+= Bearing pressure × Bearing area = pb1 × d0 × l1 
+= 25 × d0 × 0.45 × 100 = 1125 d0 N 
+...(Taking l1 = 0.45 D) 
+We also know that maximum load on the piston due to gas pressure or maximum gas load 
+ 
+π D2   p  π (100)2  5  39 275 N 
+4 
+4 
+From above, we find that 
+ 
+1125 d0 = 39 275 or d0 = 39 275 / 1125 = 34.9 say 35 mm Ans. 
+The inside diameter of the pin (di) is usually taken as 0.6 d0. 
+ 
+di  = 0.6 × 35 = 21 mm Ans. 
+ 
+Let the piston pin be made of heat treated alloy steel for which the bending stress ( σb )may 
+be taken as 140 MPa. Now let us check the induced bending stress in the pin. 
+ 
+We know that maximum bending moment at the centre of the pin, 
+ 
+M = 
+P . D 
+39 275  100 
+  491  103  N-mm 
+8 
+8 
+We also know that maximum bending moment (M), 
+π 
+( d 0 )4 − (d )4 
+π 
+(35)4 − (21)4 
+491 × 103  = 
+i 
+σ b 
+σ b  3664 
+σb 
+32
+d0 
+32 
+35 
+∴ 
+σb  = 491 × 103 / 3664 = 134 N/mm2 or MPa
+Since the induced bending stress in the pin is less than the permissible value of 140 MPa (i.e. 
+140 N/mm2), therefore, the dimensions for the pin as calculated above (i.e. d 
+= 35 mm and d = 21 mm) 
+are satisfactory. 
+0
+i 
+ 
+ 
+ 
+. 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+32.13 Connecting Rod 
+ 
+The connecting rod is the intermediate member between the piston and the crankshaft. Its primary 
+function is to transmit the push and pull from the piston pin to the crankpin and thus convert the reciprocating 
+motion of the piston into the rotary motion of the crank. The usual form of the connecting rod in internal 
+combustion engines is shown in Fig. 32.9. It consists of a long shank, a small end and a big end. The cross-
+section of the shank may be rectangular, circular, tubular, I-section or H-section. Generally circular section is 
+used for low speed engines while I-section is preferred for high speed engines. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.9. Connecting rod. 
+ 
+The *length of the connecting rod ( l ) depends upon the ratio of l / r, where r is the radius of 
+crank. It may be noted that the smaller length will decrease the ratio l / r. This increases the angularity 
+of the connecting rod which increases the side thrust of the piston against the cylinder liner which in 
+turn increases the wear of the liner. The larger length of the connecting rod will increase the ratio l / r. 
+This decreases the angularity of the connecting rod and thus decreases the side thrust and the resulting 
+wear of the cylinder. But the larger length of the connecting rod increases the overall height of the 
+engine. Hence, a compromise is made and the ratio l / r is generally kept as 4 to 5. 
+ 
+The small end of the connecting rod is usually made in the form of an eye and is provided 
+with a bush of phosphor bronze. It is connected to the piston by means of a piston pin. 
+ 
+The big end of the connecting rod is usually made split (in two **halves) so that it can be 
+mounted easily on the crankpin bearing shells. The split cap is fastened to the big end with two cap 
+bolts. The bearing shells of the big end are made of steel, brass or bronze with a thin lining (about 0.75 
+mm) of white metal or babbit metal. The wear of the big end bearing is allowed for by inserting thin 
+metallic strips (known as shims) about 0.04 mm thick between the cap and the fixed half of the 
+connecting rod. As the wear takes place, one or more strips are removed and the bearing is trued up. 
+ 
+* 
+It is the distance between the centres of small end and big end of the connecting rod.  
+ 
+** One half is fixed with the connecting rod and the other half (known as cap) is fastened with two cap bolts.  
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  
+The connecting rods are usually manufactured by drop forging process and it should have 
+adequate strength, stiffness and minimum weight. The material mostly used for connecting rods 
+varies from mild carbon steels (having 0.35 to 0.45 percent carbon) to alloy steels (chrome-nickel 
+or chrome-molybdenum steels). The carbon steel having 0.35 percent carbon has an ultimate 
+tensile strength of about 650 MPa when properly heat treated and a carbon steel with 0.45 percent 
+carbon has a ultimate tensile strength of 750 MPa. These steels are used for connecting rods of 
+industrial engines. The alloy steels have an ultimate tensile strength of about 1050 MPa and are 
+used for connecting rods of aeroengines and automobile engines. 
+ 
+The bearings at the two ends of the connecting rod are either splash lubricated or pressure 
+lubricated. The big end bearing is usually splash lubricated while the small end bearing is pressure 
+lubricated. In the splash lubrication system, the cap at the big end is provided with a dipper or 
+spout and set at an angle in such a way that when the connecting rod moves downward, the spout 
+will dip into the lubricating oil contained in the sump. The oil is forced up the spout and then to 
+the big end bearing. Now when the connecting rod moves upward, a splash of oil is produced by 
+the spout. This splashed up lubricant find its way into the small end bearing through the widely 
+chamfered holes provided on the upper surface of the small end. 
+ 
+In the pressure lubricating system, the lubricating oil is fed under pressure to the big end bearing 
+through the holes drilled in crankshaft, crankwebs and crank pin. From the big end bearing, the oil is fed to 
+small end bearing through a fine hole drilled in the shank of the connecting rod. In some cases, the small end 
+bearing is lubricated by the oil scrapped from the walls of the cyinder liner by the oil scraper rings. 
+ 
+32.14 Forces Acting on the Connecting Rod 
+ 
+The various forces acting on the connecting rod are as follows : 
+ 
+1. Force on the piston due to gas pressure and inertia of the reciprocating parts,  
+ 
+2. Force due to inertia of the connecting rod or inertia bending forces,  
+ 
+3. Force due to friction of the piston rings and of the piston, and  
+ 
+4. Force due to friction of the piston pin bearing and the crankpin bearing.  
+ 
+We shall now derive the expressions for the forces acting on a vertical engine, as discussed below. 
+ 
+1. Force on the piston due to gas pressure and inertia of reciprocating parts 
+ 
+Consider a connecting rod PC as shown in Fig. 32.10. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.10. Forces on the connecting rod. 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+Compressed 
+Spark 
+plug 
+Rotor 
+fuel-air mix 
+ 
+Fuel-air 
+ 
+mix in 
+ 
+Exhaust 
+out 
+1. Induction : turning 
+2. Compression: Fuel-air 
+3. Ignition: Compressed 4. Exhuast : the rotor 
+rotor sucks in mixture of 
+mixture is compressed as 
+fuel-air mixture is ignited continues to turn and 
+petrol and air. 
+rotor carriers it round. 
+by the spark plug. 
+pushed out waste 
+gases. 
+Let 
+p = Maximum pressure of gas, 
+D = Diameter of piston, 
+A = Cross-section area of piston = 
+π  D2 
+4 , 
+mR  = Mass of reciprocating parts, 
+1 
+= Mass of piston, gudgeon pin etc. + 3 rd mass of connecting rod, 
+ω  = Angular speed of crank, 
+ 
+φ = Angle of inclination of the connecting rod with the line of 
+stroke, θ = Angle of inclination of the crank from top dead centre, 
+ 
+r = Radius of crank, 
+ 
+l = Length of connecting rod, and 
+ 
+n = Ratio of length of connecting rod to radius of crank = l / r. 
+We know that the force on the piston due to pressure of gas, 
+ 
+FL = Pressure × Area = p . A = p × π D2 
+/4 and inertia force of reciprocating parts, 
+ 
+2 
+cos 2θ
+FI  = Mass × *Acceleration = mR . ω  . r cos θ  
+n 
+ 
+It may be noted that the inertia force of reciprocating parts opposes the force on the piston 
+when it moves during its downward stroke (i. e. when the piston moves from the top dead centre 
+to bottom dead centre). On the other hand, the inertia force of the reciprocating parts helps the 
+force on the piston when it moves from the bottom dead centre to top dead centre. 
+ 
+∴ Net force acting on the piston or piston pin (or gudgeon pin or wrist pin), 
+FP = Force due to gas pressure m Inertia force 
+ 
+= FL m FI 
+ 
+The –ve sign is used when piston moves from TDC to BDC and +ve sign is used when 
+piston moves from BDC to TDC. 
+When weight of the reciprocating parts (WR = mR . g) is to be taken into consideration, then 
+ 
+FP  = FL 
+m
+ F1  WR 
+2
+cos 2θ 
+*   Acceleration of reciprocating parts = ω· r  cos θ  
+n 
+ 
+ 
+ 
+ 
+ 
+Top 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+Contents 
+ 
+ 
+Internal Combustion Engine Parts  „  1147 
+ 
+The force FP gives rise to a force FC in the connecting rod and a thrust FN on the sides of the 
+cylinder walls. From Fig. 32.10, we see that force in the connecting rod at any instant, 
+FC  = 
+F P 
+ 
+*
+ FP 
+cos φ 
+1 − sin 2 θ 
+n 2
+ 
+The force in the connecting rod will be maximum when the crank and the connecting rod are 
+perpendicular to each other (i.e. when θ = 90°). But at this position, the gas pressure would be de-
+creased considerably. Thus, for all practical purposes, the force in the connecting rod (FC) is 
+taken equal to the maximum force on the piston due to pressure of gas (FL), neglecting piston 
+inertia effects. 
+ 
+2. Force due to inertia of the connecting rod or inertia bending forces 
+ 
+Consider a connecting rod PC and a crank OC rotating with uniform angular velocity ω rad / s. In 
+order to find the accleration of various points on the connecting rod, draw the Klien’s acceleration 
+diagram CQNO as shown in Fig. 32.11 (a). CO represents the acceleration of C towards O and NO 
+represents the accleration of P towards O. The acceleration of other points such as D, E, F and G etc., 
+on the connecting rod PC may be found by drawing horizontal lines from these points to intresect CN at 
+d, e, f, and g respectively. Now dO, eO, fO and gO respresents the acceleration of D, E, F and G all 
+towards O. The inertia force acting on each point will be as follows: 
+ 
+Inertia force at C = m × ω2 × CO 
+Inertia force at D = m × ω2 × dO 
+Inertia force at E = m × ω2 × eO, and so on. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.11. Inertia bending forces. 
+ 
+The inertia forces will be opposite to the direction of acceleration or centrifugal forces. The 
+inertia forces can be resolved into two components, one parallel to the connecting rod and the other 
+perpendicular to rod. The parallel (or longitudinal) components adds up algebraically to the force 
+ 
+* 
+For derivation, please refer ot Authors’ popular book on ‘Theory of Machines’.  
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  
+acting on the connecting rod (FC) and produces thrust on the pins. The perpendicular (or 
+transverse) components produces bending action (also called whipping action) and the stress 
+induced in the connecting rod is called whipping stress. 
+ 
+It may be noted that the perpendicular components will be maximum, when the crank and 
+connecting rod are at right angles to each other. 
+ 
+The variation of the inertia force on the connecting rod is linear and is like a simply 
+supported beam of variable loading as shown in Fig. 32.11 (b) and (c). Assuming that the 
+connecting rod is of uniform cross-section and has mass m1 kg per unit length, therefore, 
+Inertia force per unit length at the crankpin 
+= m1 × ω2 r 
+ 
+and inertia force per unit length at the piston 
+pin = 0 
+ 
+Inertia force due to small element of length dx at a distance x from the piston pin P, 
+x 
+dF1  = m1 × ω2r × l  × dx 
+∴ Resultant inertia force, 
+ 
+l 
+x
+m 
+ ω2 r  x 2 l 
+FI  = ∫m1  ω 2r  
+ dx 
+ 
+1
+l
+l 
+2
+0 
+0 
+= m1.l  ω2r  m  ω2r 
+...(Substituting m · l = m) 
+2 
+2
+1 
+This resultant inertia force acts at a distance of 2l / 3 from the piston pin P. 
+1 
+Since it has been assumed that 3 rd mass of the connecting rod is concentrated at piston pin P 
+2 
+(i.e. small end of connecting rod) and 3 rd at the crankpin (i.e. big end of connecting rod), therefore, 
+ 
+the reaction at these two ends will be in the same proportion. 
+i.e. RP = 1
+3 F I , an d R C  2
+3 FI 
+ 
+Honeycomb 
+coated with 
+metal catalysts 
+ 
+To exhaust 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Co Carbon monoxide 
+CO2 Carbon dioxide 
+NOx Nitrous oxides 
+HC Hydrocarbons 
+N2 Nitrogen 
+Metal casing 
+H2O Water 
+ 
+Emissions of an automobile. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Now the bending moment acting on the rod at section X – X at a distance x from P, 
+ 
+M  = R P    x − *m 1    ω 2 r  
+x 
+1 x  
+x 
+l 
+2
+3
+X 
+1 
+m .l 
+2
+x3 
+= 3 F
+I   x
+ − 
+1
+ω r  
+2
+3 l 
+2 
+...(Multiplying and dividing the latter expression by l) 
+F  x 
+x 3 
+F 
+x3 
+= 
+I 
+−  FI 
+I x − 
+...(i) 
+2 
+2
+3 
+3l 
+3 
+l 
+For maximum bending moment, differentiate MX with respect to x and equate to zero, i.e. 
+d 
+MX 
+F 
+3x2 
+= 0  or 
+I 1 − 
+ 0 
+dx 
+3 
+l2
+∴ 
+1 − 
+3 x 2 
+= 0  or 
+3x2  l2 or x  
+l 
+l 
+2 
+3 
+Maximum bending moment, 
+l 
+3
+F
+I 
+l 
+3 
+M
+max = 
+− 
+...[From equation (i)] 
+3 
+3 
+l 
+2 
+F l 
+l 
+F  l 
+2
+2F  l 
+= 
+I 
+− 
+I 
+ 
+ 
+I 
+3 
+3  3 
+3
+9  3 
+3   3  3 
+= 2  
+m 
+ ω2 r  
+l
+ m  ω2r 
+l 
+2 
+9  3 
+9  3
+and the maximum bending stress, due to inertia of the connecting rod, 
+σmax = 
+M
+max 
+Z 
+where 
+Z = Section modulus. 
+ 
+From above we see that the maximum bending moment varies as the square of speed, therefore, 
+the bending stress due to high speed will be dangerous. It may be noted that the maximum axial force 
+and the maximum bending stress do not occur simultaneously. In an I.C. engine, the maximum gas load 
+occurs close to top dead centre whereas the maximum bending stress occurs when the crank angle θ = 
+65° to 70° from top dead centre. The pressure of gas falls suddenly as the piston moves from dead 
+centre. Thus the general practice is to design a connecting rod by assuming the force in the 
+connecting rod (FC) equal to the maximum force due to pressure (FL), neglecting piston inertia 
+effects and then checked for bending stress due to inertia force (i.e. whipping stress). 
+ 
+3. Force due to friction of piston rings and of the piston 
+ 
+The frictional force ( F ) of the piston rings may be determined by using the following expression 
+ 
+:  
+F = π D · tR · nR · pR · 
+μ where D = Cylinder bore, 
+ 
+tR  = Axial width of rings, 
+ 
+* B.M. due to variable force from 0 to m1 ω2r  x 
+is equal to the area of triangle multiplied by the distance 
+x 
+l 
+of C.G. from 
+X −  X  i.e. 
+. 
+3 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+  
+nR  = Number of rings, 
+ 
+pR = Pressure of rings (0.025 to 0.04 N/mm2), 
+and μ = Coefficient of friction (about 0.1). 
+ 
+Since the frictional force of the piston rings is usually very small, therefore, it may be 
+neglected. 
+ 
+The friction of the piston is produced by the normal component of the piston pressure which 
+varies from 3 to 10 percent of the piston pressure. If the coefficient of friction is about 0.05 to 
+0.06, then the frictional force due to piston will be about 0.5 to 0.6 of the piston pressure, which is 
+very low. Thus, the frictional force due to piston is also neglected. 
+ 
+4. Force due to friction of the piston pin bearing and crankpin bearing 
+ 
+The force due to friction of the piston pin bearing and crankpin bearing, is to bend the 
+connecting rod and to increase the compressive stress on the connecting rod due to the direct load. 
+Thus, the maximum compressive stress in the connecting rod will be 
+ 
+σc (max) = Direct compressive stress + Maximum bending or whipping 
+stress due to inertia bending stress 
+ 
+32.15 Design of Connecting Rod 
+ 
+In designing a connecting rod, the following dimensions are required to be determined : 
+ 
+1. Dimensions of cross-section of the connecting rod,  
+ 
+2. Dimensions of the crankpin at the big end and the piston pin at the small end,  
+ 
+3. Size of bolts for securing the big end cap, and  
+ 
+4. Thickness of the big end cap.  
+ 
+The procedure adopted in determining the above mentioned dimensions is discussed as below : 
+ 
+ 
+ 
+ 
+Evaporators change 
+liquid hydrogen to gas 
+Fuel tank 
+ 
+Engine 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This experimental car burns hydrogen fuel in an ordinary piston engine. Its exhaust gases cause no pollution, 
+because they contain only water vapour. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+  
+1. Dimensions of cross-section of the connecting rod 
+ 
+A connecting rod is a machine member which is subjected to alternating direct compressive 
+and tensile forces. Since the compressive forces are much higher than the tensile forces, therefore, 
+the cross-section of the connecting rod is designed as a strut and the Rankine’s formula is used. 
+ 
+A connecting rod, as shown in Fig. 32.12, subjected to an axial load W may buckle with X-
+axis as neutral axis (i.e. in the plane of motion of the connecting rod) or Y-axis as neutral axis (i.e. 
+in the plane perpendicular to the plane of motion). The connecting rod is considered like both ends 
+hinged for buckling about X-axis and both ends fixed for buckling about Y-axis. 
+ 
+A connecting rod should be equally strong in buckling about both the axes. 
+ 
+Let 
+A = Cross-sectional area of the connecting rod, 
+ 
+l = Length of the connecting rod, 
+σc = Compressive yield stress, 
+WB  = Buckling load, 
+Ixx and Iyy = Moment of inertia of the section about X-axis and Y-axis 
+respectively, and 
+kxx and kyy = Radius of gyration of the section about X-axis and Y-axis 
+respectively. 
+ 
+According to Rankine’s formula, 
+ 
+ 
+ 
+ 
+ 
+and 
+ 
+ 
+ 
+ 
+where 
+ 
+WB about X − axis = 
+σ c . A 
+σc .A 
+...(Q For both ends hinged, L = l)
+L 
+2 
+l 2 
+1   a 
+1   a 
+k xx 
+k xx 
+WB about Y − axis  
+σ c . A 
+σc .A 
+...[Q For both ends fixed, L = l ]
+2 
+2 
+L 
+l 
+2 
+1  a 
+1  a 
+k
+ yy 
+2
+ k
+yy 
+ 
+L = Equivalent length of the connecting rod, and 
+ 
+a = Constant  
+ 
+= 1 / 7500, for mild steel  
+ 
+= 1 / 9000, for wrought iron  
+ 
+= 1 / 1600, for cast iron  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.12. Buckling of connecting rod. 
+ 
+In order to thave a connecting rod equally strong in buckling about both the axes, the 
+buckling loads must be equal, i.e. 
+ 
+σ c . A 
+σc . A 
+l 
+2 
+l 
+2 
+ 
+or 
+ 
+l 
+2
+l 
+2
+k xx 
+2 kyy 
+1  a 
+1  a
+k
+ xx 
+2
+ k
+yy
+∴ 
+k xx
+2  4 k yy
+2 
+or 
+I
+ xx  4 I yy 
+...(QI = A · k2) 
+ 
+ 
+ 
+ 
+Top 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+Contents 
+ 
+ 
+1152 „ A Textbook of Machine Design 
+ 
+This shows that the connecting rod is four times 
+strong in buckling about Y-axis than about X-axis. If Ixx 
+> 4 I yy, then buckling will occur about Y- axis and if 
+Ixx < 4 Iyy, buckling will occur about X-axis. In actual 
+practice, Ixx is kept slightly less than 4 Iyy. It is usually 
+taken between 3 and 3.5 and the connecting rod is 
+designed for bucking about X-axis. The design will 
+always be satisfactory for buckling about Y-axis. 
+ 
+The most suitable section for the connecting 
+rod is I-section with the proportions as shown in 
+Fig. 32.13 (a). 
+ 
+Let thickness of the flange and web of the 
+section = t 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 32.13. I-section of connecting rod. 
+ 
+Width of the section, B = 4 t 
+and depth or height of the section, 
+ 
+H = 5t 
+ 
+From Fig. 32.13 (a), we find that area of the section, 
+A = 2 (4 t × t) + 3 t × t = 11 t2 
+Moment of inertia of the section about X-axis, 
+ 
+Ixx = 12
+1
+ 4 t (5 t ) 3 − 3 t (3 t )3  419
+12 
+t 4 and moment of inertia of the section about Y-axis, 
+ 
+1 
+t   (4t ) 
+3
+ 
+1 
+3
+131
+4 
+Iyy = 2 
+(3t ) t 
+t 
+12 
+12 
+12 
+∴ 
+I
+xx 
+419
+12 
+ 3.2 
+I
+ yy 
+12
+131 
+Since the value of 
+I
+xx lies between 3 and 3.5, therefore, I-section chosen is quite satisfactory.
+I
+ yy 
+ 
+After deciding the proportions for I-section of the connecting rod, its dimensions are 
+determined by considering the buckling of the rod about X-axis (assuming both ends hinged) and 
+applying the Rankine’s formula. We know that buckling load, 
+ 
+σc .A 
+WB =
+ 1  a k
+L
+xx 2 
+ 
+The buckling load (WB) may be calculated by using the following relation, 
+i.e. WB = Max. gas force × Factor of safety 
+The factor of safety may be taken as 5 to 6. 
+ 
+Notes : (a) The I-section of the connecting rod is used due to its lightness and to keep the inertia forces as 
+low as possible specially in case of high speed engines. It can also withstand high gas pressure. 
+ 
+(b) Sometimes a connecting rod may have rectangular section. For slow speed engines, circular section 
+may be used. 
+ 
+(c) Since connecting rod is manufactured by forging, therefore the sharp corner of I-section are 
+rounded off as shown in Fig. 32.13 (b) for easy removal of the section from dies. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+The dimensions B = 4 t and H = 5 t, as obtained above by applying the Rankine’s formula, 
+are at the middle of the connecting rod. The width of the section (B) is kept constant throughout 
+the length of the connecting rod, but the depth or height varies. The depth near the small end (or 
+piston end) is taken as H1 = 0.75 H to 0.9H and the depth near the big end (or crank end) is taken 
+H2 = 1.1H to 1.25H. 
+ 
+2. Dimensions of the crankpin at the big end and the piston pin at the small end 
+ 
+Since the dimensions of the crankpin at the big end and the piston pin (also known as 
+gudgeon pin or wrist pin) at the small end are limited, therefore, fairly high bearing pressures have 
+to be allowed at the bearings of these two pins. 
+ 
+The crankpin at the big end 
+has removable precision bearing 
+shells of brass or bronze or steel 
+with a thin lining (1 mm or less) 
+of bearing metal (such as tin, lead, 
+babbit, copper, lead) on the inner 
+surface of the shell. The allowable 
+bearing pressure on the crankpin 
+depends upon many factors such 
+as  material  of  the  bearing, 
+viscosity of the lubricating oil, 
+method of lubrication and the 
+space limitations.The value of 
+bearing pressure may be taken 
+as 7 N/mm2  to 12.5 N/mm2 
+depending upon the material and 
+method of lubrication used. 
+Engine of a motorcyle. 
+ 
+The piston pin bearing is usually a phosphor bronze bush of about 3 mm thickness and the 
+allowable bearing pressure may be taken as 10.5 N/mm2 to 15 N/mm2. 
+ 
+Since the maximum load to be carried by the crankpin and piston pin bearings is the 
+maximum force in the connecting rod (FC), therefore the dimensions for these two pins are 
+determined for the maximum force in the connecting rod (FC) which is taken equal to the 
+maximum force on the piston due to gas pressure (FL) neglecting the inertia forces. 
+We know that maximum gas force, 
+ 
+F = π  D2   p 
+...(i) 
+4 
+L 
+where 
+D = Cylinder bore or piston diameter in mm, and 
+p = Maximum gas pressure in N/mm2 
+ 
+Now the dimensions of the crankpin and piston pin are determined as discussed below 
+: Let dc = Diameter of the crank pin in mm, 
+lc = Length of the crank pin in mm, 
+pbc = Allowable bearing pressure in N/mm2, and 
+dp, lp and pbp = Corresponding values for the piston pin, 
+We know that load on the crank pin 
+ 
+= Projected area × Bearing pressure 
+ 
+= dc . lc . pbc ...(ii) Similarly, load on the piston pin 
+ 
+= dp . lp . pbp 
+...(iii) 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+Equating equations (i) and (ii), we have 
+FL  = dc · lc · pbc 
+Taking lc = 1.25 dc to 1.5 dc, the value of dc and lc are determined from the above 
+expression. Again, equating equations (i) and (iii), we have 
+FL  = dp · lp · pbp 
+Taking lp = 1.5 dp to 2 dp, the value of dp and lp are determined from the above expression. 
+3. Size of bolts for securing the big end cap 
+ 
+The bolts and the big end cap are subjected to tensile force which corresponds to the inertia 
+force of the reciprocating parts at the top dead centre on the exhaust stroke. We know that inertia 
+force of the reciprocating parts, 
+ 
+2
+cos 2θ 
+∴ 
+F  = 
+mR 
+.ω .r  cos θ  
+I 
+l / r 
+ 
+We also know that at the top dead centre, the angle of inclination of the crank with the line 
+of stroke, θ = 0 
+ 
+2 
+r 
+∴ 
+FI
+ mR .ω  .r 1  
+l 
+where 
+mR = Mass of the reciprocating parts in kg, 
+ω = Angular speed of the engine in rad / s, 
+r = Radius of the crank in metres, and 
+l = Length of the connecting rod in metres. 
+The bolts may be made of high carbon steel or nickel alloy steel. Since the bolts are under 
+repeated stresses but not alternating stresses, therefore, a factor of safety may be taken as 6. 
+Let 
+d
+cb = Core diameter of the bolt in mm, 
+σt = Allowable tensile stress for the material of the bolts in MPa, and 
+∴ Force on the bolts nb = Number of bolts. Generally two bolts are used. 
+= π ( d 
+cb 
+)2 σ   n 
+4 
+t 
+b 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Equating the inertia force to the force on the bolts, we have 
+ 
+F 
+= 
+π 
+( d cb ) 2 σ t    nb 
+I 
+4 
+From this expression, dcb is obtained. The nominal or major diameter (db) of the bolt is given by 
+db  =  dcb 
+0.84 
+4. Thickness of the big end cap 
+The thickness of the big end cap (tc) may be determined by treating the cap as a beam freely 
+supported at the cap bolt centres and loaded by the inertia force at the top dead centre on the 
+exhaust stroke (i.e. FI when θ 
+). This load is assumed to act in between the uniformly 
+distributed load and the centrally concentrated load. Therefore, the maximum bending moment 
+acting on the cap will be taken as 
+M 
+C
+= * FI  x 
+6 
+where 
+x = Distance between the bolt centres.
+= Dia. of crankpin or big end bearing (dc) + 2 × Thickness of bearing 
+liner (3 mm) + Clearance (3 mm) 
+Let 
+bc = Width of the cap in mm. It is equal to the length of the crankpin or 
+big end bearing (lc), and 
+σb = Allowable bending stress for the material of the cap in MPa. 
+We know that section modulus for the cap, 
+b (t c )2 
+Z C =
+c 
+6 
+M 
+F   x 
+6 
+F   x 
+C 
+∴  Bending stress, 
+σ   = 
+ 
+I 
+ 
+I
+ZC 
+6 
+b (t ) 2 
+b(t )
+2
+b
+c 
+c 
+c 
+c
+From this expression, the value of tc is obtained. 
+ 
+Note: The design of connecting rod should be checked for whipping stress (i.e. bending stress due to inertia 
+force on the connecting rod). 
+ 
+Example 32.3. Design a connecting rod for an I.C. engine running at 1800 r.p.m. and 
+developing a maximum pressure of 3.15 N/mm2. The diameter of the piston is 100 mm ; mass of 
+the reciprocating parts per cylinder 2.25 kg; length of connecting rod 380 mm; stroke of piston 
+190 mm and compression ratio 6 : 1. Take a factor of safety of 6 for the design. Take length to 
+diameter ratio for big end bearing as 1.3 and small end bearing as 2 and the corresponding 
+bearing pressures as 10 N/mm2 and 15 N/mm2. The density of material of the rod may be taken as 
+8000 kg/m3 and the allowable stress in the bolts as 60 N/mm2 and in cap as 80 N/mm2. The rod is 
+to be of I-section for which you can choose your own proportions. 
+ 
+Draw a neat dimensioned sketch showing provision for lubrication. Use Rankine formula for 
+which the numerator constant may be taken as 320 N/mm2 and the denominator constant 1 / 7500. 
+ 
+* 
+We know that the maximum bending moment for a simply or freely supported beam with a uniformly 
+distributed load of FI over a length x between the supports (In this case, x is the distance between the cap bolt 
+centres) is FI  x
+ . When the load FI is assumed to act at the centre of the freely supported beam, then  
+ 
+8  
+the maximum bending moment is FI  x . Thus the maximum bending moment in between these two bending 
+4 
+FI  x 
+FI  x FI  x 
+moments 
+i.e. 
+8 
+and 
+4 
+is 
+6 
+.
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+1156 „ A Textbook of Machine Design 
+ 
+Solution. Given : N = 1800 r.p.m. ; p = 3.15 N/mm2 ; D = 100 mm ; mR = 2.25 kg ; l = 380 
+mm = 0.38 m ; Stroke = 190 mm ; *Compression ratio = 6 : 1 ; F. S. = 6. 
+ 
+The connecting rod is designed as 
+discussed below : 
+ 
+1. Dimension of I- section of the connecting rod 
+ 
+Let us consider an I-section of the 
+connecting rod, as shown in Fig. 32.14 (a), with 
+the following proportions : 
+ 
+Flange and web thickness of the section = t 
+ 
+Width of the section,  B = 4t 
+and depth or height of the section, 
+H = 5t 
+Fig. 32.14 
+First of all, let us find whether the section 
+chosen is satisfactory or not. 
+ 
+We have already discussed that the connecting rod is considered like both ends hinged for 
+buckling about X-axis and both ends fixed for buckling about Y-axis. The connecting rod should 
+be equally strong in buckling about both the axes. We know that in order to have a connecting rod 
+equally strong about both the axes, 
+I
+xx = 4
+ I
+yy 
+ 
+where 
+Ixx = Moment of inertia of the section about X-axis, and 
+Iyy = Moment of inertia of the section about Y-axis. 
+In actual practice, Ixx is kept slightly less than 4 Iyy. It is usually taken between 3 and 3.5 and 
+the connecting rod is designed for buckling about X-axis. 
+ 
+Now, for the section as shown in Fig. 32.14 (a), area of the section, 
+ 
+A = 2 (4 t × t ) + 3t × t = 11 t2 
+I 
+= 1 4 t (5t )3
+− 3 t  (3t )3  419 t4 
+xx 
+12 
+12 
+and 
+I 
+= 2  1  t(4t)3  
+1 
+ 3t  t3 131 t4 
+yy 
+12
+12 
+12 
+∴ 
+I
+xx = 419  12 
+ 3.2 
+I
+ yy 
+131 
+12 
+Since 
+I
+xx 
+ 3.2, therefore the section chosen in quite satisfactory. 
+I
+ yy 
+ 
+Now let us find the dimensions of this I-section. Since the connecting rod is designed by 
+taking the force on the connecting rod (FC) equal to the maximum force on the piston (FL) due to 
+gas pressure, therefore, 
+π D 2 
+π(100) 2
+FC  =  FL   
+4   p  
+ 3.15   24 740 N 
+4 
+ 
+We know that the connecting rod is designed for buckling about X-axis (i.e. in the plane of 
+motion of the connecting rod) assuming both ends hinged. Since a factor of safety is given as 6, 
+therefore the buckling load, 
+ 
+WB  = FC × F. S. = 24 740 × 6 = 148 440 N 
+ 
+* 
+Superfluous data  
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We know that radius of gyration of the section about X-axis, 
+kxx = 
+I
+ xx 
+ 
+419 t 4 
+ 
+1 
+  1 .78 t 
+A 
+12 
+11 t 2 
+Length of crank, 
+r= Stroke of piston  
+190  95 mm 
+Length of the connecting rod, 
+2
+2 
+l= 380 mm 
+...(Given)
+∴ Equivalent length of the connecting rod for both ends hinged, 
+L = l = 380 mm 
+Now according to Rankine’s formula, we know that buckling load (WB), 
+148 440 =
+σc .A 
+320  11 t2 
+L 
+2 
+1 
+380  2 
+1  a 
+1  7500
+k xx 
+1.78 t 
+... (It is given that σc = 320 MPa or N/mm2 and a = 1 / 7500)
+148 440  11 t 2 
+11 t4 
+320 
+1 
+6.1 
+t2 
+ 6.1 
+t2
+464 (t2 + 6.1) = 11 t4 
+or 
+t 4 – 42.2 t 2 – 257.3 = 0 
+∴ 
+2
+= 
+42.2  
+(42.2) 2 
+  4   257.3 
+42.2   53 
+= 47.6 
+t 
+2 
+2 
+... (Taking +ve sign)
+or 
+t = 6.9 say 7 mm 
+Thus, the dimensions of I-section of the connecting rod are : 
+Thickness of flange and web of the section 
+= t = 7 mm Ans. 
+Width of the section,   B = 4 t = 4 × 7 = 28 mm Ans. 
+and depth or height of the section, 
+H  = 5 t = 5 × 7 = 35 mm Ans. 
+ 
+Piston and connecting rod. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+  
+These dimensions are at the middle of the connecting rod. The width (B) is kept constant through-
+out the length of the rod, but the depth (H) varies. The depth near the big end or crank end is kept as 
+1.1H to 1.25H and the depth near the small end or piston end is kept as 0.75H to 0.9H. Let us take 
+ 
+Depth near the big end, 
+ 
+H1 = 1.2H = 1.2 × 35 = 42 mm 
+and depth near the small end, 
+ 
+H2 = 0.85H = 0.85 × 35 = 29.75 say 30 mm 
+∴ Dimensions of the section near the big end 
+ 
+= 42 mm × 28 mm 
+Ans. and dimensions of the section near the small end 
+ 
+= 30 mm × 28 mm Ans. 
+ 
+Since the connecting rod is manufactured by forging, therefore the sharp corners of I-section 
+are rounded off, as shown in Fig. 32.14 (b), for easy removal of the section from the dies. 
+ 
+2. Dimensions of the crankpin or the big end bearing and piston pin or small end bearing 
+ 
+Let 
+dc= Diameter of the crankpin or big end bearing, 
+lc = length of the crankpin or big end bearing = 1.3 dc 
+...(Given) 
+p bc = Bearing pressure = 10 N/mm2 
+...(Given) 
+We know that load on the crankpin or big end bearing 
+ 
+= Projected area × Bearing pressure  
+= dc .lc . pbc = dc × 1.3 dc × 10 = 13 (dc)2  
+ 
+Since the crankpin or the big end bearing is designed for the maximum gas force (FL), 
+therefore, equating the load on the crankpin or big end bearing to the maximum gas force, i.e. 
+13 (d )2 = F L = 24 740 N 
+∴ 
+c 
+(d c )
+2 = 24 740 / 13 = 1903  or  d c = 43.6 say 44 mm Ans. 
+and 
+l
+c = 1.3 dc = 1.3 × 44 = 57.2 say 58 mm Ans. 
+ 
+The big end has removable precision bearing shells of brass or bronze or steel with a thin 
+lining (1mm or less) of bearing metal such as babbit. 
+Again, let 
+dp = Diameter of the piston pin or small end bearing, 
+lp = Length of the piston pin or small end bearing = 2dp 
+...(Given)
+p bp = Bearing pressure = 15 N/mm2 
+..(Given)
+We know that the load on the piston pin or small end bearing 
+ 
+= Project area × Bearing pressure  
+= dp . lp . pbp = dp × 2 dp × 15 = 30 (dp)2  
+ 
+Since the piston pin or the small end bearing is designed for the maximum gas force (FL), 
+therefore, equating the load on the piston pin or the small end bearing to the maximum gas force, 
+ 
+i.e. 
+30 (d )2 = 24 740 N 
+∴ 
+p 
+(d )2 = 24 740 / 30 = 825  or  d p = 28.7 say 29 mm Ans. 
+p 
+and 
+l
+p = 2 dp = 2 × 29 = 58 mm Ans. 
+The small end bearing is usually a phosphor bronze bush of about 3 mm thickness. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+3. Size of bolts for securing the big end cap 
+Let 
+d
+cb= Core diameter of the bolts, 
+σt = Allowable tensile stress for the material of the bolts 
+= 60 N/mm2 
+...(Given)
+and 
+nb= Number of bolts. Generally two bolts are used. 
+We know that force on the bolts 
+= π ( d 
+cb 
+) 
+2 σ 
+t  n 
+  π ( d 
+cb 
+) 2 60  2  94.26 ( d 
+cb 
+)2 
+4 
+b 
+4 
+ 
+The bolts and the big end cap are subjected to tensile force which corresponds to the inertia 
+force of the reciprocating parts at the top dead centre on the exhaust stroke. We know that inertia 
+force of the reciprocating parts, 
+ 
+cos 2θ
+FI = mR . ω2 . r  cos θ  
+l / r 
+We also know that at top dead centre on the exhaust stroke, θ = 0. 
+ 
+2 
+r 
+2 π 1800 2 
+0.095
+∴ 
+FI  = mR . ω . r 1 
+ 2.25 
+60 
+0.095 1 
+ 0.38
+N 
+l 
+= 9490 N 
+ 
+Equating the inertia force to the force on the bolts, we have 
+9490 = 94.26 (d cb )2 or (d cb )2 = 9490 / 94.26 = 100.7 
+∴ 
+dcb  = 10.03 mm 
+and nominal diameter of the bolt, d
+cb 
+10.03 
+db  
+ 0.84 
+ 11.94 
+0.84
+4. Thickness of the big end cap 
+say 12 mm Ans. 
+Let 
+tc = Thickness of the big end cap, 
+bc = Width of the big end cap. It is 
+taken equal to the length of the 
+crankpin or big end bearing (lc) 
+= 58 mm (calculated above) 
+σb = Allowable bending stress for the 
+material of the cap 
+= 80 N/mm2 
+...(Given) 
+ 
+The big end cap is designed as a beam freely 
+supported at the cap bolt centres and loaded by the 
+inertia force at the top dead centre on the exhaust stroke 
+(i.e. FI when θ = 0). Since the load is assumed to act in 
+between the uniformly distributed load and the centrally 
+concentrated 
+load, 
+therefore, 
+maximum bending 
+moment is taken as 
+MC  = F
+I  x 
+6 
+where 
+x = Distance between the bolt centres 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+1160 „ A Textbook of Machine Design 
+ 
+= Dia. of crank pin or big end bearing + 2 × Thickness of bearing 
+liner + Nominal dia. of bolt + Clearance  
+ 
+= (dc + 2 × 3 + db + 3) mm = 44 + 6 + 12 + 3 = 65 
+mm ∴ Maximum bending moment acting on the cap,  
+ 
+MC  = 
+FI  x 
+ 
+9490  65 
+ 102 810 N-mm 
+6 
+6 
+Section modulus for the cap 
+ZC  = b c ( t c ) 2  58( tc ) 2 
+  9 .7 ( tc ) 2 
+6 
+6 
+We know that bending stress ( σb ), 
+80  
+M
+C  102 810  10 600 
+9.7 (t c ) 2 
+Z
+C 
+(tc )2 
+∴ 
+(t )2  = 10 600 / 80 = 132.5 
+or  t = 11.5 mm Ans. 
+c 
+c 
+ 
+Let us now check the design for the induced bending stress due to inertia bending forces on 
+the connecting rod (i.e. whipping stress). 
+ 
+We know that mass of the connecting rod per metre length, 
+ 
+m1 = Volume × density = Area × length × density 
+= A × l × ρ   = 11t2 × l × ρ 
+...(Q A = 11t2)
+= 11(0.007)2 (0.38) 8000 = 1.64 kg 
+...[Q ρ  = 8 000 kg /m3 (given)]
+∴ Maximum bending moment, 
+M 
+= m . ω2 . r × l 
+= m . ω2 . r × l2 
+...(Q m = m · l)
+max
+9 3
+1 
+9 3
+1 
+2π  1800 2 
+(0.38)2
+ 51.3
+= 1.64 
+(0.095) 
+N-m 
+60 
+9 3 
+= 51 300 N-mm 
+ 
+I
+xx 
+419 t4 
+ 
+2 
+  13.97 t 
+3 
+3
+3 
+and  section modulus, 
+Z
+xx
+=13.97 × 7
+= 4792 mm 
+5 t / 2 
+12
+5 t 
+∴ Maximum bending stress (induced ) due to inertia bending forces or whipping stress, 
+σ 
+ 
+M
+max 
+51 300  10.7 N / mm2 
+b ( max)
+Z
+xx 
+4792 
+ 
+Since the maximum bending stress induced is less than the allowable bending stress of 80 
+N/mm2, therefore the design is safe. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+UNIT III  DESIGN OF CRANKSHAFT  
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ Balancing of I.C. engines 
+Engine balance refers to those factors in the design, production, engine 
+tuning, maintenance and the operation of an engine that benefit from 
+being balanced. Major considerations are: 
+ Balancing of structural and operational elements within an engine 
+ Longevity and performance 
+ Power and efficiency 
+ Performance and weight/size/cost 
+ Environmental cost and utility 
+ Noise/vibration and performance 
+This article is currently limited to structural and operational balance within 
+an engine in general, and balancing of piston engine components in 
+particular. 
+Piston engine balancing is a complicated subject that covers many areas in 
+the design, production, tuning and operation. The engine considered to be 
+well balanced in a particular usage may produce unacceptable level of 
+vibration in another usage for the difference in driven mass and mounting 
+method, and slight variations in resonant frequencies of the environment 
+and engine parts could be big factors in throwing a smooth operation off 
+balance. In addition to the vast areas that need to be covered and the 
+delicate nature, terminologies commonly used to describe engine balance 
+are often incorrectly understood and/or poorly defined not only in casual 
+discussions but also in many articles in respected publications. 
+Internal combustion piston engines, by definition, are converter devices to 
+transform energy in intermittent combustion into energy in mechanical 
+motion. A slider-crank mechanismis used in creating a chemical reaction on 
+fuel with air (compression and ignition), and converting the energy into 
+rotation (expansion). The intermittent energy source combined with the 
+nature of this mechanism make the engine naturally vibration-prone. Multi-
+cylinder configuration and many of the engine design elements are 
+reflections of the effort to reduce vibrations through the act of balancing. 
+This article is organized in six sections: 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ "Items to be balanced" 
+lists the balancing elements to establish the basics on the causes of 
+imbalance. 
+ "Types of vibration" 
+lists different kinds of vibration as the effects of imbalance. 
+ "Primary balance" 
+discusses the term "Primary balance". 
+ "Secondary balance" 
+explains what Secondary balance is, and how the confusing 
+terminologies 'Primary' and 'Secondary' came into popular use. 
+ "Inherent balance" 
+goes into engine balance discussions on various multi-cylinder 
+configurations. 
+ "Steam locomotives" 
+is an introduction to the balancing of 2-cylinder locomotives and 
+includes the wheel hammer effect unique to steam locomotives. 
+ 
+There are many factors that can contribute to engine imbalance, and there 
+are many ways to categorize them. The following categories will be used for 
+the purposes of this discussion. In the category descriptions, 'Phase' refers 
+to the timing on the rotation of crankshaft, 'Plane' refers to the location on 
+the crankshaft rotating axis, and 'CG' refers to the center of gravity. 
+ Mechanical 
+ Static Balance - Static balance refers to the balancing of weight and 
+the location of CG on moving parts. 
+1. Reciprocating mass - e.g. Piston and connecting rod weight and CG 
+uniformity. 
+2. Rotating mass - e.g. Crank web weight uniformity and flywheel 
+eccentricity (or lack there of) 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ Dynamic Balance - In order for a mass to start moving from rest 
+or change direction, it needs to be accelerated. A force is 
+required to accelerate a mass. According to Newton's 3rd law of 
+motion, there will be an counter force in the opposite direction 
+of equal size. Dynamic balance refers to the balancing of these 
+forces and forces due to friction. 
+All accelerations of a mass can be divided into two components in 
+opposite directions. For example, in order for a piston in a single 
+cylinder engine to be accelerated upward, something must receive 
+(support) the downward force, and it is usually the mass of the entire 
+engine that moves downward a bit as there is no counter-moving 
+piston. This means one cause of engine vibration usually appears in 
+two opposing directions. Often the movement or deflection in one 
+direction appears on a moving mass, and the other direction appears 
+on the entire engine, but sometimes both sides appear on moving 
+parts, e.g. a torsional vibration in a crankshaft, or a push-pull cyclic 
+stress in a chain or connecting rod. In other cases, one side is a 
+deflection of a static part, the energy in which is converted into heat 
+and dissipated into the coolant. 
+ Reciprocating mass - Piston mass needs to be accelerated and 
+decelerated, resisting a smooth rotation of a crankshaft. In addition 
+to the up-down movement of a piston, a connecting rod big end 
+swings left and right and up and down while it rotates. In order to 
+simplify the motion of a crank slider mechanism, the connecting 
+rod/piston assembly is generally divided into two mass groups, a 
+reciprocating mass, and a rotating mass. The big end of the rod is 
+generally said to be rotating while the small end is said to be 
+reciprocating. In truth, however, both ends both reciprocate and 
+rotate. 
+3. Phase balance - e.g. Pistons on 60 or 90° V6 without an offset 
+crankshaft reciprocate with unevenly spaced phases in a crank 
+rotation 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+4. Plane balance - e.g. Boxer Twin pistons travel on two different 
+rotational planes of the crankshaft, which creates forces to rock the 
+engine on Z-axis[note 1] 
+ Rotating mass 
+5. Phase balance - e.g. Imbalance in camshaft rotating mass can 
+generate a vibration with a frequency equal to once in 2 crank 
+rotations in a 4 cycle engine 
+6. Plane balance - e.g. Boxer Twin crankshaft without counterweights 
+rocks the engine on Z-axis[1] 
+7. Torsional balance - If the rigidity of crank throws on an inline 4 
+cylinder engine is uniform, the crank throw farthest from the clutch 
+surface (usually called cylinder #1) normally shows the biggest 
+torsional deflection. It is usually impossible to make these deflections 
+uniform across multiple cylinders except on a radial engine. 
+SeeTorsional vibration 
+ 8. Static mass - A single cylinder 10 HP engine weighing a ton is 
+very smooth, because the forces that comprise its imbalance in 
+operation must move a large mass to create a vibration. 
+As power to weight ratio is important in the design of an engine, 
+the weight of a crankcase, cylinder block, cylinder head, etc. (i.e. 
+static mass) are usually made as light as possible within the 
+limitations of strength, cost and safety margin, and are often 
+excluded in the consideration of engine balance. 
+However, most vibrations of an engine are small movements of the 
+engine itself, and are thus determined by the engine weight, rigidity, 
+location of CG, and how much its mass is concentrated around the CG. 
+These are crucial factors in engine dynamic balance, which is defined 
+for the whole engine in reciprocal and rotational movements as well 
+as in bending and twisting deflections on the X, Y and Z axis. All of 
+these are important factors in the design of engine mounts and the 
+rigidity of static parts. 
+It is important to recognize that some moving masses must be 
+considered a part of static mass depending on the kind of dynamic 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+balance under consideration (e.g. camshaft weight in analyzing the Y-
+axis[note 1] rotational vibration of an engine). 
+ Friction 
+9. Slide resistance balance - A piston slides in a cylinder with friction. A 
+ball in a ball bearing also slides as the diameter of inner and outer 
+laces are different and the distance of circumference differs from the 
+inside and out. When a ball bearing is used as the main bearing on a 
+crankshaft (which is rarely the case), eccentricity of the cage (lace) 
+normally create phase imbalance in slide friction. Friction forces for 
+shell bearings (the most common type of bearings) are dependent 
+upon diameter and width, which determine bearing surface area. This 
+needs to be balanced for the pressure and the rotational speed of the 
+load. Different main bearing sizes on a crankshaft create plane 
+imbalance in slide friction. 
+10. Rolling resistance balance - e.g. A ball in a ball bearing generates 
+friction while rolling in it's cage 
+SIGNIFICANCE OF FIRING ORDER 
+The firing order is the sequence of power delivery of each cylinder in 
+a multi-cylinder reciprocating engine. 
+This is achieved by sparking of the spark plugs in a gasoline engine 
+in the correct order, or by the sequence of fuel injection in a Diesel 
+engine. When designing an engine, choosing an appropriate firing 
+order is critical to minimizing vibration, to improve engine balance and 
+achieving smooth running, for long engine fatigue life and user 
+comfort, and heavily influences crankshaft design. 
+Cylinder numbering and firing orders for various engine layouts[edit] 
+In a straight engine the spark plugs (and cylinders) are numbered, 
+starting with #1, usually from the front of the engine to the rear. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+1-3-5-2-4 would be the firing order for this 5-cylinder radial engine. 
+In a radial engine the cylinders are numbered around the circle, with 
+the #1 cylinder at the top. There are always an odd number of 
+cylinders in each bank, as this allows for a constant alternate cylinder 
+firing order: for example, with a single bank of 7 cylinders, the order 
+would be 1-3-5-7-2-4-6. Moreover, unless there is an odd number of 
+cylinders, the ring cam around the nose of the engine would be 
+unable to provide the inlet valve open - exhaust valve open sequence 
+required by the four-stroke cycle. 
+ 
+The cylinder numbering scheme used by some manufacturers on 
+their V engines is based on "folding" the engine into an inline type. 
+In a V engine, cylinder numbering varies among manufacturers. 
+Generally speaking, the most forward cylinder is numbered 1, but 
+some manufacturers will then continue numbering along that bank 
+first (so that side of the engine would be 1-2-3-4, and the opposite 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+bank would be 5-6-7-8) while others will number the cylinders from 
+front to back along the crankshaft, so one bank would be 1-3-5-7 and 
+the other bank would be 2-4-6-8. (In this example, a V8 is assumed). 
+To further complicate matters, manufacturers may not have used the 
+same system for all of their engines. It is important to check the 
+numbering system used before comparing firing orders, because the 
+order will vary significantly with crankshaft design (see crossplane). 
+As an example, the Chevrolet Small-Block engine has cylinders 1-3-
+5-7 on the left hand side of the car, and 2-4-6-8 on the other side, and 
+uses a firing order of 1-8-4-3-6-5-7-2.[1] Note that the order alternates 
+irregularly between the left and right banks; this is what causes the 
+'burbling' sound of this type of engine.[2] 
+In most Audi and Ford V8 engines cylinders 1-2-3-4 are on the right 
+hand side of the car, with 5-6-7-8 are on the left. 
+This means that Chevy Generation 1 Small Block V8 engines and 
+Ford 302 V8s (5.8L, 5.0L, 7.5L) have an identical firing pattern 
+despite having a different firing order. 
+Likewise, the firing pattern is the same for Chevrolet & Chrysler V8 
+engines with a firing order of 1-8-4-3-6-5-7-2, and for Ford's V8 
+engines with a firing order of 1-5-4-2-6-3-7-8. 
+An exception is the Ford Flathead V8 where the number 1 cylinder is 
+on the right front of the engine (same as other Ford V8's) but this 
+cylinder is not the front cylinder of the engine. In this case number 5 
+is the front cylinder. A similar situation exists with the Pontiac V8's 
+455 etc. where the cylinders are numbered like a Chevrolet V8 but 
+the right side bank is in front(like a Ford), this puts cylinder number 2 
+in front of number 1. 
+ 
+ 
+ 
+Crankshaft 
+A crankshaft (i.e. a shaft with a crank) is used to convert reciprocating 
+motion of the piston into 
+rotatory motion or vice versa. The crankshaft consists of the shaft parts 
+which revolve in the main 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+bearings, the crankpins to which the big ends of the connecting rod are 
+connected, the crank arms or 
+webs (also called cheeks) which connect the crankpins and the shaft parts. 
+The crankshaft, depending 
+upon the position of crank, may be divided into the following two types : 
+1. Side crankshaft or overhung crankshaft, as shown in Fig. 32.15 (a),  
+2. And centre crankshaft 
+ 
+  
+Design Procedure for Crankshaft 
+The following procedure may be adopted for designing a crankshaft. 
+1. First of all, find the magnitude of the various loads on the crankshaft. 
+2. Determine the distances between the supports and their position with 
+respect to the loads. 
+3. For the sake of simplicity and also for safety, the shaft is considered to be 
+supported at the 
+centres of the bearings and all the forces and reactions to be acting at these 
+points. The distances 
+between the supports depend on the length of the bearings, which in turn 
+depend on the diameter of 
+the shaft because of the allowable bearing pressures. 
+4. The thickness of the cheeks or webs is assumed to be from 0.4 ds to 0.6 
+ds, where ds is the 
+diameter of the shaft. It may also be taken as 0.22D to 0.32 D, where D is the 
+bore of cylinder in mm. 
+5. Now calculate the distances between the supports. 
+6. Assuming the allowable bending and shear stresses, determine the main 
+dimensions of the 
+crankshaft. 
+Notes: 1. The crankshaft must be designed or checked for at least two crank 
+positions. Firstly, when the crankshaft 
+is subjected to maximum bending moment and secondly when the crankshaft 
+is subjected to maximum 
+twisting moment or torque. 
+2. The additional moment due to weight of flywheel, belt tension and other 
+forces must be considered. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+3. It is assumed that the effect of bending moment does not exceed two 
+bearings between which a force is 
+considered. 
+32.20 Design of Centre Crankshaft 
+We shall design the centre crankshaft by considering the two crank 
+possitions, i.e. when the 
+crank is at dead centre (or when the crankshaft is subjected to maximum 
+bending moment) and when 
+the crank is at angle at which the twisting moment is maximum. These two 
+cases are discussed in 
+detail as below : 
+1. When the crank is at dead centre. At this position of the crank, the 
+maximum gas pressure on 
+the piston will transmit maximum force on the crankpin in the plane of the 
+crank causing only bending 
+of the shaft. The crankpin as well as ends of the crankshaft will be only 
+subjected to bending moment. 
+Thus, when the crank is at the dead centre, the bending moment on the shaft 
+is maximum and the 
+twisting moment is zero. 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+The value of (c)max should be within safe limits. If it exceeds the safe 
+value, then the dimension 
+w may be increased because it does not affect other dimensions. 
+(e) Design of left hand crank web 
+Since the left hand crank web is not stressed to the extent as the right hand 
+crank web, therefore, 
+the dimensions for the left hand crank web may be made same as for right 
+hand crank web. 
+( f ) Design of crankshaft bearings 
+The bearing 2 is the most heavily loaded and should be checked for the safe 
+bearing pressure. 
+We know that the total reaction at the bearing 2, 
+ 
+Design a plain carbon steel centre crankshaft for a single acting four stroke 
+single cylinder engine for the following data: 
+Bore = 400 mm ; Stroke = 600 mm ; Engine speed = 200 r.p.m. ; Mean 
+effective pressure = 0.5 
+N/mm2; Maximum combustion pressure = 2.5 N/mm2; Weight of flywheel 
+used as a pulley = 50 kN; 
+Total belt pull = 6.5 kN. 
+When the crank has turned through 35° from the top dead centre, the 
+pressure on the piston is 
+1N/mm2 and the torque on the crank is maximum. The ratio of the 
+connecting rod length to the crank 
+radius is 5. Assume any other data required for the design. 
+Solution. Given : D = 400 mm ; L = 600 mm or r = 300 mm ; pm = 0.5 
+N/mm2 ; p = 2.5 N/mm2 ; 
+W = 50 kN ; T1 + T2 = 6.5 kN ; = 35° ; p= 1N/mm2 ; l / r = 5 
+ 
+We shall design the crankshaft for the two positions of the crank, i.e. firstly 
+when the crank is at 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+the dead centre ; and secondly when the crank is at an angle of maximum 
+twisting moment. 
+1. Design of the crankshaft when the crank is at the dead centre  
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+UNIT IV  
+ DESIGN OF FLYWHEELS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Introduction 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+A flywheel used in machines serves as a reservoir which stores energy 
+during the period when the supply of energy is more than the requirement 
+and releases it during the period when the requirement of energy is more 
+than supply. In case of steam engines, internal combustion engines, 
+reciprocating compressors and pumps, the energy is developed during one 
+stroke and the engine is to run for the whole cycle on the energy produced 
+during this one stroke. For example, in I.C. engines, the energy is developed 
+only during power stroke which is much more than the engine load, and no 
+energy is being developed during suction, compression and exhaust strokes 
+in case of four stroke engines and during compression in case of two stroke 
+engines. The excess energy developed during power stroke is absorbed by 
+the flywheel and releases it to the crankshaft during other strokes in which 
+no energy is developed, thus rotating the crankshaft at a uniform speed. A 
+little consideration will show that when the flywheel absorbs energy, its 
+speed increases and when it releases, the speed decreases. Hence a flywheel 
+does not maintain a constant speed, it simply reduces the fluctuation of 
+speed. In machines where the operation is intermittent like punching 
+machines, shearing machines, riveting machines, crushers etc., the flywheel 
+stores energy from the power source during the greater portion of the 
+operating cycle and gives it up during a small period of the cycle. Thus the 
+energy from the power source to the machines is supplied practically at a 
+constant rate throughout the operation. 
+ 
+Coefficient of Fluctuation of Speed 
+The difference between the maximum and minimum speeds during a cycle is 
+called the maximum fluctuation of speed. The ratio of the maximum 
+fluctuation of speed to the mean speed is called coefficient of fluctuation of 
+speed. 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fluctuation of Energy 
+The fluctuation of energy may be determined by the turning moment 
+diagram for one complete cycle of operation. Consider a turning moment 
+diagram for a single cylinder double acting steam 
+engine. The vertical ordinate represents the turning moment and the 
+horizontal ordinate (abscissa) represents the crank angle. 
+A little consideration will show that the turning moment is zero when the 
+crank angle is zero. It rises to a maximum value when crank angle reaches 
+90º and it is again zero when crank angle is 180º. This is shown by the curve 
+abc in Fig and it represents the turning moment diagram for outstroke. 
+The curve cde is the turning moment diagram for instroke and is somewhat 
+similar to the curve abc. Since the work done is the product of the turning 
+moment and the angle turned, therefore the 
+area of the turning moment diagram represents the work done per revolution. 
+In actual practice, the engine is assumed to work against the mean resisting 
+torque, as shown by a horizontal line AF. The 
+height of the ordinate aA represents the mean height of the turning moment 
+diagram. Since it is assumed that the work done by the turning moment per 
+revolution is equal to the work done against the mean resisting torque, 
+therefore the area of the rectangle aA Fe is proportional to the work done 
+against the mean resisting torque. 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+We see in Fig, that the mean resisting torque line AF cuts the turning 
+moment diagram at points B, C, D and E. When the crank moves from ‘a’ to 
+‘p’ the work done by the engine is equal to the area aBp, whereas the energy 
+required is represented by the area aABp. In other words, the engine 
+has done less work (equal to the area aAB) than the requirement. This 
+amount of energy is taken from the flywheel and hence the speed of the 
+flywheel decreases. Now the crank moves from p to q, the 
+work done by the engine is equal to the area pBbCq, whereas the 
+requirement of energy is represented by the area pBCq. Therefore the engine 
+has done more work than the requirement. This excess work 
+(equal to the area BbC) is stored in the flywheel and hence the speed of the 
+flywheel increases while the crank moves from p to q. 
+Similarly when the crank moves from q to r, more work is taken from the 
+engine than is developed. This loss of work is represented by the area CcD. 
+To supply this loss, the flywheel gives up some of 
+its energy and thus the speed decreases while the crank moves from q to r. 
+As the crank moves from r to s, excess energy is again developed given by 
+the area DdE and the speed again increases. As the 
+piston moves from s to e, again there is a loss of work and the speed 
+decreases. The variations of energy above and below the mean resisting 
+torque line are called fluctuation of energy. The areas BbC, CcD, DdE etc. 
+represent fluctuations of energy. 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Maximum Fluctuation of Energy 
+A turning moment diagram for a multi-cylinder engine is shown by a wavy 
+curve in Fig. 
+The horizontal line AG represents the mean torque line. Let a1, a3, a5 be the 
+areas above the mean torque line and a2, a4 and a6 be the areas below the 
+mean torque line. These areas represent some quantity of energy which is 
+either added or subtracted from the energy of the moving parts of the engine. 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+Coefficient of Fluctuation of Energy 
+It is defined as the ratio of the maximum fluctuation of energy to the work 
+done per cycle. It is usually denoted by CE. Mathematically, coefficient of 
+fluctuation of energy 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Energy Stored in a Flywheel 
+A flywheel is shown in Fig. We have already discussed that when a flywheel 
+absorbs energy its speed increases and when it gives up energy its speed 
+decreases. 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+The turning moment diagram for a petrol engine is drawn to the following 
+scales: 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+The intercepted areas between the output torque curve and the mean 
+resistance line of a turning moment diagram for a multicylinder engine, 
+taken in order from one end are as follows: 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+UNIT V  
+ DESIGN OF VALVES AND 
+VALVE TRAIN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Design aspects of intake & exhaust manifolds 
+ 
+The purpose of the exhaust and inlet processes is to remove the burned gases at the end of the power stroke 
+and admit fresh charge for the next cycle. Indicated power of an ICE at a given speed is proportional to the 
+mass flow rate of air. Inducting the maximum air mass and retaining the mass within the cylinder is the 
+primary goal of the gas exchange processes in engines. Engine gas exchange processes are characterized by 
+volumetric efficiency and it depends on the design of engine subsystems such as manifolds, valves, and ports, 
+as well as engine operating conditions. Supercharging and turbo-charging are used to increase air flow into 
+engine cylinder, and hence power density 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+In SI engine, the intake system typically consists of an air filter, a carburettor and throttle or fuel injector and 
+throttle or throttle with individual fuel injectors in each intake port and intake manifold. During the induction 
+process, pressure losses occur as the mixture passes through or by each of these components. The pressure 
+drop depends on engine speed, the flow resistance of the elements in the system, the cross-sectional area 
+through which the fresh charge moves, and the charge density. In a CI engine intake system, the carburettor 
+or EFI system and the throttle plate are absent. The exhaust system typically consists of an exhaust manifold, 
+exhaust pipe, often a catalytic converter for emission control, and a muffler or silencer. 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+Valve Gear Mechanism 
+The valve gear mechanism of an I.C. engine consists of those parts which 
+actuate the inlet and exhaust valves at the required time with respect to the 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+position of piston and crankshaft.Fig shows the valve gear arrangement for 
+vertical engines. The main components of the mechanism are valves, rocker 
+arm, * valve springs, **push rod, ***cam and camshaft 
+ 
+The fuel is admitted to the engine by the inlet valve and the burnt gases are 
+escaped through the exhaust valve. In vertical engines, the cam moving on 
+the rotating camshaft pushes the cam follower and push rod upwards, 
+thereby transmitting the cam action to rocker arm. The camshaft is rotated by 
+the toothed belt from the crankshaft. The rocker arm is pivoted at its centre 
+by a fulcrum pin. When one end of the rocker arm is pushed up by the push 
+rod, the other end moves downward. This pushes down the valve stem 
+causing the valve to move down, thereby opening the port. When the cam 
+follower moves over the circular portion of cam, the pushing action of the 
+rocker arm on the valve is released and the valve returns to its seat and 
+closes it by the action of the valve spring. In some of the modern engines, 
+the camshaft is located at cylinder head level. In such cases, the push rod is 
+eliminated and the roller type cam follower is made part of the rocker arm 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+Design a rocker arm, and its bearings, tappet, roller and valve spring for the 
+exhaust valve of a four stroke I.C. engine from the following data: 
+ 
+ 
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology
+ 
+ 
+ 
+Fatima Michael College of Engineering & Technology
+Fatima Michael College of Engineering & Technology

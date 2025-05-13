@@ -1,0 +1,426 @@
+http://www.iaeme.com/IJMET/index.asp 
+  53 
+editor@iaeme.com 
+International Journal of Mechanical Engineering and Technology (IJMET) 
+Volume 6, Issue 7, Jul 2015, pp. 53-59, Article ID: IJMET_06_07_007 
+Available online at 
+http://www.iaeme.com/IJMET/issues.asp?JTypeIJMET&VType=6&IType=7 
+ISSN Print: 0976-6340 and ISSN Online: 0976-6359 
+© IAEME Publication 
+___________________________________________________________________________ 
+OPTIMIZATION OF CONNECTING ROD 
+WITH HELP OF FEA 
+Sharma Manoj and Shashikant 
+Uttar Pradesh Technical University, U. P., India 
+ABSTRACT  
+Connecting rod is the important part of an IC Engine it transmits motion 
+of piston to crank shaft and converts translating motion of piston into rotary 
+motion and vice versa. 
+From application point of view it is necessary that connecting rod must be 
+light in weight and having good strength under fatigue or reverse loading. For 
+this purpose generally material of connecting rod is carbon steel of aluminum 
+alloy. 
+In this work we take connecting rod of a Mahindra Jeep CJ-340 and 
+change its material from Al360 to PEEK. The modeling of the connecting rod 
+is done on Pro-E wildfire 4.0 and analysis work is done on ANSYS 11.0. 
+The parameters like Von misses stress, Von messes strain and 
+displacement was obtained from ANSYS software which shows reduction in 
+weight and improvement in strength.  
+Key words: Connecting Rod, Optimization, Pro-E, ANSYS 
+Cite this Article: Sharma Manoj, Shashikant, Optimization of Connecting 
+Rod with help of FEA. International Journal of Mechanical Engineering and 
+Technology, 6(7), 2015, pp. 53-59. 
+http://www.iaeme.com/IJMET/issues.asp?JTypeIJMET&VType=6&IType=7 
+_____________________________________________________________________ 
+1. INTRODUCTION 
+The connecting rod is a major link inside a combustion engine. It connects the piston 
+to the crankshaft and is responsible for transferring power from the piston to the 
+crankshaft and sending it to the transmission. There are different types of materials 
+and production methods used in the creation of connecting rods. The most common 
+types of Connecting rods are steel and aluminum. The most common types of 
+manufacturing processes are casting, forging and powdered metallurgy. Connecting 
+rods are widely used in variety of engines such as, in-line engines, V-engine, opposed 
+cylinder engines, radial engines and opposed-piston engines. A connecting rod 
+consists of a pin-end, a shank section, and a crank-end. Pin-end and crank-end 
+Sharma Manoj and Shashikant 
+http://www.iaeme.com/IJMET/index.asp 
+  54 
+editor@iaeme.com 
+pinholes at the upper and lower ends are machined to permit accurate fitting of 
+bearings. 
+The function of connecting rod is to transmit the thrust of the piston to the 
+crankshaft. Figure shows the role of connecting rod in the conversion of reciprocating 
+motion into rotary motion. A four-stroke engine is the most common type. The four 
+strokes are intake, compression, power, and exhaust. Each stroke requires 
+approximately 180 degrees of crankshaft rotation, so the complete cycle would take 
+720 degrees. Each stroke plays a very important role in the combustion process. In the 
+intake cycle, while the piston moves downward, one of the valves open. This creates a 
+vacuum, and an air-fuel mixture is sucked into the chamber (Figure 1). During the 
+second stroke compression occurs. In compression both valves are closed, and the 
+piston moves upward and thus creates a pressure on the piston, see Figure 2. The next 
+stroke is power. During this process the compressed air-fuel mixture is ignited with a 
+spark, causing a tremendous pressure as the fuel burns. The forces exerted by piston 
+transmitted through the connecting rod moves the crankshaft, see Figure 3. Finally, 
+the exhaust stroke occurs. In this stroke, the exhaust valve opens, as the piston moves 
+back upwards, it forces all the air out of the chamber and thus which completes the 
+cycle of crankshaft rotation Figure 4. 
+ 
+Figure 1 Intake stroke  
+Figure 2 compression stroke 
+ 
+Figure 3 Power stroke  
+Figure 4 Exhaust stroke 
+Connecting rods are highly dynamically loaded components used for power 
+transmission in combustion engines. The optimization of connecting rod had already 
+started as early year 1983 by Webster and his team. However, each day consumers are 
+looking for the best from the best. That’s why the optimization is really important 
+especially in automotive industry. Optimization of the component is to make the less 
+time to produce the product that is stronger, lighter and less cost. The design and 
+weight of the connecting rod influence on car performance [5−8]. Hence, it is effect 
+on the car manufacture credibility. Change in the structural design and also material 
+will be significant increments in weight and performance of the engine. Mirehei et al. 
+(2008) were performed the study regarding the fatigue of connecting rod on universal 
+Optimization of Connecting Rod with help of FEA 
+http://www.iaeme.com/IJMET/index.asp 
+     55 
+editor@iaeme.com 
+tractor (U650) by using ANSYS software application and the lifespan was estimated. 
+The authors also investigated that the stresses and hotspots experienced by the 
+connecting rod and the state of stress as well as stress concentration factors can be 
+obtained and consequently used for life predictions. Rahman et al. (2008a, 2009a) 
+discuss about FEA of the cylinder block of the free piston engine. The 4 nodes 
+tetrahedral (TET4) element version of the cylinder block was used for the initial 
+analysis. The comparison then are made between TET4 and 10 nodes tetrahedral 
+(TET10) element mesh while using the same global mesh length for the highest 
+loading conditions (7.0 MPa) in the combustion chamber. 
+2. OBJETIVES 
+• 
+Main objective of project is reduction in weight of connecting rod. 
+• 
+Improvement in strength of connecting rod. 
+3. MATERIAL SELECTION 
+3.1. Comparison between Old & New Material  
+Table 1 Comparison between Old & New Material 
+S. No 
+Properties 
+Old Material (Al 360)1 
+New Material (PEEK)2 
+1 
+Ultimate tensile strength 
+(MPa) 
+303 
+360 
+2 
+Yield strength (MPa) 
+170 
+210 
+3 
+Youngs modulus (GPa) 
+60 
+72 
+4 
+Poisson’s ratio 
+0.33 
+0.337 
+5 
+Density (g/cm3) 
+2.8 
+1.31 
+6 
+Fatigue Strength 
+(endurance Limit) (Mpa) 
+120 
+124 
+7 
+Thermal Conductivity 
+(W/m-k) 
+110 
+87 
+8 
+Coefficient of Linear 
+Thermal Expansion (10-
+5 in./in./°F) 
+11.6 
+2.6 
+According to above properties New material suggested is Polyether ether ketone (PEEK, 
+30% Carbon-Fiber Reinforced) 
+1A Comparative Study And Analysis of Connecting ROD  By  Mohd Nawajish, Mohd 
+Naimuddin, Mayank www.ijetmas.com March 2015,    Volume 3 Special Issue, ISSN 2349-
+4476 [1] 
+2http://www.professionalplastics.com/KETRONPEEK-CA30LSG?&search_id=2091081 [2] 
+4. MODELING OF CONNECTING ROD 
+First of all we taken connecting rod of a Mahindra Jeep CJ-340 and with the help of 
+Pro E 4.0 generate a FEM model with Reverse Engineering method. 
+ 
+ 
+Sharma Manoj and Shashikant 
+http://www.iaeme.com/IJMET/index.asp 
+  56 
+editor@iaeme.com 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5 Actual Model with Scale 
+Table 2 Geometrical Parameters of Connecting Rod 
+Name of Part 
+Value in mm 
+Length of connecting rod 
+160 
+Outer diameter of crank end 
+90 
+Inner diameter of crank end 
+55 
+Outer diameter of piston end 
+46 
+Inner diameter of piston end 
+30 
+Width of connecting rod 
+20 
+Depth of connecting rod 
+40 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6: FEM Model of Connecting Rod 
+Optimization of Connecting Rod with help of FEA 
+http://www.iaeme.com/IJMET/index.asp 
+     57 
+editor@iaeme.com 
+5. FINITE ELEMENT ANALYSIS OF CONNECTING ROD 
+5.1. Load Distribution on Connecting Rod 
+For static structural analysis, load is applied at the piston end and fixed support is 
+given at the crank end. The analysis is carried out under axial loads. Here the axial 
+load applied is 28000 N (Compressive). The comparisons are done for optimization 
+purpose [3, 4]. 
+6. RESULTS AND DISCUSSIONS 
+6.1. Static Structural Analysis of Connecting Rod 
+Static structural analysis of connecting rod under compressive loading is carried out 
+using ANSYS 11.0 software. 
+ 
+Figure 7: Meshing Model of Connecting Rod 
+6.2. FEM analysis against Compressive Load 
+ 
+ 
+ 
+ 
+ 
+Figure 8 Application of Compressive Force 
+Figure 9 Deformation against Compressive 
+Load 
+ 
+ 
+ 
+ 
+ 
+Figure 10 Factor of Safety against 
+Compressive Load 
+Figure 11 Von Misses stress against 
+Compressive Load 
+ 
+Sharma Manoj and Shashikant 
+http://www.iaeme.com/IJMET/index.asp 
+  58 
+editor@iaeme.com 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 12 Von Misses strain against compressive load 
+6.3. Result analysis against Compressive Load 
+Table 3 Result against compressive load 
+Von Misses Stress(Mpa) 
+168.6 
+168.3 
+0.18% 
+Von Misses Strain(mm/mm) 
+2.209E-03 
+1.848E-03 
+16.34% 
+Displacement(mm) 
+0.1935 
+0.1612 
+16.69% 
+Min. F.O.S. 
+1.01 
+1.25 
+23.76% 
+Table 4 Comparison of Mass and Volume 
+Properties 
+Old Material 
+New Material 
+Mass (grams) 
+537.07 
+251.27 
+Volume (millimeters³) 
+191810.60 
+191810.60 
+Surface area (millimeters²) 
+49170.85 
+49170.85 
+Center of mass: ( millimeters ) 
+X = 1868.34, Y = -0.05, 
+Z = -0.00 
+X = 1868.34, Y = -0.05, 
+Z = -0.00 
+Moments of inertia: 
+( grams * millimeters² ) 
+ 
+Ixx = 327864.55 
+Ixy = -52670.18 
+Ixz = -142.40 
+Ixx = 153393.77 
+Ixy = -24642.1 
+Ixz = -66.62 
+Iyx = -52670.18 
+Iyy= 1877037723.08 
+Iyz = 0.27 
+Iyx = -24642.12 
+Iyy = 878185506.1 
+Iyz = 0.13 
+ 
+Izx = -142.40 
+Izy = 0.27 
+Izz = 1877308841.58 
+Izx = -66.62 
+Izy = 0.13 
+Izz = 878312350.88 
+ 
+ 
+Optimi
+http://www.iaeme.com/IJME
+Figure 13 Co
+7. CONCLUSION 
+Solid modeling of connec
+FEA tool Pro E 4.0, and 
+basis of this study followin
+• 
+Reduction in weight
+• 
+Improvement in stre
+REFERENCES 
+[1] 
+Nawajish, M., N
+of Connecting 
+Management an
+4476, www.ijetm
+[2] 
+www.profession
+[3] 
+Mr. Shamim, S
+Finite Element 
+Technology (IJE
+[4] 
+Gautam, A. and
+Element Approa
+JMCE), 10(1), N
+[5] 
+Charkha, P. G.
+Second Internat
+Technology, ICE
+[6] 
+Pal, S. et al. De
+Using FEM. Int
+2(6), December 
+[7] 
+Pal, S. and Kum
+Parameters Usin
+Research, 2(6), D
+[8] 
+Charkha, P. G.
+Second Interna
+andTechnology, 
+167.5
+168
+168.5
+169
+169.5
+170
+ization of Connecting Rod with help of FEA 
+ET/index.asp 
+     59 
+ed
+omparison of Stress between old and new materia
+cting rod for four stroke four cylinders has b
+analysis has been done on ANSYS 11 work
+ng conclusion has been made: 
+t of connecting rod (aproxx. 46.7%). 
+ngth of connecting rod (aproxx. 23.76%). 
+Naimuddin, M. and Mayank. A Comparative Stu
+ROD. International Journal of Engineeri
+nd Applied Sciences, 3 (Special Issue), March 20
+mas.com 
+nalplastics.com/KETRONPEEK-CA30LSG?&sea
+S. Design and Comparative Analysis of Conne
+Method. International Journal of Engineeri
+ERT), 3(9), September, 2014, ISSN: 2278-0181. 
+Ajit, K. P. Static Stress Analysis of Connecting R
+ach, IOSR Journal of Mechanical and Civil Eng
+Nov.−Dec. 2013, pp. 47–51. 
+and Jaju, S. B. Analysis & Optimization of C
+tional Conference on Emerging Trends in E
+ETET-09, 2009. 
+sign Evaluation and Optimization of Connecting
+ternational Journal of Engineering and Manag
+2012, pp. 21–25, ISSN No.: 2250-0758. 
+mar, S. Design Evaluation and Optimization of 
+ng FEM. International Journal of Engineering a
+December 2012, pp. 21–25, ISSN No. 2250-0758
+and Jaju, S. B. Analysis & Optimization of C
+ational Conference on Emerging Trends 
+ICETET-09, 2009. 
+Old Material
+New Material
+Von Misses Stress
+Von Misses Strain
+Displacement
+Min. F.O.S.
+ditor@iaeme.com 
+  
+al 
+been done using 
+kbench. On the 
+dy And Analysis 
+ing Technology, 
+015, ISSN 2349-
+arch_id=2091081 
+ecting Rod using 
+ing Research & 
+Rod Using Finite 
+gineering (IOSR-
+Connecting Rod. 
+Engineering and 
+g Rod Parameters 
+gement Research, 
+Connecting Rod 
+and Management 
+8 
+Connecting Rod. 
+in Engineering 

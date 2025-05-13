@@ -1,0 +1,984 @@
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1316 
+ 
+DESIGN AND SPECIFICATION OF INTERNAL COMBUSTION ENGINE     
+Pritam Pain1, Deep Dewan2   
+1Dept. of Mechanical Engineering, University of Engineering & Management, Kolkata, West Bengal, India 
+2Dept. of Mechanical Engineering, Kingston Polytechnic College, Barasat, West Bengal, India 
+---------------------------------------------------------------------***----------------------------------------------------------------------
+Abstract - The aim of this report is to introduce the design 
+and specification of Internal Combustion   Engine. Internal 
+Combustion (I.C) Engine typically show a characteristic 
+efficiency profile which varies with operating load and engine 
+speed. In under low loading condition the operating efficiency 
+is poor. For achievement of better overall efficiency by using of 
+an energy storing and recovering process, involving 
+compressing air. For improvement of Engine efficiency, we 
+have used of heat transfer from the exhaust gases to the stored 
+compressed air. 
+Key Words:  Solidworks, IC Engine, 2 and 4 Stoke Engine, 
+Piston and Cylinder. 
+INTRODUCTION 
+An internal combustion engine (ICE) is a heat engine. In an 
+internal combustion engine, the prolongation of the high-
+temperature and high-pressure gases produced by 
+combustion applies direct force to some component of the 
+engine. The force is applied typically to pistons, turbine 
+blades, nozzle. This force moves the component over a 
+distance, transforming chemical energy into useful 
+mechanical energy. The term internal combustion engine 
+usually refers to an engine in which combustion is 
+intermittent, such as the more familiar four-stroke and two 
+stroke piston engines, along with variants, such as the six-
+stroke piston engine and the Wankel rotary engine. It also 
+involves the thermodynamics relations that govern the 
+processes of these engines, highlighting two main important 
+cycles, which are: Otto cycle and Diesel cycles.  
+ 
+Heat Engine: 
+ 
+In thermodynamics, a heat engine is a system that converts 
+the chemical energy of a fuel into mechanical energy, which 
+can then be used to do mechanical work. It is classified into 
+two types- 
+(a) External combustion engine 
+(b) Internal combustion engine 
+External Combustion Engine: 
+In this engine, the products of combustion of air and fuel 
+transfer heat to a second fluid which is the working fluid of 
+the cycle. 
+ 
+Examples: 
+1) Steam engines or steam turbine plant are an example of 
+external combustion engine. The heat of combustion is 
+employed to generate steam which is used in a piston engine 
+(reciprocating type engine) or a turbine (rotary type engine) 
+for useful work. 
+2) Another example is the stirling engine although this has a 
+only a niche role at present. Some gas turbines use an 
+external cycle this could expand rapidly with the 
+development of super critical carbon dioxide as the working 
+fluid. 
+Internal Combustion Engine: 
+In this engine, which generates motive power by the burning 
+of petrol, oil, or other fuel with air inside the engine, the hot 
+gases produced being used to drive a piston or do other 
+work as they expand. It can be classified into the following 
+types: 
+1. According to the basic engine design- (a) Reciprocating 
+engine (Use of cylinder piston arrangement), (b) Rotary 
+engine (Use of turbine). 
+2. According to the type of fuel used- (a) Petrol engine, (b) 
+diesel engine, (c) gas engine, (d) Alcohol engine. 
+3. According to ignition of fuel- (a) Spark ignition engine, (b) 
+hot spot ignition engine, (c) compression ignition engine. 
+4. According to the number of strokes per cycle- (a) Two 
+stroke engine, (b) Four stroke engine, (c) Six stroke engine. 
+5. According to the number of cylinder- (a) Single cylinder 
+and (b) multi-cylinder engine. 
+6. Method of cooling- water cooled or air cooled. 
+7. Type of cylinder arrangement- Vertical, horizontal, inline, 
+radial, v-type, piston engines. 
+8. Method governing- Hit and miss governed engines, 
+quantitatively governed engines and qualitatively governed 
+engine. 
+ 
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1317 
+ 
+Comparison Between External Combustion Engine And 
+Internal Combustion Engine: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 1: Difference between EC & IC Engine 
+Main Components Of Reciprocating IC Engine 
+Name of the main components of IC engine are- piston, 
+piston rings, cylinder, cylinder head, crank case, crankshaft, 
+flywheel, connecting rod, spark plug etc. 
+A. Cylinder: 
+It is the main part of the engine inside which piston 
+reciprocates to and fro. It should have high strength to 
+withstand high pressure above 50 bar and temperature 
+above 2000 0C. The ordinary engine is made of cast iron and 
+heavy-duty engines are made of steel alloys or aluminum 
+alloys. In the multi-cylinder engine, the cylinders are cast in 
+one block known as cylinder block. 
+B. Cylinder head:  
+The top end of the cylinder is covered by cylinder head over 
+which inlet and exhaust valve, spark plug or injectors are 
+mounted. A copper or asbestos gasket is provided between 
+the engine cylinder and cylinder head to make an air tight 
+joint. 
+C. Piston: 
+Usually made of aluminum alloy which has good heat 
+conducting property and greater strength at higher 
+temperature. The main function of the piston is to transform 
+the pressure generated by the burning air-fuel mixture into 
+force, acting on the crankshaft. 
+ 
+ 
+ 
+Fig – 2: Different parts of IC engine 
+Design of piston is given below. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 3: Design of piston 
+D. Piston rings:  
+These are housed in the circumferential grooves provided on 
+the outer surface of the piston and made of steel alloys which 
+retain elastic properties even at high temperature. 2 types of 
+rings- compression and oil rings. Compression ring is upper 
+ring of the piston which provides air tight seal to prevent 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1318 
+ 
+leakage of the burnt gases into the lower portion. Oil ring is 
+lower ring which provides effective seal to prevent leakage 
+of the oil into the engine cylinder. 
+E. Connecting rod:  
+It converts reciprocating motion of the piston into circular 
+motion of the crank shaft, in the working stroke. The smaller 
+end of the connecting rod is connected with the piston by 
+gudgeon pin and bigger end of the connecting rod is 
+connected with the crank with crank pin. The special steel 
+alloys or aluminum alloys are used for the manufacture of 
+connecting rod. Design of connecting rod is given below. 
+ 
+Fig – 4: Design of connecting rod 
+F. Crankshaft:  
+It converts the reciprocating motion of the piston into the 
+rotary motion with the help of connecting rod. The special 
+steel alloys are used for the manufacturing of the crankshaft. 
+It consists of eccentric portion called crank. 
+G. Crank case:  
+It houses cylinder and crankshaft of the IC engine and also 
+serves as sump for the lubricating oil. 
+H. Flywheel:  
+It is big wheel mounted on the crankshaft; whose function is 
+to maintain its speed constant. It is done by storing excess 
+energy during the power stroke, which is returned during 
+another stroke. Design of flywheel is given below. 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 5: Design of flywheel 
+ 
+Terminology Used In IC Engine: 
+1. Cylinder bore (D): The nominal inner diameter of the 
+working cylinder.  
+2. Piston area (A): The area of circle of diameter equal to 
+the cylinder bore.  
+3. Stroke (L): The nominal distance through which a 
+working piston moves between two successive reversals of 
+its direction of motion.  
+4. Dead centre: The position of the working piston and the 
+moving parts which are mechanically connected to it at the 
+moment when the direction of the piston motion is reversed 
+(at either end point of the stroke).  
+(a) Bottom dead centre (BDC): Dead centre when the 
+piston is nearest to the crankshaft.  
+(b) Top dead centre (TDC): Dead centre when the position 
+is farthest from the crankshaft.  
+5. Displacement volume or swept volume (Vs): The 
+nominal volume generated by the working piston when 
+travelling from the one dead centre to next one and given as, 
+Vs=A × L 
+6. Clearance volume (Vc): the nominal volume of the space 
+on the combustion side of the piston at the top dead centre.  
+7. Cylinder volume (V): Total volume of the cylinder.  
+V= Vs + Vc 
+8. Compression ratio (r): r = Vs / Vc 
+Two Stroke Engine: 
+-No piston stroke for suction and exhaust operations  
+-Suction is accomplished by air compressed in crankcase or 
+by a blower  
+-Induction of compressed air removes the products of 
+combustion through exhaust ports  
+-Transfer port is there to supply the fresh charge into 
+combustion chamber  
+Fig – 6 represents operation of two stroke engine. 
+ 
+ 
+ 
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1319 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 6: Cycle of operation in two stroke engine 
+Four Stroke Engine: 
+- Cycle of operation completed in four strokes of the piston 
+or two revolution of the piston.  
+(i) Suction stroke (suction valve open, exhaust valve closed)-
+charge consisting of fresh air mixed with the fuel is drawn 
+into the cylinder due to the vacuum pressure created by the 
+movement of the piston from TDC to BDC.  
+(ii) Compression stroke (both valves closed)-fresh charge is 
+compressed into clearance volume by the return stroke of 
+the piston and ignited by the spark for combustion. Hence 
+pressure and temperature is increased due to the 
+combustion of fuel.  
+(iii) Expansion stroke (both valves closed)-high pressure of 
+the burnt gases force the piston towards BDC and hence 
+power is obtained at the crankshaft.  
+(iv) Exhaust stroke (exhaust valve open, suction valve 
+closed)- burned gases expel out due to the movement of 
+piston from BDC to TDC.  
+Fig – 7 show the cycle of operation of four stroke engine. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 7:  Cycle of operation in four stroke engine 
+ 
+Comparison Of Four-Stroke And Two-Stroke Engine: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 8: Difference between four-stroke and two-stroke 
+engine 
+CI And SI Engine: 
+The diesel engine (also known as a compression-ignition or 
+CI engine), named after Rudolf Diesel, is an internal 
+combustion engine in which ignition of the fuel is caused by 
+the elevated temperature of the air in the cylinder due to the 
+mechanical compression (adiabatic compression). 
+A spark-ignition engine (SI engine) is an internal 
+combustion engine, generally a petrol engine, where the 
+combustion process of the air-fuel mixture is ignited by a 
+spark from a spark plug. 
+Comparison of SI and CI engine: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 9: Difference between SI and CI engine 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1320 
+ 
+Valve timing diagram: 
+The exact moment at which the inlet and outlet valve opens 
+and closes with reference to the position of the piston and 
+crank shown diagrammatically is known as valve timing 
+diagram. It is expressed in terms of degree crank angle. The 
+theoretical valve timing diagram is shown in Fig – 10. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 10: Theoretical valve timing diagram 
+But actual valve timing diagram is different from theoretical 
+due to two factors-mechanical and dynamic factors. Fig – 7 
+shows the actual valve timing diagram for four stroke low 
+speed or high-speed engine. 
+Opening and Closing Of Inlet Valve 
+Inlet valve opens 12 to 30ᵒ CA before TDC to facilitate silent 
+operation of the engine under high speed. It increases the 
+volumetric efficiency.  
+Inlet valve closes 10-60ᵒ CA after TDC due to inertia 
+movement of fresh charge into cylinder i.e. ram effect.  
+Fig – 11 represents the actual valve timing diagram for low 
+and high-speed engine. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 11: Actual valve timing diagram for low and high-
+speed engine 
+Opening and Closing Of Exhaust Valve 
+Exhaust valve opens 25 to 55ᵒ CA before BDC to reduce the 
+work required to expel out the burnt gases from the cylinder. 
+At the end of expansion stroke, the pressure inside the 
+chamber is high, hence work to expel out the gases increases.  
+Exhaust valve closes 10 to 30ᵒ CA after TDC to avoid the 
+compression of burnt gases in next cycle. Kinetic energy of 
+the burnt gas can assist maximum exhausting of the gas. It 
+also increases the volumetric efficiency. 
+Valve Overlap 
+During this time both the intake and exhaust valves are open. 
+The intake valve is opened before the exhaust gases have 
+completely left the cylinder, and their considerable velocity 
+assists in drawing in the fresh charge. Engine designers aim 
+to close the exhaust valve just as the fresh charge from the 
+intake valve reaches it, to prevent either loss of fresh charge 
+or unscavenged exhaust gas. 
+Port timing diagram 
+Drawn for 2-stroke engine  
+No valve arrangement  
+3 ports- inlet, transfer and exhaust  
+Fig - 12 shows port timing diagram for 2-stroke engine. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 12: Port timing diagram for 2-stroke engine 
+Working cycle 
+(a) Otto Cycle: - Thermodynamic cycle for SI/petrol engine.  
+Reversible adiabatic compression and expansion process.  
+Constant volume heat addition (combustion) and heat 
+rejection process (exhaust).  
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1321 
+ 
+Fig - 13 depicts the Otto cycle. 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 13: Otto cycle 
+Heat supplied, qs=Cv(T3-T2)  
+Heat rejection, qR=Cv(T4-T1)  
+Compression ratio =rk=v1/v2 
+Thermal efficiency, ɳth = (qs-qr)/qs = [Cv(T3-T2)-Cv(T4-
+T1)]/Cv(T3-T2) = 1-[(T4-T1/(T3-T2)] 
+In process 1-2, adiabatic compression process, 
+T2/T1 = (V1/V2)γ-1 
+=> T2 = T1.(rk)γ-1 
+In adiabatic expansion process, i.e. 3-4, 
+T4/T3 = (V3/V4)γ-1 
+=> T3 = T4. (rk)γ-1 
+ɳth = 1-T4-T1/[T4.(rk)γ-1-T1.(rk)γ-1] 
+= 1-[1/(rk)γ-1 
+Work done (W): 
+Pressure ratio, rp = (P3/P2) = (P4/P1) 
+P2/P1 = P3/P4 = ( V1/V2)γ = (rk)γ 
+W = [(P3V3-P4V4)/(γ-1)]-[(P2V2-P1V1)/(γ-1)] 
+1/(γ-1)[P4V4{(P3V3/P4V4)-1}-P1V1{(P2V2/P1V1)-1}] 
+=1/(γ-1)[P4V1(rkγ-1-1)-P1V1(rkγ-1-1)] 
+=P1V1/γ-1[rp(rkγ-1-1)-(rkγ-1-1)] 
+=P1V1/γ-1[rkγ-1-1)(rp-1)] 
+Mean effective pressure, Pm = work done/swept volume 
+=work done-(V1-V2) 
+Pm =[P1V1/γ-1{(rkγ-1-1)(rp-1)}]/V1-V2 
+=[P1rk{rk-1-1)(rp-1)}]/( γ-1)(rk-1) 
+(b) Diesel Cycle: - Thermodynamic cycle for low speed 
+CI/diesel engine. 
+-Reversible adiabatic compression and expansion process. 
+-Constant pressure heat addition (combustion) and heat 
+rejection process (exhaust). 
+Fig – 14 depicts the diesel cycle. 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 14: Diesel Cycle 
+Heat supplied, Q1 =Cp(T3-T2) 
+Heat rejection, Q2 = Cv(T4-T1) 
+Compression ratio, rk = v1/v2 
+Cut off ratio, rc = v3/v2 
+Thermal efficiency,  
+ɳth = (Q1-Q2)/Q1 = [Cp(T3-T2)-CV(T4-T1)]/[Cp(T3-T2)] = 1-
+[(1/γ){(T4-T1)/(T3-T2)}] 
+In adiabatic compression process i.e. 1-2, 
+T2/T1=(V1/V2) γ-1 
+=> T2=T1.(rk) γ-1 
+In process 2-3, pressure constant, then 
+T3/T2=V3/V2=rc 
+=> T3=T2.rc=T1.(rk) γ-1.rc 
+In adiabatic expansion process i.e. 3-4, 
+T4/T3=(V3/V4) γ-1=[(V3/V2)*(V2/V4) γ-1]=(rc) γ-1*1/  (rk)γ-1 
+=> T4=T3.(rc) γ-1*1/(rk) γ-1=T1.(rk) γ-1.rc.(rc) γ-1*1/(rk) γ-1=T1.rc 
+ɳth = 1-[(1/ γ).{(T4-T1)/(T3-T2)}]=1-[1/ γ.(rk) γ-1].[{(rc) γ-1}/rc-
+1] 
+Work done (W): 
+W=P2(V3-V2)+(p3v3-p4v4)/γ-1-(p2v2-p1v1)/ γ-1 
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1322 
+ 
+=P2(rcV2-V2)+[(p2rcv2)-(p4rkv2)]/γ-1-[(p2v2)-(p1rkv2)]/ γ-1 
+ 
+ 
+      since V4=V1  
+=P2V2[{(rc-1)( γ-1)+(rc-rc. γ.rk- γ.rk)-(1-rk1- γ)}/ γ-1] 
+=[P1V1.rk γ-1{γ(rc-1)-rk1- γ(rc γ-1)}]/γ-1 
+Mean effective pressure, 
+Pm= [[P1V1.rk γ-1{γ(rc-1)-rk1- γ(rc γ-1)}]/γ-1]/(V1-V2) 
+=[P1rk γ{ γ(rc-1)-rk1- γ(rc γ-1)}]/( γ-1)(rk-1) 
+Comparison of Otto and Diesel Cycle 
+a) For constant maximum pressure and same heat input 
+(ɳth)Diesel>(ɳth)Otto 
+b) For same compression ratio and same heat input 
+(ɳth)Otto>(ɳth)Diesel 
+c) For same maximum pressure and temperature 
+(ɳth)Diesel>(ɳth)Otto 
+d) for same maximum pressure and output 
+(ɳth)Diesel>(ɳth)Otto 
+FUELS & FUEL INJECTION 
+In IC engines, the chemical energy contained in the fuel is 
+converted into mechanical power by burning (oxidizing) the 
+fuel inside the combustion chamber of the engine.  
+Fuels suitable for fast chemical reaction have to be used in IC 
+engines, they are following types-  
+(a) Hydrocarbons fuels derived from the crude petroleum by 
+proper refining process such as thermal and catalytic 
+cracking method, polymerisation, alkylation, isomerisation, 
+reforming and blending.  
+(b) Alternative fuels such as 
+-Alcohols (methanol, ethanol)  
+-Natural gas (methane)  
+-LPG (propane, butane)  
+-Hydrogen  
+Carburetion 
+The process of preparing a combustible fuel-air mixture 
+outside engine cylinder in SI engine is known as carburetion.  
+Important factors which affect the process of carburetion are 
+given below;  
+-Time available for the mixture preparation i.e. atomization, 
+mixing and the vaporization.  
+-Temperature of the incoming air. 
+-Quality of the fuel supply. 
+-Design of combustion chamber and induction system. 
+ Mixture requirements for steady state operation 
+Three main areas of steady state operation of automotive 
+engine which require different air fuel ratio are discussed 
+below, 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 15: Automobile carburetor 
+(a) Idling and low load 
+-From no load to about 20% of rated power.  
+-No load running mode is called idling condition.  
+-Very low suction pressure give rise to back flow of exhaust 
+gases and air leakage.  
+-Increases the amount of residual gases and hence increase 
+the dilution effects.  
+-Rich mixture i.e. F/A ratio 0.08 or A/F ratio 12.5:1 provide 
+smooth operation of the engine.  
+(b) Normal power range or cruising range 
+-From about 20% to 75% of rated power.  
+-Dilution by residual gases as well as leakage decreases, 
+hence fuel economy is important consideration in this case.  
+-Maximum fuel economy occurs at A/F ratio of 17:1 to 
+16.7:1.  
+-Mixture ratios for best economy are very near to the 
+mixture ratios for minimum emissions.  
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1323 
+ 
+(c) Maximum power range 
+-From about 75% to 100% of rated power.  
+-Mixture requirements for the maximum power is a rich 
+mixture, of A/F about 14:1 or F/A 0.07 -Rich mixture also 
+prevents the overheating of exhaust valve at high load and 
+inhibits detonation.  
+-In multi-cylinder engine the A/F ratio are slightly lower.  
+Mixture requirements for transient operation 
+-Carburetor has to provide mixture for transient conditions 
+under which speed, load, temperature, or pressure change 
+rapidly.  
+-Evaporation of fuel may be incomplete in the transient 
+condition, quantity of fuel may be increasing and decreasing. 
+(a) Starting and warm up requirements 
+-Engine speed and temperature are low during the starting 
+of the engine from cold.  
+-During starting very rich mixture about 5 to 10 times the 
+normal amount of petrol is sulpplied i.e. F/A ratio 0.3 to 0.7 
+or A/F ratio 3:1 to 1.5:1.  
+-Mixture ratio is progressively made leaner to avoid too rich 
+evaporated fuel-air ratio during warm up condition.  
+-Too high volatility may form vapour bubbles in the 
+carburetor and fuel lines particularly when engine 
+temperatures are high.  
+-Too low volatility may cause the petrol to condense on the 
+cylinder walls, diluting and removing the lubricating oil film. 
+(b) Acceleration requirements 
+- Acceleration refer to an increase in engine speed resulting 
+from the opening of the throttle.  
+-Acceleration pump is used to provide additional fuel.  
+Simple Carburetor 
+-Provide air-fuel mixture for all operating conditions.  
+-Carburetor depression is pressure differential in the float 
+chamber and venture throat which causes discharge of fuel 
+into the air stream.  
+-Flow is controlled by small hole of fuel passage.  
+-Pressure at the throat at the fully open throttle condition 
+lies between 4 and 5 cm of Hg and seldom exceeds 8 cm Hg.  
+-Petrol engine is quantity governed.  
+-Drawback of simple carburetor is that it provides too rich 
+and too lean mixture due to vacuum created at the throat is 
+too high and too small which is undesirable. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 16: Diagram of simple carburetor 
+Complete Carburetor 
+Additional systems used with simple carburetor can help the 
+engine to operate at all conditions, which are given below,  
+(i) Main metering system 
+-Provide constant fuel-air ratio at wide range of speeds and 
+loads.  
+-Mainly based upon the best economy at full throttle (A/F 
+ratio about 15.6:1).  
+The different metering systems are,  
+Compensating jet device 
+-Addition to the main jet, a compensating jet is provided to 
+provide the leanness effect.  
+Emulsion tube or air bleeding device 
+-Mixture correction is done by air bleeding alone.  
+-In this arrangement main metering jet is fitted about 25 mm 
+below the petrol level which is called as submerged jet.  
+Back suction control or pressure reduction method 
+-In this arrangement large vent line connects the carburetor 
+entrance with the top of the float chamber and another small 
+orifice line is connected with the top of the float chambers 
+with venture throat.  
+-It creates pressure differences according to engine 
+operating conditions.  
+ 
+ 
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1324 
+ 
+Auxiliary valve carburetor 
+-Valve spring of auxiliary valve lift the valve during increase 
+of engine load which increases the vacuum at venture.  
+-Allows more admittance more additional air and the 
+mixture is not over rich.  
+Auxiliary port carburetor 
+-Opening of butterfly allows more air inductance which 
+decreases quantity of fuel drawn.  
+-Used in aircraft carburetors.  
+(ii) Idling system 
+-Idling jet is added for the idling and low load operation 
+which requires rich mixture sof about A/F ratio 12:1.  
+-Consists of small fuel line from the float chamber to a point 
+of throttle side.  
+-Gradual opening of throttle may stop the idling jet. 
+ (iii) Power enrichment or economizer system 
+-This system provides the richer mixture for maximum 
+power range of operation.  
+-It has meter rod economizer of large orifice opening to the 
+main jet as the throttle is opened beyond a certain point. 
+-Rod is tapered or stepped. 
+ (iv) Acceleration pump system 
+-Engine acceleration condition or rapid increase in engine 
+speed may open the throttle rapidly which will not able to 
+provide rich mixture.  
+-Acceleration pump of spring-loaded plunger is used for fuel 
+supply. 
+(v) Choke 
+-Rich mixture is required during cold starting period, at low 
+cranking speed and before the engine warmed up condition.  
+-Butterfly type valve or choke is used between the entrance 
+to the carburetor and venture throat to meet the 
+requirement.  
+-Spring loaded by-pass choke is used in higher speeds.  
+Carburetor types 
+(i) Open choke: Zenith, solex and carter.  
+Constant vacuum type: S.U. carburetor.  
+(ii) Updraught type.  
+Horizontal or downdraught: Mixture is assisted by gravity in 
+its passage to the engine induction. 
+ (a) Solex Carburetor 
+-Provide ease of starting, good performance, and reliability.  
+-Used in Fiat and standard cars and Willey jeep.  
+-Bi-starter is used for cold starting.  
+-Well of emulsion system is used for idling and slow running 
+condition.  
+-Diaphragm type acceleration pump is used for increasing 
+speed case. 
+ (b) Carter Carburetor 
+-Downdraft type carburetor used in jeep.  
+-Has triple venture diffusing type choke in which smallest 
+lies above the level float chamber, other two below the 
+petrol level, one below other.  
+-Multiple venturies result in better formation of the mixture 
+at very low speeds causing steady and smooth operation at 
+very low and high engine speed.  
+-Mechanical metering method is used.  
+-Choke valve is provided in the air circuit for cold starting.  
+-Plunger type acceleration pump is used. 
+ (c) S.U. Carburetor 
+-Constant air-fuel ratio is maintained due to vacuum 
+depression.  
+-Has only one jet.  
+-No separate idling jet or acceleration pump.  
+-Constant high velocity air across the jet may avoid the use of 
+idling jet.  
+-Jet lever arrangement provides the rich mixture in cold 
+starting.  
+-Used in many British cars and Hindustan ambassador car.  
+Drawbacks of modern carburetor 
+-Improper mixture proportion in multi-cylinder engine.  
+-Loss of volumetric efficiency due to obstruction of flow of 
+mixture from choke tubes, jets, throttle valve etc.  
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1325 
+ 
+-Wear of carburetor parts.  
+-Freezing at low temperature.  
+-Surging when carburetor is tilted or during acrobatics in 
+aircraft.  
+-Backfiring in fuel pipe line. 
+Petrol injection 
+-To avoid above problem of modern carburetor, petrol 
+injection is used like in diesel engine.  
+-Petrol injected during the suction stroke in the intake 
+manifold at low pressure.  
+-Injection timing is not much critical as like in diesel engine.  
+-Continuous injection and timed injection methods are used.  
+Continuous injection 
+-Fuel is sprayed at low pressure continuously into the air 
+supply.  
+-Amount of fuel is governed by air throttle opening.  
+-In supercharged engine, fuel injected in the form of multiple 
+spray into the suction side of the centrifugal compressor.  
+-Provide efficient atomization of fuel and uniform mixture 
+strength to all cylinder.  
+-Higher volumetric efficiency.  
+-One fuel injection pump and one injector. 
+ Timed injection system 
+-Similar to high speed diesel engine.  
+-Components are fuel feed or lift pump, fuel pump and 
+distributor unit, fuel injection nozzles and mixture controls.  
+-Mixture controls are automatic for all engine operating 
+conditions. 
+ (i) Multiple plunger jerk pump system 
+-Pump with separate plunger and high injection nozzle 
+pressure for each cylinder.  
+-100 to 300 bar pressure.  
+-Measured quantity of fuel for definite time and over definite 
+period is delivered. 
+  
+ 
+(ii) Low pressure single pump and distributor system 
+-Single plunger or gear pump supply fuel at low pressure to a 
+rotating distributor.  
+-Pressure about 3.5 to 7 bar.  
+(a) Lucas petrol injection system 
+-Firstly, used in racing car.  
+-Single distributor system with novel metering device.  
+-Line pressure is maintained at 7 bar.  
+-Metering distributor and control unit distributes the 
+required amount of fuel at correct time and interval.  
+-Has shuttle arrangements for metering unit.  
+-In aircraft engine two injectors and spark plug provided for 
+direct injection of fuel in combustion chamber. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 17: Diagram of Lucas petrol injection 
+(b) Electronic fuel injection 
+Fuel delivery system:  
+-Electrically driven fuel pump draws fuel from tanks to 
+distribute.  
+-Fuel and manifold pressure kept constant by pressure 
+regulator.  
+Air induction system:  
+-Air flow meter generates voltage signal according to air 
+flow.  
+-Cold start magnetic injection valve give good fuel 
+atomization and also provide extra fuel during warm up 
+condition. 
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1326 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig – 18: Diagram of EFI 
+  Electronic control unit (ECU):  
+-Sensors for manifold pressure, engine speed and 
+temperature at intake manifold.  
+-Sensor measures operating data from locations and 
+transmitted electrically to ECU.  
+Injection timing:  
+-Injected twice for every revolution of crank shaft.  
+-Triggering of injectors. 
+ Diesel injection system 
+Requirements of diesel injection system 
+-Fuel must introduce precisely defined period of cycle.  
+-Amounts metered very accurately.  
+-Rate of injection meet desired heat release pattern.  
+-Quantities of fuel meet changing speed and load condition.  
+-Good atomization of fuel.  
+-Good spray pattern for rapid mixing of fuel and air.  
+-No dribbling and after injection of fuel i.e. sharp injection.  
+-Injection timing suits the speed and load requirements.  
+-Distribution of fuel in multi-cylinder should uniform.  
+-Weight, size and cost of fuel injection system should be less. 
+ Types of diesel injection system 
+(a) Air injection system 
+-Fuel supplied through camshaft driven fuel pump.  
+-Fuel valve is also connected with high pressure airline to 
+inject into cylinder.  
+-Multi-stage compressor which supply air at a pressure of 
+about 60 to 70 bar. 
+ 
+Fig- 19: Diagram of Air Injection System 
+-Blast air sweeps the fuel along with it.  
+-Good atomization results in good mixture formation and 
+hence high mean effective pressure.  
+-Heavy and viscous fuels are used  
+-Fuel pump require small pressure.  
+-But it is complicated due to compressor arrangement and 
+expensive.  
+-Bulky engine and low bhp.  
+-Overheating and burning of valve seat.  
+(b) Solid injection system 
+-Fuel directly injected to combustion chamber without 
+primary atomization termed as solid injection.  
+-Also known as airless mechanical injection.  
+-2 units-pressurize and atomizing unit.  
+3 different types which are described below,  
+(i) Individual pump and injector or jerk pump system: 
+-Separate metering and compression pump are used for each 
+cylinder.  
+-Reciprocating fuel pump is used to meter and set the 
+injection pressure of the fuel.  
+-Heavy gear arrangements which gives jerking noise; hence 
+name is given is jerk pump.  
+-Jerk pump is used for medium and high-speed diesel 
+engines. 
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1327 
+ 
+ 
+Fig – 20: Injector System 
+(ii) Common rail system 
+-High pressure fuel pump delivers fuel to an accumulator 
+whose pressure is constant.  
+-Plunger type of pump is used.  
+-Driving mechanism is not stressed with high pressure hence 
+noise is reduced.  
+-Common rail or pipe is connected in between accumulator 
+and distributing elements.  
+-Separate metering and timing elements connected to 
+automatic injector.  
+-Self-governing type. 
+ 
+Fig – 21: Common rail system 
+(iii) Distributor system 
+-Fuel pump pressurizes, meters and times the fuel supply to 
+rotating distributor.  
+-Number of injection strokes per cycle for the pump equals 
+to the number of cylinders.  
+-One metering element which ensure uniform distribution. 
+ 
+Fig – 22: Diagram of distributor system 
+Fuel Injectors 
+3 main types of fuel injectors,  
+Blast injector 
+-These are superseded by mechanically operated injectors 
+used in air injection system. 
+Mechanically operated injector 
+-Consist of a set of camshaft, cams and rocker gear and other 
+cams for controlling the timing of the fuel injection.  
+Automatic injector 
+-Consists of spring-loaded needle valve and operated 
+hydraulically by the pressure of fuel.  
+-Quantity of fuel is metered by the fuel pump. 
+ Types of nozzles 
+(a) Depends on the type of combustion chamber, 
+Open combustion chamber 
+-Fuel seeks air.  
+-Air swirl is created due to inclined induction port.  
+-Multi-hole nozzle injects fuel at a pressure of about 200 to 
+300 bar to slow moving air.  
+-Provide good cold starting performance and improved 
+thermal efficiency. 
+ Pre-combustion chamber 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1328 
+ 
+-Air velocity is very much high.  
+-Single hole nozzle with 65 to 100 bar injection pressure is 
+used.  
+-Used in high speed engine due to rapid combustion.  
+-External heating device for easy starting of the engine. 
+ (b) Open and closed type of nozzle 
+Open type  
+-Consists of fuel orifices and open to burner.  
+-Cheap and less efficient.  
+Ex- opposed piston two-stroke Junkers diesel engine  
+Closed type: pressure drop is minimized compared to open 
+type.  
+(c) Different types of nozzle for different combustion 
+chamber 
+(i) Single hole nozzle 
+-Used in open combustion chamber.  
+-Size of hole larger than 0.2 mm.  
+-Very high injection pressure required.  
+(ii) Multi-hole nozzle 
+-No. of hole varies from 4 to 18 and the size from 1.5 to 0.35 
+mm.  
+-Injection rate is not uniform.  
+(iii) Pintle nozzle 
+-A projection or pintle is provided in the nozzle to avoid 
+weak injection and dribbling.  
+-Pintle may be cylindrical or conical shape.  
+-Cone angle varied from 0 to 60ᵒ.  
+-Provide good atomization and reduced penetration.  
+-Fuel pressures are lower than single and multi-hole nozzle. 
+ (iv) Pintaux Nozzle 
+-Injected fuel in upstream of air.  
+-Development of pintle nozzle with auxiliary hole drilled in 
+the nozzle body.  
+-Reduced delay period and increased thermal efficiency. 
+Assembly view of a V8 Engine 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          International Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056 
+                Volume: 06 Issue: 09 | Sep 2019                   www.irjet.net                                                                    p-ISSN: 2395-0072 
+ 
+© 2019, IRJET       |       Impact Factor value: 7.34       |       ISO 9001:2008 Certified Journal       |     Page 1329 
+ 
+The complete overview V8 Engine is given above. 
+CONCLUSION: 
+Internal Combustion engines are among the most important 
+engineering applications. The theory of applications either 
+depends on Diesel or Otto cycles. They are categorized either 
+according to the operating cycle, or due to the mechanism of 
+working. Each type of engines has some advantages over the 
+other one. Thus, the selection of the appropriate engine 
+requires determining the conditions of applications.  
+REFERENCE: 
+1. https://www.youtube.com/watch?v=Hna4V7-FJ08 
+2. “INTERNAL COMBUSTION ENGINE” by V Ganesan. 
+3. http://www.howstuffworks.com/two-strokes.htm 
+4.http://www.uq.edu.au/~e4nsdja/teaching/e4213/Related
+/Cycles/Diesel.htm 
+5.http://www.uq.edu.au/~e4nsdja/teaching/e4213/Related
+/Cycles/Otto.htm 
+6. www.vssutac.in 
+ 

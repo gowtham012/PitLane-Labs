@@ -1,0 +1,596 @@
+IJSRD - International Journal for Scientific Research & Development| Vol. 4, Issue 11, 2017 | ISSN (online): 2321-0613 
+ 
+All rights reserved by www.ijsrd.com 
+548 
+Design and Analysis of Connecting Rod with Mass Optimization 
+Apurv Mukund Dubey1 Lakhan Ashokji Mohta2 
+1,2B. Tech. Student 
+1,2Department of Mechanical Engineering 
+1,2Government College of Engineering, Amravati, Amravati, Maharashtra, India
+Abstract— Connecting rod is the intermediate link between 
+the piston and the crank. It is responsible to transmit the push 
+and pull from the piston pin to crank pin, thus converting the 
+reciprocating motion of the piston to rotary motion of the 
+crank. The main idea of this study is to do analysis of 
+connecting rod and get idea of stress producing during 
+compressive and tensile loading. Later it gives idea about 
+weight reduction opportunities for a production steel 
+connecting rod. This has entailed performing a detailed load 
+analysis. Therefore, this study contain two subjects, first, 
+load and stress analysis of the connecting rod, and second, 
+optimization for weight reduction. In the first part of the 
+study, loads acting on the connecting rod and find out 
+stresses. In second part the existing design is optimized and 
+mass reduction is achieved. 
+Key words: FEA, FEM, CAD, Optimization 
+I. INTRODUCTION 
+A. Single Slider Crank chain 
+A single slider crank chain is a modification of basic four 
+bar chain. It consists of one sliding and three turning pairs. It 
+is usually found in reciprocating steam engine mechanism. 
+This mechanism convert rotary motion into reciprocating 
+motion and vice versa. 
+ 
+Fig. 1: Single slider crank mechanism 
+In single slider crank chain as shown in Fig 1.1 the 
+link 1 and link 2 ,and link 2 and link 3, and links 3 and 4, 
+form three turning pairs while the link 4 & 1 form sliding 
+pair. 
+The link 1 corresponds to frame of engine which is 
+fixed. The link 2 corresponds to crank; link 3 corresponds to 
+connecting rod and link 4 corresponds to cross head. As the 
+crank rotates the cross head reciprocates in the guides and 
+thus piston reciprocates in the cylinder. 
+B. Introduction to Connecting Rod 
+Connecting rod is the intermediate link between the piston 
+and the crank. And is responsible to transmit the push and 
+pull from the piston pin to crank pin, thus converting the 
+reciprocating motion of the piston to rotary motion of the 
+crank. Connecting rod, automotives should be lighter and 
+lighter, should consume less fuel and at the same time they 
+should provide comfort and safety to passengers, that 
+unfortunately leads to increase in weight of the vehicle. This 
+tendency in vehicle construction led the invention and 
+implementation of quite new materials which are light and 
+meet design requirements. Lighter connecting rods help to 
+decrease lead caused by forces of inertia in engine as it does 
+not require big balancing weight on crankshaft. 
+Connecting rods for automotive applications are 
+typically manufactured by forging from either wrought steel 
+or powdered metal. They could also be cast. However, 
+castings could have blow-holes which are detrimental from 
+durability and fatigue points of view. The fact that forgings 
+produce blow-hole-free and better rods gives them an 
+advantage over cast rods. 
+ 
+Fig. 2: Connecting rod 
+In a reciprocating piston engine, the connecting rod 
+connects the piston to the crank or crankshaft. In modern 
+automotive internal combustion engines, the connecting rods 
+are most usually made of steel for production engines, but 
+can be made of aluminium (for lightness and the ability to 
+absorb high impact at the expense of durability) or titanium 
+(for a combination of strength and lightness at the expense 
+of affordability) for high performance engines, or of cast 
+iron for applications such as motor scooters. 
+Connecting rods are highly dynamically loaded 
+components used for power transmission in combustion 
+engines. The optimization of connecting rod had already 
+started as early year 1983 by Webster and his team. 
+However, each day consumers are looking for the best from 
+the best. That’s why the optimization is really important 
+especially in automotive industry. Optimization of the 
+component is to make the less time to produce the product 
+that is stronger, lighter and less cost. The design and weight 
+of the connecting rod influence on car performance. Hence, 
+it is effect on the car manufacture credibility. Change in the 
+structural design and also material will be significant 
+increments in weight and performance of the engine. 
+Due to its large volume production, it is only 
+logical that optimization of the connecting rod for its weight 
+or volume will result in large-scale savings. It can also 
+achieve the objective of reducing the weight of the engine 
+component, thus reducing inertia loads, reducing engine 
+weight and improving engine performance and fuel 
+economy. 
+C. Introduction to CATIA 
+CATIA (Computer Aided Three-Dimensional Interactive 
+Application) commonly referred to as a 3D Product 
+Lifecycle Management software suite. CATIA supports 
+Design and Analysis of Connecting Rod with Mass Optimization 
+ (IJSRD/Vol. 4/Issue 11/2017/144) 
+ 
+ 
+All rights reserved by www.ijsrd.com 
+549 
+multiple 
+stages 
+of 
+product 
+development, 
+including 
+conceptualization, design (CAD), engineering (CAE) and 
+manufacturing (CAM). CATIA facilitates collaborative 
+engineering across disciplines around its 3DEXPERIENCE 
+platform, including surfacing and space design, mechanical 
+engineering and system engineering. 
+D. Introduction to ANSYS 
+ANSYS is general-purpose Finite Element Modeling and 
+Analysis software package. Finite Element Analysis is a 
+numerical method of deconstructing a complex system into 
+very small pieces (of user-designated size) called elements. 
+The software implements equations that govern the behavior 
+of these elements and solves them all; creating a 
+comprehensive explanation of how the system acts as a 
+whole. This type of analysis is typically used for the design 
+and optimization of a system far too complex to analyze by 
+hand. ANSYS provides a cost-effective way to explore the 
+performance of products or processes in a virtual 
+environment. This type of product development is termed 
+virtual prototyping. With virtual prototyping techniques, 
+users can iterate various scenarios to optimize the product 
+long before the manufacturing is started. This enables a 
+reduction in the level of risk, and in the cost of ineffective 
+designs. ANSYS 14.0 is used for having the best 
+computational results. 
+II. LITERATURE REVIEW 
+The connecting rod is subjected to a complex state of 
+loading. It undergoes high cyclic loads of the order of 108 to 
+109 cycles, which range from high compressive loads due to 
+combustion, to high tensile loads due to inertia. Therefore, 
+durability of this component is of critical importance. Due to 
+these factors, the connecting rod has been the topic of 
+research for different aspects such as production technology, 
+materials, performance simulation, fatigue, etc. For the 
+current study, it was necessary to investigate finite element 
+modeling 
+techniques, 
+optimization 
+techniques, 
+developments in production technology, new materials, 
+fatigue modeling, and manufacturing cost analysis. This 
+brief literature survey reviews some of these aspects. 
+Webster et al. (1983) performed three dimensional 
+finite element analysis of a high-speed diesel engine 
+connecting rod. For this analysis they used the maximum 
+compressive load which was measured experimentally, and 
+the maximum tensile load which is essentially the inertia 
+load of the piston assembly mass. The load distributions on 
+the piston pin end and crank end were determined 
+experimentally. They modeled the connecting rod cap 
+separately, and also modeled the bolt pretension using beam 
+elements and multi point constraint equations. 
+Kuldeep B, Arun L.R, Mohammed Faheem [3] in 
+which they replaced   connecting rod by aluminum based 
+composite material reinforced with silicon carbide and fly 
+ash. And it also describes the modelling and analysis of 
+connecting rod. FEA analysis was carried out by considering 
+two materials. The parameters like von miss stress, von 
+misses strain and displacements were obtained from ANSYS 
+software. Compared to the former material the new material 
+found to have less weight and better stiffness. It resulted in 
+reduction of 43.48% of weight, with 75% reduction in 
+displacement. 
+Mr. 
+J.D.Ramani, 
+Prof. 
+Sunil 
+Shukla, 
+Dr. 
+Pushpendra Kumar Sharma (2014) [4] studied the various 
+loads acting on connecting rod and then modeled the 
+connecting rod in Pro-E. They performed the analysis of 
+connecting rod using ANSYS 14 under the action of 
+compressive as well as tensile loads. In later part of analysis 
+they gave a brief idea of mass optimization of connecting 
+rod. 
+M.S. Shaari, M.M. Rahman, M.M. Noor, K. 
+Kadirgama and A.K. Amirruddin [5] designed connecting 
+rod of internal combustion engine using the topology 
+optimization. The objectives of this paper are to develop 
+structural modeling, finite element analyze and the 
+optimization of the connecting rod for robust design. The 
+structure 
+of 
+connecting 
+rod 
+was 
+modeled 
+utilized 
+SOLIDWORKS software. Finite element modeling and 
+analysis were performed using MSC/ PATRAN and MSC 
+/NASTRAN software. Linear static analysis was carried out 
+to obtain the stress/strain state results. The mesh 
+convergence analysis was performed to select the best mesh 
+or the analysis. The topology optimization technique is used 
+to achieve the objectives of optimization which is to reduce 
+the weight of the connecting rod. From the FEA analysis 
+Result s, TET10 predicted higher maximum stress than 
+TET4 and maximum principal stress captured the maximum 
+stress. The crank end is suggested to be redesign based on 
+the topology optimization results. The optimized connecting 
+rod is 11.7% lighter and predicted low maximum stress 
+compare to initial design. For future research, the 
+optimization should cover on material optimization to 
+increase the strength of the connecting rod.  
+K. Sudershan Kumar, Dr. k. Tirupathi Reddy, Syed 
+Altaf Hussan “Modeling and analysis of two Wheeler 
+connecting rod” [6] in this project connecting rod is replaced 
+by Aluminum reinforced with Boron carbide for Suzuki 
+GS150R motorbike. A 2D drawing is drafted from the 
+calculations. A parametric model of connecting rod is 
+modelled using PRO-E 4.0 software. Analysis is carried out 
+by using ANSYS software. Finite element analysis of 
+connecting rod is done by considering two materials, viz.. 
+Aluminum Reinforced with Boron Carbide and Aluminum 
+360. The best combination of parameters like Von misses 
+stress and strain, Deformation, Factor of safety and weight 
+reduction for two wheeler piston were done in ANSYS 
+software. Compared to carbon steel, aluminum boron 
+carbide and aluminum 360, Aluminum boron carbide is 
+found to have working factor of safety is nearer to 
+theoretical factor of safety, 33.17% to reduce the weight, to 
+increase the stiffness by 48.55% and to reduce the stress 
+by10.35% and most stiffer. 
+Vivek.c.pathade, Bhumeshwar Patle, Ajay N. 
+Ingale ”Stress Analysis of I.C. Engine Connecting Rod by 
+FEM” [7] dealt with the stress analysis of connecting rod by 
+finite element method using pro-e wild fire 4.0 and ansys 
+work bench 11.0 software. And concluded that the stress 
+induced in the small end of the connecting rod are greater 
+than the stresses induced at the bigger end, therefore the 
+chances of failure of the connecting rod may be at the fillet 
+section of both end. 
+Om 
+Parkash, 
+Vikas 
+Gupta, 
+Vinod 
+Mittal 
+“Optimizing the Design of Connecting Rod under Static and 
+Fatigue Loading” [8] main objective of this work is to re-
+Design and Analysis of Connecting Rod with Mass Optimization 
+ (IJSRD/Vol. 4/Issue 11/2017/144) 
+ 
+ 
+All rights reserved by www.ijsrd.com 
+550 
+optimize the existing design of connecting rod of universal 
+tractor (U650) by changing some of the design variables 
+.The existing design performs modelling and evaluates 
+critical regions in the connecting rod under fatigue loading. 
+In the present work, 
+The model is developed, analyzed and designed 
+using CATIA 19, PRO-E and ANSYS workbench v12. 
+Optimization of connecting rod is done under same 
+boundary and loading conditions for variation in the few 
+stress and fatigue parameters i.e. stresses, weight, life, 
+damage, bi-axiality indication and safety factor. The 
+allowable numbers of cycles under fully reversed fatigue 
+loading are increased and assumed up to a maximum limit 
+of 109 cycles. Stress concentration coefficient is varied to 
+obtain the maximum cycles condition. The critical regions 
+under both static and fatigue analysis are identified and 
+improved. The connecting rod is modelled and optimized for 
+the reduced weight, improved life and manufacturability. 
+The results obtained from performed analysis can be used to 
+modify the design of existing connecting rod, so that better 
+performance 
+i.e. 
+reduced 
+inertia, 
+fatigue 
+life 
+and 
+manufacturability can be obtained under varying static and 
+fatigue conditions. 
+In a published SAE case study (1997), a 
+replacement connecting rod with 14% weight savings was 
+designed by removing material from areas that showed high 
+factor of safety. Factor of safety with respect to fatigue 
+strength was obtained by performing FEA with applied 
+loads including bolt tightening load, piston pin interference 
+load, compressive gas load and tensile inertia load. The 
+study lays down certain guidelines regarding the use of the 
+fatigue limit of the material and its reduction by a certain 
+factor to account for the as-forged surface. The study also 
+indicates that buckling and bending stiffness are important 
+design factors that must be taken into account during the 
+design process. On the basis of the stress and strain 
+measurements performed on the connecting rod, close 
+agreement was found with loads predicted by inertia theory. 
+The study also concludes that stresses due to bending loads 
+are substantial and should always be taken into account 
+during any design exercise. 
+III. SYSTEM DEVELOPMENT 
+A. Material of connecting rod 
+Connecting rod is manufactured by drop forging process or 
+by casting process. Generally for high strength and, material 
+saving drop forging process is more commonly used. 
+Various materials such as wrought steel forged steel, cast 
+iron, aluminum, titanium, powdered metal etc. Most 
+commonly use material among these is forged steel. The 
+material properties of forged steel are as follows. 
+Sr.no 
+Property 
+Value 
+1 
+Young’s Modulus of Elasticity (GPa) 
+201 
+2 
+Poisson’s ratio 
+0.33 
+3 
+Density (kg/m3 ) 
+7850 
+4 
+Yield stress (MPa) 
+550 
+Table 1: Properties of Forged steel 
+B. Detailed Dimensions of Connecting Rod 
+ 
+ 
+Fig. 3: Detailed dimensions of connecting rod 
+ 
+Fig. 4: Cross section of connecting rod 
+C. CAD Model Development 
+Detailed dimensions of connecting rod are shown in Fig.3 
+and Fig.4. CAD modeling software is dedicated for the 
+specialized job of 3D-modelling. The model of the 
+connecting rod includes many complicated parts. . It is very 
+essential that the developed computer model is exactly a 
+replica of the physical specimen. The connecting rod has 
+been modelled in CATIA V5 R20 as shown in Fig.5. 
+Connecting rod modelled in Part Design Workbench. Two 
+modules of CATIA V5 R20 are used to develop the model 
+of connecting rod. 
+ 
+Sketcher Module. 
+ 
+Part Module. 
+ 
+Fig. 5: Developed CAD model of connecting rod 
+IV. FEA OF CONNECTING ROD 
+Element analysis (FEA) has become common place in 
+recent years, and is now the basis of a multibillion dollar per 
+year industry. Numerical solutions to even very complicated 
+stress problems can now be obtained routinely using FEA, 
+and the method is so important that even introductory 
+treatments of mechanics of materials such as these modules 
+should outline its principal features. 
+FEA is having a large number of advantages such 
+as the results can be visualized easily, the time of design is 
+less, number of prototypes to be produced decreased, testing 
+of prototypes has become easy, optimum design is achieved 
+etc. 
+Design and Analysis of Connecting Rod with Mass Optimization 
+ (IJSRD/Vol. 4/Issue 11/2017/144) 
+ 
+ 
+All rights reserved by www.ijsrd.com 
+551 
+A. Static Analysis of connecting rod  
+ANSYS 14 Mechanical APDL model was used for the 
+analysis of connecting rod. CAD model of connecting rod 
+was imported in ANSYS. Later Structural analysis was 
+performed using following general procedure: 
+1) The CAD model was imported in ANSYS workbench 
+2) 10 node SOLID 187 element was selected for meshing 
+3) Material properties were defined. 
+4) Model was meshed with element size as 2 mm 
+5) Boundary conditions were applied 
+6) Solution was done 
+7) Results were analysed 
+1) Element Type 
+10 node SOLID 187 as shown in Fig.6. was the element 
+selected for meshing the CAD model of connecting rod. 
+SOLID187 element is a higher order 3-D, 10-node element. 
+SOLID187 has quadratic displacement behaviour and is well 
+suited to modelling irregular meshes. The element is defined 
+by 10 nodes having three degrees of freedom at each node: 
+translations in the nodal x, y, and z directions. The element 
+has plasticity, hyper elasticity, creep, stress stiffening, large 
+deflection, and large strain capabilities. It also has mixed 
+formulation capability for simulating deformations of nearly 
+incompressible 
+elastoplastic 
+materials, 
+and 
+fully 
+incompressible hyper elastic materials. The minimum edge 
+length of the element was given as 2mm. This resulted in 
+55871 elements in the finite element model. 
+ 
+Fig. 6: Geometry of SOLID187 
+2) Material Properties 
+As discussed earlier the material selected for analysis is 
+forged steel and material properties given in Table I are 
+used. 
+3) Boundary conditions 
+Boundary conditions mean the constraints and forces 
+applied to the FE model. In this case the analysis is carried 
+out for compression and tension so different boundary 
+conditions are applied to the FE model in both the cases. 
+In compression and tension maximum gas pressure 
+of 16 MPa is applied on the connecting rod. For 
+compressive loading 16 MPa pressure is applied at the small 
+end and big end is kept fixed. For tensile loading 16 MPa 
+pressure is applied at big end and small end is kept fixed. 
+The results obtained are as shown in Fig.7 and Fig.8 and are 
+summarized in Table 2. 
+ 
+ 
+Fig. 7: Stresses and displacement of connecting rod in 
+compressive loading condition 
+ 
+ 
+Fig. 8: Stresses and displacement of connecting rod in 
+tensile loading condition 
+Sr. 
+No. 
+Loading 
+condition 
+Load 
+applied 
+(MPa) 
+Maximum 
+Stress 
+(N/mm2) 
+Maximum 
+Displacement 
+(mm) 
+1 
+Compressive 
+16 
+132.971 
+0.021969 
+2 
+Tensile 
+16 
+141.172 
+0.024548 
+Table 2: Results of static analysis of connecting rod 
+V. OPTIMIZATION 
+Optimization means an act, process or methodology of 
+making something (a design, system) as fully perfect, 
+functional, or effective as possible. As stated earlier in the 
+objectives of the project one of the objectives was 
+optimization of the design for mass reduction. Generally 
+optimization is done in terms of mass reduction or weight 
+reduction due to following two reasons: 
+ 
+As mass reduces material saving takes place and thus 
+cost of production reduces 
+ 
+As mass reduces the inertia forces acting on the rod 
+reduces 
+In the optimization on current design the second 
+aspect is used i.e. shape optimization. Some of the material 
+is removed from the shank by giving a slight chamfer on its 
+lateral edges. Due addition of this chamfer the mass of 
+Design and Analysis of Connecting Rod with Mass Optimization 
+ (IJSRD/Vol. 4/Issue 11/2017/144) 
+ 
+ 
+All rights reserved by www.ijsrd.com 
+552 
+connecting rod is reduced by 9.89 grams. More amount of 
+mass can be reduced by using composites of aluminum 
+which are lighter in weight and have same strength as forged 
+steel. The CAD model of optimized design of connecting 
+rod is shown in Fig.9. The cross section of optimized design 
+is shown in the Fig.10. 
+The main objective of optimization is to reduce 
+mass and increase the strength of the existing design. In this 
+project after optimizing the design it was found that the 
+stresses induced are also reduced. Thus optimizing the 
+design does not alter its safety and hence optimized design 
+is also safe. 
+Similar boundary conditions were applied to the 
+optimized design and the results obtained are summarized in 
+Table III. 
+ 
+Fig. 9: CAD model Optimized design of connecting rod 
+ 
+Fig. 10: Cross section of connecting rod 
+Sr. 
+No. 
+Loading 
+condition 
+Load 
+applied 
+(MPa) 
+Maximum 
+Stress 
+(N/mm2) 
+Maximum 
+Displacement 
+(mm) 
+1 
+Compressive 
+16 
+129.791 
+0.023419 
+2 
+Tensile 
+16 
+149.86 
+0.02599 
+Table 3: Summary for optimized design of connecting rod 
+VI. CONCLUSION 
+The design of a standard connecting rod was modeled in 
+CATIA and then static analysis was carried out with the 
+help of ANSYS 14. Static analysis was carried out for 
+compressive and tensile loading conditions. So following 
+conclusions are derived: 
+ 
+The stresses were found to be less than permissible 
+value and hence the design is safe in both compression 
+as well as in tensile loading. 
+ 
+Optimization is done and mass is reduced by 9.89 
+grams. 
+ 
+The stresses induced in optimized design are found to 
+be less than the original stress value. Thus strength is 
+increased. 
+REFERENCES 
+[1]  http://www1.ansys.com/customer/content/documentatio
+n/121/ans_tut.pdf 
+[2]  Nitin S. Gokhale, Sanjay S. Deshpande, Sanjeev 
+V.Bedekar, Anand N Thite “Practical Finite Element 
+Analysis” First Edition. 
+[3]  Kuldeep B, Arun L.R, Mohammed Faheem, “ Analysis 
+and optimization of connecting rod using ALFASiC 
+Composite 
+material”, 
+International 
+Journal 
+of 
+Innovative Research in Science, Engineering and 
+Technology, June 2013. 
+[4]  Mr. J.D.Ramani, Prof. Sunil Shukla, Dr. Pushpendra 
+Kumar Sharma, “FE-Analysis of Connecting Rod of 
+I.C.Engine 
+by 
+Using 
+ANSYS 
+for 
+Material 
+Optimization”, Mr. J.D.Ramani et al Int. Journal of 
+Engineering Research and Applications ISSN : 2248-
+9622, Vol. 4, Issue 3( Version 1), March 2014, pp.216-
+220. 
+[5]  M.S. Shaari, M.M. Rahman, M.M. Noor, K. Kadirgama 
+and A.K. Amirruddin, “Design of connecting rod of 
+internal combustion engine: A Topology Optimization 
+Research” 
+National 
+Conference 
+in 
+Mechanical 
+Engineering Research and Postgraduate Studies (2nd 
+NCMER 2010) 3-4 December 2010, Faculty of 
+Mechanical 
+Engineering, 
+UMP 
+Pekan, 
+Kuantan, 
+Pahang, Malaysia; pp. 155-166 ISBN: 978-967-0120-
+04-1. 
+[6]  K. Sudershan Kumar, Dr. k. Tirupathi Reddy, Syed 
+Altaf Hussan “Modeling and analysis of two Wheeler 
+connecting rod”, International Journal of Modern 
+Engineering Research,   Vol -2, Issue- 5, pp-3367-3371, 
+Sep-Oct-2012. 
+[7]  Vivek.c.pathade, Bhumeshwar Patle, Ajay N. Ingale 
+”Stress Analysis of I.C. Engine Connecting Rod by 
+FEM”, International Journal of Engineering and 
+Innovative Technology, Vol-1, Issue-3, pp-12-15, 
+March2012. 
+[8]  Om Parkash, Vikas Gupta, Vinod Mittal “Optimizing 
+the Design of Connecting Rod under Static and Fatigue 
+Loading”, International Journal of Research 
+in 
+Management, Science & Technology (E-ISSN: 2321-
+3264) Vol. 1; No. 1, June 2013. 

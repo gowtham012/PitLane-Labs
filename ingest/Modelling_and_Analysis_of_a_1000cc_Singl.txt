@@ -1,0 +1,224 @@
+IJSTE - International Journal of Science Technology & Engineering | Volume 5 | Issue 4 | October 2018 
+ISSN (online): 2349-784X 
+ 
+All rights reserved by www.ijste.org 
+1 
+Modelling & Analysis of a (1000cc, Single 
+Cylinder Engine) Crankshaft using ANSYS 
+Software 
+ 
+ 
+Abhinav Singh 
+Harish Mishra 
+Madan Mohan Malaviya, University of Technology, India 
+Madan Mohan Malaviya, University of Technology, India 
+ 
+ 
+Nitesh Singh 
+Madan Mohan Malaviya, University of Technology, India 
+ 
+Abstract 
+Crankshaft is large volume manufacture constituent with a multifaceted geometry in the I.C Engine. This transforms the 
+reciprocating or the to and fro movement of the piston into a rotary motion of the crank. An effort is made in this research paper 
+to comprehend and study the Static analysis on a crankshaft from a single cylinder 1000cc 4-stroke I.C Engine. The designing of 
+the crankshaft is done using CATIA-V5 Software. Finite element analysis (FEA) is carried out to gain the variation of stress at 
+critical and serious locations and positions of the crank shaft using the ANSYS software and applying the suitable boundary 
+conditions as per the need. Franz Langer held the record for the biggest and the largest displacement single cylinder motorbike 
+engine, with a 1000cc thumper built in 1998; and this invention really made a dent in the universe. Further the enhancements were 
+made in this design and presently the beast holds a capacity of 2000 cc, commissioning a single cylinder only.                 
+Keywords: Crankshaft, Finite Element Analysis (FEA), ANSYS Software, Static Analysis  
+________________________________________________________________________________________________________ 
+ 
+I. INTRODUCTION 
+Crank shaft is a big component with a complex geometry in the I.C engine, which converts the reciprocating drive of the piston to 
+a rotary motion with a four-bar link mechanism. 
+ Crankshaft involves shaft parts, two journal bearings and one crankpin bearing. In addition to this, the linear displacement of an 
+engine is not smooth; as the displacement is caused by the combustion chamber therefore the displacement has sudden shocks. The 
+idea of employing crankshaft is to modify these sudden displacements to a very even rotary output, which is obviously the input 
+to various devices such as generators, pumps and compressors. It should also be specified that the use of a flywheel helps in 
+levelling the shocks. 
+Combustion and inertia forces acting on the crankshaft. 
+1) Torsional load 
+2) Bending load. 
+Crankshaft must be robust enough to take the downward force of the power stroke without excessive bending so the reliability and 
+life of the internal combustion engine depend on the strength of the crankshaft largely. 
+ The crank pin is like a built-in beam with a distributed load along its length that varies with crank positions. Each web is like a 
+cantilever beam subjected to bending and twisting. 
+1) Bending moment which causes tensile and compressive stresses. 
+Modelling & Analysis of a (1000cc, Single Cylinder Engine) Crankshaft using ANSYS Software  
+(IJSTE/ Volume 5 / Issue 4 / 001) 
+ 
+ 
+All rights reserved by www.ijste.org 
+2 
+2) Twisting moment causes shear stress. 
+ There are many sources of failure in the engine one of the most common crankshaft failure is fatigue at the fillet areas due to 
+the bending load causes by the combustion. The moment of combustion the load from the piston is transmitted to the crankpin, 
+causing a large bending moment on the entire geometry of the crankshaft. At the root of the fillet areas stress concentrations exist 
+and these high stress range locations are the points where cyclic loads could cause fatigue crank initiation leading to fracture. 
+II. RECOGNITION OF NEED 
+Franz Langer held the record for the largest displacement single cylinder motorcycle engine, with a 1000cc thumper built in 
+1998.Further the improvements were made in this design and currently the beast holds a capacity of 2000 cc, employing a single 
+cylinder only. 
+ Now, for such a beast there must be a finely and carefully designed crankshaft to ensure the proper working of the I.C engine; 
+thus, a need for designing this crankshaft was felt. 
+ However, in our project we are trying to reproduce a crankshaft that would have been used in that original engine by following 
+the fundamental steps of machine design. 
+III. PROBLEM STATEMENT (SPECIFYING THE PROBLEM) 
+To design a crankshaft for a NSU 1000 cc single cylinder thumper engine. 
+IV. MATHEMATICAL MODEL FOR CRANKSHAFT 
+Cylinder bore (in mm) 
+125 
+(L/R) ratio 
+4.5 
+Maximum gas pressure (in Mpa) 
+2.5 
+Length of stroke (in mm) 
+150 
+Weight of flywheel (in kN) 
+1 
+Total pull on sprocket (in kN) 
+2 
+The crank is at angle with the line of dead centre positions and subjected to maximum torsional moment. 
+1) Step 1: The crank angle (𝜃) for maximum torsional moment condition is given as 25° . 
+Since, p1 is gas pressure on the piston top for maximum torque condition. 
+PP = (𝜋𝐷2/4) p1 
+= 24543.69 N 
+sin ∅= 𝑠𝑖𝑛𝜃/(
+𝐿
+𝑟) 
+= 0.09392 
+Thus, ∅= 5.39° 
+Now, the thrust on connecting rod (PQ) is given by, 
+PQ = PP/ cos∅ 
+= 24652.69 N 
+Therefore, Pt = PQ sin (𝜃+∅) 
+= 12471.38 N 
+ 
+PR = PQ cos (𝜃+∅) 
+= 21265.46 N 
+2) Step 2: Bearing reactions 
+The forces acting on the centre crankshaft are at an angle of maximum torque. 
+The crankshaft is supported on three bearings. 
+Let us assume, 
+b = 250 mm and c = 300 mm 
+b1= b2 = b/2 = (250/2) = 125mm 
+c1= c2 = c/2 = 150 mm 
+By symmetry, 
+(R1) v = (R2) v = (PR/2) = 10632.73 N 
+(R1) h = (R2) h = (Pt/2) = 6235.69 N 
+(R2’) v = (R3’) v = 500 N 
+(R2’) h = (R3’) h = 1000 N 
+3) Step 3: Design of crank pin the central plane of the crank pin is subjected to the bending moment Mb due to (R1) v and torsional 
+moment MT due to (R1) h. 
+Let us assume, allowable shear stress = 40 Mpa. 
+The diameter of the crank pin (dc) is, 
+Modelling & Analysis of a (1000cc, Single Cylinder Engine) Crankshaft using ANSYS Software  
+(IJSTE/ Volume 5 / Issue 4 / 001) 
+ 
+ 
+All rights reserved by www.ijste.org 
+3 
+dc3 = (16*√(Mb2 + MT2))/2 
+= 179.4 * 103 
+dc = 56.4 mm 
+But, considering the bending stress also into account let us assume the dc = 65 mm = lc 
+4) Step 4: Design of shaft under ﬂywheel 
+Suppose, dS = diameter of shaft under ﬂywheel (mm) 
+The central plane of the shaft is subjected to maximum bending moment due to the reaction R3. 
+Mb = (R3)* c2 
+It is also subjected to torsional moment Mt due to tangential component Pt. 
+MT = PT * r 
+R3 = √(500)2 + (1000)2 
+= 1118.03 mm 
+ds3 = (16*√(Mb2 + MT2))/𝜏𝜋) 
+= 120.99 * 103 
+ds = 50 mm 
+5) Step V: Design of shaft at the juncture of right-hand crank web 
+The cross-section of the shaft under ﬂywheel at the juncture of the right-hand crank web is subjected to the following moments: 
+Bending moment in vertical plane, (Mb)v 
+Bending moment in horizontal plane, (Mb)h 
+Torsional moment MT 
+(Mb)v = (R1)v (b1 + lc/2 + t/2) – Pr (lc /2 + t/2) 
+= 738.97 *103 N-mm 
+(Mb)h  =  (R1)h(b1 + lc/2 + t/2) – Pt (lc /2 + t/2) 
+= 433.38 * 103 N-mm 
+The resultant bending moment Mb is: 
+856.68* 103 N-mm 
+The diameter of the shaft ds1 is: 
+ds13 = (16*√(Mb2 + MT2))/𝜏𝜋) 
+= 161.5 * 103 
+ds1 = 55mm 
+6) Step 6: Design of right-hand crank web 
+The right-hand crank web is subjected to the following stresses: 
+Bending stresses in vertical and horizontal planes due to radial component Pr and tangential component Pt respectively. 
+Direct compressive stress due to radial component Pr. 
+Torsional shear stresses. 
+The bending moment due to the radial component is given by, 
+(Mb)r = (R2)v [ b2 – lc/2 – t/2] 
+= 738.97 * 103 N - mm 
+Also, (Mb)r  = (𝜎b)r *(wt2/6) 
+Thus, (𝜎b)r  =  27.94 Mpa 
+Also, 
+The tangential stress due to tangential component at the juncture of the crank web and shaft is: 
+(𝜎b)t  = 13.74 Mpa 
+The direct compressive stress due to radial component is given by, 
+(𝜎c)d = Pr/2wt = 3.08 Mpa 
+The maximum compressive stress (sc) is given by: 
+(𝜎c) =  (𝜎c)d  +   (𝜎b)t   +  (𝜎b)r 
+= 44.76 Mpa 
+The torsional moment on the arm is 
+Mt = (R2)h * ( b2 – lc/2) 
+= 576.80 *103 N-mm 
+The maximum compressive stress is given by, 
+(𝜎c)maX = 0.5 * [ 𝜎c +  √{ (𝜎c)2 + 4𝜏2 }] 
+= 50.10 Mpa 
+7) Step 7:  Design of left-hand crank web 
+The left-hand crank web is not severely stressed to the extent of the right-hand crank web. Therefore, it is not necessary to check 
+the stresses in the left-hand crank web. The thickness and width of the left-hand crank web are made equal to that of the right-hand 
+crank web from balancing consideration. 
+8) Step 8: Crankshaft model on Catia 
+Modelling & Analysis of a (1000cc, Single Cylinder Engine) Crankshaft using ANSYS Software  
+(IJSTE/ Volume 5 / Issue 4 / 001) 
+ 
+ 
+All rights reserved by www.ijste.org 
+4 
+Date March 22, 2018 
+ 
+Fig. 1: 
+ 
+Fig. 2: 
+Mesh type= tetrahedron 
+30884=no of nodes 
+17824=no of elements 
+9) Step 9:   Equivalent Stress analysis on ANSYS 
+ 
+Fig. 3: 
+Modelling & Analysis of a (1000cc, Single Cylinder Engine) Crankshaft using ANSYS Software  
+(IJSTE/ Volume 5 / Issue 4 / 001) 
+ 
+ 
+All rights reserved by www.ijste.org 
+5 
+Maximum Shear Stress analysis on ANSYS 
+ 
+Fig. 4: 
+Safety Factor analysis on ANSYS 
+ 
+Fig. 5: 
+Maximum Shear Elastic Strain analysis on ANSYS 
+ 
+Fig. 6: 
+Modelling & Analysis of a (1000cc, Single Cylinder Engine) Crankshaft using ANSYS Software  
+(IJSTE/ Volume 5 / Issue 4 / 001) 
+ 
+ 
+All rights reserved by www.ijste.org 
+6 
+Total Deformation analysis on ANSYS 
+ 
+Fig. 7: 
+REFERENCES 
+[1] https://thekneeslider.com/nsu-2000cc-single-cylinder-motorcycle/ 
+[2] Design of Machine elements by V.B Bhandari 

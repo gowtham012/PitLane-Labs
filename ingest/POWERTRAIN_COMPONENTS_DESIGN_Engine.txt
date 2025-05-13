@@ -1,0 +1,5950 @@
+POLITECNICO DI TORINO 
+Department of Mechanical and Aerospace Engineering
+Master Degree in Automotive Engineering
+A.Y. 2018-2019
+Marco Agostini - 253190
+POWERTRAIN 
+COMPONENTS DESIGN
+Engine
+ 
+ 
+Index 
+I 
+ 
+Index 
+ 
+1. Crank Slider Mechanism  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+   1 
+ 
+Centered Layout 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   1 
+ 
+Offset Layout 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 
+ 
+Dynamics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   5 
+ 
+Stroke Discussion 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+   6 
+ 
+Centrifugal Inertial Force 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   6 
+ 
+Forces on the Connecting Rod 
+ 
+ 
+ 
+ 
+     
+ 
+  
+ 
+   7 
+ 
+Torque on the Single Crank 
+ 
+ 
+ 
+ 
+     
+ 
+  
+ 
+   7 
+ 
+Forces and Moment on the Cylinder Block 
+ 
+ 
+     
+ 
+  
+ 
+   8 
+ 
+Most Stressed Crank in Multicylinder Engine 
+ 
+ 
+     
+ 
+  
+ 
+   8 
+ 
+Engine Degree of Irregularity 
+ 
+ 
+ 
+ 
+     
+ 
+  
+ 
+   9 
+ 
+2. Wrist Pin 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 11 
+ 
+Design Guidelines 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 11   
+ 
+Verifications 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 12 
+ 
+3. Connecting Rod 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+ 15 
+ 
+Big Eye  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 16 
+ 
+Small Eye 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 16 
+ 
+Materials 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 16 
+ 
+Load Condition  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 17 
+ 
+Design Guidelines – Stem 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 17 
+ 
+Design Guidelines – Small Eye  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 21 
+ 
+Design Guidelines – Big Eye 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 22 
+ 
+4. Crankshaft  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+ 23 
+ 
+Material 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 23 
+ 
+Design Guidelines 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24 
+ 
+Structural Verification  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24 
+ 
+Static Analysis  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26 
+ 
+Dynamic Analysis (VI Steps) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26 
+ 
+Dynamic Numerical Analysis (FEA-MBA) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 30 
+ 
+5. Bearings 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+ 
+ 
+ 31 
+ 
+Classical Analysis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 31 
+ 
+Numerical Coupled FEA-MBA  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+II 
+Powertrain Engine Component 
+ 
+ 
+6. Piston 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+ 35 
+ 
+Material 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 35 
+ 
+Design Guidelines 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 36 
+ 
+Numerical Analysis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 38 
+ 
+Piston Slap 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 40 
+ 
+7. Cylinder Head 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+   
+ 
+ 43 
+ 
+Material 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 43 
+ 
+Cooling  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 44 
+ 
+Gasket   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 44 
+ 
+Cover  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 44 
+ 
+Design Guidelines 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 45 
+ 
+FEM Analysis  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 46 
+ 
+8. Cylinder Block 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+   
+ 
+ 47 
+ 
+Material 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 49 
+ 
+Liners   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 49 
+ 
+Design Guidelines  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 51 
+ 
+ 
+Wall 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 51 
+ 
+ 
+Main Cap 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 52 
+ 
+ 
+Liner Support  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 52 
+ 
+ 
+Liner Wall 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 53 
+ 
+ 
+Liner Flange 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 54 
+ 
+Numerical Analysis (FEA) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 54 
+ 
+9. Oil Pan 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+   
+ 55 
+ 
+Numerical Optimization – Modal Analysis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 55 
+ 
+10. Thermo-Mechanical Fatigue 
+ 
+ 
+ 
+    
+    
+ 
+   
+ 
+ 57 
+ 
+Hysteresis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 58 
+ 
+TMF Fatigue Damage 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 60 
+ 
+Residual Life Estimation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 62 
+ 
+Damage Models 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 62
+ 
+ 
+Basquin-Manson-Coffin  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 51 
+ 
+ 
+Neu-Sehitoglu  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 52 
+ 
+ 
+Chaboche, BMW 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 52 
+ 
+ 
+Skeleton 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 53 
+ 
+ 
+Multiaxial 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 54 
+ 
+Index 
+III 
+ 
+11. Exhaust Manifold  
+ 
+ 
+ 
+ 
+    
+    
+ 
+   
+ 
+ 65 
+ 
+Material 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 65 
+ 
+Design Guidelines 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 65 
+ 
+Working Condition on the Test Bench 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 66 
+ 
+Material Behavior 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 66 
+ 
+Residual Life Estimation – FEA Analysis  
+ 
+ 
+ 
+ 
+ 
+ 
+ 67 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+§ 1 – Crank Slider Mechanism 
+1 
+ 
+1. Crank Slider Mechanism 
+ 
+Start with crank slider mechanism of single cylinder to find the forces that load all the engine parts. The 
+kinematics studies the position 𝑥, velocity 𝑥̇ and acceleration 𝑥̈, whereas the dynamics is related to forces and 
+torques.  
+ 
+The conversion of reciprocating movement of the piston in rotational motion of the crankshaft is obtained 
+through the so-called crank mechanism: 
+ 
+• 
+The small end of the connecting rod is attached to the piston by means of the wrist pin, 
+ 
+• 
+The big end of the connecting rod rotates with the crankpin  
+ 
+• 
+The crank mechanism transforms the thermal energy of the cylinder charge into mechanical work of 
+the crankshaft. 
+ 
+Centered Layout 
+ 
+Position 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The higher the Elongation factor 𝜆, the higher 
+the piston displacement.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Starting from the geometrical balance: 
+𝑟sin 𝜗=  𝑙sin 𝛽,
+𝜆= 𝑟
+𝑙   Elongation factor 
+sin 𝛽=  𝜆sin 𝜗 
+cos 𝛽= ඥ1 −sin2 𝛽= ඥ1 −𝜆2sin2 𝜗 
+The position 𝒙𝑷 is computed as: 
+𝑥𝑃= 𝐴′𝑂−𝐴𝑂= 𝐴′𝑂−𝐴𝐷−𝐷𝑂 
+𝑥𝑃= ሺ𝑙+ 𝑟ሻ−𝑟cos 𝜗−𝑙cos 𝛽 
+𝑥𝑃= 𝑟−𝑟cos 𝜗+ 𝑙ሺ1 −cos 𝛽ሻ 
+𝑥𝑃= 𝑟൤1 −cos 𝜗+ 1
+𝜆−ሺ1 −cos 𝛽ሻ൨ 
+𝑥𝑃= 𝑟൤1 −cos 𝜗+ 1
+𝜆ቀ1 −ඥ1 −𝜆2sin2 𝜗ቁ൨ 
+2 
+Powertrain Components Design 
+ 
+ 
+Velocity 
+ 
+In this way, according to the Elongation Factor 𝜆, the piston displacement increases as 𝜆 increases. Once the 
+position  𝑥𝑃 has been defined, then the velocity is the time derivative of the position: 
+ 
+𝑣𝑃= 𝜔𝑟൤sin 𝜗+ 𝜆
+2
+sin 2𝜗
+√1 −𝜆2sin2 𝜗
+൨ 
+ 
+As the term 𝜆2sin2 𝜗 can be neglected with respect to the unit (very low), the centered piston velocity results: 
+ 
+𝑣𝑃= 𝜔𝑟(sin 𝜗+ 𝜆
+2 sin 2𝜗) 
+ 
+The maximum velocity is obtained for cos 𝜗+ 𝜆cos 2𝜗= 0 which is slightly towards  the TDC.  
+ 
+ 
+The mean piston velocity is equal to: 
+ 
+𝑢= 2𝑠𝑛
+60 
+ 
+where 𝑛 is the engine speed in rpm. This parameter is 
+important since it affects the fluid losses during the gas 
+exchange process.  
+ 
+Increasing 𝑢, inertia pressure increases!! 
+ 
+ 
+ 
+ 
+ 
+Acceleration 
+ 
+Again, by derivating the velocity, one obtain the instantaneous acceleration. By neglecting the term 𝜆2sin2 𝜗, 
+one has the approximated piston acceleration: 
+ 
+𝑎𝑃≈𝜔2𝑟ሺcos 𝜗+ 𝜆cos 2𝜗ሻ 
+ 
+ 
+• 
+The first-order term is linked to the crank rotation. 
+ 
+• 
+The second-order term is produced by the 
+ 
+increase/decrease of the connecting rod obliquity 
+ 
+(angle 𝛽) with respect the cylinder axis. 
+ 
+• 
+The second order has double the frequency than the 
+ 
+first-order term.  
+ 
+ 
+ 
+ 
+ 
+§ 1 – Crank Slider Mechanism 
+3 
+ 
+Offset Layout 
+ 
+Position 
+ 
+In the offset layout, the cylinder axis does not intersect the center of the crankshaft. The overall offset 𝑧𝑜 is the 
+sum of the displacement 𝑧𝑜,𝑐 of the crankshaft axis and the displacement 𝑧𝑜,𝑤𝑝of the wrist pin axis: 
+ 
+𝑧𝑜= 𝑧𝑜,𝑐+ 𝑧𝑜,𝑤𝑝 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In terms of behavior, there are significant changes compared to the centered layout: the higher the elongation 
+factor 𝜆, the higher the piston displacement.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Again, starting from the geometrical balance: 
+𝐷′𝐵= 𝐷′𝐷+ 𝐷𝐵 
+𝑟sin 𝜗= 𝑧𝑜+ 𝑙sin 𝛽 
+• 
+𝜆=
+𝑟
+𝑙     Elongation factor 
+ 
+• 
+𝛿=
+𝑍𝑜
+𝑙   Adimensional Offset 
+ 
+sin 𝛽=  𝜆sin 𝜗−𝛿 
+cos 𝛽= ඥ1 −sin2 𝛽= ඥ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2 
+The position 𝒙𝑷 is computed as: 
+𝑥𝑃= 𝐴′𝐸−𝐴𝐸= 𝐴′𝐸−𝐴𝐷−𝐷𝐸 
+𝑥𝑃= ሺ𝑙+ 𝑟ሻcos 𝜑−𝑟cos 𝜗−𝑙cos 𝛽 
+𝑥𝑃= 𝑟−𝑟cos 𝜗+ 𝑙ሺ1 −cos 𝛽ሻ 
+𝑥𝑃= ሺ𝑙+ 𝑟ሻ√1 −(
+𝛿
+1 + 𝜆)
+2
+−1
+𝜆ඥ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2 −cos 𝜗 
+𝑥𝑃= 𝑟[(1 + 1
+𝜆) √1 −(
+𝛿
+1 + 𝜆)
+2
+−1
+𝜆ඥ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2 −cos 𝜗] 
+4 
+Powertrain Components Design 
+ 
+ 
+Velocity 
+ 
+Once the position  𝑥𝑃 has been defined, then the velocity is the time derivative of the position: 
+ 
+𝑣𝑃= 𝑑𝑥𝑃
+𝑑𝑡= 𝑑𝑥𝑃
+𝑑𝜗
+𝑑𝜗
+𝑑𝑡= 𝑑𝑥𝑃
+𝑑𝜗𝜔 
+ 
+𝑣𝑃= 𝜔𝑟[sin 𝜗−
+𝛿cos 𝜗
+ඥ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2 + 𝜆
+2
+sin 2𝜗
+ඥ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2] 
+ 
+As the term 𝜆2sin2 𝜗 can be neglected with respect to the unit (very low), the centered piston velocity results: 
+ 
+𝑣𝑃= 𝜔𝑟(sin 𝜗+ 𝜆
+2 sin 2𝜗) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acceleration 
+ 
+The piston velocity varies during the operative cycle of the engine and it is then possible to obtain the piston 
+acceleration deriving the piston velocity with respect to time: 
+ 
+𝑎𝑃= 𝜔2𝑟[ sin 𝜗ሺ𝜆sin 𝜗−𝛿ሻ
+ඥ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2 +
+𝜆cos2 𝜗
+ඥ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2 + 𝜆cos2 𝜗ሺ𝜆sin 𝜗−𝛿ሻ2
+ඥሺ1 −ሺ 𝜆sin 𝜗−𝛿ሻ2ሻ3] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+§ 1 – Crank Slider Mechanism 
+5 
+ 
+Dynamics 
+ 
+The force acting on the crank mechanism can be divided into two 
+contributes:  
+𝐹= 𝐹𝑔+ 𝐹𝑎 
+ 
+• 
+𝐹𝑔 due to gas pressure inside the combustion chamber; 
+ 
+• 
+𝐹𝑎 due to the inertia of the moving parts 
+ 
+The force due to the gas pressure is given by: 
+ 
+𝐹𝑔= [𝑝𝑔ሺ𝜃ሻ−𝑝0] 𝜋𝐷2
+4  
+ 
+where 𝑝𝑔ሺ𝜃ሻ is the gas pressure as function of the crank angle, and 𝑝0 is 
+the crankcase pressure.  
+ 
+For the inertia force 𝐹𝑎, it is required to further split the force into two contributions: that caused by masses 
+with reciprocating motion (reciprocating forces) and that given by rotating masses (centrifugal forces): 
+ 
+• 
+Reciprocating forces are directed along the cylinder axis; 
+ 
+• 
+Centrifugal forces passes through the rotating center of the crank (do not influence engine torque). 
+ 
+The connecting rod is simplified as a system with two concentrated masses linked by a rod (with no mass):  
+ 
+• 
+𝑚𝑐𝑟,𝑎 is concatenated on the center of the small eye   
+translational motion; 
+ 
+• 
+𝑚𝑐𝑟,𝑟 is concatenated on the center of the big eye   
+rotational motion. 
+ 
+{
+ 
+ 
+ 
+ 
+𝑚𝑐𝑟,𝑎+ 𝑚𝑐𝑟,𝑟= 𝑚𝑐𝑟                 
+𝑚𝑐𝑟,𝑎𝑥1 = 𝑚𝑐𝑟,𝑟𝑥2                     
+𝑚𝑐𝑟,𝑎𝑥1
+2 + 𝑚𝑐𝑟,𝑟𝑥2
+2 + 𝐽0 = 𝐽𝑐𝑟
+  ⟹   
+{
+  
+ 
+  
+ 𝑚𝑐𝑟,𝑎= 𝑚𝑐𝑟
+𝑥2
+𝑙       
+𝑚𝑐𝑟,𝑟= 𝑚𝑐𝑟
+𝑥1
+𝑙       
+𝐽0 = 𝐽𝑐𝑟−𝑚𝑐𝑟𝑥1𝑥2
+ 
+ 
+The additional moment of inertia 𝐽𝑜 has no physical meaning (it is 
+always negative) but it is mandatory to guarantee the conservation of 
+the total moment of inertia. For this reason 𝐽0 has the same direction 
+of the angular velocity of the con-rod.  
+ 
+Once the total mass of reciprocating forces (piston group) is calculated, one can obtain the relative force 
+considering a centered crank mechanism and the approximated acceleration: 
+ 
+𝑚𝑎= 𝑚𝑝+ 𝑚𝑤𝑝+ 𝑚𝑐𝑟,𝑎   →   𝐹𝑎= −𝑚𝑎𝑎𝑃= −𝑚𝑎𝜔2𝑟ሺcos 𝜗+ 𝜆cos 2𝜗ሻ= 𝐹𝑎
+′ + 𝐹𝑎′′ 
+ 
+ 
+• 
+𝐹𝑎
+′ = −𝑚𝑎𝜔2𝑟cos 𝜗 
+first-order term 
+ 
+• 
+𝐹𝑎
+′ = −𝑚𝑎𝜔2𝑟𝜆cos 2𝜗 
+second-order term (double the frequency, proportional to 𝜆) 
+ 
+𝐹𝑎 is not a rotating vector: direction is fixed in time, amplitude and orientation are functions of the crank angle. 
+6 
+Powertrain Components Design 
+ 
+ 
+Stroke Discussion  
+ 
+• 
+Short Stroke 
+Bore > Stroke 
+High spin speed, subjected to low reciprocating inertial force 
+Over-square 
+ 
+ 
+Easy to fit bigger valves, lower overall height (motorcycles) 
+ 
+ 
+• 
+Long Stroke 
+Bore < Stroke 
+Piston translational velocity reduces, low spin speed but high torque  
+Under-square  
+ 
+at low regime (industrial application, diesel engines) 
+ 
+ 
+• 
+Square Engine Bore = Stroke 
+Most used in automotive industry 
+ 
+ 
+ 
+Centrifugal Inertial Force 
+ 
+Focusing on the crank group, the rotating parts are subjected to the centrifugal force 𝐹𝜔: 
+ 
+𝐹𝜔= 𝑚𝑟𝜔2𝑟 
+ 
+where 𝑚𝑟 is composed of the mass of the crankpin 𝑚𝑐𝑝 and of the two crankwebs 𝑚𝑤𝑏. These last mass must 
+be reduced since they are placed at a distance 𝑟𝑐𝑤 with respect the crank axis whereas  𝑚𝑐𝑝 lies on the axis. To 
+reduce the crankweb mass, one exploits the equality of static moments: 
+ 
+𝑚𝑐𝑤,𝑟𝑒𝑑= 𝑚𝑐𝑤
+𝑟𝑐𝑤
+𝑟 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The total rotating mass is then: 
+ 
+𝑚𝑟= 𝑚𝑐𝑝+ 2𝑚𝑐𝑤,𝑟𝑒𝑑+ 𝑚𝑐𝑟,𝑟 
+ 
+The correspondent inertial centrifugal force 𝐹𝜔 is a rotating vector with constant amplitude which passes 
+through the axis of rotation of the crank. The horizontal and vertical component are: 
+ 
+• 
+𝐹𝜔,ℎ= 𝐹𝜔sin 𝜗 
+ 
+• 
+𝐹𝜔,𝑣= 𝐹𝜔cos 𝜗 
+ 
+ 
+§ 1 – Crank Slider Mechanism 
+7 
+ 
+Forces on the Connecting Rod  
+ 
+• 
+𝐹 is always directed along cylinder axis:  𝐹= 𝐹𝑔+ 𝐹𝑎 
+ 
+• 
+The inertia force 𝐹𝑎 is composed of the contribution of the 
+alternating mass, causing 𝐹𝑎′ and 𝐹𝑎′′, and rotational mass, 
+producing 𝐹𝜔. 
+ 
+• 
+𝐹 can be decomposed into a normal component 𝐹𝑛 and a 
+component along the con-rod 𝐹𝑐𝑟. 
+ 
+• 
+𝐹𝑛 represents the thrust force on the wall of the liner whereas 
+𝐹𝑐𝑟 is the thrust force on the connecting rod. Force 𝐹𝑐𝑟 is actually 
+generating the engine torque.  
+ 
+ 
+𝐹𝑐𝑟=
+𝐹
+cos 𝛽=
+𝐹
+√1 −𝜆2sin2 𝜗
+ 
+ 
+Torque on the Single Crank 
+ 
+The force 𝐹𝑐𝑟 acting along the con-rod has an arm 𝑑 with respect the crankshaft axis, so that the developed 
+torque is: 
+𝑀= 𝐹𝑐𝑟𝑑= 𝐹𝑐𝑟𝑟sinሺ𝜗+ 𝛽ሻ=
+𝐹
+cos 𝛽𝑟sinሺ𝜗+ 𝛽ሻ 
+ 
+The torque can also be rewritten as function of the force 𝐹 by substituting the 𝛽 functions: 
+ 
+𝑀= 𝐹𝑟(sin 𝜗+ 𝜆sin 𝜗cos 𝜗
+√1 −𝜆2sin2 𝜗
+) 
+ 
+As usual, by neglecting 𝜆2sin2 𝜗 with respect the unit, the torque on the single crank reduces to: 
+ 
+𝑀= 𝐹𝑟(sin 𝜗+ 𝜆
+2 sin 2𝜗) 
+ 
+ 
+8 
+Powertrain Components Design 
+ 
+ 
+Forces and moment on the Cylinder Block  
+ 
+The gas pressure inside the cylinder and the inertial forces 
+transfer forces to engine block.  
+ 
+These forces are countered by engine mounts. At the center of 
+the Big Eye (point B), the force 𝐹𝑐𝑟 hits the line of action of the 
+centrifugal force 𝐹𝜔 that acts on the rotating mass. 
+ 
+Thus, here 𝐹𝑐𝑟 and 𝐹𝜔 generate an horizontal and vertical force, 
+𝐹ℎ and 𝐹𝑣, acting on the main bearing and consequently on the 
+cylinder block.  
+ 
+• 
+𝐹ℎ= 𝐹𝑐𝑟sin 𝛽+ 𝐹𝜔sin 𝜗 
+ 
+• 
+𝐹𝑣= 𝐹𝑐𝑟cos 𝛽+ 𝐹𝜔sin 𝜗 
+Considering also the normal force (oriented horizontally) and 
+the gas pressure (oriented vertically), then the overall load on the engine block is: 
+ 
+• 
+𝐹𝐻= 𝐹ℎ−𝐹𝑛= 𝐹𝜔sin 𝜗  
+ 
+Only depends on centrifugal force 
+ 
+• 
+𝐹𝑉= 𝐹𝑣−𝐹𝑔= 𝐹𝑎−𝐹𝜔cos 𝜗 
+ 
+Depends on both reciprocating and centrifugal forces. 
+ 
+Also, the block is balanced by a counterclockwise equilibrium moment: 
+ 
+𝑀𝑒= 𝐹𝑛𝑥ሺ𝜗ሻ= 𝐹𝑛ሺcos 𝛽+ 𝑟cos 𝜗ሻ 
+ 
+By developing this expression and neglecting 𝜆2sin2 𝜗, one obtains: 
+ 
+𝑀𝑒= 𝐹𝑟(sin 𝜗+ 𝜆
+2 sin 2𝜗) 
+ 
+This is equal and opposite to the instantaneous single crank torque and it is proportional to the reciprocating 
+inertial force and the gas pressure (since it depends on 𝐹) 
+ 
+ 
+Most Stressed Crank in Multicylinder Engine 
+ 
+In multi-cylinder engines, the trend of each force and moment computed for the single-cylinder engine has to 
+be superimposed by respecting the engine firing order (FO) to obtain the correct time and space.  
+ 
+The stress on a specific crank is not solely due by the stress due to the piston connected with that specific crank 
+but also by the presence of the other cranks. 
+ 
+To identify the most stressed crank, the engine torque acting on each “single-cylinder” has to be computed, 
+and the trends of all cylinders have to be added starting from the first cylinder until the last one indicated by 
+the FO: 
+ 
+1. the engine torque acting on each “single-cylinder” is computed and reported on the same graph, 
+respecting the given FO 
+ 
+ 
+§ 1 – Crank Slider Mechanism 
+9 
+ 
+2. by respecting the FO, the engine torques related to each “single-cylinder” are added together starting 
+from the first cylinder (1) until the last one 
+ 
+3. Finally, as the curve given by the sum of the engine torques of cylinders reaches the maximum highest 
+value, the most stressed crank is that for which the curve reaches the maximum, cylinder 4 in this case. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Engine Degree of Irregularity 
+ 
+The engine degree of irregularity is the ratio between the maximum and the average engine torque. The higher 
+the number of cylinders, the lower the irregularity.  
+ 
+The crankshaft acceleration is not constant, the power is fluctuating: the objective of the flywheel is to smooth 
+down the acceleration of the crankshaft. 
+ 
+ 
+The Kinematic Irregularity  𝜹 parameter is defined as: 
+ 
+𝛿 ≝ 𝜔𝑚𝑎𝑥− 𝜔𝑚𝑖𝑛
+𝜔𝑎𝑣𝑔
+≤1%,
+𝜔𝑎𝑣𝑔= 𝜔𝑚𝑎𝑥+ 𝜔𝑚𝑖𝑛
+2
+ 
+ 
+This value of the kinematic irregularity set the limit to the maximum allowed speed fluctuation. 
+ 
+The dimensioning analysis of the flywheel is based upon the engine shaft dynamic equilibrium equation: 
+ 
+𝑀𝑠ሺ𝜃ሻ− 𝑀𝑟ሺ𝜃ሻ =  𝒥𝑑𝜔
+𝑑𝑡 
+where: 
+ 
+• 
+𝑀𝑠ሺ𝜃ሻ shaft momentum as function of crank angle 𝜃, 
+ 
+• 
+𝑀𝑟ሺ𝜃ሻ resistant momentum as function of crank angle 𝜃, 
+ 
+• 
+𝒥 
+overall engine inertia: = 𝒥engine + 𝒥flywheel + 𝒥transmission + 𝒥user, 
+ 
+• 
+𝜔  
+engine angular velocity. 
+ 
+The integration of the momentum along the engine cycle is equal to the work, thus: 
+ 
+𝑊𝑠ሺ𝜗𝑚𝑎𝑥ሻ−𝑊𝑟ሺ𝜗𝑚𝑎𝑥ሻ= 𝒥𝜔𝑚𝑎𝑥
+2
+−𝜔0
+2
+2
+ 
+10 
+Powertrain Components Design 
+ 
+ 
+ 
+I Irregularity Parameter – Kinematic 
+ 
+ 
+ 
+In the same way, considering the minimum crankshaft speed 𝜗𝑚𝑖𝑛= 𝜗ሺ𝜔= minሻ, one has: 
+ 
+II Irregularity Parameter – Kinematic 
+ 
+ 
+ 
+The dynamic irregularity 𝜉 is defined as: 
+ 
+𝜉=
+𝒥
+imep ∙𝑉∙
+ሺ𝜔𝑚𝑎𝑥
+ 
++ 𝜔𝑚𝑖𝑛
+ 
+ሻሺ𝜔𝑚𝑎𝑥
+ 
+−𝜔𝑚𝑖𝑛
+ 
+ሻ
+2
+ 
+ 
+To satisfy the kinematic irregularity requirements, the velocity term considers the parameter 𝛿: 
+ 
+𝜔𝑚𝑎𝑥− 𝜔𝑚𝑖𝑛=   𝛿∙𝜔𝑎𝑣𝑔 
+ 
+III Irregularity parameter – Dynamics 
+𝜉= 𝒥𝛿𝜔𝑎𝑣𝑔
+2
+imep ∙𝑉 
+∆𝑊𝑚𝑎𝑥= maxሺ𝑊𝑠−𝑊𝑟ሻ= 𝐽
+2 ∙ሺ𝜔𝑚𝑎𝑥
+2
+− 𝜔0
+2ሻ 
+∆𝑊𝑚𝑖𝑛= minሺ𝑊𝑠−𝑊𝑟ሻ= 𝐽
+2 ∙ሺ𝜔𝑚𝑖𝑛
+2
+− 𝜔0
+2ሻ 
+ 
+§ 2 – Wrist Pin 
+11 
+ 
+2. Wrist Pin 
+ 
+The wrist pin is the connecting element between the piston and the connecting rod. To reduce its mass, its 
+geometry is a hollow cylinder with tapered ends, and thicker in the middle. It is kept in position by snap metal 
+rings inserted into grooves of the piston hub.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Two different configuration can be adopted: 
+ 
+• 
+Fixed pin 
+Low stressed engine, fixed with respect the small eye of the conrod.  
+ 
+• 
+Floating pin 
+Medium to high stressed engine, free to rotate compared to the small eye by means 
+ 
+ 
+of bushings.  
+ 
+Suitable materials must face high fatigue resistance and good surface hardness:  
+ 
+• 
+NiCr  
+ 
+𝑅𝑚= 1500 MPa, hardness up to 240 HB 
+ 
+• 
+Croma   
+hardness up to 270 HB 
+ 
+ 
+Design Guidelines 
+ 
+The pin is modeled as a beam with 3 distributed load: one external load and t he two constraint reactions. 
+ 
+The value of the external force 𝐹 depends on the type of verification:  
+ 
+• 
+Static 
+ 
+𝐹 is given by the maximum gas compression, inertial force are neglected  
+ 
+ 
+• 
+Fatigue  
+𝐹 is a function ranging between 𝐹𝑚𝑎𝑥 and 𝐹𝑚𝑖𝑛 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12 
+Powertrain Components Design 
+ 
+ 
+First attempt design 
+ 
+First consider a sample pin with: 
+ 
+• 
+Pin length is equal to the Bore 
+ 
+ 
+𝑙𝑤𝑝= 𝐷  
+ 
+• 
+Outer diameter equal to 35% of the bore   
+𝐷𝑤𝑝= 0.35 𝐷  
+ 
+• 
+Inner diameter equal to 40% of the bore   
+𝑑𝑤𝑝= 0.40 𝐷  
+ 
+• 
+Thickness 50% of the inner diameter  
+ 
+𝑡= 0.5 𝑑𝑤𝑝 
+ 
+Then, one has to find lengths 𝑎 and 𝑏 by superimposing a contact pressure of 65 MPa 
+ 
+ 
+{
+  
+ 
+  
+ 
+𝐹
+𝐴bushing
+=
+𝑞𝑏
+𝑏𝐷𝑤𝑝
+=
+𝑞
+0.35 ⋅𝐷≤𝑝𝑎𝑑𝑚, bushing = 65 𝑀𝑃𝑎
+𝐹/2
+𝐴hub
+=
+𝑞𝑏
+2𝑎𝐷𝑤𝑝
+=
+𝑞
+𝑎⋅0.7 ⋅𝐷≤𝑝𝑎𝑑𝑚, piston = 65 𝑀𝑃𝑎
+𝑙𝑤𝑝= 𝐷= 2𝑎+ 𝑏                                                                 
+ 
+ 
+ 
+ 
+Verifications 
+ 
+The properties to be verified are bending, shear and ovalization.  
+ 
+Bending 
+Maximum bending moment 𝑀𝑏 is in the wrist pin midspan: 
+ 
+𝑀𝑏= 𝐹
+2 (𝑎
+2 + 𝑏
+2) −  𝐹
+2 ⋅𝑏
+4 
+ 
+𝑀𝑏= 𝐹
+2 (2𝑎+ 𝑏
+4
+)              
+ 
+𝑀𝑏= 𝐹
+8 𝑙𝑤𝑝= 𝑞𝑏
+8 𝑙𝑤𝑝      
+ 
+The corresponding bending stress is: 
+ 
+ 
+𝜎𝑏=
+𝑀𝑏
+𝑊𝑏,𝑤𝑝
+ 
+ 
+ 
+Shear 
+Indicating with 𝑆𝑤𝑝 the static moment of area of the wrist pin, the shear stress is: 
+ 
+𝜏= 𝐹⋅𝑆𝑤𝑝
+2𝑏𝐼𝑤𝑝
+ 
+ 
+where 𝐼𝑤𝑝 is the moment of inertia of the pin in its inflection plane.  
+ 
+§ 2 – Wrist Pin 
+13 
+ 
+Ovalization 
+For the ovalization analysis, the wrist pin is modeled as an arc loaded by a pressure distribution acting on the 
+semi-circumference: 
+ 
+𝑝= 𝑝0 sin2 𝜑,
+0 < 𝜑< 𝜋 
+ 
+and the piston hubs are assumed rigid. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The analysis is performed according to the Curved Beam Theory of a quarter of arc loaded by the external force 
+𝐹/4 and constrained by reactions. The ovalization moment is: 
+ 
+𝑀𝑜𝑣(𝜋/2) = 𝐹𝑟̅𝑤𝑝
+2
+1
+𝜋,                 𝜑= 𝜋
+2  
+ 
+𝑀𝑜𝑣(0,𝜋) = 𝐹𝑟̅𝑤𝑝
+2
+(1
+2 −1
+𝜋) ,
+𝜑= 0, 𝜋 
+ 
+The correspondent ovalization stress is then: 
+ 
+𝜎𝑜𝑣= 𝑀𝑜𝑣
+𝑊𝑤𝑝
+=
+24 ⋅𝑀𝑜𝑣
+𝑙𝑤𝑝(𝐷𝑤𝑝−𝑑𝑤𝑝)
+2 
+ 
+Equivalent Stress 
+Now it is possible to compute 𝜎𝑒𝑞 according to Von Mises in the midspan section of the wrist pin as the 
+combination of the shear and ovalization stresses: 
+ 
+𝜎𝑒𝑞= √𝜎𝑜𝑣 (0,𝜋)
+2
++ 3𝜏2 
+ 
+We compare 𝜎𝑒𝑞 with 𝜎𝑏 and the final inner and outer diameters of the pin are computed according to the 
+maximum between 𝜎𝑒𝑞 and 𝜎𝑏: 
+ 
+max(𝜎𝑒𝑞, 𝜎𝑏) ≤𝜎𝑎𝑑𝑚,𝑤𝑝   →   𝐷𝑤𝑝, 𝑑𝑤𝑝 
+ 
+Ovalization also faces lubrication problem, therefore it is required to verify the ovalization also in these limits. 
+These verifications are performed over the longitudinal and transversal deformation. 
+ 
+ 
+14 
+Powertrain Components Design 
+ 
+ 
+Longitudinal displacement  
+The wrist pin maximum longitudinal displacement is computed through Structural Mechanics Theory: 
+ 
+𝑓= (1 −
+𝑏
+2(𝑎+ 𝑏))
+(𝑎+ 𝑏)3𝐹
+48𝐸𝐼𝑤𝑝
+≤𝑓𝑎𝑑𝑚 
+ 
+where 𝑓𝑎𝑑𝑚 is given by CFD computations.  
+ 
+ 
+Transversal displacement  
+The wrist pin maximum transversal displacement is: 
+ 
+𝑓𝑜𝑣=
+4𝐹𝑟̅𝑤𝑝
+3
+𝑙𝑤𝑝(𝐷𝑤𝑝−𝑑𝑤𝑝)
+3𝐸
+≤𝛿𝑚𝑖𝑛 
+ 
+where 𝛿𝑚𝑖𝑛 is the minimum tolerance assumed for the bushing.  
+ 
+ 
+§ 3 – Connecting Rod 
+15 
+ 
+3. Connecting Rod 
+ 
+The con-rod is the element that actually converts the alternating motion of the piston group into the rotary 
+motion of the crankshaft. Its design also deeply affects the overall dynamic behavior of the engine. Indeed, the 
+conrod limits the maximum engine speed and creates important transversal load on the liner.  The con-rod is 
+composed of:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The most stressed part is the stem: it must react to bending and compressive action. Its cross section is usually 
+optimized in terms of weight and stress distribution by using a T geometry. The two possible layout are: 
+ 
+I-Rod Stem 
+H-Rod Stem 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- The stem face is placed in the plane of reciprocating 
+motion. 
+ 
+- Low cost solution, high production numbers 
+ 
+- Obtained through molding or casting 
+ 
+- Good response to whiplash (high moment of 
+inertia) 
+ 
+- Not comfortable housing of the nuts, meaning high 
+stress concentration due to the countersink. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- The stem face is placed perpendicularly to the   
+reciprocating motion  
+ 
+- High cost solution 
+ 
+- Obtained through machining  
+ 
+- Great response in whiplash for high speed engine 
+(short length of the stem) 
+ 
+- Housing of nuts is simplified and stress 
+concentration is reduced.  
+ 
+ 
+ 
+16 
+Powertrain Components Design 
+ 
+ 
+Big Eye 
+ 
+The main characteristic of the big eye is the face junction which can be orthogonal or inclined.  
+ 
+Orthogonal Face Junction 
+Inclined Face Junction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- The plane of separation between head and cap is 
+place at 90° with respect the longitudinal stem axis. 
+ 
+- Most used solution. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- To reduce the transversal dimension of the big eye, 
+the cap is inclined of 30-45°  (used for V-engines). 
+ 
+- Maximum stress is concentrated on the cap.  
+ 
+ 
+In both solution it is fundamental to avoid shear stress on the screws! For this purpose, the screws are centered 
+with calibrated diameters, dowel or serration. 
+ 
+ 
+Small Eye 
+ 
+The small eye is a pipe drilled perpendicular to the axis of the wrist pin that 
+also includes the lubricant oil adduction. The sides of the small eye can be: 
+ 
+• 
+parallel in medium stressed engines, 
+ 
+• 
+converging in high stress engines so to allow thermal expansion. 
+Further benefits are obtained from the lower reciprocating masses 
+and hence the stress on the con-rod.  
+ 
+ 
+Materials 
+ 
+The material choice depends on the overall mass and strength but also on the manufacturing process: 
+ 
+• 
+Cast Iron 
+ 
+most economical solution, high production numbers 
+ 
+• 
+Hardened alloy  
+expensive since require hot forging. Used for high stressed engines 
+ 
+• 
+Ti-alloy  
+ 
+for racing application 
+ 
+• 
+Al-alloy  
+ 
+for low stressed engines only 
+ 
+On the finished component, a shot-peen treatment is done to increase residual stress and improve fatigue up 
+to 25% 
+ 
+ 
+§ 3 – Connecting Rod 
+17 
+ 
+Load Conditions 
+ 
+The loads acting on the con-rod are gas pressure and inertial forces. However, it is preferable to consider: 
+ 
+• 
+Starting condition 
+gas pressure @ maximum torque only 
+ 
+• 
+Operating condition 
+inertial forces @ maximum speed only (maximum tensile force at TDC) 
+ 
+In the following, consider specific loads: 
+ 
+• 
+Tensile load  
+ 
+due to the inertial forces evaluated when pointing towards TDC  
+ 
+• 
+Buckling load  
+due to the maximum compressive force of the gas pressure at TDC or BDC 
+ 
+• 
+Bending load 
+ 
+due to the whiplash from the acceleration in the roto-translational motion. 
+ 
+ 
+ 
+Fundamental for sizing the bushes in the eyes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Design Guidelines - Stem 
+ 
+1. Define the cross section of the stem as the area under which the maximum compressible load is acting: 
+ 
+𝐴𝑐𝑟= 𝐹⋅𝑆
+𝑅𝑝0.2
+ 
+ 
+• 
+𝐹 
+max force between as at TDC and inertial force at BDC 
+ 
+• 
+𝑆 
+safety factor, commonly 1.5 
+ 
+• 
+𝑅𝑝0.2 
+yield strength 
+ 
+ 
+2. Verify the tensile load on the evaluated area: 
+ 
+𝜎𝑡= 𝐹𝑎,𝑚𝑎𝑥
+𝐴𝑐𝑟
+= 𝑚𝑎⋅𝑎𝑝,𝑚𝑎𝑥
+𝐴𝑐𝑟
+≤𝑅𝑝0.2,
+𝑚𝑎= 𝑚𝑝+ 𝑚𝑤𝑝+ 𝑚𝑐𝑟,𝑎 
+ 
+Tensil
+Buckling 
+Bending 
+18 
+Powertrain Components Design 
+ 
+ 
+3. Verify the buckling elastic instability condition by modeling the conrod as a beam undergoing a 
+compressive load. The buckling planes are two both parallel to the con-rod axis:  
+ 
+• 
+one passes for the big eye axis 
+ 
+• 
+the other is perpendicular to the previous one. 
+ 
+Since the buckling planes are two, then also the models are two. Considering 𝑦 as the axis of the con-rod and 
+𝑧 the axis of the big eye, then the reference planes are:  
+ 
+• 
+𝑧𝑦 
+containing the wrist pin axis 
+ 
+• 
+𝑥𝑦 
+frontal plane perpendicular to the wrist pin axis 
+ 
+𝒛𝒚 plane 
+𝒙𝒚 plane 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- Model with one free axial degree of freedom. 
+ 
+ 
+- Free length 𝐿0 is equal to half the distance between 
+the center of the two eyes, that is the half length of 
+the con-rod. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- Model with one support and connected to a hinge 
+on the other end. 
+ 
+- Free length 𝐿0 is equal to the distance between the 
+center of the two eyes, that actually the length of the 
+con-rod. 
+ 
+- Since 𝐿0 = 𝑙 than the plane 𝑥𝑦 is most dangerous 
+for the instability! Use Euler Equation to compute the 
+critical buckling load: 
+ 
+𝑃𝑐= 𝜋2𝐸𝐼𝑐𝑟
+𝑙2
+ 
+ 
+For the verification, the maximum force on the stem 
+has to be lower than the critical load: 
+ 
+𝐹< 𝑃𝑐 
+ 
+- By imposing this verification, it is possible to get 
+the best 𝐴𝑐𝑟/𝐼𝑐𝑟 ratio of the stem cross section. 
+ 
+ 
+  
+ 
+ 
+§ 3 – Connecting Rod 
+19 
+ 
+4. Verify the stem bending due to whiplash effect. The acceleration of the con-rod has triangular distribution 
+with null value at the center of the small eye and maximum value at the center of the big eye. From the crank-
+slider mechanism, the maximum angular acceleration is obtained for 𝜗= 90° 
+ 
+ 
+Maximum angular acceleration: 
+ 
+ 
+Maximum load 
+ 
+ 
+Maximum bending moment 
+ 
+ 
+Whiplash stress 
+ 
+ 
+Where 𝑊𝑐𝑟 is the bending resistance modulus of the most stressed section of the stem.  
+ 
+ 
+5. Verify the bending due to the seizure of bushing in the big eye. The bending moment is approximated to 
+a triangular distribution with maximum value in the big eye.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The correspondent stress is computed as: 
+ 
+𝜎𝑠𝑧𝑟= 𝑓𝐹𝑐𝑟𝑅
+𝑊𝑐𝑟√3
+,
+𝑓= friction coefficient,
+𝑅= bushing radius 
+ 
+ 
+6. Verify that the total equivalent stress is lower than the admissible: 
+ 
+𝜎𝑒𝑞= 𝜎𝑡+ 𝜎𝑤𝑝𝑙+ 𝜎𝑠𝑧𝑟≤𝜎𝑎𝑑𝑚 
+ 
+where 𝜎𝑎𝑑𝑚 is given by the connecting rod material.  
+ 
+ 
+7. For Fatigue, use Haigh Diagram without considering the seizure.  
+ 
+ 
+𝜔̇ 𝑐𝑟,𝑚𝑎𝑥=
+𝜔2𝜆
+√1 −𝜆2      
+ 
+𝑞𝑚𝑎𝑥=
+𝜔2𝜆
+√1 −𝜆2 𝜌𝐴𝑐𝑟𝑙 
+ 
+𝑀𝑤𝑝𝑙= 𝑞𝑚𝑎𝑥
+𝑙2
+9√3
+ 
+ 
+𝜎𝑤𝑝𝑙= 𝑀𝑤𝑝𝑙
+𝑊𝑐𝑟
+ 
+ 
+20 
+Powertrain Components Design 
+ 
+ 
+To sum up, the stem design is made of 7 steps: 
+ 
+1. 
+Find the cross section of the stem 
+𝐴𝑐𝑟 
+𝐴𝑐𝑟= 𝐹⋅𝑆
+𝑅𝑝0.2
+ 
+2. 
+Verify the tensile stress 
+𝜎𝑡 
+𝜎𝑡= 𝐹𝑎,𝑚𝑎𝑥
+𝐴𝑐𝑟
+≤𝑅𝑝0.2 
+3. 
+Verify the buckling in 𝑥𝑦 plane 
+𝑃𝑐 
+𝑃𝑐= 𝜋2𝐸𝐼𝑐𝑟
+𝑙2
+,
+𝐹< 𝑃𝑐 
+4. 
+Compute the whiplash stress 
+𝜎𝑤𝑝𝑙 
+𝜎𝑤𝑝𝑙= 𝑀𝑤𝑝𝑙
+𝑊𝑐𝑟
+ 
+5. 
+Compute the bending stress due to 
+seizure 
+𝜎𝑠𝑧𝑟 
+𝜎𝑠𝑧𝑟= 𝑓𝐹𝑐𝑟𝑅
+𝑊𝑐𝑟√3
+ 
+6. 
+Verify the total equivalent stress 
+𝜎𝑒𝑞 
+𝜎𝑒𝑞= 𝜎𝑡+ 𝜎𝑤𝑝𝑙+ 𝜎𝑠𝑧𝑟≤𝜎𝑎𝑑𝑚 
+7. 
+Verify Fatigue though Haigh Diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+§ 3 – Connecting Rod 
+21 
+ 
+Design Guidelines – Small Eye 
+ 
+The small eye is modeled as thin tube which is 
+subjected to the alternate inertial force. Usually, only 
+the circumferential stress are considered, however, for 
+small verifications, also the force fitting the bushing 
+and the curvature of the small eye must be considered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Circumferential stress  
+𝜎𝑐𝑖𝑟𝑐 
+ 
+ 
+ 
+ 
+𝜎𝑐𝑖𝑟𝑐= 𝐹𝑎,𝑚𝑎𝑥
+2𝑏𝑡 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Force fitting the bushing  
+ 
+ 
+ 
+ 
+𝜎𝑓𝑖𝑡 
+ 
+𝜎𝑓𝑖𝑡= 𝑝𝐷𝑒
+2 + 𝐷𝑐
+2
+𝐷𝑒2 −𝐷𝑐2 
+ 
+𝑝 is the interference pressure,  
+ 
+𝐷𝑒 and 𝐷𝑐 are respectively the 
+small eye outer and inner 
+diameter (pitch) 
+ 
+  
+ 
+3. Curvature of the small eye 
+ 
+𝜎𝑐𝑢𝑟𝑣 
+ 
+𝜎𝑐𝑢𝑟𝑣= 𝑀𝑚𝑎𝑥 
+𝑊𝑠𝑒
+ 
+ 
+𝑀𝑚𝑎𝑥 is the maximum bending 
+moment,  
+ 
+𝑊𝑠𝑒 is the bending resistance 
+modulus of the small eye. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The total equivalent stress acting in the most stressed section of the small eye is the summation of 
+circumferential, bushing fitting force and curvature stresses: 
+ 
+𝜎𝑒𝑞= 𝜎𝑐𝑖𝑟𝑐+ 𝜎𝑓𝑖𝑡+ 𝜎𝑐𝑢𝑟𝑣≤𝜎𝑎𝑑𝑚 
+ 
+where 𝜎𝑎𝑑𝑚 is given by the connecting rod material.  
+ 
+22 
+Powertrain Components Design 
+ 
+ 
+Design Guidelines – Big Eye 
+ 
+The big Eye is divided into cap and head. 
+ 
+CAP 
+The cap can be modeled as a supported beam subjected to a 
+concentrated force in the middle, equal to the maximum inertial force. 
+ 
+𝐹𝑎= (𝑚𝑝+ 𝑚𝑤𝑝+ 𝑚𝑐𝑟,𝑎)𝜔2𝑟(1 + 𝜆) + 𝑚𝑐𝑟,𝑟𝜔2𝑟 
+ 
+The corresponding maximum bending stress is: 
+ 
+𝜎𝑐𝑎𝑝=
+𝐹𝑎
+2 ⋅𝐿𝑐𝑎𝑝
+2
+𝑊𝑐𝑎𝑝
+ 
+ 
+where 𝐿𝑐𝑎𝑝 is the distance between screws and 𝑊𝑐𝑎𝑝 is the bending 
+resistance modulus of the cap middle section.  
+ 
+As usual the cap verification is: 
+ 
+𝜎𝑐𝑎𝑝≤𝜎𝑎𝑑𝑚 
+ 
+where 𝜎𝑎𝑑𝑚 is given by the connecting rod material.  
+ 
+ 
+ 
+HEAD 
+ 
+The head can be modeled as a curved beam subjected to the same 
+inertial force. Through the Curved Beam Theory, the involved forces 
+are: 
+ 
+𝑁= 𝐹𝑎
+2 sin 𝜉 
+ 
+𝑀= 𝐹𝑎
+2 𝐿 
+ 
+ 
+The total equivalent stress acting in the most stressed section of the 
+head is the summation of the tensile and bending stress: 
+ 
+𝜎𝑒𝑞,ℎ𝑒𝑎𝑑=
+𝑁
+𝐴ℎ𝑒𝑎𝑑
++
+𝑀
+𝑊ℎ𝑒𝑎𝑑
+≤𝜎𝑎𝑑𝑚 
+ 
+where 𝐴ℎ𝑒𝑎𝑑 is the are of the most stressed parts (related to tensile) 
+and 𝑊ℎ𝑒𝑎𝑑 is the bending resistance modulus of the head.  
+ 
+Again,   𝜎𝑎𝑑𝑚 is given by the connecting rod material.  
+ 
+ 
+§ 4 – Crankshaft 
+23 
+ 
+4. Crankshaft 
+ 
+The crankshaft is a sequence of cranks (crankpin journal), each crank carrying one connecting rod. Between 
+two main journals there the cheeks. At one end there is the nose for the pulley of the timing system, at the 
+other end there is the flange for the flywheel mounting. Counterweights are commonly added to the cheeks 
+to balance and reduce the load on the main bearing. From the bending perspective, the critical point are 
+curvature radii on main journals and crankpin journals.  
+ 
+About lubrication, depending on the scheme to feed oil from the main journal to the crankpin journals, there 
+are three different solutions:  
+ 
+• 
+Single diagonal channel  
+ 
+very simple, almost correct 
+ 
+• 
+Double diagonal channels 
+ 
+solution adopted for crank journals with lubricant groove 
+ 
+ 
+ 
+ 
+ 
+only on one half of the bushing 
+ 
+• 
+Three cross channels 
+ 
+ 
+abandoned solutions, problems about lubrication oil  
+ 
+ 
+ 
+ 
+ 
+positioning 
+ 
+In the picture below, each crank has 2 counterweights, but it is also possible to have 1 counterweight for each 
+crank which is a low cost solution. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Material  
+ 
+The crank material is chosen according to the application: 
+ 
+• 
+Cast iron 
+low-medium stressed engine 
+ 
+• 
+Steel 
+ 
+high stressed engine 
+ 
+To further reduce the rotating masses, the crankshaft can be longitudinally drilled (very expensive). 
+24 
+Powertrain Components Design 
+ 
+ 
+Design Guidelines 
+ 
+The scheme of a generic crank is reported below. 
+As a first approximation, the main journal and 
+the crankpin journal diameters are assumed 
+equal: 
+𝑑𝑚𝑗= 𝑑𝑐𝑝𝑗 
+ 
+The crankpin journal diameter  𝑑𝑐𝑝𝑗 and the 
+cheek width 𝑏 are computed through semi-
+empirical formulas obtainable form literature.  
+ 
+The crankpin journal length 𝐿𝑐𝑝𝑗 and main 
+journal length 𝐿𝑚𝑗 are computed taking into account:  
+ 
+• 
+resultant force 𝐹 acting along the piston axis 
+ 
+• 
+maximum admissible pressure 𝑝𝑎𝑑𝑚 on the main bearing (about 18 ÷ 25 MPa) 
+ 
+𝐿𝑐𝑝𝑗=
+𝐹
+𝑑𝑐𝑝𝑗⋅𝑝𝑎𝑑,
+,
+𝐿𝑚𝑗=
+𝐹
+2𝑑𝑐𝑝𝑗⋅𝑝𝑎𝑑,
+ 
+ 
+ 
+Structural Verification 
+ 
+The structural verification of the most stressed crank takes into account two different configurations. This 
+because the source of the tangential effect on the most stressed crank is different  
+, 
+• 
+maximum tangential force 𝐹𝑡,𝑚𝑎𝑥 configuration  
+due to gas pressure, 
+, 
+• 
+TDC configuration, 
+ 
+ 
+ 
+ 
+due to torque 𝑀 from other cranks. 
+ 
+In both configurations, the equivalent stresses in the crankpin journal, main journal and cheek must lower 
+than the admissible.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+§ 4 – Crankshaft 
+25 
+ 
+𝑭𝒕,𝒎𝒂𝒙 configuration 
+Element 
+Loads 
+ 
+Stresses 
+Crankpin Journal 
+Bending Moment 𝑀𝑦 
+ 
+ 
+Bending Moment 𝑀𝑥 
+ 
+ 
+Torque 𝑀𝑧 
+𝑀𝑦= 𝐹𝑡
+2
+𝑎
+2 
+ 
+𝑀𝑥= 𝐹𝑟
+2
+𝑎
+2 
+ 
+𝑀𝑧= 𝐹𝑡
+2 𝑟 
+𝜎𝑏= √𝑀𝑥2 + 𝑀𝑦2 
+𝑊𝑏
+ 
+ 
+𝜏= 𝑀𝑧
+𝑊𝑡
+ 
+ 
+𝜎𝑒𝑞= √𝜎𝑏
+2 + 3𝜏2 ≤𝜎𝑎𝑑𝑚 
+Main Journal 
+Bending Moment 𝑀𝑦 
+ 
+ 
+Bending Moment 𝑀𝑥 
+ 
+ 
+Torque 𝑀𝑧 
+𝑀𝑦= 𝐹𝑡
+2 𝑒 
+ 
+𝑀𝑥= 𝐹𝑟
+2 𝑒 
+ 
+𝑀𝑧= 𝐹𝑡
+2 𝑟 
+𝜎𝑏= √𝑀𝑥2 + 𝑀𝑦2 
+𝑊𝑏
+ 
+ 
+𝜏= 𝑀𝑧
+𝑊𝑡
+ 
+ 
+𝜎𝑒𝑞= √𝜎𝑏
+2 + 3𝜏2 ≤𝜎𝑎𝑑𝑚 
+Cheek 
+Normal force 𝑁 
+ 
+ 
+Bending Moment 𝑀𝑥 
+ 
+ 
+Bending Moment 𝑀𝑧 
+𝑁= 𝐹𝑟
+2 
+ 
+𝑀𝑥= 𝐹𝑟
+2 𝑒 
+ 
+𝑀𝑧= 𝐹𝑡
+2 𝑟 
+𝜎= 𝑁
+𝐴+ 𝑀𝑥
+𝑊𝑏𝑥
++ 𝑀𝑧
+𝑊𝑏𝑧
+ 
+ 
+ 
+𝜎𝑒𝑞= 𝜎≤𝜎𝑎𝑑𝑚 
+ 
+𝑻𝑫𝑪 configuration 
+Element 
+Loads 
+ 
+Stresses 
+Crankpin Journal 
+Bending Moment 𝑀𝑥 
+ 
+ 
+Torque 𝑀𝑧 
+𝑀𝑥= 𝐹𝑟
+2
+𝑎
+2 
+ 
+𝑀𝑧= 𝐹𝑡
+2 𝑟 
+𝜎𝑏= 𝑀𝑥
+𝑊𝑏
+,
+𝜏= 𝑀𝑧
+𝑊𝑡
+ 
+ 
+𝜎𝑒𝑞= √𝜎𝑏
+2 + 3𝜏2 ≤𝜎𝑎𝑑𝑚 
+Main Journal 
+Bending Moment 𝑀𝑥 
+ 
+ 
+Torque 𝑀𝑧 
+𝑀𝑦= 𝐹𝑟
+2 𝑒 
+ 
+𝑀𝑧= 𝐹𝑡
+2 𝑟 
+𝜎𝑏= 𝑀𝑥
+𝑊𝑏
+,
+𝜏= 𝑀𝑧
+𝑊𝑡
+ 
+ 
+𝜎𝑒𝑞= √𝜎𝑏
+2 + 3𝜏2 ≤𝜎𝑎𝑑𝑚 
+Cheek 
+Normal force 𝑁 
+ 
+ 
+Bending Moment 𝑀𝑥 
+ 
+ 
+Bending Moment 𝑀𝑧 
+𝑁= 𝐹𝑟
+2 
+ 
+𝑀𝑥= 𝐹𝑟
+2 𝑒 
+ 
+𝑀𝑧= 𝐹𝑡
+2 𝑟 
+𝜎= 𝑁
+𝐴+ 𝑀𝑥
+𝑊𝑏𝑥
++ 𝑀𝑧
+𝑊𝑏𝑧
+ 
+ 
+ 
+𝜎𝑒𝑞= 𝜎≤𝜎𝑎𝑑𝑚 
+26 
+Powertrain Components Design 
+ 
+ 
+Static Analysis 
+ 
+About the static analysis, the crankshaft is modeled as a standstill beam, with load defined at a specific time (i.e. 
+specific crank angular position 𝜗). The goal of the static analysis is to evaluate the bending moment acting on 
+each crank and the relative stresses. The methodology consists of:  
+ 
+1. Compute the gas pressure and inertial forces from the crank-slider mechanism, 
+ 
+2. Compute the forces acting on the main journal 
+ 
+3. Compute the reactions and polar plots (load evolution in the kinematic pair crankshaft-conrod) of the 
+main bearings assuming two different schemes: 
+ 
+• 
+Isostatic  
+crankshaft is considered as the assembly of n cranks not linked together, 
+ 
+• 
+Hyperstatic 
+crankshaft is considered as a continuous beam on n supports. 
+ 
+4. Compute the static bending moments acting on each crank 
+ 
+5. Compute the correspondent stresses 
+ 
+6. Static verification comparing Von Mises equivalent stress with that admissible of the material.  
+ 
+ 
+Dynamic Analysis 
+ 
+1. Lumped Parameter 
+ 
+Analytically, we can only find torsional bending (90% of the stresses), for all the other stresses one must refer 
+to FEM. To compute the torsional stiffness, it is required to exploit a lumped parameter system torsionally 
+equivalent to the considered crankshaft (𝐽= inertia, 𝐾= stiffness).  Each crank is modeled as a stiff disk with 
+equivalent moment of inertia 𝐽𝑒𝑞 and a massless bar with equivalent torsional stiffness 𝐾𝑒𝑞. Note that 𝐽𝑝 stands 
+for pulley inertia, whereas 𝐽𝑓 stands for flywheel inertia.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The methodology consists of:  
+ 
+1. Definition of the equivalent lumped parameter system, 
+ 
+2. Compute the natural frequencies and mode shapes of a free single-cylinder engine.  
+ 
+3. Fourier decomposition of gas torque harmonics that are in resonant condition (Campbell diagram) 
+ 
+4. Identification of engine harmonics which are in resonant condition 
+ 
+5. Shift the analysis to the multicylinder engine 
+ 
+• 
+Phase diagram of the cranks, 
+ 
+• 
+Phase diagram of the harmonics, 
+ 
+ 
+ 
+§ 4 – Crankshaft 
+27 
+ 
+6. Computations of the forced response under resonant condition and corresponding torsional dynamic 
+stresses (to add to stresses deriving from the static analysis).  
+ 
+Some approximations and assumptions are needed for the dynamic analysis: 
+ 
+• 
+stress intensification at radii between cheek and crankpin is semi-empirical from literature, 
+ 
+• 
+interactions between torsional, bending and axial modes are not considered, 
+ 
+• 
+clearances and lubricant are not considered, 
+ 
+• 
+interaction between crankshaft and cylinder block is not considered, 
+ 
+• 
+constraint effect of the journals is not considered. 
+ 
+To study the dynamic behavior of the system, one must solve the equation of motion (free behavior + forced 
+response): 
+[ 𝐽 ]{Φ̈ } + [ 𝐾 ]{Φ} = {𝑀(𝜗)} 
+where:  
+ 
+• 
+[ 𝐽 ] 
+ 
+Diagonal inertia matrix 𝑣× 𝑣, 
+ 
+• 
+{Φ} 
+ 
+Torsional dof, 
+ 
+• 
+[ 𝐾 ] 
+ 
+Tridiagonal symmetric stiffness matrix 𝑣× 𝑣, 
+ 
+• 
+{𝑀(𝜗)}  
+Engine torque, 
+ 
+• 
+𝑣 
+ 
+Number of torsional dof , 𝑣= #cylinders + 2 (flywheel and pulley) 
+ 
+The inertia matrix [ 𝐽 ] has constant coefficients over time. The equivalent moment of inertia 𝐽𝑒𝑞 is considered 
+average on the engine cycle and constant in time. The equivalent stiffness 𝐾𝑒𝑞 of a torsional bar is instead 
+computed semi-empirical through literature: Carter, Tuplin, Timoshenko, Zimanenko, etc.  
+ 
+2. Free response 
+ 
+The free response of the unloaded system is:  
+ 
+[ 𝐽 ]{Φ̈ } + [ 𝐾 ]{Φ} = 0 
+ 
+Torsional natural frequencies (eigenvalues) and corresponding vibration modes (eigenvectors) are solved by: 
+ 
+{Φ} = {Φ0}𝑒𝑖𝜆𝑛𝑡     ⟹    det(−𝜆𝑛
+2[ 𝐽 ] + [ 𝐾 ]) = 0 
+where:  
+ 
+• 
+𝜆𝑛𝑖 
+ 
+i-th torsional natural frequency (𝑖= 1 represents 𝑣 with 𝜆𝑛1 = 0 rigid mode), 
+ 
+• 
+{Φ}𝑖 
+ 
+i-th torsional mode, 
+ 
+Since 𝐽𝑒𝑞 coefficients are constant over time, then the 
+natural frequencies are constant and independent both 
+from crank angle 𝜗 and the engine speed 𝜔. 
+Consequently, these natural frequencies are represented 
+by horizontal lines in the Campbell diagram (𝜆 vs 𝜔).  
+ 
+ 
+28 
+Powertrain Components Design 
+ 
+ 
+3. Harmonic Analysis of Engine Torque 
+ 
+To study forced response of the system, one must face the harmonic analysis of the engine torque (gas + 
+inertia). Indeed, the engine torque generated by gas pressure and inertia forces can be developed in a Fourier 
+series as sum of harmonics: 
+ 
+𝑀(𝜗) = 𝑀𝑔(𝜗) + 𝑀𝑎(𝜗) 
+ 
+where:  
+ 
+• 
+Engine gas term  
+ 
+ 
+ 
+ 
+ 
+20 harmonics are sufficient 
+ 
+ 
+ 
+• 
+Inertia term 
+ 
+ 
+ 
+ 
+ 
+ 
+8 harmonics are sufficient  
+ 
+In the gas term development, we have a static contribution 𝐴0 which provides power but does not cause 
+torsional oscillation, whereas all other terms only cause torsional oscillation of the crankshaft. 
+ 
+In the same way, in the inertia term development, it is possible to recognize the terms that cause torsional 
+oscillation of the crankshaft.  
+ 
+The Fourier series of the overall engines considers the combination of vectors that represents the harmonics of 
+the gas and inertial reciprocating forces. Each vector has amplitude and phase for the k-th harmonic.  
+ 
+4. Resonant Harmonics 
+ 
+The resonance of one of the natural mode of the crankshaft is the result of the interaction between:  
+ 
+• 
+engine torque harmonics, 
+ 
+• 
+crankshaft natural frequencies. 
+ 
+To identify the harmonics of the engine torque that are resonant, use the Campbell diagram (𝜆 vs 𝜔). Since 
+torsional natural frequencies are a straight line, but the pulsation of the generic engine torque do not (they are 
+time dependent), then, for a specific engine speed 𝜔work, the resonant harmonics are those near the intersection 
+between the crankshaft natural frequencies and the vertical line of 𝜔𝑤𝑜𝑟𝑘. To sum up:  
+ 
+• 
+horizontal line  
+crankshaft natural frequencies  
+𝜆𝑛𝑖 
+ 
+time-independent  
+ 
+• 
+oblique line 
+ 
+engine torque harmonics 
+ 
+𝜆𝑘 
+ 
+time dependent  
+ 
+• 
+vertical line 
+ 
+engine working speed  
+ 
+𝜔work 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝑀𝑔(𝜗) = 𝑝𝑔(𝜗) 𝜋𝐷2
+4
+⋅𝑓1(𝜗) ⋅𝑟 
+𝑀𝑎(𝜗) = −𝑚𝑎𝜔2𝑟⋅2(𝜗) ⋅𝑟 
+𝜆𝑘= 𝑘⋅𝜔′,
+𝑘= 1 … 20,
+𝜔′ = 𝜔
+2  for 4T engine 
+𝜆𝑛𝑖     Eigenvalues of the free response 
+ 
+§ 4 – Crankshaft 
+29 
+ 
+5. Multi-cylinder engine 
+ 
+In the analysis of the multi-cylinder engine, it is required to introduce the phase shift 𝜹𝒌,𝒋  (k-th harmonics of 
+the j-th cylinder) between the engine torque harmonics.  To identify the phase shift 𝛿𝑘,𝑗  between the harmonics, 
+it is required to refer to the phase (stellar) diagrams. In a multicylinder engine the angular phase shift is 
+indicated by Ψ: 
+Ψ =
+{  
+  4𝜋
+𝑧   for 4T engine
+2𝜋
+𝑧  for 2T engine
+,
+𝑧= #cylinders 
+ 
+By knowing the Firing Order  and the angular phase shift, then one can draw the phase (stellar) diagram of 
+cranks.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+After, the phase shift between the harmonics 𝛿𝑘,𝑗  is then computed as the product between the 
+ 
+ 
+ 
+• 
+Harmonic order 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• 
+Angle between cranks 
+ Ψ 
+ 
+ 
+ 
+  
+ 
+ 
+Finally, with the phase shifts of the harmonics, it is possible to draw the stellar diagram of the harmonics 
+(which is different from the previous that was the stellar diagram of the cranks). 
+ 
+When the harmonics order is a multiple integer of 𝑧/2, all the vectors have same direction. The corresponding 
+engine orders are called major order and the relative harmonics are dangerous for NVH. The forced dynamic 
+response (to evaluate torsional stress level) then must be computed for:  
+ 
+• 
+resonant harmonics of the engine torque (Campbell Diagram, point 4 of the analysis), 
+ 
+• 
+resonant harmonics related to major orders. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝑜𝑟𝑑= {
+𝑘
+2    for 4T engine
+𝑘  for 2T engine
+ 
+𝛿𝑘,𝑗 = 𝑜𝑟𝑑⋅Ψ = {
+𝑘
+2 Ψ   for 4T engine
+𝑘Ψ  for 2T engine
+ 
+6 Cylinders, 4T 
+FO: 1 5 3 6 2 4 
+Ψ = 120° 
+30 
+Powertrain Components Design 
+ 
+ 
+6. Forced Response 
+ 
+In resonant condition, it can be assumed that the forced response amplitude is proportional to the system 
+resonant mode: 
+{Φ}𝑘= 𝛼𝑘{Φ}𝑟𝑒𝑠𝑜𝑛𝑎𝑛𝑡 
+ 
+where 𝛼𝑘 is a proportionality factor which consider a viscous damping equivalent to the actual damping of 
+the crankshaft.  
+ 
+For each of the dangerous harmonics, the output of this analysis is the total shear stress 𝝉𝒔 acting on each 
+crank.   
+𝜏𝑠= 𝜏𝑠𝑡𝑎𝑡,𝑠+ 𝜏𝑑𝑦𝑛,𝑠 
+ 
+ 
+Dynamic Numerical Analysis (FEA-MBA) 
+ 
+Through the Finite Element Analysis (FEA) it is possible to:  
+ 
+• 
+consider actual geometry, loads and forces, 
+ 
+• 
+verify the coupling between modes. 
+ 
+The cylinder block is considered a rigid or deformable body, the constraints between crankshaft and cylinder 
+block are modeled as spring and finally the conrods and pistons are modelled as concentrated mass that 
+contributes to the force acting on the main journals.  
+ 
+However, FEA does not allow to simulate the behavior of the crankshaft that is interfering with others 
+component of the powertrain. Also, gyroscopic effect is neglected, and inertial forces are stationary load.  
+ 
+To obtain a more detail of the behavior, is it required to perform a MultiBody Analysis (MBA) in order to:  
+ 
+• 
+compute and apply inertial forces, 
+ 
+• 
+consider the variability of the moment of inertia, 
+ 
+• 
+consider the hydro-dynamic interaction with the oil (regulated by Reynolds equation), 
+ 
+• 
+consider the local gyroscopic effect. 
+ 
+The simulation results are obtained in terms of displacements, angular velocities and angular accelerations (of 
+the condensed nodes, i.e. master dofs), forces and moments on the nodes required at the MB model set up. 
+ 
+Waterfall Diagram (3D) and Order Chart (2D) 
+ 
+The Waterfall Diagram and the Order Chart can be obtained by post-processing the MB simulation results:  
+ 
+• 
+Waterfall Diagram 
+3D 
+ 
+Magnitude vs Frequency, 
+ 
+• 
+Order Chart 
+ 
+2D 
+ 
+Magnitude vs Engine Speed, 
+ 
+These diagrams represent the “dynamic identity card” of the crankshaft and they are useful to identify its 
+critical regimes and because , the crankshaft responds to the external loads in different way depending on the 
+operating condition, then regimes it is necessary to verify the stress state of the crankshaft in order to evaluate 
+its most critical condition. 
+ 
+§ 5 – Bearings 
+31 
+ 
+ 
+5. Bearings 
+ 
+Crankshaft journals rotate on two half-shells (bushing or bearings) inserted into the main caps and walls of 
+the cylinder block, and into the big eye of the conrods.  Each half-shell is composed of structural steel layer 
+and by one or two additional layers (bi-metallic or tri-metallic solution) of anti-friction material (bronze alloy). 
+The purpose of the bearings are: 
+ 
+• 
+support the load generated by the crank mechanism transmitted to the oil film, 
+• 
+guarantee wear resistance 
+• 
+absorb geometrical inaccuracies of the journals 
+ 
+ 
+ 
+ 
+ 
+ 
+Usually one of the to half-shell has a groove to collect the oil coming from the channels needed to continuously 
+feed the crankshaft and the conrod. If the crank is heavily stressed (diesel engine), then the central groove is 
+eliminated in favor of a diagonal drilling solution. 
+ 
+The crankshaft is also provided with a thrust bearing to counteract axial loads and the clutch axial force. 
+ 
+Also, a tapered side is present in the contact are of the two half-shells to prevent damages to the bushing 
+material (compression force tends to deform the tapered ends).  
+ 
+Classical Analysis 
+ 
+The force that load the bearings comes from the crank-slider mechanism: 
+ 
+𝐹𝐻= 𝐹𝜔sin 𝜗,
+𝐹𝑉= 𝐹𝑎−𝐹𝜔cos 𝜗,
+𝑀𝑒= 𝐹𝑟(sin 𝜗+ 𝜆
+2 sin 2𝜗) 
+ 
+Since these forces are time-dependent (depends on crank angle  𝜗), then the bearing reaction is also time-
+varying leading to dangerous vibrations.  
+ 
+It is then crucial to get polar plots of these reactions to analyze the criticalities: in the analysis the crankshaft 
+is considered both isostatic and hyperstatic to embrace all kinds of solution that is: 
+ 
+• 
+the total reaction is the sum of vectorial reaction for each crank 
+ 
+• 
+the total reaction comes from hyperstatic problem solutions.  
+ 
+Since the coupling between main journal and cylinder block, and between crankshaft crankpin journal and big 
+eye of the conrod is by means of oil film, then the analytical solution is provided by the Reynolds Equation 
+which is based on the following assumptions:  
+ 
+• 
+no misalignment between bearing and journal, 
+• 
+loads on journal constant in magnitude and direction, 
+• 
+crankshaft, cylinder block and conrod as rigid bodies, 
+• 
+constant oil viscosity. 
+Block Side 
+Conrod Side 
+32 
+Powertrain Components Design 
+ 
+ 
+ 
+The main parameters are:  
+ 
+• 
+Radial clearance  
+𝛿= 𝑅−𝑟 
+Difference between journal/bearing radii 
+• 
+Eccentricity 
+ 
+𝑒= 𝑂2𝑂1
+̅̅̅̅̅̅̅ 
+Difference between journal/bearing centers 
+• 
+Oil thickness 
+ 
+ℎ(𝛼) 
+ 
+Maximum oil thickness is ℎ𝑚𝑎𝑥   
+• 
+Angular coordinate 
+𝛼 
+ 
+Ranges in the maximum oil thickness region 
+ 
+According to the geometry, the oil thickness can be 
+written as: 
+ℎ(𝛼) = 𝛿(1 + 𝜀cos 𝛼) 
+ 
+where 𝜀 is the ratio between the eccentricity 𝑒 and the 
+radial clearance 𝛿. 
+ 
+The solution of the hydrodynamic problem (in terms 
+of pressure 𝑝) is given by the Reynolds Equation: 
+ 
+𝑑𝑝
+𝑑𝛼= 6𝑅𝜇𝑣
+ℎ2(𝛼) [1 −
+2𝑞
+𝑣ℎ(𝛼)] 
+ 
+where:  
+ 
+• 
+𝑝  
+Oil film pressure 
+• 
+𝑞 
+Oil flow rate 
+• 
+𝜇 
+Oil dynamic viscosity   
+• 
+𝑣 
+Relative velocity between the lubricated surfaces (journal and bearing) 
+• 
+𝑅 
+Bearing radius 
+ 
+Note that the analytical solution of the Reynolds Equation is possible only if no pressure is considered at the 
+point of maximum oil thickness: 𝑝(ℎ𝑚𝑎𝑥) = 0. Other supplementary parameters to describe the bearing 
+behavior are:  
+ 
+• 
+Sommerfeld number 
+ 
+𝑆 
+ 
+• 
+Bearing axial length 
+ 
+𝐵 
+• 
+Elongation 
+ 
+ 
+𝐵/(2𝑅)  
+  
+Useful to identify the load capacity  
+• 
+Friction coefficient 
+ 
+𝑓𝑐= 𝑀/𝐹𝑅 
+ 
+Depends on 𝜇, 𝑝𝑠 and 𝜔 
+• 
+Characteristic pressure  
+𝑝𝑠= 𝐹/(2𝐵𝑅) 
+• 
+Adimensional flow rate  
+𝑞= 2𝑄/(𝜔𝐵𝛿𝑅) 
+ 
+By solving the Reynolds Equation, we obtain the maximum pressure 𝒑𝒎𝒂𝒙 and the minimum oil thickness 
+𝒉𝟎 at temperature 𝑻;  as function of the diametral clearance 𝑔= 2𝛿 or of the elongation. Low value of the 
+elongation leads to oil leakages, but too high value of the elongation may cause misalignment between bearing 
+and journal.  
+ 
+Note that by increasing the load 𝐹 or decreasing the engine speed, the oil film thickness decreases. The 
+minimum oil thickness must be at least to the sum of the peak-valley roughness of the coupled surfaces 
+(journal-bearing). 
+ 
+§ 5 – Bearings 
+33 
+ 
+ 
+Numerical Coupled FEA-MBA 
+ 
+Since the Reynold Equation provides solutions for infinitely short/long bearing, the FEA-MBA analysis gives 
+back the solution for the actual configuration of the bearing. Numerical simulations consider:  
+ 
+• 
+actual length of the bearing, 
+• 
+time-dependent forces, 
+• 
+misalignment, 
+• 
+elasticity of the components. 
+ 
+The verifications for the MB model validation uses the same criteria of the MB of the crankshaft:  
+ 
+• 
+correctness of the Firing Order (FO), 
+• 
+cyclic trend of the flywheel angular velocity, 
+• 
+correct trend of the radial forces on the main bearing. 
+ 
+The target of the MB model is to provide the crankshaft dynamic behavior and the corresponding dynamic 
+response of the bearings. Starting from the FE model and then the MB model, one obtains:  
+ 
+• 
+elasto-hydrodynamic solution, 
+• 
+3D distribution of oil fil pressure and thickness, 
+• 
+oil flow rate computation. 
+ 
+Different model complexity may be adopted in the investigation: 
+ 
+CR 
+- Rigid main Journal 
+- No misalignment  
+- No crankshaft dynamics 
+All rigid components, no FE model are required 
+CE 
+- Rigid main Journal and elastic bearing 
+- No misalignment  
+- No crankshaft dynamics 
+FE model of single wall and cap 
+ 
+BR 
+- Elastic crankshaft and rigid cylinder block 
+- Yes misalignment  
+- Yes crankshaft dynamics 
+FE model of crankshaft 
+BE 
+- Elastic crankshaft and rigid cylinder block 
+- Yes misalignment  
+- Yes crankshaft dynamics 
+- Yes Cylinder Block dynamics 
+FE model of crankshaft and cylinder block 
+ 
+ 
+ 
+ 
+ 
+ 
+34 
+Powertrain Components Design 
+ 
+ 
+ 
+ 
+ 
+§ 6 – Piston 
+35 
+ 
+6. Piston 
+ 
+The main purposes of the piston are: 
+ 
+• 
+transfer gas pressure to the conrod, 
+• 
+discharge of exhaust gases,  
+• 
+support the small eye of the conrod, 
+• 
+provide good sealing to avoid blowby, 
+• 
+reduce friction. 
+ 
+The piston top is shaped to optimize the combustion chamber (the bowl in diesel engines) and valve seats are 
+directly machined on the top.  The skirts works as a guide for the reciprocating motion and contributes for the 
+25% to the heat flow between piston and liner.  The inner part of the piston may present a cooling gallery to 
+cool down the interior. In case of high stressed engine, bronze bushings are inserted in the hubs.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Piston rings ensure tightness of the combustion chamber avoiding the blow-
+by phenomenon of the gas. They also control oil amount that lubricates the 
+liner surface that is in contact with the piston. In general, three rings are 
+adopted:  
+ 
+• 
+1st ring,  
+ 
+sealing ring to avoid blow-by, 
+• 
+2nd and 3rd ring,  
+oil scraper rings to control lubrication. 
+ 
+Material  
+ 
+The material for pistons must have high mechanical strength , high heat resistance and low thermal expansion. 
+Passenger engine pistons are made of:  
+ 
+• 
+Al alloys 
+ 
+ 
+AlSiMg, AlCuMgSi 
+ 
+gasoline engines, 
+• 
+Eutectic Al alloys, 
+ 
+AlSi12, AlSi10  
+ 
+diesel engines, 
+• 
+Cast iron 
+ 
+ 
+ 
+ 
+ 
+ 
+industrial engines. 
+ 
+On the contrary, piston rings are made of cast irons with Cr-plating and Mo-plating to increase resistance to 
+wear and high temperatures. 
+ 
+Production technologies are die cast (economic but low mechanical resistance) and metal forming (expensive 
+but high mechanical resistance). To avoid crack propagation, the surface finishing are grinding and diamond 
+machining. Also, an alumina coat is performed on the top to increase the adiabatic condition of the bowl. 
+36 
+Powertrain Components Design 
+ 
+ 
+Design Guidelines 
+ 
+Piston 
+ 
+Starting from the bore 𝐷 and the target (estimated) 
+weight 𝑊, one can find the apparent density 𝑲, and 
+consequently the geometrical ratio 𝑟𝑃 which is the 
+compression height 𝑯𝒄 over the bore. Thus, 𝐻𝑐 is 
+obtained. 
+ 
+𝐾= 𝑊
+𝐷3     ⟹     𝐻𝑐 
+ 
+ 
+ 
+Considering the top pf the piston as a circular plate, one compute the thickness 𝑠 
+of the piston to  according to the literature formula (verified by FEA): 
+ 
+𝑠= 𝐷
+2 √
+𝑝𝑚𝑎𝑥
+𝜎𝑎𝑑𝑚
+ 
+ 
+Alternatively, one can enter suitable tables. Note that the top thickness 𝑠 highly 
+influences the bowl shape in diesel engines, thus it is required to perform 
+kinematic simulation about the valve interference at TDC.   
+ 
+With these geometrical values, one must verify that the compressive stress on the top is lower than the 
+admissible stress: 
+ 
+𝜎𝑐= 𝑝𝑚𝑎𝑥𝐷2
+𝐷𝑐2 −𝐷𝑖
+2     ⟹     𝜎𝑐≤𝜎𝑎𝑑𝑚 
+where:  
+ 
+• 
+𝐷𝑐 
+groove diameter (diameter of the bowl), 
+• 
+𝐷𝑖 
+piston inner diameter, 
+ 
+Finally, the length of the skirt 𝐿 is limited by the normal 
+force depending on the material as shown in the table 
+aside. 
+ 
+Therefore, basing on the value of the admissible pressure, the length of the skirt 
+can be computed as: 
+ 
+𝑝𝑎𝑑𝑚= 𝐹𝑛,𝑚𝑎𝑥
+𝐿⋅𝐷    ⟹     𝐿= 𝐹𝑛,𝑚𝑎𝑥
+𝑝𝑎𝑑𝑚⋅𝐷 
+ 
+However, as a first attempt to define the length 𝐿, one can consider a uniform 
+pressure distribution, as the pin axis should be half of the piston compression 𝐻𝑐, 
+then: 
+𝐿= 2 ⋅𝐻𝑐 
+ 
+§ 6 – Piston 
+37 
+ 
+ 
+Piston ring 
+ 
+About piston rings, all forces acting on the ring must be considered together with radial and tangential load 
+distributions. During mounting, the ring must be expanded since it must pass through the top pf the piston 
+crown. In this condition the inner ring diameter is assumed to be equal to  the bore 𝐷. Starting from this 
+assumption, a preliminary dimension of the piston ring follows the below table: 
+ 
+Radial wall thickness 𝑎 
+0.029𝐷−0.033𝐷 
+Axial width ℎ 
+0.1𝑎−0.6𝑎 
+Free gap 𝑚 (uncompressed ring) 
+0.08𝐷−0.12𝐷 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The piston ring is then modeled as a curved beam loaded by a concentrated force 𝐹 which is function of the 
+maximum admissible pressure: 
+𝐹= 𝑃𝑎𝑑𝑚𝐷𝑚ℎ 
+2
+ 
+ 
+Once the value of the force 𝐹 is obtained, it is required to compute the radial displacement 𝑢 and the maximum 
+bending stress 𝜎𝑏 in the ring:  
+ 
+• 
+𝑢 
+radial displacement 
+ 
+ 
+• 
+𝜎𝑏  
+bending moment 
+ 
+Through the radial displacement, it is required to compute two additional stresses related to the mounting 
+procedures, the expansion for the fitting in the groove and the compression for the mounting in the liner: 
+ 
+• 
+𝜎′ 
+stress due to reduction of the ring diameter to working value (bore) 
+ 
+• 
+𝜎′′ 
+stress related to opening displacement 
+ 
+𝜎′ =
+𝐸
+3𝜋
+4 (𝐷𝑚
+𝑎−1)
+2
+𝑚
+𝑎,
+𝜎′′ =
+𝐸
+3𝜋
+4 (𝐷𝑚
+𝑎−1)
+2
+(8𝑎−𝑚)
+𝑎
+ 
+ 
+The static ring verification requires that max(𝜎′, 𝜎′′) ≤𝜎𝑎𝑑𝑚.  
+𝑢= 3𝜋
+8
+𝐹𝐷𝑚
+3
+𝐸𝐼≈8𝑎 
+ 
+𝜎𝑏 = 𝐹𝐷𝑚𝑎
+2𝐼
+    ⟹     𝜎𝑏≤𝜎𝑎𝑑𝑚 
+ 
+38 
+Powertrain Components Design 
+ 
+ 
+Numerical Analysis 
+ 
+About piston group, the thermal behavior is crucial because the thermal field acting on the piston deforms 
+more the hub zone than the lower part of the piston. 
+ 
+To ensure a good fitting between the piston and the liner, the design of the lower part of the piston must take 
+into account this thermal deformation of the piston skirt  (usually different materials are used for top and 
+bottom of the engine, and also barrel shape are exploited for counteracting the thermal expansion).  
+ 
+Just one part (25-30%) of the fuel thermal capacity is transformed into mechanical power because another 
+important amount (about 40%) goes to stress the piston and the liner. The heat is transferred:  
+ 
+• 
+convection 
+to the cooling fluid, 
+• 
+conduction 
+to the body of the piston, 
+• 
+radiation 
+to the top op the piston in the combustion chamber. 
+ 
+Considering all the thermal power exchanged (40% of the overall) the 
+subdivision with the other part is:  
+ 
+• 
+24% 
+to the cooling gallery, 
+• 
+31% 
+to the liner through the rings 
+• 
+21% 
+to the piston hub, 
+• 
+24% 
+to the skirt 
+ 
+ 
+In thermal analysis the convection coefficient and the heat transfer coefficient are function of the swirl and 
+squish motion, therefore very complicated to compute! To target of numerical analysis is to get temperature 
+map and heat transfer coefficient in various points of the piston. 
+ 
+ 
+ 
+ 
+The load condition to be taken into account in the post-processing are temperature field, pressure in the bowl 
+and inertial forces. These loads are studied individually and then superimposed to evaluate the stress state. 
+STATIC 
+THERMAL 
+THERMO-STRUCTURAL 
+Property 
+MAT01 
+MAT04 
+MAT01 + MAT04 
+Mesh 
+3D Tetra – 2D Tria 
+3D Tetra – 2D Tria 
+3D Tetra – 2D Tria 
+Constraints 
+Pin with RBE2 
+Ring with RBE3 
+Virtual Spring for ring/liner 
+Contact surface piston/pin 
+Convective surfaces 
+Nodal Temperatures 
+Top - 180  °C 
+Skirts - 120  °C  
+Interior - 100 °C  
+Piston hub with RBE2 
+Temperature  
+Loads 
+Gas pressure (compression) 
+Thermal Flux 
+Output Thermal + Static 
+ 
+§ 6 – Piston 
+39 
+ 
+Piston Static Thermal Analysis 
+ 
+The initial condition for the static thermal analysis is represented by the imposed heat flux from the 
+combustion. This heat flux is imposed only on the exchanges surfaces that is the piston top.  
+ 
+Then, assign the thermal coefficient from the numerical analysis, or literature, and calibrate them through 
+iterative procedure.  
+ 
+Provided the material characteristics and the correct mesh, 
+verify that all the power entering the piston is equal to the heat 
+power outgoing the piston external surfaces.  
+ 
+The result of the static thermal analysis are:  
+ 
+• thermal unbalance between the sides of the piston, 
+• isothermal zones, 
+• thermal gradient, 
+• nodal thermal analysis 
+ 
+ 
+Piston Thermo-Structural Analysis 
+ 
+In the thermo-structural analysis, the loads are the thermal load 
+computed by the static thermal analysis and the mechanical load 
+(𝑝𝑚𝑎𝑥 at the beginning of the expansion). On the contrary, the 
+boundary conditions are the nodal temperatures resulting from 
+the static thermal analysis, and the material properties. 
+ 
+The considered load cases are: 
+ 
+• 
+Temperature field, 
+• 
+Pressure in the bowl, 
+• 
+Inertial forces. 
+ 
+The result of each load is superimposed to evaluate the overall stress state. The result in terms of thermal and 
+mechanical deformation (deformation due to thermal field and due to inertial forces) provide the guide for 
+the choice of the design phase of the piston. Finally, this analysis provides results in terms of strain and 
+stresses. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+40 
+Powertrain Components Design 
+ 
+ 
+Piston Slap 
+ 
+Although the reduced gap between piston and liner, the piston can 
+still move in the liner, because the thrust force 𝐹𝑛 change in sign 
+several times during the cycle. The movements of the piston then 
+result:  
+ 
+• 
+translation perpendicular to cylinder axis, 
+• 
+rotation around pin axis (tilting), 
+  
+These movements are named piston slap movements which cause noise and wear, especially in diesel engines.  
+ 
+The study of the piston slap is based on the free body diagram. The simplified and full free body diagram 
+allows to write the equation of motion and evaluate the forces in every time instant. However it is not sufficient 
+to compute the energy dissipated during the impact piston-liner. The forces acting during the slap are:  
+ 
+• 
+𝐹𝑔 
+gas force, 
+• 
+𝐹𝑛 
+thrust force exerted by the conrod through the pin, 
+• 
+𝐹𝑙 
+reaction force of the liner, 
+• 
+𝐹𝑓 
+friction force 
+ 
+ 
+ 
+ 
+𝐹𝑓= 𝜇𝑐⋅𝐹𝑙 
+• 
+𝑀 
+torque due to the piston-pin contact 
+ 
+𝑀= 𝜇𝑠 𝑑𝑠/2 √𝐹𝑛2 + 𝐹2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Piston Slap Effect  
+ 
+The piston slap effects are relevant in particular in diesel engines due to the high pressure combustion 
+pressure. The effects of the piston slap phenomenon are:  
+ 
+• 
+emission of sound waves, 
+• 
+cavitation of the coolant fluid, 
+• 
+sub-superficial fatigue, repeated impacts cause Hertzian fatigue leading to internal cracks. 
+ 
+Note that the crankcase is the main component that transmit engine noise through vibrations (about 30%). 
+Critical conditions are at idle and low spins speed and the maximum peak is obtained at cranking.  
+ 
+Also, high pressure wave can cause cavitation of the coolant fluid (localized boiling). 
+ 
+§ 6 – Piston 
+41 
+ 
+Methods to decrease Slap Effect  
+ 
+Three different methods can be adopted to decease piston slap:  
+ 
+• 
+piston offset, 
+• 
+piston offset + vertical shift of the piston center of gravity, 
+• 
+increase the number of oil scraper ring. 
+ 
+ 
+Piston Offset 
+The pin axis is moved towards the major thrust side by a quantity 𝑒1, 
+consequently the piston center of gravity shifts towards the minor 
+thrust side by a quantity 𝑒2. 
+ 
+The moment 𝑀0 causes a rotation of the piston relaxing the impact on 
+the major thrust force (higher dissipation of the kinetic energy). 
+ 
+𝑀0 = 𝐹𝑔𝑒1 + (𝑔−𝑥̈𝐺)𝑚𝑝(𝑒1 + 𝑒2)) 
+ 
+Best benefits are obtained for 𝑒1 ≤0.125𝐷 (12% of the bore). 
+ 
+ 
+ 
+ 
+Piston Offset + vertical shift of the piston center of gravity 
+The centre of gravity of the piston is moved upwards along the 
+vertical axis by the quantity 𝑏 with respect the pin axis. 
+ 
+The lateral inertial force changes its arm and the moment 𝑀𝑦 causes 
+a further rotation of the piston and favors a specific impact 
+configuration.  
+𝑀𝑦= 𝑚𝑝𝑦̈𝐺⋅𝑏 
+ 
+ 
+ 
+ 
+ 
+ 
+Additional Oil Scraper ring 
+The additional oil scraper ring are positioned at the bottom of the 
+piston skirt. The main advantages are:  
+ 
+• 
+damping and lift effect of the oil film, 
+• 
+decrease of impact force between piston and liner, 
+• 
+better hydrodynamic lubrication. 
+ 
+However, the disadvantages are Three different methods can be adopted to decease piston slap:  
+ 
+• 
+higher power friction, 
+• 
+increase of piston mass and so inertial forces 
+42 
+Powertrain Components Design 
+ 
+ 
+ 
+ 
+§ 7 – Cylinder Head 
+43 
+ 
+7. Cylinder Head 
+ 
+The main purposes of the cylinder head are: 
+ 
+• 
+hosts intake and exhaust ports, 
+• 
+control the mechanism of the valve,  
+• 
+support the component for combustion (injection and sparking), 
+• 
+supply pipes and volumes for oil and coolant circulation, 
+• 
+define the shape of the combustion chamber together with the head of the piston. 
+ 
+The cylinder head structure is mainly constituted by two plates 
+connected together along their outer edge in a prismatic solid. 
+ 
+The cylinder head is connected to the engine block by studs or screws 
+whose position determine the mechanical stresses.  
+ 
+The sealing with the block is guaranteed by the gasket which avoids 
+the passage of exhaust gases from the combustion chamber to 
+lubricant circuits.  
+ 
+ 
+For stiffness reason, the integral solution (cam carrier 
++ cylinder head) is preferable, however, for mounting 
+reason usually the head is split in two different parts. 
+In diesel engines, the cylinder head geometry is 
+defined by the combustion type: indirect (mainly 
+industrial engines) and direct injection (passenger 
+cars). 
+ 
+ 
+The positioning the of the intake and exhaust port is driven by the following criteria: 
+ 
+Exhaust manifold in front of driving side 
+Intake manifold in front of driving side 
+ 
+- Better temperature control on manifold and turbo 
+ 
+- Better fuel protection in case of frontal bump 
+ 
+- Possibility to have flexible point to damp down   
+vibration  
+ 
+- Close-coupled catalyst with large dimensions 
+ 
+- lower light-off time of the catalyst (no wind) 
+ 
+- Simpler exhaust pipe design 
+ 
+- Simpler and stiffer oil pan (no interference with 
+exhaust) 
+ 
+ 
+Material  
+ 
+Usually, the cylinder head is obtained:  
+ 
+• 
+by casting Al-alloy with Si  
+ 
+high performance engines 
+ 
+AlSi7, AlSi9, 
+• 
+by casting secondary Al-alloy 
+ 
+gasoline engines 
+• 
+cast irons 
+ 
+ 
+ 
+industrial diesel engines 
+44 
+Powertrain Components Design 
+ 
+ 
+Cooling 
+ 
+The cooling circuit into the cylinder head must avoid 
+dangerous overheating especially between the housing of 
+the valves. For this purpose, the design of the cooling 
+path is manly defined through CFS numerical analysis.  
+ 
+Good results are achieved when the coolant flows near 
+hot surfaces at specific adequate speeds. A uniform 
+working condition of the cylinder head is obtained if the 
+temperature is maintained almost constant. 
+ 
+To allow proper cooling, the roughness of the internal surfaces (critical zone) must be in the range of  2 ÷ 4 𝜇𝑚. 
+ 
+ 
+Gasket 
+ 
+The gasket must seal the head from the block. It has to resist to high temperature, high pressure and corrosion 
+by gas, water and lubricant. The most common solution is a multi-layer metal sheet with proper metal forming 
+for increase stiffness property. 
+ 
+The external layer is made of harmonic steel, whereas the internal layers 
+(carriers) are made by common or laminated steel to improve structural 
+stiffness and supply the correct value of general thickness. Finally an 
+external rubber coating cover the whole gasket. Also, the gasket is 
+provide of stoppers in the most stressed points (maximum pressure of 
+compression). 
+ 
+To verify the sealing capability, it is required to perform numerical FE simulation (Fuji film test). 
+ 
+Cover 
+ 
+The head cover is needed to close the cylinder head but is can also be functional for:  
+ 
+• 
+splitting volume between lubricant and blow-by gas, 
+• 
+sealing of part of the intake ports, 
+• 
+define the capacity of the air filter. 
+ 
+Usually it is made by:  
+ 
+• 
+Steal 
+ 
+cheap solution, potentially noisy 
+• 
+Al-alloy  
+stiffer solution, potentially noisy 
+• 
+Plastic  
+cheap and quiet solution, less stiff 
+ 
+• 
+Mg-alloy 
+light and quiet solution, expensive 
+ 
+To avoid that engine vibrations are transmitted up to the head, 
+rubber rings are usually exploited in between the screws and the 
+head.  
+ 
+ 
+§ 7 – Cylinder Head 
+45 
+ 
+Design Guidelines 
+ 
+The first attempt considers only half cylinder head. The initial loading condition 
+is only provided by the pre-load of the fixing screw (or studs).  The gasket sealing 
+force is given by: 
+𝐹∗= 𝑝𝑚𝑎𝑥
+𝜋𝑑𝑔
+2
+4  
+ 
+ in which 𝑑𝑔 is the mean diameter of the cylinder head gasket.  
+ 
+The screws (or studs) fixing pre-load is taken into account multiplying the force 
+𝐹∗ by (1 + 𝑘) where 𝑘 coefficient is commonly assumed equal to 0,5. 
+  
+ 
+ 
+In assembly (static) condition, the gasket reacts to the input force (fixing pre-load) with a reaction located at 
+the center of mass located at 𝑑𝑔/𝜋 from the central cross section. According to these forces, the bending 
+moment and stress: 
+ 
+ 
+ 
+𝑀𝑏,𝑠𝑡= 𝐹∗(1 + 𝑘)
+2
+⋅𝐿
+2 −𝐹∗(1 + 𝑘)
+2
+⋅𝑑𝑔
+𝜋   ⟹   𝜎𝑏,𝑠𝑡
+′
+= 𝑀𝑏,𝑠𝑡
+𝑊𝐼−𝐼
+ 
+ 
+ 
+ 
+ 
+ 
+However, in operating (working) condition, one must also consider the gas force which acts in the center of 
+mass at a distance 2𝑑𝑔/3𝜋 from the central cross section. Certainly, this additional force increases the reaction 
+force of the gasket. Thus, the bending moment and stress in working condition are: 
+ 
+ 
+ 
+ 
+ 
+𝑀𝑏,𝑑𝑦𝑛= 𝐹∗(1 + 𝑘)
+2
+⋅𝐿
+2 −𝑘𝐹∗
+2 ⋅𝑑𝑔
+𝜋  −𝐹∗
+2 ⋅2𝑑𝑔
+3𝜋⟹   𝜎𝑏,𝑑𝑦𝑛
+′
+= 𝑀𝑏,𝑜𝑝
+𝑊𝐼−𝐼
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Since the cylinder head is in contact with the gas exhaust, then also a temperature gradient is present leading 
+to a further thermal stress 𝜎𝑇. In conclusion, the final verification in working condition is such that: 
+ 
+𝜎𝑇=
+𝐸𝛼∆𝑇
+2(1 −𝜈)      ⟹     𝜎𝑏,𝑑𝑦𝑛
+′
++ 𝜎𝑇≤𝜎𝑎𝑑𝑚 
+ 
+ 
+46 
+Powertrain Components Design 
+ 
+ 
+Screw Design 
+ 
+The first critical parameter is the assembly pre-load 𝐹𝑣,𝑙𝑖𝑚. Considering the parameter 𝑖 as the number of screws 
+or stud used for each cylinder, then one obtains: 
+ 
+𝐹𝑣,𝑙𝑖𝑚= 𝐹∗(1 + 𝑘)
+𝑖
+ 
+ 
+By knowing the deformability of the screw 𝛿𝑣 and that of the cylinder head 𝛿𝑝, one can compute the axial 
+displacement of the screw (extension) and that of the component (compression). The interference diagram is 
+obtained as reported below.  
+ 
+In the diagram all possible interference 
+losses must be taken into account:  
+ 
+• 
+fixing uncertainty 
+• 
+slack 
+• 
+possible thermal expansion 
+ 
+Finally, one must perform static and fatigue 
+verification of the screw.  
+ 
+ 
+ 
+FEM Analysis 
+ 
+The FE model must consider:  
+ 
+• 
+loads due to gas pressure, 
+• 
+dynamic loads due to distribution system, 
+• 
+tightening loads which worsen the pressure load on the gasket, 
+• 
+static load due to assembly with housing and valves, 
+• 
+thermal load (steady state and transient) 
+ 
+The targets of the simulation are:  
+ 
+• 
+structural analysis: von Mises stresses due to screws, pressure and thermal load, 
+• 
+fatigue safety factor, 
+• 
+temperature field, 
+• 
+interference analysis. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Structural 
+Safety Factor 
+Thermal Field 
+Interference 
+ 
+§ 8 – Cylinder Block 
+47 
+ 
+8. Cylinder Block 
+ 
+The cylinder block is the engine foundation and it can be designed as 
+a single component mounted on engine vibration absorber to the 
+chassis of the vehicle.  It accommodates the liners, main bearings and 
+all accessories. 
+ 
+The cylinder block includes an upper part named block and a lower 
+part called crankcase: 
+ 
+• 
+Block, a single rigid assembly made up of liners and upper 
+and lower gaskets, 
+ 
+• 
+Crankcase, an open structure made up of skirts, walls and 
+main bearing caps. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The geometry of the cylinder block is functional to the torsional stiffness. Different solutions are used to 
+increase this stiffness:  
+ 
+• 
+short or deep skirts, 
+• 
+bearing beams, 
+• 
+bedplate including all main caps 
+ 
+The bedplate solution provides the stiffest block structure, but it is more expensive; it is generally used in high 
+pressure die case cylinder blocks to simplify the casting process. All this solution are resultant of a trade-off 
+including stiffness, lightness and costs.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bedplate 
+Main caps 
+48 
+Powertrain Components Design 
+ 
+ 
+The skirts are positioned 5-6 mm far from the guitar so to accommodate the envelope of the crank rod 
+revolution and to avoid oil pumping effect during crank rotation.  
+ 
+ 
+Short Skirt 
+Long Skirt 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- End at the center line of the crankshaft 
+- Low problems about NVH 
+- Oil pan is deep and can be resonant 
+ 
+ 
+- Extend 60-70 mm below the center line  
+- Problems about NVH (behave as loudspeakers) 
+- Oil pan is short and less resonant 
+- Bedplate solution make the structure stiffer 
+ 
+ 
+ 
+Another important design solution is the deck, which is the path of the coolant fluid circuit. 
+ 
+ 
+Open Deck 
+Close Deck 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- The coolant can freely flow up to the sealing surface 
+- Commonly obtained by low cost casting (HPDC) 
+- Difficulties to guarantee continuous sealing  
+- Simplest solution if coupled with wet liners 
+- Noise 
+ 
+ 
+- The coolant cannot freely flow up to the sealing 
+- Requires expendable water jackets core (no HPDC) 
+- Expensive if modified die casting process are used 
+- Solution with cast-in liners are cheap  
+- Higher structural stiffness 
+- Perfect sealing is guaranteed 
+ 
+ 
+ 
+ 
+§ 8 – Cylinder Block 
+49 
+ 
+Material  
+ 
+Usually, the material for the cylinder block are:  
+ 
+• 
+Cast iron with Al-alloy bedplate, 
+• 
+Hypereutectic Al-alloy (Si  >  12%), 
+• 
+Magnesium with Al-alloy inserts. 
+ 
+Magnesium structure allows to be 25% lighter than the conventional Al-alloy solution. 
+ 
+ 
+Liners 
+ 
+Cylinder block can be with or without liners according to whether the liners are physically present (wet, dry or 
+cast-in solution) or obtained by processing the internal part of the cylinder block itself. The difference between 
+wet and dry liners stands in the direct contact with the coolant. Dry liners can also be built separately through 
+cast-in and then inserted in the block housing.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The two most important parameters about the good functionality of the liner are: 
+ 
+• 
+internal surface finishing 
+ 
+since a good result highly reduce internal friction and  
+ 
+ 
+ 
+ 
+ 
+increase the sealing effect with the piston, 
+ 
+• 
+deformation of the longitudinal  
+that can be caused by high mechanical and thermal stresses 
+cylindrical surface 
+ 
+ 
+Plateau Finishing 
+ 
+Plateau finishing uses spindle with diamond stone. The basic finishing creates 
+pockets in the order of 8-9 𝜇𝑚 useful for the lubricant fluid. 
+ 
+Smaller pockets, 2-3 𝜇𝑚, constitute the supporting surface on which the piston slides 
+with respect the liner.  
+ 
+Laser Finishing 
+ 
+Laser finishing uses laser to obtain a rifling with the desired dimensions and position of the pockets to achieve 
+a desired lubrication structure. Different rifling and designed lubrication structure can be obtained.  
+ 
+Experimental analysis shows that laser finishing decreases the friction coefficient up to 60 % compared to 
+Plateau. A further friction reduction can be achieved by decreasing the tangential load on the piston.  
+50 
+Powertrain Components Design 
+ 
+ 
+Cooling 
+ 
+The liner cooling is guaranteed by the circulation of the coolant fluid around the liners 
+along the water jacket that is located at the ring-land level of the piston. To stiffen the 
+deck and to decrease the engine weight, the water jacket must be placed in lower 
+position (increasing 𝑎), while the length ℎ must be reduced. A numerical CFD 
+investigation is then needed to avoid engine warm-up problems.  
+ 
+ 
+The length support of the liner affects its performance. The 
+design of the deck imposes certain solution; closed deck 
+cylinder block admits upper collar support on the top, on the 
+contrary the open deck liners have a lower collar support on the 
+bottom. In high performance engines, wet liners are supported 
+on the middle. 
+ 
+ 
+ 
+The optimal cooling solution is obtained with a circulation of the 
+coolant fluid all around the liner circumference. However, this 
+imposes an increasing of the distance between two adjacent liners 
+(due to the presence of the liner material thickness + the water jacket). 
+Because of the increase in longitudinal length, the cast-in liners are 
+linked each other in the so-called twinned solution to save space.  
+ 
+Mechanical Deformation 
+ 
+The liner transversal profile may deform under the action of screw forces. The deformation of the liner is 
+experimentally measured (with a specific tool named Talyrond). An acceptable circumferential deformation is 
+in the order of 20-30 𝜇𝑚. Through the Fourier transform, one can identify the different order of deformation:  
+ 
+• 
+1st order 
+circle 
+• 
+2nd order 
+ellipse 
+• 
+3rd order  
+tri-lobed shape… 
+ 
+The mechanical deformation is affected by the position and depth of the threaded holes for the cylinder head 
+fixing screws. To reduce this deformation, the cylinder head fixing screws are moved as outside as possible 
+with respect to the liners. 
+ 
+Types of Liners 
+ 
+Liners are produced in different type:  
+ 
+• 
+Cast-in   
+ 
+ 
+made of Al-alloy with galvanic coating or hypereutectic Al-alloy 
+• 
+Sintered 
+ 
+ 
+low dispersion of material and high material compositions 
+• 
+Bi-layer  
+ 
+ 
+made of a lamellar cast iron in the internal and Al-alloy externally 
+ 
+• 
+Metal Matrix Composite 
+casting technique with forms filled in laminar flow regime 
+ 
+• 
+Plasma coated  
+ 
+plasma is sprayed to increase mechanical and tribological properties 
+ 
+• 
+Ceramic coated  
+ 
+Low Temperature Iron Titanate is applied to improve anti-friction  
+ 
+§ 8 – Cylinder Block 
+51 
+ 
+Design Guidelines 
+ 
+Wall 
+ 
+The wall and the main caps form the structure that support the 
+crankshaft. Thus, the input force is the maximum resultant force 
+𝐹 transmitted by the crankshaft. The force 𝐹 can be assumed 
+proportional to 𝐹𝑔,𝑚𝑎𝑥 or to 𝐹𝑎,𝑚𝑎𝑥 depending on the time instant. 
+Also, one must consider the force of the screws (or studs) in the 
+most stressed section. 
+ 
+𝐹=
+{
+ 
+ 𝐹𝑔,𝑚𝑎𝑥= 𝑝𝑚𝑎𝑥
+𝜋𝐷2
+4           
+𝐹𝑎,𝑚𝑎𝑥= 𝑚𝑎𝜔2𝑟(1 + 𝜆)
+ 
+ 
+   
+About the wall design, 3 different cross sections must be considered depending on how it is fixed. 
+ 
+Wall Fixed by Screws 
+Wall Fixed by Studs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝐹𝑡= 𝐹
+2 cos 𝛼           ⟹          𝜎𝑡
+𝐼= 𝐹𝑡
+𝐴𝐼−𝐼
+ 
+ 
+ 
+𝑀𝑏= 𝐹
+2 sin 𝛼⋅𝐿     ⟹         𝜎𝑏
+𝐼= 𝑀𝑏
+𝑊𝐼−𝐼
+ 
+ 
+𝜎𝑒𝑞= 𝜎𝑡
+𝐼+ 𝜎𝑏
+𝐼≤𝜎𝑎𝑑𝑚 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The cylinder head generates a force 𝐹∗ such that: 
+ 
+𝐹∗= 𝑝𝑚𝑎𝑥
+𝜋𝑑𝑔
+2
+4   
+ 
+As for the cylinder head, the studs fixing pre-load 
+must be multiply by (1 + 𝑘), where the coefficient 𝑘 
+is commonly equal to 0,5. 
+ 
+The compressive stress has to be limited to the 
+admissible compressive stress of the material: 
+ 
+𝜎𝑐
+𝐼𝐼𝐼= 𝐹∗(1 + 𝑘)
+𝐴𝐼𝐼𝐼−𝐼𝐼𝐼
+≤𝜎𝑎𝑑𝑚 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝑀𝑏= 𝐹
+2 𝐿1      ⟹         𝜎𝑏
+𝐼𝐼= 𝑀𝑏
+𝑊𝐼−𝐼
+ 
+ 
+𝜎𝑒𝑞= 𝜎𝑏
+𝐼𝐼≤𝜎𝑎𝑑𝑚 
+ 
+ 
+ 
+ 
+52 
+Powertrain Components Design 
+ 
+ 
+Main Cap 
+ 
+The main caps are fixed to the wall. The load on the main caps depends on the arrangement in the engine 
+architecture. Still, the maximum load that acts on each cap is proportional to the maximum gas force: 
+ 
+𝐹= 𝐹𝑔,𝑚𝑎𝑥= 𝑝𝑚𝑎𝑥
+𝜋𝐷2
+4  
+ 
+Also the main cap is fixed to the corresponding wall by means of screws with tightening load 𝑃 which as usual 
+must be corrected by the term (1 + 𝑘). The resistance force 𝑅 then results: 
+ 
+𝑅= 𝐹𝑘
+2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+On the most stressed section (I-I), the bending moment is such that: 
+ 
+𝑀𝑏= (𝑃−𝑅) 𝐿
+2 −1
+2 𝐹𝐷𝑐
+4  
+ 
+in which the term 𝐹𝐷𝑐/4 is the bending moment produced by the elementary forces (generated by 𝐹) acting 
+on the half-circumference with diameter 𝐷𝐶. The consequent bending stress has to be limited to the admissible: 
+ 
+𝜎𝑏
+𝐼= 𝑀𝑏
+𝑊𝐼−𝐼
+≤𝜎𝑎𝑑𝑚 
+ 
+Liner Support  
+ 
+In case of press-fitted wet liners, the support and the liner are schematized in order to make the analytical 
+calculation. The part highlighted in red is the flange.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+§ 8 – Cylinder Block 
+53 
+ 
+ 
+Also depending on the fixing system, the liner support undergoes to different stresses: 
+ 
+Liner Support Fixed by Screws 
+Liner Support Fixed by Studs 
+ 
+Subjected to Tensile in section I-I 
+ 
+𝜎𝑡
+𝐼=
+𝐹
+𝐴𝐼−𝐼
+= 𝑝𝑚𝑎𝑥
+𝐷2
+(𝐷1
+2 −𝐷2
+2) 
+ 
+ 
+ 
+ 
+Subjected to Tensile in section I-I 
+ 
+𝜎𝑡
+𝐼= 𝐹∗(1 + 𝑘)
+𝐴𝐼−𝐼
+= 𝑝𝑚𝑎𝑥
+𝑑𝑔
+2(1 + 𝑘)
+(𝐷1
+2 −𝐷2
+2) 
+ 
+ 
+Subjected to Shear in section II-II 
+ 
+ 
+𝜏𝐼𝐼= 𝐹∗(1 + 𝑘)
+𝜋𝐷2ℎ
+= 𝑝𝑚𝑎𝑥
+𝑑𝑔
+2(1 + 𝑘)
+4𝐷2ℎ
+ 
+ 
+ 
+Liner Wall  
+ 
+The liner wall is the liner internal surface and it can be studied as a thin pipe loaded by an internal pressure 
+equal to the maximum gas pressure. From the Thin Tube Theory, the stress state on the liner wall is: 
+ 
+ 
+ 
+{
+ 
+ 
+ 
+ 
+ 
+ 𝜎𝑐𝑖𝑟𝑐= 𝑝𝑖𝑟𝑖
+𝑠
+= 𝑝𝑚𝑎𝑥
+𝐷
+2𝑠
+𝜎𝑟𝑎𝑑= −𝑝𝑖= −𝑝𝑚𝑎𝑥  
+𝜎𝑎𝑥=
+𝐸𝛼∆𝑇
+2(1 −𝜈)             
+ 
+ 
+ 
+ 
+The equivalent stress (computed though Tresca or Von Mises) has to be lower than the admissible stress of the 
+liner material: 𝜎𝑒𝑞≤𝜎𝑎𝑑𝑚. 
+ 
+Because of the normal force 𝐹𝑛 transmitted by the piston, it is also required to verify the bending stress. The 
+distance 𝑥 represents the distance from the TDC in which 𝐹𝑛 is maximum. This distance 𝑥 can be evaluated in 
+the crank-slider mechanism. From the equilibrium to rotation around point A, the analysis is:  
+ 
+𝑅𝐵= 𝐹𝑛,𝑚𝑎𝑥
+𝑥−𝐿+ 𝑎
+𝑎
+ 
+ 
+𝑀𝑏= 𝑅𝐵(𝐿−𝑥)  
+ 
+𝜎𝑏= 𝑀𝑏
+𝑊𝐼−𝐼
+ 
+ 
+𝜎𝑏≤𝜎𝑎𝑑𝑚 
+ 
+ 
+54 
+Powertrain Components Design 
+ 
+ 
+Liner Flange  
+ 
+The liner flange is loaded by:  
+ 
+• 
+tightening force produced by the cylinder head screws  
+• 
+bending generated by misalignment between the gasket and the liner support 
+ 
+Considering the contact pressure 𝑝 with the support collar equal to: 
+ 
+𝑝= 𝐹(1 + 𝑘)
+𝐴
+= 𝑝𝑚𝑎𝑥
+𝑑𝑔(1 + 𝑘)
+4ℎ1
+ 
+ 
+Thus, in section I-I, the shear and bending stresses are:  
+ 
+ 
+ 
+𝜏𝐼= 𝐹∗(1 + 𝑘)
+𝐴𝐼−𝐼
+= 𝑝𝑚𝑎𝑥
+𝑑𝑔
+2(1 + 𝑘)
+(𝐷2
+2 −𝐷3
+2) 
+ 
+𝜎𝑏
+𝐼= 𝐹∗(1 + 𝑘) ⋅𝑒
+𝑊𝐼−𝐼
+= 𝑝𝑚𝑎𝑥
+3𝑑𝑔(1 + 𝑘)𝑒
+2ℎ1
+2
+  
+ 
+ 
+ 
+  
+ 
+Numerical Analysis (FEA) 
+ 
+In the FE model, the stresses on the cylinder block and the characteristics to analyze are:  
+ 
+• 
+dynamic load from crank mechanism 
+ 
+fatigue, especially on main bearings,, 
+• 
+dynamic load from balance system 
+ 
+fatigue, especially on bearings of the balance shaft, 
+• 
+thrust load on the liner  
+ 
+ 
+wear, 
+ 
+• 
+tightening of head screw 
+ 
+ 
+liners distortion and incorrect pressure distribution, 
+ 
+• 
+thermal load 
+ 
+ 
+ 
+ 
+liner distortion  due to high thermal gradient. 
+ 
+In cylinder block FEA is possible to consider: 
+• 
+Mechanical and thermal loads 
+• 
+Static and dynamic loads 
+• 
+Viscos-elastic sliding condition of material 
+ 
+The Static analysis allows to estimate stress condition, in particular on areas with important variation of 
+geometry (potential cracks development), and fatigue behavior. 
+ 
+Dynamic analysis allows to verify the presence of coupled modes (bending, axial and torsional) and study the 
+cylinder block behavior from NVH perspective. 
+ 
+§ 9 – Oil Pan 
+55 
+ 
+9. Oil Pan 
+ 
+The oil pan can be a simple holder, but it can also have structural function: 
+ 
+• 
+to increase the bending natural frequencies of the powertrain,  
+ 
+• 
+to stiffen the link between engine and gearbox. 
+ 
+In case of structural function, the oil pan presents 
+stiffening ribs that complicate the geometry. 
+ 
+The most used materials are steel sheet, double steel 
+sheet or sandwich solution to minimize the panel 
+acoustic emission. Al-alloy is mainly used for 
+complex geometries, while mixed solution Al-alloy/ 
+Mg-alloy with steel sheet are focused on weight 
+saving. 
+ 
+In oil pan design two conflicting goals can be highlighted: NVH performance and engine weight saving. In 
+fact, the more the oil pan is stiff the more it is heavy. 
+ 
+ 
+Numerical Optimization – Modal Analysis 
+ 
+The proposal is useful to design a new oil pan, still with the same dynamics (natural frequencies) of the original 
+and also improve weight saving. The optimum design follows this procedure:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+56 
+Powertrain Components Design 
+ 
+ 
+ 
+The Multi Input Multi Output (MIMO) modal analysis is performed in Test-Lab with suitable software. For 
+example the experimental natural frequencies up to 1000 Hz obtained through an Experimental Modal 
+Analysis (EMA) are: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This result gives the target frequencies for the optimization design. The Numerical Modal Analysis is then 
+performed on the FE model to compare the first design model with the original. 
+ 
+If the natural frequencies are lower, then it is required to optimize the model. To increase the natural 
+frequencies, usually one increase the density material (thickness). In this way the material in zones in which 
+is not useful about natural frequencies can be cut off and save weight. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assume that, despite the density increment, the frequencies are still lower. In this case, one must place the last 
+obtained frequencies 𝜆𝑖 in a Campbell Diagram. Then one must choose the frequency to optimize (note that 
+the oblique lines are the engine harmonics).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Once the process is validated (no intersection between oil pan natural frequency and engine harmonics at 
+maximum engine speed), one can use this methodology to design a new oil pan with the same initial FE model. 
+Usually using different material is the first step of a new design.  
+ 
+The final target of optimization is:  save weight and increase natural frequency. The ultimate validation is 
+given by the Campbell Diagram, that is: no intersection between natural frequency, max engine speed, and 
+engine harmonics. 
+ 
+§ 10 – Thermo-Mechanical Fatigue 
+57 
+ 
+10. Thermo-Mechanical Fatigue 
+ 
+When dealing with fatigue phenomenon, it is necessary to distinguish between different cases: 
+ 
+• 
+Mechanical fatigue 
+Isothermal   
+ 
+o 
+High Cycle Fatigue (HFC),  
+the test goes from thousands to millions cycles but the  
+ 
+ 
+ 
+ 
+material remains in the elastic range (High Diagram), 
+ 
+o 
+Low Cycle Fatigue (LCF) 
+the test goes from up to 104 cycles and the loads overcome 
+ 
+ 
+ 
+ 
+the yield strengths of the material (Wölher Diagram),  
+ 
+• 
+Thermal Fatigue 
+Temperature varies cyclically decreasing mechanical properties. If the  
+ 
+ 
+ 
+material is not able to deform, the stresses are similar to those of mechanical 
+ 
+ 
+ 
+fatigue. 
+ 
+The Thermo-Mechanical Fatigue (TMF) cycle is a loading condition in which temperature and strain fields act 
+simultaneously on a component. Therefore, in the  TMF, thermal and mechanical cycles are superimposed in 
+several combination: in phase (IP) or in phase opposition (OP). The factors to be considered for estimating 
+TMF life are: 
+ 
+• 
+material properties, 
+ 
+• 
+mechanical deformation and deformation rate, 
+ 
+• 
+temperature range, 
+ 
+• 
+phase condition (IP, OP) between mechanical and thermal. 
+ 
+The main goal of TMF analysis are:  
+ 
+• 
+prediction of material behavior under thermal and mechanical loads, 
+ 
+• 
+definition of the main parameters involved in the component failure, 
+ 
+• 
+estimation of the component residual life.  
+ 
+In test-lab the equipment needed to perform all kinds of analysis are:  
+ 
+• 
+Vibrofore 
+ 
+ 
+HCF test, 
+ 
+• 
+Servohydraulic machine 
+LCF test, 
+ 
+• 
+Oven 
+ 
+ 
+ 
+Isothermal test, 
+ 
+• 
+Induction heater 
+ 
+Thermal cyclic tests. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+58 
+Powertrain Components Design 
+ 
+ 
+Back to the mechanical fatigue, the relations needed to describe the tests are as follows: 
+ 
+High Cycle Fatigue (HFC) 
+Low Cycle Fatigue (LFC) 
+ 
+Stress-controlled and strain-controlled tests give 
+almost the same result. 
+ 
+Usually represented in Haigh Diagram. 
+ 
+Basquin  relation correlates the stress ∆𝜎 to the 
+number of cycle 𝑁. 
+ 
+𝐵= ∆𝜎𝑘⋅𝑁 
+ 
+ 
+Strain-controlled tests characterize much better the 
+behavior of the component.   
+ 
+Usually represented in Wölher Diagram. 
+ 
+Manson-Coffin relation correlates the stress ∆𝜀 to 
+the number of cycle 𝑁. 
+ 
+𝐶= ∆𝜀𝛽⋅𝑁 
+ 
+The total strain range is the sum of thermal and mechanical strain: 
+ 
+∆𝜀𝑡𝑜𝑡= ∆𝜀𝑡ℎ+ ∆𝜀𝑚𝑒𝑐ℎ 
+ 
+In which ∆𝜀𝑚𝑒𝑐ℎ is made up of the elastic contribution ∆𝜀𝑒𝑙 and the plastic contribution ∆𝜀𝑝𝑙. The general 
+behavior is given by the empirical Basquin-Manson-Coffin curve, in which the damage is computed as 
+function of the strain only. Still, creep and oxidation are neglected.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hysteresis  
+ 
+Starting with the isothermal condition, the testing temperature is constant and equal to the maximum 
+temperature achievable 𝑇𝑚𝑎𝑥. The strain rate is imposed, thus obtaining the stress rate.  
+ 
+The hysteresis loop (𝜀𝜎 graph) is obtained by combining together the strain and stress ranges. If the imposed 
+strain is symmetric, then also the hysteresis loop is also symmetric with respect the origin of the 𝜀𝜎 axes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+§ 10 – Thermo-Mechanical Fatigue 
+59 
+ 
+On the contrary, in thermo-mechanical fatigue, the testing temperature varies cyclically between two fixed 
+values. Here, strain cycles are independent from temperature. Thus, depending on the type of combination 
+between the two cycles, one can obtains:  
+ 
+• 
+In-Phase (IP) TMF tests  
+ 
+max temperature and max strain are in the same time instant, 
+ 
+• 
+Out-of-Phase (OP) TMF tests 
+ 
+temperature is maximum when strain is minimum. 
+ 
+Usually, IP tests show a compressive mean stress (𝜎 negative) , whereas the OP tests show a tensile mean stress 
+(𝜎 positive). 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Since in OP TMF is compressed when the temperature 𝑇 is minimum, then this condition is more sensitive to 
+oxidation effect because the oxide layer is formed at high temperature during the phase of mechanical 
+compression. When the temperature decreases, the oxide layer becomes brittle and the subsequent phase of 
+mechanical traction rapidly breaks the oxidized layer exposing new material to the subsequent oxidation. 
+ 
+The actual tend of the material shows an hysteresis loop shifted towards the compression field in IP and tensile 
+field in OP. Definitely, OP condition is the most dangerous for the material failure. The related damages are:  
+ 
+• 
+mechanical deformation; mechanical fatigue damage is due to hysteresis caused by loading condition, 
+ 
+• 
+creep; viscos-plastic deformation at high temperature. 
+ 
+• 
+oxidation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60 
+Powertrain Components Design 
+ 
+ 
+TMF Fatigue Damage 
+ 
+Baushinger Effect 
+ 
+The Baushinger effect is a material behavior relate to the first loading cycle: 
+the yield stress of the material at the first load application is usually higher 
+than the yield stress shown by the material during the successive hysteresis 
+cycles.  
+ 
+Thus the consequence is a decrease of the compressive elastic limit after the 
+first loading. Physically, the component remain permanently deformed at 
+crystalline level and this generates material anisotropies.  
+ 
+At macroscopic level, these anisotropies decrease the elastic limit of the 
+material.  
+ 
+ 
+Cyclic Hardening/Softening 
+ 
+In general, the material hysteresis loops changes with the 
+increase of the accumulated number of cycles up to  reaching 
+a stable level that persist until failure.  
+ 
+In symmetrical strain-controlled tests (zero mean stress), the 
+material can show two different behaviors in the not-
+stabilized-phase:  
+ 
+• 
+cyclic hardening; the stress required to reach the imposed strain increases, as well as the elastic limit, 
+  
+• 
+cyclic softening; the stress required to reach the imposed strain decreases, as well as the elastic limit. 
+ 
+Material that suffer hardening are usually those without heat treatments whereas on the contrary, material 
+that undergoes heat treatments or heavy plastic deformation, tend to soften cyclically.  
+ 
+ 
+Shakedown Effect 
+ 
+In non-symmetrical strain-controlled 
+tests (non-zero mean stress) in which 
+the load exceeds the yield strength, 
+when the load cycles have a positive 
+mean stress, resultant the hysteresis 
+loop tends to decrease the mean stress 
+value towards zero. This is named 
+relaxation of the mean stress.   
+ 
+High plasticization leads to a complete 
+relaxation of he mean stress, whereas in 
+low plasticization, the relaxation can be 
+only partial.  
+ 
+ 
+§ 10 – Thermo-Mechanical Fatigue 
+61 
+ 
+Ratchetting  
+ 
+Ratchetting is an accumulation of plastic deformation that occurs in non-symmetrical strain-controlled test in 
+which the load exceeds the material yield strength.  
+ 
+The effect is that the hysteresis loops are not closed 
+but are constantly moving on the 𝜀𝜎 plane towards 
+increasing the value of the deformation in the 
+direction of the applied mean stress. Certainly, 
+ratcheting is a not stable behavior of the material.  
+ 
+In material that soften cyclically, ratcheting rate 
+tends to increase, on the opposite, it tends to 
+decrease in material that harden cyclically. 
+ 
+After a certain number of cycles, the phenomena stabilizes, and the hysteresis loop get closed (ratchetting rate 
+goes to zero).  
+ 
+ 
+Creep and Oxidation 
+ 
+Creep is a time-dependent plastic deformation under constant load and temperature. Microstructures get 
+rearranged by dislocation, aging and cavitation. Main causes of creep damage are:  
+ 
+• 
+necking phenomena 
+ 
+ 
+reduction of the resisting area,  
+ 
+• 
+grain boundaries cavities and cracks, 
+ 
+• 
+microstructural instability. 
+ 
+Empirical models provide simple formulas that correlate creep rate, stress, temperature and time for the 
+estimation of the material behavior. These models are useful in the early step of design process.  
+ 
+Oxidation reactions are instead based on diffusion mechanism:  
+ 
+• 
+vacancy mechanism,  
+ 
+• 
+interstitial mechanisms.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+62 
+Powertrain Components Design 
+ 
+ 
+Residual Life Estimation  
+ 
+The component life (in terms of number of cycles to failure) depends on material and damage mechanism and 
+can be estimated through the ∆𝜀−𝑁 curves, or the corresponding mathematical methods. Any model to 
+estimate the residual life is made of three parts: 
+ 
+1. material constitutive law 
+it correlates stress and strain, 
+ 
+2. damage model  
+ 
+describes the phenomena that cause damages, 
+ 
+3. failure criterion  
+ 
+express the limit value for the damage expression.  
+ 
+The thermo analysis computes the nodal  temperatures which are then imposed to the structural analysis. This 
+estimates the stresses and deformation caused by the superimposition of the temperature map and the 
+mechanical cyclic load.  
+ 
+To get more details, the thermal load may be stationary or transient. The combination of the two gives the 
+evolution in time of the component temperature field. 
+ 
+At the end of the simulation, the output is represented by the stress, strain, displacement, temperature and 
+heat flow for each node of the FE model. 
+ 
+Damage Models 
+ 
+The problem is that it is not clear how plastic deformation (fatigue), creep and oxidation interact each other 
+and which is the predominant factor. Only with a correct damage model calibration it is possible to compute 
+a correct estimation of the residual life of the component. Damage models are classified in general and empirical:  
+ 
+• 
+General  
+ 
+based on physics of crack nucleation and propagation (complex),  
+ 
+• 
+Empirical 
+ 
+based on experimental and microstructural observations (simpler). 
+ 
+Another important classification is based on the direction of the load:  
+ 
+• 
+Uniaxial 
+ 
+single axial stress,  
+ 
+• 
+Multiaxial 
+ 
+3D application with stresses in different locations.  
+ 
+All the models are a combination of General/Empirical and Uniaxial/Multiaxial analysis. The most known 
+uniaxial TMF literature damage and failure criterion are reported in the table below: 
+ 
+Basquin-Manson-Coffin 
+Empirical 
+Uniaxial 
+Damage is computed as a function of strain only.  
+Failure criterion is the experimental curve. 
+Neu-Sehitoglu 
+General 
+Uniaxial 
+Damage is the sum of creep and oxidation. 
+Failure is based on cumulative damage assumption. 
+Chaboche, BMW 
+Empirical 
+Uniaxial 
+Damage is the sum of mechanical fatigue and creep. 
+Failure is based on cumulative damage assumption. 
+Skeleton 
+Empirical 
+Uniaxial 
+Damage is function of the energy dissipated. 
+Failure is based on a limit value of the dissipated energy. 
+ 
+Several Multiaxial models (Von Mises, ASME code…) are based on the Basquin-Manson-Coffin relation.  
+ 
+§ 10 – Thermo-Mechanical Fatigue 
+63 
+ 
+Basquin-Manson-Coffin Model 
+ 
+The Basquin-Manson-Coffin model is the simplest uniaxial 
+damage model used both in LCF and in TMF with zero mean 
+stress. Since this model neglects the contribution of creep and 
+oxidation, then it is suitable for “not high temperatures” and “not 
+long working time”. 
+ 
+The material is modeled according to a elasto-plastic hardening 
+type (Hooke law in elastic range and Ramberg-Osdgood law in 
+plastic range). The total strain is the damage parameter: 
+ 
+∆𝜀= ∆𝜀𝑒𝑙+ ∆𝜀𝑝𝑙= ∆𝜎
+𝐸+ ( ∆𝜎
+𝐾′ )
+1
+𝑛′
+ 
+ 
+The parameters to be calibrated are the 
+coefficients and exponents of strength and 
+ductility to fatigue through experimental data 
+from LCF and HCF tests. The failure criterion is 
+directly defined by the experimental limit curve: 
+ 
+𝑁𝑇= 1
+2 ( 
+√
+𝜀𝑓
+′𝐸
+𝜎𝑓
+′
+𝑏−𝑐
+ ) 
+ 
+The residual life prediction is performed by 
+imposing ∆𝜀 (computed with FEA) and obtaining 
+the number of cycles to failure 𝑁𝑓.  
+ 
+Neu-Sehitoglu Model 
+ 
+Neu-Sehitoglu model is suitable for load histories with superimposed mechanical and thermal cycles. Thus, it 
+is suitable from TMF application provided the experimental calibration of the parameters with respect the 
+Basquin-Manson-Coffin model.  
+ 
+Here, the material is modeled as a viscos-plastic hardening type. The total damage (equal to the inverse of 
+cycles to failure) is instead defined as the sum of the contribution of mechanical fatigue, creep and oxidation: 
+ 
+𝐷= 𝐷𝑓𝑎𝑡+ 𝐷𝑐𝑟𝑒𝑒𝑝+ 𝐷𝑜𝑥   ⇒    1
+𝑁𝑓
+=
+1
+𝑁𝑓
+𝑓𝑎𝑡+
+1
+𝑁𝑓
+𝑐𝑟𝑒𝑒𝑝+ 1
+𝑁𝑓
+𝑜𝑥 
+ 
+The fatigue damage is calculated through Basquin-Mason-Coffin, whereas creep and oxidation damage 
+require extensive and expensive tests (due to calibration parameters). 
+ 
+ 
+Chaboche, BMW Model 
+ 
+Chaboche models the material as a viscos-elastic type and the damage based on stress and in an implicit 
+form. The differential formulation that neglect the oxidation damage: 
+  𝐷= 𝐷𝑓𝑎𝑡+ 𝐷𝑐𝑟𝑒𝑒𝑝 
+Here, the damage accumulation is linear and not superimposed; still, experimental calibration is required.  
+64 
+Powertrain Components Design 
+ 
+ 
+Skeleton Model 
+ 
+Skeleton model is based on an energy approach which correlates the energy dissipated in TMF condition to 
+crack propagation. The residual life of the component is estimated as: 
+ 
+total energy dissipated by the material up to failure
+energy dissipated by the component during its working condition 
+ 
+The total energy dissipated is computed as the total area of the hysteresis cycles up to failure. Since this is an 
+energy approach method, them there is difference between single and multiaxial condition.  
+ 
+Considering 𝑊𝐶 as the total energy expenditure to reach the failure (material characterization) and 𝑊 as the 
+total energy expenditure after 𝑁 cycles, then the number of cycles to failure (residual life) is: 
+ 
+𝑁𝑓= 𝑊𝐶
+𝑊 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Multiaxial Models 
+ 
+Multiaxial models are developed to be used in LCF and TMF analyses of components where the stress state 
+is generally multiaxial. Most of these models are based on the Basquin-Manson-Coffin model possibly 
+corrected in case of non-zero mean stress.  
+ 
+Al the multiaxial model calculate a uniaxial strain amplitude equivalent to the multiaxial condition acting on 
+the component. This equivalent uniaxial strain amplitude is then introduced in the Basquin-Manson-Coffin 
+model to estimate the cycles to failure.  
+ 
+Different model relies on different techniques to compute the equivalent uniaxial strain:  
+ 
+• 
+von Mises 
+ 
+Maximum octahedral strain criterion (exploits strain tensors),  
+ 
+• 
+ASME code 
+ 
+based on von Mises but computed starting from a strain variation, 
+ 
+• 
+Sonsino-Grubisic 
+damage is caused by the change of strain direction due to deformation, 
+ 
+• 
+Kandill-Brown-Miller 
+equivalent uniaxial strain amplitude starting from principal strains, 
+ 
+• 
+Fatemi-Socie 
+ 
+damage is controlled by shear strain component of maximum amplitude. 
+ 
+§ 11 – Exhaust Manifold 
+65 
+ 
+11. Exhaust Manifold 
+ 
+Exhaust manifolds collects exhaust gases from the exhaust valves and drive 
+the gas to the turbine of the turbocharger, if present. 
+ 
+In modern diesel engines the common geometry is that of turbocharged 
+engines: short runners with a unique outlet section to guide the exhaust 
+gasses directly to the turbocharger. 
+ 
+ 
+Material 
+ 
+The most used materials are:  
+ 
+• 
+Steel 
+ 
+ 
+ 
+ 
+AISI 409, 441, 429, 444, 321, 
+  
+ 
+• 
+Ductile cast iron 
+ 
+ 
+Si-Mo, Si-Mo-Cr, Ni-Resist. 
+ 
+ 
+Design Guidelines 
+ 
+The exhaust manifold is a component that highly influences the weight of the engine and the emissions quality. 
+The working conditions are typical of a TMF condition and they are characterized by:  
+ 
+• 
+thermal cycles   
+ 
+due to hot flow of the gases, thermal expansion of the turbocharger, 
+ 
+• 
+mechanical loads 
+ 
+fastening and turbocharger weight. 
+ 
+During the design procedure, the main requirements to be satisfy are:  
+ 
+• 
+use of materials able to resist to thermal fatigue and oxidation, 
+ 
+• 
+reduction of well thickness to save weight and reduce thermal capacity for increase the fast heating, 
+ 
+• 
+optimization of pressure waves avoiding interferences (turbocharger efficiency), 
+ 
+• 
+reduction of thermal strains and distortions. 
+ 
+The procedure is semi-empirical. The geometry is modeled using beams loaded with force 𝑊 and moment 
+𝑊𝐿. The component main dimensions can be obtained using non-dimensional parameters. These non-
+dimensional parameters are:  
+ 
+• 
+aspect ratio 
+𝑚 
+ 
+• 
+branch ratio 
+𝑏 
+ 
+• 
+offset ratio  
+𝑐 
+ 
+𝑚= 𝐿
+𝑈,
+𝑏= 𝑈
+𝑦,
+𝑐= 𝐿
+𝑦 
+ 
+ 
+ 
+ 
+ 
+66 
+Powertrain Components Design 
+ 
+ 
+To increase the manifold stiffness, the following items should be verified:  
+ 
+• 
+small aspect ratio 
+it limits the amplitude of the deformation for internal runners 
+ 
+• 
+large branch ratio 
+ 
+ 
+• 
+large offset ratio  
+ 
+ 
+Numerical CFD analysis allows to define the second order approximation of the manifold geometry.  
+ 
+ 
+Working Condition on the Test Bench 
+  
+The typical working condition is an Out-of-Phase , Thermo-Mechanical Fatigue: OP TMF. This means that the 
+exhaust manifold is loaded by a thermal and a mechanical load. 
+ 
+The thermal load is a cyclic non-isothermal load (engine characterization) and the heat exchange is:  
+ 
+• 
+conduction 
+with cylinder head, 
+ 
+• 
+convection 
+with environment. 
+ 
+The mechanical load is due to the mounting condition:  
+ 
+• 
+bolts load, 
+ 
+• 
+turbocharger weight, 
+ 
+ 
+• 
+engine dynamic load. 
+ 
+Also it is required to perform a thermal shock test because of the extreme working conditions such as:  
+ 
+• 
+fast speed regime variations, 
+ 
+• 
+cooling, especially if manifolds are place in front of the cold air flux. 
+ 
+Finally, a leakage test must prove that no exhaust gases are quitting the manifold due to cracks.    
+ 
+ 
+Material Behavior 
+  
+Cast iron failure mainly regards:  
+ 
+• 
+material temperature resistance  
+for high temperature LCF, 
+ 
+• 
+crack propagation 
+ 
+ 
+for high temperature resistance cast iron. 
+ 
+Overall, the LCF behavior of the high resistance cast iron depends on the temperature. Indeed, the cast iron 
+tends to:  
+ 
+• 
+cycle hardening  
+@ low and medium temperature  
+500°C , 
+ 
+• 
+cycle softening  
+@ high temperature 
+ 
+ 
+800°C . 
+ 
+The damage models are based on Basquin-Manson-Coffin and Skeleton models of a commercial Si-Mo-Cr cast 
+iron. However, creep are generally neglected while oxidation would require more detailed models.  
+ 
+§ 11 – Exhaust Manifold 
+67 
+ 
+Residual Life Estimation – FEA Analysis 
+  
+The main purpose of FEA and TMF study is to predict the critical areas of the exhaust manifold in terms of 
+structural integrity, and the estimation of the number of cycles to failure 𝑁𝑓.  
+  
+The procedure follows this general scheme:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FEA 
+ 
+In the Finite Element Analysis phase, two simulations must be performed:  
+ 
+• 
+Thermal transient analysis 
+temperatures and nodal temperatures values after the cycle, 
+ 
+• 
+Structural transient analysis 
+stress and strain due to bolt and then due to thermal expansion. 
+ 
+The temperature maps computed in the thermal analysis are then superimposed to the mechanical results. 
+After the calibration, the comparison between experimental and simulated must prove that hysteresis loop 
+variation is acceptable.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+After the FEA, one can focus on the time evolution of all the variables of interest such as stresses, strains, nodal 
+temperatures, etc.  
+ 
+68 
+Powertrain Components Design 
+ 
+ 
+Multiaxial Damage Model 
+ 
+Also, multiaxial damage model are exploited in 
+temperature ranging between 160°C and 800°C. This is 
+possible by calibrating the parameters (four) of the 
+Basquin-Manson-Coffin model. However, since this last 
+model does not consider temperature-dependent relation, 
+then one must calibrate the parameter for each 
+temperature under investigation.  
+ 
+Residual life values must be computed for each critical FR 
+detected in structural FEA.  
+ 
+Usually, the most probable area where the fatigue crack 
+may nucleate and propagate is then reinforcement rib 
+between exhaust manifold main collar and external 
+runner. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,748 @@
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 927 
+ 
+DESIGN AND ANALYSIS OF A MULTI-CYLINDER FOUR STROKE SI 
+ENGINE EXHAUST MANIFOLD USING CFD TECHNIQUE 
+Mohd Sajid Ahmed1, Kailash B A2, Gowreesh3 
+1PG Student,2Assistant Professor, Department of Thermal Power Engineering 
+VTU PG Centre, Regional office,Kalaburagi,Karnataka, India. 
+3Associate Professor, Department of Mechanical Engineering, JSSATE, Bengaluru, Karnataka, India.  
+ 
+ 
+ 
+Abstract 
+Exhaust manifold is one of the important components of internal combustion engine which plays a major role in the 
+improvement of fuel consumption of the engine.  Combustion efficiency of the engine can be improved by improving the 
+exhaust manifold design in internal combustion engine. Performance of the engine increases if the exhaust manifold is of a 
+good condition. The designing of exhaust manifold is a complex procedure and is dependent on many parameters. Better the 
+exhaust manifold design better is performance of the engine. The major work is to improve the design to lower the 
+backpressure in the exhaust manifold which increases the performance of the engine.Computational fluid dynamics (CFD) is 
+one of the most popular and current running software which is mostly used in automobile industries in order to reduce the 
+cost which is spent in design and analysis of various models in the fluid flow field. In the present work, analysis is carried out 
+for different shape of exhaust manifolds using CFD software.To achieve the optimal geometry for the low backpressure and 
+high exhaust velocity, five different models were designed and comprehensively analyzed with the help of velocity contours 
+and pressure contours. Using the commercially available software the flow through exhaust manifold is done. Comparison is 
+done for five different models using the velocity contour and pressure contour and best possible model for lower backpressure 
+and high exhaust velocity is suggested. 
+Key Words: Multi-Cylinder Engine, Exhaust Manifold, Back Pressure, Exhaust Velocity. 
+--------------------------------------------------------------------***----------------------------------------------------------------------
+1. INTRODUCTION 
+In an IC engine, one of the most important component is 
+the exhaust manifold. Exhaust manifold designing is a 
+complicated procedure as the designing depends on 
+many parameters viz. exhausts velocity, backpressure, 
+mechanical efficiency etc. The significance of any of these 
+parameters depends upon the designer’s needs. Usually 
+backpressure, exit exhaust velocity, power requirement 
+are the some thoughts of the exhaust manifold design. 
+Exhaust manifold is made up of cast iron or stainless 
+steel .It collect gases from different cylinders and supply 
+to the exhaust manifold. Many research and lots of 
+studies have been done in this field. The liquid cooled 
+exhaust manifold using CFD is done by the sir Scheeringa 
+et al. The purpose of the study is to understand the 
+manifold operation and flow property distribution and 
+heat transfer detailed information.The replication of 
+actual condition in model due to involvement of such a 
+huge number of factors is almost impossible. In an 
+exhaust manifold of any multicylinder engine the output 
+gases are collected from more than two cylinders into a 
+single pipe. The inlet of the multicylinder exhaust 
+manifold is connected to the outlet of the multicylinder 
+heads. Exhaust manifold is attached to the engine and 
+major part where the stream from different cylinders is 
+to be collected into a one pipe in multicylinder engines. 
+The collected hot exhaust gases come out from the single 
+outlet of the exhaust manifold from the header of the 
+cylinder.The backpressure of the exhaust manifold at the 
+outlet should be less in order to have a optimum 
+performance of the engine. Higher the backpressure 
+lower is the performance or economy for domestic 
+vehicles. Higher backpressure is required for the race 
+cars to achieve the higher speed in shorter time. The 
+exhaust gases should have high velocity at the outlet of 
+the exhaust manifold to have a good mechanical 
+efficiency and thermal efficiency.  
+Table -1: Engine Specifications 
+Engine 
+4 Stroke 4 Cylinder SI 
+Engine 
+Make 
+Maruti-Suzuki Wagon-R 
+Calorific Value of Fuel 
+(Gasoline) 
+45208 KJ/KG-K 
+Specific Gravity of Fuel 
+0.7 
+Bore and Stroke 
+69.05 mm x 73.40 mm 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 928 
+ 
+Swept Volume 
+1100 cc 
+Compression Ratio 
+7.2:1 
+Dynamometer Constant 
+2000 
+Diameter of Orifice 
+29 mm 
+Coefficient of Discharge of 
+Orifice 
+0.65 
+ 
+ 
+Backpressure is one of the common problem 
+associated with the exhaust manifold. The literature 
+review reveals that the lots of work have been done for 
+the improvement of the exhaust manifold in order to 
+improve the working of the engine. CFD method reduces 
+the cost of manufacturing and production time. 
+Literature review shows that lots of exhaust manifold 
+study have been done using the CFD technique. Some of 
+the literature review are as follows.  
+PL. S. Muthaiah [1], He has analyzed the exhaust 
+manifold in order to reduce the backpressure and also to 
+increase the particulate matter filtration. He has 
+modified the different exhaust manifold by varying the 
+size of the conical area of the exhaust manifold and 
+varying the size of the grid wire mesh packed throughout 
+the exhaust manifold. When size of the grid mesh packed 
+decreased the backpressure increases which leads to 
+lower the performance of the engine due to more fuel 
+consumption and hence low volumetric efficiency. When 
+size of the grid mesh packed increased the backpressure 
+decreases the filtration of the particulate matter also 
+reduces which will not satisfy the standards of the 
+pollution control. Computational fluid dynamics is used 
+for the study of the exhaust manifold and best possible 
+design 
+of 
+the 
+exhaust 
+manifold 
+with 
+minimum 
+backpressure and maximum particulate matter filtration 
+efficiency is suggested. 
+K.S. Umesh, V.K. Pravin and K. Rajagopal [2] In this work 
+eight different models of  exhaust manifold were 
+designed and analyzed to improve the fuel efficiency by 
+lowering the backpressure and also by changing the 
+position of the outlet of the exhaust manifold and 
+varying the bend length. The eight different modified 
+models are short bend centre exit (SBCE), short bend 
+side exit (SBSE), long bend centre exit (LBCE), long bend 
+side exit (LBSE), short bend centre exit with reducer (  
+SBCER), short bend side exit with reducer (SBSER), long 
+bend centre exit with reducer (LBCER), long bend side 
+exit with reducer(LBSER).After analysis they included 
+that the exhaust manifold with long bend centre exit 
+with reducer (LBCER), gives the highest overall 
+performance.    
+Kulal et al.(2013) [3]work comprehensively analyzes 
+eight different models of exhaust manifold and 
+concluded the best possible design for least fuel 
+consumption. CFD is the current trend on automotive 
+field in reducing the cost effect for analysis of various 
+models on the basis of fluid flow. A multi-cylinder Maruti 
+- Suzuki Wagon-R engine with maximum speed of 1500 
+rpm is taken for the analysis. The load and performance 
+test is conducted. From the experiment backpressure 
+and exhaust temperatures are measured. The mass flow 
+rate and velocities are calculated. Flow through the 
+exhaust manifold is analyzed using commercially 
+available software with mass flow rate and pressure as 
+boundary conditions. 
+Vivekananda Navadagi and SiddaveerSangamad [4]they 
+analyzed the flow of exhaust gas from two different 
+modified 
+exhaust 
+manifold 
+with 
+the 
+help 
+of 
+Computational fluid dynamics. To achieve the optimal 
+geometry for the low backpressure they have analyzed 
+two different exhaust manifold, base geometry exhaust 
+manifold and the modified geometry exhaust manifold. 
+In the base model of the exhaust manifold the outlet is at 
+side of the first inlet where as in the modified model of 
+the exhaust manifold the outlet is at the centre of the 
+exhaust manifold. Analysis has been done for the two 
+different exhaust manifolds. The results were compared 
+for the two models and it is found that the modified 
+model gives low backpressure in comparison with other 
+base model which ensures the improvement in the 
+efficiency of the engine. 
+ 
+2. METHODOLOGY 
+2.1 Design of Exhaust Manifold 
+The five models are designed using the computer aided 
+drawing software. The five models are analyzed using 
+commercial CFD tool. The models are prepared and 
+discretized using CFD-Grid generation tool. Basic CAD 
+models used are shown with dimensions. 
+ 
+Fig-1: Dimension of the exhaust manifold 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 929 
+ 
+2.2 Design of Models using CAD software 
+ 
+ Model 1 
+ In the model 1 shape of the inlet has been modified from 
+straight inlet to convergent inlet and 3D model and its 2-
+D sketch is shown.  
+ 
+ 
+Fig-2:  MODEL 1 
+ Model 2 
+In model 2 outlet of exhaust manifold is modified   from 
+converging 
+outlet 
+to 
+divergent-straight-convergent 
+outlet.  
+ 
+Fig-3:  MODEL 2 
+ Model 3 
+In model 3 the divergence length of the outlet is 
+increased and convergence length is decreased.  
+ 
+Fig-4:  MODEL 3 
+ Model 4 
+In model 4 the divergence length of the outlet is 
+decreased and the convergence length is increased.  
+ 
+Fig-5: MODEL 4 
+Model 5 
+In model 5 the divergent area and convergent area of the 
+outlet are kept equal and straight area is decreased. 
+ 
+Fig-6:  MODEL 5 
+ 
+2.3 Boundary conditions used 
+ 
+The boundary conditions used are Mass flow boundary 
+conditions 
+ 
+Inlet 1= 0.00188kg/s, Inlet 2 = 0.00188kg/s, Inlet 3 = 
+0.00188 kg/s, Inlet 4 = 0.00188 kg/s 
+Outlet= 0Pa . 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 930 
+ 
+Inlet 3
+Inlet 2
+Inlet 1
+Inlet 4
+outlet
+ 
+Fig-7:  Boundary condition 
+ 
+ 
+Table -2: Boundary condition 
+Entity 
+Zone 
+Zone 
+Type 
+Mass 
+flow inlet 
+Boundary 
+Inlet 
+Pressure 
+outlet 
+Boundary 
+Outlet 
+Boundary 
+1 
+Boundary 
+Wall-
+reduction 
+Boundary 
+2 
+Boundary 
+Wall-
+oxidation 
+ 
+ 
+2.4 Meshing  
+Figure 8 to 12 shows five meshed models 
+ 
+Fig-8:Meshed model 1 
+Total Number of Nodes           =   2560                       
+Total Number of Elements     =   1540                       
+Total Number of                                                          
+Hexahedrons                            =    1540           
+Total Number of Faces            =    1139                      
+Aspect Ratio                            =     7                           
+Orthogonal angle                     =     48.4                      
+ 
+Fig-9:Meshed model 2 
+Total Number of Nodes        =   2958 
+Total Number of Elements   =   1789 
+Total Number of 
+Hexahedrons                        =   1789      
+Total Number of Faces        =   1305 
+Aspect Ratio                         =   9 
+Orthogonal angle                  =   49.56 
+ 
+Fig-10:Meshed model 3 
+Total Number of Nodes           =   2723                   
+Total Number of Elements    =   1347 
+Total Number of           
+Hexahedrons                             =   1347                    
+Total Number of Faces            =   1015                    
+Aspect Ratio                              =   4     
+Orthogonalangle=39.56                        
+ 
+Fig-11:Meshed model 4 
+Total Number of Nodes       =   2275 
+Total Number of Elements =   1066 
+Total Number of  
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 931 
+ 
+Hexahedrons                       =   1066 
+Total Number of Faces       =   1385 
+Aspect Ratio                       =   3 
+Orthogonal angle                =   36.95 
+ 
+Fig-12:  Meshed model 5 
+Total Number of Nodes                 =         3125 
+Total Number of Elements           =         1685 
+Total Number of Hexahedrons    =         1685 
+Total Number of Faces                  =         1535 
+Aspect Ratio                                  =         8 
+Orthogonal angle                           =         47.58 
+2.5 Planes created for Postprocessing 
+Plane 1
+Plane 2
+Plane 3
+Plane 4
+Plane 5
+Plane 6
+ 
+Fig-13: Planes for postprocessing 
+Totally six planes are created for the analysis of the 
+exhaust manifold as shown in the above figure 13. For 
+better understanding of the results and all results are 
+discussed with reference to these planes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3. RESULTS AND DISCUSSIONS 
+ 
+3.1 Results of the model 1 
+(a)  Along plane 1 
+ 
+Fig-14:  Velocity contour 
+ 
+ 
+Fig-15:  Turbulence Kinetic energy contour 
+ 
+From the fig. 14 it is evident that due to the convergent 
+shape of the inlet, velocities are found to be lower at the 
+connecting area and outlet. The low velocity results in 
+high backpressure. It is observed that exhaust velocities 
+are considerably decreases by designing the manifold 
+using the convergent inlet. Low turbulence kinetic 
+energy is observed throughout the flow is shown the fig 
+15. 
+ 
+(b) Along plane 2,3,4,5&6 
+ 
+Fig-16:  Velocity contour 
+ 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 932 
+ 
+ 
+Fig-17: Turbulence Kinetic energy contour 
+ 
+Figure 16 represents the variation of velocity through 
+the exhaust manifold along the plane 2, 3, 4, 5 and 6. This 
+ascertains that exhaust velocities are considerably 
+decreases 
+by designing the manifold using the 
+convergent inlet. Figure 17 gives the turbulence along 
+the planes 2, 3, 4, 5 and 6. It is seen that turbulence is 
+low in these design. At inlet 1 some bursts are seen. 
+ 
+Fig-18:  Velocity streamlines 
+ 
+Figure 18 gives the variation of flow of the exhaust gases. 
+It is observed that exhaust gases circulates at the inlets 3 
+and 4 in this case. 
+(a) Along plane 1 
+ 
+Fig-19:  Pressure contour 
+ 
+(b) Along plane 2, 3, 4, 5&6 
+ 
+Fig-20:  Pressure contour 
+ 
+Fig. 19 and fig. 20 gives the variation of pressure in the 
+exhaust manifold for model 1 along plane 1 and along 
+the planes 2, 3, 4, 5 and 6 respectively. It is seen that 
+pressure at the outlet is less which leads to more 
+backpressure.  
+ 
+3.2 Results of the model 2 
+(a) Along plane 1 
+ 
+ 
+Fig-21:  Velocity contour 
+ 
+ 
+Fig-22:  Turbulence kinetic energy contour 
+From the figure 21 it is seen that the velocities are found 
+to be slightly higher at the outlet in comparisons with 
+model 1. It is observed that the exhaust velocities are 
+considerably increased by designing the exhaust 
+manifold using this outlet in comparison with model 1. 
+From the figure 22 it is evident that higher turbulence 
+kinetic energy is observed at the outlet. At the inlets the 
+turbulence energy is minimum. 
+(b) Along plane 2, 3, 4, 5 &6 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 933 
+ 
+ 
+Fig-23:  Velocity contour 
+ 
+Fig-24:  Turbulence Kinetic energy contour 
+ 
+Figure 23 gives the velocity contour along the plane 2, 3, 
+4, 5 and 6. It is observed that the velocity at the inlets is 
+less and it increases at the outlet. Figure 24 gives the 
+turbulence kinetic energy contour along the plane 2, 3, 4, 
+5 and 6. Turbulence energy increases from inlet to the 
+outlet and the outlet turbulence energy is more.     
+ 
+Fig-25:  Velocity streamlines 
+Figure 25 gives the flow velocity of the model 
+2. It is observed that the velocity is slightly 
+high at the outlet in comparison with the 
+model 1.  
+ 
+               (a)   Along plane 
+ 
+Fig-26:  Pressure contour 
+(b) Along plane 2, 3, 4, 5 & 6 
+ 
+Fig-27:  Pressure contour 
+Figure 26 gives the pressure contour along plane 
+1.Pressure is higher at the outlet in comparison with 
+model 1. It is evident that the pressure is high at the 
+inlets of model 2. Pressure is high at the middle of the 
+exhaust manifold in comparison with the exit of the 
+outlet. Figure 27 gives the pressure distribution in the 
+exhaust manifold along the plane 2, 3, 4, 5 and 6. 
+ 
+3.3 Results of the model 3 
+(a) Along plane 1 
+ 
+ 
+ 
+Fig-28: Velocity contour 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 934 
+ 
+ 
+Fig-29:  Turbulence kinetic energy contour 
+ 
+Figure 28 gives the velocity contour of the model 3. It is 
+seen that the velocity is higher at the outlet in 
+comparison with the model 1 and 2. It is observed that 
+exhaust velocities are considerably increases 
+by 
+designing the manifold using the divergent-convergent 
+outlet. Figure 29 gives the turbulence kinetic energy 
+contour. It is observed that the turbulence increases by 
+decreasing the convergent length. Higher turbulence 
+kinetic energy is observed at the connecting area and the 
+outlet.  
+ 
+(b) Along plane 2,3,4,5&6 
+ 
+ 
+Fig-30:  Velocity contour 
+ 
+ 
+Fig-31:  Turbulence kinetic energy contour 
+ 
+Figure 30 gives velocity contour along the plane 2, 3, 4, 5 
+and 6. It is observed that the velocity is higher at the 
+outlet. Figure 31 gives the turbulence kinetic energy 
+along the plane 2, 3, 4, 5 and 6. 
+ 
+ 
+Fig-32:  Velocity streamline 
+ 
+Figure 32 gives the velocity streamlines for the model 3. 
+It is observed that the flow takes place without any 
+recirculation. Velocities are found to be higher at the 
+outlet and the connecting area. 
+ 
+(a)  Along plane 1 
+ 
+ 
+Fig-33: Pressure contour 
+ 
+(b) Along plane 2, 3, 4, 5&6 
+ 
+ 
+Fig-34: Pressure contour 
+ 
+Figure 33 gives the pressure distribution for model 3. It 
+is found that the pressure is higher at the inlets. Pressure 
+is higher at the outlet in comparison with the model 1 
+and 2. It is observed that exhaust pressure are 
+considerably increases by designing the manifold by 
+decreasing the convergent length of the outlet. Figure 34 
+gives the pressure contour along the plane 2, 3, 4, 5 and 
+6. It is seen that the pressure is higher in comparison 
+with the model 1 and 2 
+ 
+ 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 935 
+ 
+3.4 Results of the model 4 
+(a) Along plane 1 
+ 
+ 
+Fig-35: Velocity contour 
+ 
+ 
+Fig-36: Turbulence kinetic energy contour 
+Figure 35 gives the velocity contour of model 4. It is 
+observed that due to the sudden expansion of the area of 
+outlet velocities are found to be higher at the outlet. 
+Velocity at the outlet is higher in comparison with the 
+model 1, 2 and 3. It is observed that the exhaust 
+velocities are considerably increased by designing the 
+exhaust manifold by reducing the divergent length of the 
+outlet in comparison with model 1, 2 and 3. Figure 36 
+gives the turbulence kinetic energy contour of model 4. It 
+is evident that higher turbulence kinetic energy is 
+observed at the outlet in comparisons with the models 1, 
+2 and 3. 
+(b) Along plane 2, 3, 4, 5&6 
+ 
+Fig-37: Velocity contour 
+ 
+Fig-38: Turbulence kinetic energy contour 
+ 
+Figure 37 gives the velocity contour along the plane 2, 3, 
+4, 5 and 6. It is observed that the velocity is higher at the 
+outlet in comparison with model 1, 2 and 3. Figure 38 
+gives the turbulence kinetic energy contour along the 
+plane 2, 3, 4, 5 and 6. Turbulence kinetic energy is high at 
+the outlet.  
+ 
+Fig-39: Velocity streamline 
+ 
+Figure 39 gives the velocity streamlines of the model 4. It 
+is observed that the flow takes place without any 
+recirculation. Uniform flows are observed in the model. 
+Velocities are found to be higher at the outlet. 
+ 
+(a)  Along plane 1 
+ 
+ 
+Fig-40: Pressure contour 
+ 
+ 
+(b) Along plane 2, 3, 4, 5 and 6 
+ 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 936 
+ 
+ 
+Fig-41: Pressure contour 
+ 
+Figure 40 gives the pressure distribution for model 4. It 
+is found that the pressure is higher in comparison with 
+the model 1, 2 and 3. Higher pressures are observed at 
+the inlets. It is observed that by reducing the divergent 
+length of the outlet the pressure increases considerably. 
+Figure 41 gives the pressure contour of the model 4. 
+Higher pressure is observed at the outlet in comparison 
+with the model 1, 2 and 3.  
+ 
+3.5 Results of the model 5 
+(a) Along plane 1 
+ 
+Fig-42: Velocity contour 
+ 
+ 
+ 
+Fig-43: Turbulence kinetic energy contour 
+Figure 42 gives the velocity contour of the model 5. It is 
+observed that due to the divergent convergent shape of 
+the outlet velocity is higher at the outlet in comparison 
+with the other models. It is observed that the exhaust 
+velocities are considerably increased by designing the 
+exhaust manifold by reducing the straight length of the 
+outlet in comparison with other models. Figure 43 gives 
+the turbulence kinetic energy contour of the model 5. It 
+is observed that the turbulence is almost same in 
+comparison with the other models. 
+            (b)Along plane 2,3 ,4 ,5&6 
+ 
+ 
+Fig-44: Velocity contour 
+ 
+Fig-45: Turbulence kinetic energy contour 
+ 
+Figure 44 gives the velocity contour of the model 5 along 
+the plane 2, 3, 4, 5 and 6. Higher velocity is observed at 
+the outlet in comparison with the other models. Figure 
+45 gives the turbulence kinetic energy contour of the 
+model 5 along the plane 2, 3, 4, 5 and 6. Higher 
+turbulence kinetic energy is observed at the outlet.   
+ 
+ 
+Fig-46: Velocity streamline 
+ 
+Figure 46 gives the velocity streamline of the model 5. It 
+is observed that the flow is uniform in comparison with 
+the other models. No recirculations are observed in the 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 937 
+ 
+model. It is observed that by reducing the straight length 
+of the outlet the velocity is higher.  
+(b) Along plane 1 
+ 
+Fig-47: Velocity contour 
+ 
+ 
+(b)  Along plane 2,3,4,5&6 
+ 
+Fig-48: Pressure contour 
+ 
+Figure 47 gives the pressure distribution for model 5. It 
+is found that the pressure is higher in comparison with 
+the other model. Higher pressure is observed at the 
+inlets. It is observed that by reducing the straight length 
+of the outlet the pressure increases considerably. Figure 
+48 gives the pressure contour of the model 5 along plane 
+2, 3, 4, 5 and 6. Higher pressure is observed at the outlet 
+in comparison with the other model. 
+ 
+ 
+ 
+4. CONCLUSIONS 
+ 
+In this work, different exhaust manifolds are analyzed 
+with the help of commercial CAE software and flow of 
+exhaust is observed and velocity and pressure 
+distribution along the length of exhaust manifold is 
+obtained through simulation. Five different models 
+designed and results were analyzed through CFD Post 
+processing. The use of different shapes of exhaust 
+manifold helps in easy flow of exhaust. 
+ 
+ Model 5 facilitates easy flow of exhaust without 
+recirculation and low backpressure at the 
+exhaust outlet in comparisons with all other 
+models.  
+ 
+ Turbulence kinetic energy is almost zero in the 
+model 5 and hence the exhaust flows easily.  
+ 
+ Velocity at the outlet of model 5 is more and 
+hence the backpressure reduces considerably. 
+ 
+ The optimum design for a exhaust manifold is 
+Model 5 with 0.845 bar back pressure and outlet 
+velocity 12.5m/s. 
+ 
+ The minimum backpressure and higher exhaust 
+velocities are achieved by using exhaust 
+manifolds with reducers, thus also reducing 
+emissions.  
+ 
+REFERENCES 
+[1]. PL. S. Muthaiah, “CFD Analysis of catalytic converter 
+to reduce particulate matter and achieve limited back 
+pressure in diesel engine”, Global induced during suction 
+and compression stroke l journal of researches in 
+engineering A: Classification (FOR) 091304,091399, 
+Vol.10 Issue 5 (Ver1.0) October 2010 
+ [2]. K.S. Umesh, V.K. Pravin and K. Rajagopal “CFD 
+Analysis and Experimental Verification of Effect of 
+Manifold Geometry on Volumetric efficiency and Back 
+Pressure for Multi-cylinder SI Engine” International 
+Journal of Engineering & Science Research IJESR/July 
+2013/ Vol-3/Issue-7/342. 
+[3]. Kulal et al.(2013) “Experimental Analysis of Optimal 
+Geometry for Exhaust Manifold of Multi-cylinder SI 
+Engine for Optimum Performance” Global journal of 
+researches in engineering A: Classification (FOR) 
+091304,091399, Vol.10 Issue 5 (Ver1.0) October 2010. 
+ [4]. 
+Vivekananda 
+Navadagi 
+and 
+SiddaveerSangamadDevelopment of a Partial Filter 
+Technology for Hdd Retrofit, Sae Technical Paper 2006-
+01-0213.Jacobs, T., Chatterjee, S., Conway, R., Walker, 
+Development of a Partial Filter Technology for Hdd 
+Retrofit, Sae Technical Paper 2006-01-0213. 
+ [5] Kim et al, “A non-noble metal based catalytic 
+converter for two strokes, two-wheeler applications”, 
+SAE Paper No. 2001011303, 2001. 
+[6] Chiavolaet al, “Possibilities of the application of 
+catalyst technologies for the control of particulate 
+          International Research Journal of Engineering and Technology (IRJET)               e-ISSN: 2395-0056 
+               Volume: 02 Issue: 09 | Dec-2015            www.irjet.net                                                      p-ISSN: 2395-0072 
+ 
+© 2015, IRJET                                                          ISO 9001:2008 Certified Journal                                                           Page 938 
+ 
+emission for diesel vehicles”, SAE Transaction 2001, 
+paper no. 2001280044. 
+ [7] Binachiet al, “Possibilities of the application of 
+catalyst technologies for the control of particulate 
+emission for diesel vehicles”, SAE Transaction 2001, 
+paper no. 2001280044. 
+ [8] C. Lahousse, B. Kern, H. Hadrane and L. Faillon Multi-
+cylinder SI Engine” International Journal of Engineering 
+& Science Research IJESR/July 2013/ Vol-3/Issue-
+7/342-353. 
+ 

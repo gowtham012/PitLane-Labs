@@ -1,0 +1,4447 @@
+Chapter 16: Cranktrain (Crankshafts, Connecting Rods, 
+and Flywheel) 
+ 
+ 
+ 
+Chapter 16: Cranktrain (Crankshafts, Connecting Rods, and Flywheel)............................ 1 
+16.1 Definition of Cranktrain Function and Terminology .................................................. 2 
+16.2 Operating Environment Considerations ...................................................................... 4 
+16.3 Description of Common Cranktrain Configurations and Architectures ..................... 4 
+16.3.1 Crankshaft Configurations ................................................................................... 4 
+16.3.1.1 Assembled or Built-up Crankshafts .............................................................. 5 
+16.3.1.2 One Piece Crankshaft .................................................................................... 6 
+16.3.2 Connecting Rod Configurations .......................................................................... 7 
+16.3.3 Flywheel Configurations .................................................................................... 11 
+16.4 Detailed Design of Crankshaft Geometry ................................................................. 11 
+16.4.1 Detailed Design of Crankshaft Geometry .......................................................... 12 
+16.4.2 Crankshaft Initial Sizing Values ........................................................................ 16 
+16.4.3 Crankshaft Natural Frequencies ......................................................................... 18 
+16.4.4 Crankshaft Nose Development (straight, taper, spline fit) ................................ 24 
+16.4.5 Crankshaft Flange Development........................................................................ 32 
+16.4.6 Cross-drilling of Crankshaft .............................................................................. 35 
+16.5 Detailed Design of Connecting Rod Geometry ........................................................ 37 
+16.5.1 Connecting Rod Crankpin Bore Cylindricity .................................................... 42 
+16.5.2 Connecting Rod-to-Cap Alignment ................................................................... 43 
+16.5.3 Calculating Connecting Rod Bushing and Journal Bearing Press Fit ................ 44 
+16.5.4 Typical Connecting Rod Computer Stress Analysis Methodology ................... 50 
+16.6 Detailed Design of Flywheel Geometry ................................................................... 51 
+16.6.1 Calculating Flywheel Inertia Effect on Cyclical Speed, Energy Storage .......... 52 
+16.6.2 Calculating Burst Strength of Flywheels ........................................................... 53 
+16.6.3 Calculating Critical Speeds of Shafts or Whirl of Flywheels ............................ 54 
+16.7 Crankshaft and Connecting Rod Construction ......................................................... 55 
+16.7.1 Crankshaft Materials .......................................................................................... 55 
+16.7.2 Crankshaft Manufacturing ................................................................................. 56 
+16.7.3 Connecting Rod Materials ................................................................................. 57 
+16.7.4 Connecting Rod Manufacturing ......................................................................... 57 
+16.7.5 Typical Bearing Journal Tolerances .................................................................. 58 
+16.8 Analysis and Test ...................................................................................................... 59 
+16.8.1 Description of boundary conditions, constraints ............................................... 59 
+16.8.2 Component Testing ............................................................................................ 60 
+16.9 Recommendations for Further Reading .................................................................... 62 
+ 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-2 
+B. Dondlinger 
+16.1 Definition of Cranktrain Function and Terminology 
+ 
+The Cranktrain is the heart of the reciprocating piston engine, and the purpose is 
+to translate the linear motion of the pistons into rotary motion for the purpose of 
+extracting useful work. This is typically composed of a connecting rod, crankshaft, and 
+flywheel or power takeoff device. The actual realization of these parts take on many 
+forms, and the description and physics of these were covered in Chapter 6.  
+The crankshaft is usually composed of one or multiple throws, to which the 
+connecting rod is attached with either fluid film journal bearings or rolling element 
+bearings as shown in Figure 16.1. The crankshaft is typically cast or forged of iron or 
+steel. In addition to its main function of translating linear to rotary motion, the crankshaft 
+typically drives many of the engine accessories such as: valvetrain, lube system, cooling 
+system, or charging system. Crankshaft rotation direction can be either clockwise or 
+counterclockwise, depending on driveline packaging and requirements. It can rotate in 
+both directions in some applications, if the valvetrain mechanism is designed 
+appropriately. One example would be golf carts, where the two stroke engine drives the 
+vehicle forward, and can be stopped and restarted in the opposite direction to provide a 
+means of reverse. The crankshaft typically incorporates additional balance weights to 
+smooth the vibration produced by the oscillating of the piston.  
+ 
+Crank nose,
+Accessory 
+drive
+Valvetrain 
+Timing Drive
+Crankpin 
+Journal
+Main Journal, 
+Main Bearing
+Counterweights
+Corner Fillet
+Power Take Off (PTO), 
+Flywheel Flange,
+Primary Drive
+Pressurized 
+Oil Feed Hole
+Crank Radius 
+(Stroke/2=R)
+Crank Web, 
+Crank Cheek
+Crank nose,
+Accessory 
+drive
+Valvetrain 
+Timing Drive
+Crankpin 
+Journal
+Main Journal, 
+Main Bearing
+Counterweights
+Corner Fillet
+Power Take Off (PTO), 
+Flywheel Flange,
+Primary Drive
+Pressurized 
+Oil Feed Hole
+Crank Radius 
+(Stroke/2=R)
+Crank Web, 
+Crank Cheek
+ 
+Figure 16.1: Crankshaft Terminology  
+ 
+The connecting rod in its simplest form is a beam with two pin joints at either 
+end, as shown in Figure 16.2. One end sees relatively low rotation speeds as it is 
+connected to the piston, while the other sees high rotation speeds as it is attached to the 
+crankshaft. The connecting rod will typically support the bearings or bushings for both 
+ends of its application. It is one of the most stressed components in the engine and 
+subjected to high tensile, compressive, and bending stress. It can be cast, forged, or 
+sintered from powdered metal.  
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-3 
+B. Dondlinger 
+Small End Bore,
+Piston Pin Bore, 
+Wrist Pin Bore, 
+Gudgeon Pin Bore
+Big End Bore,
+Crankpin Bore  
+Rod Cap Bolt
+Rod Cap
+Main
+Rod
+Beam
+Rod Cap 
+Split Surface
+Transition
+Fillet 
+Connecting Rod 
+Length = L
+Small End Bore,
+Piston Pin Bore, 
+Wrist Pin Bore, 
+Gudgeon Pin Bore
+Big End Bore,
+Crankpin Bore  
+Rod Cap Bolt
+Rod Cap
+Main
+Rod
+Beam
+Rod Cap 
+Split Surface
+Transition
+Fillet 
+Connecting Rod 
+Length = L
+ 
+Figure 16.2: Connecting Rod Terminology 
+ 
+The flywheel provides a variety of functions. As the name implies, it adds 
+additional rotating inertia to the crankshaft, to smooth out the cyclical speed variation 
+produced by the reciprocating piston schedule. This is most important at idle for 
+minimizing torsion vibration to the engine, and for ease of fuel calibration. When 
+attempting to move a vehicle from stationary, the flywheel provides energy to overcome 
+the inertia of the vehicle for smooth starts. If the inertia of the cranktrain is too low, the 
+engine may stall or unnecessarily high RPM will be required to launch the vehicle from 
+rest. A further function of the flywheel is often the power takeoff, as it provides a friction 
+surface for the clutch to act against, or the torque converter to mount to, as shown in 
+Figure 16.3.  
+ 
+ 
+Figure 16.3: Flywheel mounted to crankshaft 
+ 
+As the cranktrain geometry is part of the initial engine layout, and composes a 
+significant portion of the engine cost, it is important to plan ahead for future product 
+improvements. Often this includes increases in engine bore or stroke to increase 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-4 
+B. Dondlinger 
+displacement, addition of supercharging, and/or an increase in engine speed. The 
+additional cost of package protecting for product improvements must be balanced against 
+the potential increases in cost or weight of a given component, and against the cost of an 
+engine redesign at a later date. One possible strategy could be to release the initial engine 
+design with cast components, and later upgrade to forged ones.  
+ 
+  
+16.2 Operating Environment Considerations 
+ 
+ 
+Typical ambient temperatures are from -30ºC to 50ºC. It is important when sizing 
+bearing fits, or considering material properties, to plan for the temperatures that the 
+engine will see at startup. It may also be important to consider bearing fits at 
+temperatures well below operating temperatures, to prevent component yielding while in 
+storage.  
+ 
+Operating temperatures of the crankshaft and connecting rod are typically oil 
+operating temperature of between 80-110ºC, but peak oil temperatures can rise to 150ºC. 
+Connecting rod crankpin bore temps are similar, but piston pin end temperatures are 
+higher as they are exposed to the bottom side of the piston. The connecting rod piston pin 
+end typically sees 150-180ºC. Flywheel temperatures will depend on location in the 
+engine, and exposure to cooling airflow. They can vary from: the same temperature as the 
+crankshaft, lower with cooling air flow, to higher with frequent clutch engagement. 
+ 
+The crankshaft and connecting rods are typically immersed in an oil bath in the 
+cylinder block. As a by product of combustion, water and sulfuric acid are present and 
+often work past the piston rings into the oil bath.  
+ 
+In addition to the safety factor calculations made with respect to fatigue life of 
+material, duty cycle must be considered. Some engines such as over-the-highway truck, 
+locomotive, ship, generators, lawn equipment, and racing engines may operate close to 
+maximum load for most of their operating lives. While passenger car engines may spend 
+less than 0.1% of their useful life at maximum load. The cranktrain is typically one of the 
+more expensive assemblies in an engine, and when it breaks it frequently damages other 
+components in the engine (cylinder block, cylinder heads, piston, valvetrain). Therefore 
+high reliability is needed from the crankshaft design.  
+ 
+ 
+16.3 Description of Common Cranktrain Configurations 
+and Architectures 
+ 
+16.3.1 Crankshaft Configurations 
+ 
+ 
+Crankshafts typically fall into single or multiple throw configurations, with single 
+or shared journals for connecting rods. A single throw crankshaft is typically used in 
+single or twin cylinder applications, with either a single rod per journal or two. A 
+multiple throw crankshaft can be used for a two cylinder engine, but is typically used for 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-5 
+B. Dondlinger 
+three or more cylinders. Inline engine configurations use a single rod per throw, while 
+vee engines usually have two rods per throw.  
+ 
+Multi-throw crankshafts are typically arranged in a single plane or multiple 
+planes. A single-plane or flat-plane crankshaft is where all crankpin throws are at either 
+0º or 180º, as on in inline four cylinder engine as shown in Figure 16.4. A multi-plane 
+arrangement is where the crankpin throws are arranged in different planes. A two-plane 
+crankshaft (cross, cruciform) is where the throws are indexed 90º apart as on the V-8 
+engine shown in Figure 16.5, or three-plane like on a six cylinder engine.  
+ 
+  
+ 
+Figure 16.4: Single-plane crankshaft 
+ 
+ 
+ 
+Figure 16.5: Dual-plane crankshaft 
+ 
+In addition to the forces and loads, there are various other design considerations: 
+ One piece or assembled crankshaft 
+ Bearing type (rolling element or journal bearing) 
+ Integral or separately attached counterweights (racing) 
+ Type of power take-off 
+ Accessory drive location and type 
+ Cost versus weight 
+ Duty cycle 
+ Volume and manufacturing methods 
+ 
+ 
+16.3.1.1 Assembled or Built-up Crankshafts 
+ 
+ 
+An assembled crankshaft is one composed of multiple pieces that were 
+manufactured separately, then joined together to form a single crankshaft by means of a 
+1,4 
+2,3 
+1,5 
+4,8 
+2,6 
+3,7 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-6 
+B. Dondlinger 
+press fit, bolted, or welded joint. A single cylinder, 2-stroke crankshaft is shown in 
+Figures 16.6. 
+ 
+ 
+Figure 16.6: Assembled crankshaft 
+ 
+ 
+An assembled crankshaft is typically used on either very small or very large 
+engines to ease the manufacture. The manufacture of small crankshafts, typically single 
+throw, can be made less expensive since the creation of multiple circular pieces are made 
+on a simple lathe and are then centerless ground. This does not require a more expensive 
+offset crankshaft grinding machine. Additionally, this makes manufacture of very large 
+crankshafts for ships and stationary pumping engines easier, as they can be made of more 
+easily managed ‗small‘ pieces.  
+ 
+Another key advantage of the assembled crankshaft is the ability to employ 
+rolling element bearings, which reduce engine friction and ease lubrication requirements. 
+The elements of the crankshaft can be assembled around a rolling element bearing and 
+connecting rod assembly. This is common in 2-stroke engines, where splash lube or 
+vapor lube are used to enable rolling element bearings and eliminate the need for pressure 
+lubrication. The assembled crankshaft also allows the cylinder block to be vertical or 
+horizontal split into two halves. 
+ 
+One of the key challenges for the assembled crankshaft is aligning all of the sub-
+components during assembly to a high tolerance. This usually requires the application of 
+large force to assemble and then straighten the components to achieve the desired 
+straightness of the crankshaft for the alignment of bearings. The key failure mode of an 
+assemble crankshaft is the misalignment of these components during operation. The 
+torque of the engine may cause the assembled joints to slip with respect to one another, 
+and ―scissor‖, leading to misalignment of the crankshaft.   
+ 
+ 
+16.3.1.2 One Piece Crankshaft 
+ 
+ 
+A one piece crankshaft is typically cast or forged as a single unit, then machined 
+and ground to achieve the final geometry as shown in Figure 16.7. This method of 
+manufacture is advantageous for larger volume production which justifies the investment 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-7 
+B. Dondlinger 
+in casting or forging tooling, and dedicated offset crankshaft grinding equipment. One 
+piece crankshafts are not typically straightened, which is an advantage over an assembled 
+crankshaft in a multiple cylinder engine. Some V-8 crankshafts are cast as flat plane, and 
+then twisted to cross plane while still hot.  
+ 
+The disadvantage of this type of crankshaft is that only plain bearings can be 
+used, and pressure fed lubrication and cross drillings are required. This typically forces 
+the cylinder block to be split along the bearing centerline, and affects overall engine 
+architecture.  
+ 
+ 
+Figure 16.7: One piece crankshaft 
+ 
+ 
+16.3.2 Connecting Rod Configurations 
+There are four basic configurations for the crankpin bore of the connecting rod as 
+shown in Figures 16.8-16.11. These vary in geometry according to function. 
+1. Plain (most common), 
+2. Angled split (for serviceability), 
+3. One piece (for rolling element bearings), and 
+4. Articulated (for radial engines).  
+ 
+ 
+Figure 16.8: Plain connecting rod 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-8 
+B. Dondlinger 
+ 
+Figure 16.9: Angled split connecting rod 
+ 
+ 
+Figure 16.10: One piece connecting rod 
+ 
+ 
+Figure 16.11: Articulated connecting rod 
+ 
+The plain connecting rod is most common in current automotive practice. It allows 
+addition of bearings of a different material type than the connecting rod. An angle split 
+connecting rod allows it to be removed through the top of the engine, which helps rebuild 
+of engines while the cylinder block is still in the vehicle. This is common in over the 
+highway trucks and locomotives, which have a large crankpin and consequently large 
+bearing. A disadvantage of an angled split rod is non symmetrical loading of the 
+connecting rod crankpin bore. The rod cap is now at an angle to the loading, and it makes 
+the cap slide with respect to the upper rod, thus requiring additional attention to cap 
+locating. 
+ A one piece connecting rod enables a rolling element bearing to be used to reduce 
+engine friction. However, the application of a one piece connecting rod is usually limited 
+to engines with an assembled crankshaft, to provide access to assemble the bearing and 
+crankpin through the middle of the connecting rod. A one piece connecting rod is lighter 
+and less expensive than a plain rod since rod cap fasteners are not required, however a 
+bearing quality surface is required on the crankpin end, since the rollers ride directly on 
+the rod.     
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-9 
+B. Dondlinger 
+An articulated rod is used for radial engines where more than one connecting rod 
+must attach to the same crank journal. This arrangement reduces the axial length of the 
+crankpin journal for multiple cylinders, and is most common in air-cooled radial aircraft 
+engines. All connecting rods attach to the same crankpin to allow all cylinders to face the 
+cooling airflow equally. 
+Regardless of crankpin bore arrangement, the job of the connecting rod is to keep the 
+crankpin bearing as round as possible to ensure an even oil film and prevent contact of 
+the rod bearing to the crankshaft. The connecting rod cap may have reinforcing ribs to 
+increase stiffness, as shown in Figure 16.12. A single rib is easiest to cast or forge, but a 
+double rib is a more efficient distribution of stiffness. 
+ 
+ 
+Figure 16.12: Rib on connecting rod cap 
+ 
+There are two general configurations of connecting rod beam cross-section as shown 
+in Figure 16.13-16.14. The beam is the portion of the connecting rod that connects the 
+piston pin and crankpin ends, and when viewed in cross section resembles a capital letter 
+―I‖ or capital letter ―H‖. 
+ 
+  
+ 
+Figure 16.13: I-beam  
+Figure 16.14: H-beam  
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-10 
+B. Dondlinger 
+The I-Beam connecting rod is most common in use because it puts the most 
+material in the areas of maximum bending stress while reducing material where it is not 
+needed. The I-Beam shape also lends itself well to the casting, forging, or Powdered 
+Metal (PM) processes. The pull direction for the beam is in the same direction of the pin 
+bosses, making forming easier and reducing the requirement for material removal.  
+The H-Beam connecting rod is more difficult to manufacture, but this geometry 
+offers a more stable, lighter design. The H-beam rod allows a more gradual transition of 
+stiffness between the main beam and the crankpin end of the connecting rod, reducing 
+stress in this critical radius. It also has greater bending stiffness in the crankpin axial 
+direction than an I-bean rod. This may lead to increased edge loading on the crankpin 
+bearing, when two rods share the same journal. Due to the added expense of manufacture, 
+this is usually only seen in competition engines.  
+ 
+A hollow beam connecting rod could result in the lowest possible connecting rod 
+weight for a given stiffness. While the hollow beam does not offer any benefit in tension, 
+it better resists column buckling in compression and bending stress caused by rod whip. 
+However, manufacturing of this rod is difficult and limits its application in practice. This 
+geometry could be generated from a weldment of several pieces, or a core could be used 
+in a cast rod.  
+ 
+The small boss that interfaces with the piston pin typically utilizes a pressed 
+bushing. If a bushing is not used, a coating is required on one of the two mating 
+components to reduce wear. This end of the rod sees relatively low rotation speed, and 
+reverses direction between TDC and BDC, resulting in solid friction or mixed lubrication. 
+Geometry of the piston pin end varies between straight sides and tapered, depending on 
+anticipated engine operating speed and inertial loads, as shown in Figure 16.15. 
+Occasionally an oil feed hole is added for the connecting rod piston pin bushing to 
+improve lubrication; either as a passive splash oiling hole or pressure lube up from the 
+crankpin bearing.  
+ 
+ 
+Figure 16.15: Pressed small end bushing, tapered piston pin end 
+ geometry, splash oil hole 
+ 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-11 
+B. Dondlinger 
+16.3.3 Flywheel Configurations 
+The most common arrangement of flywheel in automotive is a separate disc 
+attached to the end of the crankshaft, usually by a bolted joint. The total cranktrain inertia 
+is composed of flywheel, crankshaft, rotating mass of connecting rods, crank pulley for 
+driving accessories, and clutch or torque converter. Occasionally the flywheel is 
+incorporated as part of the crankshaft counterweights, the disc varying in thickness to 
+achieve the desired balance counterweight. This is common practice in motorcycle 
+applications as shown in Figure 16.16, and 2-stroke engines. The flywheel may also 
+serve additional functions such as a power take off (clutch or torque converter interface), 
+as a drive mechanism for the starter, or as a tone wheel for electronic engine controls.  
+ 
+ 
+ 
+Figure 16.16: Flywheel integrated with crankshaft counterweight 
+ 
+ 
+16.4 Detailed Design of Crankshaft Geometry 
+ 
+During the concurrent engine design process, the design of the cranktrain is not a 
+linear process from point A to point B. As the design of the overall engine evolves, so 
+must the cranktrain design. However, there is a general flow to the steps taken to 
+calculate loads and design a crankshaft for a single throw crankpin as shown in Figure 
+16.17. While actual stress can be calculated by classical methods, most will use Finite 
+Element Analysis once loads are known.  
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-12 
+B. Dondlinger 
+ 
+Figure 16.17: General steps to designing a crankshaft 
+ 
+ 
+16.4.1 Detailed Design of Crankshaft Geometry 
+ 
+The geometry of a crankshaft is complicated, and the loading varies as a function 
+of its rotational position. Because of the dissimilar cross-sections of the crankshaft, it will 
+be sensitive to discontinuities in stiffness. It is at these stiffness discontinuities that stress 
+will be concentrated. Generally, the crankshaft fillet will be the most highly stressed area 
+and will require the most detailed design attention as the materials used to make 
+crankshafts are typically sensitive to notch factors. Loading at the fillet alternates as 
+shown in Figure 16.18-16.19; TDC-Firing puts the crankpin in compression, and TDC-
+Overlap puts the crankpin in tension. Stress in this area is further magnified by torsional 
+vibration, to be discussed later. Often metal improvement processes, such as shot peening 
+Gather Engine Configuration Data: 
+ Bore x Stroke, 
+ Number of cylinders and 
+arrangement, 
+ Piston assembly mass, and 
+connecting rod mass, length, 
+and CG location 
+Gather Engine Performance Data: 
+ 
+Cylinder pressure trace, 
+ 
+Peak torque and RPM, 
+ 
+Peak power and RPM,  
+ 
+Maximum engine speed 
+anticipated. 
+Calculate Rotating Mass: 
+ 
+Crankpin,  
+ 
+Counterweight, 
+ 
+Rotating portion of con rod 
+Calculate Reciprocating Mass: 
+ 
+Piston assembly mass,  
+ 
+Reciprocating portion of 
+connecting rod 
+Calculate firing pressure forces 
+and inertia forces at peak torque, 
+peak power, and peak RPM.  
+Calculate reaction forces 
+Calculate nominal bending stress, 
+apply stress concentration factor, 
+notch sensitivity factor. Calculate 
+torsional vibration modes.  
+Apply failure criteria and 
+calculate design margin compared 
+to chosen material fatigue 
+strength. 
+Iterate as necessary 
+Calculate bending moment 
+Chose starting value for main 
+bearing diameter, crankpin 
+diameter, web thickness, fillet 
+radius. (Benchmark or previous 
+experience serves as a good 
+reference). 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-13 
+B. Dondlinger 
+or fillet rolling, are used to introduce residual compressive stress at the fillet radii to 
+improve fatigue life. 
+ 
+ 
+Figure 16.18: Main and rod… 
+ 
+ 
+Figure 16.19: Rod fillet stress…. 
+ 
+Pin overlap, crank web thickness, and journal fillet radius are the key parameters 
+that are varied in crankshaft design. As illustrated in Figure 16.20, a crankshaft that gets 
+it‘s stiffness from pin overlap (large journal diameters and short stroke) does not need 
+much crank web thickness, if at all. While a crankshaft that has little or no pin overlap 
+will required a thicker crank web to gain stiffness. Depending on the geometry of the 
+crank, it will be more sensitive to web thickness or pin overlap, as displayed in Figure 
+16.21. Cross drillings or hollow sections in the crankpin and main journals can reduce the 
+pin stiffness and minimize the stiffness discontinuity that leads to a stress concentration. 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-14 
+B. Dondlinger 
+  
+ 
+Figure 16.20: Pin Overlap vs. Web Thickness 
+ 
+5
+10
+15
+20
+25
+30
+35
+-3.5
+0.5
+4.5
+8.5
+12.5
+16.5
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2200
+2400
+2600
+2800
+3000
+3200
+3400
+Fillet Stress (MPa)
+Web Thickness (mm)
+Overlap (mm)
+ 
+Figure 16.21: Effect of crankpin overlap (S), web thickness on crankpin fillet 
+stress due to firing pressure 
+ 
+One way to increase pin overlap, is to increase journal bearing diameter for a 
+given engine stroke, as shown in Equation 16.1. This will help crank stiffness, but 
+increasing pin diameter increases fluid film friction at the bearings and reduces net 
+engine power, and increases fuel consumption. It also increases crankshaft weight as the 
+T1 
+T2 
+Crankpin 
+Overlap (S) 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-15 
+B. Dondlinger 
+increase mass of the crankpin will need to be offset by increasing mass in the 
+counterweights. 
+ 
+
+
+2
+Stroke
+D
+D
+S
+Main
+crankpin
+Overlap
+
+
+
+  
+ 
+ 
+(16.1) 
+ 
+Where: 
+ 
+Soverlap = Pin overlap 
+Dcrankpin = Diameter of the crankpin journal 
+Dmain = Diameter of the main bearing journal 
+ 
+Fillet radii have enormous effects on the maximum stress in the crankshaft.  Once 
+the basic proportions of the crank have been determined, the choice of these radii is 
+critical. The larger the fillet that can be used on the crankpin or main journal, the less the 
+stress concentration notch factor will be. However, the larger the journal fillet, the less 
+surface area is available for the connecting rod or main bearing as shown in Figure 
+16.22.  
+Several things can be done to minimize the stress at these fillet radii, but at 
+additional cost. The geometry can be improved by using an undercut fillet as also shown 
+in Figure 16.23 to increase the effective radius. The material properties can be improved 
+by introducing residual compressive stresses by fillet rolling or shot peening the fillet 
+radius.  
+ 
+ 
+Figure 16.22: Crank fillet radius, Undercut fillet 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-16 
+B. Dondlinger 
+ 
+Figure 16.23: Undercut fillet at crankshaft main bearing journal (middle) 
+ 
+ 
+16.4.2 Crankshaft Initial Sizing Values 
+ 
+When designing a new crankshaft, it is useful to have a starting point. This can 
+come from benchmarking of successful crankshafts in similar applications, or from initial 
+sizing values. These initial sizing values for the crankshaft were developed in the 1930‘s 
+and 1940‘s in an era before computer aided design, and were developed by loading 
+crankshafts and measuring displacement with extensometers or strain gauges. In modern 
+practice, initial values will be assumed and the design will progress to FEA. 
+Initial sizing guidelines are listed in Table 16.1 and illustrated in Figure 16.24 
+below. These values are given as a function of cylinder bore diameter. When designing a 
+crankshaft, it is important to make sure that the stroke and crankpin length don‘t interfere 
+with the cylinder bore in the cylinder block, which might require raising the deck height 
+of the cylinder block. 
+ 
+Table 16.1: Initial Sizing Values 
+Feature Initial Sizing Value 
+Cylinder bore diameter D 
+Cylinder spacing 1.20*D 
+Crankpin diameter >0.6*D 
+Crankpin journal width 0.35*D, width/dia.>0.3 
+Main journal diameter 0.75*D, > pin dia. 
+Main journal width 0.40*D, width/dia.>0.3 
+Web (cheek) thickness 0.25*D 
+Crankpin fillet 0.04*D, >0.05*journal dia. 
+Main fillet 0.04*D 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-17 
+B. Dondlinger 
+ 
+Figure 16.24: Initial sizing values 
+ 
+The majority of external loads are applied to the crankshaft perpendicular to its 
+rotational centerline, and the reaction forces are thus transmitted through the rod and 
+main bearings.  However, in addition to these loads the crankshaft is exposed to some 
+thrust loading – loading applied along the axis of crankshaft rotation.  Thrust loads occur 
+as the clutch in a manual transmission application is engaged or disengaged.  With an 
+automatic transmission, the load transfer through the torque converter includes a thrust 
+component.  If the camshaft is driven with a gear train using helical gears a further thrust 
+load is transmitted to the crankshaft. As the engine fires, the crankshaft throw deflects, 
+and the main bearings spread axially. Finally, dimensional stack-up between the 
+crankshaft and the connecting rods and cylinder bore centerlines results in a small thrust 
+load.  For all of these reasons the crankshaft must include a thrust bearing surface.  This 
+is typically provided in conjunction with one of the main bearings.  Because the largest 
+thrust loads are generated at the rear of the crankshaft the thrust bearing is often placed at 
+or near the rear main bearing; for packaging reasons the second-to-rear main bearing is 
+often used since the rear main bearing must also incorporate the rear oil seal.  If the 
+crankshaft stiffness is sufficient the middle main bearing may be chosen.  This is done 
+because the machined thrust surface provides the fore and aft datum for crankshaft 
+machining.  Placing this datum in the middle of the crankshaft allows the fore and aft 
+tolerances to be split equally between the front and rear portions of the crankshaft, 
+making machining process control easier. 
+ 
+Fillet Radius 
+0.04D 
+0.75D 
+0.35D 
+0.6D 
+0.40D 
+0.25D 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-18 
+B. Dondlinger 
+ 
+16.4.3 Crankshaft Natural Frequencies  
+ 
+Torsional vibration results whenever an unsteady or cyclical load is applied to a 
+spinning shaft.  A number of components in engines, including camshafts, water and oil 
+pump drives, various accessory drives, and the crankshaft meet the criteria for potential 
+torsional vibration problems.  Of these the crankshaft receives by far the most attention 
+since the combination of the length of the shaft and the magnitude of the forces result in 
+the most severe conditions.  Torsional vibration increases the stresses in the crankshaft 
+webs, and the resulting oscillation of the crankshaft nose loads and unloads the camshaft 
+and accessory drives.  The latter significantly increases drive wear and engine noise.  In 
+heavy-duty engines camshaft torsional vibration is receiving increasing attention, and 
+examples of vibration problems in accessory drives can be readily found.  The focus in 
+this section will be on the crankshaft, but many of the principles discussed here can be 
+applied to other components. 
+In Figure 16.25 the fundamental concepts of torsional vibration are summarized, 
+as well as in Equation 16.2.  Looking at this simple case a disk of some appreciable mass 
+is rigidly mounted at the end of a shaft, the other end of which is mounted to prevent it 
+from spinning.  A torque is then applied to the disk to rotate it slightly from its initial 
+position, elastically deforming (twisting) the shaft.  The torque is then suddenly released, 
+and the shaft unwinds.  The shaft seeks to return to its original non-deformed state, but 
+the mass of the disk results in an overshoot and the shaft is twisted in the opposite 
+direction.  The disk will oscillate back and forth at the natural frequency of the system, 
+with decaying amplitude in each successive oscillation.  The natural frequency is 
+determined by the mass of the disk and the stiffness of the shaft.   
+ 
+ 
+Figure 16.25: Simple case of… 
+ 
+ 
+L
+G
+d
+L
+J
+G
+kr
+32
+4
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+(16.2) 
+ 
+Where: 
+kr = Torsional spring constant of the shaft 
+d = Diameter of shaft 
+G = Shear Modulus 
+L = Length of shaft 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-19 
+B. Dondlinger 
+ 
+If the shaft consists of several sections of different diameters, as in a stepped shaft 
+or crankshaft, the equivalent torsional spring constant can be calculated in same way as 
+for springs in series as shown in Equation 16.3: 
+ 
+
+
+
+
+2
+1
+1
+1
+1
+r
+r
+eq
+k
+k
+k
+  
+ 
+ 
+ 
+ 
+ 
+(16.3) 
+ 
+The natural frequency can be modeled using Equation 16.4: 
+ 
+I
+keq
+n 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.4) 
+ 
+Where: 
+I = Inertia of Disc 
+ 
+The case just described can now be extended in two important ways.  First, one 
+can imagine that the shaft and disk are spinning at some constant speed and that the 
+torque is applied to and released from the spinning disk.  In this case the resulting 
+oscillation of the disk will be superimposed on the mean speed of the shaft and disk.  The 
+next extension is to consider a case where the spinning shaft has not one but several 
+disks, and at various points in time sudden torque impulses are applied in succession to 
+various of the disks.  The problem has now become appreciably more complex as 
+different portions of the shaft twist and untwist relative to other portions.  Where the first 
+two cases each had one degree of freedom and a single natural frequency this third case 
+has an additional degree of freedom and natural frequency for each additional disk.  
+Assuming the mass of each disk, and the shaft stiffness between each disk, are known, 
+and assuming that the torque impulses applied to each disk can be characterized as a 
+function of time the torsional vibration can still be calculated.  The resulting matrix of 
+equations is difficult to solve by hand, but can readily be addressed with computer 
+calculations. 
+The third case just described is exactly that of the crankshaft in a multi-cylinder 
+engine.  In order to address crankshaft torsional vibration it is necessary to characterize 
+both the crankshaft system and the system excitation – in this case the torque applied to 
+the system at each cylinder.   
+Turning first to the crankshaft system it is helpful to characterize this system as a 
+series of disks connected by stiff springs as shown in Figure 16.26.  Each disk represents 
+the rotating mass associated with a portion of the crankshaft system.  The first disk 
+represents the crankshaft nose, vibration dampener, and accessory drive pulleys.  Disks 
+two through seven represent the cylinders of this in-line six-cylinder engine.  The eighth 
+disk represents the flywheel or torque converter.  It should be noted that the transmission 
+and the remainder of the drivetrain are not represented.  This is an accurate approach in 
+automotive engines because transmission of torsional vibration is minimized through the 
+fluid coupling in the torque converter and the clutch pack typically has a torsional 
+compensator built in.  If the engine were rigidly mounted to the component being driven 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-20 
+B. Dondlinger 
+(an electric generator, for example) this additional mass would need to be included.  The 
+example eight mass system shown here has eight degrees of freedom and eight natural 
+frequencies.  The first three vibration modes are depicted in Figure 16.27.  For each 
+vibration mode the crankshaft will have that number of nodes – locations along the 
+crankshaft at which angular deflection relative to the mean crankshaft speed is zero.  
+Because crankshafts are relatively stiff only the first mode or two are generally of 
+interest.  As crankshaft stiffness increases the natural frequency of each mode increases; 
+the natural frequencies of the higher modes of a crankshaft system are typically above the 
+frequencies at which significant forces will be seen.  It should be noted that for each 
+vibration mode the anti-node, or location of maximum angular displacement, is at the 
+crankshaft nose.  This results directly from the flywheel location at the opposite end of 
+the crankshaft.     
+    
+  
+Figure 16.26: Representation of a… 
+ 
+ 
+Figure 16.27: First three modes… 
+ 
+It is now important to look at the exciting forces – the net torque impulse applied 
+at each crankshaft throw, or at each of the disks two through seven in the model shown in 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-21 
+B. Dondlinger 
+Figure 16.26.  The net torque impulse, as a function of crank angle is the net result of the 
+pressure and reciprocating forces, as depicted in Figure 16.28.  Because this combination 
+of forces cannot be directly represented mathematically it is helpful to represent it as a 
+Fourier Series.  The torque signal is expressed as the sum of a constant value and an 
+infinite series of harmonics at various amplitudes and frequencies.  Because the torque 
+impulse is repeated every second revolution in a four-stroke engine the fundamental 
+frequency is a half-order frequency, repeating every second revolution.  The remaining 
+harmonics then represent each half order in an infinite series.  The Campbell Diagram 
+shown in Figure 16.29 shows the frequency of each harmonic, from the half-order 
+through the sixth order, as a function of engine speed.   
+ 
+ 
+Figure 16.28: Forces transmitted… 
+ 
+ 
+Figure 16.29: Campbell plot… 
+ 
+Torsional vibration requires the application of the torque impulse, now 
+represented as a series of harmonics, to the crankshaft system described earlier.  
+Returning to the Campbell Diagram (Figure 16.29) a given crankshaft will have various 
+natural frequencies – one for each vibration mode described earlier.  Each natural 
+frequency can be overlaid as a horizontal line on the Campbell Diagram.  It follows that 
+there will be a critical, or resonant speed for every whole and half-order harmonic.  Some 
+of these will occur well outside of the operating speed range of the engine. 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-22 
+B. Dondlinger 
+The torque impulses are being applied at various points along the length of the 
+crankshaft, and in a particular sequence based on the engine‘s firing order.  As a result 
+some harmonic orders assist one another and increase the vibration amplitude.  These are 
+referred to as the major orders.  Others partially cancel one another and are termed minor 
+orders.  The major orders tend to be those that are direct multiples of the number of 
+torque pulses per revolution.  However, other orders may be important depending on the 
+particular crankshaft layout and firing order.  For example, on an in-line six-cylinder 
+engine the third and sixth orders might be expected to be important.  The ninth order may 
+be important although the magnitude of vibration is typically much lower.  The 4 ½ order 
+will also be found important on most in-line six-cylinder engines.  A complete 
+explanation is beyond the scope of this book, but lies in the choice of firing order 
+resulting in relative high amplitude forces acting over the front versus the back halves of 
+the crankshaft at the 4 ½ order.   
+As a summary of the concepts just discussed, the third, 4½, sixth, and ninth order 
+frequency versus engine speed of the Campbell Diagram are re-plotted in Figure 16.30.  
+Overlaid on this diagram are the first- and second-mode natural frequencies of a 
+particular crankshaft system.  It can be seen that for this engine resonant speeds for the 
+first vibration mode will occur at approximately 2700 rpm (6th order), 3600 rpm (4 ½ 
+order), and 5700 rpm (3rd order).  Second mode resonance will occur at 7300 rpm (6th 
+order) and 9600 rpm (4½ order).  Note that unless the engine will be run at very high 
+speed the third crankshaft vibration mode will not be seen.    
+ 
+ 
+Figure 16.30: Identification on campbell… 
+ 
+ 
+Some general trends can be observed in crankshaft geometry. Higher stiffness 
+crankshafts have higher natural frequencies which is important for both torsional stresses 
+and lateral (axial) vibrations. Low moment of inertial cranks also help raise the natural 
+frequencies of system. Conversely, adding counterweights adds to the moment of inertia 
+of a crankshaft, lowering the frequency. On multi-throw cranks, such as V-6‘s or V-8‘s, 
+shaping of the counterweights is critical to keep the W*R2 low (inertia) and the W*R 
+high (counterweight effectiveness). 
+For the reasons discussed at the beginning of this section dampening is applied to 
+reduce the torsional vibration amplitude in most automotive engines.  Various dampening 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-23 
+B. Dondlinger 
+techniques can be used but the most common are the untuned viscous shear dampener 
+and the tuned harmonic dampener.   
+A cross-section of a typical viscous shear dampener is depicted in Figure 16.31 
+along with its effect on crankshaft deflection.  The viscous shear dampener consists of a 
+ring of mass encased in a cavity filled with a silicon-based fluid.  The casing is rigidly 
+bolted to the crankshaft nose, and the mass is free to float in the viscous fluid.  As the 
+crankshaft nose experiences a vibration impulse the mass reacts in the opposite direction, 
+creating a shear force in the fluid that dampens the vibration impulse.  The vibration 
+energy is dissipated as heat energy from the viscous shear.  This type of dampener is 
+referred to as untuned because it will dampen the vibration pulses regardless of 
+frequency, as can be seen in the plot of Figure 16.31.  The unit must be sized large 
+enough to dissipate the vibration energy without overheating, and adequate air flow 
+around the dampener must be ensured.  This type of dampener is relatively expensive so 
+is generally seen only on larger, higher cost engines.  Because the running clearance is 
+quite small it is susceptible to damage. 
+ 
+ 
+Figure 16.31: Untuned version… 
+ 
+More commonly used in automobiles is the tuned harmonic dampener shown in 
+Figure 16.32.  In this design the dampener hub is again rigidly mounted to the crankshaft 
+nose, and a seismic mass is then mounted around the hub through a rubber isolator.  The 
+combination of the mass and the stiffness of the rubber isolator is tuned to dampen out 
+vibration at a particular frequency, as shown in the figure.  It should be noted that each 
+order now has two resonant frequencies because the coupled mass acts as a second 
+torsional system linked through the rubber isolator.   
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-24 
+B. Dondlinger 
+ 
+Figure 16.32: Tuned damper operation… 
+ 
+ 
+16.4.4 Crankshaft Nose Development (straight, taper, spline fit) 
+ 
+A cross-section showing an example of the crankshaft nose and the front details 
+of the engine are shown in Figure 16.33.  A cam drive gear is fit onto the front of the 
+crankshaft and located using a keyway or spline.  From this gear the camshaft will be 
+driven using a gear, chain, or belt drive, as discussed further in Chapter 17.  This or an 
+adjacent gear may also be used to drive the oil pump and other internal engine drives 
+(balancer shafts or a fuel pump are examples).  The crankshaft nose then protrudes 
+through the front cover, and the vibration dampener and accessory drive pulleys are 
+mounted to the nose. The front oil seal is mounted to the front cover, and either directly 
+contacts the crankshaft surface inboard of the dampener, or contacts the dampener hub as 
+shown in the figure. 
+ 
+ 
+Figure 16.33: Crankshaft nose design… 
+ 
+There are three drive options for accessories at the front of the crankshaft: straight 
+fit, taper fit, or spline. The torque capacity of each these joints need to be calculated to 
+ensure a successful design. The straight fit and taper fit configurations will need a 
+keyway, not to handle drive torque, but to ensure timing of the accessories to the 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-25 
+B. Dondlinger 
+crankshaft. The torque applied to the clamping fastener(s) provides normal force and 
+friction in the joint, which provides the torque capacity.  
+The objective of the straight fit joint is to design sufficient fastener clampload to 
+withstand torsional loading on the crankshaft. Clampload is calculated by dividing the 
+fastener torque by the nut factor of the joint and the diameter of the fastener as shown in 
+Equation 16.5. Nut factors for steel joints are typically 0.18-0.22, but there is 
+considerable variation in actual practice and this formula is an approximation for initial 
+sizing purposes. Each of the input values has a tolerance and the nut factor (k) is sensitive 
+to over 200 variables, which can affect final values significantly. It is best to design 
+prototypes, and then validate the actual nut factor experimentally.  
+ 
+d
+k
+T
+F
+d
+F
+k
+T
+f
+clamp
+clamp
+f
+
+
+
+
+
+or
+ 
+ 
+ 
+ 
+(16.5) 
+ 
+ 
+ 
+Where: 
+ 
+ 
+Fclamp = Fastener clampload on hub 
+Tf = Fastener torque 
+ 
+ 
+k = Nut factor (described in Chapter 14) 
+ 
+ 
+d = Fastener nominal diameter 
+ 
+The fastener clampload provides the normal force on the joint, which is then 
+multiplied by the coefficient of friction of the two components, the fastener and the hub. 
+The resultant tangential friction force is multiplied by the maximum radius of the 
+clamped members to calculate the torque capacity in the joint as calculated in Equations 
+16.6-16.8 and illustrated in Figure 16.34. The torque capacity in the joint needs to be 
+greater than the instantaneous torque expected on the crankshaft. 
+ 
+1
+
+
+
+
+
+i
+j
+j
+clamp
+T
+T
+r
+f
+T
+F
+f
+
+  
+ 
+ 
+(16.6) (16.7) (16.8) 
+ 
+ 
+Where: 
+ 
+ 
+μ = Coefficient of friction between hub and fastener, or hub and crank 
+ 
+ 
+f = Resultant tangential friction force  
+ 
+ 
+r = Maximum radius of the clamped members 
+Tj = Torque capacity in the joint 
+Ti = Instantaneous torque expected on the crankshaft 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-26 
+B. Dondlinger 
+ 
+Figure 16.34: Summary of forces 
+ 
+ 
+The objective of the taper fit joint is again to provide sufficient fastener 
+clampload (Fclamp) to withstand torsional loading on the crankshaft. However, the taper 
+design is benefited by the interference fit generated between shaft and hub. These 
+equations are developed from those used for a thick wall pressure vessel, and the 
+variables are defined in Figure 16.35. This method assumes that the hub does not bottom 
+against a shoulder, and is only supported by the taper. It also assumes that the clamping 
+fastener does not bottom on the end surface of the shaft, to ensure that all fastener clamp 
+force is going into the hub.  
+ 
+Calculate in the following order: 
+1. Contact Pressure 
+2. Maximum Introduction Force 
+3. Maximum Extraction Force 
+4. Maximum Torque Retention 
+5. Fastener Torque Specification 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-27 
+B. Dondlinger 
+ 
+Figure 16.35: Taper Fit Variables 
+ 
+1. Use the assumed starting value for interference fit to calculate Contact Pressure as 
+shown in Equation 16.9. Check to make sure yield strength of hub and shaft 
+materials are not exceeded. 
+ 
+d
+d
+ci
+D
+d
+ce
+d
+d
+d
+ci
+ci
+E
+d
+ce
+ce
+E
+d
+i
+P
+i
+s
+s
+o
+o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+1
+1
+1
+1
+max
+min
+2
+2
+2
+2
+
+
+  
+(16.9) 
+ 
+Where: 
+P = Contact Pressure 
+i = Assumed interference fit 
+d = Mean Taper diameter 
+Eo = Young‘s Modulus of outer material (hub) 
+Ei = Young‘s Modulus of inner material (shaft) 
+νo = Poisson‘s Ratio for outer material 
+νi = Poisson‘s Ratio for inner material  
+ce = Major diameter ratio 
+ci = Minor diameter ratio 
+D = Outside hub diameter 
+di = Inner hole diameter 
+ 
+2. Use contact pressure to calculate Maximum Introduction Force required using 
+Equation 16.10: 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-28 
+B. Dondlinger 
+
+
+
+
+
+tan
+
+
+
+
+
+
+f
+P
+L
+d
+F
+p
+i
+  
+ 
+ 
+(16.10) 
+ 
+Where:  
+Lp = Length of taper fit area 
+f = Coefficient of friction between components 
+β = Half of taper included angle 
+ 
+3. Use contact pressure to calculate Maximum Extraction Force for reference using 
+Equation 16.11: 
+ 
+
+
+
+
+
+tan
+
+
+
+
+
+
+f
+P
+L
+d
+F
+p
+e
+ 
+ 
+ 
+ 
+(16.11) 
+ 
+4. Use Maximum Introduction Force to calculate Maximum Torque Retention by 
+means of Equation 16.12, which is the maximum torque that the joint can 
+withstand without spinning: 
+ 
+2
+max
+d
+F
+T
+i 
+
+ 
+ 
+ 
+ 
+ 
+ 
+(16.12) 
+ 
+5. Now calculate the Fastener Torque required on the clamp screw with Equation 
+16.13 to achieve introduction force calculated earlier, from the assumed 
+interference fit. Check to make sure fastener load does not exceed material 
+strength limits. 
+ 
+f
+i
+f
+d
+F
+k
+T
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+(16.13) 
+ 
+Where:  
+k = Nut factor, typically between 0.18-0.22 for steel 
+df = Fastener major diameter 
+ 
+If the calculated Fastener Torque required is higher than the actual value used to 
+installed the hub to the taper, then the initial interference fit assumed is too high. Adjust 
+the amount of assumed interference fit until the calculated Fastener Torque required 
+equals the fastener torque actually applied. Then the amount of interference fit and torque 
+retention is calculated correctly.  
+ 
+A splined joint can transmit more torque for its size than other types of joints as 
+shown in Figure 16.36-16.37, and can be used at the nose of the crankshaft to drive 
+accessory loads, or more commonly used at the power take off end of the crankshaft to 
+drive the vehicle. Spline standards are published as ANSI B92.1 and ANSI B92.2m 
+(metric). The objective of a spline is to drive using the teeth on the joint, and does not 
+rely primarily on clampload. Several failure modes must be designed for: base shaft 
+breakage, hub bursting, teeth of spline shearing off at the pitch line, teeth of the internal 
+spline breaking at root due to bending stress, and wear on the drive surface of the flank of 
+the spline. Splines can be either ―fixed‖, where there is no relative or rocking motion 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-29 
+B. Dondlinger 
+between the internal and external teeth as in a clamped joint, or ―flexible‖ where there is 
+relative rocking or axial motion. The following information was adapted from When 
+Splines Need Stress Control by Darle W. Dudley, Product Engineering, 12/23/57. The 
+equations presented below are for fixed splines, since they are most common in 
+automotive application, and provide a nine times greater capacity for handling 
+compressive stress than flexible splines. 
+ 
+ 
+ 
+Figure 16.36: Splined shaft  
+ 
+Figure 16.37: Splined hub (gear)  
+ 
+Calculate Torsional Shear Stress (Ss1) for the basic hollow shaft and design margin with 
+load factors by applying Equations 16.14-16.15: 
+ The rated torque of an engine, usually found on a spec sheet, is the cycle averaged 
+torque produced by the engine. In reality, the engine produces much higher 
+instantaneous torque during peak cylinder pressure, and must be designed for.  
+ The Application Shock Factor (Ka) is typically high for internal combustion engines, 
+as compared to turbines or an electric motor, because of this instantaneous torque. 
+The fewer number of cylinders, the higher this number will be (2.8 for single or twin 
+cylinder). The greater the number of cylinders, the more these instantaneous torque 
+spikes will be averaged out (2.0 for 6 cylinders or more).   
+ The Fatigue Life Factor (Lf) will again be more severe for internal combustions 
+engines as compared to turbines, because fully reverse loading will be experienced 
+more often. A light duty automotive engine may experience comparatively few 
+severe torque reversals, such as a hard launch-from-rest of the vehicle in first gear. A 
+heavy duty truck engine may see many more torque reversals, as the engine is 
+operated near its design limit for the majority of engine life.  
+ 
+
+
+f
+a
+s
+s
+rh
+re
+re
+s
+L
+K
+S
+S
+D
+D
+D
+T
+S
+
+
+
+
+
+
+
+1
+1
+4
+4
+1
+and
+16
+
+  
+ 
+(16.14) (16.15) 
+ 
+Where: 
+Ss1 = Torsional shear stress of shaft 
+T = Peak instantaneous engine torque 
+Dre = Externally splined shaft, minor diameter 
+ 
+Drh = Hole diameter of shaft, if present 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-30 
+B. Dondlinger 
+S‘s1 = Max allowable shear stress for material 
+ 
+      
+Ka = Application shock factor (2.0-2.8 for IC engine) 
+ 
+ 
+Lf = Fatigue life factor  
+(1.0 for 10K cycles of light duty,  
+0.2 for 10M cycles of heavy duty) 
+ 
+Calculate Shear Stress in Spline Teeth at pitch diameter, and design margin with load 
+factors via Equations 16.16-16.17: 
+ These equations can be modified to calculated shear stress in spline teeth at the root 
+diameter of an external spline by substituting the minor diameter of the internal 
+spline (Di) for the pitch diameter (D), and chordal thickness of the tooth at the 
+minor diameter (tx) for the thickness at the pitch diameter (tc).  
+ The constant at the beginning of the equation can be modified depending on the 
+quality of manufacture of the spline (4 if a less accurate means of manufacture are 
+used, and 2 if a higher precision method is used).  
+ 
+f
+a
+s
+s
+c
+e
+m
+s
+L
+K
+S
+S
+t
+F
+N
+D
+K
+T
+S
+
+
+
+
+
+
+
+
+
+2
+2
+2
+and
+4
+ 
+(16.16) (16.17) 
+ 
+Where: 
+Ss2 = Shear stress in spline teeth on shaft 
+constant = 4 assuming half of teeth carry load, 
+= 2 if all teeth carry load 
+Km = Load distribution factor (1.0 for fixed splines, i.e. bolted joint with 
+no relative movement) 
+D = Pitch diameter of splined shaft 
+N = Number of spline teeth on shaft 
+Fe = Face width of spline tooth, or axial length of spline engagement 
+tc = chordal thickness at pitch line, or circular tooth thickness 
+ 
+Calculate compressive stress in spline teeth and design margin with load factors with 
+Equation 16.18-16.19: 
+ Exceeding the compressive stress limits of the material will lead to fretting and 
+premature wear, which leads to thinning of the teeth and shear failure.  
+ When splines may be exposed to an external environment outside of the engine, it is 
+best to choose a more coarse pitch of teeth, so that any corrosion of the teeth reduces 
+a smaller percentage of the tooth width over time than fine teeth.  
+ 
+f
+a
+c
+c
+e
+m
+c
+L
+K
+S
+S
+h
+F
+N
+D
+K
+T
+S
+
+
+
+
+
+
+
+
+
+
+9
+and
+2
+ 
+ 
+(16.18) (16.19) 
+ 
+Where: 
+Sc = Compressive stress in spline teeth on shaft 
+constant = 2, all teeth carry load after initial wear 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-31 
+B. Dondlinger 
+Fe = Face width of spline tooth (1.0 * full face width for fixed spline) 
+h = radial height of tooth in contact 
+S‘c = Max allowable compressive stress for material 
+ 
+Calculate Burst Stress in Hub with internal spline teeth and design margin with load 
+factors using Equations 16.20-16.24:  
+ Burst stress in hub is composed of a few types of loads: radial and tangential force 
+components at the pitch line due to tooth profile, and centrifugal force of hub 
+rotating at high speed. 
+ For engines, the stress due to centrifugal force is usually not significant unless the 
+hub is of large diameter or the engine operates at high speeds.  
+ These stresses are summed and factors applied to determine final acceptable stress 
+limits.  
+Bursting stress caused by the radial force component at the pitch line: 
+ 
+F
+t
+D
+T
+S
+w 
+
+
+
+
+
+tan
+1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.20) 
+ 
+Where:  
+S1 = Burst stress caused by radial force in hub 
+υ = Pressure angle of tooth 
+tw = Radial wall thickness (Doi - Dri)/2 
+Doi = Outside dia. of internally splined hub 
+Dri = Major dia. of internally splined hub 
+F = Full face width of hub 
+ 
+ 
+Bursting stress caused by centrifugal force (assume F < 1/3 * D):  
+ 
+
+
+2
+2
+2
+6
+2
+424
+.0
+2
+10
+828
+.0
+ri
+oi
+D
+D
+n
+S
+
+
+
+
+
+
+ 
+ 
+ 
+(16.21) 
+ 
+Where: 
+S2 = Burst stress caused by centrifugal force on hub 
+n = engine speed, RPM 
+Doi = Outside dia. of internally splined hub, in. 
+Dri = Major dia. of internally splined hub, in. 
+ 
+Tensile stress caused by the tangential force component at the pitch line: 
+ 
+Y
+F
+D
+T
+S
+e 
+
+
+
+2
+3
+4
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.22) 
+ 
+Where: 
+S3   = Tensile stress due to tangential force 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-32 
+B. Dondlinger 
+Y = Lewis form factor (>1.5 for splines) 
+ 
+Total burst stress and Design margin: 
+ 
+
+
+f
+t
+t
+m
+a
+t
+L
+S
+S
+S
+S
+S
+K
+K
+S
+
+
+
+
+
+
+
+and
+2
+3
+1
+ 
+(16.23) (16.24) 
+ 
+Where: 
+St = Total burst stress 
+S‘t = Max allowable tensile stress for material 
+ 
+The crankshaft nose is subject to high-cycle fatigue loading.  The combination of 
+the dampener and pulley mass and accessory drive belts create a resultant force of 
+constant magnitude and direction.  As the crankshaft spins each location on its nose 
+experiences a complete bending load cycle once every revolution of the shaft.  The 
+outside surface of the nose experiences alternating tensile and compressive loads, and the 
+threaded mounting hole(s) for the dampener assembly results in local stress 
+concentrations, and the threads should be counterbored to mitigate.  Rig testing can be 
+readily devised to duplicate this load cycle and provide durability validation.     
+ 
+ 
+16.4.5 Crankshaft Flange Development 
+ 
+The same rationale just discussed for crankshaft nose loading and durability 
+applies to the flywheel mounting flange as well. The flywheel or torque converter flex 
+plate are typically mounted to the crankshaft flange using a multiple bolt pattern as 
+shown in Figure 16.38. The flywheel connection relies on friction to generate the shear 
+torque capacity in the joint, but a frictionless condition must also be designed for. To 
+calculate the frictional torque capacity of the bolted joint: 
+1. Approximate nominal clampload per fastener 
+2. Calculate the shear capacity produced per fastener 
+3. Determine the total frictional torque capacity in the joint 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-33 
+B. Dondlinger 
+ 
+Figure 16.38: Crankshaft flange bolted joint 
+ 
+1. Calculate the approximate nominal clampload per fastener with Equation 16.25, as 
+covered previously:  
+ 
+d
+k
+T
+F
+d
+F
+k
+T
+f
+clamp
+clamp
+f
+
+
+
+
+
+or
+ 
+ 
+ 
+ 
+(16.25) 
+ 
+2. Calculate the shear capacity per fastener utilizing Equation 16.26: 
+ 
+clamp
+s
+F
+F
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.26) 
+ 
+Where: 
+Fs = Force to slip the clamped joint at the individual fastener 
+μ = Friction coefficient, flywheel to crankshaft 
+ 
+3. Calculate the total frictional Torque Capacity in joint and Design margin via 
+Equations 16.27-16.28:  
+ 
+0.1
+T
+and
+c 
+
+
+
+T
+n
+r
+F
+T
+p
+s
+c
+ 
+ 
+ 
+ 
+(16.27) (16.28) 
+ 
+Where: 
+Tc = Frictional torque capacity in joint 
+rp = Fastener pitch circle radius 
+n = Number of fasteners 
+T = Peak instantaneous engine torque 
+ 
+To calculate the frictionless shear capacity of the bolted joint: 
+4. Calculate the shear stress supported by half of the fasteners, 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-34 
+B. Dondlinger 
+5. Calculate the shear stress on a single fastener or locating dowel.  
+ 
+For the first calculation, assume that half of the fasteners are loaded as the shank 
+of the bolt contacts the clearance hole in the flywheel. Not all fasteners will share the 
+load equally due to manufacturing tolerances, so a higher design margin of two or greater 
+is recommended. The shear plane should go through the unthreaded shank of the bolt. If 
+not, than the minimum diameter of the thread must be used in the calculation. However, it 
+is generally good design practice to keep the fastener threads out of the shear region. For 
+the second calculation, assume the entire load is taken up by a single fastener or a 
+locating dowel, and that n = 1. A lower design margin of one or more is required since 
+other fasteners will actually be loaded. It can sometimes be difficult to find the shear 
+yield strength for fastener material, so as a first approximation, the distortion energy 
+theory for ductile metals can be used.  
+ 
+4. Calculate the shear stress on the fastener(s) by means of Equation 16.29: 
+ 
+f
+p
+f
+A
+n
+r
+T
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.29) 
+ 
+ 
+Where: 
+τf = Shear stress per fastener 
+ 
+ 
+T = Peak instantaneous engine torque 
+rp = Fastener pitch circle radius 
+n = Number of fasteners 
+ 
+ 
+Af = Cross sectional area per fastener 
+ 
+5. Calculate the Design margin via Equation 16.30:  
+ 
+0.2
+
+
+f
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.30) 
+ 
+Where:  
+τ‘ = Max allowable shear stress for material  
+τ‘ = 0.58 * S‘t (distortion energy theory) 
+S‘t = Max allowable tensile yield  
+ 
+In order to increase the frictional torque capacity of the joint, it may be difficult to 
+change the fastener pitch circle radius or fastener diameter once a design is in production. 
+If it is desired to increase the fastener pitch circle diameter, the main journal diameter 
+may need to increase. If the main journal diameter increases, it will increase the bearing 
+diameter, seal diameter, cylinder block support web, and oil pan rail width, depending on 
+design of the crankshaft.  
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-35 
+B. Dondlinger 
+It is a frequent occurrence that the marketing organization will request an increase 
+in engine torque or power shortly after a new design is released to production. This is one 
+key area of engine design to package protect for future increases in output!  
+If a design is complete and in production, and more torque capacity is required of 
+the joint, various treatments can be added to increase the capacity of the joint at an 
+additional cost. The coefficient of friction at the joint surface can be increase by changing 
+the machined surface finish, by adding abrasive coatings, or by adding additional locating 
+dowels. Alternately, the fastener grade may be increased to allow greater clampload.  
+Two examples of the rear crankshaft oil seal details are shown in Figure 16.39 
+(update figure numbers).  The case on the left incorporates a split seal in the rear main 
+bearing.  That on the right uses a continuous seal riding on the flywheel flange. 
+ 
+ 
+Figure 16.39: Rear crankshaft seal… 
+ 
+ 
+16.4.6 Cross-drilling of Crankshaft  
+ 
+Crankshafts are typically drilled for many reasons: material removal for 
+balancing, material removal for weight reduction, and pressurized oil feed.  
+Crankshaft drilling for balance is usually done in the counterweight webs as 
+shown in Figure 16.40. This is done when dimensions of the forging or casting of the 
+base crankshaft cannot be held close enough to achieve the desired balance, or when a 
+lighter piston is introduced that changes the required balance. This area is usually not 
+significantly stressed, and so drilling does not present a significant stress concentration. 
+These drillings can either be radial, as shown, to remove mass or can occasionally be 
+axial in the same location to allow addition of more dense material such as tungsten alloy, 
+depleted uranium, or lead. The addition of dense balance weights is more expensive, but 
+can make the overall crankshaft lighter though a more efficient use of material (WR), or 
+can be used to reduce crankshaft inertia for racing applications (WR2). 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-36 
+B. Dondlinger 
+ 
+Figure 16.40: Crankshaft drilling for balance, oil passages 
+    
+Crankshaft drilling for weight reduction is typically done in the crankpin. This 
+drilling of the crankpin reduces the amount of counterweight material required and can 
+make the entire crankshaft lighter. It can also change the local stiffness of the crankpin, to 
+better distribute stress in the crankshaft and reduce it in the critical journal fillet region. 
+The crankpin is typically a highly loaded area, so attention must be paid to detailed 
+design of the cross drilling in this area, and clearance in adjacent counterweights is 
+typically required to allow access for this drilling. Frequently, this cross drilling is not 
+coaxial to the crankpin. 
+If the crankshaft has plain bearings, it will be necessary to provide pressure 
+lubrication via internal drilling of the crankshaft. These long drillings typically connect 
+the main journal to the crankpin to provide pressurized lube and these internal drilled 
+passages come very close the highly loaded crankpin and main journal fillets as 
+illustrated in Figures 1.6 and 1.8. If the drilled passage comes close to the surface in a 
+highly loaded area, either at a journal fillet or in the crank web, a fatigue crack may 
+initiate. Additionally, care must be taken at the location where the drilled hole breaks the 
+surface of the journal as this may also create a fatigue crack initiation point. The drilled 
+oil hole is typically chamfered where it contacts the journal surface to diffuse stress, and 
+also to spread pressurized oil to a larger area under the bearing. One technique to improve 
+fatigue resistance is to use a hardened ball, and peen the ID of the chamfer where it meets 
+the cross-drilled hole. This will introduce residual compressive stresses in this area and 
+reduce a crack initiation site. Finally, the location where the oil hole breaks the surface of 
+the crankpin is important for the bearings. It should be located somewhere between 90-
+30° BTDC compression stroke to provide the best feed of oil to the bearing. This is the 
+point when the load on the bearing is least. Avoid the critical pressure region at 0-45° 
+ATDC power stroke, when the high rod loading increases oil pressure above the system 
+pressure, and blocks the feed to the bearings.  
+ 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-37 
+B. Dondlinger 
+16.5 Detailed Design of Connecting Rod Geometry 
+The connecting rod is most likely the highest stressed component in the engine, 
+and load is applied several times on every revolution of the engine. The connecting rod 
+must be designed for high cycle fatigue to withstand the high number of engine cycles, 
+and also for stiffness in supporting fluid film bearings. The connecting rod transfers the 
+gas and inertia loads from the piston to the crankshaft, and experiences high rates of 
+loading and direction reversal, high temperatures, and varying degrees of lubrication. 
+Axial inertia and connecting rod whip forces (tangential to crank radius) are a function of 
+connecting rod weight, so the higher the weight, the higher the forces. Since inertia can 
+be a dominant load, and the piston, piston pin, and connecting rod all contribute, a more 
+durable connecting rod design might require less material (be lighter) instead of the 
+typical approach of adding more material to increase life. The higher the piston and rod 
+weight, the more crank counterweight is required, which leads to a heavier engine. As a 
+result, rod weight is of primary importance. Value added operations such as shot peening 
+to enable a lighter connecting rod may be justified to reduce forces and weight in the rest 
+of the powertrain. Piston normal forces due to connecting rod angle and connecting rod 
+whip forces are translated to the engine, and require stronger support in the chassis. 
+However, when a connecting rod fails, it typically destroys the entire engine similar to a 
+crankshaft failure. The desire for minimum weight must be balanced with rod durability, 
+and the desire for the least cost manufacturing methods. Connecting rods must also be 
+cost effective, manufacturable, and serviceable.  
+The engine type has a significant effect on the highest loading. At one extreme is 
+the low engine speed and high BMEP diesel, and at the other end is the high engine speed 
+and lower BMEP gasoline engine. Gas loading and inertial loading at TDC oppose each 
+other, reducing total loading on the connecting rod on the power stroke.  At lower engine 
+speeds, the gas forces dominate and put the connecting rod into compression. At higher 
+engine speeds, inertial loads may dominate and stress the rod in both tensile and 
+compression.  
+Connecting rod loads vary as a function of crankshaft angle, and also as a 
+function of engine cycle. At TDC-exhaust (overlap) on a 4-stroke engine, the connecting 
+rod experiences the highest tension load case because there are very little gas pressure 
+forces to resist it. As opposed to TDC-Power stroke, when there will be a combination of 
+tensile forces from inertia, and compressive forces from combustion. At BDC-exhaust, 
+the inertia forces put the rod into compression.  
+The maximum tensile forces on the connecting rod occur at TDC-Exhaust as 
+illustrated in Equation 16.31. Gas pressure forces can be neglected since they are near 
+zero during valve overlap.  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+l
+r
+r
+m
+m
+F
+recip
+conrod
+piston
+total
+recip
+
+
+
+
+
+2
+cos
+cos
+2
+,
+,
+  (16.31) 
+ 
+The maximum compressive forces on the connecting rod occur either at TDC-
+Power stroke for a low speed high BMEP engine, or at BDC-Exhaust for a high speed 
+low BMEP engine as shown in Equation 16.32.  
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-38 
+B. Dondlinger 
+
+
+
+
+Gas
+recip
+conrod
+piston
+total
+recip
+F
+r
+m
+m
+F
+
+
+
+
+
+
+
+
+
+
+
+
+2
+cos
+cos
+2
+,
+,
+ 
+(16.32) 
+ 
+Notice that these equations are a function of the Connecting rod ratio (λ), 
+Equation 16.33. As the connecting rod grows compared to the engine stroke, it has the 
+tendency to reduce the peak force on the rod, and also the peak piston thrust force. 
+However, a longer connecting rod has more weight and increases the engine deck height. 
+These conflicting requirements must be balanced. Typical conrod ratios are: 
+ 
+0.35
+-
+0.20
+
+
+
+
+L
+r
+ 
+ 
+ 
+ 
+ 
+ 
+(16.33) 
+ 
+Where: 
+ 
+r = Crank radius, or stroke/2 
+ 
+L = Connecting rod length, pin to pin 
+ 
+The main beam of the connecting rod is subject to inertial bending forces (rod 
+whip) as it swings through TDC. For an initial analysis, it is assumed that the connecting 
+rod is a simply supported beam, subject to a linearly varying distributed load as shown in 
+Figure 16.41. Once the connecting rod geometry is complete, FEA can be performed and 
+the load can be spread to all of the elements of the beam in proportion to their distance 
+from the piston pin end.  
+ 
+ 
+ 
+Figure 16.41: Simply supported beam with uniform increasing load 
+ 
+The total bending force due to the triangular distribution is found by using Equation 
+16.34:  
+ 
+2
+,
+3
+2
+
+
+
+
+
+r
+m
+F
+upper
+rod
+beam
+ 
+ 
+ 
+ 
+ 
+(16.34) 
+ 
+Where: 
+mrod, upper = Mass of connecting rod between two pins 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-39 
+B. Dondlinger 
+The bending moment at a distance (x) from the piston pin end of the connecting rod is 
+described by Equation 16.35: 
+ 
+
+
+
+
+
+
+
+
+
+2
+2
+1
+3
+L
+x
+x
+F
+M
+beam
+ 
+ 
+ 
+ 
+ 
+ 
+(16.35) 
+ 
+The maximum bending moment occurs at x = L / √3, which simplifies to Equation 
+16.36: 
+ 
+1283
+.0
+max
+
+
+
+L
+F
+M
+beam
+  
+ 
+ 
+ 
+ 
+(16.36) 
+ 
+Since gas pressure loading dominates at low engine speed, the rod must be 
+designed for compression. There is also a high compressive load at BDC due to inertia at 
+high engine speed. In addition to designing for compressive stress, column buckling must 
+also be considered and in high BMEP Diesel engines this is a very important 
+consideration. The rod can buckle in one of two directions, parallel to the plane of 
+connecting rod motion, and perpendicular to it as shown in Figure 16.42-16.43.  
+ 
+Figure 16.42: Buckling parallel to plane of motion 
+Figure 16.43: Buckling perpendicular to plane of motion 
+ 
+The end constraint on the connecting rod significantly influences its buckling 
+resistance. If the rod is pinned at either end the least resistance to buckling is present, and 
+if the rod is fixed in six degrees of freedom at either end the most resistance to buckling 
+is present. Depending on the exact end constraint, the column is said to have an 
+equivalent length (Le) to a column pinned at both ends. Column buckling is also sensitive 
+to the geometry of the cross-section, and it is assumed the connecting rod beam has a 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-40 
+B. Dondlinger 
+constant cross section (if a tapered rod beam is present, proceed to FEA). The geometry 
+is described by means of a slenderness ratio in Equation 16.37, which is the equivalent 
+length of the column divided by the radius of gyration: 
+  
+
+e
+L
+Ratio
+s
+Slendernes
+
+ 
+ 
+ 
+ 
+ 
+ 
+(16.37) 
+ 
+Where: 
+ 
+Le = Equivalent length of the column 
+ρ = Radius of gyration 
+ 
+For the buckling condition parallel to the plane of connecting rod motion, the 
+connecting rod is considered pined-pined or free-free, resulting in an equivalent column 
+length of Le = 1.0L. For the buckling condition perpendicular to the plan of connecting 
+rod motion, the crankpin and piston pin limit rotation of the column at its constraints. 
+This is a fixed-fixed condition and the equivalent column length is Le = 0.5L 
+Now that the equivalent column length and slenderness ratio are defined, we may 
+investigate the equations describing the critical compressive load which the column can 
+sustain without becoming elastically unstable. First the compressive stress is evaluated, 
+which is the maximum inertial force due to the piston and reciprocating portion of the rod 
+mass, and the gas pressure force. The stress must be below yield in order for the column 
+buckling formulas to be valid via Equation 16.38.  
+ 
+yield
+comp
+comp
+A
+F
+
+
+
+
+
+ 
+ 
+ 
+ 
+(16.38) 
+ 
+Where: 
+F = Axial inertia force or gas force 
+A = Cross sectional area of beam 
+ 
+Next, either the Euler column buckling or J.B. Johnson Parabola method are used, 
+depending on the slenderness ratio. While the axial compressive stress must be designed 
+for fatigue resistance, the critical unit load of column buckling (Scr) is a function of 
+geometry and not material limits. The critical buckling stress at which the column 
+becomes elastically unstable does not directly relate to yield or fatigue strength.  
+ 
+For columns with slenderness ratio Le/ρ > (2*π2*E / Sy) ^1/2, use Equations 16.39-16.40: 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-41 
+B. Dondlinger 
+(Euler)
+2
+2
+2
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+e
+cr
+cr
+e
+cr
+L
+E
+A
+F
+S
+L
+I
+E
+F
+ 
+ 
+ 
+ 
+ 
+(16.39)(16.40) 
+ 
+Where: 
+Le = Equivalent column length 
+ρ = Radius of gyration  
+E = Modulus of elasticity 
+Sy = Compressive yield strength 
+I = Moment of inertia 
+Fcr = Critical Load 
+Scr = Critical Unit Load 
+ 
+For columns with slenderness ratio Le/ρ < (2*π2*E / Sy) ^1/2, use Equation 16.41: 
+ 
+Johnson)
+ 
+(J.B.
+4
+2
+2
+2
+E
+L
+S
+S
+A
+F
+S
+e
+y
+y
+cr
+cr
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+(16.41) 
+ 
+ 
+The actual compressive stress on the rod must be below the critical unit load Scr. 
+The graph in Figure 16.44 depicts the various criteria: the compressive stress limit, the 
+Euler Column buckling limit, and the J.B. Johnson Parabola limit.  
+ 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-42 
+B. Dondlinger 
+Figure 16.44: Graph of Buckling Failure Criteria 
+ 
+Euler and Johnson theories intersect at the tangent point, which is described by 
+the Equations 16.42-16.43 for X,Y coordinates. This tangent point distinguishes between 
+long columns (Euler) and intermediate columns (Johnson). 
+ 
+y
+y
+cr
+S
+E
+S
+S
+
+
+
+
+2
+e
+2
+L
+and
+2
+
+
+ 
+ 
+ 
+ 
+(16.42)(16.43) 
+ 
+ 
+16.5.1 Connecting Rod Crankpin Bore Cylindricity 
+ 
+As we progress down the length of the connecting rod, different design criteria are 
+required. The crankpin end of the connecting rod is primarily designed for stiffness and 
+not strength, as the connecting rod needs to support the crankpin journal bearing and 
+maintain roundness. As the engine progresses through its cycle, tensile inertia forces 
+attempt to stretch the rod and deform the crankpin end of the connecting rod, as shown in 
+Figure 16.45. Stretching of the connecting rod along the cylinder bore causes the 
+connecting rod to pinch in along the cap split due to the Poisson effect, which may lead to 
+the oil film breaking down and the bearing contacting the crankshaft. If rolling element 
+bearings are used, pinching of the rolling elements may occur leading to skidding or 
+spalling.  
+ 
+ 
+Figure 16.45: Deformed shape of crankpin bearing bore 
+ 
+Since downward compressive forces load the upper half of the bearing, and not 
+the bottom half, only tensile forces are considered. Now, both the upper half and lower 
+half of the rod mass are counted for inertial calculations. At TDC exhaust, the entire 
+rod/piston system is creating a force away from the crank equal to the reciprocating force 
+and the rotating force from the lower end of the rod as shown in Equation 16.44. This 
+force is reacted by the lower end of the connecting rod.  In high speed engines, this can 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-43 
+B. Dondlinger 
+be the limiting load on the connecting rod because of ovalization of the crankpin bore, 
+bolt limits, or cap strength. 
+ 
+
+
+
+
+
+
+
+
+
+
+
+1
+)
+(
+2
+r
+m
+m
+F
+recip
+rot
+Exh
+TDC
+ 
+ 
+ 
+ 
+(16.44) 
+ 
+Where: 
+mrot = Rotating mass of connecting rod 
+mrecip = Reciprocating mass of connecting rod and piston assembly 
+ 
+ In order to achieve a true deflected shape, the bearing press fit and support from 
+the fluid film or rolling element bearing must be incorporated in this analysis. It is 
+important to work with the bearing manufacturer to establish limits of cylindricity.  
+ 
+As can be derived from Figure 16.45 above, the outer most surface of the split 
+line has the largest stress. This is because as the rod cap is loaded in tension, the bolt 
+flange will rotate about this outmost line of contact. As this line of contact is moved 
+further away from the crankpin bore, the lever arm increases on the flange, and the unit 
+load decreases. For this reason, most connecting rods have additional material added 
+outboard of this flange to decrease unit loading and increase flange stiffness. Ideally the 
+connecting rod bolt would be as close to the bore as possible, to reduce this flange 
+rotation due to cantilever. A starting value for bolt diameter tied to cylinder bore diameter 
+would be as shown in Equation 16.45: 
+ 
+
+
+re
+CylinderBo
+Fastener
+D
+D
+
+
+1.0
+ 
+ 
+ 
+ 
+ 
+(16.45) 
+ 
+ 
+16.5.2 Connecting Rod-to-Cap Alignment 
+ 
+Connecting rod-to-cap alignment is critical to a successful rod design, and 
+ensuring crankpin journal bearing life. Angular split lines present more of a challenge 
+because of the direction of the applied forces in relation to the split line, but are 
+sometimes necessary to aid in service of the engine in the vehicle.  
+ 
+Some alignment methods are: 
+ 
+Increased Shank Fastener, increased shank diameter at split line, to provide alignment 
+ 
+Ring Dowels, coaxial with the fastener in a counterbore, similar in function to 
+increased shank fastener.  
+ 
+Separate Dowel Pins, dowel pins next to the connecting rod bolt. 
+ 
+Serration, specially machined rod-to-cap split surface. 
+ 
+Stepped surface, specially machined rod-to-cap split surface. 
+ 
+Cracked, manufactured by cracking the end of the rod off by force at either room 
+temperature, or frozen.  
+ 
+Each method has pros and cons, which is why there are so many methods in use. 
+The increased shank fastener is inexpensive to manufacture and is compact in design, 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-44 
+B. Dondlinger 
+however if the alignment deviates from ideal there may be interference between the bolt 
+and rod at the split line. This may add bending stress to the bolt, or upset material in the 
+rod into the bearing bore and degrade circularity. Ring dowels are very similar in 
+performance, with the added disadvantage of moving the rod bolt further away from the 
+bearing bore. For packaging reasons, this may increase the overall rod size. Separate 
+dowel pins are inexpensive, but may also increase the size of the connecting rod and add 
+weight.  
+A serrated or stepped surface between the connecting rod and cap is more 
+expensive to manufacture due to the increased sensitivity to manufacturing tolerances, 
+but this type increases the shear resistance in the rod-to-cap joint. Stepped surface rod 
+caps operate in a similar manner, using a lip to limit cap motion. Angle split rods increase 
+the amount of shear force on the joint, and typically use these types of alignment.  
+ 
+The cracked design is used in high volume production, in both forged and 
+powdered metal (PM) rods.  This method is cheap, repeatable, insensitive to tolerances, 
+and alignment and shear resistance are excellent. There is very low distortion of the split 
+surface, since both surfaces are symmetrical. However this method dictates the parent 
+material of the connecting rod, and may limit the choice of manufacturer since high 
+production volumes are typically needed to justify the expense of special equipment to 
+form and crack the rod.  
+ 
+ 
+16.5.3 Calculating Connecting Rod Bushing and Journal Bearing 
+Press Fit 
+The small end, or pin end of the connecting rod is almost invariably a continuous 
+bearing surface – no separation plane is needed as the piston pin can be inserted through 
+the connecting rod from either side.  Two designs are commonly seen for retaining the 
+piston pin.  One is the fixed pin, where the pin is pressed into the connecting rod bore, 
+and rotates freely in the piston pin bore.  The other is the floating pin, where the piston 
+pin is free to rotate in both the piston and connecting rod bores, and is held in place with 
+snap rings fitted in grooves on both outer edges of the piston pin bore.  The fixed pin 
+reduces cost and weight but has lower load carrying capability and requires special 
+assembly provisions.  The degree of required press fit generally requires the connecting 
+rod to be heated.  Because the connecting rod does not provide an acceptable bearing 
+surface the floating pin requires the addition of a bushing to the connecting rod.  This and 
+the required snap rings and machined grooves significantly increases cost relative to the 
+fixed pin.  Traditionally the floating pin was seen only in high performance and heavy-
+duty engines, but due to the demand for increased loads it is now being adopted in many 
+engines. 
+ 
+Interference fits are used to retain the piston pin bushing, as well as the crankpin 
+journal bearing. Both are based on the same fundamentals of thick walled pressure 
+vessels, but their application and assembly method are different. This requires different 
+approaches to design. The thick wall pressure vessel equations are valid as long as the 
+wall thickness-to-radius ratio is greater than 0.1.  
+ 
+Bearing press fits must be designed for operating loads, but also extremes of 
+temperature. The goal is to have sufficient press fit to retain the bearing in its bore under 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-45 
+B. Dondlinger 
+all operating conditions as presented in Table 16.2, while not exceeding the stress limits 
+for the given materials. It may also be useful to use these equations to predict assembly 
+press force at room temperature. 
+ 
+Table 16.2: Press conditions to evaluate 
+ 
+Temperature 
+Maximum 
+Temperature 
+Operating 
+Temperature 
+Minimum 
+Temperature 
+Tolerance (fit) 
+Maximum 
+Interference 
+X 
+ 
+Y 
+Nominal 
+Interference 
+ 
+X-Y 
+ 
+Minimum 
+Interference 
+Y 
+ 
+X 
+ 
+Depending on the material used for the housing and the material used for the 
+bushing, differential thermal expansion may help or hurt the design. For a low thermal 
+expansion coefficient housing (steel) and a high thermal expansion coefficient bushing 
+(aluminum), the ―X‘s‖ represent the extreme conditions to evaluate. For a high thermal 
+expansion coefficient housing (aluminum) and a low thermal expansion coefficient 
+bushing (steel), the ―Y‘s‖ represent the extreme conditions to evaluate.  
+ 
+The minimum temperature conditions may exist while the vehicle is being stored, 
+but not when the vehicle is being operated. So the minimum press fit retention may be 
+violated if it is known that the vehicle will not be operated at these conditions. An 
+example would be a motorcycle or lawn mower, which are not typically operated below 
+5°C, but may be stored in an unheated garage down to -30°C.   
+Figure 16.46 is an example of a representative automotive connecting rod, with 
+input values listed in Table 16.3-16.4. This is a steel connecting rod with a Nickel-
+Aluminum-Bronze (C63000) bushing pressed in. 
+ 
+ 
+Figure 16.46: Connecting rod bushing 
+ 
+Table 16.3: Material properties for example 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-46 
+B. Dondlinger 
+  
+Inner 
+Outer 
+  
+ 
+C63000 
+Steel 
+ 
+Modulus of Elasticity (E) 
+115 
+207 
+GPa 
+Poisson's Ratio (ν) 
+0.328 
+0.290 
+ 
+Coef of Thermal Expansion (α) 
+16.2 
+13.0 
+µm/m-°C 
+ 
+ 
+Table 16.4: Input dimensions for example 
+Part Geometry 
+Input 
+Diameter 
+ 
+Input 
+Radius 
+ 
+Inner 
+Inner 
+21.68 
+ri =  
+10.84 
+mm 
+Member 
+Outer 
+24.58 
+ro =  
+12.29 
+mm 
+Outer 
+Inner 
+24.54 
+ri =  
+12.27 
+mm 
+Member 
+Outer 
+36.00 
+ro =  
+18.00 
+mm 
+ 
+ 
+ 
+ 
+ 
+Press Fit Width (in) = 
+21.08 
+ 
+ 
+ 
+Friction Coefficient =  
+0.10 
+ 
+ 
+ 
+ 
+ 
+The steps used to calculate the stress in the pressed members are:  
+1. Check thick wall assumption is valid. 
+2. Assume a starting value of interference fit.  
+3. Calculate circumferential (hoop) stress and radial stress. Longitudinal stress 
+assumed = 0 if members are the same length. 
+4. Calculate the diametral strain. 
+5. Solve for P, and calculate the fit pressure. 
+ 
+Check Thick Wall Assumption is Valid using Equation 16.46: 
+ 
+1.0
+
+Radius
+Thickness
+Wall
+ 
+ 
+
+
+1.0
+84
+.
+10
+84
+.
+10
+29
+.
+12
+
+
+mm
+mm
+  
+(16.46) 
+ 
+Assume a Starting Value of Interference Fit: 
+ 
+x
+IDiametral 
+  
+mm
+IDiametral
+045
+.0
+
+ 
+ 
+ 
+ 
+(16.47) 
+ 
+Calculate circumferential (hoop) stress and radial stress for the Outer Cylinder via 
+Equations 16.48-16.49: 
+ 
+
+
+
+
+p
+r
+r
+p
+r
+r
+i
+r
+i
+o
+i
+o
+i
+c
+
+
+
+
+
+,
+2
+2
+2
+2
+,
+
+
+ 
+ 
+
+
+
+
+p
+p
+mm
+p
+mm
+i
+r
+i
+c
+
+
+
+
+
+
+,
+2
+2
+2
+2
+2
+2
+,
+74
+.2
+27
+.
+12
+00
+.
+18
+27
+.
+12
+00
+.
+18
+
+
+  (16.48)(16.49) 
+ 
+Calculate the Diametral Strain for the Outer Cylinder by means of Equations 16.50-
+16.51: 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-47 
+B. Dondlinger 
+ 
+
+
+outer
+i
+i
+inner
+o
+i
+r
+i
+c
+i
+d
+d
+E
+,
+,
+,
+,
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+p
+mm
+p
+d
+p
+GPa
+p
+p
+inner
+o
+i
+4
+5
+,
+5
+10
+59
+.3
+58
+.
+24
+10
+46
+.1
+10
+46
+.1
+207
+290
+.0
+74
+.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ (16.50)(16.51) 
+ 
+Calculate circumferential (hoop) stress and radial stress for the Inner Cylinder employing 
+Equations 16.52-16.53: 
+ 
+
+
+
+
+
+
+2
+2
+2
+,
+,
+2
+2
+2
+2
+,
+2
+i
+o
+o
+i
+c
+o
+r
+i
+o
+i
+o
+o
+c
+r
+r
+p
+r
+p
+r
+r
+p
+r
+r
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+p
+mm
+p
+mm
+p
+p
+mm
+p
+mm
+i
+c
+o
+r
+o
+c
+01
+.9
+84
+.
+10
+29
+.
+12
+29
+.
+12
+2
+01
+.8
+84
+.
+10
+29
+.
+12
+84
+.
+10
+29
+.
+12
+2
+2
+2
+2
+2
+,
+,
+2
+2
+2
+2
+2
+2
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  (16.52)(16.53) 
+ 
+Calculate the Diametral Strain for the Inner Cylinder by utilizing Equations 16.54-16.55: 
+ 
+
+
+inner
+o
+o
+outer
+i
+o
+r
+o
+c
+o
+d
+d
+E
+,
+,
+,
+,
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+p
+mm
+p
+d
+p
+GPa
+p
+p
+outer
+i
+o
+3
+5
+,
+5
+10
+64
+.1
+54
+.
+24
+10
+68
+.6
+10
+68
+.6
+115
+328
+.0
+01
+.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ (16.54)(16.55) 
+ 
+Apply Equation 16.56 to solve for P, and calculate the fit pressure: 
+ 
+outer
+i
+inner
+o
+Diametral
+d
+d
+I
+,
+,
+
+
+
+
+   
+MPa
+p
+p
+p
+mm
+5.
+22
+10
+64
+.1
+10
+59
+.3
+045
+.0
+3
+4
+
+
+
+
+
+
+
+
+ 
+(16.56) 
+ 
+Use the distortion energy failure criterion for the limit of design, assuming ductile 
+materials. The maximum stress for both the internal and external members occurs at their 
+inner surfaces. To improve the accuracy of the final analysis for not circular components, 
+apply FEA. Also, it is important to evaluate these same equations at the limits of the 
+component tolerances, since a design may be acceptable at nominal tolerance, but not 
+acceptable at a least material condition.  
+ 
+The maximum press force is determined by Equation 16.57:  
+ 
+press
+shaftL
+r
+p
+f
+N
+f
+F
+
+2
+max
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+(16.57) 
+ 
+
+
+
+
+
+N
+mm
+mm
+MPa
+F
+3660
+08
+.
+21
+29
+.
+12
+5.
+22
+1.0
+2
+max
+
+
+  
+ 
+ 
+ 
+ 
+The maximum torque to spin is determined by Equation 16.58: 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-48 
+B. Dondlinger 
+press
+shaftL
+r
+p
+f
+T
+2
+max
+2
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+(16.58) 
+ 
+
+
+
+
+
+m
+N
+0.
+45
+08
+.
+21
+29
+.
+12
+5.
+22
+1.0
+2
+2
+2
+max
+
+
+
+mm
+mm
+MPa
+T
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As the temperature and size of the components change, so will the press fit. Every 
+element of the material expands with increasing temperature, and each element moves 
+outward from its original position, so a hole bored in a solid will increase in diameter. 
+The math for this follows the equation for linear thermal expansion, and is applied to the 
+circumference of the hole in Equation 16.59: 
+ 
+
+
+
+
+1
+2
+1
+2
+2
+T
+T
+D
+L
+D
+or
+R
+nce
+Circumfere
+L
+T
+T
+L
+L
+o
+o
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+(16.59) 
+ 
+Where: 
+ΔL = Change in length of feature 
+α = Coefficient of linear expansion 
+Lo = Initial length of feature 
+T1 = Initial temperature of component 
+T2 = Final temperature of component 
+ 
+Through manipulation, a useful relationship can be derived for change in diameter due to 
+temperature employing Equations 16.60-16.62: 
+ 
+
+
+N
+o
+N
+o
+o
+New
+original
+D
+T
+T
+D
+D
+T
+T
+D
+D
+L
+L
+L
+
+
+
+
+
+
+
+
+
+))
+(
+1(
+1
+2
+1
+2
+
+
+
+
+ 
+ 
+ 
+(16.60) (16.61) (16.62) 
+ 
+Where: 
+Do = Original diameter 
+DN = New diameter 
+ 
+ 
+The final hoop stress on the crankpin end of the rod is developed in much the 
+same way as the press fit bushing example above, except the bearing is split into two 
+different pieces for installation in the upper rod and cap. The diameter of the journal 
+bearing is slightly larger than the bore in the connecting rod (or main bearing), and is 
+compressed during installation. Since the bearing is neither uniform in thickness, or 
+constant in radius, a direct measurement of the diameter is misleading. A different 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-49 
+B. Dondlinger 
+method of measurement is required to describe the press fit. This is called crush height 
+and is measured by the overstand test, the amount of which affects the press fit. The 
+overstand test consists of placing the bearing shell in a half circle gauge, flush at one end 
+and extending above the other. The amount the shell protrudes from the gauge is the 
+amount of circumferential crush the bearing will be under when assembled. A complete 
+description of the overstand test is listed in: 
+ ISO 3548: Plain bearings — Thin-walled half bearings with or without flange — 
+Tolerances, design features and methods of test. 
+ ISO 6524: Plain bearings — Thin-walled half bearings — Checking of peripheral 
+length. 
+The crush height is measured under a gauge force. This is effectively measuring 
+the circumference or length of the journal bearing shell, rather than diameter. A bearing 
+with sufficient crush height ensures that the bearing is preloaded enough to have uniform 
+contact with the housing. This ensures good heat transfer from the bearing to the housing, 
+and prevents fretting. Typical values of the crush height of automotive bearings are 0.05-
+0.10mm. 
+The theoretical basis for calculating the bearing crush is a thick column in 
+compression, applying Equation 16.63. This column is curved into a shell. Column 
+buckling can be ignored since the bearing is supported by the housing in the installed 
+state.  
+ 
+E
+A
+PL
+Height
+Crush
+b
+
+
+
+  
+ 
+ 
+ 
+ 
+(16.63) 
+ 
+Where:  
+P = Gauge force 
+L = Length of shell bearing (in circumference direction) 
+Ab = Cross sectional area of bearing 
+E = Modulus of elasticity of bearing 
+ 
+Next the circumferential length for the shell is calculated, and substituted into the 
+original formula as represented by Equation 16.64: 
+ 
+E
+A
+D
+P
+D
+L
+b
+2
+2
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+(16.64) 
+ 
+Then the spring rate is calculated using Equation 16.65, and rearranged into a 
+useful ratio for visualization, called the Deflection Rate (DR): 
+ 
+4
+10
+2
+
+
+
+
+
+
+b
+b
+A
+k
+DR
+D
+E
+A
+P
+k
+
+ 
+(16.65) 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-50 
+B. Dondlinger 
+The spring rate can now be used to calculate compressive stress with Equation 16.66 in 
+the bearing shell: 
+ 
+b
+b
+comp
+A
+k
+A
+P
+
+
+
+
+ 
+ 
+ 
+ 
+(16.66) 
+ 
+Now, to calculate the circumferential stress in the connecting rod around the 
+bearing, use Equations 16.67-16.68 to determine the minimum developed length and the 
+maximum developed length of the bearing shell: 
+ 
+2
+1
+1
+D
+L
+Minimum
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+(16.67) 
+ 
+
+
+2
+2
+2
+2
+2
+D
+T
+H
+D
+L
+Maximum
+G
+G
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+(16.68) 
+ 
+Where: 
+D1 = Housing bore diameter, minimum 
+D2 = Housing bore diameter, maximum 
+HG = Gauge height, or depth of half circle in block,   
+ 
+sometimes referred to Q/2 
+TG = Crush height, height bearing shell protrudes from gauge block 
+ 
+Using the developed lengths, the stress can now be calculated with Equation 
+16.69. As with the piston pin bushing, the stress must be evaluated at extremes of 
+temperature and tolerance if dissimilar materials are used.  
+ 
+
+
+r
+G
+b
+L
+A
+F
+L
+A
+E
+L
+L
+
+
+
+
+
+
+
+
+
+
+2
+1
+2
+
+  
+ 
+ 
+ 
+ 
+(16.69) 
+ 
+Where: 
+σ = Circumferential stress in connecting rod at minimum cross section 
+EL = Modulus of Elasticity of journal bearing shell 
+FG = Gauge checking load 
+Ar = Minimum cross sectional area of connecting rod 
+ 
+ 
+16.5.4 Typical Connecting Rod Computer Stress Analysis 
+Methodology 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-51 
+B. Dondlinger 
+ 
+Typically, the entire connecting rod is not analyzed. A half model with symmetry, 
+or even a quarter model, is used. The mesh is typically refined around the bolted joint 
+area, and around critical fillets and transitions. The connecting rod is analyzed in the 
+following steps. 
+Apply the assembly load cases by applying the bolt preload to the connecting rod 
+cap. Incorporate the deformations into the initial geometry of the model to simulate 
+machining of the crankpin bore when clamped together. Apply the bushing and bearing 
+assembly load cases by simulating the interference due to press fit of piston pin bushing 
+and crankpin journal bearings. 
+Analyze the dynamic load cases produced by the engine by applying maximum 
+tensile load at TDC-Exhaust stroke and maximum compressive at BDC-Power stroke. 
+The piston pin and crankpin are modeled as separate cylinders and used as boundary 
+conditions since they contribute to the overall system stiffness. Finally, analyze loading 
+due to rod whip. 
+The last step of the analysis is to evaluate the connecting rod for critical column 
+buckling in the plane of connecting rod motion, and perpendicular to it. This enables a 
+more refined solution to the analytical method, since detailed geometry is represented.  
+ 
+ 
+16.6 Detailed Design of Flywheel Geometry 
+ 
+The purpose of the engine flywheel is to smooth the cyclical speed variation of 
+the engine within a given engine revolution. It absorbs energy during the power stroke, 
+and distributes it during the exhaust, intake, and compression strokes. The transmission 
+of instantaneous torque spikes developed by the engine will be reduced to the driveline.  
+The flywheel or torque converter mass is important in controlling idle speed 
+fluctuation within limits acceptable to the driver. As speed increases fluctuations become 
+much less apparent and the need for this mass decreases.  An acceptable idle speed 
+fluctuation limit is identified and flywheel mass is chosen to be sufficient to reduce 
+fluctuation within that limit.  Additional mass beyond the minimum required will 
+penalize the engine‘s response to transient requirements. 
+ 
+This storage and release of energy has other uses in the engine and the vehicle, 
+when the engine average speed changes. Large flywheel inertia will enable a low engine 
+idle speed. A low engine idle speed, by reducing the total number of revolutions the 
+engine makes at idle, will reduce fuel consumption and improve emissions during an 
+engine operating regime that does little useful work. The lower the speed variation, the 
+easier it is to calibrate the fuel injection at low engine speeds as the piston approach to 
+TDC is more consistent.  
+Like in heavy machinery, the flywheel will allow sudden loads to be placed on the 
+engine without stalling it. This is helpful when starting a vehicle from rest, or during 
+sudden load changes. The inertia of the flywheel can be balanced against the inertia of the 
+vehicle. A large engine flywheel will also make the engine less responsive during 
+transient drive modes, as the engine will not accelerate quickly with the application of 
+throttle and will not decelerate quickly during coasting/sail or removal of the throttle. 
+This may have a beneficial affect in a work truck or for cruising on the highway at steady 
+speeds, but may not be desirable in a sports car where quick engine response is desired.     
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-52 
+B. Dondlinger 
+Additionally, in most applications, it serves as the power take off location and 
+usually as a means for the starter drive of the engine. 
+In many cases the flywheel and crankshaft are balanced as a unit, and a non-
+symmetric bolt circle or locating dowel is used to ensure that if the flywheel is removed it 
+is again mounted in the same position.  The clutch disc and pressure plate are then 
+mounted to the flywheel with a series of cap screws around the perimeter of the pressure 
+plate.  A pilot bearing or bushing mounted in the rear of the crankshaft at the shaft 
+centerline supports the nose of the transmission input shaft.  In transverse installations 
+this shaft may not feed directly into the transmission, but drives a chain that then transfers 
+load to the transmission. 
+In the case of an automatic transmission a flex plate, bolted to the same bolt circle 
+on the crankshaft flange, replaces the flywheel.  The torque converter is then bolted to the 
+flex plate with three or four bolts near its perimeter.    
+ 
+ 
+16.6.1 Calculating Flywheel Inertia Effect on Cyclical Speed, 
+Energy Storage 
+ 
+Equation 16.70 for Kinetic Energy stored in a flywheel is shown below, and is 
+equivalent to the amount of energy release if the flywheel speed changed from current to 
+a full stop: 
+ 
+g
+Wv
+or
+I
+E
+2
+2
+2
+2
+
+
+  
+ 
+ 
+ 
+ 
+ 
+(16.70) 
+ 
+Where: 
+E = Energy stored in the flywheel 
+I = Polar moment of inertia 
+ω = Rotational velocity  
+W = Weight of flywheel rim 
+v = Linear velocity at mean radius  
+ 
+Typically, a flywheel is designed to reduce the speed fluctuation to a desired 
+amount. This is measured in percent change in speed called the Coefficient of Fluctuation 
+(Cf) as represented in Equation 16.71, or in absolute speed change. For engines, this is 
+typically between 2-5%. If a lower speed fluctuation is desired, a larger flywheel will be 
+required. However, the larger the flywheel, the more difficult to package and the heavier 
+the engine will be. Since the flywheel is usually directly coupled to the crankshaft, it is 
+not possible to spin the flywheel faster than engine speed, removing this as a design 
+option. To gain smoothness, the flywheel diameter or thickness will need to be increased. 
+Generally I~mr2, so a thin disc of large diameter would have most efficient use of 
+material, and a hub with most material concentrated near the rim would be even better. 
+Typically dense materials such as steel or cast iron are used for flywheels.   
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-53 
+B. Dondlinger 
+mean
+f
+C
+
+
+
+1
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.71) 
+ 
+If the velocity of a flywheel changes, the energy it absorbs or discharges will be 
+proportional to the difference of initial and final speeds per Equation 16.72: 
+ 
+
+
+
+
+g
+v
+v
+W
+or
+I
+E
+2
+2
+2
+1
+2
+2
+2
+1
+2
+2
+
+
+
+
+
+  
+ 
+ 
+ 
+(16.72) 
+ 
+The traditional method for calculating the required amount of energy in the 
+flywheel is to determine the peak energy needed by the work operation and subtract the 
+average energy provided by the engine or motor providing energy input, and the 
+difference is the flywheel energy needed to maintain speed as represented in Equation 
+16.78. This method is relevant to the vehicle side, as a load is applied to the vehicle, the 
+required flywheel inertia to maintain engine speed can be calculated.   
+ 
+Flywheel
+motor
+work
+E
+E
+E
+
+
+ 
+ 
+ 
+ 
+ 
+(16.78) 
+ 
+Once the desired flywheel energy storage is determined, and the desired speed 
+fluctuation is set, the equation can be rearranged to determine inertia required utilizing 
+Equation 16.79: 
+ 
+
+
+2
+1
+2
+2
+2
+
+
+
+E
+I
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(16.79) 
+ 
+Once the required polar moment of inertia is determined, Equation 16.80 for a 
+hollow cylinder or ring can be used to determine the required diameter and length. 
+ 
+ 
+
+
+
+
+
+
+
+
+L
+d
+d
+I
+i
+o
+32
+4
+4
+ 
+ 
+ 
+ 
+ 
+ 
+(16.80) 
+ 
+Where: 
+d = Outer and inner diameter of hub 
+L = Length or width of hub 
+ρ = Density of material 
+ 
+ 
+16.6.2 Calculating Burst Strength of Flywheels 
+ 
+The design limit of flywheels varies by geometry, material, and speed of 
+flywheel. Assuming the flywheel is a hub or hollow cylinder as illustrated in Figure 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-54 
+B. Dondlinger 
+16.47, maximum tangential and maximum radial stress can be calculated using 
+Equations 16.81-16.82. The maximum tangential stress will occur at the inner diameter, 
+and the maximum radial stress will occur at the geometric mean radius, √(rori). 
+ 
+ 
+Figure 16.47: Illustration of flywheel dimensions 
+ 
+
+
+
+
+
+
+2
+2
+2
+max
+,
+1
+3
+4
+i
+o
+t
+r
+r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+ 
+ 
+(16.81)  
+ 
+ 
+
+
+2
+2
+max
+,
+8
+3
+i
+o
+r
+r
+r 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+(16.82) 
+ 
+Where:  
+ν = Poisson Ratio 
+ro = Outer radius of hub 
+ri = Inner radius of hub 
+ 
+ 
+16.6.3 Calculating Critical Speeds of Shafts or Whirl of Flywheels 
+ 
+If the engine is to be used in a configuration where the crankshaft and 
+transmission input shaft are not co-axial, in other words where the crankshaft and 
+transmission input shaft are connected by a gear pair, the critical speed of the shaft under 
+radial load must be considered. This is different than the critical speed under torsional 
+load. All rotating shafts have a slight imbalance, and at a critical speed the flywheel no 
+longer rotates about its geometric axis but about the true center of gravity, known as 
+whirl. Critical speeds of shafts are outside the scope of this book, but must be considered 
+in detailed design and analysis.  
+Considering weight, speed, and energy are contained in a flywheel. It is typical 
+practice to utilize higher design margins when designing a flywheel. It is also important 
+to evaluate the sensitivity of the stress to various input parameters. A lower design 
+ro 
+ri 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-55 
+B. Dondlinger 
+margin can be used for material properties, since the relationship is linear, however speed 
+is a function squared so the design margin is more sensitive to this parameter.  
+ 
+ 
+16.7 Crankshaft and Connecting Rod Construction  
+ 
+16.7.1 Crankshaft Materials 
+ 
+Crankshafts are typically cast or forged out of iron or steel. Many types of cast 
+iron are used from gray iron, to malleable iron, to nodular iron. The classic tradeoff is one 
+of cost versus strength. Typically cast gray iron would be used for low output engines 
+such as lawn care, while high output engines such as race cars or diesel trucks would use 
+forged steel.  For low volume production, crankshafts are occasionally machined from 
+steel billets, but this is the most expensive manufacturing method due to long machining 
+times. 
+Crankshaft steels are typically medium carbon (.3-.4 percent) and heat treated to 
+125-150 ksi tensile strength. Forged crankshafts have better material strength due to grain 
+flow. Cast iron alloys vary over a wide range from 30-120 ksi tensile strength depending 
+on material and heat treat, and their values can be found in many references. 
+While the merits of cast versus forged can be compared, component geometry 
+often dictates the method chosen.  It is easier to forge a crankshaft that has all of its 
+crankpins in the same plane, such as a single-cylinder or inline-four cylinder, because this 
+allows a simple open and shut die. Cross-plane crankshafts such as Figure 16.48 can be 
+forged, but more material removal is often required. A cast crankshaft can more easily 
+handle a cross-plane crank geometry while reducing the total amount of machine stock 
+removal required.  
+Casting a crankshaft can enable other desirable geometry for little cost, such as 
+hollow crankpins and detailed shaping of the counterweight webs. The development of 
+the metallurgy and casting methods has allowed the use of cast cranks in more and more 
+applications. Where packaging dimensions are not strictly constrained, cast crankshafts 
+can be a reasonable alternative to forged steel shafts.  
+ 
+ 
+Figure 16.48: One piece crankshaft, forged, machined 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-56 
+B. Dondlinger 
+Directly consult a casting or forging supplier for custom alloys, heat treat options, 
+and local geometry properties. This is a changing field influencing crankshaft design, and 
+is an area where the state of the art in crankshaft design is developing.  
+ 
+ 
+16.7.2 Crankshaft Manufacturing  
+ 
+Crankshafts are usually manufactured through several operations. They proceed 
+from casting or forging, to rough machining, to finish machining, to grinding, to 
+polishing. Depending on the material chosen or application, heat treat processes may be 
+involved and additional value added operations may be employed.  
+The direction of rotation in the engine is important to the grinding and polishing 
+operations if plain journal bearings are used. When the grinding operation is performed 
+on the crankpin and main journal surfaces, the metal removal process smears the material 
+at the surface. This smearing of the metal raises small burrs or whiskers as shown in 
+Figure 16.49, and can be thought of as a circular saw blade in cross section. If these 
+whiskers remain on the finished crank, they will have a tendency to scrape the bearings 
+on startup, and lead to premature wear. This is important during solid lubrication and 
+mixed lubrication at engine startup, prior to the development of the full oil film. 
+Therefore it is important to specify the direction of rotation on the crankshaft drawing. 
+The bearing journals are ground opposite to rotation direction, and polishing is done in 
+the direction of rotation, to encourage the whiskers to fold down upon rotation. 
+ 
+ 
+Figure 16.49: Illustration of burrs on shaft 
+ 
+An additional consideration in the design of crankshafts is access for the journal 
+grinding wheel. This grinding wheel is often many times the diameter of the crankpin, to 
+allow unobstructed access to the journal bearings, but still clearance can become a 
+limitation. In addition to clearance for the journal bearings, access may be needed to 
+manufacture splines or timing gears made integral to the shaft. 
+Finally, for extreme applications or applications where the loading will be 
+increased on an existing engine design, steps may be taken to increase crankshaft strength 
+in the critical fillet transitions. These value added operations are ion nitriding, shot 
+peening, induction hardening, and fillet rolling or roll hardening as summarized in Figure 
+16.50. These operations locally increase the strength of the crankshaft by modifying the 
+material properties or introducing compressive residual stresses. These additional 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-57 
+B. Dondlinger 
+operations cost additional money, and careful design can often avoid their requirement. 
+However, the designer must compare added cost to processing of the crankshaft, to the 
+larger implications to the engine and vehicle downstream. In order to increase the power 
+output of the engine, these processes can be added without having to redesign the engine. 
+Enabling smaller journal diameters can reduce engine friction. These operations can be 
+beneficial when considering the system as a whole.   
+ 
+ 
+Figure 16.50: Comparison of metal improvement techniques 
+ 
+ 
+16.7.3 Connecting Rod Materials  
+ 
+Several different materials and processes are used to make connecting rods. 
+Historically rods have been cast, forged, or machined from billet. Recently, connecting 
+rods have been manufactured from forged powdered metal (PM) for high volume 
+automotive applications. This process can be lower cost, enabling more consistent parts 
+and a beneficial rod cap alignment surface. Heavy duty engines still primarily use 
+forgings. 
+The materials used are cast iron, steel, aluminum, and titanium. Cast iron is 
+typically used in cost sensitive applications, with forged steel being used in high load 
+applications. Aluminum connecting rods are being used in light duty engine applications, 
+and recent improvements in metallurgy have increased the suitability of this material. 
+Recall from above that the connecting rods own weight acts against itself in high RPM 
+applications, so lighter materials enable higher RPM. Expensive Titanium is typically 
+reserved for racing applications, due to cost.  
+ 
+ 
+16.7.4 Connecting Rod Manufacturing  
+ 
+Connecting rods are typically manufactured using several steps. They proceed 
+from casting or forging, to rough machining of the upper rod and rod cap separately. 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-58 
+B. Dondlinger 
+These two components are then bolted together for the finish machining of the assembly 
+and precision honing of the bores. It is important to perform this precision machining in 
+the assembled state, as bolt clamp loads will distort the big end bearing shape, and 
+cylindricity is key to fluid film bearing life. Occasionally, the piston pin bushing and 
+crankpin journal bearing are assemble to the rod, and an additional boring and honing 
+operation is performed if a higher class of tolerance is to be maintained.   
+Frequently, value added operations are applied to the connecting rod to increase 
+component life, or reduce component weight. Trimming of a casting or forged connecting 
+rod blank will often leave score marks in the finished part. These score marks can act as 
+stress risers in the key loaded areas of the connecting rod. They may be ground or 
+polished smooth to reduce the stress concentrations. Additionally, shot peening of the 
+connecting rod will introduce compressive residual stresses in the component. While 
+these operations add cost, the designer must balance this against the potential added 
+benefit to the engine and vehicle. If these value added operations are used to reduce 
+component weight, the following benefits result: 
+ reducing reciprocating inertial forces on the engine, 
+ reducing the amount of counterweight needed in the crank counterweight,  
+ reducing the vibration transmitted to the vehicle, improving NVH,  
+ reducing the amount of support structure needed in the vehicle.  
+Additional cost spent here has a leveraging affect on reducing weight and cost elsewhere 
+in the vehicle.  
+ 
+ 
+16.7.5 Typical Bearing Journal Tolerances 
+ 
+There are a number of factors influencing the required bearing clearance, and the 
+tolerance required to achieve this. The material of the cylinder block, connecting rod, and 
+crankshaft will affect the overall system stiffness; and the geometry of each component 
+will affect the component stiffness and individual contribution. The overall engine 
+geometry, such as rod-to-stroke ratio or bore-to-stroke ratio, and engine combustion 
+pressure will affect component loading. The maximum engine operating speed and 
+weight of piston assembly and connecting rod assembly, will affect engine inertial 
+loading. The surface finish of the bores will affect the fluid film bearings, as local high 
+spots will decrease film thickness. The surface finish of the supporting bores will affect 
+contact area with shell bearings, and will impact fretting at the mating surfaces. Oil 
+viscosity and additive packages and oil pressure will affect film strength. The number of 
+cylinders in the engine, bearing bore-to-bore alignment becomes more important the 
+longer the crankshaft and more bearings are used. Finally, engine operating and storage 
+temperatures will affect bearing clearances, especially if different materials are used for 
+crankshaft, connecting rods, and cylinder block and differential thermal effects take 
+place. It is best to consult the bearing manufacturer for installed bearing clearances. Some 
+representative starting values are shown in Table 16.5.  
+ 
+Table 16.5: Starting values for a steel crankshaft, cast iron connecting rod, cast iron 
+cylinder block  
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-59 
+B. Dondlinger 
+Feature 
+Starting Ranges for Component Tolerance 
+Diameter 
+0.013-0.025mm 
+or 0.1*Dshaft = xx μ-m 
+Circularity 
+<0.013mm for journal or bearing bore in housing, cannot be 
+measured at ID of shell bearing due to non uniform thickness 
+Surface Finish 
+0.2-0.4 μ-m Ra with 0.8mm cutoff or better for the crankpin and 
+main bearing journals. 
+1.6-2.5 μ-m Ra for cylinder block parent metal bore or connecting 
+rod bore where journal bearings will be used. 
+Alignment 
+<0.050mm maximum overall misalignment down the length of the 
+crankshaft. 
+<0.025mm maximum misalignment on adjacent bores. 
+ 
+ 
+16.8 Analysis and Test 
+ 
+The typical analysis path is to evaluate each component individually, and then 
+once a level of maturity is reach, combine the individual components into a system 
+model. The crankshaft analysis typically starts with analysis of a simply supported, single 
+throw. Once that is complete, a full crankshaft model is analyzed. Often a course mesh 
+model of the crankshaft is analyzed to determine system natural frequencies for torsional 
+calculations. Then the crankshaft, connecting rod, and cylinder block are combined in a 
+system analysis. This is typically more complex, as the fluid film must be modeled as gap 
+elements. Some system stiffness is contributed by the crankshaft, and some by the 
+cylinder block.  
+There are two opposing design philosophies for crankshaft-cylinder block design, 
+one of cylinder block guided stiffness, and another of crankshaft guided stiffness. Each of 
+the different methods has one component significantly stiffer than the other. Regardless 
+of method chosen, the goal is to have sympathetic deflection in the same direction 
+between the housing and the shaft, to prevent edge loading of the bearings. 
+ 
+ 
+16.8.1 Description of boundary conditions, constraints 
+ 
+Often for a first analysis, a simply supported crankshaft throw is evaluated at 
+location of peak cylinder pressure, and peak inertial load cases. The mesh is refined in the 
+critical fillet transitions to the journal bearings. A simply supported boundary condition at 
+the midspan of the journal bearing will allow the crankshaft journal to tip in the bearing 
+bore of the cylinder block as illustrated in Figure 16.51. This tipping will tend to over-
+predict the stress in the crankshaft fillets.  
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-60 
+B. Dondlinger 
+ 
+Figure 16.51: Simply supported boundary condition 
+ 
+The next level of refinement will add gap elements to simulate the fluid film 
+bearings as indicated in Figure 16.52. This analysis takes into account the stiffness 
+contribution of the cylinder block.   
+ 
+ 
+Figure 16.52: Analysis of crankshaft with fluid film bearings and housing. 
+ 
+If further refinement is required, the crankshaft and connecting rod loads are 
+evaluated for a full 720° cycle for a four-stroke engine.  This is important for fatigue 
+calculations, as the loads fully reverse several times in the four stroke cycle.  
+ 
+ 
+16.8.2 Component Testing 
+ 
+If a crankshaft or connecting rod fails during engine testing, the results are usually 
+catastrophic! If either component fails, many engine components are damaged beyond 
+repair: crankshaft, cylinder block, connecting rod, cylinder head, valvetrain, etc. For this 
+reason, crankshafts and connecting rods are typically subjected to component tests to 
+prove their reliability, prior to exposing an expensive prototype engine to destruction. 
+Various servo-hydraulic rigs are used for component level testing. The crankshaft 
+is usually evaluated for torsional strength and bending resistance at the crankpin. For 
+torsional testing, it is usually supported at the main bearings, fixed at the power take off, 
+and a firing pressure load applied at the crankpin for torsional testing. The bending load 
+at the crankpin can either be simulated by fixing the crank near TDC and loading via a 
+driven connecting rod, or can be subjected to moment by bending the crankshaft from 
+one main bearing to another as represented in Figure 16.53. A single throw section is 
+rigidly mounted in a heavy fixture that is then suspended as shown. By making the fixture 
+mass large it will resonate at a very high natural frequency.  Once this frequency is 
+identified high fillet stress can be achieved with a very low driving force.  Strain gauges 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-61 
+B. Dondlinger 
+are added in the fillet region to drive the testing apparatus, or to assess the impact and 
+sensitivity of different fillet radii under a given load. By varying the magnitude of 
+loading at this frequency an ‗S-N‘ diagram can be generated specific to the crankshaft 
+section.  The cycle accumulation rate is so high that the number of cycles the crankshaft 
+would accumulate over its entire life in an engine can be accumulated in a matter of 
+hours.  The ‗S-N‘ diagram results can be compared with the actual stresses seen by the 
+crankshaft in the engine to determine the actual fatigue life.  The rig test method 
+described here is so easily done that it can be used for production quality checking as 
+well.  Production samples can be tested and overlaid on the ‗S-N‘ diagram to quickly 
+identify shifts that might occur due to casting or forging problems, material alloy 
+changes, or grinding, hardening, shot peening, or cold rolling process control problems. 
+  
+ 
+Figure 16.53: Rig test for… 
+ 
+Connecting rods are usually less sophisticated to test. A load is applied at the 
+piston pin bushing, axial to the main beam of the rod. The crankpin end of the rod is fixed 
+by a shaft of the same diameter of the crankpin to limit bore distortion. These tests are 
+sometimes accelerated by inputting a force at the natural frequency of the component. An 
+enhancement of this test is to mount the crankpin end of the rod off center from the piston 
+pin end, and this can simulate axial as well as bending load due to rod whip as presented 
+in Figure 16.54.  
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-62 
+B. Dondlinger 
+ 
+Figure 16.54: Connecting-rod loads… 
+ 
+Once individual component testing is passed, system level tests can begin. These 
+can again be servo-hydraulic, where a hydraulic cylinder applies load to simulate 
+combustion to a short block assembly of crankshaft, connecting rods, and cylinder block. 
+Or, the short block can be rotated on a motoring rig, where the engine is spun by an 
+electric motor without combustion taking place. This also allows the verification of the 
+lubrication and breathing systems, and the measurement of engine friction. A 
+disadvantage of a motoring rig test is the lack of combustion forces. This will under-
+represent the force due to combustion, but will amplify the loading due to inertia since 
+gas forces will not counteract inertia during TDC power stroke.  
+These system level tests allow easier access to components for strain 
+measurement. The use of strain gages and telemetry or slip rings are also methods to 
+obtain information. Finally, a specialty device known as a ―grasshopper linkage‖ can be 
+used to take direct measurement of strain on a moving connecting rod. This is a two link 
+assembly with one end attached to the connecting rod, and one end attached to a fixed 
+point in the engine. This removes the need to have strain gauge wires rotate around the 
+crankshaft, and once assembled and moving resembles the rear leg of a grasshopper.  
+Once these components have completed testing, they are cleared for use on the 
+engine dyno. Typically, low speeds are evaluated first, and load and RPM are gradually 
+increased as confidence grows.  
+ 
+ 
+16.9 Recommendations for Further Reading 
+A. SAE 2002-01-0770, 2002 Dubensky, R.G., ―Crankshaft Concept Design Flowchart for Product 
+Optimization,‖  
+B.  Engine Connecting Rod for High Performance Applications and Method of Manufacture, R. 
+Weaver, US Patent 2008/0282838 A1 
+ 
+ 
+Connecting Rod Optimization for Weight and Cost Reduction, SAE 2005-01-0987, P. Shenoy, A. Fatemi 
+ 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-63 
+B. Dondlinger 
+ 
+The following paper provides a design and development flowchart specifically addressing crankshafts.  The 
+level of detail provided will be especially appreciated by a first-time crankshaft designer. 
+ 
+Dubensky, R.G., ―Crankshaft Concept Design Flowchart for Product Optimization,‖ SAE 
+2002-01-0770, 2002. 
+ 
+Although this is an older paper it provides a good summary of the dimensional details and design variables 
+that determine crankshaft fatigue life. 
+  
+Shaw, T.M., Richter, I.B., ―Crankshaft Design Using a Generalized Finite Element 
+Model,‖ SAE 790279, 1979. 
+ 
+The following three papers summarize crankshaft development for new automobile engines.  The first is for 
+a V6 engine and the second an in-line four.  The third paper, again for a V-6 engine, emphasizes NVH 
+considerations. 
+ 
+Paek, Seong-Youn, ―The Development of the New Type Crankshaft in the V6 Engine, 
+SAE 990051, 1999. 
+ 
+Fujimoto, T., Yamamoto, M., Okamura, K., Hida, Y., ―Development of a Crankshaft 
+Configuration Design,‖ SAE 2001-01-1008. 
+ 
+Druschitz, A.P., Warrick, R.J., Grimley, P.R., Towalski, C.R., Killion, D.L., Marlow, R., 
+―Influence of Crankshaft Material and Design on the NVH Characteristics of a Modern, 
+Aluminum Block, V-6 Engine,‖ SAE 1999-01-1225, 1999.  
+ 
+ 
+The following papers discuss crankshaft durability.  The first discusses resonant bending fatigue testing, 
+and the second discusses crankshaft forging and grain flow. 
+Yu, V., Chien, W.Y., Choi, K.S., Pan, J., Close, D., ―Testing and Modeling of Frequency 
+Drops in Resonant Bending Fatigue Tests of Notched Crankshaft Sections,‖  SAE 2004-
+01-1501, 2004. 
+ 
+Shamasundar, S., ―Prediction of Defects and Analysis of Grain Flow in Crankshaft 
+Forging by Process Modeling,‖ SAE 2004-01-1499, 2004.  
+ 
+Shot peening is an important process for applying compressive residual stress to crankshaft fillets, thus 
+improving their fatigue life.  This paper presents a detailed look at the process, the resulting surface 
+characteristics, and the effect on fatigue life. 
+ 
+Wandell, James L., ―Shot Peening of Engine Components,‖ ASME Paper No. 97-ICE-45, 
+1997. 
+Crankshafts and Connecting Rods 
+9/2/2015 
+16-64 
+B. Dondlinger 
+ 
+This presentation, available through the Gas Machinery Institute provides an extremely detailed look at 
+Torsional vibration in engines, and the effects of various vibration dampers. 
+Feese, Troy, and Hill, Charles, ―Guidelines for Preventing Torsional Vibration Problems 
+in Reciprocating Machinery,‖ presented at Gas Machinery Conference, Nashville, 
+Tennessee, 2002. 
+ 
+The following paper presents a recent study of connecting rod fatigue in powdered metal and forged 
+designs.  The next paper discusses fracture-split connecting rod design.  The text then listed devotes a 
+chapter to connecting rod fatigue, and rig testing for rod development. 
+Afzal, A., Fatemi, A., ―A Comparative Study of Fatigue Behavior and Life Predictions of 
+Forged Steel and PM Connecting Rods,‖ SAE 2004-01-1529, 2004.  
+ 
+Park, H., Ko, Y.S., Jung, S.C., Song, B.T., Jun, Y.H., Lee, B.C., Lim, J.D., 
+―Development of Fracture Split Steel Connecting Rods,‖ SAE 2003-01-1309, 2003. 
+ 
+Wright, Donald H., Testing Automotive Materials and Components, SAE Press, 
+Warrendale, Pennsylvania, 1995. 
+ 
+ 
+―When Splines Need Stress Control‖ by Darle W. Dudley, Product 
+Engineering, 12/23/57. 
+ 
+McCardell, W., Mahoney, J., and Cameron, D., "Design Practice Automotive Driveline 
+Splines and Serrations," SAE Technical Paper 680009, 1968, doi:10.4271/680009. 
+ 
+A Comaprion of manufacturing Techniques in the Connecting Rod Industry, Colorado 
+School of Mines, D. Visser, 2008 
+ 
+ 

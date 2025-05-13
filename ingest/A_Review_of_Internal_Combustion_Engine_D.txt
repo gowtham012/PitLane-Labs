@@ -1,0 +1,1625 @@
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3843 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+A Review of Internal Combustion Engine Design  
+Patel Mehulkumar Nandlal  
+Lecturer in Mechanical Department,  
+Government Polytechnic, Chhotaudepur. 391165. 
+Gujarat Technological University 
+mehulmnp@yahoo.com 
+Krutika V Prajapati 
+Lecturer In Mechanical Department  
+Parul Institute of Engineering And Technology 
+Limda, Wadhodiya, 391760 
+Krutika_22june@yahoo.com
+ 
+Abstract— The most successful inventions of human includes internal combustion engine (I C Engine) as top of the list. The recent emphasis on 
+fuel economy, pollution control and other automobile fields like low friction body profile has also stimulated theoretical searches for an 
+automobile. Studies have found no alternative type that promises to have significant advantages in fuel economy or pollution control than 
+conventional I C Engines. But from these studies, it appears that the conventional types of spark-ignition and Diesel engines will remain in their 
+present predominant position in land and sea transportation and for industrial and portable power for the foreseeable future. And so, here is an 
+approach to have combined design aspects for all basic I C Engine components in one paper. Design aspects includes components like, piston, 
+piston rings, cylinder, cylinder head, connecting rod, crank and crank shaft, cam and cam shaft along with valve and valve gear mechanism. A 
+paper can be the base for future detailed designing work of I C Engine along with stress analysis and simulation.  
+Keywords- Internal combustion engine, piston, piston ring, connecting rod, crank shaft, valve gear mechanism. 
+__________________________________________________*****_________________________________________________ 
+I. 
+ INTRODUCTION  
+World needs transportation to fulfill most of the basic need 
+either in the form of one or the other. Internal combustion 
+engine comes under the radar from this point. It needs different 
+kinds of fuels to work. From past to recent future, world is 
+working in the field of I C Engine, its systems and for its 
+betterment. The recent emphasis is on fuel economy and 
+pollution control. Studies have found no alternative type that 
+promises to have significant advantages in fuel economy or 
+pollution control, and, above all, none that has nearly the all-
+around simplicity, safety, and adaptability of present engines. It 
+appears that the conventional types of spark-ignition and Diesel 
+engines will remain in their present predominant position in 
+land and sea transportation and for industrial and portable 
+power for the foreseeable future [5]. Hence, here is an approach 
+to present basic design of I C Engine. 
+This paper can provide foundation for next detail design 
+stages, where stress analysis based on thermal fundamentals 
+and simulations are possible.  
+. 
+II. 
+DIFFERENT PARTS OF INTERNAL COMBUSTION ENGINE 
+Principal parts of I C Engine are: 
+i. 
+Cylinder and cylinder head 
+ii. 
+Piston 
+iii. 
+Connecting rod 
+iv. 
+Valve mechanism 
+v. 
+Crankshaft and flywheel  
+ 
+Cylinder of I C Engine contains the working fluid and 
+guides the piston. Piston receives the gas load and transmits the 
+load to the crankshaft through the connecting rod. The 
+connecting rod transforms the reciprocating motion of piston 
+into the rotary motion of crankshaft and the power is supplied 
+to the necessary machine from the shaft.  
+The main components of the reciprocating internal 
+combustion engine are shown in Figure 1. Engine parts are 
+made of various materials and perform certain functions, some 
+of which will be explained: cylinder block (g) it is integral with 
+crank case (m), both are made of cast iron. The piston (e) 
+reciprocates inside the cylinder, which include the combustion 
+chamber. Spark plug is for combustion to take place inside the 
+cylinder block above piston. In compression ignition engine, 
+spark plug is avoided as due to high compression ratio, the 
+combustion inside the engine takes place.  
+The piston is connected to the connecting rod (h) by piston 
+pin (f). This end of the connecting rod is known as small end. 
+The other end of the connecting rod called the big end is 
+connected to the crank arm by crank pin (l). 
+Camshaft (u) makes the cam (t) to rotate and move up and 
+down the valve rod through the tappet (r). Mainly each cylinder 
+has two valves; one is admission or suction valve and the other 
+is exhaust valve [6]. 
+The ignition system consists of a battery, an ignition coil, a 
+distributor with cam and breaker points, and spark plug for 
+each cylinder. In diesel engines there is an injection system 
+instead of ignition system. 
+Here we are not going in to much detail of two and four 
+stroke engines as that is common fundamentals related to the I 
+C Engines. 
+III. 
+DESIGN ASPECTS OF INTERNAL COMBUSTION ENGINE 
+A. Design Aspects of Cylinder[1,3,5,6,7]  
+Cylinders are made up of grain cast iron as it is wear 
+resistant and cheaper. For small size engines, the cylinder, 
+water jacket and frame are made as single piece and liners are 
+not used. But for large size high speed engines, they are used 
+which can be replaced after wear and tear. Liners are made up 
+of good grade of Gray CI, Ni, Chromium CI or NI-Cr Cast 
+steel. Dry liners are heat treated after machining for hardness of 
+RC 50 to 55 or above.  
+There are two types of liners:  
+1. 
+Wet liners 
+2. 
+Dry liners.  
+ 
+ 
+Wet liners have water in direct contact and are used in 
+engine bore size 130 mm plus. Wet liners reduces the foundry 
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3844 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+problem of casting the cylinder and cylinder is not subjected to 
+thermal stress due to water in it, but it is difficult to replace wet 
+liner from the cylinder as chances of water leakage in the 
+combustion space and crank case.  
+Dry liners are fitted in the cylinder wall and can be easily 
+replaced as there is no chance of water leakage from jacket. 
+The upper part of liner is cooled better with the use of dry 
+liners, the casting of cylinder becomes complicated and heat 
+flow through the composite wall of liner and cylinder is 
+reduced [1]. 
+Thickness of cylinder wall: Assume bore for cylinder.  
+k
+pD
+t
+t
+
+
+2
+ 
+Where, p is maximum explosion pressure in N/mm2, D is 
+cylinder bore in mm, σt is allowable hoop stress in N/mm2  and 
+its approximate value is between 35 to 100 N/mm2, K is Re-
+boring factor.  
+TABLE I 
+SELECTION OF FACTOR K 
+Bore (mm) 
+75 
+100 
+150 
+200 
+250 
+300 
+350 
+400 above 
+K (mm) 
+1.5 
+2.5 
+4 
+6 
+7.5 
+9.5 
+10.5 
+12.5 
+ 
+Cylinder bore and length:  
+Power developed by the engine, 
+cycle
+stroke
+kw
+LAN
+p
+P
+m
+2
+1000
+60
+
+
+
+ 
+cycle
+stroke
+kw
+LAN
+p
+P
+m
+4
+1000
+60
+2
+/
+
+
+
+ 
+Where, Pm is mean effective pressure, N is speed of engine in 
+rpm, Assuming L/D, we can find the capacity of engine.  
+ 
+Length of cylinder  = L+ clearance at ends  
+10 to 15% clearance at both ends is considered generally. 
+Hence, Length of cylinder= L+ 0.15 L 
+ 
+Thickness of flange at lower end: 
+Studs and nuts are used to attach upper half of crank case with 
+cylinder. Here thickness of flange at lower end = 1.25 t or 1.25 
+d to 1.5 d, where d is stud diameter. The distance between the 
+stud centre and end of the flange is generally taken as 1.5d. 
+ 
+Size of studs or bolts for connecting the flange with the upper 
+half of crank case: 
+t
+cd
+n
+load
+Gas
+
+
+
+
+
+2
+4
+ 
+Where, n is number of studs or bolts, dc is core diameter of bolt 
+(bolts are made up of Ni steel), σt is allowable stress for stud or 
+bolt and value is between  60 to 100 MPa for nickel steel. 
+Minimum size of bolt should not be less than 16 mm for gasket 
+joint. The pitch of stud or bolt is taken 20 √(d) to 25 √(d) 
+mm. Hence, outer diameter of cyl. Flange = pcd of bolt + 3d 
+The no. of bolts or studs can be taken as 8, 12, 16 in numbers 
+with equations: 
+mm
+in
+D
+where
+D
+to
+D
+,
+4
+50
+4
+100
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+Cylinder head: 
+Separate cylinder head is cased generally and connected with 
+cylinder by the no. of bolts. The cylinder head accommodates 
+valve mechanism, auto miser or spark plug depending on 
+engine type. The cylinder head can be considered as circular 
+plate fixed at the edges. Considering it as flat plate, the 
+thickness equation is as below: 
+t
+p
+C
+D
+t
+
+/
+max
+
+
+ 
+Where, C is constant and its value is 0.1, σt is allowable stress 
+for CI head and its value is between 35 to 60 N/mm2. 
+Maximum amount of heat is transferred through the cylinder 
+head, so its thickness is taken sufficiently more. 
+B. Design Aspects of Piston and Piston Rings [1,3,5,6,7].  
+Function of piston in the internal combustion engine is to 
+receive load of the gas and transmit it to the crank shaft through 
+the connecting rod. It also disperses the heat of combustion 
+from combustion chamber to the cylinder walls.  
+The main components of trunk piston are piston crown, 
+skirt, gudgeon pin and piston rings. Important design criteria 
+includes, it should be high heat resistant and strong, weight 
+should be minimum with sufficient bearing area to prevent 
+wear, should effectively prevent the leakage of gases through 
+the annular space around, dissipate heat as quickly as possible 
+after combustion, hardness of material should be maintained at 
+high elevated temperatures with noise less operation.  
+In the name of materials, pistons are generally made up of 
+cast iron, cast aluminium, cast steel or forged aluminium. They 
+are different in rubbing friction, thermal expansion and 
+contraction, density, strength and toughness along with other 
+criteria [1].  
+Thickness of piston head (th): 
+t
+h
+pD
+t
+
+2
+16
+3
+
+ 
+The piston head can be considered circular plate fixed on 
+the periphery with uniform pressure distribution while loading. 
+Thickness equation is given where, P is maximum explosion 
+pressure in N/mm2, D is cylinder bore in mm, σt is allowable 
+bending stress in N/mm2. This thickness of piston is to be 
+checked with heat dissipation. Hence, Heat absorbed by piston 
+is equal to heat flow through the head from centre to the 
+cylinder walls. 
+)
+2
+(
+2
+ht
+r
+dr
+dT
+q
+r
+
+
+
+
+ 
+  
+Where,  r is piston radius in mm, q is heat flow from gases in 
+W/m2, dT/dr is temperature gradient, k= thermal conductivity 
+in W/mᵒC Hence, integrating the above equation between two 
+temperature limits Tc and Te, Tc= temperature at centre, Te= 
+temperature at edge, 
+h
+h
+e
+c
+kt
+q
+D
+r
+kt
+q
+T
+T
+16
+2
+2
+)
+(
+2
+2
+
+
+
+
+  
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3845 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+2
+4 D
+H
+q
+
+
+ 
+)
+(
+56
+.
+12
+h
+c
+h
+T
+T
+k
+H
+t
+
+
+ 
+Where, H is amount of heat dissipated through the piston head 
+=W× CV of fuel× Brake power× C, W is specific fuel 
+consumption in kg/kW hr, CV is calorific value of fuel and is 
+between 36000 to 44000 kJ/kg for diesel and between 45000 
+kJ/kg for petrol, C is fraction of the part of heat transmitted by 
+piston and its value is between 0.05 to 0.06 which is 5 to 6 % of 
+heat, K is thermal conductivity of piston material and its value 
+is between 46 W/m2 ᵒK for CI and and its value is between 160 
+to 175 W/m2 ᵒK for aluminium alloy. In case of unavailability 
+of data, we can assume, Tc-Te = 200ᵒK for CI and 55ᵒK for 
+Aluminum Alloy. 
+ 
+Break power can be found with the flowing equation in watts: 
+ 
+engine
+cylinder
+gle
+stroke
+for
+LAN
+P
+BP
+m
+sin
+4
+60
+2
+
+ 
+ 
+Where, Pm is power in N/m2, L is length of piston in m, A is 
+area in m2 
+For 4 stroke petrol engine = th = 0.12D to 0.14D -CI piston 
+For 4 stroke diesel engine = th = 0.12D to 0.16D -Al.Alloy 
+ 
+Piston Ring Design aspects: 
+Generally 3 to 4 compression rings and one oil ring are used 
+which are made up of CI having permissible strength of 84 
+N/mm2. Equation for radial thickness of piston ring: 
+t
+w
+r
+P
+t
+
+3
+
+ 
+Where, Pw is wall pressure = 0.02 to 0.04 N/mm2, tr = 0.04 D to 
+0.045D, b is 0.6 tr to tr, Land between rings= 0.75tr 
+ 
+Piston Barrel Design aspects: 
+L is Length of barrel = D to 1.5D 
+For ideal heat flow, thickness of piston barrel should be equal 
+to the thickness of piston head tapering down to bottom.  
+tb = thickness of piston barrel = 0.03D+ b+ 5 mm 
+Thickness of barrel at open end = 0.25 tb to 0.35 tb 
+ 
+Piston skirt design aspects: 
+Piston skirt it the portion of piston barrel below the ring section 
+upto the open end. Its length should be such that the side thrust 
+pressure does not exceed 0.2 to 0.3 N/mm2. 
+Length of piston skirt = ls = 0.6 to 0.8D 
+ 
+Piston skirt is to be checked for side bearing pressure: 
+
+tan
+100
+10
+,
+max
+max
+max
+max
+P
+load
+gas
+skirt
+on
+rod
+connecting
+of
+thrust
+side
+is
+R
+where
+D
+l
+R
+P
+s
+
+
+
+
+
+ 
+ 
+Where,  θ is obliquity of connecting rod= 2ᵒ to 5ᵒ 
+From above equation: 
+p
+D
+load
+Gas
+P
+2
+max
+4
+
+
+
+ 
+Where,  p is explosion pressure. 
+ 
+Design aspect of ribs: 
+No. of ribs to avoid the distortion of piston is provided. This 
+distributes the gas load as well. This is provided below the ring 
+section and extending up to piston pin boss and extending 
+around the skirt. The ribs may extend across the head in some 
+pistons. Generally 4 to 6 ribs are provided radially in the head. 
+Thickness of ribs = th/3 to th/2 
+ 
+Design aspect of piston pin or gudgeon pin: 
+Usually full floating or semi floating pins are used to connect 
+piston and small end of connecting rod. Fixed piston pins are 
+never used as complete swinging motion of connecting rod will 
+be confined to the small end bearing only and causing uniform 
+wear. Piston pins is designed for maximum gas load or inertia 
+force whichever is higher.  
+ 
+Length of piston pin = 0.9 D 
+Length of piston pin in the connecting rod bush is lp= 0.45 D 
+Diameter of piston pin = dp 
+Allowable bearing pressure = pb =  15 to 30 N/mm2 
+Pmax=lp×dp×pb 
+To reduce the weight of piston pin, it is made of hollow section 
+where diameter ratio of inner to outer is maintained as 0.6. This 
+piston pin is checked for bending assuming the gas load to be 
+uniformly distributed. 
+t
+p
+i
+p
+d
+d
+d
+D
+P
+M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+2
+max
+32
+8
+ 
+The allowable bending stress for hardened steel is 84 N/mm2 
+and 140 N/mm2 for heat treated alloy steel. Piston pin is 
+subjected to double shear stress 
+ 
+at the boss, so it is to be checked for shear stress, and allowable 
+limit for the same is 50 MPa. 
+ 
+Design aspect of piston boss: 
+Inner diameter of piston boss  = dp 
+Outer diameter of piston boss = 2dp 
+Length of boss 
+ 
+     = 0.2D 
+ 
+Design aspect of piston clearance: 
+Clearance between the liner and piston is provided for the 
+allowance for thermal expansion. To ensure the necessary 
+clearance in hot engines, the piston crown and skirt are made 
+smaller by a value δD. 
+ 
+δD = 0.005 to 0.007 D at crown in CI piston 
+δD = 0.001 to 0.0013 D at skirt in CI piston 
+δD = 0.006 to 0.01 D at crown in Al piston 
+δD = 0.0018 to 0.0025 D at skirt in Al piston 
+ 
+The clearance between the ring and groove wall is also 
+important. And it is in compression ring is 0.7 to 0.95 mm and 
+for oil scrapper ring it is 0.9 to 1 mm. This all clearance is to be 
+checked under the hot state and hot condition which is not 
+described here. Only important portion of inertia is described 
+below. 
+ 
+Checking of piston wall thickness for inertia force: 
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3846 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+
+
+
+
+
+
+n
+mr
+F
+force
+Inertia
+i
+1
+1
+2
+
+ 
+Where, m = mass of reciprocating parts, r is crank radius, n is 
+length of connecting rod/ crank radius, ῳ= angular speed of 
+rotation. 
+Always higher speed of rotation is considered. The weakest 
+section of piston is the section across the oil holes. 
+Hence,  A is c/s area of the weakest section 
+
+
+0
+2
+2
+2
+.
+4
+d
+D
+D
+holes
+oil
+of
+No
+D
+D
+A
+i
+g
+i
+g
+
+
+
+
+
+
+
+
+
+ 
+Dg is diameter of piston at gudgeon pin= Di+2th 
+ 
+Di = dia. Of inner side of piston = D-2[th + tr + Δt] 
+Δt = radial clearance between the piston ring and groove. 
+do = diameter of oil hole and usually 1.2 mm is taken. 
+ 
+Usually 6 nos. of oil holes are provided in the oil scrapper ring. 
+Rupture stress= σt = Fi/A and permissible value is to N/mm2 
+ 
+2
+2
+2
+2
+4
+)
+2
+(
+1
+)
+(
+1
+yy
+xx
+yy
+c
+xx
+c
+K
+K
+where
+k
+l
+a
+A
+k
+l
+a
+A
+
+
+
+
+
+
+ 
+2
+4
+AK
+I
+as
+I
+I
+yy
+xx
+
+
+ 
+C. Design Aspects of Connecting Rod Assembly[1,3,5,6,7].   
+ 
+Connecting rod is a link between piston and crank shaft in 
+the internal combustion engine. Generally they are drop forged 
+from carbon steel or alloy steel. Carbon steel has ultimate 
+tensile strength of 550 to 950 MPa. NI-Cr-steel is also used as 
+one of the material. Cross section of rod may be circular, 
+rectangular, I-section or H-section. Circular section is used for 
+low speed and I-section is used for high speed engines. Length 
+of connecting rod may be 4 to 5 times the crank radius. If 
+higher ratios are used then angularity is increased which 
+reduces wear due to side thrust. Lower ratio increased the 
+angularity and hence the wear due to side thrust. Most engine 
+have conventional two piece connecting rods, where bearing 
+cap is cut off from forged rod and bolted in place for final 
+machining. Generally I section is used in the connecting rod 
+and hence the analysis is taken here for the same as sample.  
+A connecting rod is a machine member which is subjected 
+to alternating direct compressive and tensile forces. Since the 
+compressive forces are much higher than the tensile forces, 
+therefore the cross-section of the connecting rod is designed as 
+a strut and the Rankine’s formula is used. A 
+ 
+connecting rod subjected to an axial load W may buckle 
+with X-axis as neutral axis (i.e. in the plane of motion of the 
+connecting rod) or Y-axis as neutral axis (i.e. in the plane 
+perpendicular to the plane of motion). The connecting rod is 
+considered like both ends hinged for buckling about X-axis and 
+both ends fixed for buckling about Y-axis. A connecting rod 
+should be equally strong in buckling about either axes. 
+ 
+Let, A is Cross-sectional area of the connecting rod, l is 
+Length of the connecting rod, σc is Compressive yield stress, 
+Wcr is Crippling or buckling load, Ixx and Iyy is Moment of 
+inertia of the section about X-axis and Y-axis respectively, and 
+kxx and kyy is Radius of gyration of the section about X-axis 
+and Y- axis respectively. 
+ 
+According to Rankine’s formula, 
+L
+l
+edge
+hinged
+both
+as
+xx
+c
+xx
+c
+axis
+X
+about
+cr
+k
+l
+a
+A
+k
+L
+a
+A
+W
+
+
+
+
+
+
+,
+2
+2
+)
+(
+1
+)
+(
+1
+
+
+ 
+2
+,
+2
+2
+)
+2
+(
+1
+)
+(
+1
+l
+L
+edge
+hinged
+both
+as
+yy
+c
+yy
+c
+axis
+Y
+about
+cr
+k
+l
+a
+A
+k
+L
+a
+A
+W
+
+
+
+
+
+
+
+
+In order to have a connecting rod equally strong in buckling 
+about both the axes, the buckling loads must be equal, i.e. 
+)
+,
+(
+4
+4
+)
+2
+(
+)
+(
+)
+2
+(
+1
+)
+(
+1
+2
+2
+2
+2
+2
+2
+2
+k
+A
+I
+as
+I
+I
+or
+k
+k
+k
+l
+k
+l
+or
+k
+l
+a
+A
+k
+L
+a
+A
+yy
+xx
+yy
+xx
+yy
+xx
+yy
+c
+yy
+c
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+This shows that the connecting rod is four times strong in 
+buckling about Y-axis than about X-axis. If Ixx > 4 Iyy, then 
+buckling will occur about Y-axis and if Ixx < 4 Iyy, buckling 
+will occur about X-axis. In actual practice, Ixx is kept slightly 
+less than 4 Iyy. It is usually taken between 3 and 3.5 and the 
+connecting rod is designed for buckling about X-axis. The 
+design will always be satisfactory for buckling about Y-axis. 
+The most suitable section for the connecting rod is I-section 
+with the proportions as shown in Figure below.   
+Area of the section=2(4t×t)+3t×t=11t2 
+ 
+Moment of inertia about X-axis, 
+4
+3
+3
+12
+419
+]
+)
+3
+(
+3
+)
+5
+(
+4
+[
+12
+1
+t
+t
+t
+t
+t
+Ixx
+
+
+
+ 
+Moment of inertia about Y-axis, 
+4
+3
+3
+12
+131
+]
+)
+3
+(
+12
+1
+)
+4
+(
+12
+1
+2
+[
+t
+t
+t
+t
+t
+I yy
+
+
+
+
+ 
+2.3
+131
+12
+12
+419
+
+
+
+yy
+xx
+I
+I
+ 
+ 
+Since the value of Ixx and Iyy lies between 3 and 3.5, therefore I-
+section chosen is quite satisfactory. 
+ 
+The I-section of the connecting rod is used due to its lightness 
+and to keep the inertia forces as low as possible. It can also 
+withstand high gas pressure. Sometimes a connecting rod may 
+have rectangular section. For slow speed engines, circular 
+sections may be used. Since connecting rod is manufactured by 
+forging, therefore the sharp corners of I-section are rounded 
+off. Same way the force analysis on connecting rod can be 
+presented where two forces are considered. One is force due to 
+gas or steam pressure and inertia of reciprocating parts. Second 
+is inertia bending forces. We can derive the expressions for the 
+forces acting on different types of engine working under 
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3847 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+different conditions. But here it is not taken as a part of this 
+paper.  
+D. Design Aspects of Crank Shaft Assembly [1,3,5,6,7].   
+Crank shaft transforms reciprocating motion of piston in the 
+rotary motion which consists of crank pin, webs and shaft. It 
+may be of overhung crank type or centre crank type. May be of 
+single or double throw type. The crank shaft is subjected to 
+both twisting moment and bending moment hence it must have 
+sufficient strength to withstand the forces. It is generally made 
+up of 35 C steel or 40 C steel having ultimate strength of 525 to 
+600 MPa. They are usually forged. 
+A part of valve, valve gear mechanism which includes 
+rocker arm design as well as timing, pushrod and cam design is 
+omitted here as they are basically outer components of engine 
+and work in connection to engine moment.   
+ 
+Design procedure for overhang crank shaft: 
+ 
+max
+2
+4
+P
+D
+piston
+on
+Load
+
+
+ 
+pressure
+losion
+is
+P
+dia
+cylinder
+is
+D
+where
+exp
+.
+max
+max
+&
+.
+,
+  
+ 
+Thrust in the connecting rod Q=P/cosǾ 
+Where, Ǿ in Obliguity of connecting rod=sin-1[sinӨ/n],  
+Ө is position of crank for maximum twisting moment from IDC 
+and n = l/r 
+ 
+Crank pin design:  l/dp = sqrt(0.2σt/Pb) 
+Where, σt is allowable stress for crank 
+Pb is allowable pressure for crank pin, Then, P= l×dp×Pb 
+ 
+Checking the crank pin for bending where assumption is 
+uniformly distributed load for the crank pin, 
+t
+p
+d
+pl
+M
+
+
+2
+32
+2 
+
+ 
+Here, stress value can be found and allowable limit for the 
+material is 70 to 85MPa. 
+ 
+Design of crank and crank arm: 
+Thickness of crank web is t = 0.6 to 0.75dp. 
+Width of crank web is b. 
+The crank arm is subjected to a compressive load and a bending 
+load in dead centre position. 
+ 
+Direct compressive stress = 
+p/bt 
+Bending stress 
+ 
+= 
+pe/z 
+Where, e = eccentricity of load = (l/2 + t/2) and Z= 1/6bt2 
+  
+Here allowable compressive stress is taken as 80MPa. 
+Checking of crank arm cross section for maximum twisting 
+moment: 
+In figure, Ft = tangential component = Qsin(Ө+Ǿ) 
+ Fr = radial component  
+  = Qcos(Ө+Ǿ) 
+Bending Moment due to Ft = Mt = Ft×R  
+[R=crank radius] 
+ = 1/6×tb2×σbt 
+ 
+Stress value can be found from the equation. 
+Bending Moment due to Fr = Mr 
+= Fr×e = 1/6×bt2×σbr 
+Direct compressive stress due to radial component Fr 
+σcr = Fr/bt and σc = total compressive stress 
+= σbt+σbr+σcr 
+Usually limit of this total compressive stress is 80MPa. 
+Twisting moment due to Ft = T = Ft×e = Zp×τ 
+Where, Zp = polar modulus of section = 0.269 bt
+2 (rectangular 
+c/s) so, stress value can be found here. 
+ 
+2
+2
+2
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c
+c
+stress
+principal
+Maximum
+ 
+E. Design Aspects of Valve and Valve Gear Mechanism 
+[1,3,5,6,7].   
+ 
+Valve gear mechanism operates suction and exhausts valves 
+and hence maintains air to fuel intake at desired time and hence 
+compression and expansion strokes takes place at desired 
+period of time. Also the remaining burnt product is exhausted 
+before the next cycle is started. Component of valve gear 
+mechanism for four stroke cycle engine are inlet and exhaust 
+valves, rocker arms or levers, tappets or push rods, cams and 
+cam shaft along with the transmission device from crank shaft 
+to cam shaft. 
+ 
+Design procedure of valve port and valve: 
+Size of valve ports depends upon the cylinder bore and cylinder 
+centre distance. Large valve is provided for large diameter 
+cylinder. The size of valve port can be found as under: 
+ 
+s
+m
+in
+velocity
+indicates
+V
+and
+area
+indicates
+A
+where
+gas
+V
+port
+A
+piston
+V
+piston
+A
+/
+,
+
+
+
+ 
+ 
+Piston velocity=2LN/60 m/s. 
+To maintain the flow, the pressure difference should not be 
+high, so the gas velocity should not be high. Four automobile, it 
+should be 50 to 75 m/s and for stationary engine, it should be 
+40 to 50 m/s. Here from the equation, area of port can be found 
+and from that diameter of port can be found out in mm. For 
+higher engine output, inlet port is made about 30 to 40 mm 
+larger than exhaust port. Valve stem diameter is indicated by ds 
+and valve seat is grinded with the angle of 45º normally. 
+Generally poppet type valves are used in I c engine. Main part 
+of valve is stem, head and face. For better performance of 
+engine, opening and closing of valves should be done at perfect 
+timing. Also valve should be tight on their seats to prevent any 
+leakage while in close condition. Along with this, the weight of 
+valve should be as light as possible to have flexibility in 
+operation and reduce the working forces. 
+For flat headed valve, valve lift l 
+= 
+dp0/4  
+For conical valves, valve lift l 
+= 
+dp0/4cosα 
+Where usually α = 45 degree for exhaust and 30 degree for inlet 
+valve. 
+Diameter of valve head dv  
+= 
+dp0 to 1.16 dp0 
+ 
+Thickness of valve head can be obtained by considering it as 
+flat plate subjected to maximum uniform distributed gas load. 
+ 
+t
+po
+P
+d
+k
+t
+
+max
+
+ 
+Here,  
+σt = 28MPa, k = 0.54 and if σt = 56MPa, k = 0.42 
+Generally value of k is taken as 0.5 if nothing is given. The 
+diameter of valve stem is taken as, ds = dp0/8+6.5 to 11mm 
+ 
+Design of rocker arm: 
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3848 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+Rocker arm transmits the motion from crankshaft to the valves. 
+The force required to operate the inlet valve is comparatively 
+less than that required to operate the exhaust valve. In practice 
+both the rocker arms operating inlet valve and exhaust valve 
+are made of same size for uniformity.  
+Maximum load on the valve during acceleration comprises of 
+gas load, initial spring force to hold on its seat against suction 
+stroke and valve inertia.  
+ 
+Gas load =Area of valve(which is π/4dv
+2)× exhaust pressure (P) 
+Exhaust pressure is generally 0.35 to 0.4 MPa. 
+Initial spring force = Valve area× Vacuum pressure 
+Vacuum pressure varies from 0.02 to 0.03 MPa for diesel eng. 
+Vacuum pressure varies from 0.05 to 0.07 MPa for petrol eng. 
+Inertia of valve = Mass of valve× Acceleration. 
+The design mass of valve is referred to the area of passage 
+through the throat of the valve and reduces to its axis or it is the 
+equivalent mass of valve gear referred to the valve axis. 
+Empirically it can be found as under: 
+Mass of valve = m = 230× (port area in m2)= 230×(π/4 dp0
+2) in 
+kgs. Diameter here should be in meter.  
+ 
+The acceleration of valve is found as under: 
+Valve total opening angle  =180+angle of EVO before BDC+  
+angle of EVC after TDC 
+= 180+ α+β 
+If the cam moves with uniform and equal acceleration and 
+retardation, then, 
+2
+0
+2
+4
+
+s
+a
+on
+Accelerati
+
+
+ 
+If it moves with simple harmonic motion, then, 
+2
+2
+0
+2
+2
+S
+a
+
+
+
+
+ 
+Where, ω=2π(N/2)/60 rad/s and Cam shaft speed is half that of 
+crank shaft speed and S= lift of valve.  
+ 
+Design aspects of rocker arm: 
+The rocker arm may be straight or angular with an included 
+angle of 135 to 160 degree. 
+Arm length, X=5 times valve lift and Y=0.9 to 1X. 
+Allowable stress for caste steel is 50 to 60MPa and for forged 
+steel is 60 to 70MPa. 
+Cross section of rocker arm is rectangular or I section 
+generally. 
+For rectangular section: 
+h 
+= 
+3b  
+For I-section: Flanges=2.5t×t, Depth= 6t, Web= 4t×t 
+Now maximum bending moment on the arm, M=P×X=σbZ 
+Where, P is total force acting at the valve end and X is leverage 
+of arm. Z=1/6bh2 for rectangular section and I/y for I-section. 
+Fulcrum pin diameter: 
+For angular rocker arm, included angle is Ө, 
+ 
+Reaction at fulcrum pin=
+
+cos
+2
+2
+2
+PQ
+Q
+P
+R
+
+
+
+ 
+ 
+Then, R = ldpPb 
+The allowable pressure is 10 to 18MPa and the ratio l/dp is 
+usually taken as 1.25 to 1.5. So through this, pin diameter can 
+be determined. Hub of rocker arm is fitted with brass bush.  
+Hence inner diameter of hub= di = dp+2 × bush thickness. 
+Thickness of brass bush usually taken as 2 to 3 mm and outer 
+diameter of hub is 2di. Checking of hub under bending with 
+following equation and bending stress can be found out. 
+2
+/
+]
+[
+12
+/
+1
+3
+3
+H
+Bh
+BH
+Z
+M
+b
+b
+
+
+
+
+
+ 
+Here, H= outer diameter, h= inside diameter and B= width of 
+the hub. 
+ 
+Push rod design aspects: 
+It is considered to be strut or column. It is usually hollow, with 
+inner diameter 0.6 times outer diameter. Euler’s equation or 
+rankine equation is used for l/k<80 for CI and l/k<100 for steel. 
+2]
+/
+[
+1
+k
+l
+a
+A
+P
+c
+g
+
+
+
+                   
+]
+[
+4
+2
+2
+0
+id
+d
+A
+
+
+ 
+]
+[
+4
+/]
+[
+64
+/
+2
+2
+0
+2
+2
+0
+2
+i
+i
+d
+d
+d
+d
+A
+I
+k
+
+
+
+
+
+
+ 
+ 
+Where, a=I/7500 for steel, l is length of push rod and σc is 
+allowable stress for push rod material. 
+Push rod is made up of bright drawn mild steel with 0.4% 
+carbon content. Allowable stress is 65 to 75MPa.  
+Design of valve spring is done in usual manner as compression 
+spring. Function of spring is to provide spring force for the 
+closure of the valve and to maintain contact of cam with the 
+follower all the times. In the excessive surging of spring, as in 
+high speed engine, the follower may leave the contact of cam. 
+ 
+Whal factor = k = (4c-1/4c-4)+(0.615/c), Where, C= spring 
+index 
+= D/dw 
+Maximum load on the valve is the load when valve is opened. 
+Pmax = D/2 = πdw3τ/16k 
+When valve is closed, load on spring is minimum. The 
+allowable shear stress for carbon steel spring is 280 to 320MPa. 
+3
+8
+.
+pc
+Gd
+n
+coil
+active
+of
+No
+w
+
+
+
+ 
+Where, δ is valve lift, G is modulus of rigidity and P is net load 
+which is subtraction of maximum to minimum load. Total no. 
+of coils is n+2. Free length of spring can be finding in the usual 
+solid length added to deflection and clearance. 
+ 
+Design aspects of cam: 
+Cam is integral part of the cam shaft. In this case following are 
+the calculation, 
+Diameter of cam shaft = 0.16D+12.5mm [D=bore diameter] 
+If the cam is keyed on the cam shaft, then 
+Diameter of cam shaft = 1.175D+20mm 
+Base circle diameter    = cam shaft dia.+3mm for integral cam 
+  
+ 
+        = 1.5×shaft dia.+20 mm for keyed cam 
+Usually roller follower is used with cam.  
+Diameter of roller        = 0.5 to 0.75 × cam shaft diameter 
+Width of follower        = 0.3×roller diameter 
+Width of cam = 0.09D+6 mm to 0.11D+12 mm 
+However the width of cam depends upon the load acting on it.  
+ 
+If the cam is well lubricated, then the cam width is determined 
+a sunder. 
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3849 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+If cam is face hardened then, it can sustain load of 200N to 
+250N per mm width. 
+For plain carbon steel cam, it can sustain a load of 100N to 
+150N per mm width.  
+From the given valve lift and given angles of action, the ca can 
+be designed. 
+CONCLUSIONS 
+The work is base approach to have design of different I C 
+Engine and its components. No thermal or other considerations 
+are taken in to account while designing. We have designed 
+different components like piston, piston rings, cylinder, 
+cylinder head, connecting rod, crank and crank shaft, cam and 
+cam shaft along with valve and valve gear mechanism. Purpose 
+of the paper is to better understanding of different design 
+parameters and systems in integration to design with certain 
+assumptions as mentioned in different sections. Expected 
+outcome of this work is to have integration between design 
+parameters and systems. Same way any existing or new single 
+cylinder engine can be designed, thermal considerations can be 
+approached and a simulation of the engine can be workout. For 
+safer limits, certain stress limits have been assumed which can 
+be change as per the material selection and data can be drawn 
+from design data book.  
+ 
+REFERENCES 
+ 
+[1] R S Khurmi & J K Gupta,  A Text book of Machine Design,  14th 
+edition, S. Chand Publications 2008.  
+[2] M. L. Mathur and R.P.Sharma, A course in internal combustion engines, 
+Dhanpat Rai & Sons. 2007.  
+[3] Richard Stone and Jeffrey K. Ball,  Automotive Engineering 
+Fundamentals, 
+MAE 
+– 
+International. 
+SAE 
+Permissions 
+400 
+Commonwealth Drive  Warrendale, PA 15096-0001 USA. 
+[4] Charles Fayette Taylor, The Internal-Combustion Engine in Theory and 
+Practice,  Professor of Automotive Engineering, Emeritus, MIT,  
+Volume 11: Combustion, Fuels, Materials, Design, Revised edition, 
+1985.  
+[5] Joseph E. Shigley, Charles R. Mischke, Standard Handbook Of Machine 
+Design, ISBN 0-07-056958-4, McGraw-Hill, 1996. 
+[6] Willard W. Pulkrabek, Engineering Fundamentals of the Internal 
+Combustion Engine,  University of Wisconsin, Platteville, Prentice Hall, 
+1989. 
+[7] Matthew David Greenman, Design and Construction of Miniature 
+Internal Combustion Engine, RPI, MIT, June 1996. Electronic 
+Publication: Digital Object Identifiers (DOIs): 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3850 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+ 
+ 
+ 
+Figure 1: Spark ignition engine parts and details [6]. 
+ 
+ 
+Figure 2:  Piston rings skeleton diagram.  
+ 
+ 
+Figure 3: Buckling of Connecting rod (I section)[1]  
+ 
+ 
+ 
+Figure 4: I-section of connecting rod [1]. 
+ 
+Figure 5: Crank Arm Selection. 
+ 
+Figure 6: Twisting Moment Diagram for Crank Pin. 
+ 
+International Journal on Recent and Innovation Trends in Computing and Communication             
+             
+             ISSN: 2321-8169 
+Volume: 2 Issue: 12                                                                                                                                  
+                                    3843 – 3851 
+_______________________________________________________________________________________________ 
+3851 
+IJRITCC | December 2014, Available @ http://www.ijritcc.org                                                                 
+_______________________________________________________________________________________ 
+ 
+ 
+ 
+ 
+Figure 7: Valve Gear Mechanism of I C Engine [5] 
+ 

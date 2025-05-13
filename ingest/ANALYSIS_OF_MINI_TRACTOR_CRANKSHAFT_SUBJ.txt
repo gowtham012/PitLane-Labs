@@ -1,0 +1,208 @@
+International Journal of Advance Research In Science And Engineering           http://www.ijarse.com 
+IJARSE, Vol. No.3, Issue No.8, August 2014                                                        ISSN-2319-8354(E) 
+ 
+167 | P a g e  
+www.ijarse.com 
+ 
+ANALYSIS OF MINI TRACTOR CRANKSHAFT 
+SUBJECT TO DYNAMIC LOADING 
+ 
+Hiren Natvarbhai Makwana1, Dr. Pushpendra Kumar Sharma2 
+1M.Tech Scholar, NIIST, Bhopal 
+2HOD & Guide, Mechanical department, NIIST, Bhopal (India) 
+ 
+ 
+ABSTRACT  
+The main aim of this research work is to analyzed and validate existing engine crankshaft von misses stress and 
+strain and deformation which subjected under dynamic loading. To complete this parameters here in this work 
+CATIA a design software is used to prepared model and HYPERMESH is used to meshing and analyzing the 
+existing crankshaft.so ultimately this will  used as a tool for analysis and optimization of crankshaft. From that 
+dynamic analysis, fatigue life of the crankshaft and dynamic analysis using modal analysis to find total 
+deformation and frequency of the crankshaft. While the converting the reciprocating motion into rotary motion 
+by the crankshaft, it is subjected to cyclic compressive and tensile loading in vertical direction as well as with 
+some amount of vibratory motion. The study to be carried out to check the load carrying capacity of the crank 
+shaft subjected to both vibration and rotation. This dynamic analysis is conducted on the forged steel 
+crankshaft, single cylinder four stroke engines of mini tractor which is used in agriculture activities.  
+Keywords: Dynamic Analysis, FEA, Crankshaft, CATIA, HYPERMESH 
+I. INTRODUCTION 
+Now a day’s maximum affiance, minimum production cost and fine work is major important phenomenon in 
+automobile industries. Vast products like connecting rod, crankshaft, and engine block are wide researchable 
+parts of automobile field. Crank shaft is a major effectible and also complex geometry in the engine, which 
+converts the reciprocating displacement of the piston to a rotary motion with a four bar link mechanism. The 
+Shaft parts which revolve in the main bearings, the crank pins to which the big end of the connecting rod are 
+connected, the crank arms or webs which connect the crank pins and shaft parts. In addition, the linear 
+displacement of an engine is not smooth; as the displacement is caused by the combustion chamber therefore the 
+displacement has sudden shocks. 
+The concept of using crankshaft is to change these sudden displacements to as smooth rotary output, which is 
+the input to many devices such as generators, pumps and compressors. It should also be stated that the use of a 
+flywheel helps in smoothing the shocks. Crankshaft experiences large forces from gas combustion. This force is 
+International Journal of Advance Research In Science And Engineering           http://www.ijarse.com 
+IJARSE, Vol. No.3, Issue No.8, August 2014                                                        ISSN-2319-8354(E) 
+ 
+168 | P a g e  
+www.ijarse.com 
+ 
+applied to the top of the piston and since the connecting rod connects the piston to the crank shaft, the force will 
+be transmitted to the crankshaft.   
+ 
+ 
+ 
+ 
+ 
+ 
+Fig 1. Engine Inside Block Diagram 
+The magnitude of the forces depends on many factors which consist of crank radius, connecting rod dimensions, 
+and weight of the connecting rod, piston, piston rings, and pin. Due to combustion gas force and inertia force 
+there act mainly two type of forces on crankshaft via connecting rod is torsional load and bending load. A 
+material of crankshaft must be strong enough to sustain the downward force of the power stroke without 
+excessive bending so the reliability and life of the internal combustion engine depend on the strength of the 
+crankshaft largely. The crank pin is like a built in beam with a distributed load along its length that varies with 
+crank positions. Each web is like a cantilever beam subjected to bending and twisting. 1. Bending moment 
+which causes tensile and compressive stresses. 2. Twisting moment causes shear stress. There are many sources 
+of failure in the engine one of the most common crankshaft failure is fatigue at the fillet areas due to the bending 
+load causes by the combustion. The moment of combustion the load from the piston is transmitted to the 
+crankpin, causing a large bending moment on the entire geometry of the crankshaft. At the root of the fillet areas 
+stress concentrations exist and these high stress range locations are the points where cyclic loads could cause 
+fatigue crank initiation leading to fracture. For this experimental work all the theoretical equations and some of 
+the assumption and some fundamental design data arereferd form machine design book by R.S.Kurmi. [6] 
+II. LITERATURE REVIEW 
+R. J. Deshbhratar, and Y.R Supple. [1] have been analyzed 4- cylinder crankshaft and model of the crankshaft 
+were created by Pro/E Software and then imported to ANSYS software The maximum deformation appears at 
+the centre of crankshaft surface. The maximum stress appears at the fillets between the crankshaft journal and 
+crank cheeks, and near the central point. The edge of main journal is high stress area. The crankshaft 
+deformation was mainly bending deformation under the lower frequency. And the maximum deformation was 
+located at the link between main bearing journal and crankpin and crank cheeks. So this area prones to appear 
+the bending fatigue crack. 
+International Journal of Advance Research In Science And Engineering           http://www.ijarse.com 
+IJARSE, Vol. No.3, Issue No.8, August 2014                                                        ISSN-2319-8354(E) 
+ 
+169 | P a g e  
+www.ijarse.com 
+ 
+K. Thriveni et al [2] was work on analysis of connecting rod and they are concluded from their study is that The 
+maximum deformation appears at the centre of the crankpin neck surface. The maximum stress appears at the 
+fillet areas between the crankshaft journal and crank cheeks and near the central point journal. The value of von-
+misses stresses that comes out from the analysis is far less than material yield stress so our design is safe. 
+Jianmeng et al [3] have been work on 480 diesel engine crankshaft block and they found relationship between 
+the frequency and the vibration modal is explained by the modal analysis of crankshaft. By using Pro-E and 
+Ansys software for modeling and analysis appropriately. They found that results would provide a valuable 
+theoretical foundation for the optimization and improvement of engine design. also they concluded from their 
+research work is that maximum deformation appears at the center of crankpin neck surface. The maximum stress 
+appears at the fillets between the crankshaft journal and crank cheeks, and near the central point. The edge of 
+main journal is high stress area. 
+S. Bhagya Lakshmi, Sudheer Kumar V, Ch. Nagaraju [4] was work on Dynamic Analysis of Honda Engine 
+Crank Shaft and they find out fine result regarding dynamic analysis like Dynamic analysis is used to find out 
+the motion of the bodies with represents to applied loads with the time frame of crank angle. The crank angle is 
+calculated with respect to seconds as it takes 0.008 sec for each stroke with to revolution. This value re 
+calculated by using spread sheet. The results of the analysis indicate the forces diagram of given connections at 
+different crank angle. The piston acceleration is calculated to find out the theoretical and experimental results 
+values of graph shown in results. 
+R.ravi et al [5] work regarding analysis and optimization of connecting rod.desining and modification of any 
+other engine parts are ultimately affected on design parameters of crankshaft.inn that experimental work they 
+explore weight and cost reduction opportunities for a production forged steel connecting rod. This has entailed 
+performing a detailed dynamic load stress analysis of the connecting rod. In the first part of the study, the static 
+load analysis and the selection of material and the production method of the connecting rod are considered. 
+Then they go for design of connecting rod in “Catia” Then component was imported to the Ansy’s work bench 
+and analysis is done. Then the results obtained in Ansy’s are compared with Experimental values. Also they 
+found that Dynamic load should be incorporated directly during design and optimization as the design loads, 
+rather than using static loads. 
+III. MODELING, ANALYSIS AND RESULTS 
+Methodology of this research work is starting from Modeling of crankshaft and other parts of engine then follow 
+by meshing, applying load magnitude and direction and last dynamic analysis and find out results of Von-misses 
+stress, strain and total deformation. 
+Configuration of engine from which crankshaft design taken 
+ 
+Crank shaft radius 
+47.5 mm 
+Piston diameter 
+0.085m 
+International Journal of Advance Research In Science And Engineering           http://www.ijarse.com 
+IJARSE, Vol. No.3, Issue No.8, August 2014                                                        ISSN-2319-8354(E) 
+ 
+170 | P a g e  
+www.ijarse.com 
+ 
+Mass of the connecting rod 
+0.856kg 
+Mass of the piston assembly 
+0.550 kg 
+Connecting rod length 
+150mm 
+Izz of connecting rod about the center of gravity 
+.004 kg-m2 
+Distance of C.G .of connecting rod from crank end 
+center 
+41mm 
+Maximum gas pressure 
+125 bar 
+ 
+Material for Crankshaft is S53C of which modulas of elasticity is 210 GPA 
+ 
+Yield Strength is 584Mpa and Poisson’s Ratio=0.3 
+ 
+For analysis purpose it will mesh by tetrahedral element by 1mm size so number of elements getting are 353539. 
+                                                                      
+ 
+Fg-3 Meshed Geometry of Crankshaft 
+ 
+Fig-2 Model of Crankshaft for Analysis 
+Now for analysis of this meshing geometry there are two major approaches for stress calculation: (a) Based on 
+entire crank & (b) Based on single throw. 
+ 
+Fig-4 Maximum Bending Load Result  
+Fig-5 Maximum Torsional Load Result 
+ 
+International Journal of Advance Research In Science And Engineering           http://www.ijarse.com 
+IJARSE, Vol. No.3, Issue No.8, August 2014                                                        ISSN-2319-8354(E) 
+ 
+171 | P a g e  
+www.ijarse.com 
+ 
+Run full crank reduced model (dynamic) to calculate main bearing reactions and torques. Model entire crank 
+shaft with FEM. Constrain the model at the fly wheel end. Run analysis applying all possible loads (at the pin 
+and main bearing locations) (pressure distributed over bearing area) one at a time. Another approach is 
+published can be described as follows: Run dynamic analysis on a reduced model. Cut out one throw of the 
+crank through the main journal middle cross-sections (detailed FE).Constrain one cross-section and apply the 
+forces i.e. bending as well as torsional forces and obtain corresponding stress states. Another approach is to 
+constrain the main bearings for all degree of freedom & applying the bending & torsional force at the crankpin 
+end. 
+ 
+Fig-6 Maximum Displacement Result 
+Result of that analysis on base of stress and displacement phenomenon shows that the crankshaft shows more 
+stresses in area of fillet sand in the p in journal oil holes. Section changes in the crank shaft geometry result in 
+stress concentrations at inter sections where different sections connect together. Although edges of these 
+sections are filleted in order to decrease the stress level, these fillet areas are highly stresses locations over the 
+geometry of crank shaft. Therefore stresses were traced over these areas. The maximum Bending stress acting 
+on the crank shaft is 330 Mpa by taking both maximum tensional & bending together. Yield strength of the 
+material of crank shaft is 584. So by cross verifying a FOS of this object is coming about 1.76.so its safe design 
+right now. Show figure 4, 5 and 6 indicates results of bending, torsional and displacement respectively. 
+ 
+IV. CONCLUSION 
+ 
+The main target of this research work is upgrade the engine performance in form of breathing capacity by 0.2 
+L. The following conclusions can be drawn from the dynamic analysis conducted in this study: 1) Dynamic 
+analysis gives more sophisticate results as compare to static analysis.2) the maximum load occurs at the crank 
+angle of 360 degrees for this specific engine. At this angle only bending load is applied to the crankshaft.3) 
+Torsional force is maximum when crank is at 25ofrom the top dead centre. 
+ 
+ 
+ 
+ 
+International Journal of Advance Research In Science And Engineering           http://www.ijarse.com 
+IJARSE, Vol. No.3, Issue No.8, August 2014                                                        ISSN-2319-8354(E) 
+ 
+172 | P a g e  
+www.ijarse.com 
+ 
+REFERENCES 
+[1] R.J Deshbhratar, Y.R Suple, “Analysis and optimization of Crankshaft using FEM”, International Journal of 
+Modern Engineering Reasearch, vol-2, issue-5, ISSN: 2249-6645, pages: 3086-3088, Sept-Oct 2012.  
+[2] K.Thriveni, Dr.Chandraieha  “ Modeling and analysis of crankshaft using ansys” Internation journal of 
+computational engineering research, vol-3,issue-5, page-84 May-2013 
+[3] Jianmeng, youngqiliu “FEA of 4 cylinder diesel crankshaft”I.J. Image, Graphics and Signal Processing, 
+2011, 5, 22-29 
+[4] S. Bhagya Lakshmi, Sudheer Kumar V, Ch. Nagaraju “Dynamic analysis of Honda engine crankshaft” 
+International Journal of Engineering and Innovative Technology (IJEIT), Volume 2, Issue 1, July 2012 
+[5] R.Ravi, K.V.P.P.Chandu, B.V Subhramanyam, “Dynamic analysis and optimization of connecting 
+rod”IJRMET Vol. 4, Issue Spl - 1, Nov 2013- Apri l 2014 
+[6] Machine Desing by R.S.Khurmi pp-1125-1214. 

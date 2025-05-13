@@ -1,0 +1,841 @@
+Dynamic analysis of loads and
+stresses in connecting rods
+P S Shenoy and A Fatemi
+Department of Mechanical, Industrial, and Manufacturing Engineering, The University of Toledo, Toledo, Ohio, USA
+The manuscript was received on 25 June 2005 and was accepted after revision for publication on 6 February 2006.
+DOI: 10.1243/09544062JMES105
+Abstract: Automobile internal combustion engine connecting rod is a high volume production
+component subjected to complex loading. Proper optimization of this component, which is
+critical to the engine fuel efﬁciency and more vigorously pursued by the automotive industry
+in recent years, necessitates a detailed understanding of the applied loads and resulting stresses
+under in-service conditions. In this study, detailed load analysis under service loading con-
+ditions was performed for a typical connecting rod, followed by quasi-dynamic ﬁnite element
+analysis (FEA) to capture stress variations over a cycle of operation. On the basis of the resulting
+stress-time histories, variation of stress ratio, presence of mean and bending stresses, and multi-
+axiality of stress states in various locations of the connecting rod under service operating con-
+ditions were investigated. It was found that even though connecting rods are typically tested and
+analyzed under axial loading and stress state, bending stresses are signiﬁcant and a multiaxial
+stress state exists at the critical regions of connecting rod. A comparison is also made between
+stresses obtained using static FEA which is commonly performed and stresses using quasi-
+dynamic FEA. It is shown that considerable differences in obtained stresses exist between the
+two sets of analyses.
+Keywords: connecting rod load analysis, connecting rod stress analysis
+1
+INTRODUCTION
+Automobile internal combustion engine connecting
+rod is a high volume production critical component.
+It connects reciprocating piston to rotating crank-
+shaft, transmitting the thrust of piston to crankshaft,
+and is subjected to complex loading. It undergoes
+high cyclic loads of the order of 108–109 cycles,
+which range from high compressive loads because
+of combustion, to high tensile loads because of
+inertia. Therefore, durability of this component is
+of critical importance. Usually, the worst case load
+is considered in the design process. Literature
+review suggests that investigators [1, 2] use maxi-
+mum inertia load as one extreme load corresponding
+to the tensile load and compressive gas load produ-
+cing maximum torque as the other extreme design
+load corresponding to the compressive load. In
+recent years, more emphasis has been placed on
+higher vehicle fuel efﬁciency. Optimization of con-
+necting rods in an engine is critical to fuel efﬁciency.
+Proper optimization of this component, however,
+necessitates a detailed understanding of the applied
+loads
+and
+resulting
+stresses
+under
+in-service
+conditions.
+Inertia load is a time-varying quantity and can
+refer to inertia load of the connecting rod or of the
+piston assembly. Questions are naturally raised in
+light of such complex structural behaviour such as:
+Does the peak load at the ends of a connecting rod
+represent the worst case loading? Under the effects
+of bending and axial loads, can one expect higher
+stresses than that experienced under axial load
+alone? Moreover, very little information is available
+in the literature on bending stiffness requirements,
+or on the magnitude of bending and multiaxial
+stresses.
+Webster et al. [2] performed three-dimensional
+ﬁnite element analysis (FEA) of a high-speed diesel
+Corresponding author: Department of Mechanical, Industrial,
+and Manufacturing Engineering, The University of Toledo, 2801
+W. Bancroft St, Toledo, OH 43606, USA. email: afatemi@
+eng.utoledo.edu
+615
+JMES105 # IMechE 2006
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+engine connecting rod. They used maximum com-
+pressive load which was measured experimentally,
+and maximum tensile load which is essentially the
+inertia load of piston assembly mass in their analysis.
+Load distributions on the piston pin end and crank
+end were also determined experimentally. Ishida
+et al. [3] measured stress variation at the column
+center and column bottom of connecting rod, as
+well as bending stress at the column center. From
+their study it was observed that at high engine
+speeds, the maximum stress in connecting rod
+column bottom does not occur at the top dead
+center. It was also observed that the stress ratio
+varies with location, and at a given location it varies
+with engine speed. The maximum bending stress
+over one engine cycle at the column center was
+found to be about 25 per cent of the maximum
+stress at that location.
+Another
+study
+used
+FEA
+with
+applied
+loads
+including bolt tightening load, piston pin interfer-
+ence load, compressive gas load, and tensile inertia
+load [4]. On the basis of the stress and strain
+measurements performed on connecting rod, close
+agreement was found with loads predicted by inertia
+theory. The study indicated that stresses in a con-
+necting rod due to bending loads are substantial,
+and that buckling and bending stiffness are import-
+ant design factors that must be taken into account
+during the design process.
+Balasubramaniam et al. [1] used the various indi-
+vidual loads acting on connecting rod for performing
+simulation and obtaining stress distribution by
+superposition. The loading consisted of inertia load,
+ﬁring load, press ﬁt of the bearing shell, and bolt
+forces. Athavale and Sajanpawar [5] also modelled
+the inertia load in their ﬁnite element (FE) model.
+An interface software was developed to apply the
+acceleration load to elements on the connecting
+rod depending upon their location, as acceleration
+varies in magnitude and direction with location on
+the connecting rod. They ﬁxed the ends of the con-
+necting rod to determine its deﬂection and stresses.
+This, however, may not be representative of the
+pinned joints that exist in a connecting rod. The con-
+necting rod was separately analysed for tensile load
+due to piston assembly mass (piston inertia), and
+for compressive load due to gas pressure. The effect
+of inertia load due to mass of the connecting rod
+was also analysed separately. Pai [6] presented an
+approach to optimize the shape of the connecting
+rod subjected to a load cycle consisting of inertia
+load deduced from gas load as one extreme, and
+peak inertia load exerted by piston assembly mass
+as the other extreme and used fatigue life as the
+optimization constraint.
+In this study, a detailed load analysis under service
+loading conditions was performed for a typical forged
+steel connecting rod, followed by quasi-dynamic
+FEA to capture stress variation over a cycle of oper-
+ation. Such stress analysis under realistic operating
+loads is critical to any durability or optimization
+study of a connecting rod and is vastly different
+from the typical uniaxial testing and static analysis
+commonly conducted for this component. This is
+because, in a typical static analysis, the loads acting
+at the two ends of the connecting rod are equal in
+magnitude and are in static equilibrium. On the
+other hand, in a quasi-dynamic analysis, the loads
+at the two ends need not be equal and the connecting
+rod is in equilibrium at any instant in time, only when
+the inertia load resulting from angular velocity and
+acceleration (both translational and angular) are
+accounted
+for.
+Therefore,
+although
+the
+quasi-
+dynamic analyses are repeated at different time
+points, they are based on time-varying dynamic
+input data. For this reason, the analysis is referred
+to as ‘quasi-dynamic’. Details of the dynamic load
+analysis are discussed in the next section. Optimiz-
+ation aspects and fatigue behaviour of the connecting
+rod are investigated in references [7, 8], respectively.
+In this article, FE modelling aspects, resulting
+stress-time
+histories,
+variation
+of
+stress
+ratio,
+presence of mean and bending stresses, and multi-
+axiality of stress states in various locations of the
+connecting rod under service operating conditions
+are discussed. A comparison is also made between
+results obtained using static FEA commonly per-
+formed, and results using quasi-dynamic FEA repre-
+senting more realistic service operating conditions.
+2
+LOAD ANALYSIS
+Engine conﬁguration to which the typical connecting
+rod investigated belongs is shown in Table 1 and
+piston pressure versus crank angle diagram used in
+the analysis is shown in Fig. 1. With these data and
+using commercial software such as ADAMS and
+I-DEAS, angular velocity and angular acceleration
+of the connecting rod, as well as linear accelerations
+of the connecting rod crank end center and of the
+center of gravity (CG) can be obtained. Variations
+of these quantities during one engine cycle can be
+Table 1
+Conﬁguration of the engine to which the
+connecting rod belongs
+Crankshaft radius (mm)
+48.5
+Connecting rod length (mm)
+141
+Piston diameter (mm)
+86
+Mass of the piston assembly (kg)
+0.434
+Mass of the connecting rod (kg)
+0.439
+Izz about the center of gravity (kg m2)
+0.00144
+Distance of CG from crank-end centre (mm)
+36.4
+Maximum gas pressure (bar)
+37.3
+616
+P S Shenoy and A Fatemi
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+JMES105 # IMechE 2006
+obtained as a function of any of the engine para-
+meters listed in Table 1, as well as any engine speed.
+Figure 2 shows variation of angular velocity and
+angular acceleration over one complete engine
+cycle at the maximum engine speed of 5700 r/min,
+using the data listed in Table 1 and piston pressure
+plot of Fig. 1. Variations of angular velocity and
+angular acceleration from 08 to 3608 are identical
+to their variations from 3608 to 7208.
+On the basis of the velocities and accelerations
+obtained, inertia load and reaction forces at the
+connecting rod ends can then be generated for differ-
+ent engine speeds. At any point of time during the
+engine cycle, forces calculated at the ends form
+the external loads, whereas inertia load forms the
+internal load acting on the connecting rod. These
+result in a set of completely equilibrated external
+and internal loads.
+Stress at a point on the connecting rod as it under-
+goes a cycle consists of two components, a bending
+stress component and an axial stress component.
+The
+bending
+stress
+depends
+on
+the
+bending
+moment, which is a function of load at the CG
+normal to the connecting rod longitudinal axis, as
+well as angular and linear acceleration components
+normal to this axis. Variation of each of these three
+quantities over 08–3608 is identical to the variation
+over 3608–7208 (see Fig. 2 for variations of angular
+velocity and acceleration). Therefore, for any given
+point on the connecting rod, the bending moment
+varies in an identical fashion between 08 and 3608
+crank angle as it varies between 3608 and 7208
+crank angle. The axial load variation, however, does
+not follow the same cycle of repetitive pattern, as
+one cycle of axial load variation consists of the
+entire 7208 crank angle. This is because of the vari-
+ation in gas load, one cycle of which consists of
+7208 crank angle.
+Figure 3 shows variations of forces acting at
+the crank end (Fig. 3(a)), as well as the piston pin
+end (Fig. 3(b)). The positive axial load at the crank
+end is the compressive load in the ﬁgure due to the
+co-ordinate system used (as shown on the con-
+necting rod in Fig. 3). A similar analysis was per-
+formed at other engine speeds (i.e. 4000 r/min and
+2000 r/min). The results indicated that as the speed
+increases, the tensile load increases, whereas the
+maximum
+compressive
+load
+at
+the
+crank
+end
+decreases. However, although this results in a reduc-
+tion of the compressive mean load, load range or
+amplitude increases only slightly with the increasing
+engine speed. Effect of engine speed on produced
+stresses is further discussed in section 4.
+The maximum compressive load is the load cor-
+responding to the peak gas pressure, and Fig. 1
+indicates that it occurs at about 228 crank angle.
+Axial component of this load, which is essentially
+a static load (where loads at the crank and pin
+ends are the same), is the design compressive
+load for the connecting rod. This compressive
+load acts between the centre of crank end and
+piston pin end of the connecting rod. Virtually no
+load acts on the crank end cap under the compres-
+sive load.
+It should be noted that piston pressure versus
+crank angle diagram can change with speed. The
+actual change will be unique to an engine. Pressure
+versus crank angle diagram at different speeds for
+the engine under consideration was not available.
+Therefore, the same diagram was used for different
+engine speeds. However, from a plot showing the
+effect of speed on P–V diagram at constant delivery
+ratio reported in Ferguson [9], very small change in
+the peak gas pressure was observed at different
+speeds, though a change of nearly 10 per cent was
+observed at lower pressures. Delivery ratio is the
+ratio of entering or delivered air mass, to ideal air
+mass at ambient density.
+Load ratio (ratio of minimum to maximum load) at
+the crank end based on peak compressive load at
+peak gas pressure and peak tensile load in Fig. 3(a)
+Fig. 1
+Piston pressure versus crank angle diagram
+used to calculate forces at the connecting rod
+ends
+Fig. 2
+Variations of angular velocity and angular
+acceleration of the connecting rod over one
+complete engine cycle at a crankshaft speed of
+5700 r/min
+Dynamic analysis of loads and stresses in connecting rods
+617
+JMES105 # IMechE 2006
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+is 21.23. At the piston pin end, based on the same
+peak compressive load as for the crank end but
+peak tensile load from Fig. 3(b), load ratio is 22.31.
+Therefore, load ratio varies over the length of the
+connecting rod. As a result, fatigue testing at different
+load ratios is often conducted in order to test differ-
+ent regions of the connecting rod [10].
+It should be noted that the analysis presented
+assumes
+that
+the
+crank
+rotates
+at
+a
+constant
+angular velocity. Therefore, angular acceleration
+of the crank is not included in the analysis. How-
+ever, when forces at the ends of the connecting
+rod in a similar engine conﬁguration under con-
+ditions of crankshaft acceleration and deceleration
+(acceleration
+of
+6000 r/s2
+and
+deceleration
+of
+700 r/s2) were compared with forces under constant
+crankshaft speed, the difference was found to be less
+than 1 per cent.
+3
+FE MODELLING OF THE CONNECTING ROD
+In order to capture the structural behaviour of the
+connecting rod under service operating conditions,
+quasi-dynamic FEA was performed. An FE model
+mesh with about 105 parabolic tetrahedral elements,
+with uniform global element length of 1.5 mm and
+local element length of 1 mm at locations with
+Fig. 3
+Axial, normal, and resultant forces at the connecting rod ends at crank speed
+of 5700 r/min. (a) Forces at the crank end. (b) Forces at the piston-pin end
+618
+P S Shenoy and A Fatemi
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+JMES105 # IMechE 2006
+chamfers,
+was
+used.
+As
+a
+connecting
+rod
+is
+designed for very long life, stresses are in the elastic
+range, and as a result linear elastic analysis was
+conducted.
+While performing quasi-dynamic FEA of the con-
+necting rod, external loads computed from the load
+analysis discussed in section 2 were applied to both
+the crank end and the piston pin end of the connect-
+ing rod. Many FE models were solved, each model
+with the applied loads obtained from the load analy-
+sis at the crank angle of interest. Therefore, as indi-
+cated earlier, such analysis is different from a static
+analysis as the time-varying dynamic nature of the
+loading represented by load variation at different
+crank angles is accounted for. It should also be
+noted that the dynamic load analysis step was
+required as a separate step, as input to the stress
+analysis step using IDEAS. This is because, although
+commonly available commercial software are typi-
+cally capable of providing stresses as output from
+dynamic input loads (i.e. gas pressure and inertia)
+they are not capable of determining the dynamic
+loads. Time-varying dynamic loads were determined
+from multi-body dynamic analysis using ADAMS,
+based on the crank revolutions per minute, piston
+gas pressure (which varies with time or crank
+angle), and mass properties of the connecting rod.
+Combining
+the
+two
+analyses
+(i.e.
+multi-body
+dynamics and FE stress analyses) into a single step
+requires immense computational power to develop
+FE models of the entire system, which may become
+available in the future with the rapidly increasing
+computing power.
+If the component of the resultant force along the
+connecting rod length suggested a tensile load to
+act on the connecting rod, the resultant load was
+applied with cosine distribution, based on exper-
+imental results [2]. The cosine distribution was
+applied 908 on either side of the direction of the
+resultant load, totally 1808. But if the component
+of the resultant force along the connecting rod
+length suggested a compressive load to act on the
+connecting rod, the resultant load was applied with
+uniform distribution [2]. The uniformly distributed
+load was applied 608 on either side of the direction
+of the resultant load, totally 1208 on the contact
+surface.
+The application of boundary condition is illus-
+trated in Fig. 4, for a random crank angle of 4328.
+The computed direction of the resultant load at the
+crank end is 73.18. Therefore, 1208 of the surface of
+the crank end (608 on either side of this direction)
+carries a uniformly distributed load. The direction
+of the resultant load at the piston pin end is 39.48.
+Therefore, 1208 of the surface of the pin end carries
+a uniformly distributed load. As the axial com-
+ponents of the loads are compressive, loads were
+applied
+with
+uniform
+distribution,
+rather
+than
+cosine distribution.
+Stresses in the regions near the ends of the con-
+necting rod are sensitive to the type of load distri-
+bution applied (uniformly distributed or cosine
+distribution). Away from these regions however, for
+example at the crank end transition to the shank
+(typical critical or failure region), stresses differ
+only by 7 per cent at the crank angle of 4328, when
+Fig. 4
+Illustration of the way in which boundary conditions were applied when solving the
+quasi-dynamic FEA model. The illustration is for a crank angle of 4328
+Dynamic analysis of loads and stresses in connecting rods
+619
+JMES105 # IMechE 2006
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+load
+distribution
+is
+changed
+from
+cosine
+to
+uniformly distributed load.
+To
+account
+for
+the
+dynamic
+motion
+of
+the
+connecting rod and the resulting inertia loads, the
+acceleration boundary conditions were imposed.
+Translational acceleration in the direction of the
+crank towards the crank center, angular velocity,
+and angular acceleration were imposed on the con-
+necting rod. The crank end center was speciﬁed as
+the center of rotation.
+A way to simulate the pin joint is to apply all the
+loads acting on the connecting rod that keeps the
+connecting rod in dynamic equilibrium at the instant
+under consideration (i.e. at a speciﬁc crank angle)
+and then solve the model. The FE model was solved
+by eliminating the rigid body motion, achieved by
+specifying kinematics degrees of freedom, and speci-
+fying elimination of rigid body motion while solving,
+as opposed to applying restraints. Not applying
+restraints and using loads at both ends of the con-
+necting rod permits better representation of the
+loads transferred through the pin joints.
+4
+RESULTS AND DISCUSSION OF STRESS
+ANALYSIS
+A few geometric locations were identiﬁed on the con-
+necting rod at which stresses were traced over the
+entire load cycle to obtain the stress-time history.
+Some of these locations are shown in Fig. 5 and
+include high stressed regions of the crank end
+(locations 5, 10, and 11) the pin end at the oil hole
+(locations 6 and 7), the shank (locations 8 and 9),
+and at transitions to the shank at the crank and
+piston pin ends (locations 1, 2, 3, and 4). Locations
+1, 3, 6, 8, and 10 are symmetrically located from
+locations 2, 4, 7, 9, and 11, respectively, with respect
+to the centerline of the connecting rod. The points
+selected
+cover
+the
+typical
+critical
+(i.e.
+failure)
+locations of connecting rod [8].
+Figures 6 and 7 show the stress-time histories for
+the shank region (locations 1, 2, 8, and 9) as well as
+the transitions of the shank to the crank and pin
+ends (locations 3, 4, 10, and 11) at a crank speed of
+5700 r/min. von Mises stress variation under service
+loading condition is also plotted. The von Mises
+stress carries the sign of the principal stress that
+has the maximum absolute value. Clearly, not one
+instant of time can be identiﬁed as the time at
+which all the points on the connecting rod experi-
+ence the maximum state of stress. However, the
+stress-time histories indicate that all the critical
+locations identiﬁed in Fig. 5 undergo maximum ten-
+sile stress at the crank angle of 3608, except locations
+2 and 9 where the maximum stress occurs at the
+crank angle of 3488. The transitions to the crank
+and pin ends are the critical regions with high tensile
+stresses. In the shank region, the compressive stress
+is higher in magnitude than the tensile stress. There-
+fore, adequate buckling strength is also required.
+To design against fatigue failure, some investi-
+gators have used the overall operating load range of
+the connecting rod (i.e. load range comprised the
+maximum static tensile and compressive loads),
+whereas others have used the load range at the maxi-
+mum power output. This is illustrated with reference
+to location 8 and Fig. 6. At this location, the overall
+operating stress range obtained using the overall
+load range is 244 MPa (i.e. from 2160 MPa due to
+the maximum gas pressure to 84 MPa from Fig. 6).
+However, the stress range at the maximum speed
+for this location is 157 MPa (i.e. from 273 to
+84 MPa in Fig. 6), representing a 36 per cent decrease
+(when compared with 244 MPa) in the stress range.
+A 36 per cent change in the stress range or amplitude
+can result in more than an order of magnitude
+change in the fatigue life. Therefore, using the overall
+operating load range can lead to an overly conserva-
+tive design of the component.
+The tensile load increases as the engine speed
+increases as evident from Fig. 8, which shows a plot
+Fig. 5
+Locations on the connecting rod where the stress variation was traced over one
+complete cycle of the engine
+620
+P S Shenoy and A Fatemi
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+JMES105 # IMechE 2006
+of stress variation at location 8 with engine speed.
+The tensile stress increases as the speed increases,
+as an increase of the inertia load due to the piston
+mass results in increasing the tensile load on the
+connecting rod. Note that the tensile load consists
+of both structural load and acceleration load due
+to inertia. An important observation from Fig. 8 is
+that even though maximum and mean stresses
+increase with increasing engine speed, the stress
+range (or amplitude, as amplitude is half the range)
+is independent of speed, as it remains constant.
+The stress range or amplitude is the primary stress
+controlling fatigue design of the connecting rod,
+whereas mean stress has a secondary inﬂuence.
+Connecting rods in the engine are usually tested
+with a load sequence typically consisting of different
+engine speeds [10].
+An aspect of dynamic loading is the bending stress
+it produces and its signiﬁcance. As noted earlier,
+the locations speciﬁed in Fig. 5 are symmetric
+with respect to the centerline of the component.
+A difference between stresses at the symmetric
+locations in the stress-time history plots (Figs 6 and
+7) indicates the presence of bending stress, the mag-
+nitude of which is equal to half the difference. For
+example, the maximum bending stress is 26 per
+cent of the maximum stress at the section through
+location 8, and 22 per cent of the maximum stress
+at the section through location 1 (Fig. 6). The shift
+in the peak stress between points 8 and 9 in Fig. 6
+is because of the bending stress. This suggests that
+the bending stiffness in the shank needs to be ade-
+quate to sustain these bending stresses. Bending
+stiffness as an important design factor has also
+been suggested in reference [4].
+Another important observation that can be made
+from the stress-time histories in Figs 6 and 7 is
+that, however, the state of stress is predominantly
+uniaxial for some locations, it is multiaxial at other
+locations such as 6, 7, 10, and 11. Figure 7 indicates
+that at locations 10 and 11 the stress component sy
+is as high as 30 per cent of the stress component sx
+Fig. 6
+Stress variation over the engine cycle in the shank region (locations 1, 2, 8, and 9) at
+5700 r/min. XX is the sx component of stress
+Dynamic analysis of loads and stresses in connecting rods
+621
+JMES105 # IMechE 2006
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+at the crank angle of 3608, which is signiﬁcant. The
+stress multiaxiality is proportional (or in-phase),
+and results from stress concentrations such as in
+locations 10 and 11. Equivalent stress approach
+based on von Mises criterion is commonly used for
+multiaxial proportional stresses to compute equival-
+ent stress amplitude, sqa.
+For multiaxial mean stresses, it has been observed
+that mean shear stress does not affect cyclic bending
+or cyclic torsion fatigue behaviours, whereas mean
+hydrostatic stress inﬂuences fatigue life [11, 12]. As
+a result, using the following equation, which is insen-
+sitive to the mean shear stress, but accounts for
+mean hydrostatic stress can be used to compute an
+equivalent mean stress, sqm, based on individual
+mean stress components smx, smy, and smz
+sqm ¼ smx þ smy þ smz
+(1)
+This equation also captures the beneﬁcial effect of
+the compressive residual stresses produced through
+the common practice of surface peening of connect-
+ing rods, as residual stresses can be treated as mean
+stresses in fatigue analysis.
+The stress ratio (minimum to maximum stress
+ratio), and therefore mean stress, varies not only
+with location in the connecting rod, but also with
+engine speed at a location. For example, for location
+8 shown in Fig. 8, the stress ratio changes from 219
+at 2000 r/min to 21 at 5700 r/min. The combination
+of tensile mean stress and stress amplitude results
+in higher fatigue damage at locations 2, 4, and 9,
+as compared with the corresponding symmetric
+locations 1, 3, and 8, respectively. To account for
+the mean stress, completely reversed von Mises
+equivalent stress amplitude, Sf, can be computed
+based on the commonly used modiﬁed Goodman
+equation
+sqa
+Sf
+þ sqm
+Su
+¼ 1
+(2)
+where Su is the ultimate tensile strength of the
+material [12].
+5
+COMPARISON OF QUASI-DYNAMIC
+AND STATIC ANALYSES
+Most investigators have used static axial loads for the
+design, analysis, and testing of connecting rods. In
+this study, FEA was also carried out under axial
+static load to compare the results with the more
+realistic quasi-dynamic analysis results discussed in
+section 4. Quasi-dynamic FEA results differ from
+the static FEA results because of the time-varying
+inertia load of the connecting rod, which is respon-
+sible for inducing bending stresses and varying
+axial load along the length, as discussed earlier.
+Fig. 7
+Stress variation over the engine cycle at the
+transitions to the pin end (locations 3 and 4)
+and to the crank end (locations 10 and 11) at
+5700 r/min. XX is the sx component of stress,
+YY is the sy component of stress, XY is the
+txy component of stress, and XZ is the txz
+component of stress
+Fig. 8
+Minimum stress, maximum stress, mean stress,
+and stress range at location 8 on the connecting
+rod as a function of engine speed
+622
+P S Shenoy and A Fatemi
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+JMES105 # IMechE 2006
+The static FEA model is shown in Fig. 9. Note that,
+undertensilestaticload,halfofthepistonpininnersur-
+face(1808) is completely restrained. Similarly, whenthe
+connecting rod is under axial compressive load, 1208 of
+contact surface area is totally restrained. The stress
+range used for fatigue design based on a static analysis
+is obtained from the difference between the maximum
+stress corresponding to the maximum static tensile
+load, and the minimum stress corresponding to the
+maximum static compressive load.
+Figure 10 compares the equivalent von Mises
+stress amplitudes (i.e. Sf from equation 2) for the
+different locations identiﬁed in Fig. 6 obtained from
+static as well as quasi-dynamic analyses. As can be
+seen from this ﬁgure, the stress amplitude based on
+the static analysis is higher at all locations. The differ-
+ence is about a factor of two at some locations,
+including typical failure locations at 3 and 4. Such a
+difference in stress amplitude results in orders of
+magnitude difference in fatigue lives. Therefore,
+static analysis of a connecting rod can yield unrealis-
+tic stresses, whereas quasi-dynamic analysis pro-
+vides more accurate results better suited for fatigue
+design and/or optimization of this high volume pro-
+duction component.
+6
+CONCLUSIONS
+The following conclusions can be drawn from this
+study.
+1. Static analysis of a connecting rod that is typically
+performed can yield unrealistic stresses, whereas
+quasi-dynamic analysis provides more accurate
+results better suited for fatigue design and optim-
+ization analysis of this high volume production
+component.
+2. Using the overall operating load range of the con-
+necting rod which comprises the maximum static
+tensile and compressive loads, rather than the
+load range at the maximum power output, can
+lead to an overly conservative design of the
+component.
+3. Maximum and mean stresses increase with increas-
+ing engine speed because of the increase in the iner-
+tia load. The stress range (or amplitude), however, is
+independent of the engine speed.
+4. The load ratio or the mean load varies over the
+length of the connecting rod. The stress ratio
+and
+therefore
+mean
+stress,
+also
+varies
+with
+location in the connecting rod, as well as with
+engine speed at a location.
+5. The bending stress produced as a result of
+dynamic loading is signiﬁcant and bending stiff-
+ness in the shank should be considered as an
+important design factor.
+6. In spite of the fact that typical testing and analysis
+of connecting rod is conducted under uniaxial
+stress state, the state of stress is multiaxial at criti-
+cal locations and mainly results from stress con-
+centrations.
+The
+use
+of
+an
+equivalent
+stress approach is necessary to account for the
+stress multiaxiality.
+ACKNOWLEDGEMENTS
+The American Iron and Steel Institute (AISI) is
+acknowledged for providing ﬁnancial support for
+this study. Dr M. Pourazady of the University of
+Toledo helped with the quasi-dynamic FEA in this
+work and his help is appreciated.
+REFERENCES
+1 Balasubramaniam, B., Svoboda, M., and Bauer, W.
+Structural optimization of I.C. engines subjected to
+mechanical and thermal loads. Comput. Meth. Appl.
+Mech. Engrg, 1991, 89, 337–360.
+Fig. 9
+FEA model of the connecting rod with static
+tensile load at the crank end with cosine
+distribution over 1808 and piston pin end fully
+restrained over 1808
+Fig. 10
+Comparison of equivalent von Mises stress
+amplitudes under static and quasi-dynamic
+loading conditions
+Dynamic analysis of loads and stresses in connecting rods
+623
+JMES105 # IMechE 2006
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+2 Webster, W.D., Coffell, R., and Alfaro, D. A three
+dimensional ﬁnite element analysis of a high speed
+diesel engine connecting rod. SAE Technical Paper
+831322, 1983.
+3 Ishida, S., Hori, Y., Kinoshita, T., and Iwamoto, T.
+Development of technique to measure stress on connect-
+ing rod during ﬁring operation. SAE Technical Paper
+951797, 1995, pp. 1851–1856.
+4 Rice,
+R.
+C.
+(Ed.)
+SAE
+Fatigue
+design
+handbook,
+3rd edition, 1997 (Society of Automotive Engineers,
+Warrendale, PA).
+5 Athavale, S. and Sajanpawar, P. R. Studies on some
+modelling aspects in the ﬁnite element analysis of
+small gasoline engine components. Proceedings of the
+small engine technology conference, Society of Automo-
+tive Engineers of Japan, Tokyo, 1991, pp. 379–389.
+6 Pai, C. L. The shape optimization of a connecting rod
+with fatigue life constraint. Int. J. Mater. Prod. Technol.,
+1996, 11(5–6), 357–370.
+7 Shenoy, P. S. and Fatemi, A. Connecting rod optimiz-
+ation for weight and cost reduction. SAE Technical
+Paper 2005-01-0987, 2005.
+8 Afzal, A. and Fatemi, A. A comparative study of fatigue
+behaviour and life predictions of forged steel and PM
+connecting rods. SAE Technical Paper 2004-01-1529,
+2004.
+9 Ferguson, C. R. Internal combustion engines, applied
+thermo sciences, 1986 (John Wiley & Sons, Shrewsbury).
+10 Sonsino, C. M. and Esper, F. J. Fatigue design for
+PM components, 1994 (European Powder Metallurgy
+Association (EPMA), New York).
+11 Socie, D. F. and Marquis, G. B. Multiaxial fatigue, 2000
+(Society of Automotive Engineers, Warrendale, PA).
+12 Stephens, R. I., Fatemi, A., Stephens, R. R., and
+Fuchs, H. O. Metal fatigue in engineering, 2nd edition,
+2000 (John Wiley & Sons, New York).
+APPENDIX
+Notation
+Sf
+completely reversed fatigue strength
+Su
+ultimate tensile strength
+smx, smy
+mean stress components
+sqa
+equivalent (von Mises) alternating
+stress
+sqm
+equivalent mean stress
+sx, sy
+stress components
+624
+P S Shenoy and A Fatemi
+Proc. IMechE Vol. 220 Part C: J. Mechanical Engineering Science
+JMES105 # IMechE 2006

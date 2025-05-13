@@ -1,0 +1,712 @@
+4th International Conference of Engineering Against Failure (ICEAF IV) 
+24-26 June 2015, Skiathos, Greece    
+ 
+ 
+ 
+A piston ring pack tribological design for internal combustion engines 
+Anastasios Zavos†, Pantelis G. Nikolakopoulos*,1  
+† Machine Design Laboratory, Department of Mechanical Engineering and Aeronautics, 
+University of Patras, Greece 
+zavosa@mech.upatras.gr 
+ 
+*Machine Design Laboratory, Department of Mechanical Engineering and Aeronautics, 
+University of Patras, Greece 
+pnikolak@mech.upatras.gr 
+ 
+ABSTRACT 
+ 
+The design of piston ring pack is a major subject on the internal combustion engines. The current 
+trend focused on thin piston rings and the improvements of profile to oil consumption and lubrication 
+in each engine stage. In this paper, an investigation of piston ring shapes in modern combustion 
+engines was performed. The geometrical dimensions of piston ring pack-cylinder tribo pair were 
+obtained from a four stroke motor engine. A 2D axisymmetric model of ring pack-cylinder was 
+created using the finite element method. The minimum oil thickness, the combustion gas pressures and 
+the asperities contribution were updated for each crankshaft position in quasi static manner. The fluid 
+field was solved based on the Navier Stokes approach, as well as the piston ring balance was 
+performed. Several shape profiles for top ring were examined and compared. Lower curvature height 
+improved the minimum lubricant thickness, thus the total friction force decreased near to top dead 
+center. 
+ 
+Keywords: piston rings, total friction force, hydrodynamic pressure, oil thickness, profile, top dead 
+center 
+                                                 
+1 Corresponding author: Pantelis G. Nikolakopoulos, +30 2610 969421, e-mail : pnikolak@mech.upatras.gr 
+L 
+: stroke length (m)                                
+Dring 
+Dcyl 
+V 
+d 
+phyd 
+pc 
+p1 
+p2 
+p3 
+Ω 
+TTDC 
+TBDC 
+Tmid 
+Toil 
+φ 
+μ 
+Ftotal 
+Fb 
+Ffl 
+hmin 
+h(y,t) 
+: piston ring diameter (m)                         
+: cylinder diameter  (m)                            
+: piston linear velocity  (m/s) 
+: piston groove end length (m) 
+                             
+: local hydrodynamic pressure (Pa)                  
+: combustion pressure (Pa) 
+: gas pressure on the top land of piston (Pa)                                      
+: inter ring pressure for second land (Pa) 
+: inter ring pressure for third land (Pa) 
+: rotational crankshaft speed (rpm) 
+: cylinder liner temperature at the top dead center (TDC) (oC) 
+: cylinder liner temperature at the bottom dead center (BDC) (oC) 
+: cylinder liner temperature at the mid-stroke position (oC) 
+: oil temperature (oC) 
+: crank angle (degree) 
+: dynamic viscosity (Pas)   
+: total friction force (N) 
+: boundary friction force (N) 
+: fluid friction force (N) 
+: minimum oil thickness (μm) 
+: oil film thickness (μm)             
+Anastasios Zavos, Pantelis G. Nikolakopoulos 
+ 
+ 
+1 Introduction  
+The interaction of piston rings and cylinder inner liner has been numerical and experimental 
+investigated by many researchers, in order to understand the main design issues, such as the friction 
+losses, the oil consumption and the surface contact behavior. The analysis of piston assembly pack 
+under boundary/mixed and hydrodynamic conditions is a key for re-design of engine components. 
+Therefore, the contribution of the current paper is focused on piston ring shape and its behavior with 
+the cylinder wall. 
+One of the relative works which has to do with the piston ring profile and cylinder liner contact 
+was made by Yeng [1]. Based on the Reynolds equation, the effects of piston ring curvature examined 
+for two types of piston rings and the minimum oil thickness compared for each ring shape. 
+Simultaneously, Dellis [2] examined the friction force with the use of a single ring test-rig taking into 
+account the oil properties, the film thickness and the piston ring curvature. Results, for used and new 
+piston rings presented and discussed.  Additionally, a numerical approach for a worn and new profile 
+ring is developed by Chong et. al [3]. Regarding the geometry of ring profile the cavitation zone 
+investigated and the minimum oil film illustrated.  
+At the same time, simulation models of compression piston ring-cylinder system were presented by 
+Zavos and Nikolakopoulos [4-6]. In our recent papers [4, 5], the mechanism of friction on a top 
+smooth and wavy piston ring has been carried out in elasto-hydrodynamic conditions, utilized the 
+Navier Stokes equations. The lubricant film velocity, the maximum oil thickness and the mechanical 
+stresses on the piston ring were examined for several gas pressure leaks sub models [5]. Thereafter, the 
+effect of lubricant oil on the friction in a real motor engine was investigated. The Strain gauge method 
+was used for friction force measurement [6]. Afterwards, comparisons of experimental predicted and 
+numerically calculated friction force was done and it was observed a good agreement. 
+Agostino et. al [7] developed also a simulation model for the top ring-cylinder contact. In their 
+work, the authors have sought to identify the piston ring friction losses due to the oil viscosity, the 
+engine operating conditions and the ring surface treatments. Morris et. al [8] presented a numerical 
+model for transient and thermal mixed lubrication conditions of first piston ring. Their study 
+developed a novel control volume thermal mixing model, showing that the rise in the lubricant oil 
+temperature through shear is much less than the liner temperature. Recently, a novel approach based 
+on Navier Stokes equations including the Rayleigh-Plesset model investigated by the authors 
+Shahmohamadi et. al [9, 10]. The effect of asperities in thin oil films proposed regarding the 
+Greenwood-Tripp model. Finally, a cavitation zone along to piston ring liner is provided. 
+The present paper presents a 2D axisymmetric piston ring pack model for a real four stroke motor 
+engine located at the Machine Design Laboratory of the University of Patras. The model describes the 
+gas pressures leakage for each ring taking into account the mathematical model by Chong et. al [3]. 
+The fluid domain taking into account the ring balance into the piston groove is solved in a quasi static 
+equilibrium analysis. The oil viscosity is considered as a function of cylinder’s liner temperature. 
+Different profiles of top ring were examined and discussed. The evaluation of total friction force and 
+minimum lubricant film for each shape is also studied around top dead center (TDC). 
+  
+2 Simulation Model  
+The lubrication performance of piston ring pack is affected by the oil supply, which is related to the 
+gas pressures, the asperities contact and the lubricant thickness. In this case, the basic dimensions of 
+piston assembly system were measured from a four stroke motor engine 107 cc located at Machine 
+Design Laboratory. The main specifications of four stroke motor engine illustrated in Table 1. 
+ 
+Table 1. Motor engine specifications 
+ 
+Type 
+4-stroke, air cooled  
+bore* stroke 
+0.0524* 0.0495 m 
+rotational speed 
+1000 rpm 
+compression ratio 
+10:1 
+displacement 
+107 cc 
+piston groove end length 
+0.0002 m 
+4th International Conference of Engineering Against Failure (ICEAF IV) 
+24-26 June 2015, Skiathos, Greece    
+ 
+ 
+ 
+2.1 Gas Pressure Model of Piston-Piston ring pack  
+This motor engine consists of two compression rings and one oil control ring. In practical terms, 
+the first compression ring is operated under extreme conditions, and this is one more reason to 
+improve its design and its lubrication performance. Figure 1 shows the type of piston rings of the 
+motor engine and the variation of gas pressures. The main dimensions of piston-ring pack were 
+measured by a 3D coordinate measuring machine. 
+ 
+ 
+ 
+Figure 1: (a) Piston assembly geometry of four stroke motor engine, (b) the variation of gas pressures  
+For this analysis, the combustion gas pressure of a four stroke motor engine is calculated by ref. 
+[12]. Continuing, a sub model of gas pressure leakage between control volumes through the ring end-
+gaps is developed and ilustrated in Figure 1. This method of gas flow have been developed 
+analytically by Chong et. al [3]. Therefore, the prediction of each ring pressure is obtained according 
+to the mathematical model of ref. [3]. It takes also into acount the mass flow rates { Q1, Q2, Q3 } 
+between each ring clearance,and the gas flow is considered ideal.  
+2.2 Temperature and Lubricant viscosity 
+The temperature along the cylinder liner plays an essential role in lubricant’s oil performance. In 
+this study, the motor engine is operated at a low rotational speed Ω = 1000 rpm cooled by an air-
+condition at 18 oC. SAE 30 was used as lubricant and the temperature variation is illustrated using a 
+high performance thermo camera type: FLIR SC660 with 640×480 resolution and ±1% accuracy. 
+Figure 3 (a) shows a picture of liner temperature for Ω = 1000 rpm under warmed conditions. 
+According to Morris work [8], the increment of oil temperature through shear is slighter than the liner 
+temperature; hence the oil temperature is the same with the cylinder’s liner temperature at each 
+position. Therefore, the oil temperature can be estimated using the measured temperatures in this 
+analysis. As it is observed the temperature variation can be  considered as, TTDC = 43 oC , TBDC = 38 oC 
+and Tmid =40 oC. The dynamic viscosity can be described as a function of oil temperature according to 
+the Vogel’s equation (1) and it is presented in Figure 3 (b). 
+ 
+ 
+ 
+ 
+ 
+1
+2
+(
+)
+exp(
+)
+
+
+
+
+
+
+
+oil
+oil
+T
+T
+ 
+ 
+ 
+ 
+(1) 
+ 
+where ao = 0.048 mPas, θ1 =1123.35 oC, θ2 = 111.65 oC are the relevant parameters for monograde 
+SAE 30 and 
+oil
+T
+ is the oil temperature. 
+ 
+Anastasios Zavos, Pantelis G. Nikolakopoulos 
+ 
+ 
+ 
+ 
+Figure 3: (a) A snapshot of cylinder liner temperature for low speed Ω = 1000 rpm, (b) oil film 
+viscosity vs crank angle. 
+ 
+2.3 Modeling of Oil thickness 
+The sensitivity of lubricant thickness is strong correlated with the piston ring shape and the 
+operation engine conditions. In this study, the minimum oil film  hmin  is defined based on the piston 
+ring balance criterion. In Figure 4 a sketch of the piston ring profile contact along to cylinder inner 
+liner is illustrated. 
+ 
+ 
+ 
+Figure 4: Piston ring shape contact and the oil film thickness 
+ 
+The lubricant film thickness between the ring profile and the cylinder inner liner is given by: 
+                                            
+
+
+2
+min
+2
+( , )
+(
+)
+2
+s
+off
+r
+cyl
+off
+h
+y
+C
+h y t
+h
+t
+y
+Y
+B
+Y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+(2) 
+where hmin(t) is the minimum oil thickness of piston ring-cylinder contact at any time, hs(y) is the 
+piston ring face shape and δr , δcyl is the surface roughness amplitude for the ring and the cylinder 
+accordingly. The local asperity elastic deformation is not considered in equation (2). Actually, the hard 
+coating (Cr) around the ring thickness showed insignificant elastic deformation. 
+ 
+3 Assumptions and Governing Equations 
+ 
+A 2D axisymmetric piston ring pack model is created. The contact between the piston ring and 
+cylinder liner is observed around the dead centers, under the consideration of mixed/hydrodynamic 
+conditions. Afterwards, it is important to refer the following assumptions: 
+ 
+1. The flow is considered laminar and two dimensional. 
+2. Ring twist and flutter into the piston groove are ignored.  
+4th International Conference of Engineering Against Failure (ICEAF IV) 
+24-26 June 2015, Skiathos, Greece    
+ 
+ 
+ 
+3. Body forces are considered and the piston – cylinder model is assumed to be concentric 
+assembled. 
+4. The oil viscosity is a function of liner temperature. 
+5. The top piston ring moved in the axial direction according to the piston speed V in the y-
+axis. 
+ 
+A 2D axisymmetric model is developed using the computational fluid dynamics (CFD). The Navier 
+Stokes equations, momentum equation (3), coupled with the continuity equation (4), are solved using 
+the finite volume method.  
+
+
+
+
+
+p
+g
+F
+t 
+
+
+
+
+
+
+
+
+
+ 
+(3),  
+ 
+
+
+0
+t
+
+
+
+
+
+
+  
+(4) 
+where 
+g
+
+ and F  are the gravitational body force and external body forces. The stress tensor can be 
+expressed as:  
+  
+
+
+
+
+2
+3
+T
+I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+             (5) 
+where the second term on the right hand side is the effect of volume dilation and μ is the dynamic 
+viscosity. 
+ 
+3.1 Asperity contact model 
+ 
+Asperities contact may substantially affect the piston ring performance when the oil film thickness 
+is comparable with the roughness height. Thus, a part of the ring profile influenced by the asperities 
+contact. In the present study, the Greenwood and Tripp model was studied for the asperities interaction 
+between the ring and the cylinder. The asperity height distribution is Gaussian, since the average 
+contact pressure pcont and the real area of contact Acont are given by the following equations: 
+
+
+
+2
+'
+5/2
+8 2
+15
+cont
+p
+E F
+
+
+
+
+
+     (6)  and 
+
+
+
+2
+2
+2
+
+
+
+
+cont
+A
+AF
+    (7) 
+ 
+The statistical functions F5/2(λ), F2(λ) are obtained as a relation of the Stribeck oil film parameter (λ 
+= 
+
+,
+σrms
+h y t ) . The Gaussian statistical functions defined as: 
+2
+2
+1
+(λ)
+(
+)
+2
+s
+j
+jF
+s
+e
+ds
+
+
+
+
+
+
+
+
+   (8) 
+For this analysis, the authors Hu et al. [11] used a non-linear curve; thus the function F5/2(λ) is 
+solved more easily. In more detail, this expression separated at two parts as follows: 
+
+
+
+5/2
+0
+z
+F
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ (9) 
+where the above parameters considered Ω = 4, Α = 4.4068 10-5 and z = 6.804. In more detail, Hu et. al 
+[11] utilized the oil film parameter with the upper level λ = 4  in the mixed conditions. Finally, the 
+main geometrical dimensions of piston rings-cylinder system obtained from a TESA 3D CMM. Table 
+2 lists the basic topographical parameters for two compression rings and the cylinder wall.  
+ 
+Table 2. Topographical parameters of four stroke motor engine 
+ 
+Parameters 
+Value 
+Top ring roughness 
+0.35 μm 
+Scraper ring roughness 
+0.25 μm 
+Cylinder liner roughness 
+0.1 μm 
+roughness parameter ζκσrms 
+0.123 
+Asperity slope σrms/κ 
+1.565 10-3 
+ 
+Anastasios Zavos, Pantelis G. Nikolakopoulos 
+ 
+ 
+4 Boundary conditions 
+This model simulates the hydrodynamic force, the elastic ring tension and the asperity contact on 
+piston ring pack-cylinder system. The radial motion of the piston rings was represented by the 
+lubricant oil thickness. Therefore, the algorithm was updated in a quasi-static manner for each 
+crankshaft position taking into account the piston linear speed, the minimum oil film, the gas pressures 
+and the asperity load. The inlet and outlet pressures are pc and pout = patm , depending on the direction 
+of piston movement. In equation (10) the back pressure pbk at the ring gap is equivalent to the 
+combustion pressure. Figure 5 illustrates the applied forces on the top piston ring. Steel piston rings 
+and aluminium cylinder considered in this analysis. 
+ 
+ 
+ 
+Figure 5: Piston ring geometry with applied forces.  
+The elastic pressure 
+4
+3
+el
+cyl
+dEI
+p
+Br
+
+
+ and the pressure contact by the asperities pcont are calculated 
+separately. Thereafter, the convergence criterion of the pressure balance was used according to the 
+equation (10). If this criterion is not confirmed, then the minimum oil thickness hmin is redefined and 
+the interaction loop of lubricant thickness (11) is repeated. The value of ε=0.03 is given in the 
+numerical parameter ε (equation 11) in order to perform  simulations here. 
+ 
+
+
+
+
+0.2%
+cont
+hyd
+el
+bk
+el
+bk
+p
+p
+p
+p
+X
+p
+p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  (10),  and 
+1
+min
+min
+max
+min
+,where 
+1
+N
+N
+N
+h
+h
+N
+h
+
+
+
+ (11) 
+ 
+4.1 Fluid Algorithm Implementation and Meshing 
+ 
+Figure 6 illustrates the steps of simulation solution and the computational grids of fluid domain. 
+Regarding the fluid field, tetrahedral elements are used. According to the relevant published works [5, 
+6], ten divisions were used in the radial direction and 500 divisions were used in the axial direction. It 
+should be noted that this configuration of fluid meshing shown a very good conformance with the 
+results of Shahmohamadi et. al [10]. Continuing, the convergence criteria were activated relative to the 
+pressure error [4-6] and the ring balance convergence criterion is also used as it is discussed in 
+paragraph 4.  
+ 
+Figure 6: Fluid algorithm solution and the fluid discretization 
+4th International Conference of Engineering Against Failure (ICEAF IV) 
+24-26 June 2015, Skiathos, Greece    
+ 
+ 
+ 
+4.2 Total Friction Force 
+ 
+The total friction force is obtained as a sum of the viscous friction because of the oil film interface 
+and the boundary friction due to asperity interactions along to piston ring profile. The contribution of 
+mixed/hydrodynamic regime on the piston ring-cylinder contact has been shown by the analytical 
+expression (12). It is important to refer that the non-Newtonian Eyring shear stress το and the boundary 
+shear strength of the surfaces, named ς, have been taken from refs. [8, 10]. 
+(
+)
+τ
+cont
+total
+fl
+b
+total
+cont
+cont
+cont
+F
+F
+F
+F
+d A
+A
+p
+dA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+(12) 
+5 Results and Discussion 
+5.1 Fluid Modeling Validation  
+The pressure distribution along to piston ring thickness compared with the numerical data of 
+Shahmohamadi et. al [10]. As follows from Figure 7, the predicted pressure field by the current has a 
+very good agreement (Presserror ≤ 5%) with those of ref [10]. In more detail, these validated results 
+were obtained for a barrel piston ring at crank angle (φ = -5o) when the piston moves upwards and the 
+balance confirmed for minimum oil thickness hmin = 0.39 μm as obtained from the equation (11). 
+ 
+ 
+ 
+Figure 7: Validation results from Shahmohamadi et. al [10]. 
+5.2 Effect of the Piston ring Curvature  
+Figure 8 illustrates the pressure profile of first compression ring at different curvatures. The top 
+ring behaviour is simulated at reversal point (TDC), where the boundary/mixed lubrication occur. As 
+observed the pressure and the oil distribution change by varying the ring profile curvature. For 
+example, the maximum pressure is increased substantially 26.7% when the curvature becomes higher 
+from C = 3 μm, Yoff = 0 to C = 20 μm, Yoff = 0. Also, it is clear that the “flatter” profile increases the 
+minimum oil film thickness; hence the total friction force is reduced. As indicated in Table 3, the top 
+ring with the curvature of C = 3 μm, has a minimum value regarding the boundary friction. The 
+minimum lubricant thickness is increased in a value of hmin = 0.68 μm, in comparison with the ring’s 
+curvature of C = 20 μm. Hence, a higher curvature height leads to a thinner oil film near the TDC; 
+since the boundary lubrication is enhanced. 
+ 
+Figure 8: Hydrodynamic pressure for different curvatures of top ring near the TDC. 
+Anastasios Zavos, Pantelis G. Nikolakopoulos 
+ 
+ 
+Table 3. Total friction force of top ring near the top dead center (TDC). 
+Parameters: (C, Yoff ) 
+Ffl (N) 
+Fb (N) 
+C = 3μm, Yoff = 0 
+16.39 
+1.70 
+C = 20 μm, Yoff = 0 
+18.33 
+15.36 
+ 
+6 Conclusions 
+In the current paper a 2D axisymmetric model of piston-ring pack from a real four stroke motor 
+engine is developed. Lower curvature height leads to a higher film thickness at the top dead center 
+(TDC). In fact, the carrying load capacity of the ring profile changes the oil film distribution near to 
+the reversal points. To this point, “flatter” ring shape tends to an “optimum” minimum lubricant 
+thickness giving zero friction force in boundary lubrication regime.   
+Acknowledgement 
+ 
+This work was supported by Grant Ε.039 from the Research Committee of the University of Patras 
+(Programme K. Karatheodori). 
+References 
+1. Jeng Y. (1992). Theoretical Analysis of Piston-Ring Lubrication Part 1-Fully Flooded Lubrication. 
+STLE Tribol. Trans., 35, 696–706. 
+2. Dellis P.S. (2010). Effect of friction force between piston rings and liner: a parametric study of 
+speed, load, temperature, piston-ring curvature, and high-temperature, high-shear viscosity. 
+Proceedings of the Institution of Mechanical Engineers, Part J: Journal of Engineering Tribology, 
+224, 411-426. doi: 10.1243/13506501JET727 
+3. Chong W.W.F., Howell‐Smith S., Teodorescu M., Vaughan N.D. (2013). The influence of 
+inter‐ring pressures on piston‐ring / liner tribological conjunction, Proceedings of the Institution of 
+Mechanical Engineers, Part J: Journal of Engineering Tribology, 227, 154‐167. 
+4. Zavos A., Nikolakopoulos P. (2015). Effects of Surface Irregularities on Piston Ring‐Cylinder 
+Tribo Pair of a Two Stroke Motor Engine in Hydrodynamic Lubrication.  Tribology in Industry, 
+37(1), 1-12. 
+5. Zavos A., Nikolakopoulos P.G. (2015). Waviness and straightness of cylinder and textured piston 
+ring tribo pair. International Journal of Structural Integrity, 6(2), 300 - 324.             
+ 
+6. Zavos A.,  Nikolakopoulos P.G. (2015). Effects of Monograde and Multigrade Oils on the Friction 
+Force in Four-Stroke Motor Engine: An Experimental and Analytical Approach. In book: Vibration 
+Engineering and Technology of Machinery, Springer International Publishing, 23, 507-517. doi: 
+10.1007/978-3-319-09918-7_45 
+7. Agostino V.D’, Maresca P., Senatore A.  Theoretical analysis for friction losses minimization in 
+piston rings, Proceedings of the International Conference on Tribology, Parma, Italy, 
+20‐22.09.2006. 
+8. Morris, N., Rahmani, R., Rahnejat, H., King, PD., Fitzsimons, B. (2013). Tribology of piston 
+compression ring conjunction under transient thermal mixed regime of lubrication, Tribology 
+International, 59, 248-258. 
+9. Shahmohamadi, H., Rahmani, R., Rahnejat, H., Garner, C.P., King, P.D. (2013) Thermo-mixed 
+hydrodynamics of piston compression ring conjunction. Tribology Letters, 51, 323-340. 
+10. Shahmohamadi, H., Rahmani, R., Rahnejat, H., Garner, C. P. (2013). CFD modelling of cavitation 
+phenomenon in piston ring/cylinder liner conjunction. In 5th World Tribology Congress (WTC 
+2013), Torino, Italy, September 8-13 (p. 4). 
+11. Hu, Y., Cheng, H. S., Arai, T., Kobayashi, Y., & Aoyama, S. (1994). Numerical simulation of 
+piston ring in mixed lubrication—a nonaxisymmetrical analysis. Journal of Tribology, 116(3), 470-
+478. 
+12. Richard Stone. Introduction to Internal Combustion Engines, 3rd Edition, Macmilan Press Ltd, 
+1999. 

@@ -1,0 +1,1972 @@
+                                                                                    International Journal of New Technology and Research (IJNTR) 
+                                                                                           ISSN:2454-4116,  Volume-2, Issue-7, July  2016  Pages 83-94 
+                                                                                83                                                                 www.ijntr.org 
+ 
+Abstract—In the project, 3-D finite element analysis was 
+carried out on the modal analysis of crankshaft and the stress 
+analysis of crankshaft to check the safety. The FEM software 
+ANSYS workbench was used to simulate the analysis of 
+crankshaft. The results of stress and deformation distributions 
+and natural frequency of crankshaft were obtained by using 
+ANSYS software. The experimental investigation also carried 
+out for modal part and it validates with the FEM results. 
+Index Terms- Crankshaft, ANSYS, FEM results. 
+ 
+I. INTRODUCTION 
+Crankshaft is among the largest components in internal 
+combustion engines. It is employed in different types of 
+engines, from small one cylinder lawn-mowers to large 
+multi-cylinder diesel and petrol engines. Crankshaft is one of 
+the most critically loaded components and experiences cyclic 
+loads in the form of bending and torsion during its service life. 
+This review is performed for optimization of crankshaft by 
+considering various materials used for manufacturing of 
+crankshaft, 
+various 
+manufacturing process 
+used for 
+manufacturing of crankshaft and opportunities available for 
+optimization by various geometric changes in shape of 
+crankshaft. Amongst all materials used for manufacturing of 
+crankshaft the best material is selected and is manufactured 
+by method which is most suitable and will reduce the cost of 
+production. Crankshaft is one of the most important moving 
+parts in internal combustion engine. It must be strong enough 
+to take the downward force of the power stroked without 
+excessive bending. So the reliability and life of internal 
+combustion engine depend on the strength of the crankshaft 
+largely. And as the engine runs, the power impulses hit the 
+crankshaft in one place and then another. The torsion 
+vibration appears when a power impulse hits a crankpin 
+toward the front of the engine and the power stroke ends. If 
+not controlled, it can break the crankshaft. 
+Strength calculation of crankshaft becomes a key factor to 
+ensure the life of engine. Beam and space frame model were 
+used to calculate the stress of crankshaft usually in the past. 
+But the number of node is limited in these models. With the 
+development of computer, more and more design of 
+ 
+Ms. Jagruti K. Cahudhari, Mechanical Design, SSGB COET 
+Bhusawal, North Maharashtra University Jalgaon, India,  
+Dr. R. B. Barjibhe, P. G. Co-ordinator, SSGB COET Bhusawal, North 
+Maharashtra University Jalgaon, India). 
+ 
+crankshaft has been utilized finite element method (FEM) to 
+calculate the stress of crankshaft. The application of 
+numerical simulation for the designing crankshaft helped 
+engineers to efficiently improve the process development 
+avoiding the cost and limitations of compiling a database of 
+real world parts. Finite element analysis allows an 
+inexpensive study of arbitrary combinations of input 
+parameters including design parameters and process 
+conditions to be investigated. 
+Crankshaft is a complicated continuous elastomeric. The 
+vibration performance of crankshaft has important effect to 
+engine. The calculation of crankshaft vibration performance 
+is difficult because of the complexity of crankshaft structure, 
+the difficult determinacy of boundary condition. Dynamic 
+matrix method and dynamic sub structural method combined 
+with FEM were used to calculate the vibration of crankshaft. 
+The method of three-dimensional finite element was carried 
+to analysis dynamical characteristic of diesel crankshaft. 
+In the project, 3-D finite element analysis was carried out on 
+the modal analysis of crankshaft and the stress analysis of 
+crankshaft to check the safety. The FEM software ANSYS 
+workbench was used to simulate the analysis of crankshaft. 
+The results of stress and deformation distributions and natural 
+frequency of crankshaft were obtained by using ANSYS 
+software. The experimental investigation also carried out for 
+modal part and it validates with the FEM results. 
+I.I Optimization of Crankshaft 
+For optimization of crankshaft various studies have been 
+made on material selection and manufacturing process of 
+crankshaft, it is found Crankshafts are typically manufactured 
+from forged steel, nodular cast iron and austempered ductile 
+iron (ADI). When forged steels are compared to cast iron and 
+alloyed ductile iron used in crankshafts, the fatigue properties 
+of forged steels are generally found to be better that that of 
+cast iron. Also it is found that by using micro alloy steel it is 
+possible to reduce the cost of production. Therefore 
+replacement of conventional crankshaft by forged steel shaft 
+will also result in optimization of cost.  
+Detailed dynamic load and stress analysis of the crankshaft 
+investigated in this study was the subject of another paper. 
+Finite element analysis was used to obtain the variation in 
+stress magnitude at critical locations. The dynamics of the 
+mechanism was solved using analytical techniques, which 
+resulted in the load spectrum applied to the crank pin bearing. 
+The load was applied to the FE model and the boundary 
+conditions were defined according to the engine mount 
+Experimental And Numerical Analysis Of 
+Crankshaft Used In Hero Honda Splendor 
+Motorcycle 
+Ms. Jagruti K. Chaudhari, Dr. R. B. Barjibhe 
+ 
+Experimental And Numerical Analysis Of Crankshaft Used In Hero Honda Splendor Motorcycle 
+ 
+                                                                                        84                                                                                  www.ijntr.org 
+ 
+design. The analysis was performed over different engine 
+speeds and as a result the critical engine speed and critical 
+locations on the crankshaft were obtained. Stress variation 
+over the engine cycle and the effect of torsion load in the 
+analysis were also investigated. Results from FE analysis 
+were verified. 
+ 
+Fig. Generalized Crankshaft in the Engine Block 
+ 
+I.II Reasons of Failures Crankshaft  
+The most common reasons for crankshaft failures are below:  
+ Loss of effective lubrication. This can be due to 
+contaminated lube oil, failed lube oil pumps, poor 
+quality or incorrect specification lube oil.  
+ Over speeding of engines, or long term operation in a 
+critical or forbidden rev range.  
+ Vibration loads on the crankshaft  
+ Faulty crankshaft damper, designed to remove 
+excessive vibration from the crankshaft. Failure of 
+proper operation can lead to excessive crankshaft 
+vibration and fatigue.  
+ Engine power imbalance leading to fatigue failure, 
+cyclic loading. This can be caused by poor 
+maintenance or monitoring of engine power, or even 
+poor quality fuel. 
+ Hydraulic locking of cylinders, flooding of cylinders 
+with cooling water. 
+ Bearing misalignment, this can be detected early with 
+proper crankshaft deflection measurement. 
+ Design faults, a common problem as more licenses 
+are passed out to new shipyards.  Incorrect or blatant 
+ignorance of material compositions or poor 
+manufacture of crankshaft can lead to early failure.  
+ Overloading of engine.  
+ 
+II. LITERATURE REVIEW 
+C.M.Balamurugan, R.Krishnaraj, Dr.M.Sakthivel evaluates 
+and compares the fatigue performance of two competing 
+manufacturing technologies for automotive crankshafts, 
+namely forged steel and ductile cast iron. In this study a 
+dynamic simulation was conducted on two crankshafts, cast 
+iron and forged steel, from similar single cylinder four stroke 
+engines. Finite element analysis was performed to obtain the 
+variation of stress magnitude at critical locations. The 
+dynamic analysis was done analytically and was verified by 
+simulations 
+in 
+ANSYS. 
+Results 
+achieved 
+from 
+aforementioned analysis were used in optimization of the 
+forged 
+steel 
+crankshaft. 
+Geometry, 
+material 
+and 
+manufacturing processes were optimized considering 
+different constraints, manufacturing feasibility and cost. The 
+optimization process includes geometry changes compatible 
+with the current engine, fillet rolling and result in increased 
+fatigue strength and reduced cost of the crankshaft, without 
+changing connecting rod and engine block.[1] 
+Farzin H. Montazersadgh says in his paper that finite element 
+analysis was performed to obtain the variation of the stress 
+magnitude at critical locations. The dynamic analysis resulted 
+in the development of the load spectrum applied to the 
+crankpin bearing. This load was then applied to the FE model 
+and boundary conditions were applied according to the 
+engine mounting conditions. Results obtained from the 
+aforementioned analysis were then used in optimization of 
+the forged steel crankshaft. Geometry, material, and 
+manufacturing processes were optimized using different 
+geometric constraints, manufacturing feasibility, and cost. 
+The first step in the optimization process was weight 
+reduction of the component considering dynamic loading. 
+This required the stress range under dynamic loading not to 
+exceed the magnitude of the stress range in the original 
+crankshaft. Possible weight reduction options and their 
+combinations were considered. The optimization and weight 
+reduction were considered in an interactive manner and 
+evaluated by manufacturing feasibility and cost. The 
+optimization process resulted in an 18% weight reduction, 
+increased fatigue strength, and a reduced cost of the 
+crankshaft. [2] 
+Jaimin Brahmbhatt, Prof. Abhishek choubey suggested in his 
+paper that a dynamic simulation is conducted on a crankshaft 
+from a single cylinder 4- stroke diesel engine. A 
+three-dimension model of diesel engine crankshaft is created 
+using SOLID WORKS software. Finite element analysis 
+(FEA) is performed to obtain the variation of stress 
+magnitude at critical locations of crankshaft. Simulation 
+inputs are taken from the engine specification chart. The 
+dynamic analysis is done using FEA Software ANSYS which 
+resulted in the load spectrum applied to crank pin bearing. 
+This load is applied to the FE model in ANSYS, and 
+boundary conditions are applied according to the engine 
+mounting conditions. The analysis is done for finding critical 
+location in crankshaft. Stress variation over the engine cycle 
+and the effect of torsion and bending load in the analysis are 
+investigated. 
+Von-Misses 
+stress 
+is 
+calculated 
+using 
+theoretically and FEA software ANSYS. The relationship 
+between the frequency and the vibration modal is explained 
+by the modal and harmonic analysis of crankshaft using FEA 
+software ANSYS. [3] 
+ The optimization options their combination under a set of 
+defined constraints, a comparison between the original forged 
+steel crankshaft and the final optimized forged steel 
+component. The main objective of this analysis was to 
+optimize the weight and manufacturing cost of the forged 
+steel crankshaft, which not only reduces the final production 
+cost of the component, but also results in a lighter weight 
+crankshaft which will increase the fuel efficiency of the 
+engine. Optimization carried out on this component is not the 
+typical mathematical sense of optimization, because variables 
+such as manufacturing and material parameters could not be 
+organized in a mathematical function according to the set of 
+                                                                                    International Journal of New Technology and Research (IJNTR) 
+                                                                                           ISSN:2454-4116,  Volume-2, Issue-7, July  2016  Pages 83-94 
+                                                                                85                                                                 www.ijntr.org 
+constraints such that the maximum or minimum could be 
+obtained. In this case of optimization process, the final 
+optimized geometry has definitely less weight than the 
+original crankshaft but this does not mean that the weight 
+could not be reduced further. In other words, this may not be 
+the minimum possible weight under the set of constraints 
+defined. As the main objective of this analysis, it was 
+attempted to reduce the weight and final cost of the 
+component by changing the crankpin geometry, Increasing 
+the oil hole diameter and fillet radius, increasing the oil hole 
+depth and changing the crank web geometry. The method 
+describes the first step in the optimization process to reduce 
+weight of the component considering dynamic loading, which 
+means that the stress range under dynamic loading should not 
+exceed the stress range magnitude in the original crankshaft. 
+The optimization process was categorized in different stages 
+and paper concludes with the sufficient reduction in weight 
+and ultimately cost.[4] 
+Static analysis was conducted on a cast iron crankshaft from a 
+single cylinder four stroke engine. Finite element analysis 
+was performed to obtain the variation of the stress magnitude 
+at critical locations. Three dimensional model of the 
+crankshaft was created in Pro-E software. The load was then 
+applied to the FE model and boundary conditions were 
+applied as per the mounting conditions of the engine in the 
+ANSYS. Results obtained from the analysis were then used in 
+optimization of the cast iron crankshaft. This requires the 
+stress range not to exceed the magnitude of the stress range in 
+the original crankshaft. The optimization process included 
+geometry changes without changing connecting rod and 
+engine block. [5] 
+The problem occurred in single cylinder engine crank shaft. It 
+consists of static structural and fatigue analysis of single 
+cylinder engine crank shaft. It identifies and solves the 
+problem by using the modeling and simulation techniques. 
+The topic was chosen because of increasing interest in higher 
+payloads, lower weight, higher efficiency and shorter load 
+cycles in crankshaft. The main work was to model the crank 
+shaft with dimensions and then simulate the crank shaft for 
+static structural and fatigue analysis. The modeling software 
+used is PRO-E wildfire 4.0 for modeling the crank shaft. The 
+analysis software ANSYS will be used for structural and 
+fatigue analysis of crank shaft for future work. The material 
+for crank shaft is EN9 and other alternate materials on which 
+analysis will be done are SAE 1045, SAE 1137, SAE 3140, 
+and Nickel Cast Iron. The objective involves modeling and 
+analysis of crank shaft, so as to identify the effect of stresses 
+on crank shaft, to compare various materials and to provide 
+possible solution. [6]  
+.  
+III. PROBLEM STATEMENT 
+PROBLEM DEFINITION 
+1. Crankshafts are typically manufactured by casting and 
+forging processes.  
+2. Manufacturing by forging has the advantage of obtaining 
+a homogeneous part that exhibits less number of micro 
+structural voids and defects compared to casting.  
+3. In addition, directional properties resulting from the 
+forging process help the part acquire higher toughness and 
+strength in the grain-flow direction.  
+4. While designing the forging process for crank-shaft, the 
+grain-flow direction can be aligned with the direction of 
+maximum stress that is applied to the component.  
+5. Crankshaft is a complicated continuous elastomer. The 
+vibration performance of crankshaft has important effect to 
+engine.  
+6. The calculation of crankshaft vibration performance is 
+difficult because of the complexity of crankshaft structure, 
+the difficult determinacy of boundary condition. 
+7. We are going to discussed with forged steel crankshaft. 
+8. We are doing finite element analysis for finding out the 
+optimized product in crankshaft 
+ 
+Objectives  
+1. To perform complete study of Crankshaft of petrol 
+engine of two wheeler for getting the dimensions, 
+loading conditions etc.  
+2. To Create CAD - Model of crankshaft, using Pro-E 
+software and FEM analysis by ANSYS Workbench. 
+3. To analyze the failures occurring in the crankshaft 
+with the help of FEM. 
+4. To improve hardness of crank pin by providing 
+coating of various material  
+5. To perform experimental investigation on the original 
+crankshaft for actual loading condition  
+6. To compare the various results obtained from FEM 
+and experimental tests and suggest the best suitable 
+material for crankshaft. 
+Steps to Achieve the Above Objectives 
+1. Take the original crankshaft and collect all the 
+dimensions to prepare CAD model. 
+2. Convert CAD model into neutral file so that it can be 
+open in FEM software  
+3. Perform Modal and structural analysis using ANSYS 
+Workbench software for existing and various 
+different materials 
+4. Perform experiment tests using FFT analyzer and 
+accelerometer.  
+5. Calculate theoretically the frequency ranges and 
+stresses induced.  
+6. Compare results for getting best suitable material 
+coat.  
+ 
+IV. THEORETICAL ANALYSIS 
+Sample calculation for Modal Analysis for Alloy steel  
+Formula used is,  
+f (Hz) =   λ2   √ (EI/ρA) 
+              2πL 
+Where  
+ F= Natural Frequency in Hz 
+ λ= Random no. generated using Scientific calculator 
+(shift+ Ran #) = 0.9467 
+ L= Length =0.2m 
+ E= Youngs Modulus = 21000N/m2  
+ I = Inertia of crankshaft = 2186 X 10-3kgm3 
+ 
+Experimental And Numerical Analysis Of Crankshaft Used In Hero Honda Splendor Motorcycle 
+ 
+                                                                                        86                                                                                  www.ijntr.org 
+ 
+ ρ= Density of Material= 7800Kg/m3 
+ A = Cross Sectional Area =176.17 X 10-6 m2 
+Putting all above values in equation  
+F= 
+(0.9467)2/ 
+2π(0.2)2 
+X 
+((21000X 
+2186X10-3)/(7800X176.17X10-6))1/2 
+F= 3.56 X 182.77 
+F= 652.093 Hz 
+Similarly others are calculated as given in following table 
+ 
+Alloy Steel 
+Mathematical 
+Results 
+for 
+Frequency 
+Val
+ue of λ 
+0.9467 
+652.1 
+0.9723 
+687.8 
+1.0134 
+747.2 
+1.52364 
+1689.1 
+1.67348 
+2037.6 
+1.72364 
+2161.6 
+1.9587 
+2791.4 
+2.1443 
+3345.7 
+ 
+ 
+ 
+Aluminium 
+Alloy 
+ 
+Mathematical 
+Results 
+for 
+Frequency 
+Valu
+e of λ 
+0.9189 
+599.4 
+0.957 
+650.2 
+1.014 
+729.9 
+1.524 
+1648.8 
+1.725 
+2110.5 
+1.824 
+2362.6 
+2.175 
+3360.7 
+2.235 
+3548.0 
+ 
+ 
+Titanium 
+Alloy 
+Mathematical 
+Results 
+for 
+Frequency 
+ 
+ 
+ 
+Value 
+of λ 
+0.92145 
+603.0 
+0.962 
+665.2 
+0.9978 
+707.1 
+1.543 
+1693.0 
+1.59 
+1803.1 
+1.7348 
+2137.4 
+2.015 
+2880.7 
+2.0214 
+2901.9 
+ 
+ 
+ 
+Nickel 
+Alloy 
+ 
+Mathematical 
+Results 
+for 
+Frequency 
+Value 
+of λ 
+0.9364 
+611.7 
+0.975 
+663.1 
+1.104 
+717.2 
+1.5343 
+1642.2 
+1.625 
+1842.0 
+1.703 
+2023.1 
+2.014 
+2829.5 
+2.074 
+3000.6 
+ 
+ 
+Zinc Alloy 
+Mathemati
+cal 
+Results 
+for 
+Frequency 
+Value 
+of λ 
+0.9164 
+160.8 
+0.9678 
+179.3 
+1.029 
+200.7 
+1.532 
+449.4 
+1.5852 
+481.4 
+1.779 
+603.9 
+1.961 
+740.2 
+2.152 
+890.4 
+ Von Misses Stress analysis 
+For this project, fatigue is the main cause of crankshaft 
+failure considered. Fatigue failure is defined as the tendency 
+of a material to fracture by means of progressive brittle 
+cracking under repeated alternating or cyclic stresses of 
+intensity considerably below the normal strength. Although 
+the fatigue is of a brittle type, it may take some time to 
+propagate, depending on both the intensity and frequency of 
+the stress cycles. 
+Here in this project, the cyclic stresses play an important 
+role to determine whether the component is safe from fatigue 
+failure. The other criteria used to determine the safety are von 
+Mises stress, deformation and number of life cycles, strain 
+along with the stresses. This problem can be solved 
+analytically by using the expression for fatigue Endurance 
+limit of crankshaft& by the distortion energy method. 
+Theory: 
+Here calculations are done in order to obtain values for Gas 
+Force, Bending Moment,Section Modulus and Torque. 
+Finally all these values are used in order to calculate the Von 
+Mises Stresses. 
+Force on the piston: 
+Fpmax= Area of the bore ×Max. Combustion pressure 
+Fpmax= π × D2 × Pmax  
+                  4 
+sinφ= sinθ 
+          L/R 
+ ϴ=Maximum crank angle=35° 
+ϕ = Angle of inclination of connecting rod with the line of 
+stroke 
+L = Stroke length 
+R = Crankshaft radius 
+FQ = FP  
+      cosφ 
+Tangential force 
+FT = FQ sin (θ + ϕ) 
+Radial force 
+FR = FQ cos (θ + ϕ) 
+Reactions at bearings (1&2) due to tangential force is given 
+by, 
+HT1 = HT2 = FT 
+                     2 
+Similarly, reactions at bearings (1&2) due to radial force is 
+given by, 
+                                                                                    International Journal of New Technology and Research (IJNTR) 
+                                                                                           ISSN:2454-4116,  Volume-2, Issue-7, July  2016  Pages 83-94 
+                                                                                87                                                                 www.ijntr.org 
+HR1 = HR2 = FR 
+                      2   
+Mc = Max. bending moment on crank pin σb 
+Mc =HR1×b2 
+Tc = Max.twisting moment on crank pin 
+Tc =HT1× b1  
+Te = √[(Mc)2 + (Tc)2] 
+Von-misses stress induced in the crankpin 
+Force on the piston: 
+Fpmax= Area of the bore ×Max. Combustion pressure 
+Fpmax = π/4×D²×Pmax 
+Fpmax= π/4×502×3.5 
+Fpmax=6.86 x E3 N 
+ϴ=Maximum crank angle=35° 
+ϕ = Angle of inclination of connecting rod with the line of 
+stroke 
+L = Stroke length 
+R = Crankshaft radius 
+Sinφ=17×sin35/62.4 
+Φ=8.995° 
+FQ = Fp 
+       cosφ 
+=6.86/cos8.995 
+Instead of 6.86 use 12.339 KN and calculate von miss 
+stress     
+FQ = Fp =      12.339 
+       cosφ   cos(80995) 
+= 12.55 kN 
+Tangential force, 
+FT  = FQ sin (θ+ɸ) 
+      = 12.55 × sin(35+8.995) 
+      = 8.7163 kN 
+Radial force, 
+FR = FQ cos(θ+ɸ) 
+     = 12.55 × cos(35+8.995) 
+     = 9.0314 kN 
+Reactions at bearings (1 & 2) due to tangential force is 
+given by, 
+HT1 = HT2 = FT 
+                               2 
+                 = 8.7163/2 
+                 = 4.358 kN 
+Similarly, reactions at bearings (1&2) due to radial force is 
+given by, 
+ HR1 = HR2 = FT 
+                                 2 
+                  = 9.031/2 
+                  = 4.5155 kN 
+Mc = Max bending moment on crank pin 
+Mc = HR1 × b2 
+      = 4.5155 × 67 
+      = 261.899 kN-mm 
+Tc = Max twisting moment on crank pin 
+Tc = HT1 × b1 
+    = 4.358 × 67 
+    = 252.764 kN-mm 
+Te = √ [(Mc)2 + (Tc)
+2] 
+     = √[(261.899)2 + (252.764)2  
+     = 363.97kNmm 
+Mev = √(Kb × Mc)2 + (3 ×(Kt × Tc)2) 
+                                   4 
+       = √(1 × 261.899)2 + (3 × (1×252.746)2) 
+                                         4 
+       = 261.899 kN-mm 
+Mev = π × d3 × σvon   
+          32 
+261.899 × 103 = π × 673 × σvon   
+                                 32 
+σvon = 13.672 N/mm2 
+           
+OR  
+From reference (17), 
+16 mm distance between two flanges of crank shaft where 
+load is act. 
+Area=πd/2x16 =502mm2 
+σxx =piston force/area of crank pin=6860/502=13.66 
+N/mm2 
+σyy=0 
+σzz=0 
+put this value in following equation 
+σvon = 1 √ (σxx – σyy)2 + (σxx – σzz)2 + 6(σ2
+xy + σ2
+xz + σ2
+yz)  
+Von missies stress= 18.6 N/mm2 
+4.4 Design of Crankshaft When The Crank Is At Dead 
+Centre: 
+4.4.1 Design of crankpin: 
+We know that piston gas load
+, 
+Force on the crankshaft  
+ Area of the bore x 
+ 
+ Force on crankshaft 
+ 
+4.5 Design of Crankshaft When The Crank Is At An 
+Angle Of Maximum Twisting Moment 
+Force on the crankshaft 
+ Area of the bore x 
+ 
+Force on crankshaft 
+ 
+Fp= 6.860 KN 
+In order to find the thrust in the connecting rod (
+), we 
+should first find out the angle of inclination of the connecting 
+rod with the line of stroke (i.e. angle
+). 
+We know that 
+ 
+Which implies 
+= 6.59° 
+We know that thrust in the connecting rod 
+ 
+From this we have, 
+Thrust on the connecting rod 
+= 6.905 KN 
+Now shear stress on the crankshaft for which it is safe  
+  Shear stress   = Force / Cross sectional Area  
+    = 6.860KN/ 176.17mm2 
+ 
+ 
+ 
+ 
+= 38.9396 N/mm2  
+    = 38.9396 MPa 
+ This value of shear stress is the limiting value. If the 
+stress induced goes beyond this value for any material then 
+that crankshaft will definitely fail. Hence for FEM structural 
+ 
+Experimental And Numerical Analysis Of Crankshaft Used In Hero Honda Splendor Motorcycle 
+ 
+                                                                                        88                                                                                  www.ijntr.org 
+ 
+analysis we need to check the value of stress to be lesser than 
+this for safe conditions. 
+Sr 
+No. 
+Alloys 
+Equivalent 
+stress 
+1.  
+Alloy steel 
+17.461 MPa 
+2. 
+Titanium alloy 
+14.47 MPA 
+3. 
+Aluminium alloy 
+25.997 MPa 
+4. 
+Nickel alloy 
+32.453 MPA 
+5. 
+Zinc alloy 
+6.5241 MPa 
+ 
+V. NUMERICAL ANALYSIS 
+CATIA V5: 
+CATIA is very powerful tool. You can harness this power 
+to capture the design intent of your models by acquiring an 
+understanding of fundamental concepts that define the 
+software and why exist. This lesson discusses these concepts 
+in detail. You should keep them in mind as you progress 
+through this chapter. 
+ Design Concepts: 
+ You can design many different types of models in 
+CATIA. However, before you begin your design project, you 
+need to understand a few basic design concepts: 
+Design Intent:  
+Before you design your model, you need to identify the 
+design intent. Design intent defines the purpose and function 
+of the finished product based on product specifications or 
+requirements. Capturing design intent builds value and 
+longevity into your products. The key concept is at the core of 
+the CATIA feature based modelling. 
+Feature-Based Modelling: 
+CATIA part modelling begins with the creating individual 
+geometric features one after another. These features become 
+interrelated to other features as reference them during the 
+design process. 
+Parametric Design: 
+The interrelationships between features allow the model to 
+become parametric. So, if you alter one feature and that 
+change directly affects other related (dependent) features, 
+then CATIA dynamically changes those related features. This 
+parametric ability maintains the integrity of the part and 
+preserves your design intent. 
+Associativity: 
+CATIA maintains design intent outside Part mode through 
+associativity. As you continue to design the model, you can 
+add parts, or electrical wiring. All of these functions are fully 
+associative within CATIA. So, if you change your design at 
+any level, your project will dynamically reflect the changes at 
+levels, preserving design intent. 
+The assembly consists of crank webs, crankpin and needle 
+bearing. The parts that are mentioned are drawn separately as 
+mentioned above and then with help of various constraints, 
+they are brought together and assembled.  
+ 
+ 
+ 
+Without Coating 
+With 
+Coating 
+Thickness 5 to 10 Micron 
+ 
+ 
+ 
+ 
+ 
+Crank 
+Shaft 
+Assembly 
+without 
+Coating 
+Crank Shaft with Zinc 
+Coated 
+ 
+Crankshaft Materials and Properties of Coating Materials: 
+The steel alloys typically used in high strength crankshafts 
+have been selected for what each designer perceives as the 
+most desirable combination of properties. Medium carbon 
+steel alloys are composed of predominantly the element 
+iron, and contain a small percentage of carbon (0.25% to 
+0.45%, described as „25 to 45 points‟ of carbon), along with 
+combinations of several alloying elements, the mix of which 
+has been carefully designed in order to produce specific 
+qualities in the target alloy, including hardenability, 
+nitridability, surface and core hardness, ultimate tensile 
+strength, yield strength, endurance limit (fatigue strength), 
+ductility, impact resistance, corrosion resistance, and 
+temper-embrittlement resistance. The alloying elements 
+typically used in these carbon steels are manganese, 
+chromium, molybdenum, nickel, silicon, cobalt, vanadium, 
+and sometimes aluminum and titanium. Each of those 
+elements adds specific properties in a given material. The 
+carbon content is the main determinant of the ultimate 
+strength and hardness to which such an alloy can be heat 
+treated. 
+In addition to alloying elements, high strength steels are 
+carefully refined so as to remove as many of the undesirable 
+impurities as possible sulfur, phosphorous, calcium, etc. and 
+to more tightly constrain the tolerances, which define the 
+allowable variations in the percentage of alloying elements. 
+The highest quality steels are usually specified and ordered by 
+reference to their AMS number (Aircraft Material 
+Specification). These specs tightly constrain the chemistry, 
+and the required purity can often only be achieved by melting 
+in a vacuum, then re-melting in a vacuum to further refine the 
+metal. Typical vacuum-processing methods are VIM and 
+VAR. Vacuum Induction Melting (VIM) is a process for 
+producing very high purity steels by melting the materials by 
+induction heating inside a high-vacuum chamber. Vacuum 
+Arc Remelting (VAR) is a refining process in which steels are 
+remelted inside a vacuum chamber to reduce the amount of 
+dissolved gasses in the metal. 
+                                                                                    International Journal of New Technology and Research (IJNTR) 
+                                                                                           ISSN:2454-4116,  Volume-2, Issue-7, July  2016  Pages 83-94 
+                                                                                89                                                                 www.ijntr.org 
+Heating is by means of an electric arc between a 
+consumable electrode and the ingot. There are other 
+ultra-high-strength steels that are not carbon steels. These 
+steels, known as "maraging" steels, are refined so as to 
+remove as much of the carbon as possible, and develop their 
+extreme strength and fatigue properties as a by-product of the 
+crystalline structures resulting from the large amounts of 
+nickel (15% and up) and cobalt (6% and up) they contain. 
+These steels can achieve extreme levels of strength and 
+maintain excellent levels of impact resistance. As far as I 
+could determine, maraging alloys are not currently used for 
+racing crankshafts but they have been used in certain extreme 
+application connecting rods. In the high performance 
+crankshaft world, the nickel-chrome-molyalloy SAE-4340 
+(AMS-6414) has been a favorite in both forged and billet 
+applications. It is used because of its very high strength and 
+fatigue properties, coupled with good ductility and impact 
+resistance at high strengths. SAE-4340 contains a nominal 40 
+points of carbon and is often described as the standard to 
+which other ultra-high strength alloys are compared. There 
+is evidence that lower carbon content provides better impact 
+resistance (reduced notch sensitivity) in certain alloys. The 
+air-hardening nickel-chrome-molyalloy EN-30B is used in 
+some high-end billet crankshafts, in both commercial and 
+VAR forms. This alloy contains 30 points of carbon, and has 
+a nickel content exceeding 4% (400 points). It has good 
+impact resistance at high strengths and is often used in 
+rock-drilling equipment and highly-stressed gears and 
+transmission components. The fact that it can be air quenched 
+to typical crankshaft core hardness is an added advantage 
+because the distortions and residual stresses which result 
+from oil quenching are avoided. Several manufacturers offer 
+billet crankshafts in EN-30B. At least one US manufacturer 
+of extreme duty crankshafts for NASCAR Cup, Top Fuel, 
+Pro-Stock, early IRL, and other venues has selected a 
+high-purity, lower-carbon version of the 43xx series of 
+nickel-chrome-molysteels, a high-grade variant of E- 4330-M 
+(AMS 6427). This material has a nominal 30 points of carbon 
+and has become a favorite for oil drilling and jet engine 
+components because of its very high toughness and impact 
+resistance when heat-treated to high strengths. This 
+manufacturer uses slight variations in the chemistry for 
+different applications, but was understandably reluctant to 
+discuss the variation specifics and how they affected the 
+desired properties. The company maintains tight control over 
+the entire process by purchasing its specific chemistry 
+materials from a single, extreme-quality steel manufacturer, 
+and by doing its heat-treating, cryogenic processing, 
+ion-nitriding and high-tech inspection all in-house. The use of 
+ion-nitriding allows the nitride process to be done subsequent 
+to finish-grinding. The material which is currently viewed as 
+the ultra-extreme crankshaft alloy is a steel available from the 
+French 
+manufacturer 
+Aubert 
+& 
+Duval, 
+known 
+as 
+32-CrMoV-13 or 32CDV13. It is a deep-nitriding alloy 
+containing 300 points of chrome, developed in the 
+mid-nineties specifically for aerospace bearing applications. 
+It is available in three grades. GKH is the commercial purity 
+and chemistry tolerance. GKH-W is the grade having higher 
+purity (VAR) and tighter chemistry tolerance. GKH-YW is 
+the extremely pure grade (VIM - VAR) and is said to cost 
+twice as much per pound as the -W grade. 
+According to data supplied by Aubert & Duval, 
+fatigue-tests of the -W and –YW grades, using samples of 
+each grade heat treated to similar values of ultimate tensile 
+strength, show consistently that the -YW grade achieves a 
+dramatic improvement (over 22%) in fatigue strength 
+compared to the -W grade, and the endurance limit is claimed 
+to be just a bit short of the yield stress, which is truly amazing. 
+I have been told that, because of the extreme stress levels on 
+Formula One crankshafts, most of them use the -YW grade, 
+while the lower stress levels of a Cup crank allow the 
+successful use of the -W grade. One well-known 
+manufacturer (Chambon) has developed a process which 
+allows the production of a deep case nitride layer in this alloy 
+(almost 1.0 mm deep, as compared to the more typical 0.10 to 
+0.15 mm deeplayer). They say this deeper case provides a far 
+less sharp hardness gradient from the >60 HRC surface to the 
+40-45 HRC core, which improves the fatigue and impact 
+properties of the steel. It says that its deep-case process 
+requires several days in the nitriding ovens, but the depth 
+allows finish-grinding after nitriding, using a very 
+sophisticated process to remove the distortions which 
+occurred during the nitriding soak. No discussion of high-end 
+crankshaft materials would be complete without mention of 
+the ultra-high-strength alloy known as 300-M (AMS 6419). 
+This alloy is a modification to the basic 4340 chemistry, in 
+which a few more points of carbon are added (higher 
+achievable hardness and strength), along with 170 points of 
+silicon and 7 points of vanadium. The vanadium acts as a 
+grain refiner, and the silicon enables the material to be 
+tempered to very high strength (285 ksi) and fatigue 
+properties, while retaining extremely good impact resistance 
+and toughness. This material (300-M) is expensive and 
+sometimes hard to get, since it is preferred for heavy aircraft 
+landing gear components. It has been used by a few 
+manufacturers for extreme duty Crankshafts and connecting 
+rods as well as high-shock aircraft components. However, 
+Several of the manufacturers I spoke with told me that they 
+consider their favorite Materials to be much better than 
+300-M for crankshaft applications. 
+Physical 
+properties 
+Zinc 
+alloy 
+Titanium 
+alloy 
+Nickel 
+alloy 
+Density 
+(G/Cm3) 
+6.65 
+4.43 
+8.89 
+Hardnes
+s Rockwell 
+C 
+34 
+36 
+40 
+Poisson's 
+Ratio (µ) 
+ 
+0.29 
+0.342 
+0.315 
+Modulus 
+of 
+Elasticity 
+Gpa 
+12.4 
+113.8 
+220 
+ 
+Introduction to Finite Element Method (FEM): 
+5.4.1 Basic Introduction: 
+In mathematics, the finite element method (FEM) is a 
+ 
+Experimental And Numerical Analysis Of Crankshaft Used In Hero Honda Splendor Motorcycle 
+ 
+                                                                                        90                                                                                  www.ijntr.org 
+ 
+numerical technique for finding approximate solutions to 
+boundary value problems for partial differential equations. It 
+uses subdivision of a whole problem domain into simpler 
+parts, called finite elements, and various methods from the 
+calculus of variations to solve the problem by minimizing an 
+associated error function. Analogous to the idea that 
+connecting many tiny straight lines can approximate a larger 
+circle, FEM encompasses methods for connecting many 
+simple element equations over many small sub domains, 
+named finite elements, to approximate a more complex 
+equation over a larger domain. 
+1) Basic Concept: 
+The subdivision of a whole domain into simpler parts has 
+several advantages: 
+ Accurate representation of complex geometry 
+ Inclusion of dissimilar material properties 
+  Easy representation of the total solution 
+ Capture of local effects. 
+A typical work out of the method involves (1) dividing the 
+domain of the problem into a collection of sub domains, with 
+each sub domain represented by a set of element equations to 
+the original problem, followed by (2) systematically 
+recombining all sets of element equations into a global 
+system of equations for the final calculation. The global 
+system of equations has known solution techniques, and can 
+be calculated from the initial values of the original problem to 
+obtain a numerical answer. In the first step above, the element 
+equations are simple equations that locally approximate the 
+original complex equations to be studied, where the original 
+equations are often partial differential equations (PDE). To 
+explain the approximation in this Comparative analysis of 
+fatigue failure in single cylinder petrol engine process, FEM 
+is commonly introduced as a special case of Galerkin method. 
+The process, in mathematical language, is to construct an 
+integral of the inner product of the residual and the weight 
+functions and set the integral to zero. In simple terms, it is a 
+procedure that minimizes the error of approximation by 
+fitting trial functions into the PDE. The residual is the error 
+caused by the trial functions, and the weight functions are 
+polynomial approximation functions that project the residual. 
+The process eliminates all the spatial derivatives from the 
+PDE, thus approximating the PDE locally with 
+ A set of algebraic equations for steady state problems. 
+ A set of ordinary differential equations for transient 
+problems. 
+These equation sets are the element equations. They are 
+linear if the underlying PDE is linear, and vice versa. 
+Algebraic equation sets that arise in the steady state problems 
+are solved using numerical linear algebra methods, while 
+ordinary differential equation sets that arise in the transient 
+problems are solved by numerical integration using standard 
+techniques such as Euler's method or the Runge-Kutta 
+method. 
+In step (2) above, a global system of equations is generated 
+from the element equations through a transformation of 
+coordinates from the sub domains' local nodes to the domain's 
+global 
+nodes. 
+This 
+spatial 
+transformation 
+includes 
+appropriate orientation adjustments as applied in relation to 
+the reference coordinate system. The process is often carried 
+out by FEM software using coordinate data generated from 
+the subdomains. FEM is best understood from its practical 
+application, known as finite element analysis (FEA). FEA as 
+applied in engineering is a computational tool for performing 
+engineering analysis. It includes the use of mesh generation 
+techniques for dividing a complex problem into small 
+elements, as well as the use of software program coded with 
+FEM algorithm. In applying FEA, the complex problem is 
+usually a physical system with the underlying physics such as 
+the Euler-Bernoulli beam equation, the heat equation, or the 
+Navier-Stokes equations expressed in either PDE or integral 
+equations, while the divided small elements of the complex 
+problem represent different areas in the physical system. 
+Comparative analysis of fatigue failure in single cylinder 
+petrol engine  FEA is a good choice for analyzing problems 
+over complicated domains (like cars and oil pipelines), when 
+the domain changes (as during a solid state reaction with a 
+moving boundary), when the desired precision varies over the 
+entire domain, or when the solution lacks smoothness. 
+ 
+Physics Type 
+Structural 
+Analysis Type 
+Static Structural 
+Reference Temp 
+42. °C 
+Object Name 
+Analysis Settings 
+State 
+Fully Defined 
+Save ANSYS db 
+No 
+Delete Unneeded Files 
+Yes 
+Nonlinear Solution 
+No 
+Object Name 
+Force 
+Magnitude 
+6860. N (ramped) 
+ 
+ 
+ 
+ 
+ 
+ 
+Force Analysis of Crankshaft 
+                                                                                    International Journal of New Technology and Research (IJNTR) 
+                                                                                           ISSN:2454-4116,  Volume-2, Issue-7, July  2016  Pages 83-94 
+                                                                                91                                                                 www.ijntr.org 
+Alloys 
+Figure 
+Total 
+deformation 
+results 
+Alloy 
+steel 41Cr4 
+ 
+ 
+ 
+7.7246×10-4
+mm 
+Titaniu
+m alloy 
+ 
+ 
+ 
+1.4262×10-3 
+mm 
+Alumini
+um alloy 
+ 
+ 
+ 
+1.2002×10-3 
+mm 
+Nickel 
+alloy 
+ 
+ 
+ 
+7.4×10-4 mm 
+Zinc 
+alloy 
+ 
+ 
+ 
+4.823×10-3 
+mm 
+Total Deformation of Crankshaft  
+ 
+Alloys 
+Figure 
+Equival
+ent Stress 
+results 
+Alloy 
+Steel 
+41Cr4 
+ 
+17.461 
+MPa 
+Titani
+um 
+Alloy 
+ 
+14.47 
+MPa 
+Alum
+inium 
+Alloy 
+ 
+25.997 
+MPa 
+Nicke
+l Alloy 
+ 
+32.453 
+MPa 
+Zinc 
+Alloy 
+ 
+6.5241 
+MPa 
+Equivalent Stress Result of Crankshaft  
+ 
+ 
+ 
+ 
+Analytical Observations of Alloy Steel, Titanium Alloy, 
+Aluminum Alloy in Hz 
+Fre
+q.  
+Alloy 
+Steel 
+Titaniu
+m Alloy 
+Aluminum 
+Alloy 
+1. 
+642.1 
+618.69 
+585.8 
+2. 
+697.5 
+683.09 
+676.2 
+3. 
+754.7 
+741.52 
+696.2 
+4. 
+1679.6 
+1621.6 
+1733.6 
+5. 
+1913.3 
+1879.4 
+1909.0 
+6. 
+2092.9 
+2049.5 
+2469.4 
+7. 
+2935.6 
+2874.8 
+3005.7 
+8. 
+3023.9 
+2979.3 
+3189.6 
+ 
+Analytical Observations of Nickel Alloy, Zinc Alloy 
+Fre
+q.  
+Nickel Alloy  
+Zinc Alloy 
+1. 
+612.7 
+169.5 
+2. 
+669.2 
+183.5 
+3. 
+725.0 
+198.4 
+4. 
+1603.5 
+443.3 
+5. 
+1837.8 
+502.9 
+6. 
+2008.1 
+550.6 
+7. 
+2816.7 
+772.2 
+8. 
+2907.7 
+794.3 
+ 
+VI. RESULT ANALYSIS AND COMPARISON 
+Alloy Steel 41Cr4 
+Mod
+e 
+Shapes  
+Mathematical 
+Results  
+FEA 
+ANSYS 
+Results  
+% 
+Error  
+  
+Frequency in Hz 
+  
+1 
+652.1 
+642.1 
+1.5 
+2 
+687.8 
+697.5 
+-1.4 
+3 
+747.2 
+754.7 
+-1.0 
+4 
+1689.1 
+1679.6 
+0.6 
+5 
+2037.6 
+1913.3 
+6.1 
+6 
+2161.6 
+2092.9 
+3.2 
+7 
+2791.4 
+2935.6 
+-5.2 
+8 
+3345.7 
+3023.9 
+9.6 
+ 
+TITANIUM ALLOY  
+Mod
+e 
+Shapes  
+Mathematical 
+Results  
+FEA 
+ANSYS 
+Results  
+% 
+Error  
+  
+Frequency in Hz 
+  
+1 
+603.0 
+618.69 
+-2.6 
+2 
+665.2 
+683.09 
+-2.7 
+3 
+707.1 
+741.52 
+-4.9 
+4 
+1693.0 
+1621.6 
+4.2 
+5 
+1803.1 
+1879.4 
+-4.2 
+6 
+2137.4 
+2049.5 
+4.1 
+7 
+2880.7 
+2874.8 
+0.2 
+8 
+2901.9 
+2979.3 
+-2.7 
+ 
+ 
+ 
+ 
+ 
+Experimental And Numerical Analysis Of Crankshaft Used In Hero Honda Splendor Motorcycle 
+ 
+                                                                                        92                                                                                  www.ijntr.org 
+ 
+ALUMINUM ALLOY  
+Mod
+e 
+Shapes  
+Mathematic
+al Results  
+FEA 
+ANSYS 
+Results  
+% Error  
+  
+Frequency in Hz 
+  
+1 
+599.4 
+585.8 
+2.3 
+2 
+650.2 
+676.2 
+-4.0 
+3 
+729.9 
+696.2 
+4.6 
+4 
+1648.8 
+1733.6 
+-5.1 
+5 
+2110.5 
+1909.0 
+9.5 
+6 
+2362.6 
+2469.4 
+-4.5 
+7 
+3360.7 
+3005.7 
+10.6 
+8 
+3548.0 
+3189.6 
+10.1 
+ 
+NICKEL ALLOY  
+Mod
+e 
+Shapes  
+Mathemati
+cal Results  
+FEA 
+ANSYS 
+Results  
+% 
+Error  
+  
+Frequency in Hz 
+  
+1 
+611.7 
+612.7 
+-0.2 
+2 
+663.1 
+669.2 
+-0.9 
+3 
+717.2 
+725.0 
+-1.1 
+4 
+1642.2 
+1603.5 
+2.4 
+5 
+1842.0 
+1837.8 
+0.2 
+6 
+2023.1 
+2008.1 
+0.7 
+7 
+2829.5 
+2816.7 
+0.5 
+8 
+3000.6 
+2907.7 
+3.1 
+ 
+ZINC ALLOY 
+Mod
+e 
+Shapes  
+Mathematical 
+Results  
+FEA 
+ANSYS 
+Results  
+% 
+Error  
+  
+Frequency in Hz 
+  
+1 
+160.8 
+169.5 
+-5.4 
+2 
+179.3 
+183.5 
+-2.3 
+3 
+200.7 
+198.4 
+1.1 
+4 
+449.4 
+443.3 
+1.4 
+5 
+481.4 
+502.9 
+-4.5 
+6 
+603.9 
+550.6 
+8.8 
+7 
+740.2 
+772.2 
+-4.3 
+8 
+890.4 
+794.3 
+10.
+8 
+ 
+VII. EXPERIMENTATION 
+ The experimental modal analysis (EMA) means the 
+extraction of modal parameters (frequencies, damping ratios, 
+and mode shapes) from measurements of dynamic responses. 
+Basically, it is carried out according to both input and output 
+measurement data through the frequency response functions 
+(FRFs) in the frequency domain, or impulse response 
+functions (IRFs) in the time domain. For mechanical 
+engineering structures, the dynamic responses (output) are 
+the direct records of the sensors. 
+EMA has grown steadily in popularity since the advent of 
+the digital FFT (Fast Fourier Transformation) spectrum 
+analyzer in the early 1970‟s (Schwarz & Richardson). In this 
+paper, we will make FRF measurements with a FFT analyzer, 
+modal excitation techniques, and modal parameter estimation 
+from a set of FRFs (curve fitting). Experimental modal 
+parameters (frequency, damping, and mode shape) are also 
+obtained from a set of FRF measurements. The FRF describes 
+the input-output relationship between two points on a 
+structure as a function of frequency. Since both force and 
+motion are vector quantities, they have directions associated 
+with them. Therefore, an FRF is actually defined between a 
+single input DOF (point &direction), and a single output 
+DOF. FRF is defined as the ratio of the Fourier transform of 
+an output response (X (ω)) divided by the Fourier transform 
+of the input force (F (ω)) that caused the output (See Fig. 6.1). 
+An FRF is a complexes valued function of frequency. 
+Actually FRF measurements are computed in a FFT analyzer. 
+ 
+Time and Frequency Domain 
+Exciting Modes with Impact Testing 
+Impact testing is a fast, convenient, and low cost way of 
+finding the modes of machines and structures. All the tests 
+were performed at the (name of your company), in the 
+Mechanical engineering LAB, at LGMT - CRITT. The 
+following equipment is required to perform an impact test:  
+1. An impact hammer with a load cell attached to its head 
+to measure the input force  
+2. An accelerometer to measure the response acceleration 
+at a fixed point & direction  
+3. A 2 channel FFT analyzer to compute FRFs.  
+4. Post-processing modal software for identifying modal 
+parameters and displaying the mode shapes in animation. 
+ 
+ 
+Vibrometer 
+or 
+accelerometer  
+Impact 
+hammer 
+/ 
+feedback hammer 
+ 
+ 
+Signal receives from 
+accelerometer 
+and 
+Impact hammer to  FFT  
+Curve 
+fit 
+or 
+graph 
+generated 
+on 
+laptop 
+screen 
+                                                                                    International Journal of New Technology and Research (IJNTR) 
+                                                                                           ISSN:2454-4116,  Volume-2, Issue-7, July  2016  Pages 83-94 
+                                                                                93                                                                 www.ijntr.org 
+VIII. RESULTS AND COMPARISON 
+MODAL ANALYSIS 
+Alloy Steel 41Cr4 
+Mo
+de 
+Shapes 
+Mathematical 
+Results 
+in Hz 
+FEA 
+ANSYS 
+Results in 
+Hz 
+% 
+Error 
+1 
+652.1 
+642.1 
+1.5 
+2 
+687.8 
+697.5 
+-1.4 
+3 
+747.2 
+754.7 
+-1.0 
+4 
+1689.1 
+1679.6 
+0.6 
+5 
+2037.6 
+1913.3 
+6.1 
+6 
+2161.6 
+2092.9 
+3.2 
+7 
+2791.4 
+2935.6 
+-5.2 
+8 
+3345.7 
+3023.9 
+9.6 
+ 
+TITANIUM ALLOY 
+Mo
+de 
+Shapes 
+Mathematical 
+Results in Hz 
+FEA 
+ANSYS 
+Results in Hz 
+% Error 
+1 
+603.0 
+618.69 
+-2.6 
+2 
+665.2 
+683.09 
+-2.7 
+3 
+707.1 
+741.52 
+-4.9 
+4 
+1693.0 
+1621.6 
+4.2 
+5 
+1803.1 
+1879.4 
+-4.2 
+6 
+2137.4 
+2049.5 
+4.1 
+7 
+2880.7 
+2874.8 
+0.2 
+8 
+2901.9 
+2979.3 
+-2.7 
+ 
+ALUMINUM ALLOY 
+Mo
+de 
+Shapes 
+Mathematica
+l Results in Hz 
+FEA 
+ANSYS 
+Results in Hz 
+% 
+Error 
+1 
+599.4 
+585.8 
+2.3 
+2 
+650.2 
+676.2 
+-4.0 
+3 
+729.9 
+696.2 
+4.6 
+4 
+1648.8 
+1733.6 
+-5.1 
+5 
+2110.5 
+1909.0 
+9.5 
+6 
+2362.6 
+2469.4 
+-4.5 
+7 
+3360.7 
+3005.7 
+10.6 
+8 
+3548.0 
+3189.6 
+10.1 
+ 
+NICKEL ALLOY 
+Mo
+de 
+Shapes 
+Mathemati
+cal Results in 
+Hz 
+FEA 
+ANSYS 
+Results in 
+Hz 
+% Error 
+1 
+611.7 
+612.7 
+-0.2 
+2 
+663.1 
+669.2 
+-0.9 
+3 
+717.2 
+725.0 
+-1.1 
+4 
+1642.2 
+1603.5 
+2.4 
+5 
+1842.0 
+1837.8 
+0.2 
+6 
+2023.1 
+2008.1 
+0.7 
+7 
+2829.5 
+2816.7 
+0.5 
+8 
+3000.6 
+2907.7 
+3.1 
+       
+ZINC ALLOY 
+Mo
+de 
+Shapes 
+Mathematical 
+Results in Hz 
+FEA 
+ANSYS 
+Results in 
+Hz 
+% 
+Error 
+1 
+160.8 
+169.5 
+-5.4 
+2 
+179.3 
+183.5 
+-2.3 
+3 
+200.7 
+198.4 
+1.1 
+4 
+449.4 
+443.3 
+1.4 
+5 
+481.4 
+502.9 
+-4.5 
+6 
+603.9 
+550.6 
+8.8 
+7 
+740.2 
+772.2 
+-4.3 
+8 
+890.4 
+794.3 
+10.8 
+ 
+IX. RESULTS AND DISCUSSION 
+Mathematical Comparison of Existing and Modified 
+Crankshaft 
+ 
+Frequen
+cy Range 
+for Mode 
+             
+Existing  
+         Modified 
+After Coating 
+ 
+Alloy 
+Steel 
+41cr4 
+ 
+Crank 
+Shaft 
+ 
+       Zinc Alloy 
+Crank Shaft 
+ 
+Mathematical 
+in Hz 
+Mathematical in 
+Hz 
+1. 
+640.0 
+160.8 
+2. 
+687.9 
+179.3 
+3. 
+747.2 
+200.7 
+4. 
+1689.1 
+449.4 
+5. 
+2037.7 
+481.4 
+6. 
+2161.7 
+603.9 
+7. 
+2791.7 
+740.2 
+8. 
+3345.8 
+890.4 
+ 
+ 
+Frequen
+cy 
+Range 
+for Mode 
+Existing 
+Modified After 
+Coating 
+Alloy 
+Steel 
+41cr4 
+ 
+Crank 
+Shaft 
+Zinc 
+Alloy 
+Crank Shaft 
+ 
+FEA Value in 
+Hz 
+FEA Value in 
+Hz 
+1. 
+642.1 
+169.5 
+2. 
+697.5 
+183.5 
+3. 
+754.7 
+198.4 
+4. 
+1679.6 
+443.3 
+5. 
+1913.3 
+502.9 
+6. 
+2092.9 
+550.6 
+7. 
+2935.6 
+772.2 
+8. 
+3023.9 
+794.3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Experimental And Numerical Analysis Of Crankshaft Used In Hero Honda Splendor Motorcycle 
+ 
+                                                                                        94                                                                                  www.ijntr.org 
+ 
+ 
+Freque
+ncy Range 
+for Mode 
+Existing 
+Modified After 
+Coating 
+Alloy 
+Steel 
+41cr4  Crank 
+Shaft 
+Zinc 
+Alloy 
+Crank Shaft 
+ 
+FEA Value in 
+Hz 
+FEA Value in 
+Hz 
+1. 
+642.1 
+169.5 
+2. 
+697.5 
+183.5 
+3. 
+754.7 
+198.4 
+4. 
+1679.6 
+443.3 
+5. 
+1913.3 
+502.9 
+6. 
+2092.9 
+550.6 
+7. 
+2935.6 
+772.2 
+8. 
+3023.9 
+794.3 
+ 
+X. CONCLUSIONS & RECOMMENDATIONS 
+ In this project, the crankshaft model was created by 
+CATIA V5 for modeling the crank shaft. Then, the created 
+model was import into ANSYS software for static structural 
+analysis. 
+FEA Results for equivalent (Von-Misses) stress, shows 
+that all selected material are below the limiting stress value of 
+crankshaft and hence can be used for testing. Also the results 
+of modal analysis FEA results match with the experimental 
+and theoretical calculation for validation of model. The value 
+of Von-misses stresses that comes out from the analysis is far 
+less than material yield stress so our design is safe.  
+The analysis of the crank shaft was done using five 
+different materials. These materials are Alloy Steel 41Cr4, 
+Titanium Alloy, Al Alloy, Zinc alloy. The comparison of 
+analysis results of all five materials will show the effect of 
+stresses on different materials and this will help to select 
+suitable material for coating. 
+Zinc Alloy can be used or coating can be done as it shows 
+better results and also economically cheaper. Force analysis 
+results also shows that it is having more stress bearing 
+capacity. Induced stress is also less so it can be preferred. 
+ACKNOWLEDGMENT 
+   I take this opportunity to thanks Dr. R. B. Barjibhe (P. 
+G. Co-ordinator, MechEnggDept) for his valuable guidance 
+and for providing all the necessary facilities, which were 
+indispensable in completion of this work.     
+I am also thankful to all staff member of the mechanical 
+Engineering Department. I would also like to thank the 
+college for providing required journals, books and access to 
+the internet for collecting information related to the project. 
+Finally I am also thankful to my friends and well-wishers for 
+their valuable comments and suggestions. 
+ 
+REFERENCES 
+[1] C.M.Balamurugan, R.Krishnaraj, Dr.M.Sakthivel, “Computer Aided 
+Modeling and Optimization of Crankshaft”, „International Journal of 
+Scientific & Engineering Research‟, ISSN 2229-5518, Issue 8, vol.2, 
+(2011).pp.1-6. 
+[2] Farzin H. Montazersadgh, “Optimization of a Forged Steel Crankshaft 
+Subject to Dynamic Loading”, „SAE International‟, Paper No 
+2008-01-0432, (2008). 
+[3] Jaimin Brahmbhatt, Prof. Abhishek choubey, “Design and Analysis of 
+Crankshaft for Single Cylinder 4-Stroke Diesel Engine”, „International 
+Journal of Advanced Engg. Research And Studied‟, ISSN: 2249-8974, 
+vol.1, Issue-IV, (2012), pp.88-90. 
+[4] Kartik D. Kothari, Ramdevsinh L. Jhala, “Optimization For Cost and 
+Weight of A Forged Steel Crankshaft Using Geometry Variables”, 
+ASME, (2009), pp. 13.1-13.7. 
+[5] Rinkle Garg, Sunil Baghla, “Finite Element Analysis and Optimization 
+of Crankshaft Design”, „International Journal of Engg.and 
+Management Research‟, ISSN: 2250-0758, vol-2, Issue-6, (2012), pp: 
+26-31. 
+[6] Bhumesh J. Bagde, Laukik P. Raut,“Finite Element Analysis of Single 
+Cylinder Engine crankshaft”, „International Journal of Advances in 
+Engineering &Technology‟,ISSN: 2231-1963,vol. 6, Issue 2,(2013), 
+pp. 981-986.. 
+ 

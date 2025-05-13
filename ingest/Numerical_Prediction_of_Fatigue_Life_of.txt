@@ -1,0 +1,381 @@
+GRD Journals | Global Research and Development Journal for Engineering | International Conference on Innovations in Engineering and Technology 
+(ICIET) - 2016 | July 2016 
+  e-ISSN: 2455-5703 
+ 
+ 
+All rights reserved by www.grdjournals.com 
+73 
+Numerical Prediction of Fatigue Life of 
+Crankshaft 
+ 
+ 
+1R.Keshor Kumar 2T. Dharun Velmani 3V. Balasubramani 
+3Assistant Professor  
+1,2,3Department of Mechanical Engineering  
+1,2,3Thiagarajar College of engineering, Madurai-625015, India 
+ 
+ 
+ 
+ 
+Abstract 
+ 
+ 
+In Automobile manufacturing plant, it was noticed that 7 out of 1000 crankshafts are prone to failure. This work is concentrated to 
+identify the cause of failure in the crankshaft and to improve the fatigue life of the crankshaft by performing parametric study. In 
+parametric study, the crankshaft is designed and analyzed in ANSYS WORKBENCH by varying the fillet radius of journal bearing. 
+The maximum equivalent alternating stress and cycles to failure were predicted in numerical analysis. The cycles to failure are 
+increased by varying the parameter and hence the fatigue life of crankshaft is improved.  
+Keyword- Numerical Model, Dynamic Analysis, Torsion Test Analysis, Bending Test Analysis, Fatigue life 
+__________________________________________________________________________________________________ 
+I. INTRODUCTION 
+Crankshaft is a large component with a complex geometry in the engine, which converts the reciprocating displacement of the 
+piston into a rotary motion. This study was conducted on a four cylinder petrol engine. It must be strong enough to take the 
+downward force during power stroke without excessive bending. [3] Due to the repeated bending and twisting load the crankshaft 
+fails as cracks form in fillet area and prediction of fatigue life is important to ensure safety of components. [5] The journal pin fillet 
+area is identified as the critical location. The stress concentration and cycles to failure is improved using ANSYS WORKBENCH 
+14.5.  
+II. MODELLING OF THE CRANKSHAFT 
+Figure 1 shows the crankshaft developed in creo 2.0 software and figure 2 shows it’s dimensions. 
+ 
+Fig. 1: CAD Model of Crankshaft 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+74 
+All rights reserved by www.grdjournals.com 
+ 
+Fig. 2: Dimensions of the Crankshaft 
+Part No 
+Description 
+1 
+Crankshaft Flange 
+2 
+Main Journal 
+3 
+Counter Weight Or Balancing Weight 
+4 
+Crank Pin 
+5 
+Pulley 
+6 
+Pulley Key Seat 
+7 
+Key Way 
+8 
+Balancing Completion 
+9 
+Inclined Oil Hole Through Condition 
+10 
+Vertical Oil Hole Through Condition 
+11 
+Pulley Bolt Hole 
+Table 1:  Parts of the Crankshaft 
+Properties 
+Symbols 
+Value 
+Modulus of elasticity, 
+E, GPa 
+178 
+Yield Strength , 
+YS, MPa 
+412 
+Ultimate strength, 
+Su, MPa 
+658 
+Percent elongation, 
+%EL 
+10% 
+Strength coefficient, 
+K, MPa 
+1199 
+Strain hardening exponent, 
+n 
+0.183 
+Fatigue strength coefficient, 
+σf, MPa 
+927 
+Cyclic yield strength, 
+YS, MPa 
+519 
+Fatigue strength 
+Sf , MPa 
+263 
+Table 2: Properties of ductile cast iron 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+75 
+All rights reserved by www.grdjournals.com 
+III. DETERMINATION OF FORCES 
+A. Determination of Gaseous Forces 
+The gas forces acting on the crankshaft are determined using Get Data software. It converts the graphical data into digital format. 
+Hence, it is possible to obtain the values at any point on the curve. Minimum and maximum values of the volume of engine are 
+obtained using the P-V diagram shown in figure 3. 
+Volume 
+Unit in cm3 
+Vmax 
+275 
+Vmin 
+3.75 
+Table 3: Maximum and minimum volume of engine during combustion 
+ 
+Fig. 3: P-V diagram of Hyundai petrol engine 
+Table 3 shows the values of Vmin and Vmax and the formulas used to obtain the swept volume of the engine is shown below. 
+Vswept = Vmax - Vmin 
+Swept volume can be written as 
+Vswept = π R2S 
+Where, 
+R is radius of piston and 
+S is stroke length of the engine. 
+Therefore the volume of the engine is changing with respect to Ө. From the P-V diagram shown in fig 4 values of pressure 
+at volumes are obtained. Using these relations values of pressures are obtained for different crank angles. (Crank angles in Ө) 
+ 
+Fig. 4: Plot for crank angle vs engine pressure 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+76 
+All rights reserved by www.grdjournals.com 
+ 
+Forces acting on the crankshaft due to gas force in X and Y direction: 
+(Fcx)G = -P 
+(Fcx)G = P tanβ 
+B. Determination of Inertial Forces 
+The parametric representation of the crankshaft, connecting rod and piston assembly is represented in figure 5. 
+ 
+Fig. 5: Parametric representation of the crankshaft, connecting rod, and piston assembly 
+ 
+The linear velocity and acceleration of piston are given by: 
+vp = ω r (sinθ + (sin2θ/n)) 
+ap = ω2 r (cosθ + (cos2θ/n)) 
+Where 
+ω is the angular velocity of crank shaft (rad/s) 
+r is the radius of crank angle (m) 
+θ is the crank angle with the horizontal 
+n = l/r 
+l is the length of the connecting rod (m) 
+ 
+Forces acting on the crankshaft in X and Y direction considering effect of inertia force due to piston: 
+(Fcx) p = -mp ap 
+(Fcy)p = mp ap tanβ 
+Where  
+mp  is the mass of the piston (10 Kg) 
+β is the angle connecting rod makes with the horizontal 
+ 
+Forces acting on the crankshaft in X and Y direction considering effect of inertia force due to lumped mass of connecting rod 
+at wrist pin C: 
+(Fcx) c = - mw ap 
+(Fcy)c = mw ap tanβ 
+Where  
+mw is the lumped mass of connecting rod at wrist pin C (0.1Kg) 
+ 
+Forces acting on the crankshaft in X and Y direction considering effect of inertia force due to lumped mass of connecting rod 
+at crank pin B: 
+(Fcx)B = - ms r ω2 cosθ 
+(Fcy)B = ms r ω2 sinθ 
+Where - ms is the lumped mass of the connecting rod at crank pin B (0.19Kg) 
+mr is the mass of the connecting rod ( 300g) 
+The total bearing load is 
+Fcx = -mp ap– mw ap – ms r ω2 cosθ - P 
+Fcy = mp ap tanβ + ms ap tanβ + ms r ω2 sinθ +P tanβ 
+Fcx and Fcy are expressed in the global coordinate system, which is not rotating with the crankshaft. Forces expressed in a 
+coordinate system attached to the crankshaft are given by: 
+FX = Fcx cosθ + Fcy sinθ 
+FY = Fcy cosθ – Fcx sinθ 
+IV. PARAMETRIC TECHNIQUES 
+The fatigue life of the crankshaft for the existing crankshaft is 22014 number of cycles to failure at 4500 rpm. The critical region 
+for the fatigue crack initiation is identified at the groove region on the main journal bearing of the crankshaft [10]. So in order to 
+reduce the number of cycles to failure the fillet radius has to be modified. The journal groove near the fillet region of main bearing 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+77 
+All rights reserved by www.grdjournals.com 
+is prone to fatigue failure because most of the degrees of freedom are constrained there [7]. To reduce the number of cycle to 
+failure the profile of the existing fillet in the journal bearing of the crankshaft is to be changed with semi elliptical groove as shown 
+in figure 6. 
+ 
+ 
+ 
+Fig. 6: Existing groove design near main journal fillet (left) semi elliptical groove design near main journal ( right) 
+V. NUMERICAL ANALYSIS 
+Figure 7 shows the numerical model of the crankshaft and its parameters are shown in Table 2. 
+ 
+Fig. 7:  Numerical Model of the Crankshaft 
+PARAMETERS 
+VALUE 
+Mesh Type 
+Quadratic tetrahedral 
+Elements 
+67495 
+Nodes 
+117114 
+Element Size 
+1.9664e-002 mm 
+Relevance Centre 
+Fine 
+Table 4: Numerical parameters of the crankshaft 
+A. Dynamic Analysis 
+The crankshaft is subjected to two different load sources  
+ 
+Inertia of rotating components (e.g. Connecting rod) applies forces to the crankshaft and this force increases with the increase 
+of engine speed.  
+ 
+The second load source is the force applied to the crankshaft due to gas combustion in the cylinder. The slider-crank 
+mechanism transports the pressure applied to the upper part of the slider to the joint between crankshaft and connecting rod 
+[2]. 
+ 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+78 
+All rights reserved by www.grdjournals.com 
+ 
+Fig. 8: Plot for Crank Angle vs Von Misses Stress 
+ 
+Figure 8 shows the plot for crank angle vs von misses stress for optimized crankshaft at 4500 rpm. 
+ 
+Fig. 9: Reduction in the stress concentration level near the journal groove region 
+ 
+Fig. 10: Equivalent alternating stress for the crankshaft 
+ 
+Figure 9 shows the reduction in stress concentration level near the journal groove region at 4500 rpm 
+ 
+Fig. 11: Fatigue life for  the crankshaft at 4500 rpm 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+79 
+All rights reserved by www.grdjournals.com 
+Figure 10 shows the reduction in equivalent alternating stress to 272 MPa and figure 11 shows the increase in cycles to failure to 
+7.879x105  at 4500 rpm by dynamic analysis. 
+ 
+Fig. 12: Comparison of the fatigue life crankshaft 
+ 
+Figure 12 shows the comparison of fatigue life of the parameter studied crankshaft with the existing crankshaft  
+B. Bending Test Analysis 
+The maximum bending load acting on the crankpin bearing is at 355 degrees. The critical loads due to the slider crank mechanism 
+induces bending and shear forces on the crankshaft.[5] The bending moment acting on the centre of the crankshaft is calculated 
+based on the following equation           
+M / I = σb / y 
+Where  
+M is the maximum bending moment acting on crankpin (N.m) 
+I is the area moment of inertia = (π x dp)/64 (m4) 
+Y is the distance of C.G from neutral fibre = dp/2 (m) 
+σb is the maximum allowable bending stress for nodular cast   iron (210 MPa) 
+dp  is the diameter of the crankpin (0.0384m) 
+M = 1166.78 N.m 
+ 
+Fig. 13: Equivalent alternating stress for crankshaft 
+ 
+ 
+Fig. 14: Fatigue life contour for  the crankshaft 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+80 
+All rights reserved by www.grdjournals.com 
+Figure 13 shows the reduction in equivalent alternating stress to 328.23 MPa and figure 14 shows the increase in cycles to failure 
+to 2.657x105  at 4500 rpm after conducting bending test analysis. 
+C. Torsional Test Analysis 
+The twisting load on the crankshaft is a negligible force when compared with the bending load acting on the crankpin.The 
+maximum twistinng moment on the crankshaft occurs at an crank angle of 25 to 35 degrees. The torque or twisting moment on the 
+crankshaft is calculated as follows [4] 
+Piston effort (Fp) =  (Net force acting on piston at 35 deg) - m ω2 r ( cos θ + (cos 2θ/n) ) + mg 
+= 1410 – 3989 + 9.81 
+= -2569.19 N 
+T = FT  r = Fp  r  ( sin θ + (sin 2θ / 2 ( n2 – sin2 θ)1/2 ) ) 
+= - 36.4 N.m 
+where  
+m is the mass of the reciprocating parts = 1 kg 
+ω is the angular velocity of crankshaft = 471 rad/s 
+r is the crank radius = 0.0192 m 
+θ is the crankangle = 35 deg 
+Fp is the piston effort, N 
+FT is the tangential force acting on the crankshaft, N 
+ 
+Fig. 15: Equivalent alternating stress contour for the crankshaft 
+Figure 15 shows the reduction in equivalent alternating   stress to 108 MPa   and table 5 shows the tabulated values of 
+equivalent alternating stress and cycles to failure is increased to 106 cycles. 
+VI. RESULTS AND DISCUSSION 
+A. Dynamic Analysis 
+ 
+The critical failure speed for crankshaft is maximum speed of 4500 rpm as the von misses stress at 3600 rpm is well under the 
+yield stress and fatigue strength of the material. 
+ 
+The maximum von misses stress for the crankshaft after parametric study was reduced from 453 MPa to 332 MPa which is a 
+19 % reduction in the maximum von misses stress under dynamic condition at a maximum operating speed of 4500 rpm. 
+ 
+The fatigue life of the crankshaft after design optimization was improved from 22104 to 7.895x105 number of cycles to failure 
+under dynamic condition at a maximum speed of 4500 rpm.  
+ 
+The stress concentration near the journal groove at the fillet region was reduced by changing the profile of existing groove of 
+radius 1.1 mm to semi elliptical shape of radius 1.46 mm as shown in figure 6 so the stress gets equally distributed at the 
+groove region. 
+ 
+The notch sensitivity was reduced by increasing the r/d ratio to unity so that plasticity of the fillet surface is controlled. 
+B. Bending Test Analysis 
+ 
+The maximum von misses stress for the crankshaft after parametric study was reduced from 359 MPa to 328 MPa- a 8.6 % 
+reduction in the stress level. 
+ 
+The fatigue life of the crankshaft under bending condition after design optimization was improved from 8. 347x104 to 2.657 
+x 105 number of cycles to failure which is due to minimization of stress near the groove region of the crankshaft. 
+ 
+Numerical Prediction of Fatigue Life of Crankshaft  
+(GRDJE / CONFERENCE / ICIET - 2016 / 012) 
+ 
+ 
+81 
+All rights reserved by www.grdjournals.com 
+C. Torsion Test Analysis 
+ 
+In torsion test analysis the maximum von misses stress for the crankshaft was reduced from 114 to 108 MPa - a 5 % reduction 
+in the stress level, by modifying the fillet radius in the journal bearing as fillet radius is inversely proportional to the stress 
+concentration. 
+VII. 
+CONCLUSION 
+ 
+In dynamic analysis there was a 19% reduction in the maximum von misses stress and also the cycles to failure was increased 
+to 34% 
+ 
+The maximum von misses stress for the crankshaft after design optimization was reduced from 359 to 328 Mpa which is a 8.6 
+% reduction in the stress level. 
+ 
+The cycles to failure of the crankshaft under bending condition was increased by 21%. 
+ 
+In torsion test analysis there was a 5% reduction in the maximum von misses stress. 
+ 
+The fatigue life of the crankshaft in terms of cycles to failure has improved by modifying the existing crankshaft design. 
+REFERENCES 
+[1] “Failure Analysis of four cylinder diesel engine crankshaft made form nodular cast iron” by G.H.Fahrrahi, F.Hemmati, S.M.H-
+Gangaraj, M.Sakhaei, S.Abolhassani, Volume 22, February 2011, pp. 21-28. 
+[2] Farzin H. Montazersadgh and Ali Fatemi, “Stress Analysis and Optimization of Crankshafts Subject to Dynamic Loading”,A 
+Final Project Report Submitted to the FIERF and AISI 
+[3] Mahesh L. Raotole, D. B. Sadaphale,J. R.Chaudhari, “Prediction of Fatigue Life of Crank Shaft using S-N 
+Approach”,International Journal of Emerging Technology and Advanced Engineering,Volume 3, Issue 2, February 2013, pp. 
+447-454. 
+[4] Anant Prakash Agrawal and S. K. Srivastava, “Fatigue Life Prediction Of Crankshaft Based On Strain Life 
+Theories”,International Journal of Engineering Research & Technology ISSN: 2278-0181,Vol. 1 Issue 8, October 2012, pp. 
+1-5. 
+[5] Seema S. Shinde, C. S. Pathak and Manoj Ukhande,”Fatigue Life assessment of crankshaft under Bending and Torsional 
+Loading”,International Journal of Engineering Research & Technology Vol. 2 Issue 11, November – 2013, ISSN: 2278-0181, 
+pp 2197-2201. 
+[6] Kanwar J. S. Gill, Pali Rosha, Subhash Chander, R. S. Bharaj,”Durability Analysis of Lightweight Crankshafts Design Using 
+Geometrically Restricted Finite Element Simulation Techniques for Camless Engines”,International Conference of Advance 
+Research and Innovation-2014, ISBN 978-93-5156-328-0, pp 56-68. 
+[7] Vijay kumar Khasnis, Manoj Ukhande, Girish Tilekar,Rajesh Mane, Girish Shegavi,”Crankshaft Design Optimization to 
+improve Dynamic Balancing and Fatigue Strength”, International Journal of Automotive Engineering 20154060, pp. 59-66. 
+[8] Ms.Shweta Ambadas Naik,”Failure Analysis of Crankshaft by Finite Element Method-A Review”,International Journal of 
+Engineering Trends and Technology – Volume 19 Number 5 – Jan 2015, pp. 233-239. 
+[9] Amit Patil, Gajanan Datar and Amol Kolhe “Crankshaft Failure dude to fatigue”, IJMERR, ISSN 2278-0149, Volume 3, no 
+1, January 2014, 166-172. 
+[10] Pratik Kakade, Manish D. Pasakar “ Analyzing and Identifying Various Approaches for Crankshaft Failure”, Journal of 
+Multidisciplinary Enginnering and Technology, ISSN: 3159-0040, Volume 2, issue 2, February 2015, pp. 76-92.  

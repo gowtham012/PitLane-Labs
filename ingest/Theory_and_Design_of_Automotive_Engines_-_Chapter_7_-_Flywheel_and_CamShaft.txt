@@ -1,0 +1,1709 @@
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+  
+  
+  
+  
+CHAPTER-7
+CHAPTER-7  
+  
+Flywheel
+Flywheel  &&  Camshaft
+Camshaft  
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+1
+Flywheel 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+2
+Flywheel
+In a combustion engine, & especially in one with one or two cylinders, energy is imparted to the 
+crankshaft intermittently, & in order to keep it rotating at a fairly uniform speed under a substantially 
+constant load, it is necessary to provide it with a flywheel. 
+In a single cylinder engine(4 Stroke), in which there is only one power stroke in two revolutions of 
+the crankshaft, a considerable fraction of energy generated per cycle is stored in the flywheel, & the 
+proportion thus stored decreases with an increase in the No. of cylinders 
+In a 4 cylinder engine about 40% of the energy of the cycle is temporarily stored. 
+However, not all of this energy goes into flywheel 
+During the 1st half of the power stroke, when energy is being supplied in excess by the burning gases, 
+all of the reciprocating parts of the engine are being accelerated & absorb energy; besides, the rotating 
+parts other than the flywheel also have some flywheel capacity, & this reduces the proportion of the 
+energy of the cycle which must be stored in the flywheel.  
+In a 6 cylinder engine the proportion of the energy which must be absorbed & returned by the moving 
+parts amounts to about 20%. 
+The greater the No. of cylinders the smaller the flywheel capacity required per unit of piston 
+displacement, because the overlap of power strokes is greater & besides other rotating parts of the engine 
+have greater inertia. 
+However, the flywheel has by far the greatest inertia even in a multi cylinder engine. 
+Aside from its principle function, the fly wheel serves as a member of the friction clutch, & it usually 
+carries also the ring gear of the electric starter. 
+A flywheel used in machines serves as a reservoir which stores energy during the period when the 
+supply of energy is more than the requirement and releases, it during the period when the requirement of 
+energy is more than supply. 
+In case of steam engines, internal combustion engines, reciprocating compressors and pumps, the 
+energy is developed during one stroke and the engine is to run for the whole cycle on the energy 
+produced during this one ,stroke. For example; in I.C. engines, the energy is developed, only during 
+power stroke which is much more than the engine load; and no energy is being developed during suction, 
+compression and exhaust strokes in case of four, stroke engines and during compression in case of two 
+stroke engines. The excess energy developed during power stroke is absorbed by the flywheel and 
+releases it to the crankshaft during other strokes in which no energy is developed, thus rotating the 
+crankshaft at a uniform speed. A little, consideration will show that when the flywheel absorbs energy, its 
+speed increases and when it releases, the speed decreases. Hence a flywheel does not maintain a constant 
+speed, it simply reduces the fluctuation of speed. 
+In machines where the operation is intermittent like punching machines, shearing machines, 
+riveting machines, crushers etc., the flywheel stores energy from the ,power source during the greater 
+portion, of the operating cycle and gives it up during a small period of the cycle. Thus the energy from 
+the power source to machines is supplied practically at a constant rate throughout the operation. 
+Note: The function of a governor in engine is entirely different from that of a flywheel .It 
+regulates the mean speed of an engine when there are variations in the load, e.g., when the load on the 
+engine increases it becomes necessary to increase the supply of Working fluid. On the other hand, when 
+the load decreases, less working fluid is required. The governor automatically; controls the supply, of 
+working fluid to the engine with the varying load condition and keeps the mean speed within certain 
+limits. 
+As discussed above, the flywheel does not maintain constant speed. It simply reduces the 
+fluctuation of speed. In other words a flywheel controls the speed variations caused by the fluctuation of 
+the engine turning moment during each cycle of operation. It does not control the speed variations 
+caused by the varying load. 
+Coefficient of Fluctuation of Speed 
+       The difference between max. & min. speeds during a cycle is called maximum fluctuation of speed. 
+       The ratio of the max. fluctuation of speed to mean speed is called coefficient of fluctuation of speed. 
+Let  
+N1 =Maximum speed in r.p.m. during the cycle, 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+4
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+7
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+10
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+11
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+12
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+13
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+14
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+15
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+16
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+17
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+18
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+19
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+21
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+22
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+23
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+24
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+25
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+26
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+27
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+28
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+29
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• References; 
+٭High Speed Combustion Engines 
+-P M Heldt 
+٭Machine Design -R S Khurmi,  
+ 
+ 
+ ٭Auto Design 
+-R B Gupta 
+٭AUTOCAR INDIA, (Illustrated Automotive Glossary),  ٭Encyclopedia Britannica  
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+30
+Camshaft 
+ 
+A cam is a mechanical member for transmitting a desired motion to a follower by direct contact. 
+The driver is called the cam, and the driven member is called the follower. The cam, may remain 
+stationary, or translate oscillate or rotate whereas the follower may translate or oscillate. 
+ 
+Types of Cams 
+Cams may be classified in the following three ways: 
+(i) Follower motion, 
+e.g. dwell-rise-dwell (D-R-D); dwell-rise return-dwell (D-R-R-D) ; or rise-return-rise (R-R-R). 
+(ii) Cam shape 
+e.g. 
+wedge, radial, globoidal, cylindrical, conical, spherical. 
+ 
+(iii) Manner of constraint of the follower. 
+Constraint may be obtained either by spring loading to keep the follower in contact with the cam 
+surface, or by position drive. 
+ 
+(i) Classification Based on follower motion 
+ 
+(a) Dwell-rise-dwell cam. 
+The zero displacement part of the cam is ca1led 
+dwell. There is zero displacement followed by a 
+rise contour, to another dwell, period, It is used 
+very frequently in machinery, In this case rise is 
+followed by a fall or it may be dwell-rise-dwell 
+return. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(b) Dwell-rise return-dwell cam (D-R-R-D) 
+In this type the rise and return are 
+ 
+preceded & followed by dwells  
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+31
+ 
+Flywheel 
+(c) Rise-return-rise cam (R-R-R). 
+This has no dwells .its application 
+is limited. An eccentric mechanism is 
+suggested in place of such a contour 
+cam  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(ii) Classification Based on the shape of the cam 
+ 
+(a) The translation, wedge or .flat cam, 
+This is the-simplest type of cam. The plate cam moves back and forth imparting a 
+translatory motion to the follower. The follower could be held in the groove & thus has a positive 
+motion. The follower could be held by a spring & the plate cut to give a desired motion with out 
+any groove cut. The follower will in that case move on the surface of the plate. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+32
+ 
+Flywheel 
+(b) The radial or disc cam.
+ 
+The position of the follower is 
+determined by the radial distance from the 
+cam axis. The follower is held in contact by 
+spring, or gravity. (Fig B) 
+ 
+In Fig.B1 &2, the difference is only 
+of constraint. The follower has positive 
+constraint. The radial type of cams are the 
+most popular because of their simplicity 
+and compactness. 
+The cam shown in Fig.B1 is also 
+called the yoke cam.  
+The cam shown in Fig.B2 is 
+conjugate supplementary or double disc 
+cam. In this type, one roller is preloaded 
+against the other. This imparts very precise 
+motion. 
+ 
+ 
+ 
+A particular type of radial plate 
+cam called circular arc cam used in 
+Automobile, has its contour composed of 
+radii of circles. 
+ 
+The spiral cam shown in Fig.B3 is a 
+form of face cam having a spiral groove cut in 
+it. Pin gear follower is driven by teeth in the 
+groove; the follower velocity is a function of 
+the radial distance of the groove from the axis 
+of the cam. 
+This cam is used in computers, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+33
+(c) The cylindrical or drum cam. 
+It has a circumferential contour cut in the surface of the cylinder which rotates about its axis. The 
+follower may translate or oscillate in the direction of this axis, Two types of cylindrical cams, one in 
+which the groove is cut on the surface and roller has constrained positive motion: and the other in which 
+the end of the cylinder is the working surface are shown in Figs C1 and C2, The follower in Fig, C1 is 
+having an oscil1atory motion and Fig, C2 it is having translatory motion. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(d) The globoidal cam, 
+It is similar to the cylindrical cam. Convex or concave globoids, as shown in Figs.D1 and D2 
+replace the cylinder. These cams, though of much academic interest have not been popular. These cams 
+are used for indexing and other such purposes. These are used for much specialized application. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+34
+(iii) Classification based on constraint 
+ 
+(a) Spring loaded or pre-loaded. 
+In the radial cams of the types shown in Fig. A1, the follower is to be held by an external force 
+provided by pre-compression of the spring or hydraulic load or gravity. The cylindrical cam shown in 
+Fig. A2 is also a case of successful constraint. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+35
+(iii)  
+(b)The cylindrical cam shown in Fig. B1, the globoidal cams shown in Figs. B2 and B3, and the yoke 
+cams (Fig.B4) are all cases of positive constraint. No external force is; required to keep the follower and 
+the cams surface in contact 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+36
+ 
+Flywheel 
+Typesof Followers. 
+ 
+Followers may be classified in the following 
+three ways: 
+(i) Construction of the surface in contact 
+e.g. 
+knife-edge, 
+roller, 
+flat-faced 
+mushroom or special shape mushroom. 
+(ii) The type of motion-translatory and 
+oscillatory. 
+(iii)Location of the line of motion, with respect 
+to cam centre, radial & offset 
+(i) Classification based on the surface in 
+contact (refer figure 1) 
+(a) Knife-edge, 
+A sharp knife edge is in contact with 
+cam. It is the simplest in construction, but of 
+very little practical use due to the fact that 
+extreme wear of the cam surface and the 
+contact will take place. 
+(b) A roller follower 
+It is a cylindrical roller held by a pin to the 
+follower assembly. At low speeds, a perfect 
+rolling contact is possible, though some sliding occurs at high speeds. This type is very extensively used. 
+Aircraft engines employ roller followers to limit wear at high cam peripheral velocities. 
+( C)Mushroom follower. 
+It may be flat-faced having perfectly flat plane. This 
+causes high surface stresses. To minimise these stresses a 
+spherical shape having a surface of large sphere radius is 
+used. 
+Automobile engines use flat-faced mushroom followers 
+with spherical curvature in preference to rollers because of 
+limited space and pin weakness. 
+ 
+(ii) Classification based on type of movement 
+(a) Translation. 
+The followers shown in above Fig.1 are all translatory 
+followers. The cam rotates uniformly and the follower reciprocates 
+in the guides. 
+(b) Oscillation. 
+A uniform rotary motion of the cam is converted to a pre-
+determined oscillatory motion of the follower which is pivoted at 
+a suitable point to the fixed frame. 
+ 
+(iii) Classification based on line of motion 
+(a) Radial follower, (refer figure 1) 
+Radial follower is one in which the follower translates along 
+an axis passing through the cam centre of rotation. 
+(b) Offset follower, 
+Offset follower is one in which the axis of the follower 
+movement is displaced from the cam, centre of rotation. The off-
+set may be to the right or to the left.
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+37
+Camshaft
+ 
+The camshaft provides a means of actuating the opening and controlling the period before closing, 
+both for the inlet as well as the exhaust valves. It also provides a drive for the ignition distributor and the 
+mechanical fuel pump. 
+The camshaft receives its motion from the crankshaft, from which all of the accessories also must 
+be driven. 
+In the case of passenger car engines these accessories usually include 
+a fuel pump, 
+an oil pump, 
+a water pump, 
+a generator, 
+an ignition unit, and 
+a fan. 
+In cars equipped with hydraulic power steering a drive must be provided for an additional pump. 
+On truck and bus engines there may be an air compressor, a governor, and a magneto in addition, 
+though the latter item of equipment is now rarely found on road vehicles. .A drive must be provided also 
+for the starting motor. 
+The camshaft consists of a number of cams at suitable angular positions for operating the valves 
+at approximate timings relative to the piston movement and in a sequence according to the selected firing 
+order. There are two lobes on the camshaft for each cylinder of the engine; one to operate the intake valve 
+and the other to operate the exhaust valve. A number of integral bearing journals support the shaft in 
+bearings. Camshaft bearing journals are always larger than the cam lobes so that the camshaft may be 
+installed in the engine through the cam bearings. To provide room for lubrication and metal expansion, a 
+clearance of 0.05 to 0.125 mm is usually provided between the bearing journals and the bores. 
+Usually there is an integral spiral toothed gear on the camshaft to drive the distributor and the oil 
+pump. The fuel pump is operated from an integral eccentric or a bolt-on eccentric. In some cases, 
+however, distributors are driven directly from the camshaft end. 
+Endwise movement of the camshaft is limited by a thrust plate between the front bearing journal 
+and the drive gear or the sprocket. This thrust plate is bolted to the engine. However, in some engines 
+instead of the thrust plate, the same is achieved by the tapered spiral teeth of the distributor oil pump 
+drive. 
+ 
+Material 
+ 
+The camshaft is forged from alloy steel or cast from hardenable cast iron and is case hardened. A 
+typical cast iron alloy for a camshaft would consist of 
+3.3% carbon, 
+2% silicon, 
+0.65 % manganese, 
+0.65 % chromium, 
+0.25% molybdenum and the remainder iron. 
+In modern engines, cam lobes are ground with a slight taper across the face. The tappets used with such 
+camshafts have spherical base and are slightly offset from the cam face. This provides tappet rotation and 
+a wear pattern preventing edge loading which is a major cause of failure. Camshaft is supported in a 
+number of bearings. 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+38
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+39
+Camshaft drive 
+The camshaft rotates at half the crankshaft speed so as to open and close the valves once in every 
+two revolutions of crankshaft. 
+In designing a drive for the camshaft and accessories of passenger- car engines, silence of 
+operation is an important consideration. Most of the early automobile engines had a plain spur-gear drive, 
+but in 1905 to eliminate the noise of poppet valves, it was found that, in order to achieve any real 
+improvement, other sources of noise also to be eliminated as well, and so for the half-time shaft a 
+toothed-chain drive was used. 
+ 
+With increasing engine speeds the problem of reducing gear noise became constantly more 
+urgent, and from 1911 on camshaft gears on the more expensive cars were cut with helical teeth, the 
+pinion on the crankshaft at that time being made of steel and the gear on the camshaft of cast iron. Most 
+truck engines still use such metal gears with helical teeth, while the majority of passenger car engines 
+now have a chain drive, and those that have gear drive have one of the gears made of non-metallic 
+material. 
+The drive from crankshaft to the camshaft may be either chain drive or gear drive where camshaft 
+gear or sprocket wheel is twice as large as the crankshaft gear or sprocket wheel. There are timing marks 
+on the sprockets or gears of the camshaft and the crankshaft to ensure correct valve timing. In a chain 
+drive a separate idler gear has to be provided. Moreover, a long chain drive tends to whip to avoid which 
+a tensioning device is used, which may be a roller or spring-loaded steel strip or a rubber pad attached to 
+a spring-loaded piston. 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+40
+Gear drives, on the other hand, need no tensioner, but are noisy and are suitable only for 
+camshafts mounted close to the crankshafts. Obviously gear is not suitable for overhead camshafts. 
+The latest type of drive is, however, by means of a toothed rubber belt, which is made of rubber 
+molded onto a non-stretching cord Such belts operating relatively silently, do not need any lubrication 
+and are becoming increasingly popular for both petrol as well as diesel engines with overhead camshaft. 
+Periodic tensioning checks are all that is required for these. 
+Timing gears are made of cast iron, steel, aluminum or laminated fiber. Chains are made with 
+links of alloy steel with ground and case hardened pins. 
+Sprockets are made of nylon, aluminum, steel or iron. 
+ 
+Oil Pump and Ignition-Unit Drive 
+The ignition unit combines an interrupter and a distributor which must be driven at camshaft 
+speed. A very common practice is to provide on the engine a shaft, either vertical or inclined, which is 
+driven from the camshaft by helical 
+gearing, generally located at the middle 
+of the length of the engine, to the upper 
+end of which shaft the ignition unit is 
+secured, and to the lower end the oil 
+pump. The drive at both ends is through 
+an integral transverse key and slot. This 
+arrangement has the advantages that it 
+makes one drive do for two accessories, 
+places the gearing where it is well 
+lubricated and well protected against 
+dirt, and brings the ignition unit into an 
+accessible position at a minimum 
+average distance from the spark plugs. If 
+the shaft is arranged vertically the pump 
+will be immersed in oil and will not 
+have to lift it by suction, whereas if it is 
+inclined the pump will be outside the 
+crankcase and therefore more accessible. 
+An ignition-unit and oil-pump drive for 
+an engine in which the pump is outside 
+the crankcase is shown in Figure. 
+ 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+41
+Cast Camshafts. 
+For many years camshafts were made exclusively of low-carbon steel and case-hardened on the 
+cam surfaces, but during the early thirties one engine manufacturer began to use camshafts of cast iron, 
+and the practice soon became quite general. 
+Cast camshafts offer a number of advantages from the production standpoint. A material saving 
+results from the use of patterns instead of dies in the production of the blanks, and if changes in design 
+become necessary, they can be incorporated in the patterns much more quickly and with less expense 
+than in the dies. With conventional cast camshafts the processes of copper plating, carburizing and heat 
+treating are eliminated. Rough-turning of the cams and eccentric are unnecessary, these parts being 
+finished directly by grinding. As a rule, no finish is allowed on the sides of bearings and cams, and on the 
+shaft diameter. The material used is a superior grade of cast iron melted in the electric furnace. Originally 
+both the cams and the journals were cast in chills and sufficiently close to size so that only grinding was 
+required to finish them. These chilled surfaces are said to offer great resistance to wear than the case-
+hardened surfaces of the usual steel cams. 
+The use of numerous chills in the mold is troublesome, and it was later found that the necessary 
+hardness on the cam surfaces can be produced without the use of chills. The cam surfaces are merely 
+heated with a gas torch and air-hardened and large numbers of cast-iron camshafts are now made in this 
+way. In one case where chilling is employed the iron used has the following composition: 
+Total carbon, 3.30-3.65%; 
+silicon, 0.45-0.55%; 
+manganese, 0.15-0.35%; 
+copper, 2.5-3.0%; 
+chromium, 0.25% max.; 
+phosphorus, 0.05% max.; 
+sulphur. 0.06% max. 
+These camshafts in the "as cast" condition show a Brinell hardness of about 300 on the bearings 
+and 450 on the chilled cam surfaces. Where chills are used they must be accurately located, as the 
+chilling effect does not penetrate very deeply, and if there are any material inaccuracies in. the cam part 
+of the shaft, more material may have to be ground away on one side of the lobe than on the other, and all 
+of the chilled material may be removed on one side. On the chilled cam surfaces a stock allowance of 
+1/32-3/64 in. is made, and on the bearing surface, 1/l6 in. 
+ 
+Camshaft Manufacture 
+Camshafts of drop-forged steel, after being rough-turned, are cemented or carburized at the cam 
+portions and then quenched from a temperature slightly above the critical point of the steel, so as to 
+render the cam surfaces very hard and resistant to wear. To prevent carburization of the rest of the 
+surfaces, the shaft is first copper-plated, and the layer of copper is then removed by machining where it is 
+desired to carburize the surface. Carbon will not penetrate the layer of copper. Another plan consists in 
+leaving those portions of the shaft which are to remain soft, over-size until after the carburizing process, 
+and then turning off the carburized layer. 
+ 
+Machining Camshaft 
+All of the turning operations on camshafts with the exception of forming the contour of the cams 
+are often performed in Lo-Swing lathes. With the proper tooling, all of these surfaces oil an average 
+automobile camshaft can be turned in a minute and a half. 
+With the attachment used with the Lo-Swing lathe for the spacing of the cams, the sides of the 
+cams and the bearings are all properly spaced and faced, and any chamfering or necking operations are 
+also performed. 
+As high, as thirty-five and forty tools are used on a camshaft simultaneously. Of course, if all 
+these tools were to act at once and all of them were to take the maximum cut, the shaft would be sprung 
+so that it would be worthless. To overcome this, each slide carrying a set of tools is fed into the work a 
+little ahead of the slide next to it. In this manner the tools in the first slide, for instance, will be through 
+Theory and Design of Autimotive Engines 
+ 
+Flywheel 
+B Dinesh Prabhu, Assistant Professor, P E S College of Engineering, Mandya, Karnataka 
+42
+their heaviest cutting by the time the tools in the second slide are ready to take their heavy cut, and so on 
+to the third and fourth slide. 
+After the camshafts are spaced and faced with this attachment, they are put back in the lathe and 
+the portion between the cams is turned. Generally this is done with simple tooling, although all bearings 
+and spaces are turned simultaneously, thus reducing the time considerably. 
+ 
+Cam-Grinding 
+It may be pointed out that cam-grinding machines designed to handle integral camshafts work on 
+practically the same principle. The cam to be ground is secured on an arbor inserted into a spindle which 
+carries the master cam at its other end. The spindle is carried in a head provided with an upwardly 
+extending arm whereby it is swung from the body or frame of the attachment, which is clamped to the 
+grinder frame. The swinging head is forced to one side by a coiled spring so that the master cam presses 
+against a stationary shoe plate. The spindle carrying the cams is driven by a V belt from a jackshaft which 
+in turn is driven by a belt from the headstock face plate. Only the hub of the V belt pulley on the spindle 
+is shown in the drawing. To make the necessary allowance for wear of the grinding wheel, a set of 
+different master-cam shoe plates are furnished with the attachment, which are inserted one after another 
+as the wheel wears down, the plates having contact surfaces of different curvature; By means of this 
+attachment it is possible also to cut the master cam from a template. A method of grinding the cam with 
+the flat side of the wheel has been developed, whereby inaccuracies due to change in curvature of the 
+grinding surface with wear are eliminated. 
+To grind an integral camshaft it is necessary to first make a master camshaft with all of the cams 
+correctly spaced angularly and longitudinally. This camshaft is driven in synchronism with the one to be 
+ground, and acts on a roller carried by a cross slide carrying the grinding wheel, the roller being drawn 
+against the master cam by a spring acting on the cross slide. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+References 
+High Combustion Engines-P M Heldt 
+Theory Machines-Ballaney 
+Automobile Engineering-Dr Kirpalsingh 
+Auto Design-R B Gupta 
+AUTOCAR INDIA Illustrated Automotive Glossary 
